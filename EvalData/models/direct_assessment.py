@@ -311,6 +311,7 @@ class DirectAssessmentTask(BaseMetadata):
                 )
                 new_items.append(new_item)
 
+            LOGGER.info(f'The task has {len(new_items)} items')
             current_count += 1
             batch_meta.textpair_set.add(*new_items, bulk=False)
             batch_meta.save()

@@ -363,6 +363,7 @@ class DirectAssessmentContextTask(BaseMetadata):
                 if item['isCompleteDocument']:
                     doc_items += 1
 
+            LOGGER.info(f'The task has {len(new_items)} items')
             current_count += 1
 
             for new_item in new_items:
