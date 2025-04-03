@@ -1,0 +1,58 @@
+Character based=False
+Quality control=False
+Setting REQUIRED_SEGS=100
+Loading docs from /Users/hibaeloirghi/Downloads/Appraise/Examples/PairwiseDocNewUIhibatrial1/example.tsv
+Extracted 2 document(s) containing 18 sentences
+Using reference "A"
+Adding reference "A" as system output "translator-A"
+Creating all possible system pairs for comparison
+Generated 3 unique system pairs
+SYS IDS size: 3
+Generating bad references for system-A
+doc_id: 1#1-101,	doc_len: 9
+doc_id: 2#1-101,	doc_len: 9
+Generating bad references for system-B
+doc_id: 1#1-101,	doc_len: 9
+doc_id: 2#1-101,	doc_len: 9
+Generating bad references for translator-A
+doc_id: 1#1-101,	doc_len: 9
+doc_id: 2#1-101,	doc_len: 9
+Example: system-B 1#1-101
+(1, 'This video over Central Africa and the Middle East was taken by the crew of Expedition 29 on board the International Space Station in October 2011')
+(1, 'This video over Central Africa and the Middle East was taken by the crew This is a fake reference. International Space Station in October 2011')
+---
+(2, '<h1>Harshen Hausa yana iya nufin:</h1>')
+(2, '<h1>Harshen Hausa This is nufin:</h1>')
+---
+(3, '<emph>Mutanen Hausa, daya daga cikin ƙabila mafi yawanci a Afirka ta Yamma Hausa harshen, a Yammacin Afrika Gwamnatin Ingila, tarihin biranen Hausawa</emph>')
+(3, '<emph>Mutanen Hausa, daya daga cikin This is a fake reference. Yamma Hausa harshen, a Yammacin Afrika Gwamnatin Ingila, tarihin biranen Hausawa</emph>')
+---
+(4, 'By Alena Lagmöller, ARD Legal Editor')
+(4, 'By Alena This is a Editor')
+---
+(5, 'EU citizens enjoy freedom of movement - they have the right to move freely between member states. Working hours carried out in other EU countries are counted towards the domestic pension entitlement. But those who have raised children abroad sometimes have to fight for their periods to be counted towards their pension entitlement.')
+(5, 'EU citizens enjoy freedom of movement - they have the right to move freely between member states. Working hours carried out This is a fake reference. towards the domestic pension entitlement. But those who have raised children abroad sometimes have to fight for their periods to be counted towards their pension entitlement.')
+---
+(6, 'This is what happened to a woman from the German-Dutch border area: She sued the state social court of North Rhine-Westphalia because the German pension insurance did not want to take into account the time she spent raising children in the Netherlands. The plaintiff lived in the Netherlands near Aachen for many years. She completed her training as a cross-border commuter in Aachen, but was never subject to social security contributions. She had two children who she raised in the Netherlands and did not work during this time. It was only many years later that she moved to Germany and then paid into the pension fund for the first time.')
+(6, 'This is what happened to a woman from the German-Dutch border area: She sued the state social court of North Rhine-Westphalia because the German pension insurance did not want to take into account the time she spent raising children in the Netherlands. The plaintiff lived in the Netherlands near Aachen for many years. She completed her training as a cross-border commuter in Aachen, but was never subject to social security contributions. She had two children who she raised in This is a fake reference. during this time. It was only many years later that she moved to Germany and then paid into the pension fund for the first time.')
+---
+(7, '<h2>No difference between education at home and abroad</h2>')
+(7, '<h2>No difference between education This is a abroad</h2>')
+---
+(8, 'When the woman became unable to work, the German pension insurance did not count the time spent raising children in the Netherlands towards her pension entitlement. The European Court of Justice sees it differently: For the credit to be taken into account, it depends on whether there is a “sufficient connection” between the time spent raising children abroad and the insurance time at home.')
+(8, 'When the woman became unable to work, the German pension insurance This is a fake reference. raising children in the Netherlands towards her pension entitlement. The European Court of Justice sees it differently: For the credit to be taken into account, it depends on whether there is a “sufficient connection” between the time spent raising children abroad and the insurance time at home.')
+---
+(9, 'The ECJ has already developed this criterion in previous decisions. It has therefore been clear for some time that, in principle, periods spent raising children in other EU countries must also be taken into account when calculating pensions. What is new, however, is that there is a “sufficient connection” even if the person concerned did not pay any contributions to the pension insurance before raising children abroad.')
+(9, 'The ECJ has already developed this criterion in previous decisions. It has therefore been clear for some time that, in principle, periods spent raising children in other EU countries must also be taken into account when calculating pensions. What is new, however, This is a fake reference. connection” even if the person concerned did not pay any contributions to the pension insurance before raising children abroad.')
+---
+DOC IDS size: 2
+Doc. stats (doc.len/count): odict_keys([9])
+  9:	2
+total docs: 2
+total sys: {'translator-A', 'system-A', 'system-B'}
+Creating last batch with padded documents
+Creating last batch with padded documents
+Total number of tasks: 0
+Total tasks: 0
+Total docs:  2 x 3
+Total sys:   3 ['system-A', 'system-B', 'translator-A']

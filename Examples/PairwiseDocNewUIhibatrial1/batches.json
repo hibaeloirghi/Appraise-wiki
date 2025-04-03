@@ -1,0 +1,602 @@
+[
+    {
+        "items": [
+            {
+                "_block": -1,
+                "_item": 0,
+                "documentID": "478300",
+                "isCompleteDocument": false,
+                "itemID": 0,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::478300::1",
+                "segmentText": "This video over Central Africa and the Middle East was taken by the crew of Expedition 29 on board the International Space Station in October 2011",
+                "targets": [
+                    {
+                        "_itemAll": 0,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Wannan bidiyon na Afirka ta Tsakiya da Gabas ta Tsakiya sun dauki nauyin kaddamar da fitarwa 29 a filin jirgin sama na kasa da kasa a watan Oktobar 2011"
+                    },
+                    {
+                        "_itemAll": 1,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "This video over Central Africa and the Middle East was taken by the crew of Expedition 29 on board the International Space Station in October 2011"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 1,
+                "documentID": "585779",
+                "isCompleteDocument": false,
+                "itemID": 1,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::585779::2",
+                "segmentText": "Hausa may refer to:",
+                "targets": [
+                    {
+                        "_itemAll": 2,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Harshen Hausa yana iya koma zuwa:"
+                    },
+                    {
+                        "_itemAll": 3,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Harshen Hausa yana iya nufin:"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 2,
+                "documentID": "585779",
+                "isCompleteDocument": false,
+                "itemID": 2,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::585779::3",
+                "segmentText": "Hausa people, one of the largest ethnic groups in West Africa Hausa language, spoken in West Africa Hausa Kingdoms, a historical collection of Hausa city-states Hausa music, the music of the Hausa people Kannywood or Hausa movies, the Hausa-language film industry of Northern Nigeria mainly based in Kano",
+                "targets": [
+                    {
+                        "_itemAll": 4,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Mutanen Hausa , daya daga cikin mafi yawan kabilanci a Afirka ta Yamma Hausa harshen , magana a Yammacin Afrika Gwamnatin Ingila , wani tarihin tarihin Hausawa Yaren Hausa , kiɗa na Hausawa Kannywood ko Hausa, fina-finai na Hausa-harshen fina-finai na Arewacin Najeriya da ke da yawa a Kano"
+                    },
+                    {
+                        "_itemAll": 5,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Mutanen Hausa, daya daga cikin ƙabila mafi yawanci a Afirka ta Yamma Hausa harshen, a Yammacin Afrika Gwamnatin Ingila, tarihin biranen Hausawa"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 3,
+                "documentID": "588325",
+                "isCompleteDocument": false,
+                "itemID": 3,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::588325::4",
+                "segmentText": "The All Progressives Congress (APC) is a political party in Nigeria, formed on 6 February 2013 in anticipation of the 2015 elections.[4][5][6] APC candidate Muhammadu Buhari won the presidential election by almost 2.6 million votes.[7] Incumbent President Goodluck Jonathan conceded defeat on 31 March.[8] This was the first time in Nigeria's political history that an opposition political party unseated a governing party in a general election and one in which power transferred peacefully from one political party to another.[9] In addition, the APC won the majority of seats in the Senate and the House of Representatives in the 2015 elections, though it fell shy of winning a super-majority to override the ability of the opposition People's Democratic Party to block legislation.[10][11]",
+                "targets": [
+                    {
+                        "_itemAll": 6,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Jam'iyyar APC ita ce jam'iyya siyasa a Nijeriya , wanda aka kafa ranar 6 ga Fabrairun 2013 a gaban zuwan zaben 2015 . [4] [5] [6] Dan takarar APC Muhammadu Buhari ya lashe zaben shugaban kasa da kusan kuri'u miliyan 2.6. [7] Shugaban kasa Goodluck Jonathan ya yi nasara a ranar 31 ga Maris. [8] Wannan shi ne karo na farko a tarihin siyasa na siyasa cewa jam'iyyun siyasa na adawa sun kaddamar da wata jam'iyya mai mulki a babban zabe kuma daya daga cikin wutar lantarki ta sauya zaman lafiya daga wata jam'iyya siyasa zuwa wani. [9] Bugu da kari, APC ta lashe rinjaye mafi yawa a majalisar dattijai da majalisar wakilai a zaben 2015 , kodayake ya kasance da kunya don lashe rinjaye mafi rinjaye don kare ikon adawar 'yan adawa ' yan jam'iyyar Democrat don hana dokar. [10] [11]"
+                    },
+                    {
+                        "_itemAll": 7,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Jam'iyyar APC ita ce jam'iyya siyasa a Nijeriya , wanda aka kafa ranar 6 ga Fabrairun 2013 a gaban zuwan zaben 2015 . [4] [5] [6] Dan takarar APC Muhammadu Buhari ya lashe zaben shugaban kasa da kusan kuri'u miliyan 2.6. [7] Shugaban kasa Goodluck Jonathan ya yi nasara a ranar 31 ga Maris. [8] Wannan shi ne karo na farko a tarihin siyasa na siyasa cewa jam'iyyun siyasa na adawa sun kaddamar da wata jam'iyya mai mulki a babban zabe kuma daya daga cikin wutar lantarki ta sauya zaman lafiya daga wata jam'iyya siyasa zuwa wani. [9] Bugu da kari, APC ta lashe rinjaye mafi yawa a majalisar dattijai da majalisar wakilai a zaben 2015 , kodayake ya kasance da kunya don lashe rinjaye mafi rinjaye don kare ikon adawar 'yan adawa ' yan jam'iyyar Democrat don hana dokar. [10] [11]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 4,
+                "documentID": "610500",
+                "isCompleteDocument": false,
+                "itemID": 4,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::610500::5",
+                "segmentText": "Sura 51 of the Quran الذاريات Adh-Dhāriyāt The Winnowing Winds Arabic text English translation Classification Meccan Other names The Scatterers, The Dust-Scattering Winds, Drivers of the Winds Position Juzʼ 26, 27 No. of Rukus 3 No. of verses 60 No. of words 360 No. of letters 1546 ← Surat Qaf Surat al-Tur →",
+                "targets": [
+                    {
+                        "_itemAll": 8,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Sura 51 of the Quran الذاريات Adh-Dhāriyāt The Winnowing Winds Arabic text English translation Classification Meccan Other names The Scatterers, The Dust-Scattering Winds, Drivers of the Winds Position Juzʼ 26, 27 No. of Rukus 3 No. of verses 60 No. of words 360 No. of letters 1546 ← Surat Qaf Surat al-Tur →"
+                    },
+                    {
+                        "_itemAll": 9,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": " "
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 5,
+                "documentID": "610500",
+                "isCompleteDocument": false,
+                "itemID": 5,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::610500::6",
+                "segmentText": "Sūrat adh-Dhāriyāt (Arabic: سورة الذاريات‎, \"The Winnowing Winds\") is the 51st sura of the Qur'an with 60 ayat. It mentions Abraham, Noah, the day of judgment and otherwise reiterates the essential Quranic message.",
+                "targets": [
+                    {
+                        "_itemAll": 10,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Surat Adh-Dhariyat ( Larabci , \"The Winnowing Winds\") shi ne 51m Surar Alkur'ani da 60 ayat . Ya ambaci Ibrahim , Nuhu , Ranar Shari'a kuma in ba haka ba ne ya sake bayyana ainihin saƙon Kur'ani."
+                    },
+                    {
+                        "_itemAll": 11,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce na 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama."
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 6,
+                "documentID": "610500",
+                "isCompleteDocument": false,
+                "itemID": 6,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::610500::7",
+                "segmentText": "Sūrat adh-Dhāriyāt (Arabic: سورة الذاريات, \"The Winnowing Winds\") is the 51st sura of the Qur'an with 60 ayat. It mentions Abraham, Noah, the day of judgment and otherwise reiterates the essential Quranic message.",
+                "targets": [
+                    {
+                        "_itemAll": 12,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce na 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama."
+                    },
+                    {
+                        "_itemAll": 13,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce ta 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama. Sannan kuma, ta sake maimaita ainihin sakon Alkurani."
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 7,
+                "documentID": "610500",
+                "isCompleteDocument": false,
+                "itemID": 7,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::610500::8",
+                "segmentText": "According to Neuwirth’s literary analysis, as related through Ernst,[1] sura 51, like many early Meccan suras, consists of a tripartite structure: I, 1– 23; II, 24– 46; III, 47– 60. These three sections are corroborated in a 2016 translation, The Clear Quran, which breaks the entire Quran into smaller thematic sections, can be further broken down as follows:",
+                "targets": [
+                    {
+                        "_itemAll": 14,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Kamar yadda binciken adabin Neuwirth ya nuna, kamar yadda Ernst ke da alaƙa, [1] sura ta 51, kamar yawancin surorin Makka na farko, ta ƙunshi tsari uku: I, 1– 23; II, 24–46; III, 47-60. Wadannan sassa guda uku an tabbatar da su a cikin fassarar 2016, Alqur'ani mai haske, wanda ya karya dukkan Al-Qur'ani zuwa kananan sassa, ana iya kara wargaza su kamar haka:"
+                    },
+                    {
+                        "_itemAll": 15,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Kamar yadda binciken adabin Neuwirth ya nuna, kamar yadda Ernst ya alaƙantar,[1] sura ta 51, kamar yawancin surorin Makka na farko, ta ƙunshi tsari uku: I, 1– 23; II, 24–46; III, 47-60. Wadannan sassa guda uku an tabbatar da su a cikin fassarar Alqur'ani mai suna The Clear Quran na 2016, wanda ya karya dukkan Al-Qur'ani zuwa kananan sassa, ana iya kara wargaza su kamar haka:"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 8,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 8,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::9",
+                "segmentText": "Taqī ad-Dīn Ahmad ibn Taymiyyah (Arabic: تقي الدين أحمد ابن تيمية, January 22, 1263 - September 26, 1328), known as Ibn Taymiyyah for short, was a controversial[11][12] medieval Sunni Muslim theologian, jurisconsult, logician, and reformer. A member of the Hanbali school of jurisprudence founded by Ahmad ibn Hanbal, A polarizing figure in his own lifetime, Ibn Taymiyyah's iconoclastic views on widely accepted Sunni doctrines such as the veneration of saints and the visitation to their tomb-shrines made him unpopular with the majority of the orthodox religious scholars of the time, under whose orders he was imprisoned several times.[13]",
+                "targets": [
+                    {
+                        "_itemAll": 16,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Taqī ad-Dīn Ahmad bn Taymiyyah ( Larabci : Janairu 22, 1263 - Satumba 26, 1328), wanda ake kira Ibn Taymiyyah na gajere, ya kasance mai rikitarwa [1] [2] masanin tauhidi na Sunni musulmi, jurisconsult, dabaru, da kuma sake fasalin. Wani memba na makarantar Hanbali na fikihu da Ahmad bn Hanbal ya kafa a matsayin rayuwarsa, Ibn Taymiyyah ya nuna ra'ayoyinsu game da koyarwar Sunni da aka yarda da su kamar su girmama tsarkaka da kuma ziyarar da aka yi wa kabarin-shrines ya sanya shi ba tare da shi ba. mafi yawancin malaman addini na Orthodox na lokaci, a ƙarƙashin umurninsa an tsare shi sau da dama. [3]"
+                    },
+                    {
+                        "_itemAll": 17,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Taqī ad-Dīn Ahmad bn Taymiyyah ( Larabci : Janairu 22, 1263 - Satumba 26, 1328), wanda ake kira Ibn Taymiyyah na ataikace, ya kasance mai rikitarwa [1] [2] masanin tauhidi na musulmai ahlsunna, matuntubi akan mazhaba, mai dabaru, da kuma dawo da fasalin addini. Wani memba na makarantar Ahmad dan hamba na fikihu da Ahmad bn Hanbal ya kafa a matsayin rayuwarsa, Ibn Taymiyyah ya nuna ra'ayoyinsu game da koyarwar ahlussunnah akan wuce gona da iri akan waliyyai da kuma ziyarar kaburbura a matsayin gurin bauta, hakan yasa shi bai zama sananne ba a fannin addinan malaman dariku na wannan lokacin,da aka yarda da su kamar su sanya shi ba tare da shi ba. mafi yawancin malaman addini na Orthodox na lokaci, a ƙarƙashin irin wannan fatawowin da ya bayayar ta sanya shi a gidan kurkuku a lokuta mabanbanta [3]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 9,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 9,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::10",
+                "segmentText": "A minority figure in his own times and in the centuries that followed,[14][15] Ibn Taymiyyah has become one of the most influential medieval writers in contemporary Islam,[3] where his particular interpretations of the Qur'an and the Sunnah and his rejection of some aspects of classical Islamic tradition are believed to have had considerable influence on contemporary Wahhabism, Salafism, and Jihadism.[4][17][18] Indeed, particular aspects of his teachings had a profound influence on Muhammad ibn Abd al-Wahhab, the founder of the Hanbali reform movement practiced in Saudi Arabia known as Wahhabism, and on other later Wahabi scholars.[2] Moreover, Ibn Taymiyyah's controversial fatwa allowing jihad against other Muslims is referenced by al-Qaeda and other jihadi groups.[19][20]",
+                "targets": [
+                    {
+                        "_itemAll": 18,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "(1) [2] Ibn Taymiyyah ya zama daya daga cikin marubuta mafi mahimmanci a cikin musulunci na zamani, [3] inda ma'anarsa na Alkur'ani da Sunna suka kasance a cikin su. da kuma kin amincewa da wasu fannoni na al'adun Islama na gargajiya sunyi tasiri sosai a kan Wahhabism, Salafism, da Jihadism . [4] [5] [6] Lallai bangarori daban-daban na koyarwarsa suna da tasiri a kan Muhammad bn Abd al-Wahhab, wanda ya kafa aikin gyaran Hanbali na Saudi Arabia da ake kira Wahhabism, da kuma wasu malaman Wahabi daga baya. [7] Bugu da ƙari, Ibn Taymiyyah yana da ikon kawowa jihadi ga sauran musulmai da Al Qaeda da sauran kungiyoyi jihadi ke rubuta su. [8] [9]"
+                    },
+                    {
+                        "_itemAll": 19,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "(1) [2] Ibn Taymiyyah ya zama daya daga cikin marubuta mafi mahimmanci a cikin musulunci na zamani da kuma karni masu zuwa, [3] inda wasu ma'anarsa na Alkur'ani da Sunna da kuma tunkude wasu aladu na gargajiya suka kasance ababen lura da kuma bi ga wahabiyawa,salafawa da kuma masu jihadi suka kasance a cikin su. [4] [5] [6]lallai ne dangane da wasu harka na karantarwa an samu samuwar Muhammad dan Abdul wahab, wannan wanda ya samar da bin mazhabin Ahmad dan hambali akan aikata mazhaban da kuma dabbbakata a kasar saudiyya wanda aka fi sani da wahabiyawa, kuma daga bisani malamin wahabiya. [7] harwayau rikirkitattun fatawowin ibn taimiyyah sun bayar da daman yin jihadi ga wasu musalmai masu kiran kansu da alqa`ida da kuma wasu kungiyoyin jihadi [8] [9]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 10,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 10,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::11",
+                "segmentText": "Ibn Taymiyyah's full name is Taqī ad-Dīn Abu 'l-`Abbās Ahmad ibn `Abd al-Ḥalīm ibn `Abd as-Salām ibn ʿAbd Allāh ibn al-Khidr ibn Muhammad ibn al-Khidr ibn `Ali ibn ʿAbd Allāh ibn Taymiyyah al-Ḥarrānī[10] (Arabic: تقي الدين أبو العباس أحمد بن عبد الحليم بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني‎).",
+                "targets": [
+                    {
+                        "_itemAll": 20,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Babban sunan Ibn Taymiyyah shi ne Taqī ad-Dīn Abu 'l-'Abbās Ahmad bn Abd al-Halīm ibn' Abd al-Salām bn'Abd Al-Khudr ibn Muhammad bn Al-Khidr ibn 'Ali ibn'Abd Allāh ibn Taymiyyah al -Ḥarrānī ( Larabci بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني )."
+                    },
+                    {
+                        "_itemAll": 21,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "cikakken sunan Ibn Taymiyyah shi ne Taqī ad-Dīn Abu 'l-'Abbās Ahmad bn Abd al-Halīm ibn' Abd al-Salām bn'Abd Al-Khudr ibn Muhammad bn Al-Khidr ibn 'Ali ibn'Abd Allāh ibn Taymiyyah al -Ḥarrānī ( Larabci بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني )."
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 11,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 11,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::12",
+                "segmentText": "Ibn Taymiyyah's name is unusual in that it is derived from a female member of his family as opposed to a male member, which was the normal custom at the time and still is now. Taymiyyah was a woman, famous for her scholarship and piety and the name Ibn Taymiyyah was taken up by many of her male descendants.[10]",
+                "targets": [
+                    {
+                        "_itemAll": 22,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Ma'anar Ibn Taymiyyah abu ne mai ban mamaki a cikin cewa an samo shi ne daga wata mace daga cikin iyalinsa a maimakon tsayayya da wani namiji, wanda shine al'adar al'ada a lokacin kuma har yanzu yana yanzu. Taymiyyah wata mace ne, sanannen sanannen karatunsa da tsoron Allah, kuma yawancin 'ya'yanta na Ibn Taymiyyah suka karbi sunan."
+                    },
+                    {
+                        "_itemAll": 23,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Ma'anar sunan Ibn Taymiyyah abu ne wanda ba`a saba gani ba, kan cewa an samo shi ne daga wata mace daga cikin danginshi,wanda ba`a karbar sunan ga ga namiji a cikin dangin, hakan ya kansance al`ada ce wacce lokacin kuma har wayau ma hakane. taimiyyah sunan macece,ta kasance shahararriya akan karantarwa da kuma tausayi,shine dalilin da yasa sunanta ya dinga bin mazan zurriyyanta ."
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 12,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 12,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::13",
+                "segmentText": "Ibn Taymiyyah had a simple life, most of which he dedicated to learning, writing, and teaching. He never married nor did he have a female companion, throughout his years.[1][22] Al-Matroudi says that this may be why he was able to engage fully with the political affairs of his time without holding any official position such as that of a judge.[23] An offer of an official position was made to him but he never accepted.[23] His life was that of a religious scholar and a political activist.[22] In his efforts he was persecuted and imprisoned on six different occasions[24] with the total time spent inside prison coming to over six years.[22][5] Other sources say that he spent over twelve years in prison.[23] His detentions were due to certain elements of his creed and his views on some jurisprudential issues.[21] However according to Yahya Michot, \"the real reasons were more trivial\". Michot gives five reasons as to why Ibn Taymiyyah was imprisoned, they being: not complying with the \"doctrines and practices prevalent among powerful religious and Sufi establishments, an overly outspoken personality, the jealousy of his peers, the risk to public order due to this popular appeal and political intrigues.\"[25] Baber Johansen, a professor at the Harvard divinity school says that the reasons for Ibn Taymiyyah's incarcerations were, \"as a result of his conflicts with Muslim mystics, jurists, and theologians, who were able to persuade the political authorities of the necessity to limit Ibn Taymiyyah's range of action through political censorship and incarceration.\"[6]",
+                "targets": [
+                    {
+                        "_itemAll": 24,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Ibn Taymiyyah yana da rayuwa mai sauƙi, mafi yawan abin da ya keɓe ga ilmantarwa, rubutu, da koyarwa. Bai taba yin aure ba kuma ba shi da wata mata ta cikin matarsa, a cikin shekarunsa. [1] [2] Al-Matroudi ya ce wannan shi ne dalilin da ya sa ya sami damar shiga cikin harkokin siyasarsa na lokaci ba tare da yin wani matsayi na matsayin hukuma ba. [3] An bayar da wani matsayi na matsayin hukuma amma bai yarda ba. [3] Rayuwarsa ita ce ta malamin addini da kuma dan siyasa. [2] A kokarinsa an tsananta shi kuma a kurkuku a lokuta shida dabam dabam [4] tare da yawan lokacin da ake amfani da shi cikin kurkuku ya zuwa sama da shekaru shida. [2] [5] Wasu kafofin sun ce ya shafe shekara goma sha biyu a kurkuku. [3] Hukuncinsa sun kasance ne saboda wasu abubuwan da ya gaskata da ra'ayoyinsa a kan wasu al'amurran fikihu. [1] Duk da haka bisa ga Yahya Michot, \"ainihin dalilai sun kasance mafi mahimmanci\". Michot ya ba da dalilai biyar akan dalilin da aka sa Ibn Taymiyyah a kurkuku, suna kasancewa: ba su yarda da \"koyaswar da kuma ayyukan da ke tsakanin manyan addinai da Sufi ba, da mummunar hali, da kishi da abokansa, da hadari ga tsarin jama'a saboda wannan shahararrun shahararrun ra'ayoyin siyasa. \" [5] Baber Johansen, farfesa a makarantar allahntaka ta Harvard ya ce dalilan da suka shafi Ibn Taymiyyah sun kasance \"saboda sakamakonsa na rikici tare da Musulmai masu tunani, malamai, da masu ilimin tauhidi, waɗanda suka iya rinjayi 'yan siyasar da ake bukata don rage Ibn Taymiyyah ta hanyar aiwatar da ayyukan ta hanyar siyasa siyasa da kuma tsare. \" [6]"
+                    },
+                    {
+                        "_itemAll": 25,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Ibn Taymiyyah yayi rayuwa mai sauƙi, mafi yawancin rayuwars ya sadaukar da ita ne akan koyon karau,rubuce-rubuce da kuma karantarwa. bai taba yin aure ba kuma haka ma baida majibinciya mace a cikin mafi yawan rayuwan shi [1] [2] Al-Matroudi ya ce wannan shi ne dalilin da ya sa ya sami damar shiga cikin harkokin siyasarsa na lokaci amman ba tare da yin wani matsayi na matsayin hukuma ba koda ko alkaline. [3]akan yunkurinsa a addinance an hukunta shi da kuma mashshe shi a gidan kaso sau shida alokuta mabanbanta. An ba shi damar zama hukuma a wata matasyi amman yaki karba. [3] [2] [4] Rayuwarsa na zama malamin addini ne da kuma wayar da kai a siyasan ce. [2] [5] Wasu kafofin sun ce ya shafe shekara goma sha biyu a kurkuku. [3] tsare shi da akayi a gidan kaso ya faru ne akan wasu al`amura dangane da akidarshi da kuma ra`ayinsa dangane da al`amuran da yashafi mazhaban fikhu. [1] Dangane da Yahya Michot kuma yace, \"ainihin dalilai sun kasance mafi mahimmanci\". Michot ya ba da dalilai biyar akan dalilin da aka sa Ibn Taymiyyah a kurkuku, suna kasancewa: ba su yarda da \"koyaswar da kuma ayyukan da ke tsakanin manyan addinai da Sufi ba, da mummunar hali, da kishi da abokansa, da hadari ga tsarin jama'a saboda wannan shahararrun shahararrun ra'ayoyin siyasa. \" [5] Baber Johansen, farfesa a makarantar allahntaka ta Harvard ya ce dalilan da suka shafi Ibn Taymiyyah sun kasance \"saboda sakamakonsa na rikici tare da Musulmai masu tunani, malamai, da masu ilimin tauhidi, waɗanda suka iya rinjayi 'yan siyasar da ake bukata don rage Ibn Taymiyyah ta hanyar aiwatar da ayyukan ta hanyar siyasa da kuma tsare. \" [6]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 13,
+                "documentID": "676820",
+                "isCompleteDocument": false,
+                "itemID": 13,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::676820::14",
+                "segmentText": "Ibn Taymiyyah's own relationship, as a religious scholar, with the ruling apparatus, who did deviate in application of shari'a law, was not always amicable.[1] It ranged from silence to open rebellion.[25] On occasions when he shared the same views and aims as the ruling authorities, his contributions were welcomed but when Ibn Taymiyyah went against the status quo, he was seen as \"uncooperative\" and on occasions spent much time in prison.[2] Ibn Taymiyyah's attitude towards his own rulers, was based on the actions of the companions (sahaba) when they made an oath of allegiance to Muhammad as follows; \"to obey within obedience to God, even if the one giving the order is unjust; to abstain from disputing the authority of those who exert it; and to speak out the truth, or take up its cause without fear in respect of God, of blame from anyone.\"[25]",
+                "targets": [
+                    {
+                        "_itemAll": 26,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Hakanan Ibn Taymiyyah, a matsayin masanin addini, tare da na'ura mai shari'a, wanda ya yi watsi da dokar shari'ar, ba a koyaushe ba. [1] Ya fito ne daga shiru don buɗe tawaye. [1] A lokutan da ya raba wannan ra'ayi da kuma manufofin hukumomi, an ba da gudunmawarsa amma amma lokacin da Ibn Taymiyyah ya ci gaba da fuskantar matsin lamba, an yi masa kallon \"rashin kulawa\" kuma a lokuta da yawa ya yi yawa a kurkuku. [2] Halin Ibn Taymiyyah ga shugabanninsa, ya dogara ne akan ayyukan sahabbansa (sahaba) lokacin da suka yi wa Muhammadu alkawari da haka; \"Ku yi biyayya cikin biyayya ga Allah, koda kuwa wanda ya ba da umarni ba daidai ba ne, ku guje wa jayayya da ikon waɗanda suke yin hakan, kuma suyi magana da gaskiya, ko kuma su dauki matakan ba tare da tsoro ba game da Allah, zargi daga kowa. \" [1]"
+                    },
+                    {
+                        "_itemAll": 27,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Mu`amalar Ibn Taymiyyah, a matsayin masanin addini,da yake da na'ura mai shari'a, wanda ya yi watsi da dokar shari'ar, ba a koyaushe ba. [1] Ya fito ne daga shiru don buɗe tawaye. [1] A lokutan da ya bada wannan ra'ayi da kuma manufofin hukumomi, an karbe shi hannu bibbiyu. amma lokacin da Ibn Taymiyyah ya ci gaba da fuskantar matsin lamba, an yi masa kallon \"rashin kulawa\" kuma a lokuta da yawa ya rayu ne a kurkuku. [2] Halin Ibn Taymiyyah ga shugabanninsa, ya dogara ne akan ayyukan sahabbansa (sahaba) lokacin da suka yi wa Muhammadu alkawari da haka; \"Ku yi biyayya cikin biyayya ga Allah, koda kuwa wanda ya ba da umarni ba daidai ba ne, ku guje wa jayayya da ikon waɗanda suke yin hakan, kuma suyi magana da gaskiya, ko kuma su dauki matakan ba tare da tsoro ba game da Allah, dangane da zargi daga koma waye. \" [1]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 14,
+                "documentID": "745180",
+                "isCompleteDocument": false,
+                "itemID": 14,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::745180::15",
+                "segmentText": "Madam Tinubu before 1887",
+                "targets": [
+                    {
+                        "_itemAll": 28,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Madam Tinubu kafin 1887"
+                    },
+                    {
+                        "_itemAll": 29,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "MalamaTinubu kafin 1887"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 15,
+                "documentID": "745180",
+                "isCompleteDocument": false,
+                "itemID": 15,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::745180::16",
+                "segmentText": "Tinubu Square (formerly Independence Square), is an open space landmark located in Broad Street, Lagos Island, Lagos State, Nigeria.[1] It used to be called Ita Tinubu in memory of Madam Efunroye Tinubu,[2] a slave trader and business magnate, before it was named Independence Square by leaders of the First Republic and subsequently Tinubu Square.[3]",
+                "targets": [
+                    {
+                        "_itemAll": 30,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Dandalin Tinubu (wanda yake a lokacin da yake cin gashin kansa ), wani fili ne na fili a sarari wanda yake cikin titin Broad Street, Legas Legas, jihar Legas, Najeriya . [1] Yana amfani da su a kira Ita Tinubu a ƙwaƙwalwar ajiyar da Madam Efunroye Tinubu, [2] bawa ciniki da kuma kasuwanci magnate, kafin aka mai suna Independence Square da shugabannin farko Jamhuriyar kuma baya Tinubu Square. [3]"
+                    },
+                    {
+                        "_itemAll": 31,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Dandalin Tinubu (wanda yake a lokacin da yake cin gashin kansa ), wani fili ne na fili a sarari wanda yake cikin titin Broad Street, Legas Legas, jihar Legas, Najeriya . [1] Yana amfani da su a kira Ita Tinubu a ƙwaƙwalwar ajiyar da Malama Efunroye Tinubu, [2] baiwa mai ciniki da kuma kasuwanci, kafin aka maida sunan Independence Square da shugabannin farko Jamhuriyar kuma baya Tinubu Square. [3]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 16,
+                "documentID": "745180",
+                "isCompleteDocument": false,
+                "itemID": 16,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::745180::17",
+                "segmentText": "The square is iron-fenced with two flowing fountains, flowers and tropical trees in it. It also contains a life-size statue of Madam Tinubu on a cenotaph.[1]",
+                "targets": [
+                    {
+                        "_itemAll": 32,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Fuskar cike take da baƙin ƙarfe tare da maɓuɓɓugan ruwa biyu masu gudu, furanni da itatuwa masu zafi a ciki. Yana kuma dauke da wani rai-size mutum-mutumi na Madam Tinubu a kan wani cenotaph . [1]"
+                    },
+                    {
+                        "_itemAll": 33,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Fuskar cike take da baƙin ƙarfe tare da maɓuɓɓugan ruwa biyu masu gudu, furanni da itatuwa masu zafi a ciki. Yana kuma dauke da wani rai-size mutum-mutumi na Madam Tinubu a kan wani dandamali . [1]"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 17,
+                "documentID": "745180",
+                "isCompleteDocument": false,
+                "itemID": 17,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::745180::18",
+                "segmentText": "References",
+                "targets": [
+                    {
+                        "_itemAll": 34,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Tunani"
+                    },
+                    {
+                        "_itemAll": 35,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Diddigin bayanai"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 18,
+                "documentID": "745180",
+                "isCompleteDocument": false,
+                "itemID": 18,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::745180::19",
+                "segmentText": "Coordinates: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894",
+                "targets": [
+                    {
+                        "_itemAll": 36,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Coordinates: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894"
+                    },
+                    {
+                        "_itemAll": 37,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Mahadar kasa: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 19,
+                "documentID": "746864",
+                "isCompleteDocument": false,
+                "itemID": 19,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::746864::20",
+                "segmentText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA",
+                "targets": [
+                    {
+                        "_itemAll": 38,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA"
+                    },
+                    {
+                        "_itemAll": 39,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA"
+                    }
+                ],
+                "targetsSize": 2
+            },
+            {
+                "_block": -1,
+                "_item": 20,
+                "documentID": "746864",
+                "isCompleteDocument": false,
+                "itemID": 20,
+                "itemType": "TGT",
+                "segmentContextLeft": "",
+                "segmentID": "example.tsv::746864::21",
+                "segmentText": "Rano is a Local Government Area and headquarters of Rano Emirate council in Kano State, Nigeria. Rano is a local government area in Kano State with administrative headquarters in the town of Rano. Rano local government area is in the southern senatorial district of Kano State otherwise known as Kano South Senatorial District alongside Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil and Sumaila local government areas. Rano local government area also forms a federal constituency alongside Bunkure and Kibiya local government areas. It has an area of 520 km² and a population of 145,439 at the 2006 census. The local government area is bounded to the north by Garun Mallam and Bunkure local government areas, to the east by Kibiya local government area, to the south by Tudun Wada local government area, and to the west by Bebeji local government area. The Rano local government council is in charge of public administration in Rano local government area. The council is led by a chairman who is the executive head of the local government. The Rano legislative council make laws governing Rano local government area. It consists of 10 Councillors representing the 10 wards of the local government area.",
+                "targets": [
+                    {
+                        "_itemAll": 40,
+                        "_target": 0,
+                        "targetContextLeft": "",
+                        "targetID": "system-B",
+                        "targetText": "Rano karamar hukuma ce kuma hedikwatar majalissar Rano Emirate a cikin jihar Kano, Nigeria . Rano karamar hukuma ce a cikin jihar Kano da hedikwatar gudanarwa a garin Rano. Karamar hukumar Rano tana cikin gundumar senatorial ta kudu a cikin jihar ta Kano in ba haka ba kuma ana kiranta da Sanatocin Kano ta Kudu a kusa da Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil da Sumaila local government yankunan gwamnati. Hakanan karamar hukumar Rano ta samar da mazabu ta tarayya tare da kananan hukumomin Bunkure da Kibiya. Tana da yanki na 520   km² da kuma ƙungiyar 145,439 a ƙidayar 2006. Karamar hukumar Garun Mallam da Bunkure tana arewa zuwa arewa, gabas ta karamar hukumar Kibiya, kudu a kudu da karamar hukumar Tudun Wada, da yamma zuwa karamar hukumar Bebeji. Karamar hukumar Rano ce ke lura da ayyukan gwamnati a karamar hukumar Rano. Majalisar karkashin jagorancin wani shugabanta wanda shine shugaban zartarwa na karamar hukuma. Majalisar zartarwar Rano ta sanya dokokin da zasu jagoranci karamar hukumar Rano. Ya ƙunshi majalisu 10 waɗanda ke wakiltar gundumomi 10 na karamar hukumar."
+                    },
+                    {
+                        "_itemAll": 41,
+                        "_target": 1,
+                        "targetContextLeft": "",
+                        "targetID": "system-A",
+                        "targetText": "Rano karamar hukuma ce kuma hedikwatar majalissar Rano Emirate ce a cikin jihar Kano, Nigeria . Rano karamar hukuma ce a cikin jihar Kano da hedikwatar gudanarwa a garin Rano. Karamar hukumar Rano tana cikin gundumar senatorial ta kudu a cikin jihar ta Kano in ba haka ba kuma ana kiranta da Sanatocin Kano ta Kudu a kusa da Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil da Sumaila Karamar jiha yankunan gwamnati. Hakanan karamar hukumar Rano ta samar da mazabu ta tarayya tare da kananan hukumomin Bunkure da Kibiya. Tana da yanki na 520   km² da kuma ƙungiyar 145,439 a ƙidayar 2006. Karamar hukumar Garun Mallam da Bunkure tana arewa zuwa arewa, gabas ta karamar hukumar Kibiya, kudu a kudu da karamar hukumar Tudun Wada, da yamma zuwa karamar hukumar Bebeji. Karamar hukumar Rano ce ke lura da ayyukan gwamnati a karamar hukumar Rano. Majalisar karkashin jagorancin wani shugabanta wanda shine shugaban zartarwa na karamar hukuma. Majalisar zartarwar Rano ta sanya dokokin da zasu jagoranci karamar hukumar Rano. Ya ƙunshi majalisu 10 waɗanda ke wakiltar gundumomi 10 na karamar hukumar."
+                    }
+                ],
+                "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 100,
+      "randomSeed": 1111,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "hau"
+    }
+  }
+]
