@@ -38,7 +38,12 @@ if SECRET_KEY == _SECRET_KEY_DEFAULT:
 #ALLOWED_HOSTS = os.environ.get('APPRAISE_ALLOWED_HOSTS', '127.0.0.1').split(',')
 ALLOWED_HOSTS = ['wiki-annotation.umiacs.umd.edu', 'localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = os.environ.get('APPRAISE_CSRF_TRUSTED_ORIGINS', 'https://*.127.0.0.1').split(',')
+#CSRF_TRUSTED_ORIGINS = os.environ.get('APPRAISE_CSRF_TRUSTED_ORIGINS', 'https://*.127.0.0.1').split(',')
+CSRF_TRUSTED_ORIGINS = [
+    'https://wiki-annotation.umiacs.umd.edu',
+    'https://*.127.0.0.1',
+]
+
 
 WSGI_APPLICATION = os.environ.get(
     'APPRAISE_WSGI_APPLICATION', 'Appraise.wsgi.application'

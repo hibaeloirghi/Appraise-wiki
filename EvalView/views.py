@@ -1521,12 +1521,25 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         error1 = request.POST.get('error1', None)
         error2 = request.POST.get('error2', None)
 
+        # Hiba added this: retrieve freetextannotation from POST data
+        Free_Text_Annotation = request.POST.get('FreeTextAnnotation', '').strip()
+
+        print(
+        'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}, freetextannotation={6}'.format(
+            score1, score2, item_id, source_error, error1, error2, Free_Text_Annotation
+            ))
+        LOGGER.info(
+        'score1=%s, score2=%s, item_id=%s, freetextannotation=%s', score1, score2, item_id, Free_Text_Annotation)
+
+        '''
         print(
             'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}'.format(
                 score1, score2, item_id, source_error, error1, error2
             )
         )
         LOGGER.info('score1=%s, score2=%s, item_id=%s', score1, score2, item_id)
+        '''
+        
 
         if score1 and item_id and start_timestamp and end_timestamp:
             duration = float(end_timestamp) - float(start_timestamp)
@@ -1562,6 +1575,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     sourceErrors=source_error,
                     errors1=error1,
                     errors2=error2,
+                    freetextannotation=Free_Text_Annotation,
                 )
 
     t3 = datetime.now()
@@ -1596,9 +1610,17 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     candidate1_label = 'Candidate translation (1)'
     candidate2_label = 'Candidate translation (2)'
 
+    '''
     priming_question_text = (
         'How accurately does each of the candidate text(s) below convey '
         'the original semantics of the source text above?'
+    )
+    '''
+
+    # wanted to change the text
+    priming_question_text = (
+        'How accurately does each of the two candidate texts below convey '
+        'the original semantics of the source text above in the target language?'
     )
 
     if current_item.has_context():
