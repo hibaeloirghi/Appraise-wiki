@@ -426,6 +426,14 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('End time'), help_text=_('(in seconds)')
     )
 
+
+    # added a new field for freetextannotation
+    freetextannotation = models.TextField(
+        blank=True,  # allow empty values in forms
+        null=True,   # allow NULL values in database
+        verbose_name=_('free text annotation'), help_text=_('(free text annotation)')
+    )
+    
     item = models.ForeignKey(
         TextSegmentWithTwoTargets,
         db_index=True,
@@ -808,6 +816,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             qs = qs.filter(createdBy__is_active=True)
 
         attributes_to_extract = (
+            'item__segmentID',   # Hiba added Source ID
             'createdBy__username',  # User ID
             'item__target1ID',  # System ID
             'item__target2ID',  # System ID
@@ -820,6 +829,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'errors1',  # Translation errors/annotation comments
             'errors2',  # Translation errors/annotation comments
             'sourceErrors',  # Errors in the source text
+            'freetextannotation',  # Free text annotation
         )
 
         if extended_csv:
