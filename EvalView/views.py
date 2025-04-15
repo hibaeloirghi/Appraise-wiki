@@ -1541,6 +1541,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             messages.error(request, "Please specify details for 'Other'.")
             return redirect(request.path)
 
+
         print(
         'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}, freetextannotation={6}'.format(
             score1, score2, item_id, source_error, error1, error2, Free_Text_Annotation
@@ -1598,6 +1599,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     wikipedia_contributions=','.join(wikipedia_contributions),
                     other_wikipedia_contribution_text=other_wikipedia_contribution_text,
                     wikipedia_duration=wikipedia_duration,
+
                 )
 
     t3 = datetime.now()

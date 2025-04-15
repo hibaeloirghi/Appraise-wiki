@@ -427,6 +427,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
     )
 
     """
+
     # added a new field for freetextannotation
     freetextannotation = models.TextField(
         blank=True,  # allow empty values in forms
@@ -481,6 +482,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('Wikipedia contribution duration'),
         help_text=_('How long have you contributed to Wikipedia?')
     )
+
 
     item = models.ForeignKey(
         TextSegmentWithTwoTargets,
@@ -883,6 +885,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'wikipedia_contributions',
             'other_wikipedia_contribution_text',
             'wikipedia_duration',
+
         )
 
         if extended_csv:
