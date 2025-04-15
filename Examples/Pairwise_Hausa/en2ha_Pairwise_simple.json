@@ -1,0 +1,2316 @@
+[
+    {
+      "items": [
+        {
+          "_block": 0,
+          "_item": 0,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2022079/10",
+          "sourceText": "In 2012, she made her National debut against Tanzania in the African Women Championship qualifiers.",
+          "targets": [
+            {
+              "_itemAll": 0,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A shekara ta 2012, ta fara buga wasanta na farko a kasar Tanzania a gasar share fagen shiga gasar mata ta Afirka."
+            },
+            {
+              "_itemAll": 1,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A shekara ta 2012, ta fara buga wasanta na farko da kasar Tanzania a gasar share fagen shiga gasar mata ta Afirka."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 1,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1197873/6",
+          "sourceText": "According to the map of Chakdaha CD block, in the District Census Handbook 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna and Kulia form a cluster of census towns between Chakdaha and Kalyani/ Gayespur.[1]",
+          "targets": [
+            {
+              "_itemAll": 2,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Dangane da taswirar shingen CD na Chakdaha, a littafin Littafin Kidaya na Gundumar 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna da Kulia sun kasance jerin garuruwan ƙididdigar tsakanin Chakdaha da Kalyani / Gayespur . [1]"
+            },
+            {
+              "_itemAll": 3,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Dangane da taswirar shingen CD na Chakdaha, a littafin Littafin Kidaya na Gundumar shekara ta 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna da Kulia sun kasance jerin garuruwan ƙididdigar tsakanin Chakdaha da Kalyani / Gayespur . [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 2,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "1631724/10",
+          "sourceText": "Fox was first elected to the European Parliament in 2009 and was re-elected in 2014 before losing his seat in 2019.",
+          "targets": [
+            {
+              "_itemAll": 4,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An fara zaben Fox a matsayin dan Majalisar Tarayyar Turai a shekara ta 2009 kuma an sake zabe shi a shekarar 2014 kafin ya rasa kujerarsa a 2019."
+            },
+            {
+              "_itemAll": 5,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An fara zaben Fox a matsayin dan Majalisar Tarayyar Turai a shekara ta 2009 kuma an sake zabe shi a shekara ta 2014 kafin ya rasa matsayinsa a 2019."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 3,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "860935/1",
+          "sourceText": "Ayọ̀bámi Adébáyọ̀ (born 29 January 1988) is a Nigerian writer.[1]",
+          "targets": [
+            {
+              "_itemAll": 6,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Ayọ̀bámi Adébáyọ̀ (an haifeshi 29 Janairu 1988) marubuci ɗan Najeriya ne. [1]"
+            },
+            {
+              "_itemAll": 7,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Ayọ̀bámi Adébáyọ̀ (an haife ta 29 Janairu 1988) marubuciya, yar Najeriya ne. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 4,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "1326381/10",
+          "sourceText": "In September 2016 Amazon Watch released a report which concludes that imports of crude oil by the US are driving rainforest destruction in the Amazon and releasing significant greenhouse gases.[19][20]",
+          "targets": [
+            {
+              "_itemAll": 8,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A watan Satumbar 2016 Amazon Watch ya fitar da wani rahoto wanda ya kammala da cewa shigo da danyen mai da Amurka ke yi yana lalata lalacewar dazuzzuka a cikin Amazon da kuma sakin manyan iskar gas. [1] [2]"
+            },
+            {
+              "_itemAll": 9,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A watan Satumbar shekarata 2016 Amazon Watch ya fitar da wani rahoto wanda ya kammala da cewa shigo da danyen mai da Amurka ke yi yana lalata lalacewar dazuzzuka a cikin Amazon da kuma sakin manyan iskar gas. [1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 5,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "1290058/41",
+          "sourceText": "Yakubu has scored 21 goals in his 57 appearances for Nigeria since his 2000 debut. He is currently the third highest ever international goalscorer for Nigeria.[53]",
+          "targets": [
+            {
+              "_itemAll": 10,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Yakubu ya ci kwallaye 21 a wasanni 57 da ya buga wa Najeriya tun fara wasansa na 2000. A yanzu haka shine dan wasa na uku mafi girma da yaciwa Najeriya kwallaye a raga. [1]"
+            },
+            {
+              "_itemAll": 11,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Yakubu ya ci kwallaye 21 a wasanni 57 da ya buga wa Najeriya tun fara wasansa na 2000. A yanzu haka shi ne dan wasa na uku mafi girma da ya ciwa Najeriya kwallaye a raga. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 6,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "2001650/4",
+          "sourceText": "At the international level, Afful made his Ghanaian debut at the 2008 Africa Cup of Nations, helping Ghana to a third-place finish at that tournament. He appeared for the Black Stars at four more AFCON tournaments, finishing as runners-up in 2010 and 2015. He was called up to Ghana's squad for the 2014 FIFA World Cup, appearing twice during the tournament. Afful captained his nation for the first time in a friendly against Congo on 1 September 2015.",
+          "targets": [
+            {
+              "_itemAll": 12,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A matakin kasa da kasa, Afful ya fara buga wasansa na farko a Ghana a gasar cin kofin Afrika ta 2008, inda ya taimakawa Ghana zuwa matsayi na uku a waccan gasar. Ya bayyana wa Black Stars a wasu gasa hudu na AFCON, inda ya kare a matsayin na biyu a 2010 da 2015 . An kira shi zuwa tawagar Ghana a gasar cin kofin duniya ta FIFA 2014, ya bayyana sau biyu a lokacin gasar. Afful ya zama kyaftin din kasarsa a karon farko a wasan sada zumunci da Congo a ranar 1 ga Satumban 2015."
+            },
+            {
+              "_itemAll": 13,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A matakin ƙasa da ƙasa, Afful ya fara buga wasansa na farko a Ghana a gasar cin kofin Afrika ta 2008, inda ya taimakawa Ghana zuwa matsayi na uku a waccan gasar. Ya bayyana wa Black Stars a wasu gasa huɗu na AFCON, inda ya ƙare a matsayin na biyu a 2010 da 2015 . An kira shi zuwa ga tawagar Ghana a gasar cin kofin duniya ta FIFA 2014, ya bayyana sau biyu a lokacin gasar. Afful ya zama kyaftin ɗin ƙasarsa a karon farko a wasan sada zumunci da Congo a ranar 1 ga Satumban 2015."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 7,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1196376/10",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 14,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Bayani"
+            },
+            {
+              "_itemAll": 15,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 8,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "1444991/5",
+          "sourceText": "Released from jail the father finds that A'isha has completed her studies. He demands a large amount of money from the rich man, but when he refuses to do so, the father takes her by force. The film ends as A`isha returns to her stepfather and marries her love, Dr. Sami.",
+          "targets": [
+            {
+              "_itemAll": 16,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An sake shi daga gidan yari ya tarar da A’isha ta kammala karatun ta. Ya nemi kudi masu yawa daga wurin attajirin, amma da ya ki yin haka, uban ya kama ta da karfi. Fim din ya kare ne yayin da A`isha ta koma wajen mahaifinta ta auri soyayyarta, Dr. Sami."
+            },
+            {
+              "_itemAll": 17,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An sake shi daga gidan yari ya tarar da A’isha ta kammala karatun ta. Ya nemi kudi masu yawa daga wurin attajirin, amma da ya ki yin haka, uban ya kama ta da karfi. Fim ɗin ya ƙare ne yayin da A`isha ta koma wajen mahaifinta ta auri soyayyarta, Dr. Sami."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 0,
+          "_item": 9,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "1914333/4",
+          "sourceText": "Benin is partly a branch of the Niger, as the two rivers are connected through a few streams.[citation needed]",
+          "targets": [
+            {
+              "_itemAll": 18,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Kasar Benin wani bangare ne na reshe na Nijar, kasancewar kogunan biyu suna hade ta wasu koguna . "
+            },
+            {
+              "_itemAll": 19,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Kasar Benin wani bangare ne na reshe na Nijar, kasancewar kogunan biyu suna hade ta wasu koguna. "
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 10,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2481647/1179985843_0_2",
+          "sourceText": "Berlenti Abdel Hamid (Egyptian Arabic: برلنتي عبد الحميد  pronounced [beɾˈlænti ʕæbdel.ħæˈmiːd]) (20 November 1935 – 1 December 2010), born Nefisa Abdel-Hamid Hawass (Egyptian Arabic: نفيسة عبدالحميد حواس),[2] was a prominent Egyptian actress and an icon of the Egyptian cinema's golden age. She is known for her roles as a \"temptress\".[3] She married Abdel Hakim Amer, the first vice-president of the former Egyptian President Gamal Abdel Nasser.[4]",
+          "targets": [
+            {
+              "_itemAll": 20,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Berlenti Abdel Hamid (Masar Larabci)    An haife shi [beɾˈlænti ːbdel.ħæˈmiːd]) (20 Nuwamba 1935 1 Disamba 2010), an haife shi Nefisa Abdel-Hamid Hawass (Masar Larabci: نفيسة عبدالحميد حواس), [1] ya kasance fitacciyar 'yar wasan kwaikwayo ta Masar kuma gunkin zamanin zinariya na Masar.    [2] san ta da rawar da take takawa a matsayin \"mai jaraba\". [3] auri Abdel Hakim Amer, mataimakin shugaban kasa Masar na farko Gamal Abdel Nasser . [1]"
+            },
+            {
+              "_itemAll": 21,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Muhammad ya bar mu hijira ta goma ya koma ga sarkinta mai kaddarawa Berlenti Abdel Hamid (Masar Larabci)    An haife shi [beɾˈlænti ːbdel.ħæˈmiːd]) (20 Nuwamba 1935 1 Disamba 2010), an haife shi Nefisa Abdel-Hamid Hawass (Masar Larabci: نفيسة عبدالحميد حواس), [1] ya kasance fitacciyar 'yar wasan kwaikwayo ta Masar kuma gunkin zamanin zinariya na Masar.    [2] san ta da rawar da take takawa a matsayin \"mai jaraba\". [3] auri Abdel Hakim Amer, mataimakin shugaban kasa Masar na farko Gamal Abdel Nasser . [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 11,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "1652093/61",
+          "sourceText": "The staple grain or starch varies between regions and ethnic groups, although corn has gained significant ground as it is cheap, swells to greater volumes and creates a beautiful white final product that is greatly desired. Banku and kenkey are maize dough staples, and gari is made from dried grated cassavas. Rice dishes are also widely eaten in the region, especially in the dry Sahel belt inland. Examples of these include benachin from The Gambia and Jollof rice, a pan-West African rice dish similar to Arab kabsah.",
+          "targets": [
+            {
+              "_itemAll": 22,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Babban hatsi ko sitaci ya bambanta tsakanin yankuna da ƙungiyoyin kabilanci, kodayake masara ya sami ƙasa mai mahimmanci saboda yana da arha, yana kumbura zuwa mafi girma kuma yana haifar da kyakkyawan samfurin ƙarshe na ƙarshe wanda ake so. Banku da kenkey na kullu ne na masara, kuma ana yin garin gari da busasshiyar rogo. Ana kuma cin abincin shinkafa sosai a yankin, musamman a busasshen bel na Sahel a cikin kasa. Misalan wadannan sun hada da benachin daga Gambiya da Jollof rice, shinkafa pan-West African shinkafa irin na Arab kabsah ."
+            },
+            {
+              "_itemAll": 23,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Babban hatsi ko sitaci ya bambanta tsakanin yankuna da ƙungiyoyin kabilanci, kodayake masara ya sami ƙasa mai mahimmanci saboda yana da arha, yana kumbura zuwa mafi girma kuma yana haifar da kyakkyawan samfurin ƙarshe na ƙarshe wanda ake so. Banku da kenkey na kullu ne na masara, kuma ana yin garin gari da busasshiyar rogo. Sannan Ana kuma cin abincin shinkafa sosai a yankin, musamman a busasshen bel na Sahel a cikin kasa. Misalan wadannan sun hada da benachin daga Gambiya da Jollof rice, shinkafa pan-West African shinkafa irin na Arab kabsah ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 12,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1132721/1",
+          "sourceText": "Mohamed Bazoum is a Nigerien Arab politician who has been President of the Nigerien Party for Democracy and Socialism (PNDS-Tarayya) since 2011.[1] He served in the government of Niger as Minister of Foreign Affairs from 1995 to 1996 and again from 2011 to 2015. He was Minister of State at the Presidency from 2015 to 2016, and was Minister of State for the Interior between 2016 and the summer of 2020, when he resigned to focus on running for the 2020 presidential election.",
+          "targets": [
+            {
+              "_itemAll": 24,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "</br>Mohamed Bazoum dan siyasan Larabawa ne dan asalin Jamhuriyar Nijar wanda ya kasance Shugaban Jam’iyyar Nijar na Demokradiyya da Gurguzu (PNDS-Tarayya) tun daga shekarar 2011. [1] Ya yi aiki a gwamnatin Nijar a matsayin Ministan Harkokin Waje daga 1995 zuwa 1996 da kuma sake daga 2011 zuwa 2015. Ya kasance karamin minista a fadar shugaban kasa daga 2015 zuwa 2016, kuma ya kasance karamin ministan cikin gida tsakanin 2016 da rani na 2020, lokacin da ya yi murabus don mayar da hankali kan tsayawa takarar shugaban kasa a 2020 ."
+            },
+            {
+              "_itemAll": 25,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Mohamed Bazoum ɗan siyasa ne Balarabe ne ɗan asalin Jamhuriyar Nijar wanda ya kasance Shugaban Jam’iyyar Nijar na Demokradiyya da Gurguzu (PNDS-Tarayya) tun daga shekarar 2011. [1] Ya yi aiki a gwamnatin Nijar a matsayin Ministan Harkokin Waje daga 1995 zuwa 1996 da kuma sake daga 2011 zuwa 2015. Ya kasance karamin minista a fadar shugaban ƙasa daga 2015 zuwa 2016, kuma ya kasance karamin ministan cikin gida tsakanin 2016 da rani na 2020, lokacin da ya yi murabus don mayar da hankali kan tsayawa takarar shugaban ƙasa a 2020 ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 13,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "2549797/1215664023_3_8",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 26,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Magana"
+            },
+            {
+              "_itemAll": 27,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta List of hospitals in Edo StateList of hospitals in Edo StateList of hospitals in Edo State"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 14,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "1539727/27",
+          "sourceText": "Human rights organizations, national and foreign, expand the list to include human rights violations that relate to government policies, as in the case of daiyo kangoku system (substitute prison) and the methods of interrogating crime suspects.[28] The effort of these agencies and ordinary people seem to pay off. In 2016, the U.S. Department of State released a report stating that Japan's human right record is showing signs of improvement.[29]",
+          "targets": [
+            {
+              "_itemAll": 28,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Kungiyoyin kare hakkin bil’adama na kasa da na kasashen waje, sun fadada jerin sunayen wadanda ake zargi da cin zarafin bil’adama da suka shafi manufofin gwamnati, kamar yadda ya shafi tsarin daiyo kangoku (madaidaicin gidan yari) da kuma hanyoyin yin tambayoyi ga wadanda ake zargi da aikata laifuka. [1] Kokarin da wadannan hukumomi da talakawan ke yi ya yi kamar zai biya. A cikin 2016, Ma'aikatar Harkokin Wajen Amurka ta fitar da wani rahoto da ke nuna cewa yanayin hakkin dan Adam na Japan yana nuna alamun ci gaba. [2]"
+            },
+            {
+              "_itemAll": 29,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Kungiyoyin kare hakkin bil’adama na kasa da na kasashen waje, sun fadada jerin sunayen wadanda ake zargi da cin zarafin bil’adama da suka shafi manufofin gwamnati, kamar yadda ya shafi tsarin daiyo kangoku (madaidaicin gidan yari) da kuma hanyoyin yin tambayoyi ga wadanda ake zargi da aikata laifuka. [1] Kokarin da wadannan hukumomi da talakawan ke yi ya yi kamar zai biya. A cikin shekarata 2016, Ma'aikatar Harkokin Wajen Amurka ta fitar da wani rahoto da ke nuna cewa yanayin hakkin dan Adam na Japan yana nuna alamun ci gaba. [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 15,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "2224947/1142561633_1_4",
+          "sourceText": "Born in New York City, Gamble was briefly raised in Cincinnati before moving to Redlands, California.[1] She graduated from the UCLA School of Theater, Film and Television.[2]",
+          "targets": [
+            {
+              "_itemAll": 30,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An haife shi a Birnin New York, Gamble ya ɗan girma a Cincinnati kafin ya koma Redlands, California . [1] Ta sauke karatu daga UCLA School of Theater, Film da Television . [2]"
+            },
+            {
+              "_itemAll": 31,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An haife shi a Birnin New York,Gamble ya ɗan girma a Cincinnati kafin ya koma Redlands,California.[1]Ta sauke karatu daga UCLA School of Theater,Film da Television.[2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 16,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "2191422/3",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 32,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 33,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 17,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "1249525/5",
+          "sourceText": "Presently, she is an advocate for Sustainable Development Goals appointed by Secretary-General of the United Nations.[8]",
+          "targets": [
+            {
+              "_itemAll": 34,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A halin yanzu, ita mai bayar da shawara ce kan Manufofin Cigaba Mai Dorewa wanda Babban Sakatare na Majalisar Dinkin Duniya ya nada. [1]"
+            },
+            {
+              "_itemAll": 35,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A halin yanzu, ita mai bayar da shawara ce kan Manufofin Cigaba Mai Dorewa na Majalissar dinkin duniya wanda Babban Sakatare na Majalisar Dinkin Duniya ya nada. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 18,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1640373/0",
+          "sourceText": "Marwa Ahmed Hussein Arafat (born 19 June 1978) is an Egyptian hammer thrower. Her personal best throw is 68.48 metres, achieved in February 2005 in Cairo. This is the Egytpian record, a former African record, and ranks her as the second best African thrower after Amy Sène.[1]",
+          "targets": [
+            {
+              "_itemAll": 36,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Marwa Ahmed Hussein Arafat (an Haife shi 19 ga Yuni 1978) yar ƙasar Masar ce mai jefa guduma . Mafi kyawun jifa nata shine mita 68.48, wanda aka samu a watan Fabrairun 2005 a Alkahira . Wannan shine tarihin Masar, tsohon tarihin Afirka, kuma ya sanya ta a matsayin mafi kyawun ɗan wasan Afirka na biyu bayan Amy Sène . [1]"
+            },
+            {
+              "_itemAll": 37,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Marwa Ahmed Hussein Arafat (an Haife shi 19 ga watan Yuni 1978) yar ƙasar Masar ce mai jefa guduma . Mafi kyawun jifa nata shine mita 68.48, wanda aka samu a watan Fabrairun 2005 a Alkahira. Wannan shine tarihin Masar, tsohon tarihin Afirka, kuma ya sanya ta a matsayin mafi kyawun 'yar wasan Afirka ta biyu bayan Amy Sène . [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 1,
+          "_item": 19,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "1296677/24",
+          "sourceText": "Properties may also define more complex rules about their intended usage, termed constraints. For example, the capital (P36) property includes a \"single value constraint\", reflecting the reality that (typically) territories have only one capital city. Constraints are treated as testing alerts and hints, rather than inviolable rules.[9]",
+          "targets": [
+            {
+              "_itemAll": 38,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Hakanan ƙayyadaddun abubuwa na iya bayyana mahimman ƙa'idodi masu rikitarwa game da amfanin da aka nufa da su, wanda ake kira ƙuntatawa . Misali, capital (P36) ta ƙunshi \"ƙuntataccen ƙima guda\", wanda ke nuna gaskiyar cewa yankuna (galibi) yankuna suna da babban birni guda kawai. Ana ɗaukar takurai azaman faɗakarwa da alamu, maimakon ƙa'idodin keta doka. [1]"
+            },
+            {
+              "_itemAll": 39,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Hakanan ƙayyadaddun abubuwa na iya bayyana mahimman ƙa'idodi masu rikitarwa game da amfanin da aka nufa da su, wanda ake kira ƙuntatawa . Misali, capital (P36) ta ƙunshi \"ƙuntataccen ƙima guda\", wanda ke nuna gaskiyar cewa yankuna (galibi) yankuna suna da babban birni guda kawai. Ana ɗaukar takurai azaman faɗakarwa da alamu, maimakon ƙa'idodin keta doka.[1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 20,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "2393844/1176581148_2_9",
+          "sourceText": "As per the census of 2009, the population of the region was 260,865, 46.3% female. The average size of household as of 2009 is 5.90: 5.90 in rural households and 5.80 in urban areas. The total number of households was 43,478: 38,160 in rural areas and 5,318 in urban areas. The number of nomads in the region was 126,855, 32.7% of the population. There were 257,804 people residing in private households. There were 111,278 above 18 years of age: 56,407 male and 54,871 female. The sex ratio was 116.00 females for every 100 males. There were 134,010 sedentary staff, 1.20 of the total population.[11]",
+          "targets": [
+            {
+              "_itemAll": 40,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Bisa ga ƙidayar jama'a a shekarar 2009, yawan mutanen yankin ya kai 260,865, kashi 46.3% mata. Matsakaicin girman iyali kamar na 2009 shine 5.90: 5.90 a cikin gidajen karkara da 5.80 a cikin birane. Jimillar gidaje 43,478: 38,160 a yankunan karkara da 5,318 a birane. Adadin makiyaya a yankin ya kai 126,855, kashi 32.7% na yawan jama'a. Akwai mutane 257,804 da ke zaune a gidaje masu zaman kansu. Akwai 111,278 sama da shekaru 18: 56,407 maza da 54,871 mata. Adadin jima'i shine mata 116.00 ga kowane maza 100. Akwai ma'aikata 134,010 masu zaman kansu, 1.20 na yawan jama'a. [1]"
+            },
+            {
+              "_itemAll": 41,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Bisa ga ƙidayar jama'a a shekarar 2009, yawan mutanen yankin ya kai dubu 260,865, kashi 46.3% daga cikin su mata ne. Matsakaicin girman iyali kamar na 2009 shine 5.90: 5.90 a cikin gidajen karkara da 5.80 a cikin birane. Jumillar gidaje 43,478: 38,160 a yankunan karkara da 5,318 a birane. Adadin makiyaya a yankin ya kai 126,855, kashi 32.7% na yawan jama'a. Akwai mutane 257,804 da ke zaune a gidaje masu zaman kansu. Akwai 111,278 da suka haura shekaru 18: 56,407 maza da 54,871 mata. Akwai ma'aikata 134,010 masu zaman kansu, 1.20 na yawan jama'a. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 21,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2498893/1155801230_0_2",
+          "sourceText": "Al-Rawi (Arabic: الراوي, lit. “The Narrator”) is an Egyptian animated series recounting key events in Islamic history in Classical Arabic.[1] The story's eponymous “Narrator” is named Noureddin, and he tells his stories to the young Prince Shehab.[2]",
+          "targets": [
+            {
+              "_itemAll": 42,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Al-Rawi ( Arabic </link> , haske. “Mai ba da labari”) silsilar wasan kwaikwayo ce ta Masarawa da ke ba da labarin muhimman abubuwan da suka faru a tarihin Musulunci a cikin Larabci na gargajiya . [1] Sunan mai ba da labari mai suna Noureddin, kuma ya ba da labarinsa ga matashin Yarima Shehab. [2]"
+            },
+            {
+              "_itemAll": 43,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Al-Rawi ( Arabic, lit. “Mai ba da labari”) silsilar wasan kwaikwayo ce ta Masarawa da ke ba da labarin muhimman abubuwan da suka faru a tarihin Musulunci a cikin Larabci na gargajiya. [1] Sunan mai ba da labari mai suna Noureddin, kuma ya ba da labarinsa ga matashin Yarima Shehab. [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 22,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2420091/1192154697_1_5",
+          "sourceText": "He was signed for Persik Kediri to play in Liga 2 in the 2019 season. On 25 November 2019 Persik successfully won the 2019 Liga 2 Final and promoted to Liga 1, after defeated Persita Tangerang 3–2 at the Kapten I Wayan Dipta Stadium, Gianyar.",
+          "targets": [
+            {
+              "_itemAll": 44,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An sanya hannu kan Persik Kediri don taka leda a La Liga 2 a kakar 2019. A ranar 25 ga Nuwamba 2019 Persik ya samu nasarar lashe gasar La Liga 2 na 2019 kuma ya ci gaba zuwa Liga 1, bayan da ta doke Persita Tangerang da ci 3–2 a filin wasa na Kapten I Wayan Dipta, Gianyar ."
+            },
+            {
+              "_itemAll": 45,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An sanya hannu kan Persik Kediri don taka leda a La Liga 2 a kakar shekarar 2019. A ranar 25 ga watan Nuwamba shekarar 2019 Persik ya samu nasarar lashe gasar La Liga 2 na shekara ta 2019 kuma ya ci gaba zuwa Liga 1, bayan da ta doke Persita Tangerang da ci 3–2 a filin wasa na Kapten I Wayan Dipta, Gianyar ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 23,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "2455821/1112152851_3_8",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 46,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 47,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 24,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "2499385/1165870464_1_4",
+          "sourceText": "She was born in Yaba, Lagos. She is from Kabba LGA in Kogi State. Out of four children, she is the only girl and the third in birth order.[2] Ariyike completed her secondary education at Starfield College and obtained a Bachelor of Arts degree in Mass communication from Lagos State University.[3] She further obtained a certification in Broadcasting from the National Broadcast Academy, Lagos.",
+          "targets": [
+            {
+              "_itemAll": 48,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An haife ta a Yaba, Legas . Ita ‘yar karamar hukumar Kabba ce a jihar Kogi . A cikin yara hudu, ita ce mace daya tilo kuma ta uku a jerin haihuwa. [1] Ariyike ta kammala karatun sakandare a Kwalejin Starfield sannan ta sami digiri na farko a fannin sadarwa a Jami'ar Jihar Legas . [2] Ta kara samun takardar shedar Watsa Labarai daga Cibiyar Watsa Labarai ta Kasa, Legas."
+            },
+            {
+              "_itemAll": 49,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An haife ta a Yaba, Legas. Ita ƴar karamar hukumar Kabba ce a jihar Kogi. A cikin yara huɗu, ita ce mace ɗaya tilo kuma ta uku a jerin haihuwa. [1] Ariyike ta kammala karatun sakandare a Kwalejin Starfield sannan ta sami digiri na farko a fannin sadarwa a Jami'ar Jihar Legas. [2] Ta ƙara samun takardar shedar Watsa Labarai daga Cibiyar Watsa Labarai ta Kasa, Legas."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 25,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "1579721/11",
+          "sourceText": "Over the last two centuries, the formal policies and practices that dominate conservation and development have largely ignored ICCAs or actively threatened them. Even today, while neglect and harm give way to emerging recognition and support, the interface between state-based institutions and the customary institutions of indigenous peoples and local communities remains riddled with conflicts. Some relationships are respectful, but many are affected by misunderstandings and mistrust, which may threaten the success of well-intentioned initiatives. In fact, despite the current serious interest on individual ICCAs and community conservation in general, two opposing stereotypes continue to plague conservation: the romantic view of indigenous peoples and traditional communities being in total harmony with nature; and the view of people as “parasites”, necessarily degrading the ecosystems in which they live.[3]",
+          "targets": [
+            {
+              "_itemAll": 50,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A cikin ƙarni biyu da suka gabata, manufofi da ayyuka na yau da kullun waɗanda suka mamaye kiyayewa da haɓaka sun yi watsi da ICCs ko kuma suna yi musu barazana. Ko da a yau, yayin da sakaci da cutarwa ke ba da damar samun karɓuwa da goyon baya, mu'amala tsakanin cibiyoyi na jihohi da cibiyoyin al'ada na ƴan asalin ƙasar da al'ummomin yankin na ci gaba da kasancewa cikin rigingimu. Wasu dangantaka suna da mutuntawa, amma da yawa suna fama da rashin fahimta da rashin yarda, wanda zai iya yin barazana ga nasarar shirye-shiryen da aka tsara. A gaskiya ma, duk da tsananin sha'awar da ake da ita kan ICCs guda ɗaya da kiyaye al'umma gabaɗaya, ra'ayoyi biyu masu adawa da juna suna ci gaba da addabar kiyayewa: ra'ayin soyayya na ƴan asalin asali da al'ummomin gargajiya suna cikin jituwa da yanayi; da kuma kallon mutane a matsayin \" parasites \", dole ne su kaskantar da yanayin da suke rayuwa a ciki. [1]"
+            },
+            {
+              "_itemAll": 51,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A cikin ƙarni na biyu da suka gabata, manufofi da ayyuka na yau da kullun waɗanda suka mamaye kiyayewa da haɓaka sun yi watsi da shirin ICCs ko kuma suna yi musu barazana sosai. Ko da a yau, yayin da sakaci da cutarwa ke ba da damar samun karɓuwa da goyon baya, mu'amala tsakanin cibiyoyi na jihohi da cibiyoyin al'ada na ƴan asalin ƙasar da al'ummomin yankin na ci gaba da kasancewa cikin rigingimu. Wasu dangantaka suna da mutuntawa, amma da yawa suna fama da rashin fahimta da rashin yarda, wanda zai iya yin barazana ga nasarar shirye-shiryen da aka tsara. A gaskiya ma, duk da tsananin sha'awar da ake da ita kan ICCs guda ɗaya da kiyaye al'umma gabaɗaya, ra'ayoyi biyu masu adawa da juna suna ci gaba da addabar kiyayewa: ra'ayin soyayya na ƴan asalin asali da al'ummomin gargajiya suna cikin jituwa da yanayi; da kuma kallon mutane a matsayin \" parasites \", dole ne su kaskantar da yanayin da suke rayuwa a ciki. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 26,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "2537176/1215967232_1_6",
+          "sourceText": "FIBA Women's Afrobasket Matches Played (MJ): 7 Points Per Match (PPM): 4.1 Rebounds Per Match (RPM): 3.3 Assists Per Match (PDM): 0.9 Overall Evaluation (EVAL): 4.1",
+          "targets": [
+            {
+              "_itemAll": 52,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "FIBA Matches Afrobasket Wasan Wasa (MJ): Maki 7 A Kowacce Wasa (PPM): 4.1 Rebounds Per Match (RPM): 3.3 Assists Per Match (PDM): 0.9 Overall Evaluation (EVAL): 4.1"
+            },
+            {
+              "_itemAll": 53,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "FIBA Matches Afrobasket Wasan Wasa (MJ): Maki 7 A Kowacce Wasa (PPM): 4.1 Rebounds Per Match (RPM): 3.3 Assists Per Match (PDM): 0.9 Overall Evaluation (EVAL): 4.1"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 27,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "2712249/1232857533_1_3",
+          "sourceText": "The hospital's emergency ward was renovated in 2020 to make room for more patients during the COVID-19 pandemic.[4]",
+          "targets": [
+            {
+              "_itemAll": 54,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An gyara asibitin gaggawa a cikin 2020 don samar da wuri ga ƙarin marasa lafiya a lokacin annobar COVID-19. [4]"
+            },
+            {
+              "_itemAll": 55,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An sake gyara sashin gaggawa na asibitin a cikin 2020 don ba da daki ga ƙarin marasa lafiya yayin bala'in COVID-19. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 28,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "1253667/7",
+          "sourceText": "In May 2006, a police corporal was killed by suspected armed bandits at his residence. However, the state commissioner of police, Alhaji Muhammad Sambo, said the attack was not an assassination attempt. The bandits just wanted to snatch the corporal's gun.[8]",
+          "targets": [
+            {
+              "_itemAll": 56,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A watan Mayun 2006, wasu da ake zargin ’yan fashi ne suka kashe wani kofur din dan sanda a gidansa. Sai dai kwamishinan ‘yan sandan jihar, Alhaji Muhammad Sambo, ya ce harin ba yunkurin kisan kai ba ne. 'Yan fashin sun so kawai su kwace bindigar kofur din. [1]"
+            },
+            {
+              "_itemAll": 57,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A watan Mayun shekara ta 2006, wasu da ake zargin ’yan fashi ne suka kashe wani kofur din dan sanda a gidansa. Sai dai kwamishinan ‘yan sandan jihar, Alhaji Muhammad Sambo, ya ce harin ba yunkurin kisan kai ba ne. 'Yan fashin sun so kawai su kwace bindigar kofur din. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 2,
+          "_item": 29,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1421097/49",
+          "sourceText": "Egypt now has more than 40 PCR testing equipment dispersed all over the country [25]",
+          "targets": [
+            {
+              "_itemAll": 58,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Masar yanzu tana da kayan gwajin PCR sama da 40 da aka tarwatsa ko'ina cikin ƙasar [1]"
+            },
+            {
+              "_itemAll": 59,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Masar yanzu tana da kayan gwajin PCR sama da 40 da aka tarwatsa ko'ina cikin ƙasar[1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 30,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "1325934/1",
+          "sourceText": "The first access courses were established in the 1970s. Many of these courses were set up to encourage entry to teacher training by people with a wider range of backgrounds than the traditional types of students who were attracted to teaching. Over the years, the success of these early courses led to the development of courses in other areas. In the 1987 white paper Higher Education: Meeting the Challenge, the government identified Access to HE as 'the third recognised route to higher education', and sought to extend Access to HE provision through a national framework for the recognition of Access to HE courses.",
+          "targets": [
+            {
+              "_itemAll": 60,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An kafa kwasa-kwasan samun damar farko a cikin 1970s. Yawancin waɗannan kwasa-kwasan an kirkiresu ne don ƙarfafa shigarwa zuwa horon malamai ta mutane da ke da fannoni daban-daban fiye da na gargajiya na ɗaliban da ke sha'awar koyarwa. A tsawon shekaru, nasarar waɗannan kwasa-kwasan farko sun haifar da ci gaban kwasa-kwasan a wasu yankuna. A cikin farar takarda ta 1987 Babban Ilimi: Ganawa da Kalubale, gwamnati ta bayyana Samun damar zuwa HE a matsayin 'hanya ta uku da aka yarda da ita zuwa manyan makarantu', kuma ta nemi fadada Samun damar zuwa HE ta hanyar tsarin kasa don amincewa da kwasa-kwasan Samun damar zuwa HE."
+            },
+            {
+              "_itemAll": 61,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An kafa kwasa-kwasan samun damar farko a cikin 1970s. Yawancin waɗannan kwasa-kwasan an kirkiresu ne don ƙarfafa shigarwa zuwa horon malamai da mutane da ke da fannoni daban-daban fiye da na gargajiya na ɗaliban da ke sha'awar koyarwa. A tsawon shekaru, nasarar waɗannan kwasa-kwasan farko sun haifar da ci gaban kwasa-kwasan a wasu yankuna. A cikin farar takarda ta 1987 Babban Ilimi: fuskanta da Kalubale, gwamnati ta bayyana Samun damar zuwa HE a matsayin 'hanya ta uku da aka yarda da ita zuwa manyan makarantu', kuma ta nemi fadada Samun damar zuwa HE ta hanyar tsarin kasa don amincewa da kwasa-kwasan Samun damar zuwa HE."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 31,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "1394928/1",
+          "sourceText": "Lead City University is a private university in Ibadan, Oyo State, Nigeria.[1][2][3]",
+          "targets": [
+            {
+              "_itemAll": 62,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Jami'ar Lead City jami'a ce mai zaman kanta a Ibadan, Jihar Oyo, Najeriya. [1] [2] [3]"
+            },
+            {
+              "_itemAll": 63,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Jami'ar Lead City jami'a ce mai zaman kanta a Ibadan, Jihar Oyo,a kasar Najeriya. [1] [2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 32,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2498111/1212579648_1_5",
+          "sourceText": "The Cossacks play in three European countries. The first, unnamed country is indicated by the scoreboard displaying the word \"Knights\" during the score presentation, presumably representing players from medieval Germany. Initially, the Cossacks struggle to break through the knights' defense, dressed in armor. They counter the knights with agility, playing in a way that prevents their opponents from intercepting the ball.",
+          "targets": [
+            {
+              "_itemAll": 64,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Cossacks suna wasa a kasashe uku na Turai. Na farko, ƙasar da ba a san sunanta ba ta hanyar allon da ke nuna kalmar \"Knights\" a lokacin gabatarwar ci, mai yiwuwa wakiltar 'yan wasa daga Jamus ta zamani. Da farko, Cossacks suna gwagwarmaya don karya tsaron jarumawa, suna sanye da makamai. Suna fuskantar jarumawa da hanzari, suna wasa ta hanyar da ke hana abokan adawar su tsayar da kwallon."
+            },
+            {
+              "_itemAll": 65,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Cossacks sunyi wasa a kasashe uku na Turai. Na farko, ƙasar da ba a saka sunanta ba sai dai hanyar allon da ke nuna kalmar \"Knights\" a lokacin gabatarwar sakamako, mai yiwuwa wakiltar tana nuna 'yan wasa daga Jamus ta zamani. Da farko, Cossacks sunyi gwagwarmaya don karya tsaron knights, suna sanye da makamai. Suna fuskantar jarumawa da hanzari, suna wasa ta hanyar da ke hana abokan adawar su tare da kwallon."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 33,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "1377991/9",
+          "sourceText": "On 8 December 2020, he scored his first Champions League goal in a 3–2 win over Manchester United in the 2020–21 season.[8]",
+          "targets": [
+            {
+              "_itemAll": 66,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A ranar 8 ga Disamba 2020, ya ci kwallonsa ta farko a gasar zakarun Turai a wasan da suka ci Manchester United 3-2 a kakar 2020-21 . [1]"
+            },
+            {
+              "_itemAll": 67,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A ranar 8 ga Disamba 2020, ya ci kwallonsa ta farko a gasar zakarun Turai a wasan da suka ci kungiyar Manchester United 3-2 a kakar 2020-21 . [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 34,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1343012/4",
+          "sourceText": "Agege Stadium is a multi-purpose stadium in Lagos, Nigeria.[1] It has a seating capacity of 4,000.[2] It is the home ground of MFM F.C., Nigeria women's national under-17 football team and since 2018, of DreamStar F.C. Ladies.",
+          "targets": [
+            {
+              "_itemAll": 68,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Filin wasa na Agege filin wasa ne mai fa'ida da yawa a Legas, Najeriya. [1] Tana da wurin zama 4,000. [2] Gida ce ta MFM FC, ƙungiyar ƙwallon ƙafa ta mata 'yan ƙasa da shekara 17 ta Najeriya kuma tun daga 2018, na DreamStar FC Ladies ."
+            },
+            {
+              "_itemAll": 69,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Filin wasa na Agege filin wasa ne mai fa'ida da yawa a Legas, Najeriya. [1] Yana da wurin zama 4,000. [2] Gida je ta MFM FC, ƙungiyar ƙwallon ƙafa ta mata 'yan ƙasa da shekara 17 ta Najeriya kuma tun daga 2018, na DreamStar FC Ladies ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 35,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "1541152/7",
+          "sourceText": "In the 1950s and 1960s, the role of the welfare state changed, and social goals were no longer assumed to be common goals. Individuals were free to pursue their own goals. The welfare state in this time expanded, along with legal aid provisions, as concerns emerged over the power of welfare providers and professionals. In the 1960s and 1970s, demand rose for the right of individuals to legally enforce economic, social and cultural rights and the welfare provisions they as individuals were entitled to. Mechanisms emerged through which citizens could legally enforce their economic, social and cultural rights, and welfare lawyers used legal aid to advise those on low income when dealing with state officials. Legal aid was extended from family law to a wide range of economic, social and cultural rights.[2]",
+          "targets": [
+            {
+              "_itemAll": 70,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A cikin 1950s da 1960s, aikin jindadin jama'a ya canza, kuma ba a ɗauka cewa burin zamantakewar jama'a shine burin gama-gari. Mutane suna da 'yanci don cimma burinsu. Ƙasar jindaɗi a wannan lokacin ta faɗaɗa, tare da tanadin taimakon doka, yayin da damuwa ta bayyana kan ƙarfin masu ba da jin daɗi da ƙwararru. A cikin 1960s da 1970s, buƙatu ya tashi na haƙƙin daidaikun mutane don aiwatar da haƙƙin tattalin arziki, zamantakewa da al'adu bisa doka da tanadin jindadin da suka dace da su. Hanyoyi sun bayyana ta hanyar da 'yan ƙasa za su iya tilasta musu haƙƙin tattalin arziki, zamantakewa da al'adu bisa doka, kuma lauyoyin jin daɗi sun yi amfani da taimakon shari'a don ba da shawara ga masu karamin karfi lokacin da suke mu'amala da jami'an jihohi. An ba da taimakon shari'a daga dokar iyali zuwa nau'ikan haƙƙoƙin tattalin arziki, zamantakewa da al'adu. [1]"
+            },
+            {
+              "_itemAll": 71,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A cikin 1950s da 1960s, aikin jindadin jama'a ya canza, kuma ba a ɗauka cewa burin zamantakewar jama'a shine burin gama-gari. Mutane suna da 'yanci don cimma burinsu. Ƙasar jindaɗi a wannan lokacin ta faɗaɗa, tare da tanadin taimakon doka, yayin da damuwa ta bayyana kan ƙarfin masu ba da jin daɗi da ƙwararru. A cikin shekara ta 1960s da 1970s, buƙatu ya tashi na haƙƙin daidaikun mutane don aiwatar da haƙƙin tattalin arziki, zamantakewa da al'adu bisa doka da tanadin jindadin da suka dace da su. Hanyoyi sun bayyana ta hanyar da 'yan ƙasa za su iya tilasta musu haƙƙin tattalin arziki, zamantakewa da al'adu bisa doka, kuma lauyoyin jin daɗi sun yi amfani da taimakon shari'a don ba da shawara ga masu karamin karfi lokacin da suke mu'amala da jami'an jihohi. An ba da taimakon shari'a daga dokar iyali zuwa nau'ikan haƙƙoƙin tattalin arziki, zamantakewa da al'adu. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 36,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "2119177/7",
+          "sourceText": "Widely regarded as one of the best performing members of the \"Green Chamber\" in Benue State, Dyegh enjoys overwhelming support and wider admiration for his speedy rural electrification initiatives, donating more than ten transformers to various communities and sinking over thirty boreholes as well as building classroom blocks in many primary and post-primary institutions of learning in his constituency within only three years in office. Dyegh is known for awarding scholarships to students of higher colleges thereby, ending scholarship drought among the students of college age in his constituency; he donates large sums of money to the poor, a quality that marks him out as a philanthropist. The politician is also credited for his unique ability in executing constituency projects, making him one of the most admired politicians of his generation in his constituency ahead of many others.[7]",
+          "targets": [
+            {
+              "_itemAll": 72,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Dyegh wanda ake yi wa kallon daya daga cikin jiga-jigan ‘ya’yan kungiyar ‘Green Chamber’ a jihar Binuwai, ya samu gagarumin goyon baya da kuma yabawa bisa yadda yake gaggauta samar da wutar lantarki a yankunan karkara, inda ya bayar da gudunmawar taransfoma sama da goma ga al’ummomi daban-daban tare da nutsewa sama da rijiyoyin burtsatse talatin tare da gina gidaje. tubalan ajujuwa a yawancin makarantun firamare da na gaba da firamare a mazabarsa cikin shekaru uku kacal a kan karagar mulki. Dyegh an san shi da bayar da tallafin karatu ga daliban manyan kwalejoji ta haka, ya kawo karshen fari a tsakanin daliban jami’a a mazabarsa; yana bayar da makudan kudade ga talakawa, abin da ke nuna shi mai taimakon jama’a ne. Ana kuma yabawa dan siyasar da irin kwazonsa na musamman wajen gudanar da ayyukan mazabu, wanda hakan ya sanya ya zama daya daga cikin ’yan siyasar zamaninsa da suka fi sha'awar mazabarsa a gaban wasu da dama. [1]"
+            },
+            {
+              "_itemAll": 73,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Dyegh wanda ake yi wa kallon daya daga cikin jiga-jigan ‘ya’yan kungiyar ‘Green Chamber’ a jihar Binuwai, ya samu gagarumin goyon baya da kuma yabawa bisa yadda yake gaggauta samar da wutar lantarki a yankunan karkara, inda ya bayar da gudunmawar taransfoma sama da goma ga al’ummomi daban-daban tare da samar da rijiyoyin burtsatse talatin tare da gina gidaje. tubalan ajujuwa a yawancin makarantun firamare da na gaba da firamare a mazabarsa cikin shekaru uku kacal a kan karagar mulki. Dyegh an san shi da bayar da tallafin karatu ga daliban manyan kwalejoji ta haka, ya kawo karshen fari a tsakanin daliban jami’a a mazabarsa; yana bayar da makudan kudade ga talakawa, abin da ke nuna shi mai taimakon jama’a ne. Ana kuma yabawa dan siyasar da irin kwazonsa na musamman wajen gudanar da ayyukan mazabu, wanda hakan ya sanya ya zama daya daga cikin ’yan siyasar zamaninsa da suka fi sha'awar mazabarsa a gaban wasu da dama.[1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 37,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "2832933/1242450999_2_6",
+          "sourceText": "In preparing the candy the sugar is first heated until it becomes brown then the grated coconut, which has been dried, and then the lemon is added to flavor it.[3] Pour it on a flat surface and start moulding it into small round crunchy candies.",
+          "targets": [
+            {
+              "_itemAll": 74,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A cikin shirya zuma ana fara dumama sukari har sai ya zama launin ruwan kasa sannan kwakwa mai laushi, wanda aka bushe, sannan kuma ana ƙara lemun tsami don dandana shi.[1] Sanya shi a kan shimfiɗa kuma fara yin gyare-gyare a cikin ƙananan zaki."
+            },
+            {
+              "_itemAll": 75,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A cikin shirya zuma ana fara dumama sukari har sai ya zama launin ruwan ƙasa sannan kwakwa mai laushi, wanda ta bushe, sannan kuma ana ƙara lemun tsami don ɗanɗana shi.[1] Sanya shi a kan shimfiɗa kuma fara yin gyare-gyare a cikin ƙananan zaki."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 38,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "2033933/3",
+          "sourceText": "He is also a former Chairman of KPMG, former President of the Institute of Chartered Accountants of Nigeria (ICAN).[3] Chief Ani, is the Clan Head of Mbiabo Ikoneto in Cross River State, in the Niger delta region of Nigeria. He was a career accountant who was appointed by General Sani Abacha as Minister of state for Foreign Affairs in 1993 and was subsequent appointed as the Minister of finance in 1994.",
+          "targets": [
+            {
+              "_itemAll": 76,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Ya kuma kasance tsohon shugaban KPMG, tsohon shugaban Cibiyar Chartered Accountants of Nigeria (ICAN). [1] Cif Ani, shi ne shugaban dangi na Mbiabo Ikoneto a jihar Cross River, a yankin Neja Delta a Najeriya. Ya kasance akawun aiki wanda Janar Sani Abacha ya nada a matsayin karamin ministan harkokin waje a shekarar 1993 sannan kuma aka nada shi ministan kudi a shekarar 1994."
+            },
+            {
+              "_itemAll": 77,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Ya kuma kasance tsohon shugaban KPMG, tsohon shugaban Cibiyar Chartered Accountants of Nigeria (ICAN). [1] Cif Ani, shi ne shugaban dangi na Mbiabo Ikoneto a jihar Cross River, a yankin Neja Delta a Najeriya. Ya kasance akawun aiki wanda Janar Sani Abacha ya naɗa a matsayin ƙaramin ministan harkokin waje a cikin shekarar 1993 sannan kuma aka naɗa shi ministan Kuɗi a cikin shekarar 1994."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 3,
+          "_item": 39,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "2397988/1190122372_1_7",
+          "sourceText": "His research in collaboration with the Griffith School of Medicine and Dentistry, led to policy changes in Nigeria aimed at cancer prevention and education.[1]",
+          "targets": [
+            {
+              "_itemAll": 78,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Binciken da ya yi tare da hadin gwiwar makarantar likitanci da likitan hakora ta Griffith, ya haifar da sauye-sauyen manufofi a Najeriya da nufin rigakafin cutar kansa da ilimi. [1]"
+            },
+            {
+              "_itemAll": 79,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Binciken da ya yi tare da haɗin gwiwar makarantar likitanci da likitan hakora ta Griffith, ya haifar da sauye-sauyen manufofi a Najeriya da nufin rigakafin cutar kansa da ilimi. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 40,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "2515619/1179552572_0_3",
+          "sourceText": "The club purchased the National First Division status of Milano United F.C. in July 2017.[1] The club had previously played in the ABC Motsepe League.",
+          "targets": [
+            {
+              "_itemAll": 80,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Kulob din ya sayi matsayin National First Division na Milano United FC a cikin Yuli 2017. [1] A baya kulob din ya taka leda a ABC Motsepe League ."
+            },
+            {
+              "_itemAll": 81,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Kulob ɗin ya sayi matsayin National First Division na Milano United FC a cikin watan Yuli na shekarar 2017. [1] A baya kulob din ya taka leda a ABC Motsepe League ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 41,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2110352/8",
+          "sourceText": "Mauritius currently has two UNESCO World Heritage Sites, namely Aapravasi Ghat and Le Morne Cultural Landscape. Additionally, Black River Gorges National Park is currently on the UNESCO tentative list.[2]",
+          "targets": [
+            {
+              "_itemAll": 82,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A halin yanzu Mauritius na da wuraren tarihi na UNESCO guda biyu, wato Aapravasi Ghat da Le Morne Cultural Landscape . Bugu da ƙari, National Park Gorges National Park a halin yanzu yana cikin jerin abubuwan da UNESCO ta tsara. [1]"
+            },
+            {
+              "_itemAll": 83,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A halin yanzu Mauritius na da wuraren tarihi na UNESCO guda biyu, wato Aapravasi Ghat da Le Morne Cultural Landscape. Bugu da ƙari, National Park Gorges National Park a halin yanzu yana cikin jerin abubuwan da UNESCO ta tsara.[1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 42,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "2190367/2",
+          "sourceText": "Mohd Khuzzan bin Abu Bakar is a Malaysian politician who served as Member of the Johor State Executive Council (EXCO) in the Pakatan Harapan (PH) state administration under former Menteris Besar Osman Sapian and Sahruddin Jamal from May 2018 to the collapse of the PH state administration in February 2020 and Member of the Johor State Legislative Assembly (MLA) for Semerah from May 2018 to March 2022. He is a member of the People's Justice Party (PKR), a component party of the PH opposition coalition.",
+          "targets": [
+            {
+              "_itemAll": 84,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Mohd Khuzzan bin Abu Bakar ɗan siyasan Malaysia ne wanda ya yi aiki a matsayin memba na Majalisar Zartarwa ta Jihar Johor (EXCO) a cikin gwamnatin jihar Pakatan Harapan (PH) a ƙarƙashin tsohon Menteris Besar Osman Sapian da Sahruddin Jamal daga Mayu 2018 zuwa rushewar gwamnatin jihar PH a watan Fabrairun 2020 kuma memba na Majalisar Dokokin Jihar Johora (MLA) don Semerah daga Mayu 2018 har zuwa Maris 2022. Shi memba ne na Jam'iyyar Adalci ta Jama'a (PKR), wata jam'iyya ce ta hadin gwiwar adawa ta PH."
+            },
+            {
+              "_itemAll": 85,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Muhammad ya bar mu hijira ta goma ya koma ga sarkinta mai kaddarawa da zata cika sai da yayi jawabi yana ta su Ali ga mai daukawa yace ya ilahi ina yin sukai karka sa kabari na abin bautawa Mohd Khuzzan bin Abu Bakar ɗan siyasan Malaysia ne wanda ya yi aiki a matsayin memba na Majalisar Zartarwa ta Jihar Johor (EXCO) a cikin gwamnatin jihar Pakatan Harapan (PH) a ƙarƙashin tsohon Menteris Besar Osman Sapian da Sahruddin Jamal daga Mayu 2018 zuwa rushewar gwamnatin jihar PH a watan Fabrairun 2020 kuma memba na Majalisar Dokokin Jihar Johora (MLA) don Semerah daga Mayu 2018 har zuwa Maris 2022. Shi memba ne na Jam'iyyar Adalci ta Jama'a (PKR), wata jam'iyya ce ta hadin gwiwar adawa ta PH."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 43,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "1983645/8",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 86,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 87,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 44,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "1978106/1",
+          "sourceText": "David Umaru (born 26 July 1959) is a Nigerian Politician, and was the Senator representing Niger East Senatorial District of Niger State at the Nigerian 7th National Assembly and 8th National Assembly.[1][2]",
+          "targets": [
+            {
+              "_itemAll": 88,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "David Umaru (an haife shi a ranar 26 ga Yuli 1959) ɗan siyasan Najeriya ne, kuma shi ne Sanata mai wakiltar Neja ta Gabas ta Jihar Neja a Majalisar Dokokin Najeriya ta 7 da Majalisar Dokoki ta 8 . [1] [2]"
+            },
+            {
+              "_itemAll": 89,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "David Umaru (an haife shi a ranar 26 ga Yuli 1959) ɗan siyasar Najeriya ne, kuma shi ne Sanata mai wakiltar Neja ta Gabas ta Jihar Neja a Majalissar Dokokin Najeriya ta 7 da Majallisar Dokoki ta 8 . [1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 45,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1431043/4",
+          "sourceText": "In Nigeria, prison break is a criminal offense that is punishable under the Law of Nigeria.[12] The punishment varies depending on the nature of the attack, casualties involved in the attack and the nature of the offenses for which the participant were imprisoned.[13][14]",
+          "targets": [
+            {
+              "_itemAll": 90,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A Najeriya karya gidan yari laifi ne da ake hukuntawa a karkashin dokar Najeriya . [1] Hukuncin ya bambanta ya danganta da yanayin harin, wadanda harin ya rutsa da su da kuma irin laifukan da aka daure dan wasan. [2] [3]"
+            },
+            {
+              "_itemAll": 91,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A Najeriya karya gidan yari laifi ne da ake hukuntawa a ƙarƙashin dokar Najeriya . [1] Hukuncin ya bambanta ya danganta da yanayin harin, waɗanda harin ya rutsa da su da kuma irin laifukan da aka ɗaure dan wasan. [2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 46,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "2007140/4",
+          "sourceText": "Alhadhur made his professional debut for his hometown club Nantes during the 2010–11 season.[3] On 2 December 2011, he signed on loan with Championnat National side Aviron Bayonnais until the end of the season, after a proposed loan to Épinal fell through for financial reasons.[4]",
+          "targets": [
+            {
+              "_itemAll": 92,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Alhhadhur ya fara buga wasansa na farko a kungiyarsa ta Nantes a kakar 2010–11. [1] A ranar 2 ga Disamba 2011, ya sanya hannu kan lamuni tare da kungiyar Championnat National ta Aviron Bayonnais har zuwa karshen kakar wasa, bayan da aka ba da lamuni ga Épinal ya fadi saboda dalilai na kudi. [2]"
+            },
+            {
+              "_itemAll": 93,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Alhhadhur ya fara buga wasansa na farko a kungiyarsa ta Nantes a kakar 2010–11.[1] [2] A ranar 2 ga watan Disamba 2011, ya sanya hannu kan lamuni tare da kungiyar Championnat National ta Aviron Bayonnais har zuwa karshen kakar wasa, bayan da aka ba da lamuni ga Épinal ya fadi saboda dalilai na kudi.[3] [4]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 47,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "1999862/3",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 94,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 95,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 48,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "1345738/6",
+          "sourceText": "In a static proprietary article that appeared in and was reviewed by a scientific journal in 2021, authenticated scientists analyzed data from multiple public databases to create a regional representation of levels of global deforestation induced by nations' recent, largely unmodulated, trade-, production- and consumption-patterns, showing e.g. that G7 countries are driving an average annual loss of 3.9 trees per capita and that India and China increased the deforestation embodied in their imports.[2][3]",
+          "targets": [
+            {
+              "_itemAll": 96,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A cikin wani labarin mallakar mallakar da ya fito wanda mujallar kimiyya ta sake dubawa kuma ta sake nazari a cikin 2021, ƙwararrun masana kimiyya sun bincika bayanai daga ɗakunan bayanai na jama'a da yawa don ƙirƙirar wakilcin yanki na matakan sare itatuwa na duniya wanda ƙasashe 'yan kwanan nan, galibi ba a canza su ba, kasuwanci-, samarwa- da tsarin amfani, wanda ke nuna misali ƙasashen G7 suna yin asarar matsakaicin asarar bishiyu 3.9 a kowace shekara kuma Indiya da China sun haɓaka sare bishiyoyin da ke cikin shigo da su. [1] [2]"
+            },
+            {
+              "_itemAll": 97,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A cikin wani labarin mallakar mallakar da ya fito wanda mujallar kimiyya ta sake dubawa kuma ta sake nazari a cikin 2021, ƙwararrun masana kimiyya sun bincika bayanai daga ɗakunan bayanai na jama'a da yawa don ƙirƙirar wakilcin yanki na matakan sare itatuwa na duniya wanda ƙasashe 'yan kwanan nan, galibi ba a canza su ba, kasuwanci-, samarwa- da tsarin amfani, wanda ke nuna misali ƙasashen G7 suna yin asarar matsakaicin asarar bishiyu 3.9 a kowace shekara kuma Indiya da China sun haɓaka sare bishiyoyin da ke cikin shigo da su. [1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 4,
+          "_item": 49,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "1436174/1",
+          "sourceText": "Ayitale is a 2013 Nigerian film produced and directed by Adebayo Salami.[1] It received four nominations at the 2013 Best of Nollywood Awards.[2][3]",
+          "targets": [
+            {
+              "_itemAll": 98,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Ayitale fim din Najeriya ne na 2013 wanda Adebayo Salami ya shirya kuma ya ba da umarni. [1] Ya samu nadin nadi hudu a 2013 Best of Nollywood Awards . [2] [3]"
+            },
+            {
+              "_itemAll": 99,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Ayitale fim ɗin Najeriya ne na 2013 wanda Adebayo Salami ya shirya kuma ya ba da umarni. [1] Ya samu naɗin naɗi hudu a 2013 Best of Nollywood Awards . [2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 50,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "1778440/3",
+          "sourceText": "Samiha Ayoub was born in Shubra, Cairo in 1932.[1] She graduated from the Nun's School then joined the Acting Institute in 1952. Her breakthrough came after her role in Samara and Rabaa ElAdawya (radio series). She has been married three times, to actor Mohsen Sarhan, actor Mahmoud Morsy, and playwright Sa’ed Eddine Wihbe (Saad Eddin Wehbe).[4]",
+          "targets": [
+            {
+              "_itemAll": 100,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An haifi Samiha Ayoub a Shubra, Alkahira a shekara ta 1932. [1] Ta sauke karatu daga Makarantar Nun sannan ta shiga Cibiyar Gudanarwa a 1952. Ci gabanta ya zo ne bayan rawar da ta taka a Samara da Rabaa ElAdawya (jerin rediyo). Ta yi aure sau uku, ga jarumi Mohsen Sarhan, jarumi Mahmoud Morsy, da marubucin wasan kwaikwayo Sa'ed Eddine Wihbe (Saad Eddin Wehbe). [2]"
+            },
+            {
+              "_itemAll": 101,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An haifi Samiha Ayoub a Shubra, Alkahira a shekara ta 1932. [1] Ta yi karatu daga Makarantar Nun sannan ta shiga Acting institute a 1952. Ci gabanta ya zo ne bayan rawar da ta taka a cikin fim ɗin Samara and Rabaa ElAdawya (radio series). Ta yi aure sau uku, ga jarumi Mohsen Sarhan, jarumi Mahmoud Morsy, da marubucin wasan kwaikwayo Sa'ed Eddine Wihbe (Saad Eddin Wehbe). [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 51,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "2396970/1171108228_2_7",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 102,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 103,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 52,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2258164/1083841722_0_4",
+          "sourceText": "The principal public open space in the Forest is Marston Vale is the Millennium Country Park which covers 2.5 km2 (1 mile2) and was opened in 2000. The park features several lakes including the large Stewartby Lake and extensive wetlands. There is a visitor centre called the Forest Centre, which has a Lakeside Cafe, shop, toilets and bike rental. According to the official website the park attracts around a quarter of a million visitors a year. There are plans to create a larger park of over 3 square miles (7.8 km2) to the east of Bedford, which will be called Bedford River Valley Park.",
+          "targets": [
+            {
+              "_itemAll": 104,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Babban filin buɗe ido na jama'a a cikin dajin shine Marston Vale shine filin shakatawa na Millennium wanda ke rufe 2.5 km2 (1 mil 2 ) kuma an buɗe shi a cikin 2000. Wurin shakatawa yana da tafkuna da yawa ciki har da babban tafkin Stewartby da kuma filayen dausayi. Akwai cibiyar baƙo mai suna Cibiyar daji, wacce ke da Kafe na Lakeside, shago, bandakuna da hayar keke. A cewar gidan yanar gizon hukuma, wurin shakatawa yana jan hankalin kusan kwata na baƙi miliyan a shekara. Akwai shirye-shiryen ƙirƙirar wurin shakatawa mafi girma fiye da 3 square miles (7.8 km zuwa gabas da Bedford, wanda za a kira Bedford River Valley Park ."
+            },
+            {
+              "_itemAll": 105,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Babban filin buɗe ido na jama'a acikin dajin shine Marston Vale shine filin shakatawa na Millennium wanda ke rufe 2.5 km2 (1mil2)kuma an buɗe shi acikin 2000. Wurin shaƙatawar yana da tafkuna da yawa ciki harda babban tafkin Stewartby da kuma filayen dausayi.Akwai cibiyar baƙo mai suna Cibiyar daji, wacce ke da Kafe na Lakeside, shago, banɗakuna da hayar keke. A cewar gidan yanar gizon hukuma, wurin shaƙatawar yana jan hankalin kusan kwata na baƙi miliyan a shekara. Akwai shirye-shiryen ƙirƙirar wurin shaƙatawa mafi girma fiye da 3 square miles (7.8 km zuwa gabas da Bedford, wanda za'a kira Bedford River Valley Park."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 53,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "1211096/5",
+          "sourceText": "Rasheed became the vice chancellor of Bayero University in 2010, a position he held till 2015.[4] In 2016, Rasheed was appointed executive secretary of National Universities Commission.[5][6]",
+          "targets": [
+            {
+              "_itemAll": 106,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Rasheed ya zama mataimakin shugaban jami’ar Bayero a shekarar 2010, mukamin da ya rike har zuwa 2015. [1] A shekarar 2016, an nada Rasheed a matsayin babban sakataren Hukumar Kula da Jami’o’i ta Kasa . [2] [3]"
+            },
+            {
+              "_itemAll": 107,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Rasheed ya zama mataimakin shugaban jami’ar Bayero a shekara ta 2010, mukamin da ya rike har zuwa shekara ta 2015. [1] A shekarar 2016, an nada Rasheed a matsayin babban sakataren Hukumar Kula da Jami’o’i ta Kasa . [2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 54,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "1094758/4",
+          "sourceText": "Olajumoke Orisaguna was born in 1989 and brought up in Ire, Osun State. She trained as a hairdresser where she met an artisan named Sunday Orisaguna. They married in 2010 and later had two children. She is fluent in Yoruba.[3][4]",
+          "targets": [
+            {
+              "_itemAll": 108,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An haifi Olajumoke Orisaguna a shekarar 1989 kuma ta tashi ne a garin Ire na jihar Osun . Ta samu horo ne a kan gyaran gashi inda ta hadu da wani mai sana'ar hannu mai suna Sunday Orisaguna. Sun yi aure a 2010 kuma daga baya suka haifi yara biyu. Tana iya Turanci sosai . [1] [2]"
+            },
+            {
+              "_itemAll": 109,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An haifi Olajumoke Orisaguna a shekarar 1989 kuma ta tashi ne a garin Ire na jihar Osun . Ta samu horo ne a kan gyaran gashi inda ta haɗu da wani mai sana'ar hannu mai suna Sunday Orisaguna. Sun yi aure a 2010 kuma daga baya suka haifi yara biyu. Tana jin Turanci sosai . [1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 55,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2478558/1177522992_7_16",
+          "sourceText": "See also",
+          "targets": [
+            {
+              "_itemAll": 110,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Dubi kuma"
+            },
+            {
+              "_itemAll": 111,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Duba kuma"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 56,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1403918/2",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 112,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 113,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 57,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "2363511/1157505984_0_2",
+          "sourceText": "Hakeem Babatunde Fawehinmi (born 29 September 1969) is a Nigerian Professor of Clinical Anatomy and Biomedical Anthropology and the Vice Chancellor of Nigerian British University.[1][2]",
+          "targets": [
+            {
+              "_itemAll": 114,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Hakeem Babatunde Fawehinmi (an haife shi a ranar 29 ga Satumba 1969) Farfesan Najeriya ne a fannin ilimin likitanci da nazarin halittu kuma mataimakin shugaban jami'ar Burtaniya ta Najeriya. [1] [2]"
+            },
+            {
+              "_itemAll": 115,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Hakeem Babatunde Fawehinmi (an haife shi a ranar 29 ga watan Satumba 1969) Farfesan Najeriya ne a fannin ilimin likitanci da nazarin halittu kuma mataimakin shugaban jami'ar Burtaniya ta Najeriya. [1] [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 58,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "1397747/0",
+          "sourceText": "DOI or Doi may refer to:",
+          "targets": [
+            {
+              "_itemAll": 116,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "DOI ko Doi na iya nufin:"
+            },
+            {
+              "_itemAll": 117,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "DOI ko Doi na iya nufin to:"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 5,
+          "_item": 59,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "1619480/20",
+          "sourceText": "Neuberger married professor Anthony Neuberger on 17 September 1973.[21] They have a son named Matthew and a daughter named Harriet. Anthony is the son of professor Albert Neuberger and the brother of professors Michael and James Neuberger, as well as the brother of former UK Supreme Court President David Neuberger.",
+          "targets": [
+            {
+              "_itemAll": 118,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Neuberger ya auri farfesa Anthony Neuberger akan 17 Satumba 1973. [1] Suna da ɗa mai suna Matthew da diya mai suna Harriet. Anthony ɗan farfesa ne Albert Neuberger da ɗan'uwan farfesa Michael da James Neuberger, da kuma ɗan'uwan tsohon shugaban Kotun Koli na Burtaniya David Neuberger ."
+            },
+            {
+              "_itemAll": 119,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Neuberger ta auri farfesa Anthony Neuberger akan 17 Satumba 1973. [1] Suna da ɗa mai suna Matthew da diya mai suna Harriet. Anthony ɗan farfesa ne Albert Neuberger da ɗan'uwan farfesa Michael da James Neuberger, da kuma ɗan'uwan tsohon shugaban Kotun Koli na Burtaniya David Neuberger ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 60,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "2273308/1173285168_2_8",
+          "sourceText": "Chase has represented Japan up to under-23 level.[6] He trained with the senior team in 2022.[7] He was praised by coach Hajime Moriyasu for his talent and potential.[8]",
+          "targets": [
+            {
+              "_itemAll": 120,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Chase ya wakilci Japan har zuwa matakin ƙasa da 23. [1] Ya yi horo tare da babban ƙungiyar a 2022. [2] Kociyan kungiyar Hajime Moriyasu ya yaba masa bisa hazakarsa da kwazonsa. [3]"
+            },
+            {
+              "_itemAll": 121,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Chase ya wakilci Japan har zuwa matakin ƙasa da 23. [1] Ya yi horo tare da babban ƙungiyar a shekarar 2022. [2] Kociyan kungiyar Hajime Moriyasu ya yaba masa bisa gwagwalada hazakarsa da kwazonsa. [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 61,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "1980316/0",
+          "sourceText": "Mariama Gamatié Bayard (born 1958 in Maradi) is a Nigerian politician and women's rights activist.",
+          "targets": [
+            {
+              "_itemAll": 122,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Mariama Gamatié Bayard (an haife ta a shekara ta 1958 a Maradi) yar siyasan Najeriya ce kuma mai fafutukar kare hakkin mata ."
+            },
+            {
+              "_itemAll": 123,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Mariama Gamatié Bayard (an haife ta a shekara ta 1958 a Maraɗi) ƴar siyasar Najeriya ce kuma mai fafutukar kare haƙƙin mata ."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 62,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1077574/3",
+          "sourceText": "Career",
+          "targets": [
+            {
+              "_itemAll": 124,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Ayyuka"
+            },
+            {
+              "_itemAll": 125,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Kariya"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 63,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2943791/1256653363_1_2",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 126,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Bayanan da aka ambata"
+            },
+            {
+              "_itemAll": 127,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 64,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "2506868/1097711487_4_16",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 128,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 129,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 65,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2373824/1189277836_3_17",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 130,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Magana"
+            },
+            {
+              "_itemAll": 131,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 66,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "1471092/4",
+          "sourceText": "Movie career",
+          "targets": [
+            {
+              "_itemAll": 132,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Aikin fim"
+            },
+            {
+              "_itemAll": 133,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Sana'ar fim"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 67,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "2526400/1214412291_1_6",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 134,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Bayanan da aka ambata"
+            },
+            {
+              "_itemAll": 135,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 68,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "1983019/24",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 136,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 137,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 6,
+          "_item": 69,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "2502329/1151518212_1_8",
+          "sourceText": "It was also in 1991 that Rudolf developed an interest in film and appeared in roles over the next decade. In 1998, he became the head of drama at CityVarsity in Cape Town, a position he held until 2002.",
+          "targets": [
+            {
+              "_itemAll": 138,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Har ila yau, a cikin 1991 ne Rudolf ya ci gaba da sha'awar fim kuma ya fito a cikin matsayi a cikin shekaru goma masu zuwa. A cikin 1998, ya zama shugaban wasan kwaikwayo a CityVarsity a Cape Town, matsayin da ya rike har zuwa 2002."
+            },
+            {
+              "_itemAll": 139,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Har ila yau, a cikin shekarar 1991 ne Rudolf ya ci gaba da sha'awar fim kuma ya fito a cikin matsayi a cikin shekaru goma masu zuwa. A cikin shekarar 1998, ya zama shugaban wasan kwaikwayo a CityVarsity a Cape Town, matsayin da ya rike har zuwa shekara ta 2002."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 70,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "2505408/1138420568_2_11",
+          "sourceText": "And now he is currently a lead actor on Muvhango and presents the magazine show La Famila, which also airs on SABC2.He is the presenter on La Familia from Shandukani Nesengani, starting with Season 3 in 2010.[1]",
+          "targets": [
+            {
+              "_itemAll": 140,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Kuma a halin yanzu shi ne babban dan wasan kwaikwayo a kan Muvhango kuma ya gabatar da mujallar mujallar La Famila, wanda kuma ke nunawa akan SABC2 . Shi ne mai gabatarwa a La Familia daga Shandukani Nesengani, farawa da Season 3 a 2010. [1]"
+            },
+            {
+              "_itemAll": 141,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Kuma a halin yanzu shi ne babban dan wasan kwaikwayo a kan Muvhango kuma ya gabatar da mujallar La Famila, wanda kuma ke nunawa akan SABC2. Shi ne mai gabatarwa a La Familia daga Shandukani Nesengani, farawa da Season 3 a shekarar 2010. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 71,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "1439656/2",
+          "sourceText": "Rebecca is a 2016 Ghana-Nigeria film directed by Shirley Frimpong-Manso, and starring Yvonne Okoro and Joseph Benjamin. According to Manso, the film was released first in London, before Ghana due to the economic situation of the country causing reduced patronage for films. The film is the second two cast film that features Nigerian born actress Yvonne Okoro.[2]",
+          "targets": [
+            {
+              "_itemAll": 142,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Rebecca fim ne na Ghana-Nigeria na 2016 wanda Shirley Frimpong-Manso ya ba da umarni, kuma tare da Yvonne Okoro da Joseph Benjamin . A cewar Manso, an fara fitar da fim din ne a Landan, kafin Ghana saboda yanayin tattalin arzikin da kasar ke fama da shi wanda ya haifar da raguwar masu tallata fina-finai. Fim din shi ne fim na biyu da aka fito da shi da ya fito da jarumar haifaffun Najeriya Yvonne Okoro. [1]"
+            },
+            {
+              "_itemAll": 143,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Rebecca fim ne na Ghana-Nigeria na 2016 wanda Shirley Frimpong-Manso ya ba da umarni, kuma tare da Yvonne Okoro da Joseph Benjamin. A cewar Manso, an fara fitar da fim ɗin ne a Landan, kafin Ghana saboda yanayin tattalin arzikin da ƙasar ke fama da shi wanda ya haifar da raguwar masu tallata fina-finai. Fim din shi ne fim na biyu da aka fito da shi da ya fito da jarumar haifaffun Najeriya Yvonne Okoro. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 72,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "2245707/1139837677_2_5",
+          "sourceText": "↑ U.S. Geological Survey Geographic Names Information System: Lonfit River ↑ Comfort, Christina M.; Walker, Gordon O.; McManus, Margaret A.; Fujimura, Atsushi G.; Ostrander, Chris E.; Donaldson, Terry J. (September 2019). \"Physical dynamics of the reef flat, channel, and fore reef areas of a fringing reef embayment: An oceanographic study of Pago Bay, Guam\". Regional Studies in Marine Science. 31: 100740. doi:10.1016/j.rsma.2019.100740. ↑ Percival, Robert (23 April 2021). \"Is it too late for Guam to sue the Navy to pay for the cleanup of its dumpsite?\". SCOTUSblog. Retrieved 28 April 2021.",
+          "targets": [
+            {
+              "_itemAll": 144,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "↑ ↑ ↑"
+            },
+            {
+              "_itemAll": 145,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "↑ ↑ Empty citation (help) ↑ Empty citation (help)"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 73,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "2010900/1",
+          "sourceText": "Marinne Giraud (born 23 April 1986) is a Mauritian former professional tennis player.",
+          "targets": [
+            {
+              "_itemAll": 146,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Marinne Giraud (an Haife shi 23 Afrilu 1986) tsohon ɗan wasan tennis ne ɗan ƙasar Mauritius."
+            },
+            {
+              "_itemAll": 147,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "  Marinne Giraud (an Haife ta a ranar 23 ga watan Afrilu 1986) tsohuwar 'yar wasan tennis ce 'yar ƙasar Mauritius.[1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 74,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2830557/1234772763_2_12",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 148,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Magana"
+            },
+            {
+              "_itemAll": 149,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 75,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "1255775/9",
+          "sourceText": "After his university education and a one-year compulsory National Youth Service, prior to his branch into politics, Ghali, in 1980 joined his father's chain of companies. His business interests ranged from importation of goods, manufacturing to publishing. Thus, at first he became, Secretary, Na’Abba Commercial Trading Company Limited and Later:",
+          "targets": [
+            {
+              "_itemAll": 150,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Bayan karatunsa na jami'a da Bautar Matasa na Kasa na dole na shekara guda, kafin reshensa ya shiga siyasa, Ghali, a 1980 ya shiga cikin jerin kamfanonin mahaifinsa. Kasuwancin kasuwancin sa ya kasance daga shigo da kaya, masana'antu zuwa wallafe-wallafe. Don haka, da farko ya zama, Sakatare, Na'Abba Commerce Trading Company Limited da Daga baya:"
+            },
+            {
+              "_itemAll": 151,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Bayan karatunsa na jami'a da Bautar Matasa na Kasa na dole na shekara guda, kafin reshensa ya shiga siyasa, Ghali, a shekara ta 1980 ya shiga cikin jerin kamfanonin mahaifinsa. Kasuwancin kasuwancin sa ya kasance daga shigo da kaya, masana'antu zuwa wallafe-wallafe. Don haka, da farko ya zama, Sakatare, Na'Abba Commerce Trading Company Limited da Daga baya:"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 76,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2134545/8",
+          "sourceText": "On the mainland, large Muslim communities are concentrated in coastal areas, with some Muslim minorities located inland in urban areas. Christian groups include Roman Catholics, Protestants (including Pentecostal Christian groups), Seventh-day Adventists, The Church of Jesus Christ of Latter-day Saints, and Jehovah’s Witnesses. Other groups include Buddhists, Hindus, Sikhs, Baháʼís, animists, and those who did not express a religious preference. Zanzibar’s 1.3 million residents are 99 percent Muslim, according to a U.S. government estimate, of whom two-thirds are Sunni, according to a 2012 Pew Forum report. The remainder consists of several Shia groups, mostly of Asian descent.[1]",
+          "targets": [
+            {
+              "_itemAll": 152,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A babban yankin, al'ummomin musulmi da yawa sun taru a yankunan bakin teku, tare da wasu tsiraru musulmi da ke cikin kasa a cikin birane. Ƙungiyoyin Kirista sun haɗa da Roman Katolika, Furotesta (ciki har da ƙungiyoyin Kirista na Pentikostal ), Masu Adventists na kwana bakwai, Cocin Yesu Kristi na Kiristoci na Ƙarshe, da Shaidun Jehovah . Wasu rukunoni sun haɗa da mabiya addinin Buddha, Hindu, Sikhs, Bahaʼís, masu son rai, da kuma waɗanda ba sa son addini. Mazauna Zanzibar miliyan 1.3 Musulmai ne kashi 99 bisa 100, a cewar wani kiyasi na gwamnatin Amurka, wanda kashi biyu cikin uku na Sunni ne, a cewar rahoton Pew Forum na 2012. Ragowar ta ƙunshi ƙungiyoyin Shi'a da dama, galibi 'yan asalin Asiya. [1]"
+            },
+            {
+              "_itemAll": 153,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A babban yankin, al'ummomin musulmi da yawa sun taru a yankunan bakin teku, tare da wasu tsiraru musulmi da ke cikin kasa a cikin birane. Ƙungiyoyin Kirista sun haɗa da Roman Katolika, Furotesta (ciki har da ƙungiyoyin Kirista na Pentikostal), Masu Adventists na kwana bakwai, Cocin Yesu Kristi na Kiristoci na Ƙarshe, da Shaidun Jehovah. Wasu rukunoni sun haɗa da mabiya addinin Buddha, Hindu, Sikhs, Bahaʼís, animists, da kuma waɗanda ba sa son addini. Mazauna Zanzibar miliyan 1.3 Musulmai ne kashi 99 bisa 100, a cewar wani kiyasi na gwamnatin Amurka, wanda kashi biyu cikin uku na Sunni ne, a cewar rahoton Pew Forum na 2012. Ragowar ta ƙunshi ƙungiyoyin Shi'a da dama, galibi 'yan asalin Asiya. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 77,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2365952/1178073805_0_0",
+          "sourceText": "Brigitte Affidehome Tonon is a Beninois researcher, author former basketball player and head coach of Benin men's national basketball team. Having coached Benin at the regional 2017 FIBA AfroBasket qualifiers, Tonon became the first woman in Africa to coach a men's national basketball team.[1]",
+          "targets": [
+            {
+              "_itemAll": 154,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Brigitte Affidehome Tonon wata mai bincike ce ta Beninois, marubuciya tsohon ɗan wasan ƙwallon kwando kuma babban mai horar da ƙungiyar ƙwallon kwando ta maza ta Benin. Bayan da ta horar da Benin a gasar cin kofin FIBA AfroBasket na yanki na 2017, Tonon ta zama mace ta farko a Afirka da ta jagoranci kungiyar kwallon kwando ta maza. [1]"
+            },
+            {
+              "_itemAll": 155,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Brigitte Affidehome Tonon wata mai bincike ce ta Beninois, marubuciya kuma tsohuwar 'yar wasan ƙwallon kwando kuma babbar mai horar da ƙungiyar ƙwallon kwando ta Maza ta ƙasar Benin. Bayan da ta horar da Benin a gasar cin kofin FIBA AfroBasket na yanki na shekara ta 2017, Tonon ta zama mace ta farko a Afirka da ta jagoranci kungiyar kwallon kwando ta maza. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 78,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1394908/5",
+          "sourceText": "The institution runs four schools/faculties with a total of nine academic programmes for the award of National Diploma(ND) and Higher National Diploma(HND);[7][8][9]",
+          "targets": [
+            {
+              "_itemAll": 156,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Cibiyar tana gudanar da makarantu/kwalejoji guda huɗu tare da jimlar shirye -shiryen ilimi guda tara don bayar da lambar yabo ta Diploma ta Ƙasa (ND) da Babbar Diploma ta Ƙasa (HND); [1] [2] [3]"
+            },
+            {
+              "_itemAll": 157,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Cibiyar tana gudanar da makarantu/kwalejoji guda huɗu tare da jimlar shirye -shiryen ilimi guda tara don bayar da lambar yabo ta Diploma a Ƙasa (ND) da Babbar Diploma na Ƙasa (HND); [1] [2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 7,
+          "_item": 79,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "1284680/5",
+          "sourceText": "Under the British, who took control around 1900, the Kuteb were subject to the first-class Jukun ruler, or \"Aku Uka\" of the Wukari Federation.[1] In 1914, the British made the Kwe Kukwen the only graded and third class chief in the Takum part of the confederation, with the title of Kwe Takum. He was made paramount over other peoples in the area.[4] This change was resented by other ethnic groups of Hausa, Tiv, Chamba, Kukuns and Ichen, who forced the Ukwe Ahmadu Genkwe to leave Takum and reside elsewhere.[5] The last Ukwe Takum was Ali Ibrahim, ruling from 1963 to 1996.[4]",
+          "targets": [
+            {
+              "_itemAll": 158,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A karkashin Turawan mulkin mallaka na Burtaniya, wadanda suka karbe iko a wajajen 1900, Kuteb sun kasance karkashin masarautar Jukun na farko, ko \"Aku Uka\" na Tarayyar Wukari . [1] A cikin 1914, Turawan ingila sun sanya Kwe Kukwen shi kaɗai ne mai daraja a matsayi na uku a cikin Takum ɓangare na ƙungiyar, tare da taken Kwe Takum. Ya kasance mafi girma a kan sauran mutanen yankin. [2] Wannan canjin ya fusata wasu kabilun Hausawa, Tiv, Chamba, Kukuns da Ichen, wadanda suka tilasta Ukwe Ahmadu Genkwe barin Takum ya koma wani waje. [3] Ukwe Takum na karshe shi ne Ali Ibrahim, yana mulki daga 1963 zuwa 1996. [2]"
+            },
+            {
+              "_itemAll": 159,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A ƙarƙashin Turawan mulkin mallaka na Burtaniya, waɗanda suka karɓe iko a wajajen 1900, Kuteb sun kasance karkashin masarautar Jukun na farko, ko \"Aku Uka\" na Tarayyar Wukari . [1] A cikin 1914, Turawan ingila sun sanya Kwe Kukwen shi kaɗai ne mai daraja a matsayi na uku a cikin Takum ɓangare na ƙungiyar, tare da taken Kwe Takum. Ya kasance mafi girma a kan sauran mutanen yankin. [2] Wannan canjin ya fusata wasu kabilun Hausawa, Tiv, Chamba, Kukuns da Ichen, waɗanda suka tilasta Ukwe Ahmadu Genkwe barin Takum ya koma wani waje. [3] Ukwe Takum na karshe shi ne Ali Ibrahim, yana mulki daga 1963 zuwa 1996. [2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 80,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "2540902/1204753768_0_1",
+          "sourceText": "Rachid Arma (born 16 January 1985) is a Moroccan footballer who plays as a forward for Italian Serie D club Caldiero.",
+          "targets": [
+            {
+              "_itemAll": 160,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Rachid Arma (an haife shi 16 ga Janairu 1985) ɗan wasan ƙwallon ƙafa ne na ƙasar Morocco wanda ke taka leda a matsayin ɗan wasan gaba a ƙungiyar Seria D ta Italiya Caldiero."
+            },
+            {
+              "_itemAll": 161,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Rachid Arma (an haife shi a ranar 16 ga watan Janairu shekara ta 1985) ɗan wasan ƙwallon ƙafa ne na ƙasar Morocco wanda ke taka leda a matsayin ɗan wasan gaba a ƙungiyar Seria D ta Italiya Caldiero."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 81,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "1961413/11",
+          "sourceText": "On 17 February 2012, Razak, along with fellow City youngster Gai Assulin joined Championship side Brighton & Hove Albion on a three-month loan deal.[11]",
+          "targets": [
+            {
+              "_itemAll": 162,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A ranar 17 ga Fabrairu 2012, Razak, tare da ɗan'uwan City Gai Assulin sun shiga ƙungiyar Brighton & Hove Albion ta Championship kan yarjejeniyar lamuni ta watanni uku. [1]"
+            },
+            {
+              "_itemAll": 163,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A ranar 17 ga watan Fabrairun 2012, Razak, tare da ɗan'uwan City Gai Assulin sun shiga ƙungiyar Brighton & Hove Albion ta Championship a kan yarjejeniyar lamuni ta watanni uku. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 82,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "1228453/4",
+          "sourceText": "The Importance of Being Elegant, 2004. The Fighting Spirit, 2007. The Hard Stop, 2015. Black Power: A British Story of Resistance, 2021.[4]",
+          "targets": [
+            {
+              "_itemAll": 164,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Mahimmancin Zama Mai Kyau, 2004. Ruhun Yaƙi, 2007. Hardarfin Tsaya, 2015. Powerarfin Baƙar fata: Labarin Baturiya na Burtaniya, 2021. [1]"
+            },
+            {
+              "_itemAll": 165,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Mahimmancin Zama Mai Kyau, 2004. Ruhun Yaƙi, 2007. Hardarfin Tsaya, 2015. Powerarfin Baƙar fata: Labarin Baturiya na Burtaniya, 2021. [1][2]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 83,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "1851789/6",
+          "sourceText": "↑ \"Moukalaba Doudou National Park\". protectedplanet.net. ↑ Operation Loango Archived 2008-05-17 at the Wayback Machine, Retrieved on June 18, 2008 1 2 Parc National Moukalaba-Doudou - UNESCO World Heritage Centre",
+          "targets": [
+            {
+              "_itemAll": 166,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "↑ Operation Loango , Retrieved on June 18, 2008 1 2 Parc National Moukalaba-Doudou - UNESCO World Heritage Centre"
+            },
+            {
+              "_itemAll": 167,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "↑ Operation Loango Error in Webarchive template: Empty url., Retrieved on June 18, 2008 1 2 Parc National Moukalaba-Doudou - UNESCO World Heritage Centre"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 84,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1649321/2",
+          "sourceText": "Princess Kara (born 2000) is a Nigerian discus thrower. She won both the National Championships and the African Under 20 Championships in 2019. Her personal best is 50.07 m (164 ft 3+1⁄4 in).",
+          "targets": [
+            {
+              "_itemAll": 168,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Gimbiya Kara (an haife ta a shekara ta 2000) yar Najeriya ce mai jefa taɗi . Ta lashe gasar kasa da kasa da na 'yan kasa da shekaru 20 na Afirka a shekarar 2019. Mafi kyawun nata shine 50.07 m ("
+            },
+            {
+              "_itemAll": 169,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Princess Kara (an haife ta a shekara ta 2000) yar Najeriya ce mai jefa taɗi/discus thrower. Ta lashe gasar kasa da kasa da na 'yan kasa da shekaru 20 na Afirka a shekarar 2019. Mafi kyawun nata shine 50.07 m ("
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 85,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2671210/1185446879_1_4",
+          "sourceText": "Invitation (1952 film), an MGM film starring Dorothy McGuire and Van Johnson The Invitation (1973 film), a Swiss film The Invitation (2003 film), an American film starring Lance Henriksen Invitation (2008 film), an Iranian film by Ebrahim Hatamikia The Invitation (2015 film), an American horror film The Invitation (2022 film), an American horror film",
+          "targets": [
+            {
+              "_itemAll": 170,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Gayyata (fim na 1952) fim din MGM wanda Dorothy McGuire da Van Johnson suka fito The Invitation (fim na 1973), fim din Switzerland The Invitation (fim na 2003), fim din Amurka wanda Lance Henriksen ya fito da shi Gayyata (fim na 2008) , fim din Iran na Ebrahim Hatamikia The Invitation (fim na 2015), fim mai ban tsoro na Amurka The Invitation (fim na 2022), fim mai ban tsoro na Amurka"
+            },
+            {
+              "_itemAll": 171,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "XdGayyata (fim na 1952) fim din MGM wanda Dorothy McGuire da Van Johnson suka fito The Invitation (fim na 1973), fim din Switzerland The Invitation (fim na 2003), fim din Amurka wanda Lance Henriksen ya fito da shi Gayyata (fim na 2008) , fim din Iran na Ebrahim Hatamikia The Invitation (fim na 2015), fim mai ban tsoro na Amurka The Invitation (fim na 2022), fim mai ban tsoro na Amurka"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 86,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "1908308/30",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 172,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 173,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 87,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "2201533/1155240572_1_6",
+          "sourceText": "The 207 was launched in France, Spain, and Italy during April 2006, and later on in other markets in Europe and the Middle East. In January 2004, Peugeot decided not to manufacture the 207 in Ryton.[2]",
+          "targets": [
+            {
+              "_itemAll": 174,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "An kaddamar da 207 a Faransa, Spain, da Italiya a watan Afrilun 2006, daga baya kuma a wasu kasuwanni a Turai da Gabas ta Tsakiya. A cikin Janairu 2004, Peugeot ya yanke shawarar daina kera 207 a Ryton . [1]"
+            },
+            {
+              "_itemAll": 175,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "An kaddamar da 207 a Faransa, Spain, da Italiya a watan Afrilun 2006, daga baya kuma a wasu kasuwanni a Turai da Gabas ta Tsakiya. A cikin Janairu 2004, Peugeot ya yanke shawarar daina kera 207 a Ryton . [1] An ƙaddamar da ƙaddamar da Burtaniya a ranar 8 ga Yuni 2006. Amicus da TGWU, duka ƙungiyoyin da ke wakiltar ma'aikata a masana'antar sarrafa PSA da ke Ryton, Coventry, sun zaɓi wannan rana don ƙaddamar da yaƙin neman zaɓe na kauracewa motocin PSA na Peugeot da Citroën a Burtaniya, don nuna adawa da shirin kamfanin na rufe kamfanin. shuka. Kasuwancin Peugeot na United Kingdom ya karu, duk da kauracewar da aka yi. [2] Kafin kaddamar da, Peugeot ta kaddamar da yakin neman 207 akan MSN . [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 88,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2182291/13",
+          "sourceText": "In 2004 AFC Asian Cup Salmeen and his teammates put in a great performance, leading Bahrain to fourth place.",
+          "targets": [
+            {
+              "_itemAll": 176,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A 2004 AFC Cup Asian Cup Salmeen tare da abokan wasansa sun ba da kyauta, wanda ya jagoranci Bahrain zuwa matsayi na hudu."
+            },
+            {
+              "_itemAll": 177,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A shekarar 2004 AFC Cup Asian Cup Salmeen tare da abokan wasansa sun ba da kyauta, shekarar wanda ya jagoranci Bahrain zuwa matsayi na hudu."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 8,
+          "_item": 89,
+          "itemID": 1,
+          "itemType": "TGT",
+          "sourceID": "1735570/2",
+          "sourceText": "Abu Ibrahim is a Nigerian politician who was elected Senator for the Katsina South (Funtua) Senatorial district in April 2003 on the All Nigeria Peoples Party (ANPP) platform, serving for one term until May 2007.[1] He was re-elected to the same seat in April 2011.[2]",
+          "targets": [
+            {
+              "_itemAll": 178,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Abu Ibrahim dan siyasar Najeriya ne wanda aka zabe shi Sanata mai wakiltar Katsina ta Kudu (Funtua) Sanata a watan Afrilun 2003 a jam’iyyar All Nigeria Peoples Party (ANPP), wanda ya yi wa’adi daya har zuwa watan Mayu 2007. An sake zabe shi a wannan kujera a watan Afrilun 2011."
+            },
+            {
+              "_itemAll": 179,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Abu Ibrahim dan siyasar Najeriya ne wanda aka zabe shi Sanata mai wakiltar Katsina ta Kudu (Funtua) a cikin watan Afrilun 2003 a jam’iyyar All Nigeria Peoples Party (ANPP), wanda ya yi wa’adi daya har zuwa watan Mayu 2007. An sake zabe shi a wannan kujera a watan Afrilun 2011."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 90,
+          "itemID": 2,
+          "itemType": "TGT",
+          "sourceID": "1316663/8",
+          "sourceText": "Property rights are furthermore recognised in Article 13 of the ACHPR, which states that every citizen has the right to participate freely in the government of his country, the right to equal access to public services and \"the right of access to public property and services in strict equality of all persons before the law\". Article 21 of the ACHPR recognises the right of all peoples to freely dispose of their wealth and natural resources and that this right shall be exercised in the exclusive interest of the people, who may not be deprived of this right. Article 21 also provides that \"in case of spoliation the dispossessed people shall have the right to the lawful recovery of its property as well as to adequate compensation\".[9]",
+          "targets": [
+            {
+              "_itemAll": 180,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Recognizedancin mallakar ƙasa an ƙara amincewa da shi a cikin Mataki na 13 na ACHPR, wanda ya bayyana cewa kowane ɗan ƙasa yana da haƙƙin shiga cikin yardar ransa a cikin mulkin ƙasarsa, da 'yancin samun dama daidai da aiyukan gwamnati da kuma \"' yancin samun dukiyoyin jama'a da aiyuka a cikakken daidaito na kowa a gaban doka \". Mataki na 21 na ACHPR ya amince da 'yancin dukkan mutane don' yardar da dukiyoyinsu da albarkatun kasa sannan kuma za a yi amfani da wannan damar don biyan bukatun mutane, wadanda ba za a taresu da wannan 'yancin ba. Mataki na ashirin da 21 ya kuma tanadi cewa \"idan harbi ya tashi mutanen da aka kora suna da ikon kwato dukiyoyinsu ta hanyar da ta dace da kuma biyan su diyya yadda ya kamata\". [1]"
+            },
+            {
+              "_itemAll": 181,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A takaice zamu iya cewa mallakar ƙasa an ƙara amincewa da shi a cikin Mataki na 13 na ACHPR, wanda ya bayyana cewa kowane ɗan ƙasa yana da haƙƙin shiga ciki Amman da yardar ransa a cikin mulkin ƙasarsa, da 'yancin samun dama daidai da aiyukan gwamnati da kuma \"' yancin samun dukiyoyin jama'a da aiyuka a cikakken daidaito na kowa a gaban doka \". Mataki na ashirin da daya 21 na ACHPR ya amince da 'yancin dukkan mutane don' yardar da dukiyoyinsu da albarkatun kasa sannan kuma za a yi amfani da wannan damar don biyan bukatun mutane, wadanda ba za a taresu da wannan 'yancin ba. Mataki na ashirin da 21 ya kuma tanadi cewa \"idan harbi ya tashi mutanen da aka kora suna da ikon kwato dukiyoyinsu ta hanyar da ta dace da kuma biyan su diyya yadda ya kamata\". [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 91,
+          "itemID": 3,
+          "itemType": "TGT",
+          "sourceID": "2496199/1211938131_0_1",
+          "sourceText": "In the late 1970s, she served as Robert De Niro's personal assistant while he made the films Raging Bull and The King of Comedy. She also wrote the screenplay for Muhammad Ali's Greatest Fight.",
+          "targets": [
+            {
+              "_itemAll": 182,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A ƙarshen 1970s, ta yi aiki a matsayin mataimaki na sirri na Robert De Niro yayin da ya yi fina-finan Raging Bull da Sarkin Ban dariya . Ta kuma rubuta wasan kwaikwayo na fim ɗin Babban Yaƙin Muhammad Ali ."
+            },
+            {
+              "_itemAll": 183,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A ƙarshen 1970s, ta yi aiki a matsayin mataimakiya na sirri na Robert De Niro yayin da ya yi fina-finan Raging Bull da The King of Comedy. Ta kuma rubuta wasan kwaikwayo na fim ɗin Muhammad Ali's Greatest Fight."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 92,
+          "itemID": 4,
+          "itemType": "TGT",
+          "sourceID": "2119111/1",
+          "sourceText": "Imna Arroyo is a Puerto Rican artist. Her work is centered on printmaking and painting, particularly around the theme of \"energia de mujeres\", or \"women's energy\".[1]",
+          "targets": [
+            {
+              "_itemAll": 184,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Imna Arroyo ɗan wasan Puerto Rican ne. Ayyukanta sun ta'allaka ne kan yin bugu da zane-zane, musamman a kan taken \"energia de mujeres\", ko \"ƙarfin mata\". [1]"
+            },
+            {
+              "_itemAll": 185,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Imna Arroyo 'Yar wasan Puerto Rican ne. Ayyukanta sun ta'allaka ne kan yin bugu da zane-zane, musamman a kan taken \"energia de mujeres\", ko \"ƙarfin mata\".[1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 93,
+          "itemID": 5,
+          "itemType": "TGT",
+          "sourceID": "2683209/1218211386_2_6",
+          "sourceText": "In 2020, Paigham was witness to a Taliban attack on the National Directorate of Security office in Samagan.[1]",
+          "targets": [
+            {
+              "_itemAll": 186,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A cikin 2020, Paigham ya shaida harin da Taliban suka kai ofishin Daraktan Tsaro na kasa a Samagan. [1]"
+            },
+            {
+              "_itemAll": 187,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A cikin shekarar 2020, Paigham ta shaida harin da Taliban suka kai ofishin Daraktan Tsaro na ƙasa a Samagan. [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 94,
+          "itemID": 6,
+          "itemType": "TGT",
+          "sourceID": "2538540/1154289498_0_1",
+          "sourceText": "Maria de Fátima da Veiga (born June 22, 1957) is a Cape Verdean politician and diplomat. Veiga was the foreign minister from 2002 to 2004. She was the first female foreign minister in Cape Verde's history.",
+          "targets": [
+            {
+              "_itemAll": 188,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Maria de Fátima da Veiga (an haife shi a watan Yuni 22, 1957) yar siyasa ce kuma jami'ar diflomasiya ta Cape Verde . Veiga ya kasance ministan harkokin waje daga 2002 zuwa 2004. Ita ce mace ta farko ministar harkokin wajen kasar a tarihin Cape Verde."
+            },
+            {
+              "_itemAll": 189,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Maria de Fátima da Veiga (an haife ta a ranar 22 ga watan Yuni, 1957) 'yar siyasa ce kuma jami'ar diflomasiya ta Cape Verde. Veiga ta kasance ministan harkokin waje daga shekarun 2002 zuwa 2004. Ita ce mace ta farko ministar harkokin wajen ƙasar a tarihin Cape Verde."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 95,
+          "itemID": 7,
+          "itemType": "TGT",
+          "sourceID": "1986649/1",
+          "sourceText": "Cécile Hane (born October 8, 1987) is a Senegalese judoka, who played for the half-middleweight category.[1] Hane represented Senegal at the 2008 Summer Olympics in Beijing, where she competed for the women's half-middleweight class (63 kg). Unfortunately, she lost the first preliminary round match to Venezuela's Ysis Barreto, who successfully scored an ippon (full point) and a seoi nage (shoulder throw), at one minute and forty-seven seconds.[2]",
+          "targets": [
+            {
+              "_itemAll": 190,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Cécile Hane (an Haife shi Oktoba 8, 1987) Judoka ce ta Senegal, wacce ta taka leda a rukunin rabin matsakaicin nauyi. [1] Hane ta wakilci Senegal a gasar Olympics ta bazara a shekarar 2008 a birnin Beijing, inda ta fafata a gasar rabin matsakaicin ajin mata (63) kg). Abin takaici, ta yi rashin nasara a wasan zagayen farko na farko da Ysis Barreto ta Venezuela, wanda ya samu nasarar zura kwallo a ragar ippon (cikakken maki) da seoi nage (jifa da kafada), a minti daya da dakika arba'in da bakwai. [2]"
+            },
+            {
+              "_itemAll": 191,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "  Cécile Hane (an Haife ta a ranar 8 ga watan Oktoba 1987) 'yar wasan Judoka ce ta kasar Senegal, wacce ta taka leda a rukunin rabin matsakaicin nauyi. [1] Hane ta wakilci Senegal a gasar Olympics ta bazara a shekarar 2008 a birnin Beijing, inda ta fafata a gasar rabin matsakaicin ajin mata (63) kg). Abin takaici, ta yi rashin nasara a wasan zagayen farko na farko da Ysis Barreto ta Venezuela, wanda ta samu nasarar zura kwallo a ragar ippon (cikakken maki) da seoi nage (jifa da kafada), a minti daya da dakika arba'in da bakwai.[2] [3]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 96,
+          "itemID": 8,
+          "itemType": "TGT",
+          "sourceID": "2767747/1246032235_1_7",
+          "sourceText": "Waterford Quay at night",
+          "targets": [
+            {
+              "_itemAll": 192,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Waterford Quay da dare"
+            },
+            {
+              "_itemAll": 193,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "tashar jiragen ruwar Waterford da dare"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 97,
+          "itemID": 9,
+          "itemType": "TGT",
+          "sourceID": "2218541/1142841061_1_3",
+          "sourceText": "References",
+          "targets": [
+            {
+              "_itemAll": 194,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Nassoshi"
+            },
+            {
+              "_itemAll": 195,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Manazarta 1. ^ a b Enplan Group (September 2004), Review of The Public Sector Irrigation in Nigeria (PDF), Federal Ministry of Water Resources, archived from the original (PDF) on 2017-05-18, retrieved 2017-11-05 2. ^ ESU E.O.; OKEREKE C.S.; EDET A.E.; OKWUEZE E.E. (1996). \"Geotechnical characterisation of Obudu damsite, Obudu, south-eastern Nigeria\" . Engineering Geology . Elsevier, Kidlington. 42 (4): 285– 299. doi :10.1016/0013-7952(95)00090-9 . ISSN 0013-7952 . Retrieved 2010-05-21."
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 98,
+          "itemID": 10,
+          "itemType": "TGT",
+          "sourceID": "1299080/10",
+          "sourceText": "On 7 November 2011, Alhassan was called up to the Ghana senior squad to face Sierra Leone and Gabon.[11]",
+          "targets": [
+            {
+              "_itemAll": 196,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "A ranar 7 ga Nuwamba, 2011, an gayyaci Alhassan cikin manyan ‘yan wasan Ghana don karawa da Saliyo da Gabon . [1]"
+            },
+            {
+              "_itemAll": 197,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "A ranar 7 ga Nuwamban shekarar, 2011, an gayyaci Alhassan cikin manyan ‘yan wasan Ghana don karawa da Saliyo da Gabon . [1]"
+            }
+          ],
+          "targetsSize": 2
+        },
+        {
+          "_block": 9,
+          "_item": 99,
+          "itemID": 0,
+          "itemType": "TGT",
+          "sourceID": "2347531/1177317570_0_1",
+          "sourceText": "Mutinta Hichilema is the current (2021) First Lady of Zambia, having assumed the role after her husband, Hakainde Hichilema,[2] was elected as President of Zambia in August 2021.[3] She is committed to humanitarian causes and her active involvement in community development programs across Zambia.[4][5]",
+          "targets": [
+            {
+              "_itemAll": 198,
+              "_target": 0,
+              "targetID": "system-B",
+              "targetText": "Mutinta Hichilema ita ce Uwargidan Shugaban Kasar Zambiya na yanzu (2021), bayan da ta dauki mukamin bayan mijinta, Hakainde Hichilema, [1] aka zabe shi a matsayin Shugabar Zambiya a watan Agusta 2021 . [2] Ta himmatu ga ayyukan jin kai da kuma shigar da take yi a shirye-shiryen ci gaban al'umma a fadin Zambiya. [3] [4]"
+            },
+            {
+              "_itemAll": 199,
+              "_target": 1,
+              "targetID": "system-A",
+              "targetText": "Mutinta Hichilema ita ce Uwargidan Shugaban Kasar Zambiya na yanzu (2021), bayan da ta ɗauki muƙamin bayan mijinta, Hakainde Hichilema, [1] aka zaɓe shi a matsayin Shugaban Zambiya a watan Agusta 2021. [2] Ta himmatu ga ayyukan jin kai da kuma shigar da take yi a shirye-shiryen ci gaban al'umma a faɗin ƙasar Zambiya. [3] [4]"
+            }
+          ],
+          "targetsSize": 2
+        }
+      ],
+      "task": {
+        "batchNo": 1,
+        "batchSize": 10,
+        "contrastiveOutputs": 2,
+        "contrastiveSelectionMethod": "sampling (x10)",
+        "randomSeed": 123456,
+        "requiredAnnotations": 1,
+        "sourceLanguage": "eng",
+        "targetLanguage": "hau"
+      }
+    }
+  ]

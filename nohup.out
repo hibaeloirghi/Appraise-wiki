@@ -884,3 +884,21 @@ Not Found: /static/EvalView/css/images/ui-bg_glass_75_dadada_1x400.png
 Not Found: /static/EvalView/css/images/ui-bg_glass_65_ffffff_1x400.png
 Not Found: /static/EvalView/css/images/ui-bg_glass_75_dadada_1x400.png
 Not Found: /static/EvalView/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+[2025-04-15 19:34:33 -0400] [2327122] [INFO] Starting gunicorn 23.0.0
+[2025-04-15 19:34:33 -0400] [2327122] [INFO] Listening at: http://0.0.0.0:8000 (2327122)
+[2025-04-15 19:34:33 -0400] [2327122] [INFO] Using worker: sync
+[2025-04-15 19:34:33 -0400] [2327139] [INFO] Booting worker with pid: 2327139
+[2025-04-15 19:34:33 -0400] [2327140] [INFO] Booting worker with pid: 2327140
+[2025-04-15 19:34:33 -0400] [2327141] [INFO] Booting worker with pid: 2327141
+[2025-04-15 19:34:33 -0400] [2327142] [INFO] Booting worker with pid: 2327142
+/srv/www/wiki-annotation/Appraise-wiki/Appraise/settings.py:34: UserWarning: Using the default SECRET_KEY value! Set and export APPRAISE_SECRET_KEY envvar instead
+  warnings.warn(
+/srv/www/wiki-annotation/Appraise-wiki/Appraise/settings.py:34: UserWarning: Using the default SECRET_KEY value! Set and export APPRAISE_SECRET_KEY envvar instead
+  warnings.warn(
+/srv/www/wiki-annotation/Appraise-wiki/Appraise/settings.py:34: UserWarning: Using the default SECRET_KEY value! Set and export APPRAISE_SECRET_KEY envvar instead
+  warnings.warn(
+/srv/www/wiki-annotation/Appraise-wiki/Appraise/settings.py:34: UserWarning: Using the default SECRET_KEY value! Set and export APPRAISE_SECRET_KEY envvar instead
+  warnings.warn(
+Not Found: /static/EvalView/css/images/ui-bg_glass_65_ffffff_1x400.png
+Not Found: /static/EvalView/css/images/ui-bg_glass_75_dadada_1x400.png
+Not Found: /static/EvalView/css/images/ui-bg_glass_75_e6e6e6_1x400.png

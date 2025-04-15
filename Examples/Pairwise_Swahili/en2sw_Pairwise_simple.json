@@ -1,0 +1,2316 @@
+[
+  {
+    "items": [
+      {
+        "_block": 0,
+        "_item": 0,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1583040/4",
+        "sourceText": "Early life",
+        "targets": [
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Maisha ya zamani"
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Maisha ya awali"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 1,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "604096/3",
+        "sourceText": "James Kirkman, the first archeologist to excavate here in the 1950s, proposed to connect his findings with the \"Qanbalu\" mentioned by the Arab explorer Al-Masudi around 900 but could not identify remnants earlier than the 13th century [1]. A possible identification of Pemba Island as a whole and especially Ras Mkumbuu with Qanbalu is still discussed[2].",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "James Kirkman, archaeologist wa kwanza wa kuchimba hapa miaka ya 1950, alipendekeza kuunganisha matokeo yake na \"Qanbalu\" iliyotajwa na mtafiti wa Kiarabu Al-Masudi karibu 900 lakini haukuweza kutambua mabaki mapema kuliko karne ya 13 [1] . Kitambulisho kinachowezekana cha Kisiwa cha Pemba kwa ujumla na hasa Ras Mkumbuu na Qanbalu bado kinajadiliwa [2] ."
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mwanakiolojia James Kirkman alyiekuwa wa kwanza wa kuchimba hapa katika miaka ya 1950, alipendekeza kuona maghofu haya kama \"Qanbalu\" iliyotajwa na mpelelezi Mwarabu Al-Masudi mnamo mwaka 900 BK lakini hakuweza kutambua mabaki yaliyokuwa mapema kuliko karne ya 13 [1] . Wataalamu bado wanajadiliana kama \"Qanbalu\" ya Al Masudi ilikuwa kisiwa cha Pemba kwa ujumla na labda hasa mahali pa maghofu ya Ras Mkumbuu [2] ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 2,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1537558/2",
+        "sourceText": "Edite de Fátima Santos Marreiros Estrela, GCIH (born Belver; 28 October 1949[1]) is a Portuguese politician of the Socialist Party[2] who has been serving as a member of the Parliament of Portugal since the 2015 elections. is a currenty vice president of the Assembly of Republica",
+        "targets": [
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Edite de Fátima Santos Marreiros Estrela, GCIH (aliyezaliwa Belver ; 28 Oktoba 1949 [1] ) ni mwanasiasa wa Kireno wa Chama cha Kisoshalisti [2] ambaye amekuwa akihudumu kama mwanachama wa Bunge la Ureno tangu uchaguzi wa 2015 . ni makamu wa rais wa sasa wa Bunge la Jamhuri"
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Edite de Fátima Santos Marreiros Estrela, GCIH (alizaliwa Belver ; 28 Oktoba 1949 [1] ) ni mwanasiasa wa Kireno wa Chama cha Kisoshalisti [2] ambaye amekuwa akihudumu kama mwanachama wa Bunge la Ureno tangu uchaguzi wa 2015 . ni makamu wa rais wa sasa wa Bunge la Jamhuri"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 3,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "153784/mwHQ",
+        "sourceText": "He was first elected to Parliament on a Ford-Kenya ticket in 1992, becoming the Opposition Chief Whip. His predecessor was the late veteran politician, Elijah Mwangale. He was re-elected in 1997 and 2002. However, in the 2007 General Elections, he lost to newcomer David Simiyu Eseli of Ford-Kenya.",
+        "targets": [
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Yeye alikuwa wa kwanza kuchaguliwa kwa Bunge juu ya Ford-Kenya tiketi ya mwaka 1992, kuwa Upinzani Chief Whip. Mtangulizi wake alikuwa marehemu mwanasiasa mkongwe, Eliya Mwangale. Yeye alichaguliwa tena mwaka 1997 na 2002. Hata hivyo, katika Uchaguzi Mkuu wa 2007, yeye waliopotea mgeni David Simiyu Eseli wa Ford-Kenya."
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Alichaguliwa kwenda Bunge kwa tikiti ya chama cha Ford-Kenya mwaka wa 1992. Mtangulizi wake alikuwa  mwanasiasa mkongwe,marehemu  Elija Mwangale.  Alichaguliwa tena mwaka 1997 na 2002. Hata hivyo, katika Uchaguzi Mkuu wa 2007, alipoteza kiti chake  mgeni David Simiyu Eseli wa Ford-Kenya. "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 4,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1205231/8",
+        "sourceText": "She sang the song \"Sunder Susheel\" in the 2015 film Dum Laga Ke Haisha which had music by Anu Malik.",
+        "targets": [
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Aliimba wimbo \"Sunder Susheel\" katika filamu ya 2015 Dum Laga Ke Haisha ambayo ilikuwa na muziki na Anu Malik ."
+          },
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "mbali na hivyo pia aliimba wimbo \"Sunder Susheel\" katika filamu ya 2015 Dum Laga Ke Haisha ambayo ilikuwa na muziki na Anu Malik ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 5,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "895018/56",
+        "sourceText": "Samarium is not found free in nature, but, like other rare earth elements, is contained in many minerals, including monazite, bastnäsite, cerite, gadolinite and samarskite; monazite (in which samarium occurs at concentrations of up to 2.8%)[1] and bastnäsite are mostly used as commercial sources. World resources of samarium are estimated at two million tonnes; they are mostly located in China, US, Brazil, India, Sri Lanka and Australia, and the annual production is about 700 tonnes.[2] Country production reports are usually given for all rare-earth metals combined. By far, China has the largest production with 120,000 tonnes mined per year; it is followed by the US (about 5,000 tonnes)[3] and India (2,700 tonnes).[77] Samarium is usually sold as oxide, which at the price of about US$30/kg is one of the cheapest lanthanide oxides.[75] Whereas mischmetal – a mixture of rare earth metals containing about 1% of samarium – has long been used, relatively pure samarium has been isolated only recently, through ion exchange processes, solvent extraction techniques, and electrochemical deposition. The metal is often prepared by electrolysis of a molten mixture of samarium(III) chloride with sodium chloride or calcium chloride. Samarium can also be obtained by reducing its oxide with lanthanum. The product is then distilled to separate samarium (boiling point 1794 °C) and lanthanum (b.p. 3464 °C).[6]",
+        "targets": [
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Samarium haipatikani bure kwa maumbile, lakini, kama vitu vingine vya kawaida vya ardhi, iko katika madini mengi, pamoja na monazite, bastnäsite, cerite, gadolinite na samarskite ; monazite (ambayo samariamu hufanyika kwa viwango vya hadi 2.8%) [1] na bastnäsite hutumiwa sana kama vyanzo vya kibiashara. Rasilimali za ulimwengu za samarium inakadiriwa kuwa tani milioni mbili; yanapatikana zaidi nchini Uchina, Amerika, Brazil, India, Sri Lanka na Australia, na uzalishaji wa kila mwaka ni karibu tani 700. [2] Ripoti za uzalishaji wa nchi kawaida hupewa madini yote ya kawaida duniani pamoja. Kufikia sasa, China ina uzalishaji mkubwa zaidi na tani 120,000 zilizochimbwa kwa mwaka; inafuatwa na Amerika (kama 5,000   tani) [3] na India (2,700   tani). [4] Samariamu kawaida huuzwa kama oksidi, ambayo kwa bei ya karibu dola 30 za Marekani / kilo ni moja ya oksidi za bei rahisi za lanthanide. [5] Wakati mischmetal - mchanganyiko wa metali za ardhini zenye takriban 1% ya samarium - zimetumika kwa muda mrefu, samariamu safi imetengwa hivi karibuni tu, kupitia michakato ya ubadilishanaji wa ioni, mbinu za uchoraji, na uwekaji wa umeme . Chuma mara nyingi huandaliwa na electrolysis ya mchanganyiko wa kloridi ya samari (III) na kloridi ya sodiamu au kloridi ya kalsiamu . Samariamu pia inaweza kupatikana kwa kupunguza oksidi yake na lanthanum . Bidhaa hiyo husafishwa kutenganisha samarium (kiwango cha kuchemsha 1794   ° C) na lanthanum (bp   3464   ° C). [6]"
+          },
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Samarium haipatikani katika hali safi ila iko ndani madini mengi. Akiba za duniani za samari zinakadiriwa kuwa tani milioni mbili; zinapatikana zaidi nchini China, Marekani, Brazil, India, Sri Lanka na Australia, na uzalishaji wa kila mwaka ni karibu tani 700. [2] China ina uzalishaji mkubwa zaidi na tani 120,000 zilizochimbwa kwa mwaka; inafuatwa na Marekani (kama tani 5,000) [3] na India (t 2,700). [4] Samari kwa kawaida huuzwa kama oksidi.[5]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 6,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1561092/1",
+        "sourceText": "Sarah Carneson (17 June 1916 – 30 October 2015) was a South African labour organizer and anti-apartheid activist.",
+        "targets": [
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sarah Carneson (17 Juni 1916 – 30 Oktoba 2015) alikuwa mratibu wa kazi wa Afrika Kusini na mwanaharakati wa kupinga ubaguzi wa rangi."
+          },
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sarah Carneson, (17 Juni, 1916 – 30 Oktoba, 2015) alikuwa mratibu wa wafanyakazi wa Afrika Kusini na mwanaharakati wa kupinga ubaguzi wa rangi."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 7,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "599228/6",
+        "sourceText": "In July 2016, after David Cameron resigned, May was elected unopposed as Conservative Party Leader, becoming the second female Prime Minister after Margaret Thatcher. As Prime Minister, May began the process of withdrawing the UK from the European Union, triggering Article 50 in March 2017. The following month, she announced a snap general election in June, with the aim of strengthening her hand in Brexit negotiations.[4][5] This resulted in a hung parliament, in which the number of Conservative seats fell from 330 to 317, despite the party winning their highest vote share since 1983. The loss of an overall majority prompted her to enter a confidence and supply arrangement with the Democratic Unionist Party (DUP) to support a minority government.",
+        "targets": [
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Katika julai 2016, baada ya David Cameron alijiuzulu, Mei alikuwa kuchaguliwa unopposed kama Kihafidhina Kiongozi wa Chama, kuwa wa pili wa kike wa Waziri Mkuu baada ya Margaret Thatcher. Kama Waziri Mkuu, Mei alianza mchakato wa kujiondoa UINGEREZA kutoka Umoja wa Ulaya, kuchochea Ibara ya 50 katika Machi 2017. Mwezi uliofuata, yeye alitangaza snap uchaguzi mkuu katika juni, kwa lengo la kuimarisha mkono wake katika Brexit mazungumzo.[1][2] Hii ilisababisha hung bunge, ambayo idadi ya Kihafidhina viti akaanguka kutoka 330 kwa 317, licha ya chama kushinda juu yao kupiga kura kushiriki tangu mwaka 1983. Hasara ya jumla ya wengi ilisababisha yake ya kuingia kujiamini na ugavi utaratibu na Kidemokrasia vyama vya wafanyakazi Chama (DUP) kwa msaada wa serikali ya wachache."
+          },
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Katika julai 2016, baada ya David Cameron alijiuzulu, Mei alikuwa kuchaguliwa unopposed kama Kihafidhina Kiongozi wa Chama, kuwa wa pili wa kike wa Waziri Mkuu baada ya Margaret Thatcher. Kama Waziri Mkuu, Mei alianza mchakato wa kujiondoa UINGEREZA kutoka Umoja wa Ulaya, kuchochea Ibara ya 50 katika Machi 2017. Mwezi uliofuata, yeye alitangaza snap uchaguzi mkuu katika juni, kwa lengo la kuimarisha mkono wake katika Brexit mazungumzo.[1][2] Hii ilisababisha hung bunge, ambayo idadi ya Kihafidhina viti akaanguka kutoka 330 kwa 317, licha ya chama kushinda juu yao kupiga kura kushiriki tangu mwaka 1983. Hasara ya jumla ya wengi ilisababisha yake ya kuingia kujiamini na ugavi utaratibu na Kidemokrasia vyama vya wafanyakazi Chama (DUP) kwa msaada wa serikali ya wachache."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 8,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1315158/8",
+        "sourceText": "Sheikh Ishaaq's tomb is in Maydh, and is the scene of frequent pilgrimages.[1] Sheikh Ishaaq's mawlid (birthday) is also celebrated every Thursday with a public reading of his manaaqib (a collection of glorious deeds).[2] His Siyaara or pilgrimage is performed annually both within Somaliland and in the diaspora particularly in the Middle East among Isaaq expatriates.",
+        "targets": [
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Kaburi la Sheikh Ishaaq liko Maydh, na ndio eneo la safari za mara kwa mara. [1] Mawlid (siku ya kuzaliwa) ya Sheikh Ishaaq pia huadhimishwa kila Alhamisi na kusoma kwa umma manaaqib yake (mkusanyiko wa matendo matukufu). [2] Siyaara yake au hija yake hufanywa kila mwaka ndani ya Somaliland na ughaibuni haswa katika Mashariki ya Kati kati ya wageni wa Isaaq."
+          },
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kaburi la Sheikh Ishaaq liko Maydh, na ndio eneo wanapofika mahujaji mara kwa mara. [1] Maulid (siku ya kuzaliwa) ya Sheikh Ishaaq pia huadhimishwa kila Alhamisi kwa kusoma manaaqib yake (mkusanyiko wa matendo matukufu). [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 9,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1551030/3",
+        "sourceText": "Early life",
+        "targets": [
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Maisha ya zamani"
+          },
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Maisha ya mapema"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 10,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2029584/2",
+        "sourceText": "Sarah May Yee Ho (born 28 October 1978) is an Australian soccer referee. She has been an assistant referee in both the W-League and the A-League competitions.[2][3]",
+        "targets": [
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sarah May Yee Ho (amezaliwa 28 Oktoba 1978) ni mwamuzi wa soka wa Australia. Amekuwa mwamuzi msaidizi katika mashindano ya W-League na A-League . [1] [2]"
+          },
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sarah May Yee Ho (alizaliwa 28 Oktoba 1978) ni mwamuzi wa mpira wa miguu wa Australia. Amekuwa mwamuzi msaidizi katika mashindano ya ligi za W-League na A-League . [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 11,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1544307/14",
+        "sourceText": "In the 2013 Queen's Birthday Honours, Helen ApSimon was appointed a Commander of the Order of the British Empire (CBE) for services to air pollution science.[19][20]",
+        "targets": [
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Katika Tuzo za Siku ya Kuzaliwa ya Malkia 2013, Helen ApSimon aliteuliwa kuwa Kamanda wa Amri ya Milki ya Uingereza (CBE) kwa huduma za sayansi ya uchafuzi wa hewa. [1] [2]"
+          },
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kwenye Tuzo za Siku ya Kuzaliwa ya Malkia 2013, Helen ApSimon aliteuliwa kuwa Kamanda wa Amri ya Milki ya Uingereza (CBE) kwa huduma za sayansi ya uchafuzi wa hewa. [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 12,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "575989/mwEg",
+        "sourceText": "On 2 March 2012, ggplot2 version 0.9.0 was released with numerous changes to internal organization, scale construction and layers.[4]",
+        "targets": [
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Tarehe 2 Machi 2012, ggplot2 toleo 0.9.0 ilitolewa na mabadiliko mbalimbali ndani ya shirika, wadogo ujenzi na tabaka.[4]"
+          },
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Tarehe 2 Machi 2012, ggplot2 toleo 0.9.0 ilitolewa na mabadiliko mbalimbali ndani ya shirika, ujenzi mdogo na tabaka.[4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 13,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2308585/1181502746_0_1",
+        "sourceText": "Insomnia, also known as sleeplessness, is a sleep disorder in which people have trouble sleeping.[1] They may have difficulty falling asleep, or staying asleep as long as desired.[9][11] Insomnia is typically followed by daytime sleepiness, low energy, irritability, and a depressed mood.[1] It may result in an increased risk of motor vehicle collisions, as well as problems focusing and learning.[1] Insomnia can be short term, lasting for days or weeks, or long term, lasting more than a month.[1]",
+        "targets": [
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Kukosa usingizi, pia inajulikana kama kukosa usingizi, ni ugonjwa wa usingizi ambao watu hupata shida kulala . [1] Wanaweza kuwa na ugumu wa kulala, au kulala kwa muda mrefu kama unavyotaka. [2] [3] Kukosa usingizi kwa kawaida hufuatwa na usingizi wa mchana, nishati kidogo, kuwashwa, na hali ya mfadhaiko . [1] Inaweza kusababisha kuongezeka kwa hatari ya migongano ya magari, pamoja na matatizo ya kuzingatia na kujifunza. [1] Usingizi unaweza kuwa wa muda mfupi, kudumu kwa siku au wiki, au muda mrefu, kudumu zaidi ya mwezi mmoja. [1]"
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kukosa usingizi, pia inajulikana kama kurukwa usingizi, ni ugonjwa wa usingizi ambao watu hupata shida kulala . [1] Wanaweza kuwa na ugumu wa kulala, au kulala kwa muda mrefu kama unavyotaka. [2] [3] Kukosa usingizi kwa kawaida hufuatwa na usingizi wa mchana, nishati kidogo, kuwashwa, na hali ya mfadhaiko . [1] Hali hii inaweza kusababisha kuongezeka kwa hatari ya migongano ya magari, pamoja na matatizo ya kuzingatia na kujifunza. [1] Kukuosa usingizi unaweza kuwa wa muda mfupi, kudumu kwa siku au wiki, au muda mrefu, kudumu zaidi ya mwezi mmoja. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 14,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1374789/2",
+        "sourceText": "The dam, Kenya's tallest, has a height of 153 metres (502 ft), crest length of 150 m, dam volume of 170,000 cubic metres (6,000,000 cu ft) and retains a water volume of 1,641 million cubic metres (1,330,000 acre⋅ft). The power station is located underground downstream and contains two 56 MW Francis turbine-generators.[2] The difference in elevation between the reservoir and power station afford a net hydraulic head of 356 m (1,168 ft).[3]",
+        "targets": [
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Bwawa hilo, refu zaidi Kenya, lina urefu wa 153 metres (502 ft), urefu wa urefu wa mita 150, ujazo wa bwawa la 170,000 cubic metres (6,000,000 cu ft) na huhifadhi kiasi cha maji cha 1,641 mita za ujazo milioni (1,330,000 ekari) . Kituo cha umeme kiko chini ya ardhi chini ya ardhi na ina vinu viwili vya turbine 56 MW Francis. [1] Tofauti ya mwinuko kati ya hifadhi na kituo cha umeme kumudu kichwa cha 356 m (1,168 ft) . [2]"
+          },
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Ukuta wa lambo ni mrefu nchini Kenya ukiwa na kimo cha mita 153. Kituo cha umeme kimejengwa chini ya ardhi kina jenereta mbili zenye rafadha za megawati 56. [1] Tofauti ya mwinuko kati ya bwawa na kituo cha umeme ni kumudu mita 356. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 15,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1614208/4",
+        "sourceText": "Micronutrient deficiency is a serious public health concern in most developing countries. In India, iron deficiency, vitamin A deficiency, and iodine deficiency disorder are of greatest public health significance. In addition, subclinical zinc deficiency, fluorosis, and fluoride-deficient dental caries are important areas of concern, writes Dr. Indira Chakravarty.[3]",
+        "targets": [
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": " "
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": " Upungufu wa virutubishi vidogo ni tatizo kubwa la afya ya umma katika nchi nyingi zinazoendelea. Nchini India, upungufu wa madini ya chuma, upungufu wa vitamini A, na ugonjwa wa upungufu wa iodini ni muhimu sana kwa afya ya umma. Kwa kuongeza, upungufu wa zinki ndogo, fluorosis, na caries ya meno isiyo na fluoride ni maeneo muhimu ya wasiwasi, anaandika Dk Indira Chakravarty."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 16,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1601397/2",
+        "sourceText": "Oritsefemi Majemite Ekele (born 5 January 1985)[1] popularly known by his first name Oritse Femi, is a Nigerian singer-songwriter and performer.[4][5] He is best known for his remake of Fela Kuti's \"Double Wahala\" song. His rendition of the song earned him two nominations at the 2014 City People Entertainment Awards, winning the award for Most Popular Song of the Year. He also won the Indigenous Artist of the Year award at the 2014 Nigeria Entertainment Awards. In 2014, he released the remix for his version of the song featuring D'banj.",
+        "targets": [
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Oritsefemi Majemite Ekele (aliyezaliwa 5 Januari 1985) [1] maarufu kwa jina lake la kwanza Oritse Femi, ni mwimbaji-mtunzi wa nyimbo na mwimbaji kutoka Nigeria. [2] [3] Anafahamika zaidi kwa kutengeneza upya wimbo wa Fela Kuti \"Double Wahala\". Utoaji wake wa wimbo huo ulimletea uteuzi mara mbili katika Tuzo za 2014 za City People Entertainment, na kushinda tuzo ya Wimbo Maarufu Zaidi wa Mwaka. Pia alishinda tuzo ya Msanii wa Asili wa Mwaka katika Tuzo za Burudani za Nigeria za 2014 . Mnamo 2014, alitoa remix ya toleo lake la wimbo akimshirikisha D'banj ."
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Oritsefemi Majemite Ekele (alizaliwa 5 Januari 1985) [1] maarufu kwa jina lake la kwanza Oritse Femi, ni mwimbaji-mtunzi wa nyimbo kutoka Nigeria. [2] [3] Anafahamika zaidi kwa kurudia upya wimbo wa Fela Kuti \"Double Wahala\". Wimbo huo ulimletea uteuzi mara mbili katika Tuzo za 2014 za City People Entertainment, na kushinda tuzo ya Wimbo Maarufu Zaidi wa Mwaka. Pia alishinda tuzo ya Msanii wa Asili wa Mwaka katika Tuzo za Burudani za Nigeria za 2014 . Mnamo 2014, alitoa remix ya toleo lake la wimbo akimshirikisha D'banj ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 17,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "795480/3",
+        "sourceText": "The Bushmen, or San, have inhabited the lands for thousands of years since they roamed the area as nomadic hunters.[3] However, since the mid-1990s the Botswana government has tried to relocate the Bushmen from the reserve, claiming they were a drain on financial resources despite revenues from tourism. In 1997, three quarters of the entire San population were relocated from the reserve, and in October 2005 the government had resumed the forced relocation into resettlement camps outside of the park leaving only about 250 permanent occupiers.[2] In 2006 a Botswana court proclaimed the eviction illegal and affirmed the Bushmen's right to return to living in the reserve. However, as of 2015 most Bushmen are blocked from access to their traditional lands in the reserve. A nationwide ban on hunting made it illegal for the Bushmen to practice their traditional hunter-gatherer lifestyle, despite allowing private game ranches to provide hunting opportunities for tourists.[4]",
+        "targets": [
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Wabushini, au San, wamekaa ardhi kwa maelfu ya miaka tangu walizunguka eneo hilo kama wawindaji wahamaji. [1] Walakini, tangu katikati ya miaka ya 1990 serikali ya Botswana imejaribu kuwahamisha Wabushini kutoka kwa akiba, kwa madai kuwa walikuwa dimbuko la rasilimali za kifedha licha ya mapato kutoka kwa utalii. Mnamo 1997, robo tatu ya watu wote wa San walihamishwa kutoka kwenye hifadhi hiyo, na mnamo Oktoba 2005 serikali ilikuwa imerudisha uhamishaji wa kulazimishwa kwenda kwenye kambi za makazi mapya nje ya hifadhi ikiwaacha wakaazi 250 wa kudumu. [2] Mnamo 2006 korti ya Botswana ilitangaza kufukuzwa kwa njia isiyo halali na ikathibitisha haki ya Wabushman kurudi kuishi katika akiba. Walakini, kufikia mwaka wa 2015 Wabushs wengi wamezuiliwa kutokana na upatikanaji wa ardhi zao za jadi kwenye akiba. Marufuku ya kitaifa ya uwindaji yalifanya iwe haramu kwa Wabushmen kutekeleza maisha yao ya jadi ya wawindaji, licha ya kuruhusu rununu za mchezo wa kibinafsi kutoa fursa za uwindaji kwa watalii. [3]"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Wakazi asilia ni Wasan walioendesha hapa maisha y wavindaji bila makazi ya kudumu. [1] Tangu miaka ya 1990 serikali ya Botswana ilianza kuhamisha Wasan nje ya hifadhi na ni 250 pekee wanaobaki. [2] Sheria zinazokataza uvindaji nchini ni kikwazo kikubwa kwa Wasan kuedlea na utamaduni na maisha yao. [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 18,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1541917/2",
+        "sourceText": "Born in Argentina in 15 June 1964, Maria Verónica Reina was disabled in a car accident at the age of 17 when she was in her final year at school. After a period in hospital, she was nevertheless able to complete her schooling. She had hoped to become a teacher but was refused entry to educational studies as disabled persons were not authorized to teach in Argentina.[3] She managed to overcome these difficulties by opting for educational psychology, graduating from the Universidad Católica de Santa Fe (Catholic University of Santa Fe) in Special Education for School Integration. She went on to earn a master's degree in Open and Distance Learning and Teaching from Spain's National University of Distance Education.[2]",
+        "targets": [
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mzaliwa wa Argentina mnamo 15 Juni 1964, Maria Verónica Reina alikuwa mlemavu katika ajali ya gari akiwa na umri wa miaka 17 alipokuwa katika mwaka wake wa mwisho shuleni. Baada ya muda wa kulazwa hospitalini, hata hivyo aliweza kumaliza shule. Alitarajia kuwa mwalimu lakini alikataliwa kujiunga na masomo ya elimu kwa kuwa walemavu hawakuidhinishwa kufundisha nchini Ajentina. [1] Alifanikiwa kushinda matatizo haya kwa kuchagua saikolojia ya elimu, na kuhitimu kutoka Universidad Católica de Santa Fe (Chuo Kikuu cha Kikatoliki cha Santa Fe) katika Elimu Maalum ya Muunganisho wa Shule. Aliendelea na kupata shahada ya uzamili katika Kujifunza na Kufundisha kwa Wazi na Masafa kutoka Chuo Kikuu cha Kitaifa cha Elimu ya Umbali cha Uhispania. [2]"
+          },
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mzaliwa wa Argentina mnamo 15 Juni 1964, Maria Verónica Reina alikuwa mlemavu kutokana na ajali ya gari akiwa na umri wa miaka 17 alipokuwa mwaka wa mwisho shuleni. Baada ya muda wa kulazwa hospitalini, hata hivyo aliweza kumaliza shule. Alitarajia kuwa mwalimu lakini alikataliwa kujiunga na masomo ya elimu kwa kuwa walemavu hawakuidhinishwa kufundisha nchini Argentina. [1] Alifanikiwa kushinda matatizo haya kwa kuchagua saikolojia ya elimu, na kuhitimu kutoka Universidad Católica de Santa Fe (Chuo Kikuu cha Kikatoliki cha Santa Fe) katika Elimu Maalum ya Muunganisho wa Shule. Aliendelea na kupata shahada ya uzamili katika Kujifunza na Kufundisha kwa Wazi na Masafa kutoka Chuo Kikuu cha Kitaifa cha Elimu ya Umbali cha Uhispania. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 19,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1015809/10",
+        "sourceText": "The climate is continental with short warm summers and long and severely cold winters. Most of the territory is covered with conifer forests (larch is especially abundant). The plateau's major river is the Lower Tunguska. Known geologically as the Siberian Traps, mineral resources here are very rich and include coal, iron ore, gold, platinum, diamonds and natural gas.",
+        "targets": [
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Hali ya hewa ni ya bara na majira ya joto fupi na msimu wa joto mrefu na baridi. Sehemu kubwa ya eneo hilo inafunikwa na misitu ya kondeni ( larch ni nyingi). Mto mkubwa wa jani ni Ziwa Tunguska ya Chini . Inayojulikana kijiolojia kama Mitego ya Siberia, rasilimali za madini hapa ni tajiri sana na ni pamoja na makaa ya mawe, madini ya chuma, dhahabu, platinamu, almasi na gesi asilia ."
+          },
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Tabianchi ni ya kibara yenye majira ya joto fupi na majira marefu ya baridi. Sehemu kubwa ya eneo hilo inafunikwa na misitu ya misinobari. Mto mkubwa ni Tunguska ya chini. Maliasili ya madini ziko nyingi, zikiwa pamoja na makaa ya mawe, madini ya chuma, dhahabu, platini, almasi na gesi asilia ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 20,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1720138/12",
+        "sourceText": "See also",
+        "targets": [
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Viungo vya nje"
+          },
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Angalia pia"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 21,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2042207/1",
+        "sourceText": "Sam Duffie Hinton (March 31, 1917 – September 10, 2009) was an American folk singer, marine biologist, photographer, and aquarist, best known for his music and harmonica playing. Hinton also taught at the University of California, San Diego, published books and magazine articles on marine biology, and worked as a calligrapher and artist.",
+        "targets": [
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sam Duffie Hinton (Machi 31, 1917 - 10 Septemba 2009) alikuwa mwimbaji wa watu wa Kimarekani, mwanabiolojia wa baharini, mpiga picha, na mwana aquarist, anayejulikana zaidi kwa muziki wake na uchezaji wa harmonica . Hinton pia alifundisha katika Chuo Kikuu cha California, San Diego, alichapisha vitabu na nakala za majarida kuhusu biolojia ya baharini, na alifanya kazi kama kalligrapher na msanii."
+          },
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sam Duffie Hinton (Machi 31, 1917 - 10 Septemba 2009) alikuwa mwimbaji wa Kimarekani, mwanabiolojia wa baharini, mpiga picha, na anayejulikana zaidi kwa kuimba muziki na uchezaji wa hamonika . Hinton pia alifundisha katika Chuo Kikuu cha California, San Diego, alichapisha vitabu na makala za majarida kuhusu biolojia ya baharini, na alifanya kazi kama kalligrapher na msanii."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 22,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1763700/1",
+        "sourceText": "John Henry Booske is an American electrical and computer engineer. He is the Duane H. and Dorothy M. Bluemke Professor and Vilas Distinguished Achievement Professor in electrical and computer engineering at the University of Wisconsin–Madison. His research interests include experimental and theoretical study of coherent electromagnetic radiation, its sources and its applications, spanning the RF, microwave, millimeter-wave, and THz regimes.",
+        "targets": [
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "John Henry Booske ni mhandisi wa umeme na kompyuta kutoka Marekani. Yeye ni Duane H. na Dorothy M. Bluemke Profesa na Vilas Distinguished Achievevees katika uhandisi wa umeme na kompyuta katika Chuo Kikuu cha Wisconsin–Madison . Masilahi yake ya utafiti ni pamoja na utafiti wa majaribio na wa kinadharia wa mionzi thabiti ya sumakuumeme, vyanzo vyake na matumizi yake, inayojumuisha RF, microwave, mawimbi ya milimita, na serikali za THz."
+          },
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "John Henry Booske ni mhandisi wa umeme na kompyuta kutoka Marekani. Yeye ni Profesa wa uhandisi wa umeme na kompyuta wa Duane H. na Dorothy M. Bluemke na Vilas kutoka katika Chuo Kikuu cha Wisconsin–Madison . Utafiti wake ulilenga zaidi nadharia ya mionzi ya sumakuumeme, vyanzo vyake na matumizi yake, inayojumuisha RF, microwave na mawimbi ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 23,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1830336/11",
+        "sourceText": "Break from liberalism",
+        "targets": [
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Achana na uliberali"
+          },
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kuachana na theolojia ya kiliberali"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 24,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2042793/8",
+        "sourceText": "He sang the poetry of Shah Abdul Latif, Sachal Sarmast, Misri Shah and other Sufi poets of Sindh.[7] He also performed in England, Germany, Belgium, Russia and China. Muhammad Yousuf not only sang in Sindhi but also in Seraiki and Urdu languages.",
+        "targets": [
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Aliimba mashairi ya Shah Abdul Latif, Sachal Sarmast, Misri Shah na washairi wengine wa Kisufi wa Sindh. [1] Pia alitumbuiza nchini Uingereza, Ujerumani, Ubelgiji, Urusi na China . Muhammad Yousuf hakuimba kwa Kisindhi pekee bali pia katika lugha za Seraiki na Kiurdu ."
+          },
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Aliimba mashairi ya Shah Abdul Latif, Sachal Sarmast, Misri Shah na washairi wengine wa Kisufi wa Sindh. [1] Pia alitumbuiza nchini Uingereza, Ujerumani, Ubelgiji, Urusi na China . Muhammad Yousuf hakuimba kwa Kisindhi pekee bali pia katika lugha za Seraiki na Kiurdu ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 25,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1487308/11",
+        "sourceText": "Karonga is at an elevation of 478 metres (1,568 ft) on the western shore of Lake Nyasa. It is situated 28 kilometres (17+1⁄4 mi) from Kenan Ngomba, 18 km (11 mi) from Kaporo, 42.5 km (26+1⁄2 mi) from Kilondo and 12 km (7+1⁄2 mi) from Lupembe.[8]",
+        "targets": [
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Karonga iko kwenye mwinuko wa 478 metres (1,568 ft) kwenye ufuo wa magharibi wa Ziwa Nyasa . Ni hali  kutoka Kenan Ngomba, 18 km (11 mi) kutoka Kaporo,  kutoka kilondo na  kutoka Lupembe . [1]"
+          },
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Karonga iko kwenye mwinuko wa mita 478 juu ya UB kwenye ufuo wa magharibi wa Ziwa Nyasa .[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 26,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2131050/6",
+        "sourceText": "Abraham was captain of Tanzanian squad at 2019 Africa U-17 Cup of Nations.[4][5]",
+        "targets": [
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Abraham alikuwa nahodha wa kikosi cha Tanzania kwenye Kombe la Mataifa ya Afrika la U-17 2019 . [1] [2]"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Abraham alikuwa nahodha wa kikosi cha Tanzania kwenye Kombe la Mataifa ya Afrika chini ya miaka 17 mwaka 2019 . [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 27,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2783028/1241679173_1_4",
+        "sourceText": "Personal life",
+        "targets": [
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Maisha ya kibinafsi"
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Maisha ya binafsi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 28,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "802271/4",
+        "sourceText": "Western Siberian plain seen from the Trans-Siberian railway outside Tatarskaya",
+        "targets": [
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Magharibi mwa Siberian ilionekana kutoka kwa reli ya Trans-Siberian nje ya Tatarskaya"
+          },
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Tambarare ya Siberia Magharibi jinsi inavyoonekana ukipita kwa reli ya Kuvukia-Siberia karibu na Tatarskaya"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 29,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1277675/7",
+        "sourceText": "After graduating from North Panola High School, Kent entered Northwest Mississippi Community College in Senatobia where she majored in Journalism and Public Relations. While at Northwest, Kent became the first African-American to be elected president of the Student Senate.[3] She subsequently transferred to Mississippi State University in Starkville where she earned a bachelor's degree. While at Mississippi State, Kent was the first African-American woman to be elected to the Student Association,[4] serving as the Attorney General.[5]",
+        "targets": [
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Baada ya kuhitimu kutoka Shule ya Upili ya North Panola, Kent aliingia Chuo cha Jamii cha Kaskazini Magharibi cha Mississippi huko Senatobia ambapo alijishughulisha na Uandishi wa Habari na Uhusiano wa Umma . Akiwa Kaskazini Magharibi, Kent alikua Mwafrika-Amerika wa kwanza kuchaguliwa kuwa rais wa Seneti ya Wanafunzi. [1] Baadaye alihamia Chuo Kikuu cha Jimbo la Mississippi huko Starkville ambapo alipata digrii ya shahada. Akiwa katika Jimbo la Mississippi, Kent alikuwa mwanamke wa kwanza Mwafrika na Mmarekani kuchaguliwa katika Jumuiya ya Wanafunzi, [2] akihudumu kama Mwanasheria Mkuu wa Serikali. [3]"
+          },
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Baada ya kuhitimu kutoka Shule ya Upili ya North Panola, Kent alijiunga na Chuo cha Northwest Mississippi Community College huko Senatobia ambapo alisomeaa Uandishi wa Habari na Uhusiano wa Umma . Akiwa Kaskazini Magharibi, Kent alikua mmarekani mweusi wa kwanza kuchaguliwa kuwa rais wa Seneti ya Wanafunzi. [1] Baadaye alihamia Chuo Kikuu cha Jimbo la Mississippi huko Starkville ambapo alipata shahada ya kwanza. Akiwa katika Jimbo la Mississippi, Kent alikuwa mwanamke wa kwanza mmarekani mweusi kuchaguliwa katika Jumuiya ya Wanafunzi, [2] akihudumu kama Mwanasheria Mkuu wa Serikali. [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 30,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1205231/7",
+        "sourceText": "She participated on TV for NDTV Imagine's Junoon. She was appointed as the brand ambassador by Election Commission for UP Elections 2012 and 2014.[7]",
+        "targets": [
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Alishiriki kwenye Runinga ya Junoon ya NDTV. Aliteuliwa kama balozi wa bidhaa na Tume ya Uchaguzi ya Uchaguzi wa UP 2012 na 2014 [1]"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Alishiriki kwenye Runinga ya Junoon ya NDTV. Aliteuliwa kama balozi wa bidhaa na Tume ya Uchaguzi wa UP 2012 na 2014 [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 31,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1248055/43",
+        "sourceText": "On December 5, Now United held a Goodbye Dance Party, marking the end of their stay in UAE.[38]",
+        "targets": [
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mnamo Desemba 5, Sasa United walifanya sherehe ya densi ya Bahati nzuri, ikiashiria mwisho wa kukaa kwao UAE. [1]"
+          },
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mnamo Desemba 5, Now United ilifanya sherehe ya densi ya kuagana, ikiashiria mwisho wa kukaa kwao UAE. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 32,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2041942/16",
+        "sourceText": "Despite strict protocols in the breeding facilities, toads are occasionally attacked by chytrid fungus, resulting in mass deaths at the Kihansi facility. Air conditioning and water filtration system malfunctions have also contributed to toad mortality. Researchers suggest that reintroduction of the species in the wild might take time because it needs to adapt slowly to the wild habitat in which it needs to search for food, evade predators, and overcome disease, in contrast to the controlled environment they lived in during captivity.[1]",
+        "targets": [
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Licha ya itifaki kali katika vituo vya kuzaliana, chura mara kwa mara hushambuliwa na fangasi wa chytrid, na kusababisha vifo vya watu wengi katika kituo cha Kihansi. Hitilafu za mfumo wa kuchuja viyoyozi na maji pia zimechangia vifo vya chura. Watafiti wanapendekeza kwamba kuletwa tena kwa spishi hizo porini kunaweza kuchukua muda kwa sababu inahitaji kuzoea mazingira ya porini ambayo inahitaji kutafuta chakula, kukwepa wanyama wanaowinda wanyama wengine, na kushinda magonjwa, tofauti na mazingira yaliyodhibitiwa ambayo waliishi wakati wa utumwa. . [1]"
+          },
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Watafiti wanaona kwamba kuletwa tena kwa spishi hiyo porini kunaweza kuchukua muda kwa sababu inahitaji kuzoea mazingira ya porini ambayo inahitaji kutafuta chakula, kukwepa wanyama wanaowinda wanyama wengine, na kushinda magonjwa, tofauti na mazingira yaliyodhibitiwa ambayo waliishi wakati wa kufugwa Marekani. [1] Tangu mwaka 2020 Shirika la Umeme Tanesco lilishiriki katika gharama za utunzaji wa vyura hao na kuwarudisha tena Tanzania kwa jumla ya TSh milioni 611.92[2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 33,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1236449/4",
+        "sourceText": "Demographics",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Idadi ya watu"
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mandharinyuma"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 34,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1205562/6",
+        "sourceText": "In England",
+        "targets": [
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Huko England"
+          },
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Huko Uingereza"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 35,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1380083/18",
+        "sourceText": "Guest appearances",
+        "targets": [
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Kuonekana kwa wageni"
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kuonekana kwa mgeni"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 36,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1599932/3",
+        "sourceText": "Reniss grew up in the neighbourhood of Mabanda, in Douala, Cameroon. Reniss was actively involved in church choirs at New Covenant and Presbyterian Church in Douala, and began singing at the age of 13. After traveling and performing in church events for many years, Reniss began working with Cameroonian producer and artist, Jovi. Reniss released her first singles, \"Fire\" and \"Holy Wata\" in 2011 and 2012, respectively, under Mumak record label. She continued to work with Jovi, featuring on his debut album, H.I.V, in 2012. In 2013, Reniss released her first EP, Afrikan LuV, an electronic influenced hybrid of pop and African rhythms, under the New Bell Music label.[1]",
+        "targets": [
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Reniss alikulia katika kitongoji cha Mabanda, huko Douala, Kamerun . Reniss alihusika kikamilifu katika kwaya za kanisa katika New Covenant na Presbyterian Church huko Douala, na alianza kuimba akiwa na umri wa miaka 13. Baada ya kusafiri na kuigiza katika matukio ya kanisa kwa miaka mingi, Reniss alianza kufanya kazi na mtayarishaji na msanii wa Cameroon, Jovi . Reniss alitoa nyimbo zake za kwanza, \"Fire\" na \"Holy Wata\" mnamo 2011 na 2012, mtawaliwa, chini ya lebo ya rekodi ya Mumak. Aliendelea kufanya kazi na Jovi, akishirikiana na albamu yake ya kwanza, HIV, katika 2012. Mnamo 2013, Reniss alitoa EP yake ya kwanza, Kiafrikan LuV, mseto ulioathiriwa wa kielektroniki wa midundo ya pop na ya Kiafrika, chini ya lebo ya New Bell Music. [1]"
+          },
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Reniss alikulia katika kitongoji cha Mabanda, huko Douala, Kamerun . Reniss alihusika kikamilifu katika kwaya za kanisa katika New Covenant na Presbyterian Church huko Douala, na alianza kuimba akiwa na umri wa miaka 13. Baada ya kusafiri na kuigiza katika matukio ya kanisa kwa miaka mingi, Reniss alianza kufanya kazi na mtayarishaji na msanii wa Kameruni, Jovi . Reniss alitoa nyimbo zake za kwanza, \"Fire\" na \"Holy Wata\" mnamo 2011 na 2012, mtawaliwa, chini ya lebo ya rekodi ya Mumak. Aliendelea kufanya kazi na Jovi, akishirikiana na albamu yake ya kwanza, HIV, 2012. Mnamo 2013, Reniss alitoa EP yake ya kwanza, Kiafrikan LuV, chini ya lebo ya New Bell Music. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 37,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2827176/1239632376_0_1",
+        "sourceText": "Bryan Sanders (born October 24, 1970) is an American former ski jumper who competed in the 1992 Winter Olympics.[1][2][3]",
+        "targets": [
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Bryan Sanders (amezaliwa Oktoba 24, 1970) ni mrukaji wa zamani wa Marekani ambaye alishindana katika Olimpiki ya Majira ya baridi ya 1992 . [1] [2] [3]"
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Bryan Sanders (alizaliwa Oktoba 24, 1970) ni mchezaji wa zamani wa kuruka kwa ski kutoka Marekani aliyetushindania katika Michezo ya Olimpiki ya Majira ya Baridi ya 1992."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 38,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1590895/7",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 39,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1756391/73",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 40,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2048662/1",
+        "sourceText": "Justina Lavrenovaitė-Perez (née Lavrenovaitė; born 7 October 1984) is a Lithuanian football referee[4] and a former player who played as a midfielder. She has been a member of the Lithuania women's national team.",
+        "targets": [
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Justina Lavrenovaitė-Perez ( née Lavrenovaitė ; alizaliwa 7 Oktoba 1984) ni mwamuzi wa mpira wa miguu wa Lithuania [1] na mchezaji wa zamani aliyecheza kama kiungo wa kati . Amekuwa mwanachama wa timu ya kitaifa ya wanawake ya Lithuania ."
+          },
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Justina Lavrenovaitė-Perez ( alizaliwa 7 Oktoba, 1984) ni mwamuzi wa mpira wa miguu wa nchini Lithuania [1] na mchezaji wa zamani aliyecheza kama kiungo wa kati katika timu ya kitaifa ya wanawake ya Lithuania ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 41,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1598259/4",
+        "sourceText": "Discography",
+        "targets": [
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Diskografia"
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Orodha ya kazi za muziki"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 42,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1601276/2",
+        "sourceText": "Obaapa Christy (née Christiana Twene) formerly Christiana Love is a Ghanaian Gospel musician.[1][2] The Meti Ase hit singer was recipient of Gospel Artist of the Year and Song of the Year Awards during the 2007 edition of Ghana Music Awards.[3] In 2008, she was conferred with a National honor by John Kufuor.[4]",
+        "targets": [
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Obaapa Christy (née Christiana Twene ) ambaye zamani alikuwa Christiana Love ni mwanamuziki wa Injili wa Ghana . [1] [2] Mwimbaji huyo maarufu wa nyimbo za Meti Ase alipokea Tuzo za Msanii Bora wa Injili wa Mwaka na Wimbo Bora wa Mwaka katika toleo la 2007 la Tuzo za Muziki za Ghana . [3] Mnamo 2008, alitunukiwa heshima ya Kitaifa na John Kufuor . [4]"
+          },
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Obaapa Christy (née Christiana Twene ) ambaye zamani alikuwa Christiana Love ni mwanamuziki wa Injili wa Ghana . [1] [2] Mwimbaji huyo maarufu wa nyimbo za Meti Ase alipokea Tuzo za Msanii Bora wa Injili wa Mwaka na Wimbo Bora wa Mwaka katika toleo la 2007 la Tuzo za Muziki za Ghana . [3] Mnamo 2008, alitunukiwa tuzo ya heshima ya Kitaifa na John Kufuor . [4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 43,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1551786/2",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 44,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1551657/1",
+        "sourceText": "Sawsan Gabra Ayoub Khalil is an Egyptian Christian civil engineer who is actively involved in projects advancing Arab-West and Muslim-Christian understanding. Sawsan Gabra is co-founder of Arab-West Report. AWR was previously called Religious News Service from the Arab World (RNSAW) (1997), and in 2005 founded the Center for Intercultural Dialogue and Translation (CIDT). Sawsan Gabra Ayoub Khalil also co-founded and first chaired the Center for Arab-West Understanding (CAWU). All three organizations are based in Cairo, Egypt.",
+        "targets": [
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sawsan Gabra Ayoub Khalil ni mhandisi wa ujenzi Mkristo wa Misri ambaye anashiriki kikamilifu katika miradi ya kuendeleza uelewa wa Waarabu-Magharibi na Waislamu-Kikristo. Sawsan Gabra ni mwanzilishi mwenza wa Arab-West Report . Hapo awali AWR iliitwa Huduma ya Habari za Kidini kutoka Ulimwengu wa Kiarabu (RNSAW) (1997), na mnamo 2005 ilianzisha Kituo cha Mazungumzo na Utafsiri wa Kitamaduni (CIDT). Sawsan Gabra Ayoub Khalil pia alianzisha na kuongoza kwanza Kituo cha Maelewano ya Waarabu na Magharibi (CAWU). Mashirika yote matatu yako mjini Cairo, Misri."
+          },
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sawsan Gabra Ayoub Khalil ni mhandisi wa ujenzi Mkristo wa Misri ambaye anashiriki kikamilifu katika miradi ya kuendeleza uelewa wa Waarabu-Magharibi na Waislamu-Kikristo. Sawsan Gabra ni mwanzilishi wa Arab-West Report . Hapo awali AWR ilijulikana kama Huduma ya Habari za Kidini kutoka Ulimwengu wa Kiarabu (RNSAW) (1997), na mnamo 2005 ilianzisha Kituo cha Mazungumzo na Utafsiri wa Kitamaduni (CIDT). Sawsan Gabra Ayoub Khalil pia alianzisha na kuongoza Kituo cha Maelewano ya Waarabu na Magharibi (CAWU). Mashirika yote matatu yako mjini Cairo, Misri."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 45,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1283307/45",
+        "sourceText": "↑ Kröger, Jens. \"Ctesiphon\". Encyclopædia Iranica. Retrieved 12 December 2016. 1 2 Thomas A. Carlson et al., “Ctesiphon — ܩܛܝܣܦܘܢ ” in The Syriac Gazetteer last modified July 28, 2014, http://syriaca.org/place/58. ↑ \"Ctesiphon: An Ancient Royal Capital in Context\". Smithsonian. September 15, 2018. Retrieved 2018-09-21. ↑ \"Largest Cities Through History\". geography.about.com. Retrieved 25 November 2015. ↑ Eventually no less than four Sasanian rulers were quoted as its builders: Shapur I (241–273), Shapur II (310–379), Chosroes I Anushirvan (531–579) and Chosroes II Parvez (590–628). Kurz, Otto (1941). \"The Date of the Ṭāq i Kisrā\". The Journal of the Royal Asiatic Society of Great Britain and Ireland. (New Series). 73 (1): 37–41. doi:10.1017/S0035869X00093138. JSTOR 25221709. ↑ E.J. Brill's First Encyclopaedia of Islam 1913–1936, Vol. 2 (Brill, 1987: ISBN 90-04-08265-4), p. 75. ↑ Kröger, Jens (1993), \"Ctesiphon\", Encyclopedia Iranica, 6, Costa Mesa: Mazda, archived from the original on 2009-01-16 ↑ Ezra 8:17 ↑ Talmud Bavli Tractate Gittin. pp. 6A. ↑ Talmud Bavli Tractate Eruvin. pp. 57b. ↑ Farrokh, K. (2007). \"The rise of Ctesiphon and the Silk Route\". In Shadows in the Desert: Ancient Persia at War, p. 240. 1 2 Farrokh, K. (2007). \"The rise of Ctesiphon and the Silk Route\". In Shadows in the Desert: Ancient Persia at War, p. 125. ↑ \"LacusCurtius • Strabo's Geography — Book XVI Chapter 1, 16\". penelope.uchicago.edu. Retrieved 25 November 2015. 1 2 3 4 5 6 7 8 Morony 2009. ↑ Houtsma, M. Th. (1993). E. J. Brill's First Encyclopaedia of Islam, 1913–1936. BRILL. p. 76a. ISBN 9789004097919. ↑ Farrokh, K. (2007). \"The rise of Ctesiphon and the Silk Route\". In Shadows in the Desert: Ancient Persia at War, p. 185. ↑ Dingas, Winter 2007, 109 ↑ Frye 1993, 259 ↑ Christensen (1993). The Decline of Iranshahr: Irrigation and Environments in the History of the Middle East, 500 B.C. to A.D. 1500. Copenhagen: Museum Tusculanum Press. ISBN 87-7289-259-5. 1 2 Shapur Shahbazi 2005. ↑ Reade, Julian (1999). Scarre, Chris, ed. The Seventy Wonders of the Ancient World: The Great Monuments and How they were Built. Thames & Hudson. pp. 185–186. ISBN 0-500-05096-1. ↑ Lucien X. Polastron (2007). Books on Fire: The Destruction of Libraries Throughout History. 324: Lucien X. Polastron. p. 371. ISBN 9781594771675.CS1 maint: location (link) ↑ Bier, L. (1993). \"The Sassanian Palaces and their Influence in Early Islam\". Ars Orientalis, 23, 62–62. ↑ Royal Asiatic Society of Great Britain and Ireland (1895). Journal of the Royal Asiatic Society of Great Britain & Ireland. Cambridge University Press for the Royal Asiatic Society. p. 40. ↑ John van Schaik, Ketters. Een geschiedenis van de Kerk, Leuven, 2016 ↑ Schippmann, K. (1980). \"Ktesiphon-Expedition im Winter 1928/29\". Grundzüge der parthischen Geschichte (in German). Darmstadt. ISBN 3-534-07064-X. ↑ Meyer, E. (1929). \"Seleukia und Ktesiphon\". Mitteilungen der Deutschen Orient-Gesellschaft zu Berlin. 67: 1–26. ↑ Reuther, O. (1929). \"The German Excavations at Ctesiphon\". Antiquity. 3 (12): 434–451. doi:10.1017/S0003598X00003781. ↑ Upton, J. (1932). \"The Expedition to Ctesiphon 1931–1932\". Bulletin of the Metropolitan Museum of Art. 27 (8): 188–197. doi:10.2307/3255274. JSTOR 3255274. ↑ Fowlkes-Childs, Blair. “Ctesiphon.” In Heilbrunn Timeline of Art History. New York: The Metropolitan Museum of Art, 2000–. http://www.metmuseum.org/toah/hd/ctes/hd_ctes.htm (July 2016) ↑ G. Gullini and A. Invernizzi, First Preliminary Report of Excavations at Seleucia and Ctesiphon. Season 1964, Mesopotamia, vol. I, pp. 1–88, 1966 ↑ G. Gullini and A. Invernizzi, Second Preliminary Report of Excavations at Seleucia and Ctesiphon. Season 1965, Mesopotamia, vol. 2, 1967 ↑ G. Gullini and A. Invernizzi, Third Preliminary Report of Excavations at Seleucia and Ctesiphon. Season 1966, Mesopotamia, vol. 3–4, 1968–69 ↑ G. Gullini and A. Invernizzi, Fifth Preliminary Report of Excavations at Seleucia and Ctesiphon. Season 1969, Mesopotamia, vol. 5–6, 1960–71 ↑ G. Gullini and A. Invernizzi, Sixth Preliminary Report of Excavations at Seleucia and Ctesiphon. Seasons 1972/74, Mesopotamia, vol. 5–6, 1973–74 ↑ G. Gullini and A. Invernizzi, Seventh Preliminary Report of Excavations at Seleucia and Ctesiphon. Seasons 1975/76, Mesopotamia, vol. 7, 1977 ↑ \"Iraq to restore ancient Arch of Ctesiphon to woo back tourists\". rawstory.com. May 30, 2013.",
+        "targets": [
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": " "
+          },
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": " "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 46,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1569689/3",
+        "sourceText": "Mercy Amba Ewudziwa Oduyoye was born on her grandfather's cacao farm in Amoanna, near Asamankese, Ghana, in October 1934.[1] Her name, Ewudziwa is of Akan origin and was given to her in honor of her grandfather.[1] Oduyoye's story begins from her location where African theology, the impression of African women, and African culture influenced her greatly. She was the first child born to her parents, Charles Kwaw Yamoah a teacher and pastor who became president of the Methodist Church in Ghana and a \"strong-willed\" mother, Mercy Yaa Dakwa Yamoah.[1][2] Oduyoye has eight siblings in her family.[3]: 155  As a young girl, concepts such as Gender and motherhood began shaping her into a young woman. Oduyoye talks about the importance of Matrilineal kinship in her Ghanaian upbringing where women held a vital part in their family, passing down their names.[3]: 155  However, later on, she was married into a patrilineal kinship by her Nigerian husband as a part of the Yoruba culture.[3]: 155  Oduyoye never had kids. As a young girl, she does not recall the effects of gender binary because she suggests, she and her brothers all helped around the house without separation of tasks.[3]: 155  Therefore, gender construction was a new element to Oduyoye because it never existed in her household. Although, the main difference she remembers is how the firstborn in African families, the eldest daughter was unmistakable “the second mother.”[3]: 156  In this sense, cultural practices became one of the main issues for Oduyoye to criticize in her later years. As big as her family was, all Children went to post-secondary education, and some trained as nurses.[3]: 155 ",
+        "targets": [
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mercy Amba Ewudziwa Oduyoye alizaliwa kwenye shamba la kakao la babu yake huko Amoanna, karibu na Asamankese, Ghana, mnamo Oktoba 1934. [1] Jina lake, Ewudziwa ana asili ya Akan na alipewa kwa heshima ya babu yake. [1] Hadithi ya Oduyoye inaanzia katika eneo lake ambapo theolojia ya Kiafrika, hisia za wanawake wa Kiafrika, na utamaduni wa Kiafrika zilimshawishi sana. Alikuwa mtoto wa kwanza kuzaliwa na wazazi wake, Charles Kwaw Yamoah mwalimu na mchungaji ambaye alikua rais wa Kanisa la Methodist nchini Ghana na mama \"mwenye nia kali\", Mercy Yaa Dakwa Yamoah. [1] [2] Oduyoye ana ndugu wanane katika familia yake. [3] : 155 Akiwa msichana mdogo, dhana kama vile Jinsia na uzazi zilianza kumtengeneza kuwa mwanamke mchanga. Oduyoye anazungumza juu ya umuhimu wa jamaa ya Matrilineal katika malezi yake ya Ghana ambapo wanawake walikuwa na sehemu muhimu katika familia zao, kupitisha majina yao. [3] : 155 Hata hivyo, baadaye, aliolewa katika undugu wa baba na mume wake wa Nigeria kama sehemu ya utamaduni wa Kiyoruba . [3] : 155 Oduyoye hakuwahi kupata watoto. Akiwa msichana mdogo, hakumbuki madhara ya mfumo wa kijinsia kwa sababu anapendekeza, yeye na kaka zake wote walisaidia kuzunguka nyumba bila kutengana kwa majukumu. [3] : 155 Kwa hivyo, ujenzi wa jinsia ulikuwa jambo jipya kwa Oduyoye kwa sababu haujawahi kuwepo katika kaya yake. Ingawa, tofauti kuu anayokumbuka ni jinsi mzaliwa wa kwanza katika familia za Kiafrika, binti mkubwa alivyokuwa “mama wa pili” bila kukosea. [3] : 156 Kwa mantiki hii, desturi za kitamaduni zikawa mojawapo ya masuala makuu kwa Oduyoye kukosoa katika miaka yake ya baadaye. Ingawa familia yake ilikuwa kubwa, Watoto wote walikwenda kwa elimu ya baada ya sekondari, na wengine walifunzwa kama wauguzi. [3] : 155 "
+          },
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mercy Amba Ewudziwa Oduyoye alizaliwa kwenye shamba la kakao la babu yake huko Amoanna, karibu na Asamankese, Ghana, mnamo Oktoba 1934. [1] Jina lake, Ewudziwa ni la asili ya Akan na alipewa kwa heshima ya babu yake. [1] Hadithi ya Oduyoye inaanzia katika eneo lake ambapo theolojia ya Kiafrika, hisia za wanawake wa Kiafrika, na utamaduni wa Kiafrika zilimshawishi sana. Alikuwa mtoto wa kwanza kuzaliwa na wazazi wake, baba yake Charles Kwaw Yamoah alikuwa mwalimu na mchungaji ambaye alikua Rais wa Kanisa la Methodist nchini Ghana na mama \"mwenye nia kali\", Mercy Yaa Dakwa Yamoah. [1] [2] Oduyoye ana ndugu wanane katika familia yake. [3] :  Akiwa msichana mdogo, dhana kama vile Jinsia na uzazi zilianza kumtengeneza kuwa mwanamke mchanga. Oduyoye anazungumza juu ya umuhimu wa ukaribu kwenye masuala ya uzazi Matrilineal na katika malezi ya nchini Ghana ambapo wanawake walikuwa na sehemu muhimu katika familia zao, na watoto walikuwa wakirithi majina kutoka kwa mama zao [3] :  Hata hivyo, baadaye, aliolewa katika undugu wa baba na mume wake wa Nigeria kama sehemu ya utamaduni wa Kiyoruba . [3] :  Oduyoye hakuwahi kupata watoto. Akiwa msichana mdogo, hakumbuki madhara ya mfumo wa kijinsia kwa sababu yeye na kaka zake, kwa pamoja walifanya kazi za nyumbani sawasawa. [3]  Kwa hivyo, ujenzi wa jinsia ulikuwa jambo jipya kwa Oduyoye kwa sababu haujawahi kuwepo katika kaya yake. Ingawa, tofauti kuu anayokumbuka ni jinsi mzaliwa wa kwanza katika familia za Kiafrika, binti mkubwa alivyokuwa “mama wa pili” bila kukosea. [3]  Kwa mantiki hii, desturi za kitamaduni zikawa mojawapo ya masuala makuu kwa Oduyoye kukosoa katika miaka yake ya baadaye. Ingawa familia yake ilikuwa kubwa, Watoto wote walikwenda kuendelea na elimu baada ya sekondari, na baadhi yao walifunzwa kama wauguzi. [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 47,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1559367/1",
+        "sourceText": "Ishtar Lakhani (born 1985) is a feminist activist from South Africa, whose work focuses on issues of social justice, in particular the rights of sex workers. In 2020 she was added by the BBC on their 100 Women list.",
+        "targets": [
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Ishtar Lakhani (aliyezaliwa 1985) ni mwanaharakati wa masuala ya wanawake kutoka Afrika Kusini, ambaye kazi yake inazingatia masuala ya haki ya kijamii, hasa haki za wafanyabiashara ya ngono. Mnamo 2020 aliongezwa na BBC kwenye orodha yao ya Wanawake 100 ."
+          },
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Ishtar Lakhani (alizaliwa 1985) ni mwanaharakati wa masuala ya wanawake kutoka nchini Afrika Kusini, ambaye kazi yake inazingatia masuala ya haki za kijamii, hasa haki za wafanyabiashara wa ngono. Mnamo 2020 aliongezwa na BBC kwenye orodha yao ya wanawake 100."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 48,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1205568/2",
+        "sourceText": "Early life and education",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Maisha ya mapema na elimu"
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Historia"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 49,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1284159/0",
+        "sourceText": "Olympe Bhêly-Quénum (born 20 September 1928) is a Beninese writer, journalist and magazine editor. He is the nephew of anthropologist Maximilien Quenum-Possy-Berry.[1]",
+        "targets": [
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Olympe Bhêly-Quénum (amezaliwa 20 Septemba 1928) ni mwandishi wa Benin, mwandishi wa habari na mhariri wa majarida. Yeye ni mpwa wa mwanaanthropolojia Maximilien Quenum-Possy-Berry . [1]"
+          },
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Olympe Bhêly-Quénum (alizaliwa Tarehe 20 Septemba 1928) ni mwandishi wa Benin, mwandishi wa habari na mhariri wa majarida. Yeye ni mpwa wa mwanaanthropolojia Maximilien Quenum-Possy-Berry . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 50,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1548846/6",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 100,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 101,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 51,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1756391/42",
+        "sourceText": "Traditional Rosh Hashanah foods: Apples dipped in honey, pomegranates, wine for kiddush",
+        "targets": [
+          {
+            "_itemAll": 102,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Vyakula vya kiasili vya Rosh Hashanah: Tufaha zilizotumbukizwa kwenye asali, makomamanga, divai kwa ajili ya kitoto."
+          },
+          {
+            "_itemAll": 103,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Vyakula vya pekee vya Rosh Hashanah: Tufaha zilizotumbukizwa kwenye asali, makomamanga, divai kwa ajili ya sala ya kiddush."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 52,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1633847/1",
+        "sourceText": "The Cantanhez Forests National Park (in Portuguese: Parque Nacional das Florestas de Cantanhez) is a 1,057-square-kilometre (408 sq mi)[1] national park in Guinea-Bissau. It was established on 1 October 2007.",
+        "targets": [
+          {
+            "_itemAll": 104,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mbuga ya Kitaifa ya Misitu ya Cantanhez ( kwa Kireno : Parque Nacional das Florestas de Cantanhez ) ni 1,057-square-kilometre (408 . [1] mbuga ya kitaifa nchini Guinea-Bissau . Ilianzishwa tarehe 1 Oktoba 2007."
+          },
+          {
+            "_itemAll": 105,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Hifadhi ya Taifa ya Misitu wa Cantanhez ( kwa Kireno : Parque Nacional das Florestas de Cantanhez ) ina ukubwa wa eneo la kilomita za mraba 1,057. [1] Ni mbuga ya taifa nchini Guinea-Bissau . Ilianzishwa mnamo 1 Oktoba 2007."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 53,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "769046/3",
+        "sourceText": "Course",
+        "targets": [
+          {
+            "_itemAll": 106,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Kozi"
+          },
+          {
+            "_itemAll": 107,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Njia ya mto"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 54,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "457924/mwCA",
+        "sourceText": "Séka developed an interest for music from childhood. She represents the third generation of a musical dynasty of Ivory Coast. Monique Seka is the daughter of Seka Okoi an Ivorian singer famous in the 1970s. Monique Seka was apprenticed by her father before joining the RTI Orchestra. That was the time she started to experiment mixing zouk and rhythms to create Afro Zouk, a combination that surprises and seduces music lovers at the same time. In the mid-1980s, Caribbean music invaded world markets. Monique blended into this trend and released her first album \"Tantie Affoué\" in 1985. In 1989, she signed the production of her music to Cape Verdian keyboardist Manu Lima and released her album \"Missounwa\". This mixture of zouk and African rhythms travelled beyond the African borders, and asserted recognition in the press and media. At the end of 1992, she met Dominique Richard, a founding member of Radio Sun, the first Afro-Caribbean radio station launched in Lyon in July 1993. Dominique became her producer and impresario. They got married on March 31, 1995, and after releasing a few albums they had a daughter Carolyn Richard, born February 9, 1998. In 1994, she again calls on Manu Lima for the arrangements of her new album and returned to the country with the album \"Okaman\". Subsequent albums of hers include \"Adéba\" in 1997, \"Yélélé\" in 1999 and many \"best of\" with new titles: \"Anthology\" in 1999, \"15 years 15 success\" in 2003, \"Obligada\" in 2005, etc. Her success has earned her the support of many artists from various musical backgrounds such as \"Yaye Demin\", a hit song with Meiway.[3][4]",
+        "targets": [
+          {
+            "_itemAll": 108,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Séka maendeleo maslahi kwa ajili ya muziki kutoka utoto. Yeye inawakilisha kizazi cha tatu wa muziki nasaba ya Ivory Coast. Monique Seka ni binti wa Seka Okoi ya ivory coast mwimbaji maarufu katika miaka ya 1970. Monique Seka ilikuwa wanagenzi na baba yake kabla ya kujiunga na RTI Orchestra. Hiyo ilikuwa wakati yeye kuanza kwa majaribio ya kuchanganya zouk na rhythms kujenga Afro Zouk, mchanganyiko kwamba mshangao na kuwapotosha wapenzi wa muziki wakati huo huo. Katika miaka ya 1980, Caribbean muziki walivamia masoko ya dunia. Monique blended katika hali hii na iliyotolewa albamu yake ya kwanza \"Tantie Affoué\" mwaka 1985. Katika mwaka wa 1989, yeye saini ya uzalishaji wa muziki wake kwa Cape Verdian keyboardist Manu Lima na iliyotolewa albamu yake ya \"Missounwa\". Hii mchanganyiko wa zouk na midundo ya Afrika alisafiri nje ya mipaka ya Afrika, na madai ya utambuzi katika vyombo vya habari na vyombo vya habari. Wakati wa mwisho wa mwaka 1992, yeye alikutana Dominique Richard, mwanachama mwanzilishi wa Radio Jua, kwanza Afro-Caribbean kituo cha redio ilizindua katika Lyon katika julai 1993. Dominique akawa yake ya uzalishaji na impresario. Wao got ndoa juu ya Machi 31, 1995, na baada ya kutoa albamu chache wao alikuwa na binti Carolyn Richard, alizaliwa februari 9, 1998. Katika 1994, yeye tena wito kwa Manu Lima kwa ajili ya mipango ya albamu yake mpya na kurudi kwa nchi na albamu ya \"Okaman\". Baadae albamu ya kwake ni pamoja na \"Adéba\" mwaka 1997, \"Yélélé\" mwaka 1999 na wengi \"bora\" na majina mapya: \"Mkusanyiko\" mwaka 1999, \"15 miaka 15 ya mafanikio\" ya mwaka 2003, \"Obligada\" katika 2005, nk. Mafanikio yake ina chuma yake msaada wa wasanii wengi kutoka mbalimbali ya muziki asili kama vile \"Yaye Demin\", hit wimbo na Meiway.[3][4]"
+          },
+          {
+            "_itemAll": 109,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Séka alianza kuonesha kuwa na shauku ya kupenda muziki tangu akiwa mtoto. Anawakilisha kizazi cha tatu cha ya muziki nasaba ya Ivory Coast. Monique Seka ni binti wa Seka Okoi - mwimbaji wa Kivory Coast ambaye alikuwa maarufu katika miaka ya 1970. Monique Seka alifundishwa na baba yake kabla ya kujiunga na bendi ya  RTI Orchestra. Wakati huo alikuwa anajaribu kuchanganya midundo miwili tofauti ili kuunda Afro Zouk, mchanganyiko ambao ulileta mshangao na kuwavutia wapenzi wengi wa muziki wa wakati huo huo. Katika miaka ya 1980, muziki wa Kikaribi ulivamia masoko ya dunia. Monique alijiingiza katika mzunguko huu na kuthubutu kutoa albamu yake ya kwanza iliyootwa  \"Tantie Affoué\" mnamo mwaka wa 1985. Katika mwaka wa 1989, alisaini mkataba na mpigaji kinanda na mtayarishaji maarufu wa kutoka Cape Verde Manu Lima na kutoa albamu yake ya \"Missounwa\". Hii mchanganyiko wa zouk na midundo ya Afrika alisafiri nje ya mipaka ya Afrika kwa lengo kujitangaza katika vyombo vya habari vya ndani na nje. Wakati wa mwisho wa mwaka 1992, likutana Dominique Richard, mwanachama mwanzilishi wa Radio Sun, redio ya kwanza ywa watu weusi wa Kikaribi iliyoanzishwa mwezi Julai 1993. Dominique akawa mtayarishaji na msimamizi wake.  Mnamo tarehe 31 Machi, 1995, wawili hawa wamefunga ndoa na baada ya kufanikiwa kutoa albamu kadhaa hatimaye wakapata binti aitwaye  Carolyn Richard, alizaliwa Februari 9, 1998. Mwaka wa 1994, anamwendea hewani tena  Manu Lima kwa ajili ya mipango ya albamu yake mpya na kurudi nchini kwao kwa ajili ya albamu ya \"Okaman\". Albamu zake za baadaye  \"Adéba\" mwaka 1997, \"Yélélé\" mwaka 1999  na nyengine kibao zilizokuja na majina mapya: \"Anthology\" mwaka 1999, mwaka 2003 katoa \"15 Years of Success\", 2005 katoa \"Obligada\", na nyengine nyingi tu. Mafanikio yake yamempatia kuungwa mkono na wasanii wengine wa muziki mmoja wapo ni  \"Yaye Demin\", walifanya ote wimbo wa Meiway.[3][4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 55,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2025660/2",
+        "sourceText": "On 26 July 2013, Dorcioman was announced referee for the 2013 UEFA Women's Euro Final between Germany and Norway at Friends Arena in Solna, Sweden. During the competition, she has taken charge of two group stage matches.[1]",
+        "targets": [
+          {
+            "_itemAll": 110,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Tarehe 26 Julai 2013, Dorcioman alitangazwa kuwa mwamuzi wa Fainali ya Euro ya Wanawake ya UEFA ya 2013 kati ya Ujerumani na Norway kwenye Uwanja wa Friends Arena huko Solna, Sweden . Wakati wa mashindano, amechukua jukumu la mechi mbili za hatua ya makundi. [1]"
+          },
+          {
+            "_itemAll": 111,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mnamo 26 Julai 2013, Dorcioman alitangazwa kuwa mwamuzi wa michuano ya Fainali ya Euro ya UEFA ya Wanawake 2013 kati ya Ujerumani na Norway kwenye Uwanja wa Friends Arena huko Solna, Sweden .[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 56,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1270731/11",
+        "sourceText": "Duffy Rice is married to journalist Zak Cheney-Rice[2] and they have a son (b. 2017) and a daughter (b. 2020).[2][22] They reside in Atlanta.[4]",
+        "targets": [
+          {
+            "_itemAll": 112,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Duffy Rice ameolewa na mwandishi wa habari Zak Cheney-Rice [1] na wana mtoto wa kiume (b. 2017) na binti (b. 2020). [2] [3] Wanakaa Atlanta. [4]"
+          },
+          {
+            "_itemAll": 113,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Duffy Rice ameolewa na mwandishi wa habari Zak Cheney-Rice [1] na wana mtoto wa kiume (Alizaliwa 2017) na binti (alizaliwa 2020). [2] [3] Waishi jijini Atlanta. [4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 57,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1636932/10",
+        "sourceText": "In October 2018, it was upgraded to national park status.[7]",
+        "targets": [
+          {
+            "_itemAll": 114,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mnamo Oktoba 2018, iliboreshwa hadi hadhi ya mbuga ya kitaifa. [1]"
+          },
+          {
+            "_itemAll": 115,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mnamo Oktoba 2018, iliboreshwa hadi hadhi ya mbuga ya taifa. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 58,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1249114/7",
+        "sourceText": "List of singles as featured artist Title Year Artist Album \"One World\"[38] 2018 RedOne (featuring Adelina and Now United) non-album single \"How We Do It\" 2018 Badshah non-album single \"One Love\" 2020 R3HAB non-album single",
+        "targets": [
+          {
+            "_itemAll": 116,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Orodha ya single kama msanii aliyeangaziwa Kichwa Mwaka Msanii Albamu \"Ulimwengu Mmoja\" [1] 2018 RedOne (featuring Adelina and Sasa United ) non-album single \"Jinsi Tunavyofanya\" 2018 Badshah non-album single \"Upendo Mmoja\" 2020 R3HAB non-album single"
+          },
+          {
+            "_itemAll": 117,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Orodha ya single kama msanii mshirikishwa Kichwa Mwaka Msanii Albamu \"One World\" [1] 2018 RedOne (akimshirikisha Adelina and Sasa United ) non-album single \"How We Do It\" 2018 Badshah non-album single \"One Love\" 2020 R3HAB non-album single"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 5,
+        "_item": 59,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1522343/1",
+        "sourceText": "Yawa Hansen-Quao (born in Accra) is a Ghanaian founder, social entrepreneur and a feminist.[2][3] She sits on the board of Ashesi University College, serves on the Advisory Board, Women's Institute for Global Leadership, Benedictine University, is founder of the Leading Ladies Network (LLN), and a member of the African Leadership Network and the World Economic Forum’s Global Shapers Community. She is a force to reckon with in the education and well-being of the girl child.[1][2][4][5]",
+        "targets": [
+          {
+            "_itemAll": 118,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Yawa Hansen-Quao (aliyezaliwa Accra) ni mwanzilishi wa Ghana, mjasiriamali wa kijamii na mwanamke . [1] Anakaa kwenye bodi ya Chuo Kikuu cha Ashesi, anahudumu katika Bodi ya Ushauri, Taasisi ya Wanawake ya Uongozi wa Kimataifa, Chuo Kikuu cha Benedictine, mwanzilishi wa Mtandao wa Wanawake Wanaoongoza (LLN), na mwanachama wa Mtandao wa Uongozi wa Afrika na Jukwaa la Uchumi Duniani la Global. Jumuiya ya Shapers . Yeye ni nguvu ya kuzingatia katika elimu na ustawi wa mtoto wa kike. [2] [3]"
+          },
+          {
+            "_itemAll": 119,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Yawa Hansen-Quao (aliyezaliwa Accra) ni mwanzilishi wa chama cha Ghana cha mjasiriamali wa kijamii na mwanamke . [1] Anakaa kwenye bodi ya Chuo Kikuu cha Ashesi, anahudumu katika Bodi ya Ushauri, Taasisi ya Wanawake ya Uongozi wa Kimataifa, Chuo Kikuu cha Benedictine, mwanzilishi wa Mtandao wa Wanawake Wanaoongoza (LLN), na mwanachama wa Mtandao wa Uongozi wa Afrika na Jukwaa la Uchumi Duniani la Global. Jumuiya ya Shapers . Yeye ni mtetezi na anazingatia katika elimu na ustawi wa mtoto wa kike. [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 60,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1634982/11",
+        "sourceText": "African elephant (Loxodonta africana) - A common sighting and attraction during the 1980s, elephants were probably nearly extirpated in the 1990s. An aerial survey in 2003 failed to find elephants in the park.[6] Today, sporadic occurrences of migrating individuals and groups are reported. An UNDP project from 2010 aims to reestablish a population of about 20 animals in the park.[2] Olive baboon (Papio anubis) Tantalus monkey (Chlorocebus tantalus) - Often listed as Cercopithecus aethiops. Patas monkey (Erythrocebus patas) - The presence of this species was confirmed by an aerial survey in 2003.[6] Kob (Kobus kob kob) - The presence of this species was confirmed by an aerial survey in 2003.[6] Waterbuck (Kobus ellipsiprymnus defassa) - The presence of this species was confirmed by an aerial survey in 2003.[6] Red-flanked duiker (Cephalophus rufilatus) Common duiker (Sylvicapra grimmia coronata) - The presence of this species was confirmed by an aerial survey in 2003.[6] African buffalo (Synceros caffer brachyceros) Hippopotamus (Hippopotamus amphibius) Warthog (Phacochoerus africanus africanus) - The presence of this species was confirmed by an aerial survey in 2003.[6] West African lion (Panthera leo senegalensis) - Individuals of the lion has been reported sporadically, for the last time in 2005. There is no permanent lion population in Togo.[7] Crested porcupine (Hystrix cristata) Striped ground squirrel (Xerus (Euxerus) erythropus erythropus) Four-toed hedgehog (Atelerix albiventris)",
+        "targets": [
+          {
+            "_itemAll": 120,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Tembo wa Kiafrika ( Loxodonta africana ) - Mwonekano na kivutio cha kawaida katika miaka ya 1980, tembo pengine walikuwa karibu kutoweka katika miaka ya 1990. Uchunguzi wa angani mwaka 2003 haukuweza kupata tembo katika mbuga hiyo. [1] Leo, matukio ya hapa na pale ya watu binafsi na makundi yanayohama yanaripotiwa. Mradi wa UNDP kutoka 2010 unalenga kurejesha idadi ya wanyama wapatao 20 katika mbuga hiyo. [2] Nyani wa mizeituni ( Papio anubis ) Tumbili wa Tantalus ( Chlorocebus tantalus ) - Mara nyingi huorodheshwa kama Cercopithecus aethiops . Patas nyani ( Erythrocebus patas ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Kob ( Kobus kob kob ) - Kuwepo kwa spishi hii kulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Waterbuck ( Kobus ellipsiprymnus defassa ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Duiker yenye ubavu nyekundu ( Cephalophus rufilatus ) Kawaida duiker ( Sylvicapra grimmia coronata ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa anga mwaka 2003. [1] Nyati wa Kiafrika ( Synceros caffer brachyceros ) Kiboko ( Hippopotamus amphibius ) Warthog ( Phacochoerus africanus africanus ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Simba wa Afrika Magharibi ( Panthera leo senegalensis ) - Watu binafsi wa simba wameripotiwa mara kwa mara, kwa mara ya mwisho mwaka 2005. Hakuna simba wa kudumu nchini Togo. [3] Nungu aliyeumbwa ( Hystrix cristata ) Kindi wa ardhini mwenye mistari ( Xerus (Euxerus) erithropus erythropus ) Nguruwe mwenye vidole vinne ( Atelerix albiventris )"
+          },
+          {
+            "_itemAll": 121,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Tembo wa Kiafrika ( Loxodonta africana ) - Mwonekano na kivutio cha kawaida katika miaka ya 1980, tembo pengine walikuwa karibu kutoweka katika miaka ya 1990. Uchunguzi wa angani mwaka 2003 haukuweza kupata tembo katika mbuga hiyo. [1] Leo, matukio ya hapa na pale ya watu binafsi na makundi yanayohama yanaripotiwa. Mradi wa UNDP kutoka 2010 unalenga kurejesha idadi ya wanyama wapatao 20 katika mbuga hiyo. [2] Nyani wa mizeituni ( Papio anubis ) Tumbili wa Tantalus ( Chlorocebus tantalus ) - Mara nyingi huorodheshwa kama Cercopithecus aethiops . Nyani Patas ( Erythrocebus patas ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Kob ( Kobus kob kob ) - Kuwepo kwa spishi hii kulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Waterbuck ( Kobus ellipsiprymnus defassa ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Duiker yenye ubavu nyekundu ( Cephalophus rufilatus ) Kawaida duiker ( Sylvicapra grimmia coronata ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa anga mwaka 2003. [1] Nyati wa Kiafrika ( Synceros caffer brachyceros ) Kiboko ( Hippopotamus amphibius ) Warthog ( Phacochoerus africanus africanus ) - Uwepo wa spishi hii ulithibitishwa na uchunguzi wa angani mwaka wa 2003. [1] Simba wa Afrika Magharibi ( Panthera leo senegalensis ) - Watu binafsi wa simba wameripotiwa mara kwa mara, kwa mara ya mwisho mwaka 2005. Hakuna simba wa kudumu nchini Togo. [3] Nungu aliyeumbwa ( Hystrix cristata ) Kindi wa ardhini mwenye mistari ( Xerus (Euxerus) erithropus erythropus ) Nguruwe mwenye vidole vinne ( Atelerix albiventris )"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 61,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1551701/1",
+        "sourceText": "Paul Emsley (born 25 August 1947) is a British artist who worked in South Africa until 1996 and is now resident in Bradford-on-Avon, Wiltshire, England. He is a former lecturer at the Stellenbosch University and the 2007 winner of the BP Portrait Award for portrait painting.[1][unreliable source?] His work can be found in most public collections in South Africa, The National Portrait Gallery London and The British Museum. He is known for his large detailed images of people, animals and flowers. There was a major retrospective of his work in 2012 at the Sasol Art Gallery in Stellenbosch.[2] He is represented in the UK by the Redfern Gallery and in South Africa by Everard Read. Emsley's portrait of the Duchess of Cambridge is on permanent display at the National Portrait Gallery in London. Other notable portraits include Nelson Mandela, Sir V. S. Naipaul, Michael Simpson and William Kentridge.",
+        "targets": [
+          {
+            "_itemAll": 122,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Paul Emsley (aliyezaliwa 25 Agosti 1947) ni msanii wa Uingereza ambaye alifanya kazi nchini Afrika Kusini hadi 1996 na sasa anaishi Bradford-on-Avon, Wiltshire, Uingereza. Yeye ni mhadhiri wa zamani katika Chuo Kikuu cha Stellenbosch na mshindi wa 2007 wa Tuzo la Picha la BP kwa uchoraji wa picha. [1]  ] Kazi yake inaweza kupatikana katika mikusanyiko mingi ya umma nchini Afrika Kusini, The National Portrait Gallery London na The British Museum. Anajulikana kwa picha zake kubwa za kina za watu, wanyama na maua. Kulikuwa na taswira kuu ya kazi yake mwaka wa 2012 katika Jumba la Sanaa la Sasol huko Stellenbosch . [2] Anawakilishwa nchini Uingereza na Redfern Gallery na nchini Afrika Kusini na Everard Read. Picha ya Emsley ya Duchess ya Cambridge itaonyeshwa kwa kudumu kwenye Jumba la Kitaifa la Picha huko London. Picha nyingine mashuhuri ni pamoja na Nelson Mandela, Sir VS Naipaul, Michael Simpson na William Kentridge ."
+          },
+          {
+            "_itemAll": 123,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Paul Emsley (alizaliwa 25 Agosti 1947) ni msanii wa nchini Uingereza ambaye alifanya kazi nchini Afrika Kusini hadi mwaka1996 na kwa sasa anaishi Bradford-on-Avon, Wiltshire, Uingereza. Pia ni mhadhiri wa zamani katika Chuo Kikuu cha Stellenbosch na mshindi wa 2007 wa tuzo ya BP Portrait Award kama mchoraji wa picha. [1]  ] Kazi yake hupatikana katika sehemu nyingi nchini Afrika Kusini, kama The National Portrait Gallery London na katika makumbusho ya The British Museum. Anajulikana kwa picha zake mbalimbali za watu, wanyama na maua."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 62,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "400437/mwcQ",
+        "sourceText": "Some medical systems have a practice of routinely performing chest x-rays before surgery. The premise behind this practice is that the physician might discover some unknown medical condition which would complicate the surgery, and that upon discovering this with the chest x-ray, the physician would adapt the surgery practice accordingly.[2] In fact, medical specialty professional organizations recommend against routine pre-operative chest x-rays for patients who have an unremarkable medical history and presented with a physical exam which did not indicate a chest x-ray.[2] Routine x-ray examination is more likely to result in problems like misdiagnosis, overtreatment, or other negative outcomes than it is to result in a benefit to the patient.[2] Likewise, other tests including complete blood count, prothrombin time, partial thromboplastin time, basic metabolic panel, and urinalysis should not be done unless the results of these tests can help evaluate surgical risk.[3]",
+        "targets": [
+          {
+            "_itemAll": 124,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Baadhi ya mifumo ya matibabu na mazoezi ya mara kwa mara kufanya kifua x-rays kabla ya upasuaji. Nguzo ya nyuma ya tabia hii ni kwamba daktari anaweza kugundua baadhi ya haijulikani hali ya matibabu ambayo itakuwa magumu ya upasuaji, na kwamba juu ya kugundua hili na kifua x-ray, daktari ingekuwa kukabiliana upasuaji mazoezi ipasavyo.[2] Kwa kweli, matibabu maalum ya mashirika ya kitaalamu kupendekeza dhidi ya mara kwa mara kabla ya ushirika kifua x-rays kwa ajili ya wagonjwa ambao wana unremarkable historia ya matibabu na iliyotolewa na mtihani kimwili ambayo hakuwa zinaonyesha kifua x-ray.[2] mara kwa Mara x-ray uchunguzi ni zaidi uwezekano wa kusababisha matatizo kama misdiagnosis, overtreatment, au nyingine matokeo hasi zaidi ni matokeo katika faida kwa mgonjwa.[2] Vivyo hivyo, vipimo vingine ikiwa ni pamoja na kukamilisha damu kuhesabu, prothrombin wakati, sehemu thromboplastin muda, basic metabolic jopo, na urinalysis lazima kuwa na kufanyika kama matokeo ya vipimo vya hizi inaweza kusaidia kutathmini upasuaji hatari.[3]"
+          },
+          {
+            "_itemAll": 125,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Baadhi ya mifumo ya matibabu hufanya eksirei mara kwa mara kabla ya upasuaji. Sababu yake ni daktari huenda akagundua hali ya kimatibabu ambayo ingetatiza upasuaji. Akiwa na ujuzi huo, anaweza kubadilisha namna ya upasuaji ule umpendelee mgonjwa.[2] Hata hivyo, wataalamu wengine hawapendelei kufanywa kwa eksirei wakati huu. [2] Vile vile, majaribio ya damu na mkojo hayafai kufanywa wakati huu.[3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 63,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2046392/4",
+        "sourceText": "Born in a creatively inclined family in Thiruvananthapuram, Kerala. Hiranmayi did not take up any formal training in music until later. She learnt the basics of music from her mother Lathika, a postgraduate in music and a disciple of Prof. Neyyattinkara M.K. Mohanachandran and gained further knowledge by passively listening to musical lessons conducted by her father's brother, a professor at Swati Thirunal College of Music. Her father G. Mohan, was a programme producer for Doordarshan Kendra.[1]",
+        "targets": [
+          {
+            "_itemAll": 126,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Alizaliwa katika familia yenye mwelekeo wa ubunifu huko Thiruvananthapuram, Kerala. Hiranmayi hakuchukua mafunzo yoyote rasmi ya muziki hadi baadaye. Alijifunza misingi ya muziki kutoka kwa mama yake Lathika, mwanafunzi wa shahada ya kwanza katika muziki na mfuasi wa Prof. Neyyattinkara MK Mohanachandran na alipata maarifa zaidi kwa kusikiliza kwa upole masomo ya muziki yaliyoendeshwa na kaka ya babake, profesa katika Chuo cha Muziki cha Swati Thirunal . Baba yake G. Mohan, alikuwa mtayarishaji wa programu ya Doordarshan Kendra . [1]"
+          },
+          {
+            "_itemAll": 127,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Alizaliwa katika familia yenye ubunifu huko Thiruvananthapuram, Kerala. Hiranmayi hakuchukua mafunzo yoyote rasmi ya muziki hapo awali. Alijifunza misingi ya muziki kutoka kwa mama yake Lathika, mwanafunzi wa shahada ya kwanza katika muziki na mfuasi na mwanafunzi wa Prof. Neyyattinkara MK Mohanachandran na alipata maarifa zaidi kwa kusikiliza masomo ya muziki yaliyoendeshwa na kaka wa babake, profesa katika Chuo cha Muziki cha Swati Thirunal . Baba yake G. Mohan, alikuwa mtayarishaji wa programu ya Doordarshan Kendra . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 64,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1638813/14",
+        "sourceText": "Garamba is home to a variety of mammal species, including various species of antelope,[24] as well as buffalo, elephants, hyenas, giant forest hogs, giraffes, hippopotamus, and lions.[2][6][4] The park hosts the Democratic Republic of Congo's only remaining population of giraffes, the Kordofan subspecies, which numbers less than 60 individuals; and one of the country's largest remaining populations of elephants.[5][6]",
+        "targets": [
+          {
+            "_itemAll": 128,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Garamba ni makazi ya aina mbalimbali za mamalia, ikiwa ni pamoja na aina mbalimbali za swala, [1] pamoja na nyati, tembo, fisi, nguruwe wakubwa wa msituni, twiga, kiboko na simba . [2] [3] [4] Hifadhi hii ina idadi ya twiga pekee waliosalia katika Jamhuri ya Kidemokrasia ya Kongo, spishi ndogo za Kordofan, ambazo zina chini ya watu 60; na mojawapo ya idadi kubwa zaidi ya tembo iliyosalia nchini. [2] [3]"
+          },
+          {
+            "_itemAll": 129,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Garamba ni makazi ya aina mbalimbali za mamalia, ikiwa ni pamoja na aina mbalimbali za swala, [1] pamoja na nyati, tembo, fisi, nguruwe wakubwa wa msituni, twiga, kiboko na simba . [2] [3] [4] Hifadhi hii ina idadi ya twiga wa kipekee waliosalia katika Jamhuri ya Kidemokrasia ya Kongo, spishi ndogo za Kordofan, ambazo zina chini ya spishi 60; na mojawapo ya idadi kubwa zaidi ya tembo iliyosalia nchini. [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 65,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1334433/11",
+        "sourceText": "In the early 1990s the LRA began to receive support and supplies from the government of Sudan at that time. The character of the LRA changed. The rebels began to target civilians, mutilating those they thought to be government sympathisers and abducting children as child soldiers and sex slaves.[1]",
+        "targets": [
+          {
+            "_itemAll": 130,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mwanzoni mwa miaka ya 1990 LRA ilianza kupokea msaada na vifaa kutoka kwa serikali ya Sudan wakati huo. Tabia ya LRA ilibadilika. Waasi walianza kulenga raia, wakiwakatakata wale ambao walidhani ni wapatanishi wa serikali na kuwateka watoto kama wanajeshi watoto na watumwa wa ngono. [1]"
+          },
+          {
+            "_itemAll": 131,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mwanzoni mwa miaka ya 1990 LRA ilianza kupokea msaada na vifaa kutoka kwa serikali ya Sudan wakati huo. Tabia ya LRA ilibadilika. Waasi walianza kulenga raia, wakiwakatakata wale ambao walidhani ni wapatanishi wa serikali na kuwateka watoto ambao walifanywa wanajeshi watoto na watumwa wa ngono. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 66,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2062765/3",
+        "sourceText": "Sevilla Fútbol Club (Spanish pronunciation: [seˈβiʎa ˈfuðβol ˈkluβ]) is a Spanish professional football club based in Seville, the capital and largest city of the autonomous community of Andalusia, Spain. It plays in Spanish football's top flight, La Liga. Sevilla have won the UEFA Europa League six times, the most of any club.[6] It is Spain's oldest sporting club solely devoted to football.[7][8][9][10] The club was formed on 25 January 1890,[7][8][9][10] with the Scottish born Edward Farquharson Johnston as their first president. On 14 October 1905, the club's articles of association were registered in the Civil Government of Seville under the presidency of the Jerez-born José Luis Gallegos Arnosa. Sevilla has a long-standing rivalry with cross-city rivals Real Betis.",
+        "targets": [
+          {
+            "_itemAll": 132,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sevilla Fútbol Club ( Spanish pronunciation: [seˈβiʎa ˈfuðβol ˈkluβ] ) ni kilabu cha mpira wa miguu cha Uhispania kilicho na makao yake huko Seville, mji mkuu na jiji kubwa zaidi la jamii inayojitegemea ya Andalusia, Uhispania . Inacheza katika ligi kuu ya soka ya Uhispania, La Liga . Sevilla wameshinda UEFA Europa League mara sita, idadi kubwa kuliko klabu yoyote. [1] Ni klabu kongwe zaidi ya michezo nchini Uhispania inayojitolea kwa soka pekee. [2] [3] [4] [5] Klabu hii iliundwa tarehe 25 Januari 1890, [2] [3] [4] [5] huku mzaliwa wa Uskoti Edward Farquharson Johnston akiwa rais wao wa kwanza. Tarehe 14 Oktoba 1905, makala ya ushirika ya klabu yalisajiliwa katika Serikali ya Kiraia ya Seville chini ya urais wa mzaliwa wa Jerez José Luis Gallegos Arnosa. Sevilla ina ushindani wa muda mrefu na wapinzani wa miji mikubwa Real Betis ."
+          },
+          {
+            "_itemAll": 133,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sevilla Fútbol Club ( Spanish pronunciation: [seˈβiʎa ˈfuðβol ˈkluβ] ) ni kilabu ya mpira wa miguu ya nchini Uhispania iliyo na makao yake makuu huko Seville, mji mkuu na jiji kubwa zaidi la jamii inayojitegemea ya Andalusia, Uhispania . Inacheza katika ligi kuu ya soka la Uhispania, La Liga . Sevilla wameshinda ligi ya UEFA Europa mara sita, idadi kubwa kuliko klabu yoyote duniani. [1] Ni klabu kongwe zaidi ya mchezo wa mpira nchini Uhispania. [2] [3] [4] [5] Klabu hii iliundwa tarehe 25 Januari 1890, [2] [3] [4] [5] huku mzaliwa wa Uskoti Edward Farquharson Johnston akiwa rais wao wa kwanza wa klabu hio. Tarehe 14 Oktoba 1905, makala ya ushirika ya klabu hio ilisajiliwa katika Serikali ya Kiraia ya Seville chini rais mzaliwa wa Jerez,José Luis Gallegos Arnosa. Sevilla ina ushindani wa muda mrefu na wapinzani wa mji mikubwa wa Real Betis ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 67,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1551753/12",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 134,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 135,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 68,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2044418/4",
+        "sourceText": "Bai was a contemporary of Bhartendu Harishchandra, and corresponded with him and took his advice and opinion on poetic expression. Her thumri and other subgenres of thumri were published as Madhu Tarang (Sharma, 2012). Harishchandra also got her to compose Geet Govind by Jaidev. She was considered in the same league as Vidyabari and Badi Moti Bai, masters of the art of thumri and tappa. Bai was referred to as ‘Sarkar’ or chieftain, as she rose to great heights in her career.",
+        "targets": [
+          {
+            "_itemAll": 136,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Bai aliishi wakati mmoja na Bhartendu Harishchandra, na aliwasiliana naye na kuchukua ushauri na maoni yake kuhusu usemi wa kishairi. Thumri yake na tanzu nyingine ndogo za thumri zilichapishwa kama Madhu Tarang (Sharma, 2012). Harishchandra pia alimfanya atunge Geet Govind na Jaidev. Alizingatiwa katika ligi sawa na Vidyabari na Badi Moti Bai, mabingwa wa sanaa ya thumri na tappa. Bai alirejelewa kama 'Sarkar' au chifu, alipopanda hadi kiwango cha juu katika taaluma yake."
+          },
+          {
+            "_itemAll": 137,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Bai aliishi katika kipindi kimja na Bhartendu Harishchandra, na aliwasiliana naye na kuchukua ushauri na maoni yake kuhusu semi za kishairi. Thumri yake na tanzu nyingine ndogo za thumri zilichapishwa kama Madhu Tarang (Sharma, 2012). Harishchandra pia alimfanya atunge Geet Govind akiwa na Jaidev. Alizingatiwa sawa na Vidyabari na Badi Moti Bai, mabingwa wa sanaa ya thumri na tappa. Bai alirejelewa kama 'Sarkar' au chifu, alipopanda hadi kiwango cha juu katika taaluma yake."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 6,
+        "_item": 69,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2046337/23",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 138,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 139,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 70,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1288644/10",
+        "sourceText": "Stuhlmann brought Albrecht Zimmermann, who had worked in Buitenzorg since 1896, to Amani for the purpose of botanical research. He became eventually director of the Institute in 1911. Zimmermann was primarily known as a specialist in coffee cultivation and within a short time he brought the institute international recognition. It soon became the focus of botanical and agricultural research for colonial powers in Africa. Here, fertilization research was carried out in demarcated areas. Plant physiology, entomology, plant toxicology and the possibility of pest control were all part of the Imperial Institute's field of work, as was research into cultivation methods and local plant remedies. All microscopes in the institute came from Carl Zeiss in Jena, and glassware was preferred from Lauscha. Lists of the then modern laboratory equipment are still in the National Archives of Tanzania, in Dar es Salaam.",
+        "targets": [
+          {
+            "_itemAll": 140,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Stuhlmann alimleta Albrecht Zimmermann, ambaye alikuwa akifanya kazi huko Buitenzorg tangu 1896, kwa Amani kwa kusudi la utafiti wa mimea. Mwishowe alikua mkurugenzi wa Taasisi hiyo mnamo 1911. Zimmermann alikuwa anajulikana sana kama mtaalam wa kilimo cha kahawa na kwa muda mfupi aliiletea taasisi hiyo kutambuliwa kimataifa. Hivi karibuni ikawa lengo la utafiti wa mimea na kilimo kwa nguvu za kikoloni barani Afrika. Hapa, utafiti wa mbolea ulifanywa katika maeneo yaliyotengwa. Fiziolojia ya mimea, entomolojia, sumu ya mimea na uwezekano wa kudhibiti wadudu yote yalikuwa sehemu ya uwanja wa kazi wa Taasisi ya Imperial, kama ilivyokuwa utafiti wa njia za kilimo na tiba za mmea. Microscopes zote katika taasisi hiyo zilitoka kwa Carl Zeiss huko Jena, na vifaa vya glasi vilipendelewa kutoka Lauscha. Orodha za vifaa vya kisasa vya maabara bado ziko kwenye Hifadhi ya Kitaifa ya Tanzania, jijini Dar es Salaam ."
+          },
+          {
+            "_itemAll": 141,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Stuhlmann alimleta Albrecht Zimmermann kwa Amani kwa kusudi la utafiti wa mimea. Zimmermann alikuwa anajulikana sana kama mtaalam wa kilimo cha kahawa na kwa muda mfupi aliiletea taasisi hiyo kutambuliwa kimataifa. Hapa, utafiti wa mbolea ulifanywa katika maeneo mbali mbali. Fiziolojia ya mimea, entomolojia, sumu ya mimea na uwezekano wa kudhibiti wadudu zote zilikuwa sehemu za uwanja wa kazi wa Taasisi, kama ilivyokuwa utafiti wa njia za kilimo na tiba ya mimea."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 71,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1633079/0",
+        "sourceText": "Monkey",
+        "targets": [
+          {
+            "_itemAll": 142,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Tumbili"
+          },
+          {
+            "_itemAll": 143,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Tumbili katika Hifadhi ya Taifa ya Sodwana Bay"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 72,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1581359/1",
+        "sourceText": "Freeman HKD Boss (born June 22, 1988), born Emegy Slyvester Chizanga, is a Zimdancehall artist who rose to prominence after release of Joina City[1] single.[2][3]",
+        "targets": [
+          {
+            "_itemAll": 144,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Freeman HKD Boss (amezaliwa Juni 22, 1988), aliyezaliwa Emegy Slyvester Chizanga, ni msanii wa Zimdancehall ambaye alipata umaarufu baada ya kuachiliwa kwa single ya Joina City [1] . [2] [3]"
+          },
+          {
+            "_itemAll": 145,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Freeman HKD Boss, (alizaliwa Juni 22, 1988), ni msanii wa Zimdancehall ambaye alipata umaarufu baada ya kuachiliwa wimbo wa Joina City [1] . [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 73,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2827147/1218262466_1_4",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 146,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 147,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 74,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "802303/3",
+        "sourceText": "The region is inhabited by a sparse but ethnically diverse population, including Russians, Kazakhs, Altais, and Mongolians. The local economy is based on bovine, sheep, and horse husbandry, agriculture, forestry, and mining. The now-disputed Altaic language family takes its name from this mountain range.",
+        "targets": [
+          {
+            "_itemAll": 148,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mkoa ni makao ya idadi ya watu wachache lakini makabila mbalimbali, ikiwa ni pamoja Warusi, Kazakhs, Altais, na Wamongolia . Uchumi wa eneo hilo unategemea bovine, kondoo, na shamba la farasi, kilimo, misitu, na madini . Familia ya lugha ya Altaiki inayojadiliwa sasa inachukua jina lake kutoka safu hii ya mlima."
+          },
+          {
+            "_itemAll": 149,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Wakazi wa eneo lake si wengi wakiwa mchanganyiko wa Warusi, Wakazakhi, Waaltai na Wamongolia . Uchumi wa eneo hilo unategemea ufugaji wa ng'ombe, farasi na kondoo, pamoja na kilimo, misitu, na uchimbaji madini . Milima mirefu zadi hufikia kimo cha mita 4,500."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 75,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1600675/21",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 150,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 151,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 76,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1637210/4",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 152,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 153,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 77,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1248055/41",
+        "sourceText": "On November 28, Now United released the music video for Paradise, featuring the Uniters and the choreography created by some Uniters in partner with Rexona Dance Studio. [36]",
+        "targets": [
+          {
+            "_itemAll": 154,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mnamo Novemba 28, Sasa United ilitoa video ya muziki ya Paradise, iliyo na Uniters na choreography iliyoundwa na baadhi ya Uniters kwa kushirikiana na Rexona Dance Studio. [1]"
+          },
+          {
+            "_itemAll": 155,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mnamo Novemba 28, Now United ilitoa video ya muziki ya \"Paradise\", iliyo na Uniters na choreography iliyoundwa na baadhi ya Uniters kwa kushirikiana na Rexona Dance Studio. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 78,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "848697/16",
+        "sourceText": "The Jubilee Party was one of the primary competitors during Kenya's 2017 general elections. The election was preceded by multiple acts of violence, challenging the lawfulness of the elections. Deputy President Ruto's house was attacked by a single intruder, who killed a guard in the process.[8] In addition, Christopher Musando, a senior election official, was found murdered only a few days before voting began. His death raised concerns, both domestically and abroad, regarding the possibility of electoral fraud.[9]",
+        "targets": [
+          {
+            "_itemAll": 156,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Chama cha Jubilee kilikuwa moja ya washindani wa msingi wakati wa uchaguzi mkuu wa Kenya wa 2017. Uchaguzi huo ulitanguliwa na vitendo vingi vya vurugu, na kupinga uhalali wa uchaguzi. Nyumba ya Makamu wa Rais Ruto ilishambuliwa na mtu mmoja aliyeingia, ambaye alimuua mlinzi katika mchakato huo. [1] Kwa kuongezea, Christopher Musando, afisa wa uchaguzi mkuu, alipatikana aliuawa siku chache kabla ya kupiga kura kuanza. Kifo chake kilizua wasiwasi, ndani na nje ya nchi, kuhusu uwezekano wa udanganyifu wa uchaguzi. [2]"
+          },
+          {
+            "_itemAll": 157,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Chama cha Jubilee kilikuwa moja ya washindani wakuu wakati wa uchaguzi mkuu wa Kenya wa 2017. Uchaguzi huo ulitanguliwa na vitendo vingi vya vurugu, vilivyohatarisha uhalali wa uchaguzi. Nyumba ya Makamu wa Rais Ruto ilishambuliwa na mlinzi mmoja aliuawa. [1] Christopher Musando, afisa wa mtume wa uchaguzi, aliuawa siku chache kabla ya kupiga kura kuanza. Kifo chake kilizua wasiwasi, ndani na nje ya nchi, kuhusu uwezekano wa udanganyifu wa uchaguzi. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 7,
+        "_item": 79,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2161570/0",
+        "sourceText": "Atoroba Peni Rikito is the Grandson of king Gbudwe who ascended to the Crown on February 9th 2022 as the King of Azende.[1]",
+        "targets": [
+          {
+            "_itemAll": 158,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Atoroba Peni Rikito ni Mjukuu wa mfalme Gbudwe ambaye alipanda Ufalme mnamo Februari 9, 2022 kama Mfalme wa Azende . [1]"
+          },
+          {
+            "_itemAll": 159,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Atoroba Peni Rikito ni Mjukuu wa mfalme Gbudwe ambaye alipanda Taji Februari 9, 2022 kama Mfalme wa Azende. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 80,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1551415/1",
+        "sourceText": "Karl Otto Ludwig Klaus Dierks[1] (19 February 1936 – 17 March 2005) was a German-born Namibian deputy government minister, a transport planner and civil engineer in Namibia.",
+        "targets": [
+          {
+            "_itemAll": 160,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Karl Otto Ludwig Klaus Dierks [1] ( 19 Februari 1936 – 17 Machi 2005 ) alikuwa naibu waziri wa serikali ya Namibia mzaliwa wa Ujerumani, mpangaji wa uchukuzi na mhandisi wa ujenzi nchini Namibia ."
+          },
+          {
+            "_itemAll": 161,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Karl Otto Ludwig Klaus Dierks [1] ( 19 Februari 1936 – 17 Machi 2005 ) alikuwa naibu waziri wa serikali ya Namibia na ni mzaliwa wa Ujerumani, mpangaji wa uchukuzi na mhandisi wa ujenzi nchini Namibia ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 81,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "772291/10",
+        "sourceText": "This section, measuring 435 kilometres (270 mi), stretching from Makutupora, in Dodoma, through Tabora to Isaka, is yet to be awarded to a contractor, as of September 2018.[1]",
+        "targets": [
+          {
+            "_itemAll": 162,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Sehemu hii, yenye urefu wa 435 kilometres (270 , iliyoanzia Makutupora, kule Dodoma, kupitia Tabora hadi Isaka, bado hajapewa mkandarasi, tangu Septemba 2018. [1]"
+          },
+          {
+            "_itemAll": 163,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Sehemu hii, yenye urefu wa km 435 kutoka Makutopora kupitia Tabora hadi Isaka bado haijapewa mkandarasi wakati wa Septemba 2018. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 82,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1550009/24",
+        "sourceText": "He left his first major international position, at the American Association for the Advancement of Science in Boston, in 1969 to complete multiple trips per year as a leading critical member of the architectural profession.",
+        "targets": [
+          {
+            "_itemAll": 164,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Aliacha nafasi yake kuu ya kwanza ya kimataifa, katika Jumuiya ya Amerika ya Kuendeleza Sayansi huko Boston, mnamo 1969 ili kukamilisha safari nyingi kwa mwaka kama mshiriki mkuu muhimu wa taaluma ya usanifu."
+          },
+          {
+            "_itemAll": 165,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Aliacha nafasi yake kuu ya kwanza ya kimataifa, katika Jumuiya ya Amerika ya Kuendeleza Sayansi huko Boston, mnamo 1969 ili kukamilisha safari nyingi kwa mwaka kama mshiriki mkuu muhimu wa taaluma ya usanifu."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 83,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1543942/20",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 166,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 167,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 84,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2461352/1198366813_5_55",
+        "sourceText": "Located in Addis Ababa, the Menelik Palace is a palatial compound that is currently serving as the residence of the prime minister of Ethiopia. The compound, while containing palaces and residences also contains a few churches, tombs and monasteries. Previously, it served as the seat of the emperors of Ethiopia. After a 2018 renovation, the compound opened to the public in 2019 as a part of Unity Park.",
+        "targets": [
+          {
+            "_itemAll": 168,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Ipo Addis Ababa, Ikulu ya Menelik ni jumba la kifalme ambalo kwa sasa linatumika kama makazi ya waziri mkuu wa Ethiopia . Kiwanja hicho, huku kikiwa na majumba na makazi pia kina makanisa machache, makaburi na nyumba za watawa. Hapo awali, ilitumika kama makao ya wafalme wa Ethiopia . Baada ya ukarabati wa 2018, kiwanja kilifunguliwa kwa umma mnamo 2019 kama sehemu ya Hifadhi ya Umoja ."
+          },
+          {
+            "_itemAll": 169,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Katika mji wa Addis Ababa kuna Kasri ya Menelik ni jumba la kifalme ambalo kwa sasa linatumika kama makazi ya waziri mkuu wa Ethiopia. Ndani ya eneo hilo kuna makanisa machache, makaburi na nyumba za watawa. Hapo awali, ilitumika kama makazi ya wafalme wa Ethiopia."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 85,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1550896/3",
+        "sourceText": "Background and education",
+        "targets": [
+          {
+            "_itemAll": 170,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Usuli na elimu"
+          },
+          {
+            "_itemAll": 171,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Historia na elimu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 86,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1601696/2",
+        "sourceText": "Yusupha Ngum is a singer and songwriter from Gambia, also known by the stage name \"Joloffman\". He has performed in a variety of styles, including mbalax, folk music, rap, jazz fusion, and Afro fusion music. Yusupha is currently based in Australia.",
+        "targets": [
+          {
+            "_itemAll": 172,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Yusupha Ngum ni mwimbaji na mtunzi wa nyimbo kutoka Gambia, pia anajulikana kwa jina la kisanii \"Joloffman\". Ameimba kwa mitindo mbalimbali, ikiwa ni pamoja na mbalax, muziki wa watu, rap, jazz fusion, na muziki wa Afro fusion. Yusupha kwa sasa yuko Australia."
+          },
+          {
+            "_itemAll": 173,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Yusupha Ngum ni mwimbaji na mtunzi wa nyimbo kutoka nchini Gambia, pia anajulikana kwa jina la sanaa la \"Joloffman\". Ameimba katika mitindo mbalimbali, ikiwa ni pamoja na mbalax, rap, jazz, na muziki wa Afro. Yusupha kwa sasa anaishi Australia."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 87,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1601203/12",
+        "sourceText": "In 2019, Fernando won the Best Portuguese Act award at the 2019 MTV Europe Music Awards receiving the prize at the live event in Seville.[11]",
+        "targets": [
+          {
+            "_itemAll": 174,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Mnamo 2019, Fernando alishinda tuzo ya Sheria Bora ya Ureno katika Tuzo za Muziki za MTV Europe za 2019 akipokea tuzo katika hafla ya moja kwa moja huko Seville . [1]"
+          },
+          {
+            "_itemAll": 175,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Mnamo 2019, Fernando alishinda tuzo ya Sheria Bora ya Ureno katika Tuzo za Muziki za MTV Europe za 2019 akipokea tuzo katika hafla ya moja kwa moja huko Seville . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 88,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1548154/1",
+        "sourceText": "Proscovia Margaret Njuki is a Ugandan electrical engineer and civil servant. Effective 24 November 2016, she serves as the chairperson of the board of directors of Uganda Electricity Generation Company Limited (UEGCL).[1] She replaced Stephen Isabalija, who was appointed permanent secretary at the Uganda Ministry of Energy and Mineral Development.[2]",
+        "targets": [
+          {
+            "_itemAll": 176,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Proscovia Margaret Njuki ni mhandisi wa umeme na mtumishi wa umma kutoka Uganda . Kuanzia tarehe 24 Novemba 2016, anahudumu kama mwenyekiti wa bodi ya wakurugenzi ya Uganda Electricity Generation Company Limited (UEGCL). [1] Alibadilisha Stephen Isabalija, ambaye aliteuliwa kuwa katibu mkuu katika Wizara ya Nishati na Maendeleo ya Madini ya Uganda. [2]"
+          },
+          {
+            "_itemAll": 177,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Proscovia Margaret Njuki ni mhandisi wa umeme na mtumishi wa umma kutoka Uganda . Kuanzia tarehe 24 Novemba 2016, alihudumu kama mwenyekiti wa bodi ya wakurugenzi ya Uganda Electricity Generation Company Limited (UEGCL). [1] Alichukua nafasi ya Stephen Isabalija, ambaye aliteuliwa kuwa katibu mkuu katika Wizara ya Nishati na Maendeleo ya Madini ya Uganda. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 8,
+        "_item": 89,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1190904/2",
+        "sourceText": "Neferneferuaten Nefertiti (/ˌnɛfərˈtiːti/[3]) (c. 1370 – c. 1330 BC) was a queen of the 18th Dynasty of Ancient Egypt, the Great Royal Wife of Pharaoh Akhenaten. Nefertiti and her husband were known for a religious revolution, in which they worshipped one god only, Aten, or the sun disc. With her husband, she reigned at what was arguably the wealthiest period of Ancient Egyptian history.[4] Some scholars believe that Nefertiti ruled briefly as Neferneferuaten after her husband's death and before the ascension of Tutankhamun, although this identification is a matter of ongoing debate.[5][6] If Nefertiti did rule as Pharaoh, her reign was marked by the fall of Amarna and relocation of the capital back to the traditional city of Thebes.[7]",
+        "targets": [
+          {
+            "_itemAll": 178,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Neferneferuaten Nefertiti ( /ˌ n ɛ f ər t mimi t i / [1] ) ( c. 1370 - c. 1330 KK) alikuwa malkia wa nasaba ya 18 ya Misri ya Kale, Mke Mkuu wa Kifalme wa Farao Akhenaten . Nefertiti na mumewe walijulikana kwa mapinduzi ya kidini, ambapo waliabudu mungu mmoja tu, Aten, au disc ya jua. Pamoja na mumewe, alitawala katika kipindi ambacho kwa kweli kilikuwa tajiri zaidi katika historia ya Misri ya Kale. [2] Wasomi wengine wanaamini kwamba Nefertiti alitawala kwa muda mfupi kama Neferneferuaten baada ya kifo cha mumewe na kabla ya kupaa kwa Tutankhamun, ingawa kitambulisho hiki ni suala la mjadala unaoendelea . [3] [4] Ikiwa Nefertiti alitawala kama Farao, utawala wake uliwekwa alama na kuanguka kwa Amarna na kuhamishwa kwa mji mkuu kurudi mji wa jadi wa Thebes . [5]"
+          },
+          {
+            "_itemAll": 179,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Neferneferuaten Nefertiti (mnamo 1370 KK - 1330 KK) alikuwa malkia wa Misri ya Kale na mke mkuu wa Farao Akhenaten . Nefertiti na mumewe wanajulikana kwa mapinduzi ya kidini ambapo waliaanzisha ibada ya mmoja tu wakimwabudu Aten au Jua badala ya miungu mingi ya dini ya nchi. Wataalamu wengine wanaamini kwamba Nefertiti alitawala kama mfalme kwa muda mfupi baada ya kido cha Akhenaten akitumia jina la Neferneferuaten na kabla ya utawala wa Tutankhamun. [1] [4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 90,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2040523/7",
+        "sourceText": "Brackett is known today primarily as the presumed author of the Shaker dancing song \"Simple Gifts\", which has become an internationally loved tune, both through his original version and many of its adaptations. There are two conflicting narratives of Shaker origin as to the composer of the song. One account attributes the song to a \"Negro spirit\" heard at Canterbury, New Hampshire, which would make the song a \"gift song\" received by a Shaker from the spirit world. Alternatively, and far more widely accepted, the song's composer is said to be Brackett.[4] The song, written in 1848, was largely unknown outside of Shaker communities until Aaron Copland used the melody in his 1944 composition Appalachian Spring. The tune is also known widely through the lyrics \"Lord of the Dance\", written by Sydney Carter in 1963. The \"Tune Lovers Society\", an online organization designed to preserve and protect American tunes from the past, sponsors a birthday commemoration for Brackett on May 6.[5]",
+        "targets": [
+          {
+            "_itemAll": 180,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Brackett anajulikana leo kimsingi kama anayedhaniwa kuwa mwandishi wa wimbo wa kucheza wa Shaker \" Zawadi Rahisi \", ambao umekuwa wimbo unaopendwa kimataifa, kupitia toleo lake asili na marekebisho yake mengi. Kuna masimulizi mawili yanayokinzana ya asili ya Shaker kuhusu mtunzi wa wimbo huo. Akaunti moja inahusisha wimbo huo na \"roho ya Negro \" iliyosikika Canterbury, New Hampshire, ambayo ingefanya wimbo kuwa \"wimbo wa zawadi\" uliopokewa na Shaker kutoka ulimwengu wa roho. Vinginevyo, na inakubalika zaidi, mtunzi wa wimbo anasemekana kuwa Brackett. [1] Wimbo huo, ulioandikwa mnamo 1848, haukujulikana sana nje ya jamii za Shaker hadi Aaron Copland alipotumia wimbo huo katika utunzi wake wa 1944 wa Appalachian Spring . Wimbo huu pia unajulikana sana kupitia mashairi \" Bwana wa Ngoma \", iliyoandikwa na Sydney Carter mnamo 1963. \"Tune Lovers Society\", shirika la mtandaoni lililoundwa kuhifadhi na kulinda nyimbo za Kimarekani kutoka zamani, hufadhili ukumbusho wa siku ya kuzaliwa kwa Brackett mnamo Mei 6. [2]"
+          },
+          {
+            "_itemAll": 181,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Brackett anajulikana leo kama mwandishi wa wimbo wa kucheza wa Shaker \" Simple Gifts \", ambao umekuwa wimbo unaopendwa kimataifa, kupitia toleo lake asili na marekebisho yake mengi yaliyo kuja mbeleni. Kuna masimulizi mawili yanayokinzana ya asili ya Shaker kuhusu mtunzi wa wimbo huo . [1] Wimbo huo, ulioandikwa mnamo 1848, haukujulikana sana nje ya jamii za Shaker hadi Aaron Copland alipotumia wimbo huo katika utunzi wake wa 1944 wa Appalachian Spring . Wimbo huu pia unajulikana sana kupitia mashairi \"Lord of the Dance \", iliyoandikwa na Sydney Carter mnamo 1963. \"Tune Lovers Society\", shirika la mtandaoni lililoundwa kuhifadhi na kulinda nyimbo za Kimarekani kutoka zamani, hufadhili ukumbusho wa siku ya kuzaliwa kwa Brackett kuwa Mei 6. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 91,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1599932/1",
+        "sourceText": "Kien Rennise Nde (born April 24, 1988 in Mankon), known by her stage name Reniss, is a Cameroonian singer and songwriter. Reniss sings in English, French, Pidgin, and Ngeumba. Reniss became well-known in the African music scene after releasing her music video \"La Sauce\" on May 6, 2016.",
+        "targets": [
+          {
+            "_itemAll": 182,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Kien Rennise Nde (amezaliwa Aprili 24, 1988 huko Mankon), anayejulikana kwa jina lake la kisanii Reniss, ni mwimbaji na mtunzi wa nyimbo kutoka Kameruni. Reniss anaimba kwa Kiingereza, Kifaransa, Pidgin, na Ngeumba . Reniss alijulikana sana katika ulingo wa muziki wa Kiafrika baada ya kuachia video yake ya muziki \"La Sauce\" mnamo Mei 6, 2016."
+          },
+          {
+            "_itemAll": 183,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kien Rennise Nde (amezaliwa Aprili 24, 1988 huko Mankon), anajulikana kwa jina lake la kisanii Reniss, ni mwimbaji na mtunzi wa nyimbo kutoka Kameruni. Reniss anaimba kwa Kiingereza, Kifaransa, Pidgin, na Ngeumba . Reniss alijulikana sana katika ulingo wa muziki wa Kiafrika baada ya kuachia video yake ya muziki \"La Sauce\" mnamo Mei 6, 2016."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 92,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2598952/1218549508_4_16",
+        "sourceText": "The library holds a large and diverse range of archival materials such as old photographs from Lamu, 19th and 20th century manuscripts, old newspapers, magazines and periodicals, as well as old currencies, and files. A part of the archival collection is digital. It was obtained through a digitization project that was hosted by Lamu Fort Library. The UMADA project digitized roughly two thousand manuscripts and audio cassettes from the personal library of Lamu poet and imam Mahmoud Ahmed Abdulkadir, locally known as Ustadh Mau. [18] It was managed and supervised by Annachiara Raia from the African Studies Centre Leiden in Netherlands[19]The digitization was funded by UCLA’s Modern Endangered Archives Program that is supported by ARCADIA.[20][21][22][23] The digitized poems and sermons can be freely accessed via the UCLA Library Digital Collections. [23] Also the introduction of the MprinT project[24] was done in Lamu Fort Library with team of museum's staff and volunteers on the mapping and digitization of the Islamic manuscripts in the Lamu Archipelago, the MprinT project is managed by Professor Anne Katrine Bang from Bergen University in Norway of department of Archaeology, History, Cultural Studies and Religion.[25] National Museum's staff and volunteers conducted a first mapping of Islamic manuscripts in Pate Island, Lamu including onsite cataloguing by the best expert, order and system ensured by Lamu Fort Library staff and thoroughly documented by the right expertise.[26]",
+        "targets": [
+          {
+            "_itemAll": 184,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Maktaba hiyo ina anuwai kubwa na anuwai ya nyenzo za kumbukumbu kama vile picha za zamani kutoka Lamu, maandishi ya karne ya 19 na 20, magazeti ya zamani, majarida na majarida, pamoja na sarafu za zamani, na faili. Sehemu ya mkusanyiko wa kumbukumbu ni dijitali. Ilipatikana kupitia mradi wa uwekaji dijitali ambao uliandaliwa na Maktaba ya Lamu Fort. Mradi wa UMADA uliweka kidigitali takriban hati elfu mbili na kaseti za sauti kutoka kwa maktaba ya kibinafsi ya mshairi wa Lamu na imamu Mahmoud Ahmed Abdulkadir, anayejulikana nchini kama Ustadh Mau. [1] Ilisimamiwa na kusimamiwa na Annachiara Raia kutoka Kituo cha Mafunzo cha Kiafrika cha Leiden nchini Uholanzi [2] Uwekaji kumbukumbu ulifadhiliwa na Mpango wa Kisasa wa UCLA wa Kumbukumbu ulio Hatarini Kutoweka ambao unaungwa mkono na ARCADIA. [3] [4] [5] [6] Mashairi na mahubiri yaliyowekwa kidijitali yanaweza kupatikana bila malipo kupitia Mikusanyo ya Kidijitali ya Maktaba ya UCLA. [6] Pia kuanzishwa kwa mradi wa MprinT [7] kulifanyika katika Maktaba ya Lamu Fort pamoja na timu ya wafanyakazi wa makumbusho na watu waliojitolea katika uchoraji wa ramani na uwekaji digitali wa maandishi ya Kiislamu katika Visiwa vya Lamu, mradi wa MprinT unasimamiwa na Profesa Anne Katrine Bang kutoka Chuo Kikuu cha Bergen. katika Norway ya idara ya Akiolojia, Historia, Mafunzo ya Utamaduni na Dini. [8] Wafanyikazi wa Makumbusho ya Kitaifa na watu waliojitolea walifanya uchoraji wa kwanza wa hati za Kiislamu katika Kisiwa cha Pate, Lamu ikijumuisha kuorodheshwa kwenye tovuti na mtaalamu bora, utaratibu na mfumo uliohakikishwa na wafanyikazi wa Maktaba ya Lamu Fort na kurekodiwa kikamilifu na utaalamu sahihi. [9]"
+          },
+          {
+            "_itemAll": 185,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Maktaba hiyo inashikilia anuwai kubwa na ya nyenzo za kumbukumbu kama vile picha za zamani kutoka Lamu, maandishi ya karne ya 19 na 20, magazeti ya zamani, na majarida, pamoja na sarafu za zamani, na faili. Sehemu nyingine ya mkusanyiko wa kumbukumbu ni wa kidijitali. Ilipatikana kupitia mradi wa uwekaji dijitali ambao uliandaliwa na Maktaba ya Ngome ya Lamu. Mradi wa UMADA uliweka kidigitali takriban hati elfu mbili na kaseti za sauti kutoka kwa maktaba ya kibinafsi ya mshairi wa Lamu na imamu Mahmoud Ahmed Abdulkadir, anayejulikana nchini kama Ustadh Mau. [1] Ilisimamiwa na kusimamiwa na Annachiara Raia kutoka Kituo cha Mafunzo cha Kiafrika cha Leiden nchini Uholanzi [2] Uwekaji kumbukumbu ulifadhiliwa na Mpango wa Kisasa wa UCLA wa Kumbukumbu ulio Hatarini Kutoweka ambao unaungwa mkono na ARCADIA. [3] [4] [5] [6] Mashairi na mahubiri yaliyowekwa kidijitali yanaweza kupatikana bila malipo kupitia Mikusanyo ya Kidijitali ya Maktaba ya UCLA. [6] Pia kuanzishwa kwa mradi wa MprinT [7] kulifanyika katika Maktaba ya Ngome ya Lamu pamoja na timu ya wafanyakazi wa makumbusho na watu waliojitolea katika uchoraji wa ramani na uwekaji digitali wa maandishi ya Kiislamu katika Visiwa vya Lamu, mradi wa MprinT unasimamiwa na Profesa Anne Katrine Bang kutoka Chuo Kikuu cha Bergen. inchin Norway ya idara ya Akiolojia, Historia, Mafunzo ya Utamaduni na Dini. [8] Wafanyikazi wa Makumbusho ya Kitaifa na watu waliojitolea kufanya utafiti wa kwanza wa hati za Kiislamu katika Kisiwa cha Pate, Lamu ikijumuisha kuorodheshwa kwenye tovuti na mtaalamu bora, utaratibu na mfumo uliohakikishwa na wafanyikazi wa Maktaba ya Ngome ya Lamu na kurekodiwa kikamilifu na utaalamu sahihi. [9]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 93,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2134774/3",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 186,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 187,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 94,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1551820/42",
+        "sourceText": "References",
+        "targets": [
+          {
+            "_itemAll": 188,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marejeleo"
+          },
+          {
+            "_itemAll": 189,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Marejeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 95,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2826046/1250320337_1_6",
+        "sourceText": "In his capacity as an Ottoman parliamentarian, Ruhi raised the Ottoman parliament's 1911 debate on Zionism with his co-representative Sa'id al-Husayni. Ruhi advocated for an approach of anti-Zionism, but his debate record contains repeated clarifications to other parliamentarians that he was arguing against Jewish migration to Palestine, but not against the residence or status of Palestinian Jews.[5]",
+        "targets": [
+          {
+            "_itemAll": 190,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Katika nafasi yake kama mbunge wa Ottoman, Ruhi aliibua mjadala wa bunge la Ottoman wa 1911 kuhusu Uzayuni na mwakilishi wake mwenza Sa'id al-Husayni. Ruhi alitetea mtazamo wa kupinga Uzayuni, lakini rekodi yake ya mjadala ina ufafanuzi wa mara kwa mara kwa wabunge wengine kwamba alikuwa akibishana dhidi ya uhamiaji wa Wayahudi kwenda Palestina, lakini sio dhidi ya makazi au hadhi ya Wayahudi wa Palestina . [1]"
+          },
+          {
+            "_itemAll": 191,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Ruhi al-Khalidi (1864–1913) alikuwa mwandishi, mwalimu, mhamasishaji, na mwanasiasa katika Dola la Ottoman mwishoni mwa karne ya kumi na tisa. Alikuwa mtoto wa brother wa Yousef al-Khalidi, ambaye alikuwa meya wa Yerusalemu kuanzia mwaka 1899 hadi 1907. Mnamo mwaka 1908, alichaguliwa kuwa miongoni mwa wajumbe watatu waliowakilisha Yerusalemu katika serikali mpya ya Ottoman iliyoongozwa na vijana wa Kituruki, na baadaye kuwa naibu wa rais wa bunge (1911)"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 96,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1610872/2",
+        "sourceText": "Marine Services Company Limited (MSCL) is a Tanzanian company that operates ferries, cargo ships and tankers on three of the African Great Lakes, namely Lake Victoria, Lake Tanganyika and Lake Nyasa. It provides services to neighbouring Burundi, DR Congo, Zambia and Malawi.[1][2]",
+        "targets": [
+          {
+            "_itemAll": 192,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Marine Services Company Limited (MSCL) ni kampuni ya Kitanzania inayoendesha vivuko, meli za mizigo na meli kwenye Maziwa Makuu ya Afrika, ambayo ni Ziwa Victoria, Ziwa Tanganyika na Ziwa Nyasa . Inatoa huduma kwa nchi jirani za Burundi, DR Congo, Zambia na Malawi . [1] [2]"
+          },
+          {
+            "_itemAll": 193,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Kampuni ya Huduma za Meli (kwa Kiingereza: Marine Services Company Limited) ni kampuni ya Serikali ya Tanzania inayotoa huduma za usafiri wa maji katika Maziwa Makuu ya Viktoria, Tanganyika na Nyasa.[1] Inaendesha vivuko na meli za mizigo na kutoa huduma hadi nchi jirani za Burundi, DR Congo, Zambia na Malawi . [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 97,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1160775/7",
+        "sourceText": "Resolution 60/7 establishing 27 January as International Holocaust Remembrance Day urges every member nation of the U.N. to honor the memory of Holocaust victims, and encourages the development of educational programs about Holocaust history to help prevent future acts of genocide. It rejects any denial of the Holocaust as an event and condemns all manifestations of religious intolerance, incitement, harassment or violence against persons or communities based on ethnic origin or religious belief. It also calls for actively preserving the Holocaust sites that served as Nazi death camps, concentration camps, forced labor camps and prisons, as well as for establishing a U.N. programme of outreach and mobilization of society for Holocaust remembrance and education.",
+        "targets": [
+          {
+            "_itemAll": 194,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Azimio la 60/7 kuanzisha 27 Januari kama Siku ya Kumbukumbu ya Maangamizi ya Holocaust inahimiza kila taifa mwanachama wa UN kuheshimu kumbukumbu ya wahasiriwa wa Holocaust, na inahimiza maendeleo ya mipango ya elimu juu ya historia ya Holocaust kusaidia kuzuia vitendo vya mauaji ya halaiki . Inakataa kukataliwa kwa Holocaust kama tukio na inalaani maonyesho yote ya uvumilivu wa kidini, uchochezi, unyanyasaji au unyanyasaji dhidi ya watu au jamii kulingana na asili ya kikabila au imani ya kidini. Inahitaji pia kuhifadhi kikamilifu maeneo ya mauaji ya Holocaust ambayo yalitumika kama kambi za kifo za Nazi, kambi za mateso, kambi za kazi za kulazimishwa na magereza, na vile vile kuanzisha mpango wa UN wa kufikia na kuhamasisha jamii kwa ukumbusho wa Holocaust na elimu ."
+          },
+          {
+            "_itemAll": 195,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Azimio la 60/7 kuanzisha 27 Januari kama Siku ya Kumbukumbu ya Maangamizi dhidi ya Wayahudi wa Ulaya (Holocaust) linahimiza kila taifa mwanachama wa UM kuheshimu kumbukumbu ya wahasiriwa wa Holocaust. . Inakataa kukana kwa Holocaust kama tukio na inalaani matamko yote ya chuki ya kidini, uchochezi au unyanyasaji dhidi ya watu au jamii kutokana na asili yao au imani ya kidini. Inataka pia kuhifadhi kikamilifu maeneo ya mauaji ya Holocaust ambayo yalitumika kama makambi ya kifo ya Wanazi, kambi za mateso, kambi za kazi za kulazimishwa na magereza, na vile vile kuanzisha mpango wa UN wa kufikia na kuhamasisha jamii kwa ukumbusho wa Holocaust."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 98,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1636366/2",
+        "sourceText": "East African oryx in the national park",
+        "targets": [
+          {
+            "_itemAll": 196,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Oryx ya Afrika Mashariki katika Hifadhi ya Taifa"
+          },
+          {
+            "_itemAll": 197,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Oryx wa Afrika Mashariki katika Hifadhi ya Taifa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 9,
+        "_item": 99,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1633847/2",
+        "sourceText": "The park is home to chimpanzees who attract international study including that of Claudia Sousa.[2]",
+        "targets": [
+          {
+            "_itemAll": 198,
+            "_target": 0,
+            "targetID": "system-B",
+            "targetText": "Hifadhi hii ni nyumbani kwa sokwe ambao huvutia masomo ya kimataifa ikiwa ni pamoja na ile ya Claudia Sousa . [1]"
+          },
+          {
+            "_itemAll": 199,
+            "_target": 1,
+            "targetID": "system-A",
+            "targetText": "Hifadhi hii ni nyumbani kwa mamalia kama sokwe ambao huvutia katika masomo ya kimataifa ikiwa ni pamoja na ile ya Claudia Sousa . [1]"
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 10,
+      "contrastiveOutputs": 2,
+      "contrastiveSelectionMethod": "sampling (x10)",
+      "randomSeed": 123456,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "swa"
+    }
+  }
+]
