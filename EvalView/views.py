@@ -13,6 +13,7 @@ from django.http import JsonResponse
 from django.shortcuts import redirect
 from django.shortcuts import render
 from django.utils.html import escape
+from django.contrib import messages 
 
 from Appraise.settings import BASE_CONTEXT
 from Appraise.utils import _get_logger
@@ -1416,6 +1417,10 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     """
     Pairwise direct assessment annotation view.
     """
+    # Redirect to introduction page if coming here directly
+    if not request.session.get('visited_introduction', False):
+        return redirect('pairwise-introduction') # added this to redirect to the introduction page
+
     t1 = datetime.now()
 
     campaign = None
@@ -1523,6 +1528,19 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
         # Hiba added this: retrieve freetextannotation from POST data
         Free_Text_Annotation = request.POST.get('FreeTextAnnotation', '').strip()
+        # Hiba added this: retrieve selected choices from POST data
+        selected_choices = request.POST.getlist('selected_choices', [])
+        other_text = request.POST.get('other_text', '')
+        # Get Wikipedia contribution data
+        wikipedia_contributions = request.POST.getlist('wikipedia_contributions', [])
+        other_wikipedia_contribution_text = request.POST.get('other_wikipedia_contribution_text', '')
+        wikipedia_duration = request.POST.get('wikipedia_duration', '')
+    
+        # Validate "Other" option
+        if 'other' in selected_choices and not other_text:
+            messages.error(request, "Please specify details for 'Other'.")
+            return redirect(request.path)
+
 
         print(
         'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}, freetextannotation={6}'.format(
@@ -1575,7 +1593,13 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     sourceErrors=source_error,
                     errors1=error1,
                     errors2=error2,
-                    freetextannotation=Free_Text_Annotation,
+                    #freetextannotation=Free_Text_Annotation,
+                    selected_choices=",".join(selected_choices),  # Add this
+                    other_text=other_text,
+                    wikipedia_contributions=','.join(wikipedia_contributions),
+                    other_wikipedia_contribution_text=other_wikipedia_contribution_text,
+                    wikipedia_duration=wikipedia_duration,
+
                 )
 
     t3 = datetime.now()
@@ -1584,8 +1608,11 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         request.user, return_completed_items=True
     )
     if not current_item:
-        LOGGER.info('No current item detected, redirecting to dashboard')
-        return redirect('dashboard')
+        #LOGGER.info('No current item detected, redirecting to dashboard')
+        #return redirect('dashboard')
+        LOGGER.info('No current item detected, redirecting to feedback page')
+        return redirect('pairwise-feedback')
+
 
     # completed_items_check = current_task.completed_items_for_user(
     #     request.user)
@@ -1768,6 +1795,88 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     context.update(BASE_CONTEXT)
 
     return render(request, 'EvalView/pairwise-assessment.html', context)
+
+
+@login_required
+def pairwise_introduction(request):
+    """
+    Displays an introduction page before starting the pairwise assessment.
+    """
+    # make sure that the user has visited the introduction page
+    request.session['visited_introduction'] = True
+
+    context = {
+        'active_page': 'pairwise-introduction',
+    }
+    return render(request, 'EvalView/pairwise-introduction.html', context)
+
+
+'''
+@login_required
+def pairwise_introduction(request):
+    """
+    Displays an introduction page before starting the pairwise assessment.
+    Processes Wikipedia contribution data when submitted.
+    """
+    if request.method == "POST":
+        # Extract form data
+        wikipedia_contributions = request.POST.getlist('wikipedia_contributions', [])
+        other_wikipedia_contribution_text = request.POST.get('other_wikipedia_contribution_text', '')
+        wikipedia_duration = request.POST.get('wikipedia_duration', '')
+
+        # Save data to session for later use
+        request.session['wikipedia_contributions'] = wikipedia_contributions
+        request.session['other_wikipedia_contribution_text'] = other_wikipedia_contribution_text
+        request.session['wikipedia_duration'] = wikipedia_duration
+        request.session['visited_introduction'] = True
+
+        # Redirect to annotation task
+        return redirect('pairwise_assessment')
+
+    # For GET requests, just mark that user visited the intro page
+    request.session['visited_introduction'] = True
+    
+    context = {
+        'active_page': 'pairwise-introduction',
+    }
+    context.update(BASE_CONTEXT)  # Add the base context
+    
+    # Use the correct template path within the EvalView app
+    return render(request, 'EvalView/pairwise-introduction.html', context)
+'''
+
+
+
+@login_required
+def pairwise_feedback(request):
+    """
+    Feedback page after completing pairwise assessment.
+    """
+    context = {
+        'active_page': 'pairwise-feedback',
+    }
+    return render(request, 'EvalView/pairwise-feedback.html', context)
+
+@login_required
+def pairwise_feedback_submit(request):
+    """
+    Handle feedback form submission.
+    """
+    if request.method == "POST":
+        feedback_text = request.POST.get('feedbackText', '')
+        
+        # You can save the feedback to your database here
+        # For example, you could create a new model instance:
+        # FeedbackModel.objects.create(
+        #     user=request.user,
+        #     feedback=feedback_text
+        # )
+        
+        messages.success(request, "Thank you for your feedback!")
+        return redirect('dashboard')
+    
+    # If not a POST request, redirect to the feedback form
+    return redirect('pairwise-feedback')
 
 
 # pylint: disable=C0103,C0330

@@ -426,6 +426,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('End time'), help_text=_('(in seconds)')
     )
 
+    """
 
     # added a new field for freetextannotation
     freetextannotation = models.TextField(
@@ -433,7 +434,56 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         null=True,   # allow NULL values in database
         verbose_name=_('free text annotation'), help_text=_('(free text annotation)')
     )
+    """
+
+    # Replaced freetextannotation with these fields
+    SELECTION_CHOICES = [
+        ('option1', 'The highest rated translation souds better'),
+        ('option2', 'The highest rated translation adds more context for the reader'),
+        ('option3', 'No meaningful difference in content or style'),
+        ('other', 'Other'),
+    ]
     
+    selected_choices = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Selected choices'),
+        help_text=_('Comma-separated selected options')
+    )
+    
+    other_text = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other text'),
+        help_text=_('Free text for "Other" option')
+    )
+
+    # Fields for Wikipedia contribution questions
+    wikipedia_contributions = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Wikipedia contributions'),
+        help_text=_('How do you contribute to Wikipedia?')
+    )
+
+    other_wikipedia_contribution_text = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other Wikipedia contribution'),
+        help_text=_('Other way of contributing to Wikipedia')
+    )
+
+    wikipedia_duration = models.CharField(
+        max_length=50,
+        blank=True,
+        null=True,
+        verbose_name=_('Wikipedia contribution duration'),
+        help_text=_('How long have you contributed to Wikipedia?')
+    )
+
+
     item = models.ForeignKey(
         TextSegmentWithTwoTargets,
         db_index=True,
@@ -829,7 +879,13 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'errors1',  # Translation errors/annotation comments
             'errors2',  # Translation errors/annotation comments
             'sourceErrors',  # Errors in the source text
-            'freetextannotation',  # Free text annotation
+            #'freetextannotation',  # Free text annotation
+            'selected_choices',
+            'other_text',
+            'wikipedia_contributions',
+            'other_wikipedia_contribution_text',
+            'wikipedia_duration',
+
         )
 
         if extended_csv:

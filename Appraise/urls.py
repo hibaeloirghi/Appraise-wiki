@@ -170,6 +170,49 @@ urlpatterns = [
         evalview_views.pairwise_assessment,
         name='pairwise-assessment',
     ),
+        # Introduction page
+    re_path(
+        r'^pairwise-introduction/$',
+        evalview_views.pairwise_introduction,
+        name='pairwise-introduction',
+    ),
+    re_path(
+        r'^pairwise-introduction/(?P<code>[a-z]{3})/$',
+        evalview_views.pairwise_introduction,
+        name='pairwise-introduction',
+    ),
+    re_path(
+        r'^pairwise-introduction/(?P<code>[a-z]{3})/'
+        r'(?P<campaign_name>[a-zA-Z0-9]+)/$',
+        evalview_views.pairwise_introduction,
+        name='pairwise-introduction',
+    ),
+
+    # Feedback page
+    re_path(
+        r'^pairwise-feedback/$',
+        evalview_views.pairwise_feedback,
+        name='pairwise-feedback',
+    ),
+    re_path(
+        r'^pairwise-feedback/(?P<code>[a-z]{3})/$',
+        evalview_views.pairwise_feedback,
+        name='pairwise-feedback',
+    ),
+    re_path(
+        r'^pairwise-feedback/(?P<code>[a-z]{3})/'
+        r'(?P<campaign_name>[a-zA-Z0-9]+)/$',
+        evalview_views.pairwise_feedback,
+        name='pairwise-feedback',
+    ),
+
+    # Feedback submission
+    re_path(
+        r'^pairwise-feedback-submit/$',
+        evalview_views.pairwise_feedback_submit,
+        name='pairwise-feedback-submit',
+    ),
+
     re_path(
         r'^pairwise-assessment-document/$',
         evalview_views.pairwise_assessment_document,

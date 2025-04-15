@@ -673,7 +673,7 @@ if __name__ == "__main__":
 
     print(f'Quality control={CONTROLS}')
     if not CONTROLS or TGT_LANG == 'sgg':  # no BAD refs if the target size has videos
-        REQUIRED_SEGS = 100
+        REQUIRED_SEGS = 50
     else:
         REQUIRED_SEGS = 80
     print(f'Setting REQUIRED_SEGS={REQUIRED_SEGS}')
@@ -722,11 +722,24 @@ if __name__ == "__main__":
             print(f'Adding reference "{ref_id}" as system output "{sys_id}"')
             SYS_DOCS[sys_id] = REF_DOCS[ref_id]
 
+    '''
     print(f"Keeping system A (= {SYSTEM_A}) and system B (= {SYSTEM_B}) only")
     for sys_id in list(SYS_DOCS.keys()):
         if sys_id not in [SYSTEM_A, SYSTEM_B]:
             print(f"  removing {sys_id}")
             del SYS_DOCS[sys_id]
+    '''
+
+    # hiba added this block
+    print("Creating all possible system pairs for comparison")
+    all_systems = sorted(list(SYS_DOCS.keys()))
+    system_pairs = []
+    for i in range(len(all_systems)):
+        for j in range(i+1, len(all_systems)):
+            system_pairs.append((all_systems[i], all_systems[j]))
+
+    print(f"Generated {len(system_pairs)} unique system pairs")
+    # end of block added
 
     # List of system names that can be iterated deterministically
     SYS_IDS = sorted(list(SYS_DOCS.keys()))
@@ -932,142 +945,147 @@ if __name__ == "__main__":
             doc_len, doc_id, isControl = doc_data  # type: ignore
 
             # different order of systems per document only
-            _shuffled_sys_ids = SYS_IDS.copy()
-            shuffle(_shuffled_sys_ids)
+            # hiba removed the following 2 lines
+            #_shuffled_sys_ids = SYS_IDS.copy()
+            #shuffle(_shuffled_sys_ids)
 
-            _src = {}
-            _ref = {}
-            _bads = {}
-            _tgts = {}
+            # and added these 2 lines
+            for sys_A, sys_B in system_pairs:
+                _shuffled_sys_ids = [sys_A, sys_B]
 
-            for item_id, item_src in SRC_DOCS[doc_id]:
-                seg_id = f'{doc_id}::{item_id}'
-                _src[seg_id] = item_src
+                _src = {}
+                _ref = {}
+                _bads = {}
+                _tgts = {}
 
-            for item_id, item_ref in REF_DOCS[REF_ID][doc_id]:
-                seg_id = f'{doc_id}::{item_id}'
-                _ref[seg_id] = item_ref
-
-            for sys_id in SYS_IDS:
-                _bads[sys_id] = {}
-                _tgts[sys_id] = {}
-
-                for item_id, item_bad in BAD_DOCS[sys_id][doc_id]:
+                for item_id, item_src in SRC_DOCS[doc_id]:
                     seg_id = f'{doc_id}::{item_id}'
-                    _bads[sys_id][seg_id] = item_bad
+                    _src[seg_id] = item_src
 
-                for item_id, item_tgt in SYS_DOCS[sys_id][doc_id]:
+                for item_id, item_ref in REF_DOCS[REF_ID][doc_id]:
                     seg_id = f'{doc_id}::{item_id}'
-                    _tgts[sys_id][seg_id] = item_tgt
+                    _ref[seg_id] = item_ref
 
-            seg_counter = 0
-            context_src: List[Text] = []
-            context_ref: List[Text] = []
-            context_bads: Dict[str, List[Text]] = defaultdict(list)
-            context_tgts: Dict[str, List[Text]] = defaultdict(list)
-            for seg_id in _src:
-                if seg_counter >= doc_len:  # Padding tasks are shorter!
-                    break
-                item_src = _src[seg_id]
-                item_ref = _ref[seg_id]
+                for sys_id in SYS_IDS:
+                    _bads[sys_id] = {}
+                    _tgts[sys_id] = {}
 
-                item_bads = { sys_id: _bads[sys_id][seg_id] for sys_id in SYS_IDS }
-                item_tgts = { sys_id: _tgts[sys_id][seg_id] for sys_id in SYS_IDS }
-                item_type = 'TGT'
+                    for item_id, item_bad in BAD_DOCS[sys_id][doc_id]:
+                        seg_id = f'{doc_id}::{item_id}'
+                        _bads[sys_id][seg_id] = item_bad
 
-                # Do not generate any BAD items if QC is disabled
-                if CONTROLS and isControl:
-                    randomCoinFlip = choice(
-                        [False, False, True, True, True]  # 60:40 chance
-                    )
-                    if randomCoinFlip:
-                        item_tgts = item_bads
-                        item_type = 'BAD'
-                        has_control_item = True
+                    for item_id, item_tgt in SYS_DOCS[sys_id][doc_id]:
+                        seg_id = f'{doc_id}::{item_id}'
+                        _tgts[sys_id][seg_id] = item_tgt
+
+                seg_counter = 0
+                context_src: List[Text] = []
+                context_ref: List[Text] = []
+                context_bads: Dict[str, List[Text]] = defaultdict(list)
+                context_tgts: Dict[str, List[Text]] = defaultdict(list)
+                for seg_id in _src:
+                    if seg_counter >= doc_len:  # Padding tasks are shorter!
+                        break
+                    item_src = _src[seg_id]
+                    item_ref = _ref[seg_id]
+
+                    item_bads = { sys_id: _bads[sys_id][seg_id] for sys_id in SYS_IDS }
+                    item_tgts = { sys_id: _tgts[sys_id][seg_id] for sys_id in SYS_IDS }
+                    item_type = 'TGT'
+
+                    # Do not generate any BAD items if QC is disabled
+                    if CONTROLS and isControl:
+                        randomCoinFlip = choice(
+                            [False, False, True, True, True]  # 60:40 chance
+                        )
+                        if randomCoinFlip:
+                            item_tgts = item_bads
+                            item_type = 'BAD'
+                            has_control_item = True
+
+                    src_ctx = []
+                    if seg_counter == 0:
+                        src_ctx = [txt for _, txt in SRC_PREV[doc_id]][-CTX_SIZE:]
+
+                    obj: Dict[str, Any] = OrderedDict()
+                    obj['_item'] = _item
+                    obj['_block'] = -1
+                    obj['segmentID'] = f'{source_id}::{seg_id}'
+                    obj['segmentContextLeft'] = '\n'.join(src_ctx)
+                    obj['segmentText'] = item_src
+                    obj['itemID'] = seg_counter
+                    obj['itemType'] = item_type
+                    obj['documentID'] = doc_id
+                    obj['isCompleteDocument'] = False
+                    obj['targets'] = []
+                    obj['targetsSize'] = 0
+
+                    for tgt_idx, sys_id in enumerate(_shuffled_sys_ids):
+                        tgt_ctx = []
+                        if seg_counter == 0:
+                            tgt_ctx = [txt for _, txt in SYS_PREV[sys_id][doc_id]][-CTX_SIZE:]
+
+                        tobj = OrderedDict()
+                        tobj['_itemAll'] = _itemAll
+                        tobj['_target'] = tgt_idx
+                        tobj['targetID'] = sys_id
+                        tobj['targetContextLeft'] = '\n'.join(tgt_ctx)
+                        tobj['targetText'] = item_tgts[sys_id]
+
+                        obj['targets'].append(tobj)
+                        obj['targetsSize'] += 1
+                        _itemAll += 1
+
+                    context_src.append(item_src)
+                    context_ref.append(item_ref)
+                    for sys_id in SYS_IDS:
+                        context_bads[sys_id].append(item_bads[sys_id])
+                        context_tgts[sys_id].append(item_tgts[sys_id])
+
+                    items_data[-1].append(obj)
+                    _item += 1
+                    seg_counter += 1
 
                 src_ctx = []
-                if seg_counter == 0:
-                    src_ctx = [txt for _, txt in SRC_PREV[doc_id]][-CTX_SIZE:]
+                src_ctx = [txt for _, txt in SRC_NEXT[doc_id]][:CTX_SIZE]
 
-                obj: Dict[str, Any] = OrderedDict()
+                obj = OrderedDict()
                 obj['_item'] = _item
                 obj['_block'] = -1
                 obj['segmentID'] = f'{source_id}::{seg_id}'
                 obj['segmentContextLeft'] = '\n'.join(src_ctx)
-                obj['segmentText'] = item_src
-                obj['itemID'] = seg_counter
-                obj['itemType'] = item_type
+                obj['segmentText'] = ' '.join(context_src)  # full document
+                obj['itemID'] = item_id
+                obj['itemType'] = 'BAD' if has_control_item else 'TGT'
                 obj['documentID'] = doc_id
-                obj['isCompleteDocument'] = False
+                obj['isCompleteDocument'] = True
                 obj['targets'] = []
                 obj['targetsSize'] = 0
 
                 for tgt_idx, sys_id in enumerate(_shuffled_sys_ids):
                     tgt_ctx = []
-                    if seg_counter == 0:
-                        tgt_ctx = [txt for _, txt in SYS_PREV[sys_id][doc_id]][-CTX_SIZE:]
+                    tgt_ctx = [txt for _, txt in SYS_NEXT[sys_id][doc_id]][:CTX_SIZE]
 
                     tobj = OrderedDict()
                     tobj['_itemAll'] = _itemAll
                     tobj['_target'] = tgt_idx
-                    tobj['targetID'] = sys_id
                     tobj['targetContextLeft'] = '\n'.join(tgt_ctx)
-                    tobj['targetText'] = item_tgts[sys_id]
+                    tobj['targetID'] = sys_id
+                    tobj['targetText'] = ' '.join(context_tgts[sys_id])  # full document
 
                     obj['targets'].append(tobj)
                     obj['targetsSize'] += 1
                     _itemAll += 1
 
-                context_src.append(item_src)
-                context_ref.append(item_ref)
-                for sys_id in SYS_IDS:
-                    context_bads[sys_id].append(item_bads[sys_id])
-                    context_tgts[sys_id].append(item_tgts[sys_id])
-
                 items_data[-1].append(obj)
-                _item += 1
-                seg_counter += 1
 
-            src_ctx = []
-            src_ctx = [txt for _, txt in SRC_NEXT[doc_id]][:CTX_SIZE]
-
-            obj = OrderedDict()
-            obj['_item'] = _item
-            obj['_block'] = -1
-            obj['segmentID'] = f'{source_id}::{seg_id}'
-            obj['segmentContextLeft'] = '\n'.join(src_ctx)
-            obj['segmentText'] = ' '.join(context_src)  # full document
-            obj['itemID'] = item_id
-            obj['itemType'] = 'BAD' if has_control_item else 'TGT'
-            obj['documentID'] = doc_id
-            obj['isCompleteDocument'] = True
-            obj['targets'] = []
-            obj['targetsSize'] = 0
-
-            for tgt_idx, sys_id in enumerate(_shuffled_sys_ids):
-                tgt_ctx = []
-                tgt_ctx = [txt for _, txt in SYS_NEXT[sys_id][doc_id]][:CTX_SIZE]
-
-                tobj = OrderedDict()
-                tobj['_itemAll'] = _itemAll
-                tobj['_target'] = tgt_idx
-                tobj['targetContextLeft'] = '\n'.join(tgt_ctx)
-                tobj['targetID'] = sys_id
-                tobj['targetText'] = ' '.join(context_tgts[sys_id])  # full document
-
-                obj['targets'].append(tobj)
-                obj['targetsSize'] += 1
-                _itemAll += 1
-
-            items_data[-1].append(obj)
-
-            if has_control_item and SHUFFLE_DOCS_WITH_CONTROL_ITEMS:
-                # Move the document with control items to a random position so
-                # that they are not accumulated as very last documents
-                _bad_doc = items_data.pop()
-                _pos = randint(0, len(items_data) - 1)
-                print(f'  Moving the last QC document to position {_pos}')
-                items_data.insert(_pos, _bad_doc)
+                if has_control_item and SHUFFLE_DOCS_WITH_CONTROL_ITEMS:
+                    # Move the document with control items to a random position so
+                    # that they are not accumulated as very last documents
+                    _bad_doc = items_data.pop()
+                    _pos = randint(0, len(items_data) - 1)
+                    print(f'  Moving the last QC document to position {_pos}')
+                    items_data.insert(_pos, _bad_doc)
 
         # Extract items from documents
         _items_data = [item for doc_items in items_data for item in doc_items]

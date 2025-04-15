@@ -1,0 +1,2842 @@
+[
+  {
+    "items": [
+      {
+        "_block": -1,
+        "_item": 0,
+        "documentID": "478300",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::478300::0",
+        "segmentText": "This video over Central Africa and the Middle East was taken by the crew of Expedition 29 on board the International Space Station in October 2011",
+        "targets": [
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Wannan bidiyon na Afirka ta Tsakiya da Gabas ta Tsakiya sun dauki nauyin kaddamar da fitarwa 29 a filin jirgin sama na kasa da kasa a watan Oktobar 2011"
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "This video over Central Africa and the Middle East was taken by the crew of Expedition 29 on board the International Space Station in October 2011"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 1,
+        "documentID": "585779",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::585779::1",
+        "segmentText": "Hausa may refer to:",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Harshen Hausa yana iya koma zuwa:"
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Harshen Hausa yana iya nufin:"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 2,
+        "documentID": "585779",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::585779::2",
+        "segmentText": "Hausa people, one of the largest ethnic groups in West Africa Hausa language, spoken in West Africa Hausa Kingdoms, a historical collection of Hausa city-states Hausa music, the music of the Hausa people Kannywood or Hausa movies, the Hausa-language film industry of Northern Nigeria mainly based in Kano",
+        "targets": [
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Mutanen Hausa , daya daga cikin mafi yawan kabilanci a Afirka ta Yamma Hausa harshen , magana a Yammacin Afrika Gwamnatin Ingila , wani tarihin tarihin Hausawa Yaren Hausa , kiɗa na Hausawa Kannywood ko Hausa, fina-finai na Hausa-harshen fina-finai na Arewacin Najeriya da ke da yawa a Kano"
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Mutanen Hausa, daya daga cikin ƙabila mafi yawanci a Afirka ta Yamma Hausa harshen, a Yammacin Afrika Gwamnatin Ingila, tarihin biranen Hausawa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 3,
+        "documentID": "588325",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::588325::3",
+        "segmentText": "The All Progressives Congress (APC) is a political party in Nigeria, formed on 6 February 2013 in anticipation of the 2015 elections.[4][5][6] APC candidate Muhammadu Buhari won the presidential election by almost 2.6 million votes.[7] Incumbent President Goodluck Jonathan conceded defeat on 31 March.[8] This was the first time in Nigeria's political history that an opposition political party unseated a governing party in a general election and one in which power transferred peacefully from one political party to another.[9] In addition, the APC won the majority of seats in the Senate and the House of Representatives in the 2015 elections, though it fell shy of winning a super-majority to override the ability of the opposition People's Democratic Party to block legislation.[10][11]",
+        "targets": [
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Jam'iyyar APC ita ce jam'iyya siyasa a Nijeriya , wanda aka kafa ranar 6 ga Fabrairun 2013 a gaban zuwan zaben 2015 . [4] [5] [6] Dan takarar APC Muhammadu Buhari ya lashe zaben shugaban kasa da kusan kuri'u miliyan 2.6. [7] Shugaban kasa Goodluck Jonathan ya yi nasara a ranar 31 ga Maris. [8] Wannan shi ne karo na farko a tarihin siyasa na siyasa cewa jam'iyyun siyasa na adawa sun kaddamar da wata jam'iyya mai mulki a babban zabe kuma daya daga cikin wutar lantarki ta sauya zaman lafiya daga wata jam'iyya siyasa zuwa wani. [9] Bugu da kari, APC ta lashe rinjaye mafi yawa a majalisar dattijai da majalisar wakilai a zaben 2015 , kodayake ya kasance da kunya don lashe rinjaye mafi rinjaye don kare ikon adawar 'yan adawa ' yan jam'iyyar Democrat don hana dokar. [10] [11]"
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Jam'iyyar APC ita ce jam'iyya siyasa a Nijeriya , wanda aka kafa ranar 6 ga Fabrairun 2013 a gaban zuwan zaben 2015 . [4] [5] [6] Dan takarar APC Muhammadu Buhari ya lashe zaben shugaban kasa da kusan kuri'u miliyan 2.6. [7] Shugaban kasa Goodluck Jonathan ya yi nasara a ranar 31 ga Maris. [8] Wannan shi ne karo na farko a tarihin siyasa na siyasa cewa jam'iyyun siyasa na adawa sun kaddamar da wata jam'iyya mai mulki a babban zabe kuma daya daga cikin wutar lantarki ta sauya zaman lafiya daga wata jam'iyya siyasa zuwa wani. [9] Bugu da kari, APC ta lashe rinjaye mafi yawa a majalisar dattijai da majalisar wakilai a zaben 2015 , kodayake ya kasance da kunya don lashe rinjaye mafi rinjaye don kare ikon adawar 'yan adawa ' yan jam'iyyar Democrat don hana dokar. [10] [11]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 4,
+        "documentID": "610500",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::610500::4",
+        "segmentText": "Sura 51 of the Quran الذاريات Adh-Dhāriyāt The Winnowing Winds Arabic text English translation Classification Meccan Other names The Scatterers, The Dust-Scattering Winds, Drivers of the Winds Position Juzʼ 26, 27 No. of Rukus 3 No. of verses 60 No. of words 360 No. of letters 1546 ← Surat Qaf Surat al-Tur →",
+        "targets": [
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Sura 51 of the Quran الذاريات Adh-Dhāriyāt The Winnowing Winds Arabic text English translation Classification Meccan Other names The Scatterers, The Dust-Scattering Winds, Drivers of the Winds Position Juzʼ 26, 27 No. of Rukus 3 No. of verses 60 No. of words 360 No. of letters 1546 ← Surat Qaf Surat al-Tur →"
+          },
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": " "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 5,
+        "documentID": "610500",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::610500::5",
+        "segmentText": "Sūrat adh-Dhāriyāt (Arabic: سورة الذاريات‎, \"The Winnowing Winds\") is the 51st sura of the Qur'an with 60 ayat. It mentions Abraham, Noah, the day of judgment and otherwise reiterates the essential Quranic message.",
+        "targets": [
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Surat Adh-Dhariyat ( Larabci , \"The Winnowing Winds\") shi ne 51m Surar Alkur'ani da 60 ayat . Ya ambaci Ibrahim , Nuhu , Ranar Shari'a kuma in ba haka ba ne ya sake bayyana ainihin saƙon Kur'ani."
+          },
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce na 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 6,
+        "documentID": "610500",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::610500::6",
+        "segmentText": "Sūrat adh-Dhāriyāt (Arabic: سورة الذاريات, \"The Winnowing Winds\") is the 51st sura of the Qur'an with 60 ayat. It mentions Abraham, Noah, the day of judgment and otherwise reiterates the essential Quranic message.",
+        "targets": [
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce na 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama."
+          },
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Surat Adh-Dhariyat ( Larabci, \"Iskoki masu naushi\") Surar Alkur'ani ce ta 51 mai ayoyi 60. Surar ta ambaci annabawa kamar Ibrahim, Nuhu, da Ranar Alk'iyama. Sannan kuma, ta sake maimaita ainihin sakon Alkurani."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 7,
+        "documentID": "610500",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::610500::7",
+        "segmentText": "According to Neuwirth’s literary analysis, as related through Ernst,[1] sura 51, like many early Meccan suras, consists of a tripartite structure: I, 1– 23; II, 24– 46; III, 47– 60. These three sections are corroborated in a 2016 translation, The Clear Quran, which breaks the entire Quran into smaller thematic sections, can be further broken down as follows:",
+        "targets": [
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kamar yadda binciken adabin Neuwirth ya nuna, kamar yadda Ernst ke da alaƙa, [1] sura ta 51, kamar yawancin surorin Makka na farko, ta ƙunshi tsari uku: I, 1– 23; II, 24–46; III, 47-60. Wadannan sassa guda uku an tabbatar da su a cikin fassarar 2016, Alqur'ani mai haske, wanda ya karya dukkan Al-Qur'ani zuwa kananan sassa, ana iya kara wargaza su kamar haka:"
+          },
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kamar yadda binciken adabin Neuwirth ya nuna, kamar yadda Ernst ya alaƙantar,[1] sura ta 51, kamar yawancin surorin Makka na farko, ta ƙunshi tsari uku: I, 1– 23; II, 24–46; III, 47-60. Wadannan sassa guda uku an tabbatar da su a cikin fassarar Alqur'ani mai suna The Clear Quran na 2016, wanda ya karya dukkan Al-Qur'ani zuwa kananan sassa, ana iya kara wargaza su kamar haka:"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 8,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::8",
+        "segmentText": "Taqī ad-Dīn Ahmad ibn Taymiyyah (Arabic: تقي الدين أحمد ابن تيمية, January 22, 1263 - September 26, 1328), known as Ibn Taymiyyah for short, was a controversial[11][12] medieval Sunni Muslim theologian, jurisconsult, logician, and reformer. A member of the Hanbali school of jurisprudence founded by Ahmad ibn Hanbal, A polarizing figure in his own lifetime, Ibn Taymiyyah's iconoclastic views on widely accepted Sunni doctrines such as the veneration of saints and the visitation to their tomb-shrines made him unpopular with the majority of the orthodox religious scholars of the time, under whose orders he was imprisoned several times.[13]",
+        "targets": [
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Taqī ad-Dīn Ahmad bn Taymiyyah ( Larabci : Janairu 22, 1263 - Satumba 26, 1328), wanda ake kira Ibn Taymiyyah na gajere, ya kasance mai rikitarwa [1] [2] masanin tauhidi na Sunni musulmi, jurisconsult, dabaru, da kuma sake fasalin. Wani memba na makarantar Hanbali na fikihu da Ahmad bn Hanbal ya kafa a matsayin rayuwarsa, Ibn Taymiyyah ya nuna ra'ayoyinsu game da koyarwar Sunni da aka yarda da su kamar su girmama tsarkaka da kuma ziyarar da aka yi wa kabarin-shrines ya sanya shi ba tare da shi ba. mafi yawancin malaman addini na Orthodox na lokaci, a ƙarƙashin umurninsa an tsare shi sau da dama. [3]"
+          },
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Taqī ad-Dīn Ahmad bn Taymiyyah ( Larabci : Janairu 22, 1263 - Satumba 26, 1328), wanda ake kira Ibn Taymiyyah na ataikace, ya kasance mai rikitarwa [1] [2] masanin tauhidi na musulmai ahlsunna, matuntubi akan mazhaba, mai dabaru, da kuma dawo da fasalin addini. Wani memba na makarantar Ahmad dan hamba na fikihu da Ahmad bn Hanbal ya kafa a matsayin rayuwarsa, Ibn Taymiyyah ya nuna ra'ayoyinsu game da koyarwar ahlussunnah akan wuce gona da iri akan waliyyai da kuma ziyarar kaburbura a matsayin gurin bauta, hakan yasa shi bai zama sananne ba a fannin addinan malaman dariku na wannan lokacin,da aka yarda da su kamar su sanya shi ba tare da shi ba. mafi yawancin malaman addini na Orthodox na lokaci, a ƙarƙashin irin wannan fatawowin da ya bayayar ta sanya shi a gidan kurkuku a lokuta mabanbanta [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 9,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::9",
+        "segmentText": "A minority figure in his own times and in the centuries that followed,[14][15] Ibn Taymiyyah has become one of the most influential medieval writers in contemporary Islam,[3] where his particular interpretations of the Qur'an and the Sunnah and his rejection of some aspects of classical Islamic tradition are believed to have had considerable influence on contemporary Wahhabism, Salafism, and Jihadism.[4][17][18] Indeed, particular aspects of his teachings had a profound influence on Muhammad ibn Abd al-Wahhab, the founder of the Hanbali reform movement practiced in Saudi Arabia known as Wahhabism, and on other later Wahabi scholars.[2] Moreover, Ibn Taymiyyah's controversial fatwa allowing jihad against other Muslims is referenced by al-Qaeda and other jihadi groups.[19][20]",
+        "targets": [
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "(1) [2] Ibn Taymiyyah ya zama daya daga cikin marubuta mafi mahimmanci a cikin musulunci na zamani, [3] inda ma'anarsa na Alkur'ani da Sunna suka kasance a cikin su. da kuma kin amincewa da wasu fannoni na al'adun Islama na gargajiya sunyi tasiri sosai a kan Wahhabism, Salafism, da Jihadism . [4] [5] [6] Lallai bangarori daban-daban na koyarwarsa suna da tasiri a kan Muhammad bn Abd al-Wahhab, wanda ya kafa aikin gyaran Hanbali na Saudi Arabia da ake kira Wahhabism, da kuma wasu malaman Wahabi daga baya. [7] Bugu da ƙari, Ibn Taymiyyah yana da ikon kawowa jihadi ga sauran musulmai da Al Qaeda da sauran kungiyoyi jihadi ke rubuta su. [8] [9]"
+          },
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "(1) [2] Ibn Taymiyyah ya zama daya daga cikin marubuta mafi mahimmanci a cikin musulunci na zamani da kuma karni masu zuwa, [3] inda wasu ma'anarsa na Alkur'ani da Sunna da kuma tunkude wasu aladu na gargajiya suka kasance ababen lura da kuma bi ga wahabiyawa,salafawa da kuma masu jihadi suka kasance a cikin su. [4] [5] [6]lallai ne dangane da wasu harka na karantarwa an samu samuwar Muhammad dan Abdul wahab, wannan wanda ya samar da bin mazhabin Ahmad dan hambali akan aikata mazhaban da kuma dabbbakata a kasar saudiyya wanda aka fi sani da wahabiyawa, kuma daga bisani malamin wahabiya. [7] harwayau rikirkitattun fatawowin ibn taimiyyah sun bayar da daman yin jihadi ga wasu musalmai masu kiran kansu da alqa`ida da kuma wasu kungiyoyin jihadi [8] [9]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 10,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::10",
+        "segmentText": "Ibn Taymiyyah's full name is Taqī ad-Dīn Abu 'l-`Abbās Ahmad ibn `Abd al-Ḥalīm ibn `Abd as-Salām ibn ʿAbd Allāh ibn al-Khidr ibn Muhammad ibn al-Khidr ibn `Ali ibn ʿAbd Allāh ibn Taymiyyah al-Ḥarrānī[10] (Arabic: تقي الدين أبو العباس أحمد بن عبد الحليم بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني‎).",
+        "targets": [
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Babban sunan Ibn Taymiyyah shi ne Taqī ad-Dīn Abu 'l-'Abbās Ahmad bn Abd al-Halīm ibn' Abd al-Salām bn'Abd Al-Khudr ibn Muhammad bn Al-Khidr ibn 'Ali ibn'Abd Allāh ibn Taymiyyah al -Ḥarrānī ( Larabci بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني )."
+          },
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "cikakken sunan Ibn Taymiyyah shi ne Taqī ad-Dīn Abu 'l-'Abbās Ahmad bn Abd al-Halīm ibn' Abd al-Salām bn'Abd Al-Khudr ibn Muhammad bn Al-Khidr ibn 'Ali ibn'Abd Allāh ibn Taymiyyah al -Ḥarrānī ( Larabci بن عبد السلام بن عبد الله بن الخضر بن محمد بن الخضر بن على بن عبد الله ابن تيمية الحراني )."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 11,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::0",
+        "segmentText": "Ibn Taymiyyah's name is unusual in that it is derived from a female member of his family as opposed to a male member, which was the normal custom at the time and still is now. Taymiyyah was a woman, famous for her scholarship and piety and the name Ibn Taymiyyah was taken up by many of her male descendants.[10]",
+        "targets": [
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Ma'anar Ibn Taymiyyah abu ne mai ban mamaki a cikin cewa an samo shi ne daga wata mace daga cikin iyalinsa a maimakon tsayayya da wani namiji, wanda shine al'adar al'ada a lokacin kuma har yanzu yana yanzu. Taymiyyah wata mace ne, sanannen sanannen karatunsa da tsoron Allah, kuma yawancin 'ya'yanta na Ibn Taymiyyah suka karbi sunan."
+          },
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Ma'anar sunan Ibn Taymiyyah abu ne wanda ba`a saba gani ba, kan cewa an samo shi ne daga wata mace daga cikin danginshi,wanda ba`a karbar sunan ga ga namiji a cikin dangin, hakan ya kansance al`ada ce wacce lokacin kuma har wayau ma hakane. taimiyyah sunan macece,ta kasance shahararriya akan karantarwa da kuma tausayi,shine dalilin da yasa sunanta ya dinga bin mazan zurriyyanta ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 12,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::1",
+        "segmentText": "Ibn Taymiyyah had a simple life, most of which he dedicated to learning, writing, and teaching. He never married nor did he have a female companion, throughout his years.[1][22] Al-Matroudi says that this may be why he was able to engage fully with the political affairs of his time without holding any official position such as that of a judge.[23] An offer of an official position was made to him but he never accepted.[23] His life was that of a religious scholar and a political activist.[22] In his efforts he was persecuted and imprisoned on six different occasions[24] with the total time spent inside prison coming to over six years.[22][5] Other sources say that he spent over twelve years in prison.[23] His detentions were due to certain elements of his creed and his views on some jurisprudential issues.[21] However according to Yahya Michot, \"the real reasons were more trivial\". Michot gives five reasons as to why Ibn Taymiyyah was imprisoned, they being: not complying with the \"doctrines and practices prevalent among powerful religious and Sufi establishments, an overly outspoken personality, the jealousy of his peers, the risk to public order due to this popular appeal and political intrigues.\"[25] Baber Johansen, a professor at the Harvard divinity school says that the reasons for Ibn Taymiyyah's incarcerations were, \"as a result of his conflicts with Muslim mystics, jurists, and theologians, who were able to persuade the political authorities of the necessity to limit Ibn Taymiyyah's range of action through political censorship and incarceration.\"[6]",
+        "targets": [
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Ibn Taymiyyah yana da rayuwa mai sauƙi, mafi yawan abin da ya keɓe ga ilmantarwa, rubutu, da koyarwa. Bai taba yin aure ba kuma ba shi da wata mata ta cikin matarsa, a cikin shekarunsa. [1] [2] Al-Matroudi ya ce wannan shi ne dalilin da ya sa ya sami damar shiga cikin harkokin siyasarsa na lokaci ba tare da yin wani matsayi na matsayin hukuma ba. [3] An bayar da wani matsayi na matsayin hukuma amma bai yarda ba. [3] Rayuwarsa ita ce ta malamin addini da kuma dan siyasa. [2] A kokarinsa an tsananta shi kuma a kurkuku a lokuta shida dabam dabam [4] tare da yawan lokacin da ake amfani da shi cikin kurkuku ya zuwa sama da shekaru shida. [2] [5] Wasu kafofin sun ce ya shafe shekara goma sha biyu a kurkuku. [3] Hukuncinsa sun kasance ne saboda wasu abubuwan da ya gaskata da ra'ayoyinsa a kan wasu al'amurran fikihu. [1] Duk da haka bisa ga Yahya Michot, \"ainihin dalilai sun kasance mafi mahimmanci\". Michot ya ba da dalilai biyar akan dalilin da aka sa Ibn Taymiyyah a kurkuku, suna kasancewa: ba su yarda da \"koyaswar da kuma ayyukan da ke tsakanin manyan addinai da Sufi ba, da mummunar hali, da kishi da abokansa, da hadari ga tsarin jama'a saboda wannan shahararrun shahararrun ra'ayoyin siyasa. \" [5] Baber Johansen, farfesa a makarantar allahntaka ta Harvard ya ce dalilan da suka shafi Ibn Taymiyyah sun kasance \"saboda sakamakonsa na rikici tare da Musulmai masu tunani, malamai, da masu ilimin tauhidi, waɗanda suka iya rinjayi 'yan siyasar da ake bukata don rage Ibn Taymiyyah ta hanyar aiwatar da ayyukan ta hanyar siyasa siyasa da kuma tsare. \" [6]"
+          },
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Ibn Taymiyyah yayi rayuwa mai sauƙi, mafi yawancin rayuwars ya sadaukar da ita ne akan koyon karau,rubuce-rubuce da kuma karantarwa. bai taba yin aure ba kuma haka ma baida majibinciya mace a cikin mafi yawan rayuwan shi [1] [2] Al-Matroudi ya ce wannan shi ne dalilin da ya sa ya sami damar shiga cikin harkokin siyasarsa na lokaci amman ba tare da yin wani matsayi na matsayin hukuma ba koda ko alkaline. [3]akan yunkurinsa a addinance an hukunta shi da kuma mashshe shi a gidan kaso sau shida alokuta mabanbanta. An ba shi damar zama hukuma a wata matasyi amman yaki karba. [3] [2] [4] Rayuwarsa na zama malamin addini ne da kuma wayar da kai a siyasan ce. [2] [5] Wasu kafofin sun ce ya shafe shekara goma sha biyu a kurkuku. [3] tsare shi da akayi a gidan kaso ya faru ne akan wasu al`amura dangane da akidarshi da kuma ra`ayinsa dangane da al`amuran da yashafi mazhaban fikhu. [1] Dangane da Yahya Michot kuma yace, \"ainihin dalilai sun kasance mafi mahimmanci\". Michot ya ba da dalilai biyar akan dalilin da aka sa Ibn Taymiyyah a kurkuku, suna kasancewa: ba su yarda da \"koyaswar da kuma ayyukan da ke tsakanin manyan addinai da Sufi ba, da mummunar hali, da kishi da abokansa, da hadari ga tsarin jama'a saboda wannan shahararrun shahararrun ra'ayoyin siyasa. \" [5] Baber Johansen, farfesa a makarantar allahntaka ta Harvard ya ce dalilan da suka shafi Ibn Taymiyyah sun kasance \"saboda sakamakonsa na rikici tare da Musulmai masu tunani, malamai, da masu ilimin tauhidi, waɗanda suka iya rinjayi 'yan siyasar da ake bukata don rage Ibn Taymiyyah ta hanyar aiwatar da ayyukan ta hanyar siyasa da kuma tsare. \" [6]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 13,
+        "documentID": "676820",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::676820::2",
+        "segmentText": "Ibn Taymiyyah's own relationship, as a religious scholar, with the ruling apparatus, who did deviate in application of shari'a law, was not always amicable.[1] It ranged from silence to open rebellion.[25] On occasions when he shared the same views and aims as the ruling authorities, his contributions were welcomed but when Ibn Taymiyyah went against the status quo, he was seen as \"uncooperative\" and on occasions spent much time in prison.[2] Ibn Taymiyyah's attitude towards his own rulers, was based on the actions of the companions (sahaba) when they made an oath of allegiance to Muhammad as follows; \"to obey within obedience to God, even if the one giving the order is unjust; to abstain from disputing the authority of those who exert it; and to speak out the truth, or take up its cause without fear in respect of God, of blame from anyone.\"[25]",
+        "targets": [
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hakanan Ibn Taymiyyah, a matsayin masanin addini, tare da na'ura mai shari'a, wanda ya yi watsi da dokar shari'ar, ba a koyaushe ba. [1] Ya fito ne daga shiru don buɗe tawaye. [1] A lokutan da ya raba wannan ra'ayi da kuma manufofin hukumomi, an ba da gudunmawarsa amma amma lokacin da Ibn Taymiyyah ya ci gaba da fuskantar matsin lamba, an yi masa kallon \"rashin kulawa\" kuma a lokuta da yawa ya yi yawa a kurkuku. [2] Halin Ibn Taymiyyah ga shugabanninsa, ya dogara ne akan ayyukan sahabbansa (sahaba) lokacin da suka yi wa Muhammadu alkawari da haka; \"Ku yi biyayya cikin biyayya ga Allah, koda kuwa wanda ya ba da umarni ba daidai ba ne, ku guje wa jayayya da ikon waɗanda suke yin hakan, kuma suyi magana da gaskiya, ko kuma su dauki matakan ba tare da tsoro ba game da Allah, zargi daga kowa. \" [1]"
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Mu`amalar Ibn Taymiyyah, a matsayin masanin addini,da yake da na'ura mai shari'a, wanda ya yi watsi da dokar shari'ar, ba a koyaushe ba. [1] Ya fito ne daga shiru don buɗe tawaye. [1] A lokutan da ya bada wannan ra'ayi da kuma manufofin hukumomi, an karbe shi hannu bibbiyu. amma lokacin da Ibn Taymiyyah ya ci gaba da fuskantar matsin lamba, an yi masa kallon \"rashin kulawa\" kuma a lokuta da yawa ya rayu ne a kurkuku. [2] Halin Ibn Taymiyyah ga shugabanninsa, ya dogara ne akan ayyukan sahabbansa (sahaba) lokacin da suka yi wa Muhammadu alkawari da haka; \"Ku yi biyayya cikin biyayya ga Allah, koda kuwa wanda ya ba da umarni ba daidai ba ne, ku guje wa jayayya da ikon waɗanda suke yin hakan, kuma suyi magana da gaskiya, ko kuma su dauki matakan ba tare da tsoro ba game da Allah, dangane da zargi daga koma waye. \" [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 14,
+        "documentID": "745180",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::745180::3",
+        "segmentText": "Madam Tinubu before 1887",
+        "targets": [
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Madam Tinubu kafin 1887"
+          },
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "MalamaTinubu kafin 1887"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 15,
+        "documentID": "745180",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::745180::4",
+        "segmentText": "Tinubu Square (formerly Independence Square), is an open space landmark located in Broad Street, Lagos Island, Lagos State, Nigeria.[1] It used to be called Ita Tinubu in memory of Madam Efunroye Tinubu,[2] a slave trader and business magnate, before it was named Independence Square by leaders of the First Republic and subsequently Tinubu Square.[3]",
+        "targets": [
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Dandalin Tinubu (wanda yake a lokacin da yake cin gashin kansa ), wani fili ne na fili a sarari wanda yake cikin titin Broad Street, Legas Legas, jihar Legas, Najeriya . [1] Yana amfani da su a kira Ita Tinubu a ƙwaƙwalwar ajiyar da Madam Efunroye Tinubu, [2] bawa ciniki da kuma kasuwanci magnate, kafin aka mai suna Independence Square da shugabannin farko Jamhuriyar kuma baya Tinubu Square. [3]"
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Dandalin Tinubu (wanda yake a lokacin da yake cin gashin kansa ), wani fili ne na fili a sarari wanda yake cikin titin Broad Street, Legas Legas, jihar Legas, Najeriya . [1] Yana amfani da su a kira Ita Tinubu a ƙwaƙwalwar ajiyar da Malama Efunroye Tinubu, [2] baiwa mai ciniki da kuma kasuwanci, kafin aka maida sunan Independence Square da shugabannin farko Jamhuriyar kuma baya Tinubu Square. [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 16,
+        "documentID": "745180",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::745180::5",
+        "segmentText": "The square is iron-fenced with two flowing fountains, flowers and tropical trees in it. It also contains a life-size statue of Madam Tinubu on a cenotaph.[1]",
+        "targets": [
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Fuskar cike take da baƙin ƙarfe tare da maɓuɓɓugan ruwa biyu masu gudu, furanni da itatuwa masu zafi a ciki. Yana kuma dauke da wani rai-size mutum-mutumi na Madam Tinubu a kan wani cenotaph . [1]"
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Fuskar cike take da baƙin ƙarfe tare da maɓuɓɓugan ruwa biyu masu gudu, furanni da itatuwa masu zafi a ciki. Yana kuma dauke da wani rai-size mutum-mutumi na Madam Tinubu a kan wani dandamali . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 17,
+        "documentID": "745180",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::745180::6",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 18,
+        "documentID": "745180",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::745180::7",
+        "segmentText": "Coordinates: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894",
+        "targets": [
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Coordinates: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894"
+          },
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Mahadar kasa: 6°27′14″N 3°23′22″E﻿ / ﻿6.4538°N 3.3894°E﻿ / 6.4538; 3.3894"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 19,
+        "documentID": "746864",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746864::8",
+        "segmentText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA",
+        "targets": [
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA"
+          },
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "LGA and town in Kano State, Nigeria Rano Rauno LGA and town Nickname(s):  Autan Bawo Rano Location in Nigeria Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333Coordinates: 11°33′26″N 8°35′00″E﻿ / ﻿11.55722°N 8.58333°E﻿ / 11.55722; 8.58333 Country  Nigeria State Kano State Government  • First Class Emir Alhaji, Dr.Tafida Abubakar Ila Area Rano,Kibiya,Bunkure,Bebeji,Kura,Kiru, Tudun-Wada,Doguwa,Sumaila, Takai  • Total 520 km2 (200 sq mi) Population  (2006 census)  • Total 145,439 Time zone UTC+1 (WAT) 3-digit postal code prefix 710 ISO 3166 code NG.KN.RA"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 20,
+        "documentID": "746864",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746864::9",
+        "segmentText": "Rano is a Local Government Area and headquarters of Rano Emirate council in Kano State, Nigeria. Rano is a local government area in Kano State with administrative headquarters in the town of Rano. Rano local government area is in the southern senatorial district of Kano State otherwise known as Kano South Senatorial District alongside Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil and Sumaila local government areas. Rano local government area also forms a federal constituency alongside Bunkure and Kibiya local government areas. It has an area of 520 km² and a population of 145,439 at the 2006 census. The local government area is bounded to the north by Garun Mallam and Bunkure local government areas, to the east by Kibiya local government area, to the south by Tudun Wada local government area, and to the west by Bebeji local government area. The Rano local government council is in charge of public administration in Rano local government area. The council is led by a chairman who is the executive head of the local government. The Rano legislative council make laws governing Rano local government area. It consists of 10 Councillors representing the 10 wards of the local government area.",
+        "targets": [
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Rano karamar hukuma ce kuma hedikwatar majalissar Rano Emirate a cikin jihar Kano, Nigeria . Rano karamar hukuma ce a cikin jihar Kano da hedikwatar gudanarwa a garin Rano. Karamar hukumar Rano tana cikin gundumar senatorial ta kudu a cikin jihar ta Kano in ba haka ba kuma ana kiranta da Sanatocin Kano ta Kudu a kusa da Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil da Sumaila local government yankunan gwamnati. Hakanan karamar hukumar Rano ta samar da mazabu ta tarayya tare da kananan hukumomin Bunkure da Kibiya. Tana da yanki na 520   km² da kuma ƙungiyar 145,439 a ƙidayar 2006. Karamar hukumar Garun Mallam da Bunkure tana arewa zuwa arewa, gabas ta karamar hukumar Kibiya, kudu a kudu da karamar hukumar Tudun Wada, da yamma zuwa karamar hukumar Bebeji. Karamar hukumar Rano ce ke lura da ayyukan gwamnati a karamar hukumar Rano. Majalisar karkashin jagorancin wani shugabanta wanda shine shugaban zartarwa na karamar hukuma. Majalisar zartarwar Rano ta sanya dokokin da zasu jagoranci karamar hukumar Rano. Ya ƙunshi majalisu 10 waɗanda ke wakiltar gundumomi 10 na karamar hukumar."
+          },
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Rano karamar hukuma ce kuma hedikwatar majalissar Rano Emirate ce a cikin jihar Kano, Nigeria . Rano karamar hukuma ce a cikin jihar Kano da hedikwatar gudanarwa a garin Rano. Karamar hukumar Rano tana cikin gundumar senatorial ta kudu a cikin jihar ta Kano in ba haka ba kuma ana kiranta da Sanatocin Kano ta Kudu a kusa da Albasu, Bebeji, Bunkure, Doguwa, Gaya, Kiru, Takai, Ajingi, Rogo, Kibiya, Tudun Wada, Garko, Wudil da Sumaila Karamar jiha yankunan gwamnati. Hakanan karamar hukumar Rano ta samar da mazabu ta tarayya tare da kananan hukumomin Bunkure da Kibiya. Tana da yanki na 520   km² da kuma ƙungiyar 145,439 a ƙidayar 2006. Karamar hukumar Garun Mallam da Bunkure tana arewa zuwa arewa, gabas ta karamar hukumar Kibiya, kudu a kudu da karamar hukumar Tudun Wada, da yamma zuwa karamar hukumar Bebeji. Karamar hukumar Rano ce ke lura da ayyukan gwamnati a karamar hukumar Rano. Majalisar karkashin jagorancin wani shugabanta wanda shine shugaban zartarwa na karamar hukuma. Majalisar zartarwar Rano ta sanya dokokin da zasu jagoranci karamar hukumar Rano. Ya ƙunshi majalisu 10 waɗanda ke wakiltar gundumomi 10 na karamar hukumar."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 21,
+        "documentID": "746864",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746864::10",
+        "segmentText": "Wards In Rano The 10 wards in Rano local government area are: Dawaki, Lausu, Madachi, Rano, Rurum Sabon Gari, Rurum Tsohon Gari, Saji, Yalwa, Zinyau, Zurgu.",
+        "targets": [
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Wards A Rano Wards 10 da ke karamar hukumar Rano sune: Dawaki, Lausu, Madachi, Rano, Rurum Sabon Gari, Rurum Tsohon Gari, Saji, Yalwa, Zinyau, Zurgu."
+          },
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Unguwani a Rano guda 10 ne da ke karamar hukumar Rano sune: Dawaki, Lausu, Madachi, Rano, Rurum Sabon Gari, Rurum Tsohon Gari, Saji, Yalwa, Zinyau, Zurgu."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 22,
+        "documentID": "746864",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746864::0",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 23,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::1",
+        "segmentText": "Hagar and Ishmael in the Desert by François-Joseph Navez, 1820. Hagar was Abraham's Egyptian concubine. Ishmael was his first-born son.",
+        "targets": [
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hagar da Isma'ilu a cikin jeji ta François-Joseph Navez, 1820. Hagar ta kasance ƙwarƙwarar Ibrahim, 'yar Masar. Isma'ilu ɗan farinsa ne."
+          },
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Hajara da Isma'ilu a cikin jeji .Hotan François-Joseph Navez, 1820. Hajara ta kasance ƙwarƙwara ga Ibrahim, 'yar Masar. Isma'ilu ne yaran su na farko."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 24,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::2",
+        "segmentText": "In China, successful men often had concubines until the practice was outlawed when the Communist Party of China came to power in 1949. The standard Chinese term translated as \"concubine\" was qiè 妾, a term that has been used since ancient times, which means \"concubine; I, your servant (deprecating self reference)\". Concubinage resembled marriage in that concubines were recognized sexual partners of a man and were expected to bear children for him. Unofficial concubines (Chinese: 婢妾; pinyin: bì qiè) were of lower status, and their children were considered illegitimate. The English term concubine is also used for what the Chinese refer to as pínfēi (Chinese: 嬪妃), or \"consorts of emperors\", an official position often carrying a very high rank.[3]",
+        "targets": [
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A China, nasara maza sau da yawa yana da ƙwaraƙwarai har da yi aka haramta a lokacin da Jam'iyyar Kwaminis ta Sin ya zo da iko a 1949. A misali Sin kalma da aka fassara a matsayin \"ƙwarƙwarar\" ya qiè 妾 , kalmar da aka yi amfani da ita tun zamanin da, wanda ke nufin \"ƙwara; Alƙawura sun yi kama da aure a wannan ƙwaraƙwaran sun kasance masu gane zurfin jima'i na mutum kuma ana tsammanin sun haihu da shi. Gwanaye marasa kan gado ( Chinese ) masu ƙarancin daraja ne, kuma ana ɗaukar yaransu da cewa doka ce. Hakanan ana amfani da kalmar nan ta Turanci na mace ta China don abin da Sinanci ke magana da shi kamar yadda yakefasu ( Chinese ), ko \"consorts of emperors\", wani matsayi na gwamnati yawanci yana ɗauke da babban matsayi. [1]"
+          },
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A China, mazaje mau nasara s da yawa yana da ƙwaraƙwarai har da yi aka haramta a lokacin da Jam'iyyar Kwaminis ta Sin ya zo da iko a 1949. A misali Sin kalma da aka fassara a matsayin \"ƙwarƙwarar\" ya qiè 妾 , kalmar da aka yi amfani da ita tun zamanin da, wanda ke nufin \"ƙwara; Alƙawura sun yi kama da aure a wannan ƙwaraƙwaran sun kasance masu gane zurfin jima'i na mutum kuma ana tsammanin sun haihu da shi. Gwanaye marasa kan gado ( Chinese ) masu ƙarancin daraja ne, kuma ana ɗaukar yaransu da cewa doka ce. Hakanan ana amfani da kalmar nan ta Turanci na mace ta China don abin da Sinanci ke magana da shi kamar yadda yakefasu ( Chinese ), ko \"consorts of emperors\", wani matsayi na gwamnati yawanci yana ɗauke da babban matsayi. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 25,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::3",
+        "segmentText": "There are early records of concubines allegedly being buried alive with their masters to \"keep them company in the afterlife\".[10] Until the Song dynasty (960–1276), it was considered a serious breach of social ethics to promote a concubine to a wife.[2]",
+        "targets": [
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Akwai bayanan farko na wasu ƙwaraƙwaran da aka ce an binne su da rai tare da maigidansu don \"riƙe su cikin rayuwar bayan rayuwar\". [1] Har zuwa lokacin daular Song (960-11276), ana ganinta babbar cin zarafin ɗabi'un zamantakewa ne don haɓaka mace ga mace. [2]"
+          },
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Akwai bayanan jita-jita na wasu ƙwaraƙwaran da aka ce an binne su da rai tare da masu gidansu don \" su jibinci lamarin su a lahira\". [1] Har zuwa lokacin daular Song (960-11276), ana ganin hakan babbar cin zarafin ɗabi'un zamantakewa ne don haɓaka Kwarkwara ga mace. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 26,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::4",
+        "segmentText": "During the Qing dynasty (1644–1911), the status of concubines improved. It became permissible to promote a concubine to wife, if the original wife had died and the concubine was the mother of the only surviving sons. Moreover, the prohibition against forcing a widow to remarry was extended to widowed concubines. During this period tablets for concubine-mothers seem to have been more commonly placed in family ancestral altars, and genealogies of some lineages listed concubine-mothers.[1]",
+        "targets": [
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A zamanin daular Qing (1644 zuwa 1911), darajar matan ba ta yi kyau ba. Ya halatta a gabatar da ƙwarƙwarawa ga matar, idan matar asali ta mutu kuma ƙwarƙwarawar mahaifiyar sonsa onlyan maza kaɗai ce. Bugu da kari, haramcin tilasta wa bazawara ta sake yin wani aure ya kasance ga wasu matan da mazansu suka mutu. A wannan lokacin allunan matan-mata suna da alama an fi sanya su cikin bagadan magabata na iyali, da kuma sassalar wasu jerin layin mata-mata. [1]"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A zamanin daular Qing (1644 zuwa 1911), darajar Kwarkwarori ta habaka. Ya halatta a gabatar da ƙwarƙwarawa ga mata, idan matar asali ta mutu to Kwarkwara ce maman sauran yaran. Bugu da kari, haramcin tilasta wa bazawara ta sake yin wani aure ya kasance ga wasu matan da mazansu suka mutu. A wannan lokacin allunan matan-mata suna da alama an fi sanya su cikin bagadan magabata na iyali, da kuma sassalar wasu jerin layin mata-mata. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 27,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::5",
+        "segmentText": "Concubinage (/kɑːnˈkjuːbaɪnɪdʒ/) is an interpersonal and sexual relationship in which the couple are not or cannot be married. The inability to marry may be due to multiple factors such as differences in social rank status, an existing marriage, religious or professional prohibitions (for example Roman soldiers), or a lack of recognition by appropriate authorities. The woman or man in such a relationship is referred to as a concubine (/ˈkɒŋkjʊˌbaɪn/). In Judaism, a concubine is a marital companion of inferior status to a wife.[1] A concubine among polygamous peoples is a secondary wife, usually of inferior rank.[2]",
+        "targets": [
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Concubinage ( /k ɑː n k Ju b aɪ n ɪ dʒ / ) ne interpersonal da kuma jima'i dangantaka a cikin abin da biyu ba ko ba za a iya aure. Rashin yin aure na iya zama saboda dalilai da yawa kamar su bambance-bambance a matsayin matsayin zamantakewar aure, aure mai gudana, haramcin addini ko ƙwararru (alal misali sojojin Rome), ko kuma rashin martaba ta hanyar hukumomin da suka dace. The mace ko namiji ne, a irin wannan dangantaka ake cewa da ƙwarƙwara ( /k ɒ n k j ʊ ˌ b aɪ n / ). A cikin addinin Yahudanci, ƙwarƙwara amatsayin aminin miji ne mai ƙima ga matar aure. [1] ubirƙwara a cikin al'umman auren mata fiye da ɗaya wata na biyu ce, yawanci ba ta da ƙima. [2]"
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kwarkwaranci na nufin saduwa da kuma dangantaka na jima'i a tsakanin na miji da mace, su biyu wadanda baza su iya aure ba. dan kasan cewar macen baiwa ko kuma mara nasa ba ko asali. Rashin yin aure na iya zama saboda dalilai da yawa kamar su bambance-bambance a matsayin zamantakewar aure, aure mai gudana, haramcin addini ko ƙwararru (alal misali sojojin Rome), ko kuma rashin martaba ta hanyar hukumomin da suka dace. macen ko namijin ne, a irin wannan dangantaka ake cewa ƙwarƙwara . A cikin addinin Yahudanci, ƙwarƙwara a matsayin aminiyar miji ne mai ƙima ga matar aure. [1] a wasu mutanen kuma masu auren mata dayawa ,Kwarkwara tana zuwa ne a mata na biyu mara kima. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 28,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::6",
+        "segmentText": "Hong Kong officially abolished the Great Qing Legal Code in 1971, thereby making concubinage illegal. Casino magnate Stanley Ho of Macau took his \"second wife\" as his official concubine in 1957, while his \"third and fourth wives\" retain no official status.[15]",
+        "targets": [
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A shekarar 1971, Hong Kong ya soke babban tsarin doka na Qing a shekarar 1971, don haka ya sanya ba da izinin yin aure ba bisa doka ba. Stanley Ho na Macau na gidan caca ya ɗauki 'matarsa ta biyu' a matsayin ƙwarƙwaransa a 1957, yayin da \"matansa na uku da na huɗu\" ba su da matsayin hukuma. [1]"
+          },
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A shekarar 1971, Hong Kong ya soke babban tsarin doka na Qing a shekarar 1971, don haka ya sanya ba da izinin yin aure ba bisa doka ba. Stanley Ho na Macau na gidan caca ya ɗauki 'matarsa ta biyu' a matsayin ƙwarƙwaransa na halas a 1957, yayin da \"matansa na uku da na huɗu\" ba su da matsayi a hukuman ce. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 29,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::7",
+        "segmentText": "The prevalence of concubinage and the status of rights and expectations of a concubine have varied among cultures, as have the rights of children of a concubine. Whatever the status and rights of the concubine, they were always inferior to those of the wife, and typically neither she nor her children had rights of inheritance. Historically, concubinage was usually voluntary (by the woman or her family), as it provided a measure of economic security for the woman.[citation needed] Involuntary or servile concubinage sometimes involved sexual slavery of one member of the relationship, usually the woman. Nevertheless, sexual relations outside marriage were[when?][where?] not uncommon, especially among royalty and nobility, and the woman in such relationships was commonly described as a mistress. The children of such relationships were counted as illegitimate and in some societies were barred from inheriting the father's title or estates, even in the absence of legitimate heirs.",
+        "targets": [
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "The prevalence of concubinage and the status of rights and expectations of a concubine have varied among cultures, as have the rights of children of a concubine. Whatever the status and rights of the concubine, they were always inferior to those of the wife, and typically neither she nor her children had rights of inheritance. Historically, concubinage was usually voluntary (by the woman or her family), as it provided a measure of economic security for the woman. [citation needed] Involuntary or servile concubinage sometimes involved sexual slavery of one member of the relationship, usually the woman. Nevertheless, sexual relations outside marriage were [when?] [where?] not uncommon, especially among royalty and nobility, and the woman in such relationships was commonly described as a mistress. The children of such relationships were counted as illegitimate and in some societies were barred from inheriting the father's title or estates, even in the absence of legitimate heirs."
+          },
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Yanci Kwarkwara a yaruka daban daban ya banbanta, haka ma yaran da suka haifa ,amman ko ma miye zai je ya dawo matar asali da aka aura ita da yaran sun fi Kwarkwara da yaransu dara ja, kuma u=ita da yaranta basu da hakki gado. a tarihance yawance Kwarkwara matan mutum ne ke daukan kwarkwara ta bama mijinta, saboda idan ta kasance baiwa bada ita ga na mijin gidan zai hana ta yin zina a wajen gidan. wani lokacin kwarkwara suna aikata jima'i da sauran bayi yan uwansu."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 30,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::8",
+        "segmentText": "Greco-Roman Antiquity",
+        "targets": [
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Greco-Roman Antiquity"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Tsohuwar girka da roma"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 31,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::9",
+        "segmentText": "In Abrahamic traditions",
+        "targets": [
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A cikin hadisai na Ibrahim"
+          },
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A cikin ala'du na Ibrahim"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 32,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::10",
+        "segmentText": "While forms of long-term sexual relationships and cohabitation short of marriage have become increasingly common in the Western world, these are generally not described as concubinage. The terms concubinage and concubine are used today primarily when referring to non-marital partnerships of earlier eras. In modern usage, a non-marital domestic relationship is commonly referred to as cohabitation (or similar terms), and the woman in such a relationship is generally referred to as a girlfriend, mistress, fiancée, lover or life partner.",
+        "targets": [
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Yayinda siffofin dangantakar jima'i da jimawa tare da yin aure ya zama ruwan dare gama gari a Yammacin Duniya, waɗannan ba a bayyana su azaman concarfin namiji bane. Ana amfani da kalmar nan ƙwaraƙwarorin mata da kwatancen mata yau idan ana nufin ma'amala da rashin aure ta rayuwar da ta gabata. A cikin amfani na zamani, alaƙar ba ta da aure ana kiranta zaman tare (ko kuma maganganun makamancinsu), kuma macen da ke cikin irin wannan dangantakar ana gaba ɗaya ana kiranta budurwa, farka, amarya, mai ƙauna ko kuma abokiyar rayuwa ."
+          },
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Yayinda siffofin dangantakar jima'i da jimawa tare da yin aure ya zama ruwan dare gama gari a Yammacin Duniya, waɗannan ba a bayyana su azaman concarfin namiji bane. Ana amfani da kalmar nan ƙwarkwaranci ne ga mata da kwatancen mata yau idan ana nufin ma'amala da rashin aure ta rayuwar da ta gabata. A cikin amfani na zamani, alaƙar ba ta da aure ana kiranta zaman tare (ko kuma maganganun makamancinsu), kuma macen da ke cikin irin wannan dangantakar ana gaba ɗaya ana kiranta budurwa, farka, amarya, mai ƙauna ko kuma abokiyar rayuwa ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 33,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::0",
+        "segmentText": "Among the Israelites, men commonly acknowledged their concubines, and such women enjoyed the same rights in the house as legitimate wives.[24]",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A cikin Isra’ilawa, maza sun saba yarda da ƙwaraƙwaran, kuma irin waɗannan mata suna jin daɗi iri ɗaya a gidan kamar matan aure. [1]"
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A cikin Isra’ilawa, maza sun yarda da ƙwaraƙwaran, kuma irin waɗannan mata suna jin daɗi iri ɗaya a gidan kamar matan aure. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 34,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::1",
+        "segmentText": "In Islam",
+        "targets": [
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A Islama"
+          },
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A Musulunci"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 35,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::2",
+        "segmentText": "Concubinage in Islamic sexual jurisprudence is permitted in Islam which was not considered prostitution, and was very common during the Arab slave trade throughout the Middle Ages and early modern period, when women and girls from the Caucasus, Africa, Central Asia and Europe were captured and served as concubines in the harems of the Arab World.[39] Ibn Battuta tells us several times that he was given or purchased female slaves.[40]",
+        "targets": [
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An ba da damar yin zina a cikin ilimin jima'i na Musulunci a cikin Islama wanda ba a dauke shi karuwanci ba, kuma ya kasance ruwan dare gama lokacin cinikin bayi na Larabawa a duk lokacin Tsakiyar Tsakiya da farkon zamani, lokacin da aka kama mata da 'yan mata daga Caucasus, Afirka, Tsakiyar Asiya da Turai . ya kasance kwarkwara a cikin dabbobin Yammacin Duniya . [1] Ibn Battuta ya gaya mana sau da yawa cewa an ba shi ko ya sayi bayi mata. [2]"
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An ba da damar saduwa da Kwarkwara a cikin ilimin jima'i na Musulunci a cikin Islama wanda ba a dauke shi karuwanci ba, kuma ya kasance ruwan dare gama gar lokacin cinikin bayi na Larabawa a duk lokacin Tsakiyar da farkon zamani, lokacin da aka kama mata da 'yan mata daga Caucasus, Afirka, Tsakiyar Asiya da Turai . ya kasance kwarkwara a cikin Yammacin Duniya . [1] Ibn Battuta ya gaya mana sau da yawa cewa an ba shi ko ya sayi bayi mata. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 36,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::3",
+        "segmentText": "Concubinage was highly popular before the early 20th century all over East Asia. The main function of concubinage was producing additional heirs, as well as bringing males pleasure. Children of concubines had lower rights in account to inheritance, which was regulated by the Dishu system.",
+        "targets": [
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kwararrun dabbobi sun shahara sosai kafin farkon karni na 20 a duk gabashin Asiya . Babban aikin gwanaye ya kasance yana samar da ƙarin magada, har ma da kawo nishaɗin maza. Ofaƙan matan kwastan suna da ƙananan haƙƙoƙin raunin gado, wanda tsarin Dishu ya tsara shi ."
+          },
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kwarkwarori sun shahara sosai kafin farkon karni na 20 a duk gabashin Asiya . Babban aikin gwanaye ya kasance yana samar da ƙarin magada, har ma da kawo nishaɗi gamaza. yaran Kwarkwarori nada karancin gado dangane da dokar da Dishu ya tsara shi ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 37,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::4",
+        "segmentText": "China",
+        "targets": [
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kasar China"
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Sin"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 38,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::5",
+        "segmentText": "Concubinage in Canada Cicisbeo Cohabitation Common-law marriage Courtesan Cullagium Cuckquean Free union Harem Monogamy in Christianity Morganatic marriage Paramour Polygamy Polyamory Polygyny Slavery in the United States",
+        "targets": [
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Concubinage in Canada Cicisbeo Cohabitation Common-law marriage Courtesan Cullagium Cuckquean Free union Harem Monogamy in Christianity Morganatic marriage Paramour Polygamy Polyamory Polygyny Slavery in the United States"
+          },
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kwarkwara a canada A cicisibeyo Sanannun dokokin aure Sakakkiyar tarayya Aure a kiristanci Bauta a amurka Concubinage in Canada Cicisbeo Cohabitation Common-law marriage Courtesan Cullagium Cuckquean Free union Harem Monogamy in Christianity Morganatic marriage Paramour Polygamy Polyamory Polygyny Slavery in the United States"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 39,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::6",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayana"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 40,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::7",
+        "segmentText": "External links",
+        "targets": [
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hanyoyin haɗin waje"
+          },
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai na waje"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 41,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::8",
+        "segmentText": "Works related to Concubinage at Wikisource Media related to Concubines at Wikimedia Commons Servile Concubinage",
+        "targets": [
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "</img> </img> Hadin gwiwar Bauta"
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Hadin gwiwar Bauta"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 42,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::9",
+        "segmentText": "Consorts and children of the Qianlong Emperor, Qing dynasty, 18th century",
+        "targets": [
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Consorts da 'ya'yan Sarkin Qianlong, daular Qing, karni na 18"
+          },
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "'ya'yan Sarkin Qianlong, daular Qing, karni na 18"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 43,
+        "documentID": "746872",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746872::10",
+        "segmentText": "Portrait of a concubine, by Chinese painter Lam Qua, 1864",
+        "targets": [
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hoton wani kwarjini, daga mai zane-zane na kasar Sin Lam Qua, 1864"
+          },
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Hotan wata Kwarkwara na kasar, hotan Sin Lam Qua, a 1864"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 44,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::0",
+        "segmentText": "Hassan Katsina (31 March 1933 – 24 July 1995) was a Nigerian Army Major General and son of Usman Nagogo, the Emir of Katsina from 1944 to 1981. He was governor of the Northern Region of Nigeria from 1966 to 1967. During the Nigerian civil war, he was the Chief of Staff, Army and later became the deputy Chief of Staff, Supreme Headquarters under the administration of General Yakubu Gowon.",
+        "targets": [
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hassan Katsina (31 Maris 1933 - 24 Yuli 1995) da aka a Nijeriya Army Major General kuma dan Usman Nagogo, da Sarkin Katsina daga shekarar 1944 zuwa 1981. Ya kasance Gwamnan Yankin Arewacin Najeriya daga 1966 zuwa 1967. A lokacin yakin basasar Nijeriya, ya kasance da babban hafsan, Army da daga baya ya zama mataimakin shugaban ma'aikatan, Babbar Headquarters karkashin gwamnatin Janar Yakubu Gowon ."
+          },
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Hassan Usman Katsina (31 Maris 1933 - 24 Yuli 1995) Ya kasance Manjo janar na hafsoshin sojan najeriya na kasa, kuma ya kasance dan Usman Nagogo,wato dan Sarkin Katsina daga shekarar 1944 zuwa 1981. Ya kasance Gwamnan Yankin Arewacin Najeriya daga 1966 zuwa 1967. A lokacin yakin basasar Nijeriya, ya taba kasancewa da babban hafsan sojojin najeriya da kuma mataimaki , Kuma babban helkwata na gudanarwa a karkashin mulkin Janar Yakubu Gowon ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 45,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::1",
+        "segmentText": "2nd Lieutenant, December 19, 1958 Lieutenant, 26 of July, 1959 Captain, March 1, 1961 Major, August 19, 1963 Lieutenant Colonel, January 19, 1966 Colonel, March 31, 1968 Brigadier General, April 1, 1969 Major General, July 1, 1971.",
+        "targets": [
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Lieutenant na 2, 19 ga Disamba 1958 Lieutenant, 26 na Yuli, 1959 Kyaftin, Maris 1, 1961 Manyan, Agusta 19, 1963 Laftanar Kanal, 19 ga Janairu, 1966 Kanar, 31 ga Maris, 1968 Birgediya Janar, 1 ga Afrilu, 1969 Manjo Janar, 1 ga Yuli, 1971."
+          },
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Lutanan na 2, 19 ga Disamba 1958 Lutanan, 26 na Yuli, 1959 Kyaftin, Maris 1, 1961 Manyan, Agusta 19, 1963 Laftanar Kanal, 19 ga Janairu, 1966 Kanar, 31 ga Maris, 1968 Birgediya Janar, 1 ga Afrilu, 1969 Manjo Janar, 1 ga Yuli, 1971."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 46,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::2",
+        "segmentText": "On January 17, 1966, the then Lt Colonel Hassan Usman Katsina became the military governor of the Northern province of Nigeria. He was handed over the reins of power by major Chukwuma Kaduna Nzeogwu, a major figure in the coup that first brought to power the Nigerian military and led to the death of Ahmadu Bello, the former premier of the province. Hassan Katsina stepped into a new position that was in need of strong leadership to calm nerves as a result of the military incursion to power and the death of prominent political leaders from the region. His administration chose to carry on with the progress attained by the Late Bello and brought aboard senior civil servants in the region who possessed administrative attributes that could continue with the success achieved by Ahmadu Bello. During his brief period of leadership, he led the Interim Common Services Agency, an agency which undertook the task of sharing the collective resources of the region in a new decentralized political and economic system of governance.[6] Hassan Katsina, also revitalized political linkage with the emirates in the north as a support base for his new administration; and was close to re-introducing the old Native Administrative structures of the colonial system, where emirs played a major role.[7] On the under hand, he also promised to reform the native administration and local governance. Keys figures in his administration were Ali Akilu, who later played a major role in the creation of states in the north, Ibrahim Dasuki and Sunday Awoniyi.[8]",
+        "targets": [
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A ranar 17 ga Janairu, 1966, Laftanar Kanar Hassan Usman Katsina ya zama gwamnan mulkin soja na lardin arewacin Najeriya. Wani babban mai suna Chukwuma Kaduna Nzeogwu, ya mika shi ga hannun ikon da ya yi a juyin mulkin da ya fara kawo wa sojojin Nijeriya nasara wanda ya yi sanadiyyar mutuwar Ahmadu Bello, tsohon Firayim Ministan lardin. Hassan Katsina ya hau sabon matsayin da ke buƙatar shugabanci mai ƙarfi don kwantar da jijiyoyi sakamakon mamayar sojoji zuwa mulki da kuma mutuwar manyan shugabannin siyasa daga yankin. Gwamnatin sa ta zabi ci gaba da Late Bello ta samu tare da kawo wasu manyan ma’aikatan gwamnati a yankin wadanda suka mallaki halayen gudanarwa wadanda za su iya ci gaba tare da nasarar da Ahmadu Bello ya samu. A lokacin da ya taƙaitaccen lokaci na shugabanci, da ya jagoranci gwamnatin wucin gadi a Common Services Agency, wata hukumar da gudanar da aiki na raba da gama albarkatu na yankin, a wani sabon rarraba siyasa da kuma tattalin arziki tsarin na shugabanci . [1] Hassan Katsina, kuma revitalized siyasa hadin tare da Emirates a arewa a matsayin goyon baya tushe don ya sabuwar gwamnatin. kuma ya kusan dawo da tsohuwar tsarin Tsarin Mulki na tsarin mulkin mallaka, inda sarakunan suka taka rawa sosai. [2] A nasa bangaren, ya kuma yi alkawarin kawo sauyi ga karamar hukuma da ta kananan hukumomi. Abubuwan da suka bayyana a cikin gwamnatin sa shine Ali Akilu, wanda daga baya suka taka rawa wajen kirkiro jihohi a arewa, Ibrahim Dasuki da kuma Sunday Awoniyi . [3]"
+          },
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A ranar 17 ga Janairu, 1966, Laftanar Kanar Hassan Usman Katsina ya zama gwamnan mulkin soja na lardin arewacin Najeriya. Ya mika marabus din madafun iko ne ga manjo Chukwuma Kaduna Nzeogwu, ya mika madafun ikon ne a kun da ya kawo sojoji kan iko har ya haddasa mutuwan Ahmadu Bello, tsohon Firimiyan yankin arewa yim. Hassan Katsina ya hau sabon matsayin da ke buƙatar shugabanci mai ƙarfi don kwantar da jijiyoyi sakamakon mamayar sojoji zuwa mulki da kuma mutuwar manyan shugabannin siyasa daga yankin. Gwamnatin sa, ta zabi ci gaba da Late Bello ta samu tare da kawo wasu manyan ma’aikatan gwamnati a yankin wadanda suka mallaki halayen gudanarwa wadanda za su iya ci gaba tare da nasarar da Ahmadu Bello ya samu. A lokacin da ya taƙaitaccen lokaci na shugabanci, da ya jagoranci gwamnatin wucin gadi a Common Services Agency, wata hukumar da gudanar da aiki na raba da gama albarkatu na yankin, a wani sabon rarraba siyasa da kuma tattalin arziki tsarin na shugabanci . [1] Hassan Katsina, kuma revitalized siyasa hadin tare da Emirates a arewa a matsayin goyon baya tushe don ya sabuwar gwamnatin. kuma ya kusan dawo da tsohuwar tsarin Tsarin Mulki na tsarin mulkin mallaka, inda sarakunan suka taka rawa sosai. [2] A nasa bangaren, ya kuma yi alkawarin kawo sauyi ga karamar hukuma da ta kananan hukumomi. Abubuwan da suka bayyana a cikin gwamnatin sa shine Ali Akilu, wanda daga baya suka taka rawa wajen kirkiro jihohi a arewa, Ibrahim Dasuki da kuma Sunday Awoniyi . [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 47,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::3",
+        "segmentText": "Later life",
+        "targets": [
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Daga baya rayuwa"
+          },
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Bayan rayuwa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 48,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::4",
+        "segmentText": "Though, he was respected by some of the military officers who led the 1975 coup, a few of whom he had promoted rapidly, he was retired in 1975 and later rejected entreaties for a governmental appointment after his retirement.[10] He was later involved in the formation of a few political organizations such as the National Party of Nigeria [11] and the Committee of Concerned Citizens. He was also an ardent fan of the game of polo. He became the first person from Katsina to have attained prominence in the Nigerian Army.",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kodayake, wasu jami'an sojan da suka mutunta shi ya jagoranci juyin mulki a 1975, kadan daga cikin wadanda ya inganta cikin hanzari, ya yi ritaya a 1975 daga baya ya yi watsi da rokon da aka yi masa na neman mukamin gwamnati bayan ya yi ritaya. [1] Daga baya ya shiga sahun wasu kungiyoyi na siyasa kamar su National Party of Nigeria [2] da kuma Kwamitin Kula da Jama'a. Hakanan ya kasance mai goyon baya a wasan wasan polo . Ya zama mutum na farko da ya fito daga Katsina ya samu daukaka a cikin Sojojin Najeriya."
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kodayake, wasu jami'an sojan da suka mutunta shi ya jagoranci juyin mulki a 1975, kadan daga cikin wadanda ya inganta cikin hanzari, ya yi ritaya a 1975 daga baya ya yi watsi da rokon da aka yi masa na neman mukamin gwamnati bayan ya yi ritaya. [1] Daga baya ya shiga sahun wasu kungiyoyi na siyasa kamar su National Party of Nigeria [2] da kuma Kwamitin Kula da Jama'a. Hakanan ya kasance mai goyon baya a wasannin wasan polo . Ya zama mutum na farko da ya fito daga Katsina ya samu daukaka a cikin Sojojin Najeriya."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 49,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::5",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 50,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::6",
+        "segmentText": "External links",
+        "targets": [
+          {
+            "_itemAll": 100,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hanyoyin haɗin waje"
+          },
+          {
+            "_itemAll": 101,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai na waje"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 51,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::7",
+        "segmentText": "Hassan Usman Katsina was born in Katsina to the royal house of Nagogo in 1933.[1] He attended Kankiya Elementary School and Katsina Middle School. After finishing middle school, he went to Barewa College, Zaria and the Nigerian School of Arts, Sciences and Technology also in Zaria. He joined the Nigerian army in 1956.[2]",
+        "targets": [
+          {
+            "_itemAll": 102,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An haifi Hassan Usman Katsina ne a cikin Katsina zuwa gidan sarauta na Nagogo a shekarar 1933 [1] Ya halarci makarantar firamari ta Kankiya da makarantar sakandaren Katsina. Bayan ya gama makarantar sakandare, ya tafi Kwalejin Barewa, Zariya da Makarantar Sakandare da Fasaha ta Najeriya da ke Zariya. Ya shiga rundunar sojojin Najeriya ne a cikin 1956. [2]"
+          },
+          {
+            "_itemAll": 103,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An haifi Hassan Usman Katsina ne a cikin Katsina a babban gidan sarauta, wato gidan na Nagogo a shekarar 1933 [1] Ya halarci makarantar firamari ta Kankiya da makarantar sakandaren Katsina. Bayan ya gama makarantar sakandare, ya tafi Kwalejin Barewa, Zariya da Makarantar Sakandare da Fasaha ta Najeriya da ke Zariya. Ya shiga rundunar sojojin Najeriya ne a cikin 1956. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 52,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::8",
+        "segmentText": "Military career",
+        "targets": [
+          {
+            "_itemAll": 104,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Aikin soja"
+          },
+          {
+            "_itemAll": 105,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Aikin sojan sa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 53,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::9",
+        "segmentText": "Hassan Katsina rose through the ranks of the Nigerian military from a 2nd lieutenant in 1958, to become a Major General and member of the Supreme Military Council[3] by 1975. Then, he had become a prominent and senior Northern military officer, who had linkages with the traditional authorities in the north and the perception of a genteel character to many Nigerians in general. He served both as an apolitical army officer, early on in his career and a political appointee under a federal military regime from 1966 to 1975.",
+        "targets": [
+          {
+            "_itemAll": 106,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hassan Katsina ya hau kan mukamin sojojin Nijeriya daga kan mukaminsa na janar na biyu a 1958, ya zama Manjo Janar kuma memba a Kwamitin Soja na Sojoji [1] zuwa 1975. Bayan haka, ya zama shahararren kuma babban jami'in sojan Arewa, wanda ke da alaƙa da sarakunan gargajiya a arewacin da kuma hango halayen geriel ga yawancin Nigeriansan Najeriya gabaɗaya. Ya yi aiki a matsayin jami'in sojan kwalliya, tun farkon aikinsa da kuma mukamin siyasa a karkashin gwamnatin mulkin soji daga shekarar 1966 zuwa 1975."
+          },
+          {
+            "_itemAll": 107,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Hassan Katsina ya kara sama ne a matsayi, kan mukamin sojojin Nijeriya daga kan mukaminsa na janar na biyu a 1958, ya zama Manjo Janar kuma memba a Kwamitin Soja na Sojoji [1] zuwa 1975. Bayan haka, ya zama shahararre, kuma babban jami'in sojan Arewa, wanda ke da alaƙa da sarakunan gargajiya a arewacin da kuma hango halayen geriel ga yawancin Nigeriansan Najeriya gabaɗaya. Ya yi aiki a matsayin jami'in sojan siyasa, tun farkon aikinsa da kuma mukamin siyasa a karkashin gwamnatin mulkin soji daga shekarar 1966 zuwa 1975."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 54,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::10",
+        "segmentText": "Immediately after joining the army in 1956, he underwent training in a few institutions such as the Mons Officer Cadet School and the Royal Military Academy, Sandhurst where he was course mates with Iliya Bisalla.[4] He became a Lt Col in 1966, after which, he was made the governor of the Northern province of Nigeria. He died on 24 July 1995.[5]",
+        "targets": [
+          {
+            "_itemAll": 108,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nan da nan bayan ya shiga soja a shekarar 1956, ya samu horo a wasu cibiyoyi kamar su Mons Officer Cadet School da Royal Military Academy, Sandhurst inda yake tare da Iliya Bisalla . [1] Ya zama Lt Col a shekarar 1966, bayan wannan, ya zama gwamnan lardin Arewa na Najeriya. Ya mutu a 24 Yuli 1995. [2]"
+          },
+          {
+            "_itemAll": 109,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Nan da nan bayan ya shiga soja a shekarar 1956, ya samu horo a wasu cibiyoyi kamar su Mons Officer Cadet School da Royal Military Academy, Sandhurst inda yake tare da Iliya Bisalla . [1] Ya zama Lt Conl ne a shekarar 1966, bayan wannan, ya zama gwamnan lardin Arewa na Najeriya. Ya mutu a 24 Yuli 1995. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 55,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::0",
+        "segmentText": "Platoon Commander, Second Battalion. Intelligence officer, Congo Company Commander, 5th battalion, Kano Commanding Officer, Recce Squadron, Kaduna.",
+        "targets": [
+          {
+            "_itemAll": 110,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Mutanena su ka Kwamandan, Na biyu bataliya . Jami’in leken asirin, Kongo Kwamandan Kamfanin, Bataliya ta 5, Kano Jami’in Kwamandan, Recce Squadron, Kaduna."
+          },
+          {
+            "_itemAll": 111,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kwamandan platun, bataliya na biyu . Jami’in mai fikira, Kongo Kwamandan Kamfanin, Bataliya ta 5, Kano Jami’in Kwamandan, Recce Squadron, Kaduna."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 56,
+        "documentID": "746927",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::746927::1",
+        "segmentText": "Dates of Rank",
+        "targets": [
+          {
+            "_itemAll": 112,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Zamanin Matsayi"
+          },
+          {
+            "_itemAll": 113,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Lokacin Matsayi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 57,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::2",
+        "segmentText": "Sir Usman Nagogo Muhammadu Dikko KBE CMG[1] (1905 – March 18, 1981) was Emir of Katsina (Sarkin Katsina) from May 19, 1944, until his death. He succeeded his father, Muhammadu Dikko, as emir, and was succeeded by his son, Muhammadu Kabir Usman.",
+        "targets": [
+          {
+            "_itemAll": 114,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Sir Usman Nagogo Muhammadu Dikko KBE CMG [1] (1905 – 18 Maris, 1981) shi ne Sarkin Katsina ( Sarkin Katsina ) daga 19 ga Mayu, 1944, har zuwa rasuwarsa. Ya gaji mahaifinsa, Muhammadu Dikko, a matsayin sarki, kuma dansa, Muhammadu Kabir Usman ya gaje shi."
+          },
+          {
+            "_itemAll": 115,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Shugaba Usman Nagogo Muhammadu Dikko KBE CMG [1] (1905 – 18 Maris, 1981) shi ne Sarkin Katsina ( Sarkin Katsina ) daga 19 ga Mayu, 1944, har zuwa rasuwarsa. Ya gaji mahaifinsa, Muhammadu Dikko, a matsayin sarki, kuma dansa, Muhammadu Kabir Usman ya gaje shi. Ya kasance dan boko kuma ya karanta ilimin Addini"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 58,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::3",
+        "segmentText": "One of Nagogo's sons, Muhammadu Kabir Usman (born January 1928), succeeded his father as emir upon Nagogo's death, and was emir as of 2006; Kabir received his name from Arab cleric Sherif Gudid, a friend of Nagogo.[7] Another son, Hassan Katsina (born 1933), joined the Nigerian Army, eventually rising to the position of Major General.[4]",
+        "targets": [
+          {
+            "_itemAll": 116,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Daya daga cikin 'ya'yan Nagogo, Muhammadu Kabir Usman (an haife shi a Janairu 1928), ya gaji mahaifinsa a matsayin sarki a lokacin rasuwar Nagogo, kuma ya zama sarki har zuwa 2006; Kabir ya karɓi sunansa daga malamin Arab Sherif Gudid, abokin Nagogo. [1] Wani ɗa, Hassan Katsina (an haife shi 1933), ya shiga Rundunar Sojan Nijeriya, daga ƙarshe ya tashi zuwa matsayin Manjo Janar. [2]"
+          },
+          {
+            "_itemAll": 117,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Daya daga cikin 'ya'yan Nagogo, Muhammadu Kabir Usman (an haife shi a Janairu 1928), ya gaji mahaifinsa a matsayin sarki a lokacin rasuwar Nagogo, kuma ya zama sarki har zuwa 2006; Kabir ya karɓi sunansa daga malamin Arab Sherif Gudid, abokin Nagogo. [1] Kuma yanada wani ɗa mai suna Hassan usman Katsina (an haife shi 1933), ya shiga Rundunar Sojan Nijeriya, daga ƙarshe ya tashi zuwa matsayin Manjo Janar. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 59,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::4",
+        "segmentText": "Nagogo was appointed an Honorary Commander of the Order of the British Empire (CBE) in the 1948 New Year Honours,[8] and invested as an Honorary Knight Commander of the Order (KBE) in the 1962 New Year Honours.[9] He was appointed a Companion of the Order of St Michael and St George (CMG) in the 1953 Coronation Honours.[10]",
+        "targets": [
+          {
+            "_itemAll": 118,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nagogo aka nada wani cibiyar Amirul Order of British Empire (CBE) a cikin 1948 Sabuwar Shekara Daraja, [1], kuma zuba jari a matsayin cibiyar Knight Amirul Order (KBE) a cikin 1962 Sabuwar Shekara Daraja . [2] An nada shi a matsayin abokin aiki na Dokar St Michael da St George (CMG) a cikin Daraktan Yaƙin Duniya na 1953 . [3]"
+          },
+          {
+            "_itemAll": 119,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An nada nagogo ya zama kwamandan doka na daular birtaniya wato (CBE) a cikin 1948 Sabuwar Shekara mai Daraja, [1], kuma an zuba jari a matsayin kwamandan yan doka wato (KBE) a cikin 1962 Sabuwar Shekara mai Daraja . [2] An nada shi a matsayin abokin aiki na Dokar St Michael da St George (CMG) a cikin bikin mai daraja a 1953 . [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 60,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::5",
+        "segmentText": "Nagogo commenced his education under Islamic scholar Attahiru, who taught the future emir and his brother in Katsina's Gambarawa Quarters. He commenced his elementary education in 1921 at Katsina Provincial School,[2] but was interrupted by his father's visit to England, where the two met George V of the United Kingdom.[3] He graduated from the provincial school in 1923, after which he taught there for six months.[2]",
+        "targets": [
+          {
+            "_itemAll": 120,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nagogo ya fara karatun sa ne a karkashin malamin Islamiyya Attahiru, wanda ya koyar da mai zuwa ga mai zuwa da dan uwan shi a cikin Gambarawa Quarters na Katsina. Ya fara karatun farko a shekarar 1921 a makarantar sakandire ta Katsina, [1] amma mahaifinsa ya kawo karshen ziyarar da Ingila ta yi, inda su biyun suka hadu da George V na Burtaniya . [2] Ya sauke karatu daga makarantar lardin a 1923, bayan haka ya koyar a can tsawon watanni shida. [1]"
+          },
+          {
+            "_itemAll": 121,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Nagogo ya fara karantu ne a karkashin malamin Islamiyya Attahiru, wanda ya koyar da sarki na gaba. ya karantar dashi ne tare da dan uwan shi a cikin Gambarawa kwatas na Katsina. Ya fara karatun farko a shekarar 1921 a makarantar sakandire ta Katsina, [1] amma mahaifinsa ya kawo karshen ziyarar da Ingila ta yi, inda su biyun suka hadu da George V na Burtaniya . [2] Ya sauke karatu daga makarantar lardin a 1923, bayan haka ya koyar a can tsawon watanni shida. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 61,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::6",
+        "segmentText": "Political career and time as emir",
+        "targets": [
+          {
+            "_itemAll": 122,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Aikin siyasa da lokaci a matsayin sarki"
+          },
+          {
+            "_itemAll": 123,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Aikin siyasa da lokacin sa a matsayin sarki"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 62,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::7",
+        "segmentText": "Nagogo was appointed to position of Native Authority Police Chief in 1929; during his term he expanded the police department by erecting new buildings and hiring more officers. In 1937, he became the District Head of Katsina Metropolis.[1]",
+        "targets": [
+          {
+            "_itemAll": 124,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An nada Nagogo a matsayin mukamin Babban Sufeto Janar na ‘Yan Sanda a shekarar 1929; a lokacin ajalinsa ya fadada sashen 'yan sanda ta hanyar inganta sabbin gine-gine da kuma daukar karin jami'ai. A shekarar 1937, ya zama Shugaban Gundumar Katsina Metropolis. [1]"
+          },
+          {
+            "_itemAll": 125,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An nada Nagogo a matsayin mukamin Babban Sufeto Janar na ‘Yan Sanda a shekarar 1929; a lokacin ajalinsa ya fadada sashen 'yan sanda ta hanyar inganta sabbin gine-gine da kuma daukar karin jami'ai. A shekarar 1937, ya zama Shugaban Gundumar Katsina na cikin gari. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 63,
+        "documentID": "747499",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747499::8",
+        "segmentText": "On January 12, 1946, King George VI of the United Kingdom appointed him as a federal minister of the colony. He was a regional minister without portfolio from 1952 until the military coup of 1966,[1] which one of his sons, Hassan Katsina was involved in.[2]",
+        "targets": [
+          {
+            "_itemAll": 126,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A ranar 12 ga Janairu, 1946, Sarki George VI na Burtaniya ya nada shi a matsayin ministan tarayya na masarautar. Ya kasance minista mai yanki ba tare da jigilar kaya ba tun daga 1952 har zuwa juyin mulkin soja na 1966, [1] wanda daya daga cikin 'ya'yansa, Hassan Katsina ya shiga. [2]"
+          },
+          {
+            "_itemAll": 127,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A ranar 12 ga Janairu, 1946, Sarki George VI na Burtaniya ya nada shi a matsayin ministan tarayya na masarautar. Ya kasance minista mai yanki ba tare da jigilar kaya ba tun daga 1952 har zuwa juyin mulkin soja na 1966, [1] wanda daya daga cikin 'ya'yansa, Hassan usman Katsina ya ke ciki . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 64,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::9",
+        "segmentText": "Iliya D. Bisalla (ID Bisalla) (died March 11, 1976) was a Major General in the Nigerian Army and Commissioner of Defence (title is now Minister of Defence) under the military administration of General Murtala Mohammed, the 4th Nigerian Head of State.",
+        "targets": [
+          {
+            "_itemAll": 128,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Iliya D. Bisalla (ID Bisalla) (ya mutu Maris 11, 1976) ya kasance Manjo janar a Sojojin Najeriya kuma Kwamishinan Tsaro (yanzu shine Ministan Tsaro ) a karkashin mulkin soja na Janar Murtala Mohammed, Shugaban Sojan Najeriya na 4 ."
+          },
+          {
+            "_itemAll": 129,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Iliya D. Bisalla (ID Bisalla) (ya mutu Maris 11, 1976) ya kasance Manjo janar a Sojojin Najeriya kuma Kwamishinan Tsaro ( Ministan Tsaro ) a karkashin mulkin soja na Janar Murtala Mohammed, Shugaban kasa na mulkin sojan Najeriya na 4 ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 65,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::10",
+        "segmentText": "Bisalla was a course mate of General Hassan Katsina at Royal Military Academy Sandhurst. Before becoming the Defense Commissioner, General Bisalla was the General Officer Commanding (GOC) 1st Infantry Division of the Nigerian Army from Sep 1969 to December 1973 ,[1] and also Commandant of the Nigeria Defence Academy, Kaduna.[2]",
+        "targets": [
+          {
+            "_itemAll": 130,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Bisalla abokin aikin Janar Hassan Katsina ne a Kwalejin Soja ta Royal Sandhurst . Kafin ya zama Kwamishinan Tsaro, Janar Bisalla shi ne Babban Kwamandan Rundunar Sojojin Sama (GOC) 1 na Rundunar Sojojin Najeriya daga watan Satumbar 1969 zuwa Disamba 1973, [1] sannan kuma Kwamandan Makarantar Tsaro ta Najeriya, Kaduna. [2]"
+          },
+          {
+            "_itemAll": 131,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Bisalla abokin aikin Janar Hassan Katsina ne a Kwalejin Soja ta Royal Sandhurst . Kafin ya zama Kwamishinan Tsaro, Janar Bisalla shi ne Babban Kwamandan Rundunar Sojojin Sama (GOC) 1 na Rundunar Sojojin Najeriya daga watan Satumbar 1969 zuwa Disamba 1973, [1] sannan kuma Kwamandan Makarantar Tsaro ta Najeriya, dake a Kaduna. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 66,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::0",
+        "segmentText": "Implication and Conviction in the abortive February 1976 Coup Attempt",
+        "targets": [
+          {
+            "_itemAll": 132,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Sanannu da Yardawa cikin Februaryoƙarin Cooƙarin Makircin 1976"
+          },
+          {
+            "_itemAll": 133,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Sa hannu da kuma yanke hukuncin Yarjewa a cikin Febarairu,a ƙokarin juyin mulki na 1976"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 67,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::1",
+        "segmentText": "General Bisalla was implicated by Colonel Dimka's confessional statements after investigations into the abortive February 13, 1976 Dimka led coup which resulted in General Mohammed's assassination. Bisalla was controversially convicted of conspiracy and concealment of treason by the secret Special Military Tribunal; and as a result, Bisalla's complicity is not clear (e.g., the Federal Military Government (FMG) asserted that Bisalla gave Dimka operational orders while Dimka, under interrogation, stated that another officer (Major Rabo) provide the operational orders).[3] Importantly, Dimka's confessional was not corroborated and Dimka was known to have provided inconsistent testimonies and drank beer while being interrogated.[3]",
+        "targets": [
+          {
+            "_itemAll": 134,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Bayanin rikice-rikicen Kanar Dimka ya gurfanar da Janar Bisalla ne bayan binciken da aka yi a cikin kisan 13 ga Fabrairu, 1976 Dimka ya jagoranci juyin mulki wanda ya haifar da kisan Janar Mohammed . An yanke ma Bisalla hukunci bisa laifin shirya makircin sa da kuma tona asirin ta hanyar sirrin Kotun Sojoji na musamman; kuma a sakamakon haka, rikicewar Bisalla ba a fili take ba (misali, Gwamnatin Soja ta Tarayya (FMG) ta ba da sanarwar cewa Bisalla ya ba da umarnin aiwatar da ayyukan Dimka yayin da Dimka, a karkashin tambayoyi ya ce wani jami'in (Manyan Rabo) ya ba da umarnin aiwatar da aiki). [1] Mahimmanci, bayanan Dimka ba su da tushe balle makama kuma an san Dimka da cewa ya ba da bayanan da ba su dace ba da kuma shan giya yayin tambayoyi. [1]"
+          },
+          {
+            "_itemAll": 135,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Bayanin rikice-rikicen Kanar Dimka ya gurfanar da Janar Bisalla ne bayan binciken da aka yi a cikin kisan 13 ga Fabrairu, 1976 Dimka ya jagoranci juyin mulki wanda ya haifar da kisan Janar Mohammed . An yanke ma Bisalla hukunci bisa laifin shirya makirci, sannan da kuma tona asirin shi ta hanyar sirrin Kotun Sojoji na musamman; kuma a sakamakon haka, rikicewar Bisalla ba a fili take ba (misali, Gwamnatin Soja ta Tarayya (FMG) ta ba da sanarwar cewa Bisalla ya ba da umarnin aiwatar da ayyukan Dimka yayin da Dimka a karkashin tambayoyi ya ce wa wani jami'in mai suna (manjo Rabo) ya ba da umarnin aiwatar da aiki). [1] Abu mai muhimmanci shine, bayanan Dimka ba su da tushe balle makama kuma an san Dimka da cewa ya ba da bayanan da ba su dace ba da kuma shan giya yayin tambayoyi. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 68,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::2",
+        "segmentText": "General Bisalla along with 31 other alleged co-conspirators some clearly guilty (such as Colonel Dimka and Lt. William Seri) and others whose guilt remain questionable (such as Joseph Gomwalk) were executed by firing squad on March 11, 1976[4]",
+        "targets": [
+          {
+            "_itemAll": 136,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Janar Bisalla tare da wasu mutane 31 da ake zargi da hannu a makarkashiyar da wasu laifuffuka a fili (kamar su Colonel Dimka da Lt. William Seri) da sauransu wadanda laifinsu ya kasance a bayyane (irin su Joseph Gomwalk ) an kashe su ta hanyar harbi a ranar 11 ga Maris, 1976 [1]"
+          },
+          {
+            "_itemAll": 137,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Janar Bisalla tare da wasu mutane 31 da ake zargi da hannu a makarkashiyar da wasu laifuffuka a fili (kamar su Colonel Dimka da Lt. William Seri) da sauransu wadanda laifinsu ya kasance a bayyane (irin su Joseph Gomwalk ) an kashe su ta hanyar harbi a ranar 11 ga Maris, 1976 a dalilin juyun mulkin da sukayi yunkurin aikatawa [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 69,
+        "documentID": "747509",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747509::3",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 138,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 139,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 70,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::4",
+        "segmentText": "Lieutenant Colonel Bukar Suka Dimka (Died May 15, 1976[1]) was a Nigerian Army officer who played a leading role in the February 13, 1976 abortive military coup against the government of General Murtala Ramat Mohammed. Dimka also participated in the Nigerian Counter-Coup of 1966 which toppled the government of General Aguiyi Ironsi.",
+        "targets": [
+          {
+            "_itemAll": 140,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Laftanar Kanal Bukar Suka Dimka (Mutuwar 15 ga Mayu, 1976 [1] ) hafsan Sojan Najeriya ne wanda ya taka rawa a juyin mulkin soja na 13 ga Fabrairu, 1976 da aka hambarar da gwamnatin Janar Murtala Ramat Mohammed . Har ila yau, Dimka ya taka rawa a cikin Kwamitin Tsararrakin Najeriya na shekarar 1966 wanda ya hambarar da gwamnatin Janar Aguiyi Ironsi ."
+          },
+          {
+            "_itemAll": 141,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Laftanar Kanal Bukar Suka Dimka (Mutuwar 15 ga Mayu, 1976 [1] ) ya kasance hafsan Sojan Najeriya ne wanda ya taka rawan gani a juyin mulkin soja na 13 ga watan Fabrairu,a shekarar 1976 da aka hankadar da gwamnatin Janar Murtala Ramat Mohammed . Har ila yau, Dimka ya taka rawan gani a cikin Kwamitin Tsararrakin Najeriya na shekarar 1966 wanda ya hambarar da gwamnatin Janar Aguiyi Ironsi ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 71,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::5",
+        "segmentText": "Bukar Suka Dimka was commissioned as a Second-Lieutenant from the Australian Army Officer Cadet School, Portsea, into the Nigerian Army on December 13, 1963. He and another officer (Lt. Boniface Ikejiofor ) were the first two Nigerian Army officers to train in Australia and successfully complete the 12 months course at the school with cadets from Australia, New Zealand, Malaysia, the Philippines and the Pacific Islands.[2]",
+        "targets": [
+          {
+            "_itemAll": 142,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An nada Bukar Suka Dimka a matsayin Laftana na biyu daga Jami'an Sojojin Australia na Cadet, Portsea, a cikin Sojojin Najeriya a ranar 13 ga Disamba, 1963. Shi da wani jami'in (Laftanar Boniface Ikejiofor) su ne hafsoshin Sojojin Najeriya biyu na farko da suka fara horo a Ostiraliya kuma an sami nasarar kammala karatun watanni 12 a makarantar tare da shahararru daga Australia, New Zealand, Malaysia, Philippines da tsibirin Pacific. [1]"
+          },
+          {
+            "_itemAll": 143,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An nada Bukar Suka Dimka a matsayin Laftanan na biyu daga Jami'an Sojojin Australia na Cadet, Portsea, a cikin Sojojin Najeriya a ranar 13 ga Disamba, 1963. Shi da wani jami'in (Laftanar Boniface Ikejiofor) su ne hafsoshin Sojojin Najeriya biyu na farko da suka fara horo a Ostiraliya kuma an sami nasarar kammala karatun watanni 12 a makarantar tare da shahararru daga Australia, New Zealand, Malaysia, Philippines da tsibirin Pacific. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 72,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::6",
+        "segmentText": "Participation in the Nigerian counter coup of July 1966",
+        "targets": [
+          {
+            "_itemAll": 144,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kasancewa cikin juyin mulkin na Najeriya a watan Yulin 1966"
+          },
+          {
+            "_itemAll": 145,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Kasancewar shi a cikin juyin mulkin Najeriya na watan Yulin 1966"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 73,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::7",
+        "segmentText": "Dimka, then a lieutenant with the Nigerian Military Training College in Kaduna, was one of the many officers of northern Nigerian origin (including Lt. Colonel Murtala Muhammed (coup leader who Dimka conspired against and murdered ten years later), 2nd Lieutenant Sani Abacha, Lieutenant Muhammadu Buhari, Lieutenant Ibrahim Bako, Lieutenant Ibrahim Babangida, and Major Theophilus Danjuma among others), who staged what became known as the Nigerian Counter-Coup of 1966 because of grievances[3] they felt towards the administration of General Aguiyi Ironsi's government which quelled the January 15, 1966 coup. Dimka along with Lieutenant Dambo are alleged to have shot and killed Lieutenant Colonel Michael Okoro, Commander of the 3rd Battalion during the July mutiny.[4] Another act of notoriety from the July mutiny was Dimka's pursuit and probable intent to murder his Brigade Major (Samuel Ogbemudia). Before the mutiny, Major Ogbemudia had detained Lieutenant Dimka for violating an order forbidding unauthorized troop movement. Under interrogation by Ogbemudia, Dimka complained of ethnic victimization and was subsequently released by Ogbemudia.[5] Vexed by Ogbemudia's treatment of him, Dimka hatched a plot to kill Major Ogbemudia. Fortunately, Ogbemudia was tipped off by Major Abba Kyari and Colonel Hassan Katsina who provided an escape Landrover armed with an SMG gun. Dimka marshaled a group of northern soldiers who pursued Ogbemudia (sometimes shooting) all the way from Kaduna to Owo, Ondo State where Ogbemudia abandoned his Landrover (which had run out of fuel) and scaled a 6-foot fence into a dense jungle to escape Dimka and his soldiers.[4]",
+        "targets": [
+          {
+            "_itemAll": 146,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Dimka, sannan shine mukaddashin kwaleji a Kwalejin horar da Sojojin Najeriya a Kaduna, yana daya daga cikin manyan hafsoshin 'yan asalin arewacin Najeriya (da suka hada da Lt. Colonel Murtala Muhammed (jagoran juyin mulki wanda Dimka yayi kulla da kashe shi bayan shekaru goma), Laftanar Kanar Sani Abacha, Laftanar Muhammadu Buhari, Laftana Ibrahim Bako, Laftanal Ibrahim Babangida, da Manyan Theophilus Danjuma a tsakanin su) wadanda suka aiwatar da abin da ya zama sanata a matsayin mai ba da shawara ga Najeriya a shekarar 1966 saboda takaicin da [1] suka ji game da tafiyar da gwamnatin Janar Aguiyi Ironsi wanda kawo karshen juyin mulkin 15 ga Janairu, 1966. Dimka tare da Lieutenant Dambo ana zargin sun kashe Lieutenant Colonel Michael Okoro, Kwamandan runduna ta 3 yayin kisan kare dangi na Yuli. [2] Wani aikin sananne daga kisan kare dangi na Yuli shine kokarin Dimka da kuma niyyar kashe Brigade Manjo ( Samuel Ogbemudia ). Kafin kisa, Manjo Ogbemudia ya tsare Laftana kan Dimka saboda keta umurnin hana rundunar sojojin da ba su da izini. A karkashin tambayoyi daga Ogbemudia, Dimka ya koka da cin zarafin kabilanci sannan daga baya Ogbemudia ya sake shi. [3] Vexed da Ogbemudia suka yi masa, Dimka ya yi tir da makircin kashe Manjo Ogbemudia. Abin farin ciki, Manjo Abba Kyari da Kanar Hassan Katsina ne suka bama Ogbemudia dauke da bindiga kirar SMG. Dimka ya harzuka wasu gungun sojojin arewa wadanda suka rinka bin Ogbemudia (wani lokacin harbi) tun daga Kaduna har zuwa Owo, jihar Ondo inda Ogbemudia yayi watsi da Landrover (wanda ya gaza da mai) ya kuma katange shinge 6 na shiga cikin daji mai yawa don tserewa Dimka da sojojinsa. [2]"
+          },
+          {
+            "_itemAll": 147,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Dimka, a lokacin shine mukaddashi kuma kwamandan Kwalejin horar da Sojojin Najeriya dake Kaduna, yana daya daga cikin manyan hafsoshin 'yan asalin arewacin Najeriya (da suka hada da Lt. Colonel Murtala Muhammed (jagoran juyin mulki wanda Dimka yayi masa kulli da kashe shi bayan shekaru goma), Laftanar Kanar Sani Abacha, Laftanar Muhammadu Buhari, Laftana Ibrahim Bako, Laftanal Ibrahim Babangida, da Manyan Theophilus Danjuma a tsakanin su) wadanda suka aiwatar da abin da ya zama sanata a matsayin mai ba da shawara ga Najeriya a shekarar 1966 saboda takaicin da [1] suka ji game da tafiyar da gwamnatin Janar Aguiyi Ironsi wanda ya kawo karshen juyin mulki na 15 ga watan Janairu, 1966. Dimka tare da Lieutenant Dambo ana zargin sun kashe Lieutenant Colonel Michael Okoro, Kwamandan runduna ta 3 yayin kisan kare dangi na Yuli. [2] Wani aikin sananne daga kisan kare dangi na Yuli shine kokarin Dimka da kuma niyyar kashe Birgediya Manjo ( Samuel Ogbemudia ). Kafin kisan, Manjo Ogbemudia ya tsare Dimka saboda keta umurnin hana rundunar sojojin da ba su da izini a kansu. A karkashin tambayoyi daga Ogbemudia, Dimka ya koka da cin zarafin kabilanci sannan daga baya Ogbemudia ya sake shi. [3] tsare shi din da sukayi, Ogbemudia suka yi masa, Dimka ya yi tsari da makircin kashe Manjo Ogbemudia. Abin farin ciki, Manjo Abba Kyari da Kanar Hassan Katsina ne sune suka bama Ogbemudia dauki da bindiga kirar SMG suka nuna masa hanyan guduwa. Dimka ya tara wasu hazikan gungun sojojin arewa wadanda suka rinka bin Ogbemudia (suna harbi) tun daga Kaduna har zuwa Owo, jihar Ondo inda Ogbemudia yayi watsi da motar sa kirar Landrover (wanda ya gaza a dalilin mai) ya kuma katange shinge 6 na shiga cikin daji mai yawa don tserewa Dimka da sojojinsa. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 74,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::8",
+        "segmentText": "Participation in the February 13, 1976 Coup",
+        "targets": [
+          {
+            "_itemAll": 148,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Kasancewa a watan Fabrairu 13, 1976"
+          },
+          {
+            "_itemAll": 149,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Sa hannunsa a juyin mulki na watan Fabrairu 13, 1976"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 75,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::9",
+        "segmentText": "General Mohammed was assassinated along with his aide-de-camp Lieutenant Akintunde Akinsehinwa when his Mercedes-Benz was ambushed by a group of assassins consisting of Lieutenant Colonel Dimka, Major Rabo, Captain Parwang and Lieutenant Seri in Ikoyi, Lagos.[6] In a planned broadcast to the nation, Lieutenant Colonel Dimka had cited corruption, indecision, arrest and detention without trial, weakness on the part of the Head of State and maladministration in general as the reasons for overthrowing the government. The coup was crushed several hours later by forces loyal to the government and Dimka fled to the premises of Radio Nigeria at Ikoyi where he had made a broadcast to the nation. He was eventually arrested in the company of a prostitute in Eastern Nigeria. Following a court martial, Lieutenant Colonel Dimka and another 38 military officers and civilians were executed by firing squad. The former military head of state, General Yakubu Gowon (who had been overthrown by General Mohammed in July 1975), was implicated in the abortive coup (by Dimka's testimony). The British Government refused to extradite Gowon. Years later Gowon was granted an official pardon by civilian president Shehu Shagari and his rank (General) and other benefits were fully restored in 1987 by General Ibrahim Babangida.[7] General Murtala Mohammed was succeeded by Lieutenant General Olusegun Obasanjo.",
+        "targets": [
+          {
+            "_itemAll": 150,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Janar Mohammed da aka kashe tare da mataimaki-de-sansanin Lieutenant Akintunde Akinsehinwa lõkacin da Mercedes-Benz aka kwanton bauna da wani rukuni na kashe kunshi Laftanar Kanar Dimka, Major Rabo, Captain Parwang da Lieutenant Seri a Ikoyi, Lagos . [1] A cikin watsa shirye-shiryen watsa shirye-shirye ga al'umma, Laftanar Kanal Dimka ya ambaci rashawa, cin hanci, kama shi da tsare shi ba tare da fitina ba, rauni a kan Shugaban Kasa da zalunci a gaba a matsayin dalilan kifar da gwamnati. Sojojin da ke biyayya ga gwamnati sun murkushe juyin mulkin da 'yan sa'o'i kadan sannan Dimka suka tsere zuwa harabar Rediyon Najeriya a Ikoyi inda ya ba da labari ga jama'ar kasar. A ƙarshe an kama shi tare da kamfanin karuwai a gabashin Najeriya . Bayan sammacin kotu, Lieutenant Colonel Dimka da kuma wasu sojoji 38 da sojoji suka kashe ta hanyar harbi. Tsohon shugaban mulkin soja, Janar Yakubu Gowon (wanda Janar Mohammed ya hambarar da shi a watan Yuli na 1975), ya kasance a cikin juyin mulkin (ta hanyar Dimka). Gwamnatin Burtaniya ta ki tura Gowon. Shekaru bayan haka shugaban farar hula Shehu Shagari ya ba wa Gowon afuwa na hukuma tare da muƙaminsa (Janar) da sauran fa'idodi gabaɗaya a shekarar 1987 daga Janar Ibrahim Babangida. [2] Janar Murtala Mohammed ya maye gurbin Laftanar Janar Olusegun Obasanjo ."
+          },
+          {
+            "_itemAll": 151,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Janar Mohammed da aka kashe tare da mataimaki-de-sansanin Lieutenant Akintunde Akinsehinwa lõkacin da Mercedes-Benz aka kwanton bauna da wani rukuni na kashe kunshi Laftanar Kanar Dimka, Major Rabo, Captain Parwang da Lieutenant Seri a Ikoyi, Lagos . [1] A cikin watsa shirye-shiryen watsa shirye-shirye ga al'umma, Laftanar Kanal Dimka ya ambaci rashawa, cin hanci, kama shi da tsare shi ba tare da fitina ba, rauni a kan Shugaban Kasa da zalunci a gaba a matsayin dalilan kifar da gwamnati. Sojojin da ke biyayya ga gwamnati sun murkushe juyin mulkin da 'yan sa'o'i kadan sannan Dimka suka tsere zuwa harabar Rediyon Najeriya a Ikoyi inda ya ba da labari ga jama'ar kasar. A ƙarshe an kama shi tare da kamfanin karuwai a gabashin Najeriya . Bayan sammacin kotu, Lieutenant Colonel Dimka da kuma wasu sojoji 38 da sojoji suka kashe ta hanyar harbi. Tsohon shugaban mulkin soja, Janar Yakubu Gowon (wanda Janar Mohammed ya hambarar da shi a watan Yuli na 1975), ya kasance a cikin juyin mulkin (ta hanyar Dimka). Gwamnatin Burtaniya ta ki tura Gowon. Shekaru bayan faruwar hakan shugaban farar hula Shehu Shagari ya ba wa Gowon afuwa na hukuma tare da muƙaminsa (Janar) da sauran fa'idodi gabaɗaya a shekarar 1987 daga Janar Ibrahim Babangida. [2] Janar Murtala Mohammed ya mutu mataimakinsa ne ya maye gurbin sa wato Laftanar Janar Olusegun Obasanjo ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 76,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::10",
+        "segmentText": "Lieutenant Colonel Dimka was publicly executed on May 15, 1976[1] at the Kirikiri Maximum Security Prison in Lagos.[8]",
+        "targets": [
+          {
+            "_itemAll": 152,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An kashe Laftanar Kanar Dimka a bainar jama'a a ranar 15 ga Mayu, 1976 [1] a gidan kurkukun tsaro na tsaro na Kirikiri da ke Legas . [2]"
+          },
+          {
+            "_itemAll": 153,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An kashe Laftanar Kanar Dimka a bainar jama'a a ranar 15 ga Mayu, 1976 [1] a gidan kurkukun tsaro mafi tsaro na Kirikiri da ke Legas . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 77,
+        "documentID": "747513",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::747513::0",
+        "segmentText": "References",
+        "targets": [
+          {
+            "_itemAll": 154,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Tunani"
+          },
+          {
+            "_itemAll": 155,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 78,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::1",
+        "segmentText": "Shehu Musa Yar'Adua (March 5, 1943 – December 8, 1997) was a retired Nigerian Army major general who served as the Chief of Staff, Supreme Headquarters under General Olusegun Obasanjo's 1976 - 1979 military government.",
+        "targets": [
+          {
+            "_itemAll": 156,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Shehu Musa Yar'Adua (Maris 5, 1943 - 8 ga Disamba 1997) wani janar ne na sojan Najeriya mai ritaya wanda ya yi aiki a matsayin Shugaban Ma’aikata, Shugaban Ma’aikata a karkashin mulkin Janar Olusegun Obasanjo na 1976 - 1979."
+          },
+          {
+            "_itemAll": 157,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Shehu Musa Yar'Adua (Maris 5, 1943 - 8 ga Disamba 1997) wani manjo janar ne na sojan Najeriya mai ritaya wanda ya yi aiki a matsayin Shugaban sojin najeriya a matakin koli, a karkashin mulkin Janar Olusegun Obasanjo na 1976 - 1979."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 79,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::2",
+        "segmentText": "In 1976, Yar'Adua became the Chief of Staff, Supreme Headquarters after the assassination of Murtala Mohammed in an abortive coup. His office was assigned the task of managing operations of Operation Feed the Nation, a self-reliant agricultural policy of the new Obasanjo regime.[9] Operation Feed the Nation, known as OFN, was an initiative to boost local production of agricultural produce, especially staple crops such as rice and wheat, so as to improve self-sufficiency of food crops and reduce growing food deficits. Mechanisms used to promote the objective included the distribution of heavily subsidized fertilizers and seeds to farmers,[10] loans to small scale farmers to enable them to purchase equipment, and an educational outreach programme manned by Corpers to teach peasant farmers how to use modern agricultural equipment. However, by 1979 the policy had not achieved its primary goal of self-reliance and self-sufficiency.[11]",
+        "targets": [
+          {
+            "_itemAll": 158,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A shekarar 1976, Yar'Adua ya zama Shugaban Ma’aikata, Babban Shugabanci bayan kisan Murtala Mohammed a wani juyin mulkin da ya kauda. An sanya ofishinta a matsayin mai kula da ayyukan Operation Feed the Nation, manufar noma mai dogaro da kai na sabuwar gwamnatin Obasanjo . [1] Operation Feed the Nation, wanda aka fi sani da OFN, wani yunƙuri ne na haɓaka samar da kayan gona a cikin gida, musammam amfanin gona kamar shinkafa da alkama, don haɓaka wadatar albarkatun abinci da rage ƙarancin abinci. Hanyoyin da aka yi amfani da su don inganta manufar sun hada da rarraba takaddun takin zamani da iri ga manoma, [2] rance ga ƙananan manoma domin ba su damar siyan kayan aiki, da kuma shirin kula da ilimi wanda Corpers ke koyarwa don koyar da manoma makiyaya yadda ake amfani da kayan aikin gona na zamani. kayan aiki. Koyaya, ya zuwa shekara ta 1979 manufofin basu cimma burin sa na dogaro da kai ba. [3]"
+          },
+          {
+            "_itemAll": 159,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A shekarar 1976, Yar'Adua ya zama babban Shugaban Ma’aikata, Babban Shugabanci bayan kisan Murtala Mohammed a wani juyin mulkin da ya kauda Murtala. An sanya ofishin sa ya zama a matsayin mai kula da ayyukan Operation Feed the Nation, manufar noma mai dogaro da kai na sabuwar gwamnatin Obasanjo . [1] Operation Feed the Nation, wanda aka fi sani da OFN, wani yunƙuri ne na haɓaka samar da kayan gona a cikin gida, musammam amfanin gona kamar shinkafa da alkama, don haɓaka wadatar albarkatun abinci da rage ƙarancin abinci. Hanyoyin da aka yi amfani da su don inganta manufar sun hada da rarraba takaddun takin zamani da iri ga manoma, [2] rance ga ƙananan manoma domin ba su damar siyan kayan aiki, da kuma shirin kula da ilimi wanda Corpers ke koyarwa don koyar da manoma makiyaya yadda ake amfani da kayan aikin gona na zamani. kayan aiki. Koyaya, ya zuwa shekara ta 1979 manufofin basu cimma burin sa na dogaro da kai ba. [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 80,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::3",
+        "segmentText": "President Babangida started his political transition program in 1987 with the establishment of a Political Bureau, and a Constituent Assembly was later inaugurated to deliberate on a proposed draft constitution. Though Yar'Adua was not a member of the assembly and a law had proscribed certain old breed politicians from political activities, his associates who represented his political leanings at the forum and was active in the formation of political associations during the transitional period,[13] Yar'Adua and his group formed the People's Front of Nigeria.[14] Members included Babagana Kingibe, Atiku Abubakar, Bola Tinubu, Magaji Abdullahi, Ango Abdullahi, Ahmadu Rufa'i, Yahaya Kwande, Abdullahi Aliyu Sumaila, Wada Abubakar, Babalola Borishade, Sabo Bakin Zuwo, Sunday Afolabi, Rabiu Musa Kwankwaso,M.S.Buhari Chief Gbazueagu N.Gbazueagu, Tony Anenih,Disu Oladipo,Haliru Kafur, Abubakar Koko, Sergeant Awuse, Titi Ajanaku, and Farouk Abdulazeez. The organization later merged with other groups to form the Social Democratic Party of Nigeria. People's Front and PSP, became the two dominant factions within SDP. However, Yar'Adua's group was very organized and able to win the majority of the elective posts within SDP.[15] During the Governorship and House of Assembly elections, SDP had a slight numerical edge over NRC.[16]",
+        "targets": [
+          {
+            "_itemAll": 160,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Shugaba Babangida ya fara shirin mika mulki na siyasa ne a 1987 tare da kafa Ofishin Siyasa, kuma daga baya aka gabatar da Majalisar Zartarwa don yin niyya kan wani daftarin kundin tsarin mulki. Kodayake Yar'Adua ba memba bane a majalisa kuma doka ta ba da wasu tsoffin 'yan siyasar da suka fito daga ayyukan siyasa, abokan aikin sa wadanda suka wakilci jindadin siyasarsa a wurin taron kuma ya kasance mai himma wajen kafa kungiyoyin siyasa a lokacin canji, [1 ] Yar'Adua da tawagarsa sun kafa kungiyar Jama'a ta Najeriya. [2] Membobin sun hada da Babagana Kingibe, Atiku Abubakar, Bola Tinubu, Magaji Abdullahi, Ango Abdullahi, Ahmadu Rufa'i, Yahaya Kwande, Abdullahi Aliyu Sumaila, Wada Abubakar, Babalola Borishade, Sabo Bakin Zuwo, Sunday Afolabi, Rabiu Musa Kwankwaso, MSBuhari Chief Gbazueagu N .Gbazueagu, Tony Anenih, Disu Oladipo, Haliru Kafur, Abubakar Koko, Sergeant Awuse, Titi Ajanaku, da Farouk Abdulazeez. Daga baya kungiyar ta hada kai da wasu kungiyoyi don kafa kungiyar Social Democratic Party of Nigeria . Frontungiyar mutane da PSP, sun zama ƙungiyoyi biyu masu ƙarfi a cikin SDP. Koyaya, ƙungiyar 'Yar'aduwa tana da tsari sosai kuma yana iya cin nasarar yawancin zaɓaɓɓun mukamai a cikin SDP. [3] Lokacin gudanar da zaben gwamnoni da majalisar wakilai, SDP tana da karancin lamba akan NRC . [4]"
+          },
+          {
+            "_itemAll": 161,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Shugaba Babangida ya fara shirin mika mulki na siyasa ne a 1987 tare da kafa Ofishin Siyasa, kuma daga baya aka gabatar da Majalisar Zartarwa don yin niyya kan wani daftarin kundin tsarin mulki. Kodayake Yar'Adua ba memba bane a majalisan, amman kuma doka ta bama wasu tsoffin 'yan siyasar dama da suyi ayyukan siyasa, abokan aikin sa wadanda suka wakilci jindadin siyasarsa a wurin taron kuma ya kasance mai himma wajen kafa kungiyoyin siyasa a lokacin canji, [1 ] Yar'Adua da tawagarsa sun kafa kungiyar Jama'a ta Najeriya. [2] Membobin sun hada da Babagana Kingibe, Atiku Abubakar, Bola Tinubu, Magaji Abdullahi, Ango Abdullahi, Ahmadu Rufa'i, Yahaya Kwande, Abdullahi Aliyu Sumaila, Wada Abubakar, Babalola Borishade, Sabo Bakin Zuwo, Sunday Afolabi, Rabiu Musa Kwankwaso, MSBuhari Chief Gbazueagu N .Gbazueagu, Tony Anenih, Disu Oladipo, Haliru Kafur, Abubakar Koko, Sergeant Awuse, Titi Ajanaku, da Farouk Abdulazeez. Daga baya kungiyar ta hada kai da wasu kungiyoyi don kafa kungiyar Social Democratic Party of Nigeria . Front kungiyar mutane da PSP, sun zama ƙungiyoyi biyu masu ƙarfi a cikin SDP. Koyaya, ƙungiyar 'Yar'aduwa tana da tsari sosai kuma yana iya cin nasarar yawancin zaɓaɓɓun mukamai a cikin SDP. [3] Lokacin gudanar da zaben gwamnoni da majalisar wakilai, SDP tana da karancin lamba akan NRC . [4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 81,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::4",
+        "segmentText": "In January 1992, Yar'Adua spent a short stint in detention, jailed for contravening a law banning certain persons from active politics. However, the law was repealed and Yar'Adua subsequently announced his presidential election. His campaign political structure covered the country; he had a national campaign directorate, and each state had its own campaign coordinator and ward mobilizers. Members of his campaign group included former PDP chairman Anthony Anenih, former Vice President Atiku Abubakar, former minister Dapo Sarumi, Bola Tinubu, Abdullahi Aliyu Sumaila and Sunday Afolabi. Yar'Adua was leading the SDP presidential field before results were annulled. A new election was later conducted on June 12, 1993 which was won by M.K.O. Abiola. After the June 12 elections were annulled, the Yar'Adua faction negotiated an arrangement for the inauguration of an interim government. In November 1993, the interim government of Ernest Shonekan was booted out and Sani Abacha became the new military Head of State.",
+        "targets": [
+          {
+            "_itemAll": 162,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A watan Janairun 1992, Yar'Adua ya daure a kurkuku, aka daure shi saboda ya karya dokar hana wasu mutane shiga siyasa mai karfi. Ko ta yaya, an soke dokar sannan daga baya Yar'Adua ya sanar da takarar sa ta shugaban kasa. Tsarin siyasarsa na yakin neman zabe ya mamaye kasar; Yana da daraktocin kamfen na kasa, kuma kowace jiha tana da mai gudanar da kamfen dinta da kuma masu aikin yanki. Wakilan rukunin kamfen dinsa sun hada da tsohon shugaban jam’iyyar PDP Anthony Anenih, tsohon mataimakin shugaban kasa Atiku Abubakar, tsohon minista Dapo Sarumi, Bola Tinubu, Abdullahi Aliyu Sumaila da kuma Sunday Afolabi . Yar'Adua ne ke jagorantar filin SDP kafin a soke sakamakon. Daga baya aka gudanar da sabon zaben a ranar 12 ga Yuni, 1993 wanda MKO Abiola ya lashe. Bayan da aka soke zaben 12 ga watan Yuni, kungiyar 'Yar'aduwa ta yi shawarwari game da batun kafa gwamnatin rikon kwarya. A watan Nuwamban shekarar 1993, aka hambarar da gwamnatin rikon-kwaryar Ernest Shonekan sannan Sani Abacha ya zama sabon Shugaban Sojan Sama."
+          },
+          {
+            "_itemAll": 163,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A watan Janairun 1992, Yar'Adua an daure shi a kurkuku, aka daure shi saboda ya karya dokar hana wasu mutane shiga siyasa mai karfi. Ko ta yaya, an soke dokar sannan daga baya Yar'Adua ya sanar da takarar sa ta shugaban kasa. Tsarin siyasarsa na yakin neman zabe ya mamaye kasar; Yana da daraktocin kamfen na kasa, kuma kowace jiha tana da mai gudanar da kamfen dinta da kuma masu aikin ynki neman zabe. Wakilan rukunin kamfen dinsa sun hada da tsohon shugaban jam’iyyar PDP Anthony Anenih, tsohon mataimakin shugaban kasa Atiku Abubakar, tsohon minista Dapo Sarumi, Bola Tinubu, Abdullahi Aliyu Sumaila da kuma Sunday Afolabi . Yar'Adua ne ke jagorantar SDP kafin a soke sakamakon. Daga baya aka gudanar da sabon zaben a ranar 12 ga Yuni, 1993 wanda MKO Abiola ya lashe. Bayan da aka soke zaben 12 ga watan Yuni, kungiyar 'Yar'aduwa ta yi shawarwari game da batun kafa gwamnatin rikon kwarya. A watan Nuwamban shekarar 1993, aka hambarar da gwamnatin rikon-kwaryar Ernest Shonekan sannan Sani Abacha ya zama sabon Shugaban Sojan Sama."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 82,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::5",
+        "segmentText": "Yar'Adua, Obasanjo, Lawan Gwadabe and others were arrested in March 1995 on allegations of plotting a coup to overthrow the Abacha regime. He was sentenced to death by a military tribunal in 1995, after calling on the Nigerian military government of Gen. Sani Abacha and his Provisional Ruling Council to reestablish civilian rule. The sentence was commuted to life in prison but died in captivity on 8 December 1997.",
+        "targets": [
+          {
+            "_itemAll": 164,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An kama ‘Yar’Adua, Obasanjo, Lawan Gwadabe da sauransu a cikin Maris 1995 bisa zargin su da shirya makarkashiyar juyin mulki don kifar da gwamnatin Abacha . Kotun soja ta yanke masa hukuncin kisa a 1995, bayan da ya yi kira ga gwamnatin mulkin sojan Najeriya ta Gen. Sani Abacha da majalissar zartarwar sa ta musamman don maido da mulkin farar hula . An yanke hukuncin zuwa rayuwa a kurkuku amma ya mutu a zaman talala ranar 8 ga Disamba 1997."
+          },
+          {
+            "_itemAll": 165,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An kama ‘Yar’Adua, Obasanjo, Lawan Gwadabe da sauransu a cikin Maris 1995 bisa zargin su da shirya makarkashiyar juyin mulki don kifar da gwamnatin Abacha . Kotun soja ta yanke masa hukuncin kisa a 1995, bayan da ya yi kira ga gwamnatin mulkin sojan Najeriya ta Gen. Sani Abacha da majalissar zartarwar sa ta musamman don maido da mulkin farar hula . An yanke masa hukuncin rayuwa a gidan kurkuku, amma ya mutu a ranar talata ranar 8 ga Disamba 1997."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 83,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::6",
+        "segmentText": "Personal and business life",
+        "targets": [
+          {
+            "_itemAll": 166,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Rayuwar mutum da kasuwanci"
+          },
+          {
+            "_itemAll": 167,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Rayuwasa mutum da kasuwanci"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 84,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::7",
+        "segmentText": "After retiring from the military, he established a holding company called Hamada Holdings. He was an investor in the Nigerian branch of Habib Bank. He also started a publishing house called the NationHouse Press and published a now defunct daily newspaper called the Reporter.",
+        "targets": [
+          {
+            "_itemAll": 168,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Bayan ya yi ritaya daga aikin soja, ya kafa wani kamfani mai riƙe da suna Hamada Holdings. Ya kasance wani mai saka jari a Nijeriya reshe na Habib Bank . Ya kuma fara buga gidan da ake kira NationHouse Press sannan ya buga wata jaridar yau da kullun wacce ba a kira mai suna Reporter ba ."
+          },
+          {
+            "_itemAll": 169,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Bayan ya yi ritaya daga aikin soja, ya kafa wani kamfani mai riƙe da suna Hamada Holdings. Ya kasance wani mai saka jarine a Nijeriya reshen bankin Habib Bank . Ya kuma fara buga gidan da ake kira da Nation House Press, sannan ya buga wata gidan jarida yau da kullun wacce akea kira da suna Reporter ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 85,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::8",
+        "segmentText": "Yar'Adua was born in Katsina into a titled Fulani family. His father, Musa Yar'Adua, was a teacher who later became the Minister for Lagos Affairs from 1957 to 1966[1] during Nigeria's First Republic. His father held the traditional title of Mutawallin Katsina (keeper of the treasury).[2] Yar'Adua's grandfather, Mallam Umaru, was also the Mutawallin, and his younger brother, Umaru Yar'Adua, became the President of the Federal Republic of Nigeria in 2007.",
+        "targets": [
+          {
+            "_itemAll": 170,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An haifi ‘Yar’adua ne a cikin Katsina a cikin jerin iyayen Fulani. Mahaifinsa, Musa Yar'Adua, malami ne wanda daga baya ya zama Ministan Harkokin Legas daga 1957 zuwa 1966 [1] a lokacin Jamhuriya ta farko ta Najeriya. Mahaifinsa ya rike taken gargajiya na Mutawallin Katsina (mai adana baitulmali). [2] Kakan Yar’Adua, Mallam Umaru, shi ma Mutawallin ne, kuma kanin sa, Umaru Yar’Adua, ya zama Shugaban tarayyar Nijeriya a 2007."
+          },
+          {
+            "_itemAll": 171,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An haifi ‘Yar’adua ne a cikin Katsina a cikin jerin gidan iyalan Fulani. Mahaifinsa, Musa Yar'Adua, malami ne wanda daga baya ya zama Ministan Harkokin Legas daga 1957 zuwa 1966 [1] a lokacin Jamhuriya ta farko ta Najeriya. Mahaifinsa ya rike taken gargajiya na Mutawallin Katsina (mai adana baitulmali). [2] Kakan Yar’Adua, Mallam Umaru, shi ma Mutawallin ne, kuma kanin sa, Umaru Yar’Adua, ya zama Shugaban tarayyar Nijeriya a shekarar 2007."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 86,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::9",
+        "segmentText": "Yar'Adua attended Katsina Middle School and then Katsina Provincial School (now Government College, Katsina) for his secondary education; at the provincial school, he was classmates with current Nigerian president Muhammadu Buhari.[3] At the urging of his father and his father's friend, the defense minister Muhammadu Ribadu, Yar'Adua took the entrance exam of the Nigerian Military Training College.[4] He passed and was enlisted in the army in 1962 as part of the course 5 intake of the Nigerian military training school. Yar'Adua was selected for further training at the Royal Military Academy Sandhurst in Sandhurst, England.",
+        "targets": [
+          {
+            "_itemAll": 172,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Yar'Adua ya halarci makarantar sakandaren Katsina sannan makarantar sakandaren Katsina (yanzu kwalejin gwamnati, Katsina) don karatun sakandare; a makarantar sakandire, yana aji tare da shugaban Najeriya Muhammadu Buhari na yanzu . [1] A kokarin mahaifinsa da abokin mahaifinsa, ministan tsaro Muhammadu Ribadu, Yar'Adua ya ci jarrabawar shiga Kwalejin horar da Sojojin Najeriya . [2] Ya wuce ne aka sa shi cikin sojoji a shekarar 1962 a zaman wani bangare na 5 na makarantar horar da sojojin Najeriya. An zabi Yar'Adua don ƙarin horo a Royal Military Academy Sandhurst a Sandhurst, Ingila ."
+          },
+          {
+            "_itemAll": 173,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Yar'Adua ya halarci makarantar sakandaren Katsina na sakiya a matakin karatu, sannan makarantar sakandaren Katsina (yanzu kwalejin gwamnatin Katsina) don karatun sakandare; a makarantar sakandire, yana aji tare da shugaban Najeriya Muhammadu Buhari na yanzu . [1] A kokarin mahaifinsa da abokin mahaifinsa, ministan tsaro Muhammadu Ribadu, Yar'Adua ya ci jarrabawar shiga Kwalejin horar da Sojojin Najeriya . [2] Ya ci jarabawa ne aka sa shi cikin sojoji a shekarar 1962 ya zama wani bangare na 5 na makarantar horar da sojojin Najeriya. An kara zaani Yar'Adua har wayau don ƙarin horo a Royal Military Academy Sandhurst a Sandhurst, Ingila ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 87,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::10",
+        "segmentText": "In October 1967, Yar'Adua was given the responsibility for the capture of Onitsha[6] after two (2) unsuccessful attempts by the Nigerian troops.",
+        "targets": [
+          {
+            "_itemAll": 174,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "A watan Oktoba na shekarar 1967, an baiwa Yar'Adua alhakin kama Onitsha [1] bayan wasu (2) kokarin da sojojin Najeriya suka yi."
+          },
+          {
+            "_itemAll": 175,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A watan Oktoba ne na shekarar 1967, an baiwa Yar'Adua alhakin kama Onitsha [1] bayan wasu rashinkokarin da rundunan sojojin Najeriya suka yi."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 88,
+        "documentID": "748343",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748343::0",
+        "segmentText": "Yar'Adua became a Lt Col in 1972. In 1975, he was an active participant in the coup that deposed Yakubu Gowon as Nigeria's Head of State.[7] After the success of the coup, he served as Transport Minister in General Murtala Mohammad's regime. As Transport Minister his major task was to decongest the Lagos port. Prior to the coup, officials of the previous regime had ordered 16 million tonnes of cement to build military barracks around the country. However, the berthing facilities of the port were inadequate. The financial implications became more striking because the Nigerian government was liable to pay demurrage fees by the shippers. The Mohammed regime decided to transfer some of the cargoes to neighboring ports and introduce cement management firms to clear and sell the cement and build the new Tin Can Island Port.[8]",
+        "targets": [
+          {
+            "_itemAll": 176,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Yar'Adua ya zama Lt Col a 1972. A shekarar 1975, ya kasance mai taka rawa a cikin juyin mulkin da ya kori Yakubu Gowon a matsayin Shugaban Kasar Najeriya. [1] Bayan nasarar juyin mulkin, ya yi aiki a matsayin Ministan Sufuri a gwamnatin Janar Murtala Mohammad. Kamar yadda Ministan sufuri babban aikinsa shi ne lalata tashar jiragen ruwa ta Legas . Kafin juyin mulkin, jami’an gwamnatin da suka gabata sun ba da umarnin tan miliyan 16 na sumunti don gina shingen sojoji a cikin kasar. Koyaya, wuraren kula da tashar ba su da kyau. Tasirin hada-hadar kudade ya kara zama abin birgewa saboda gwamnatin Najeriya ta zartar da biyan kudin alakar da masu jigilar kaya ke fitarwa. Gwamnatin Mohammed ta yanke shawarar tura wasu daga cikin jigilar kayayyaki zuwa tashar jiragen ruwa na makwabta tare da gabatar da kamfanonin sarrafa siminti don sharewa da sayar da siminti da gina sabon tashar jirgin ruwa ta Can Can . [2]"
+          },
+          {
+            "_itemAll": 177,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Yar'Adua ya zama Laftana kanal a 1972. A shekarar 1975, ya kasance mai taka rawan gani a cikin juyin mulkin da akayi wa Yakubu Gowon a matsayin Shugaban Kasar Najeriya. [1] Bayan nasarar juyin mulkin, ya yi aiki a matsayin Ministan Sufuri a gwamnatin Janar Murtala Mohammad. Kamar yadda Ministan sufuri babban aikinsa shi ne lalata tashar jiragen ruwa ta Legas . Kafin juyin mulkin, jami’an gwamnatin da suka gabata sun ba da umarnin tan miliyan 16 na sumunti don gina shingen sojoji a cikin kasar. Koyaya, wuraren kula da tashar ba su da kyau. Tasirin hada-hadar kudade ya kara zama abin birgewa saboda gwamnatin Najeriya ta zartar da biyan kudin alakar da masu jigilar kaya ke fitarwa. Gwamnatin Mohammed ta yanke shawarar tura wasu daga cikin jigilar kayayyaki zuwa tashar jiragen ruwa na makwabta tare da gabatar da kamfanonin sarrafa siminti don sharewa da sayar da siminti da gina sabon tashar jirgin ruwa ta Can Can . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 89,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::1",
+        "segmentText": "Vice Admiral Murtala Nyako (rtd), GCON, CFR: rcds, D.Agric. (H.C.) was elected Executive Governor of Adamawa State, Nigeria, taking office in May 2007.[1] Prior to then he served in the Navy, at one time being military governor of Niger State, and being appointed Chief of Naval Staff in December 1989.[2]",
+        "targets": [
+          {
+            "_itemAll": 178,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Mataimakin Admiral Murtala Nyako (rtd), GCON, CFR: rcds, D.Agric. (HC) an zaba shi mukaddashin gwamna na jihar Adamawa, Najeriya, lokacin da ya karbi mukamin a watan Mayu 2007. [1] Kafin wannan lokacin ya yi aiki a Sojan Sama, a lokaci guda yana gwamnan soja na Jihar Neja, kuma aka nada shi a matsayin Hafsan Sojan Sama a watan Disamba 1989. [2]"
+          },
+          {
+            "_itemAll": 179,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Mataimakin Admiral Murtala Nyako nairitaya, GCON, CFR: rcds, D.Agric. (HC) an zaba shi mukaddashin gwamna na jihar Adamawa, Najeriya, lokacin da ya karbi mukamin a watan Mayu 2007. [1] Kafin wannan lokacin ya yi aiki a Sojan Sama, a lokacin yana gwamnan soja na Jihar Neja, kuma aka nada shi a matsayin Hafsan Sojan Sama a watan Disamba 1989. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 90,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 2,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::2",
+        "segmentText": "Nyako is the President of the Horticultural Crops Growers Association of Nigeria, the Practicing Farmers Association of Nigeria and the Apex Farmers Association of Nigeria. He is a patron of numerous farmers' commodity associations in the country. Admiral is a successful integrated farmer of international repute. He is sole owner of one of the largest dairy farm in the country, Sebore (EPZ) Farms. In addition, Nyako owns the largest mango farm in the country leading to him being known as Baba Mai Mangoro (BMM).[1]",
+        "targets": [
+          {
+            "_itemAll": 180,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nyako shi ne Shugaban kungiyar Manyan Ma'aikatan Noma Horticultural Crops na Najeriya, da Practungiyar Manoma ta Nigeriaan Najeriya da kuma Farmersungiyar Manoma Apex na Najeriya. Shi kwararre ne daga kungiyoyin manoma da dama a kasar. Admiral shine ingantaccen manomi ingantaccen mai martaba na duniya. Shine mai mallakar daya daga cikin manyan gonar kiwo a kasar, Sebore (EPZ). Bugu da kari, Nyako ya mallaki mafi girma gonar mangoro a kasar wanda ya sa aka san shi da Baba Mai Mangoro (BMM). [1]"
+          },
+          {
+            "_itemAll": 181,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Nyako shi ne Shugaban kungiyar Manyan Ma'aikatan Noma na bai daya na Najeriya, da Manoma masu koyo ta Najeriya da kuma Farmersungiyar Manoma Apex na Najeriya. Shi kwararre ne daga kungiyoyin manoma da dama a kasar. Admiral shine ingantaccen manomi ingantaccen mai martaba na duniya. Shine mai mallakar daya daga cikin manyan gonar kiwo a kasar, Sebore (EPZ). Bugu da kari, Nyako ya mallaki mafi girman gonar mangoro a kasar wanda ya sa aka san shi da Baba Mai Mangoro (BMM). [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 91,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 3,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::3",
+        "segmentText": "Nyako entered politics in 2006. He was elected Governor of Adamawa State in April 2007.[1] In February 2008 the Election Petition Appeal Tribunal annulled his election, alleging electoral malpractices. The House Speaker James Barka was sworn in as Acting Governor on 26 February 2008.[4][5]",
+        "targets": [
+          {
+            "_itemAll": 182,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nyako ya shiga siyasa a shekara ta 2006. An zabe shi gwamnan jihar Adamawa a watan Afrilun 2007. [1] Kotun daukaka karar a watan Fabrairun 2008, Kotun daukaka karar ta soke zabensa, zargin da cewa ya tafka magudi. An rantsar da kakakin majalisar wakilai Yakubu Barka a matsayin mukaddashin Gwamna a ranar 26 ga Fabrairu 2008. [2] [3]"
+          },
+          {
+            "_itemAll": 183,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Nyako ya shiga siyasa a shekara ta 2006. An zabe shi gwamnan jihar Adamawa a watan Afrilun 2007. [1] Kotun daukaka karar a watan Fabrairun 2008, Kotun daukaka karar ta soke zabensa,saboda zargin sa da cewa ya tafka magudi. An rantsar da kakakin majalisar wakilai Yakubu Barka a matsayin mukaddashin Gwamna a ranar 26 ga Fabrairu 2008. [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 92,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 4,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::4",
+        "segmentText": "A fresh election was run, and Nyako was reelected with a landslide victory taking all 21 Local Government Areas, resuming office on 29 April 2008.[6] Soon after, the House initiated moves to impeach Nyako, but was dissuaded after the personal intervention of President Umaru Yar'Adua.[7] The relationship improved, and in March 2010 the Adamawa State House of Assembly passed a vote of confidence in Governor Nyako, describing him as a \"messiah\" to the people of the state.[8] In 2012 after the Governor's first tenure, he ran for a second term and was once again re-elected. [9]",
+        "targets": [
+          {
+            "_itemAll": 184,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "An gudanar da sabon zaben, kuma an sake zaben Nyako tare da nasarar babban nasara a dukkanin kananan hukumomin 21, da aka fara aiki a ranar 29 ga Afrilun 2008. [1] Nan ba da jimawa ba, majalisar ta fara daukar matakan tsige Nyako, amma aka soke ta bayan sa hannun Shugaba Umaru Yar'Adua . [2] Dangantaka ta inganta, kuma a watan Maris na 2010 majalisar dokokin jihar Adamawa ta kada kuri'ar amincewa da gwamna Nyako, yana mai bayyana shi a matsayin \"almasihu\" ga jama'ar jihar. [3] A shekarar 2012 bayan kammala wa’adin mulkin Gwamna na farko, ya sake tsayawa takara a karo na biyu kuma aka sake zabensa. [4]"
+          },
+          {
+            "_itemAll": 185,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "An gudanar da sabon zabe, kuma an sake zaban Nyako tare da nasara mai suna babban nasara a dukkanin kananan hukumomin 21, da aka fara aiki a ranar 29 ga Afrilun 2008. [1] Nan ba da jimawa ba, majalisar ta fara daukar matakan tsige Nyako, amma aka soke ta bayan sa hannun Shugaba Umaru Yar'Adua . [2] Dangantaka ta inganta, kuma a watan Maris na 2010 majalisar dokokin jihar Adamawa ta kada kuri'ar amincewa da gwamna Nyako, yana mai bayyana shi a matsayin \"almasihu\" ga jama'ar jihar. [3] A shekarar 2012 bayan kammala wa’adin mulkin sa na Gwamna na farko, ya sake tsayawa takara a karo na biyu kuma aka sake zabensa. [4]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 93,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 5,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::5",
+        "segmentText": "Accolades",
+        "targets": [
+          {
+            "_itemAll": 186,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Accolades"
+          },
+          {
+            "_itemAll": 187,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Matsayi mai daraja"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 94,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 6,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::6",
+        "segmentText": "Nyako has been a recipient of an honorary Doctorate Degree of Agriculture from the Federal University of Agriculture, Abeokuta; University of Technology Minna, (2008); University of Technology, Yola (2009) and the National Awards of Commander of Federal Republic (CFR) in 1993, Grand Commander of the Niger (GCON) in 1999 and another Commander of the Federal Republic (CFR) in 2002.[11]",
+        "targets": [
+          {
+            "_itemAll": 188,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Nyako ya karɓi digirin digirgir na girmamawa na digiri na digiri na digiri na digiri na uku daga jami'ar aikin gona ta tarayya, Abeokuta ; Jami'ar Fasaha Minna, (2008); Jami'ar Fasaha, Yola (2009) da Babban lambar yabo ta Kwamandan Tarayya (CFR) a cikin 1993, Babban Kwamandan Neja (GCON) a 1999 da wani Kwamandan Tarayya (CFR) a 2002. [1]"
+          },
+          {
+            "_itemAll": 189,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Nyako ya karɓi digirin digirgir na girmamawa na digiri na uku daga jami'ar aikin gona ta tarayya, Abeokuta ; Jami'ar Fasaha Minna, (2008); Jami'ar Fasaha, Yola (2009) da Babban lambar yabo ta Kwamandan Tarayya (CFR) a cikin 1993, Babban Kwamandan Neja (GCON) a 1999 da wani Kwamandan Tarayya (CFR) a 2002. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 95,
+        "documentID": "748364",
+        "isCompleteDocument": false,
+        "itemID": 7,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748364::7",
+        "segmentText": "Post Naval Career and Agricultural Activities",
+        "targets": [
+          {
+            "_itemAll": 190,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Ayyukan Naval Post da Ayyukan Noma"
+          },
+          {
+            "_itemAll": 191,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Ayyukan sa a matsayin shi na sojan ruwa da Ayyukan Noma"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 96,
+        "documentID": "748813",
+        "isCompleteDocument": false,
+        "itemID": 8,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748813::8",
+        "segmentText": "Idris Alooma, Idris ibn 'Ali (Alooma), or Idriss Alaoma, (r. 1570–1602/03 or 1580-1617)[1][2][3][4] was Mai (king) of the Kanem-Bornu Empire, located mainly in Chad, Cameroon, Niger and Nigeria. His name is more properly written Idris Alawma or Idris Alauma.[5] An outstanding statesman, under his rule Kanem-Bornu touched the zenith of its power. Idris is remembered for his military skills, administrative reforms and Islamic piety. His feats are mainly known through his chronicler Ahmad bin Fartuwa.[6]",
+        "targets": [
+          {
+            "_itemAll": 192,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Idris Alooma, Idris ibn 'Ali (Alooma), ko Idriss Alaoma, (r. 1570-1602 / 03 ko 1580-1617) [1] [2] [3] [4] shi ne Mai (sarki) na Kanem-Bornu Daular, wacce aka fi sani da Chadi, Kamaru, Nijar da Najeriya . An rubuta sunansa daidai yadda ya dace Idris Alawma ko Idris Alauma . [5] Wani fitaccen shugaba, a karkashin mulkinsa Kanem-Bornu ya taba karfin ikonta. An tuna da Idris saboda kwarewar soji, sake fasalin gudanarwa da kuma ibada ta Musulunci . Ya feats ne, yafi sani, ta hanyar da tarihin Ahmad bin Fartuwa . [6]"
+          },
+          {
+            "_itemAll": 193,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Idris Alooma, Idris dan 'Ali (Alooma), ko Idriss Alaoma, (r. 1570-1602 / 03 ko 1580-1617) [1] [2] [3] [4] shi ne Mai (sarki) na Daular Kanem-Bornu, wacce aka fi sani da Chadi, Kamaru, Nijar da Najeriya . An rubuta sunansa daidai yadda ya dace Idris Alawma ko Idris Alauma . [5] Wani fitaccen shugaba ne, a karkashin mulkinsa Kanem-Bornu ta bunkasa har ta taba makuran karfin ikon ta. An tuna da Idris ne saboda kwarewarsa da shi da sojojin sai, sake fasalin gudanarwa da kuma ibada ta Musulunci . An kuma san shi a cikin babban yakoki ne na tarihin Ahmad bin Fartuwa . [6]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 97,
+        "documentID": "748813",
+        "isCompleteDocument": false,
+        "itemID": 9,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748813::9",
+        "segmentText": "Bibliography",
+        "targets": [
+          {
+            "_itemAll": 194,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Bibliography"
+          },
+          {
+            "_itemAll": 195,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Tarihin rayuwa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 98,
+        "documentID": "748813",
+        "isCompleteDocument": false,
+        "itemID": 10,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748813::10",
+        "segmentText": "External links",
+        "targets": [
+          {
+            "_itemAll": 196,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Hanyoyin haɗin waje"
+          },
+          {
+            "_itemAll": 197,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Diddigin bayanai na waje"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 99,
+        "documentID": "748813",
+        "isCompleteDocument": false,
+        "itemID": 0,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748813::0",
+        "segmentText": "\"A Country Study: Chad\". Library of Congress Country Studies. 1990.",
+        "targets": [
+          {
+            "_itemAll": 198,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "\"A Country Study: Chad\". Library of Congress Country Studies. 1990."
+          },
+          {
+            "_itemAll": 199,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "A country chad .Library of Congress Country Studies. 1990"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": -1,
+        "_item": 100,
+        "documentID": "748813",
+        "isCompleteDocument": true,
+        "itemID": 1,
+        "itemType": "TGT",
+        "segmentContextLeft": "",
+        "segmentID": "example.tsv::748813::1",
+        "segmentText": "His main adversaries were the Hausa to the west, the Tuareg and Toubou to the north, and the Bulala to the east. One epic poem extols his victories in 330 wars and more than 1,000 battles. His innovations included the employment of fixed military camps with walls, permanent sieges and scorched earth tactics where soldiers burned everything in their path, armored horses and riders as well as the use of Berber camelry, Kotoko boatmen, and iron-helmeted musketeers trained by Ottoman military advisers. His active diplomacy featured relations with Tripoli, Egypt, and the Ottoman Empire, which sent a 200-member ambassadorial party across the desert to Alooma's court at Ngazargamu. Alooma also signed what was probably the first written treaty or ceasefire in Chadian history.",
+        "targets": [
+          {
+            "_itemAll": 200,
+            "_target": 0,
+            "targetContextLeft": "",
+            "targetID": "system-B",
+            "targetText": "Babban magabatansa sune Hausawa zuwa yamma, Tuareg da Toubou a arewa, da Bulala zuwa gabas. Daya almara waka extols cin nasarar yaki a 330 yaƙe-yaƙe da fiye da 1,000 fadace-fadace. Ya sababbin abubuwa hada da aiki na gyarawa sansanonin soja da ganuwar, m sieges da babbake duniya dabara inda sojoji ƙone dukan abin da a cikin hanyar, sulke da dawakai da mahayansu, kazalika da yin amfani da Berber camelry, Kotoko boatmen, da na baƙin ƙarfe-helmeted musketeers horar da Ottoman sojoji masu ba da shawara. Ya aiki diflomasiyyar featured dangantakar da Tripoli, Misira, da kuma Ottoman Empire, wanda ya aiko da wani 200-memba ambassadorial jam'iyyar fadin hamada zuwa Alooma ta kotu a Ngazargamu . Alooma kuma sanya hannu abin da ya yiwuwa na farko da aka rubuta yarjejeniya ko tsagaita bude wuta a kasar Chadi tarihi."
+          },
+          {
+            "_itemAll": 201,
+            "_target": 1,
+            "targetContextLeft": "",
+            "targetID": "system-A",
+            "targetText": "Manyan masu bashi shawaara sune Hausawa daga yamma, Tuareg da Toubou a arewa, da Bulala a gabashi. A daya daga cikin almaran wakan da'aka ruwaito, an ruwaito cin nasarar sa mai suna cin nasarar yaki har sau 330 a yaƙe-yaƙe dayayi fiye da 1,000 da kuma fadace-fadace. Ya samar da abubuwa dayawa a fannin yaki, wadanda suka hada da samar da zaunan nan sansanonin sojoji da yin aiki da kawar da koma miye, ya kuma samar da dawakai masu linzami da mahayan su, da kuma samar da mayakan rakuma,da sojojin jirgin ruwa Kotoko kai harma da bindigun karfe.kuma dukkan sojojin sa an basu horo daga sojoji masu bada shawara na daular Ottoman. Tsarin mulkin siyasar sa yasa ya samu alaka mai kyau tsakaninshi daTripoli, Misira, da kuma daular Ottoman, wanda ya haka yasa shi tura jakadu 200 zuwa sassan fadin hamada izuwa kotun sa dake Ngazargamu . Alooma kuma ya sanya hannu a wata takardar yarjejeniya ko kuma takardar daina yaki a tarihin chadi."
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 100,
+      "randomSeed": 1111,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "hau"
+    }
+  }
+]
