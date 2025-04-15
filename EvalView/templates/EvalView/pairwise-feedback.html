@@ -1,0 +1,33 @@
+{% extends "Dashboard/base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Thank You for Completing the Evaluation</h2>
+      <p>We would appreciate your feedback on this task.</p>
+
+      <form method="POST" action="{% url 'pairwise-feedback-submit' %}">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="overallExperience">How would you rate your overall experience?</label>
+          <select id="overallExperience" name="overallExperience" class="form-control">
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Below Average</option>
+            <option value="1">Poor</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="feedbackComments">Additional Comments:</label>
+          <textarea id="feedbackComments" name="feedbackComments" rows="4" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

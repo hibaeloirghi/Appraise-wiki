@@ -300,6 +300,50 @@ function match_sliders()
   </table>
 </div>
 
+<div class="form-group mt-4">
+  <p> </p>
+  <p> </p>
+  <p style="color: blue; font-style: italic; font-size: larger;">Please select one or more options below to explain the difference between the two translations above and share any additional thoughts.</p>
+  
+  <!-- Multiple Choice Checkboxes -->
+  <div id="choices">
+    <label>
+      <input type="checkbox" name="selected_choices" value="Option1"> The highest rated translation sounds better
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Option2"> The highest rated translation adds more context for the reader
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Option3"> No meaningful difference in content or style
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Other" id="other-checkbox"> Other
+    </label>
+  </div>
+</div>
+
+
+  <!-- Free Text Box for 'Other' -->
+  <div id="other-text-box" style="display: none; margin-top: 10px;">
+    <label for="OtherText">Please specify:</label>
+    <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please record your thoughts here..."></textarea>
+  </div>
+</div>
+
+<script>
+  // Show/hide 'Other' text box based on checkbox selection
+  document.getElementById('other-checkbox').addEventListener('change', function() {
+    const otherTextBox = document.getElementById('other-text-box');
+    if (this.checked) {
+      otherTextBox.style.display = 'block';
+    } else {
+      otherTextBox.style.display = 'none';
+      document.getElementById('OtherText').value = ''; // Clear input when hidden
+    }
+  });
+</script>
+
+
 {% if sqm %}
 <br/>
 <div class="question-box">

@@ -673,7 +673,7 @@ if __name__ == "__main__":
 
     print(f'Quality control={CONTROLS}')
     if not CONTROLS or TGT_LANG == 'sgg':  # no BAD refs if the target size has videos
-        REQUIRED_SEGS = 100
+        REQUIRED_SEGS = 50
     else:
         REQUIRED_SEGS = 80
     print(f'Setting REQUIRED_SEGS={REQUIRED_SEGS}')
