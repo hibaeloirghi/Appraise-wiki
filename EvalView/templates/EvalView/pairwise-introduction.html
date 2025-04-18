@@ -8,60 +8,90 @@
       <p>You will evaluate translations by comparing them to the source text. Please follow the instructions carefully.</p>
       <ol>
         <li>Read the source text carefully.</li>
-        <li>Evaluate both candidate translations using the sliders.</li>
-        <li>Provide feedback if needed.</li>
+        <li>Read the two candidate translation texts carefully.</li>
+        <li>Select the best translation.</li>
+        <li>Explain your choice.</li>
       </ol>
 
-      <!-- Wikipedia Contribution Question -->
-      <div class="form-group mt-4">
-        <label for="wikipedia_contributions"><strong>How do you contribute to Wikipedia?</strong></label>
-        <p class="text-muted">Check all that apply.</p>
-        
-        <div id="wikipedia_contributions">
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="create_pages"> I create new pages</label></div>
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="edit_pages"> I edit existing pages</label></div>
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="translate_content"> I translate existing content into new languages</label></div>
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="create_content"> I create content from scratch in my language(s)</label></div>
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="engage_discussions"> I engage in discussions with other editors</label></div>
-          <div><label><input type="checkbox" name="wikipedia_contributions" value="organize_activities"> I organize community activities</label></div>
-          <div>
-            <label><input type="checkbox" name="wikipedia_contributions" value="other" id="other_wikipedia_contribution"> Other</label>
-            <input type="text" name="other_wikipedia_contribution_text" id="other_wikipedia_contribution_text" class="form-control mt-2" style="display:none;" placeholder="Please specify...">
+      <form method="post" onsubmit="return validate_wikipedia_familiarity();">
+        {% csrf_token %}
+
+        <!-- Wikipedia Contribution Question -->
+        <div class="form-group mt-4">
+          <label for="wikipedia_familiarity"><strong>How familiar are you with Wikipedia?</strong></label>
+          <p class="text-muted">Check all that apply.</p>
+
+          <div id="wikipedia_familiarity">
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="no_familiarity"> I have never visited the Wikipedia website</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="occasionally_visit_pages"> I have read 1-5 articles on the Wikipedia website </label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="regularly_visit_pages"> I regularly visit the Wikipedia to read</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_pages"> I create new pages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="edit_pages"> I edit existing pages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="translate_content"> I translate existing content into new languages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_content"> I create content from scratch in my language(s)</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="engage_discussions"> I engage in discussions with other editors</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="organize_activities"> I organize community activities</label></div>
+            <div>
+              <label><input type="checkbox" name="wikipedia_familiarity" value="other" id="other_wikipedia_familiarity"> Other</label>
+              <input type="text" name="other_wikipedia_familiarity_text" id="other_wikipedia_familiarity_text" class="form-control mt-2" style="display:none;" placeholder="Please specify...">
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Wikipedia Duration Question -->
-      <div class="form-group mt-4">
-        <label for="wikipedia_duration"><strong>How long have you contributed to Wikipedia?</strong></label>
-        
-        <div id="wikipedia_duration">
-          <div><label><input type="radio" name="wikipedia_duration" value="<1_month"> Less than 1 month</label></div>
-          <div><label><input type="radio" name="wikipedia_duration" value="<6_months"> 1 to 6 months</label></div>
-          <div><label><input type="radio" name="wikipedia_duration" value="<1_year"> 6 months to 1 year</label></div>
-          <div><label><input type="radio" name="wikipedia_duration" value=""> More than 1 year</label></div>
+        <!-- Wikipedia Duration Question -->
+        <div class="form-group mt-4">
+          <label for="fluency_in_target_language"><strong>How would you rate your fluency in the target language?</strong></label>
+          <div id="fluency_in_target_language">
+            <div><label><input type="radio" name="fluency_in_target_language" value="<elementary"> Elementary proficiency</label></div>
+            <div><label><input type="radio" name="fluency_in_target_language" value="<professional"> Professional working proficiency</label></div>
+            <div><label><input type="radio" name="fluency_in_target_language" value="<native"> Native or bilingual proficiency</label></div>
+          </div>
         </div>
-      </div>
 
-      <!-- Start Evaluation Button -->
-      <div class="text-center mt-4">
-        <a href="{% url 'pairwise-assessment' %}" class="btn btn-primary btn-lg">Start Evaluation</a>
-      </div>
+        <!-- Start Evaluation Button -->
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-primary btn-lg">Start Evaluation</button>
+        </div>
+      </form>
     </div>
   </div>
 </div>
 
 <script>
-  // Show/hide the "Other" text field when checkbox is clicked
-  document.getElementById('other_wikipedia_contribution').addEventListener('change', function() {
-    const otherTextField = document.getElementById('other_wikipedia_contribution_text');
-    otherTextField.style.display = this.checked ? 'block' : 'none';
+  // Toggle the "Other" text box for Wikipedia familiarity
+  document.getElementById('other_wikipedia_familiarity').addEventListener('change', function () {
+    const otherField = document.getElementById('other_wikipedia_familiarity_text');
+    otherField.style.display = this.checked ? 'block' : 'none';
     if (!this.checked) {
-      otherTextField.value = '';
+      otherField.value = '';
     }
   });
+
+  function validate_wikipedia_familiarity() {
+    const checkboxes = document.querySelectorAll('input[name="wikipedia_familiarity"]');
+    const otherBox = document.getElementById('other_wikipedia_familiarity');
+    const otherText = document.getElementById('other_wikipedia_familiarity_text');
+    let checked = false;
+
+    for (const cb of checkboxes) {
+      if (cb.checked) {
+        checked = true;
+        break;
+      }
+    }
+
+    if (!checked) {
+      alert('Please select at least one option describing your Wikipedia familiarity.');
+      return false;
+    }
+
+    if (otherBox.checked && otherText.value.trim() === "") {
+      alert('Please fill in the "Other" field for Wikipedia familiarity.');
+      return false;
+    }
+
+    return true;
+  }
 </script>
 
 {% endblock %}
-
-

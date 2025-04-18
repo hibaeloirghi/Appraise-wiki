@@ -1,0 +1,1166 @@
+[
+  {
+    "items": [
+      {
+        "_block": 0,
+        "_item": 0,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1467524/4",
+        "sourceText": "Chicken suya with jollof rice and plantains",
+        "targets": [
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Chicken suya na jo osikapa na aabrika ebere ehe abr"
+          },
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Chicken suya na jollof rice na plantain"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 1,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1082369/5",
+        "sourceText": "Africa Movie Academy Awards",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Afrika Movie Academy Awards"
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Awọdụ nke Afrika Moovi Akadei"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 2,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1646708/7",
+        "sourceText": "1 2 \"Soutenance de Thèse de Fatima El Faquir sur les athlètes marocaines\". L-VIS (in French). 8 October 2017. Retrieved 21 May 2019. ↑ Evans, Hilary; Gjerde, Arild; Heijmans, Jeroen; Mallon, Bill; et al. \"Fatima El-Faquir Olympic Results\". Olympics at Sports-Reference.com. Sports Reference LLC. Archived from the original on 18 April 2020. Retrieved 2 July 2017. 1 2 Benn, Tansin; Pfister, Gertrud; Jawad, Haifaa (2011). Muslim Women and Sport. London: Routledge. ISBN 978-0415490764. ↑ Magharebia.com (May 2005). \"La confédération africaine d'athlétisme nomme Fatima El Faquir présidente de la région Afrique du Nord\". archive.wikiwix.com. Archived from the original on 24 February 2011. Retrieved 21 May 2019. ↑ MATIN, LE. \"Le Matin - Ancienne athlète, Fatima El Faquir à la tête de l'ANSF\". Le Matin (in French). Retrieved 21 May 2019.",
+        "targets": [
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "1 2 ↑ 1 2 ↑ ↑  "
+          },
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 3,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1459347/5",
+        "sourceText": "She voiced Gabby Gabby in the Japanese dub of Toy Story 4.",
+        "targets": [
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọ gụpụtara Gabby Gabby na Japanese dub of Toy akụkọ nke anọ ."
+          },
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ọ kwupụtara Gabby Gabby na Japanese dub of Toy Story 4 ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 4,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2100132/0",
+        "sourceText": "The She Spot Author Lisa Witter and Lisa Chen Country United States Language English Genre Non-fiction Publisher Berrett-Koehler Publishers Publication date June 1, 2008 Media type Print (Hardback) Pages 288 ISBN 978-1-57675-472-6 OCLC 213222933 Dewey Decimal 658.8/34082 22 LC Class HF5415.332.W66 W577 2008",
+        "targets": [
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": " The She Spot"
+          },
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 5,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1583590/9",
+        "sourceText": "ARTICULO 218. La Constitución, salvo lo que en materia de votación ella dispone en otros artículos, sólo podrá ser reformada por un Acto Legislativo, discutido primeramente y aprobado por el Congreso en sus sesiones ordinarias; publicado por el Gobierno, para su examen definitivo en la siguiente legislatura ordinaria; por ésta nuevamente debatido, y, últimamente, aprobado por la mayoría absoluta de los individuos que componen cada Cámara. Si el Gobierno no publicare oportunamente el proyecto de Acto Legislativo, lo hará el Presidente del Congreso. ARTICLE 218. The Constitution, [...] may only be amended by a Legislative Act, first discussed and adopted by Congress in its regular sessions; published by the Government, for final consideration at the next regular legislative session; by it again debated, and ultimately approved by the absolute majority of the individuals which compose each House. If the Government does not promptly publish the draft legislative act, the President of Congress will do so.[8]",
+        "targets": [
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          },
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": " ARTICUL 218 la"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 6,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1090504/12",
+        "sourceText": "Sources",
+        "targets": [
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isi mmalite"
+          },
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ébém si de"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 7,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1632959/30",
+        "sourceText": "Singles featured in",
+        "targets": [
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndị na-alụbeghị di na nwunye gosipụtara na"
+          },
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ndị dị otú ogosipụtara na"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 8,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1528769/3",
+        "sourceText": "Here is the list of secondary schools in Onitsha North Local Government Area:",
+        "targets": [
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nke a bụ ndepụta ụlọ akwụkwọ sekọndrị dị n'okpuru ọchịchị Onitsha North:"
+          },
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Nke a bu otutu ulo akwuko skeondri di na ochichi one obodo onisha North"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 9,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1801342/13",
+        "sourceText": "Television series",
+        "targets": [
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Usoro ihe nkiri igwe onyonyo"
+          },
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Usoro ihe nkiri telivishọn"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 10,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1634051/32",
+        "sourceText": "Mixtapes and Remix Albums",
+        "targets": [
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngwakorita egwu na Egwu ndi akughariri"
+          },
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mixtapes na Remix Albums"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 11,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1045502/6",
+        "sourceText": "Awards and Accolades",
+        "targets": [
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Onyinye na Accolades"
+          },
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Onyinye na Nturu ugo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 12,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1626261/11",
+        "sourceText": "The Chief: He Who Sold Africa To The Colonists",
+        "targets": [
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "The Chief: He Who Sold Africa Colonists"
+          },
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Onye isi: Onye rere Afrịka nye ndị Colonists"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 13,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1615051/12",
+        "sourceText": "↑ \"Jacob Daniel WIESE - Personal Appointments (free information from Companies House)\". beta.companieshouse.gov.uk. Retrieved 4 September 2017. 1 2 \"Jacob Wiese throws wedding of the year\". channel24.co.za. Retrieved 4 September 2017. 1 2 \"Leadership Team - New Look\". www.newlookgroup.com. Retrieved 4 September 2017. ↑ \"South African magnate with thirst for the UK high street\". telegraph.co.uk. Retrieved 4 September 2017. ↑ \"Shanna Jones · TY AND JACOB, PRIVATE HOME, BANTRY BAY, CAPE TOWN\". www.shannajones.com. Retrieved 4 September 2017.",
+        "targets": [
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "↑ 1 2 1 2 ↑ ↑  "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 14,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2101920/19",
+        "sourceText": "Victims",
+        "targets": [
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ndị ihe metụtara"
+          },
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndị e gburu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 15,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1751202/32",
+        "sourceText": "Beckett, Emma (2014). \"Bitter Taste Genetics – the Relationship to Tasting, Liking, Consumption and Health\". Food & Function. 5 (12): 3040–54. doi:10.1039/C4FO00539B. hdl:1959.13/1298053. PMID 25286017. Boxer, E.E.; Garneau, N.L. (2015). \"Rare haplotypes of the gene TAS2R38 confer bitter taste sensitivity in humans\". SpringerPlus. 4: 505. doi:10.1186/s40064-015-1277-z. PMC 4574037. PMID 26405625. Bufe, B. (2005). \"The Molecular Basis of Individual Differences in Phenylthiocarbamide and Propylthiouracil Bitterness Perception\". Current Biology. 15 (4): 322–7. doi:10.1016/j.cub.2005.01.047. PMC 1400547. PMID 15723792. Calancie, Larissa; et al. (2018). \"TAS2R38 Predisposition to Bitter Taste Associated with Differential Changes in Vegetable Intake in Response to a Community-Based Dietary Intervention\". G3: Genes, Genomes, Genetics. 8 (6): 2107–2119. doi:10.1534/g3.118.300547. PMC 5982837. PMID 29686110. Duffy, V.B.; et al. (2010). \"Vegetable Intake in College-Aged Adults Is Explained by Oral Sensory Phenotypes and TAS2R38 Genotype\". Chemosensory Perception. 3 (3–4): 137–148. doi:10.1007/s12078-010-9079-8. PMC 3000691. PMID 21157576. Wieczorek, Martyna.; et al. (2018). \"Bitter Taste of Brassica Vegetables: The Role of Genetic Factors, Receptors, Isothiocyanates, Glucosinolates, and Flavor Context\". Critical Reviews in Food Science and Nutrition. 58 (18): 3130–3140. doi:10.1080/10408398.2017.1353478. PMID 28718657. S2CID 28896102. Rozengurt, E. \"Taste Receptors in the Gastrointestinal Tract. I. Bitter taste receptors and α-gustducin in the mammalian gut\". Am. J. Physiol. Gastrointest. Liver Physiol. 7: 171–177. Roura, Eugeni; et al. (21 May 2015). \"Variability in Human Bitter Taste Sensitivity to Chemically Diverse Compounds Can Be Accounted for by Differential TAS2R Activation\". Chemical Senses. 40 (6): 427–35. doi:10.1093/chemse/bjv024. PMID 25999325. Risso, David; et al. (27 June 2016). \"Erratum: Corrigendum: Global Diversity in the TAS2R38 Bitter Taste Receptor: Revisiting a Classic Evolutionary PROPosal\". Scientific Reports. 6: 28406. doi:10.1038/srep28406. PMC 4921822. PMID 27346370. Mennella, Vito; et al. (20 February 2005). \"Functionally Distinct Kinesin-13 Family Members Cooperate to Regulate Microtubule Dynamics during Interphase\". Nature Cell Biology. 7 (3): 235–45. doi:10.1038/ncb1222. PMID 15723056. S2CID 6501199. Kim, U.K.; et al. (2005). \"Genetics of individual differences in bitter taste perception: lessons from the PTC gene\". Clin. Genet. 67 (4): 275–80. doi:10.1111/j.1399-0004.2004.00361.x. PMID 15733260. S2CID 1639438. Kim, U.K.; et al. (2004). \"Genetics of Human Taste Perception\". J. Dent. Res. 83 (6): 448–53. doi:10.1177/154405910408300603. PMID 15153450. S2CID 8801457. Khataan, Nora H.; et al. (2009). \"TAS2R38 Genotypes and Phenylthiocarbamide Bitter Taste Perception in a Population of Young Adults\". Journal of Nutrigenetics and Nutrigenomics. 2 (4–5): 251–6. doi:10.1159/000297217. PMID 20484932. S2CID 45496712. Genick, U.K.; et al. (2011). \"Sensitivity of genome-wide-association signals to phenotyping strategy: the PROP-TAS2R38 taste association as a benchmark\". PLOS ONE. 6 (11): e27745. Bibcode:2011PLoSO...627745G. doi:10.1371/journal.pone.0027745. PMC 3223210. PMID 22132133.",
+        "targets": [
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "                           "
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọgụgụ ọzọ                            "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 16,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1791257/0",
+        "sourceText": "Souad Abderrahim Mayor of Tunis Incumbent Assumed office July 3, 2018 Preceded by Seifallah Lasram Personal details Political party Ennahda Movement",
+        "targets": [
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Good x "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 17,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2104455/4",
+        "sourceText": "The Elephant, The Hippopotamus, and The Spider",
+        "targets": [
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Elephant, Hippopotamus, na Spider"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Enyi, Enyi Mmiri, na Ududo."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 18,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1527950/8",
+        "sourceText": "Participants",
+        "targets": [
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ndị na-esonye"
+          },
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndị sonyere"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 19,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1540554/14",
+        "sourceText": "As of 9 September 2008",
+        "targets": [
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Dị ka 9 Septemba 2008 Dị ka 9 Septemba 2008"
+          },
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Dị ka 9 Septemba 2008"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 20,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1546812/8",
+        "sourceText": "Tokkelspel, Tafelberg, 1972, ISBN 978-0-624-00086-0",
+        "targets": [
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tokkelspel, Tafelberg, 1972, "
+          },
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tokkelspel, Tafelberg, na afo 1972, "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 21,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1781933/9",
+        "sourceText": "Lamberti divides Northern Somali into three subgroups:[13]",
+        "targets": [
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Lamberti kewara Northern Somali n'ime obere obere atọ[1]"
+          },
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Lamberti kewara Northern Somali n'ime obere ìgwè atọ:[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 22,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1526761/3",
+        "sourceText": "She is a member of the Nigerian national team, and took part in the 2008 Summer Olympics and the 2011 World Cup.[2]",
+        "targets": [
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ọ bụ onye otu mba Naijiria, wee soro na asọmpi olimpik nke afọ 2008 na iko mba ụwa 2011 . [1]"
+          },
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọ bụ onye ou mba Naijiria, wee soro na asọmpi olimpik nke afpụkụ abụọ na asatọ n na iko mba ụwpụkụ abụọ na iri na otu11 . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 23,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1546537/15",
+        "sourceText": "Film and television",
+        "targets": [
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihe nkiri na telivishọn"
+          },
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ihe nkiri na onyonyo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 24,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1561641/8",
+        "sourceText": "Before joining Equity Bank in 2004, Mary was a Partner in the law firm of Mary Wangari & Company Advocates, which she had founded and led for 13 years.[1]",
+        "targets": [
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tupu ịbanye na Equity Bank na 2004, Mary bụ onye mmekọ na ụlọ ọrụ iwu nke Mary Wangari & Company Advocates, nke ọ tọrọ ntọala ma duru maka afọ 13. [1]"
+          },
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tupu ọbanye na Equity Bank na 2004, Mary bụ onye mmekọ na ụlọ ọrụ iwu nke Mary Wangari & Company Advocates, nke ọji aka yá malite wéré chia ya rụọ afọ irí na ịtọ. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 25,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2084969/64",
+        "sourceText": "Gulf of Tadjoura Ghoubbet-el-Kharab",
+        "targets": [
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nkwupụta ụgbọ mmiri"
+          },
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọwara Oké Osimiri Tadjoura Ghoubbet-el-Kharab"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 26,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1046877/31",
+        "sourceText": "• Coffee Colored Children (1988)",
+        "targets": [
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "• Kọfị Na-acha Childrenmụaka (1988)"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "• Coffee Coloured Children (1988)"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 27,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1688639/8",
+        "sourceText": "Dinner",
+        "targets": [
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nri Nri"
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Nri Abalị"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 28,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1755710/11",
+        "sourceText": "1991, 2000.",
+        "targets": [
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "1991, 2000"
+          },
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "[Ihe e dere n'ala ala peeji]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 29,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2129688/8",
+        "sourceText": "Chief executives",
+        "targets": [
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndị isi"
+          },
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ndị isi oche"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 30,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1091895/5",
+        "sourceText": "Lost to Georgi Kandelaki (Georgia) on points",
+        "targets": [
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Echefuola na Georgi Kandelaki (Georgia) na isi"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Georgi Kandelaki (Georgia) ji ọnụọgụ merie"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 31,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1634671/49",
+        "sourceText": "References/notes",
+        "targets": [
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndetu / ndetu"
+          },
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Edensibia/ ndetu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 32,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2084969/47",
+        "sourceText": "Lake Assal is the lowest point in Africa.",
+        "targets": [
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihe onwunwe na ojiji ala"
+          },
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọdọ Mmiri Assal bụ ebe kachasị ala n'Afrika"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 33,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1079210/0",
+        "sourceText": "Bola Agbaje FRSL is a playwright of Nigerian origin.[1]",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Bola Agbaje FRSL bụ a na-ede nke Nigerian malite. [1]"
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bola Agbaje FRSL bụ nwafọ Naijiria na-ede ihe nkiri. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 34,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1087623/3",
+        "sourceText": "Okafor was born in Umuahia.[2] In 2002 she attended a fine arts course at the University of Nigeria and in 2007, at the same University, held a master's degree in sculpture and curatorial practice.[3]",
+        "targets": [
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Amụrụ Okafor na Umuahia . [1] N'afọ 2002 ọ gụrụ maka nka na Mahadum nke Naijirịa na 2007, n'otu Mahadum a, ọ nwetere nzere masta na ngalaba nka . [2]"
+          },
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amuru Okafor na Umuahia . [1] N'afọ 2002 ọ gara nka mara mma na Mahadum nke Nigeria na 2007, n'otu Mahadum, nwere nzere nzere masta na nka na nka. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 35,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1089815/2",
+        "sourceText": "Miss Universe 1995",
+        "targets": [
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Eluigwe na ala 1995"
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Miss universe 1995"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 36,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2089895/48",
+        "sourceText": "He lives and works in Lagos, Nigeria.",
+        "targets": [
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọ bi ma na-arụ ọrụ na Lagos, Nigeria."
+          },
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihe odide"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 37,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "640007/29",
+        "sourceText": "Chieftaincy Title",
+        "targets": [
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isi nke isi"
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Echichi Eze"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 38,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1091295/7",
+        "sourceText": "The Essential Bridal Handbook[9]",
+        "targets": [
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "The Essential Bridal Handbook [1]"
+          },
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Akwụkwọ Mkpa Agbamakwụkwọ Dị Mkpa [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 39,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1092184/7",
+        "sourceText": "Entrepreneurial Challenges",
+        "targets": [
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Akamgba Nchụso Azụmaahịa"
+          },
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Llema Aka Entma Aka"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 40,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1550657/3",
+        "sourceText": "↑ Oluwaseun Adegbola joined Isloch",
+        "targets": [
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "  ↑ Oluwaseun Adegbola joined Isloch"
+          },
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": " "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 41,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1623701/8",
+        "sourceText": "Awards and Distinctions",
+        "targets": [
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ihe nrite na nkwanye ugwu"
+          },
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihe nrite na ihe nrite"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 42,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1546587/13",
+        "sourceText": "Official website Official website van Eeden, Janet. \"Author of Dancing in the Shadows of Love, Judy Croome, in conversation with Janet van Eeden\". LitNet. Retrieved 2014-05-06.",
+        "targets": [
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Webụsaịtị gọọmentị Official website  "
+          },
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Official website Official website  "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 43,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1626013/14",
+        "sourceText": "References and notes",
+        "targets": [
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ndetu na ndetu"
+          },
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ebensidee na ndetu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 44,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2069797/9",
+        "sourceText": "Bulley won a 2018 Eric Gregory Award.[12]",
+        "targets": [
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bulley meriri Eric Gregory Award nke afọ 2018.[1]"
+          },
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Bulley meriri 2018 Eric Gregory Award.[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 45,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1088633/12",
+        "sourceText": "Endorsement deal",
+        "targets": [
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Nkwado ụlọ ahịa"
+          },
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nkwado Nkwado"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 46,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2038820/14",
+        "sourceText": "Projections models show that[7]",
+        "targets": [
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Amụma ihe nlere anya na-egosi na[1]"
+          },
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihe ngosi ngosi na-egosi na[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 47,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2088306/5",
+        "sourceText": "Health & Well-being",
+        "targets": [
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ahụike na ịdị mma"
+          },
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ahụike & Ahụike"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 48,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "618794/9",
+        "sourceText": "as of January 31, 2019[update][1]",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "dị ka nke January [1]"
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "na Jenụwari 31, 2019 [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 49,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1755496/8",
+        "sourceText": "Festival objective and purpose",
+        "targets": [
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ebumnuche nke ememe a"
+          },
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ebumnuche na ebumnuche ememme"
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 5,
+      "contrastiveOutputs": 2,
+      "contrastiveSelectionMethod": "sampling (x10)",
+      "randomSeed": 123456,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "ibo"
+    }
+  }
+]

@@ -457,14 +457,8 @@ class DirectAssessmentDocumentTask(BaseMetadata):
                 new_items.append(new_item)
                 if item['isCompleteDocument']:
                     doc_items += 1
-
-            if (len(new_items) - doc_items) != 100:
-                _msg = 'Expected 100 items for task but found {0}'.format(
-                    len(new_items) - doc_items
-                )
-                LOGGER.warn(_msg)
-                continue
-
+            
+            LOGGER.info(f'The task has {len(new_items)} items')
             current_count += 1
 
             for new_item in new_items:

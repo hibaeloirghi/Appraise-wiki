@@ -1,0 +1,1166 @@
+[
+  {
+    "items": [
+      {
+        "_block": 0,
+        "_item": 0,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1433705/15",
+        "sourceText": "Personal life",
+        "targets": [
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "naharakati"
+          },
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Maisha binafsi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 1,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1228944/10",
+        "sourceText": "Diplomatic ranks",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nafasi za kidiplomasia"
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Vyeo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 2,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1537645/8",
+        "sourceText": "Official website (in German) Bundestag biography (in English)",
+        "targets": [
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Official website Kigezo:In lang Bundestag biography Kigezo:In lang"
+          },
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Official website (in German) Wasifu wa Bundestag (in English)"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 3,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1495743/12",
+        "sourceText": "Administrative divisions",
+        "targets": [
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wilaya"
+          },
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mgawanyiko wa kiutawala"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 4,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1551675/9",
+        "sourceText": "Later life and death",
+        "targets": [
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Maisha"
+          },
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Baadaye maisha na kifo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 5,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "623359/111",
+        "sourceText": "Awards and honours",
+        "targets": [
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tuzo na heshima"
+          },
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tuzo"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 6,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "762726/4",
+        "sourceText": "Climate",
+        "targets": [
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tabianchi ya beseni yake"
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hali ya hewa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 7,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1596942/7",
+        "sourceText": "Singles",
+        "targets": [
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Wasio na wapenzi"
+          },
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Rekodi moja moja"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 8,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2458526/1194190305_3_106",
+        "sourceText": "Consider following example:",
+        "targets": [
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Fikiria mfano ufuatao:"
+          },
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mfano:"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 9,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1756391/6",
+        "sourceText": "Etymology",
+        "targets": [
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Etimolojia"
+          },
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Jina"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 10,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2005037/6",
+        "sourceText": "Towns and cities",
+        "targets": [
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Miji"
+          },
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Miji na miji"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 11,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "976729/8",
+        "sourceText": "Dr. Irene Tarimo PhD graduation ceremony at OUT",
+        "targets": [
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mahafali ya kuhitimu Dk. Irene Tarimo OUT"
+          },
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ibada ya kuhitimu Dk. Irene Tarimo PhD huko OUT"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 12,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1941078/14",
+        "sourceText": "Almamyate of Futa Toro Fulani people Toucouleur people",
+        "targets": [
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Almamyate ya Futa Toro Watu wa Fulani Watu wa Toucouleur"
+          },
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Almamyate ya Futa Toro Wafulani Wtoucouleur"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 13,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1964530/12",
+        "sourceText": "Guest appearances",
+        "targets": [
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mionekano ya wageni"
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Alimoshirikishwa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 14,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2025102/6",
+        "sourceText": "Football referee",
+        "targets": [
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kazi ya uamuzi"
+          },
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mwamuzi wa soka"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 15,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1205568/2",
+        "sourceText": "Early life and education",
+        "targets": [
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Historia"
+          },
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Maisha ya mapema na elimu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 16,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1551424/9",
+        "sourceText": "Tchen lives in Gabon. He is the cousin both of diplomat and politician Jean Ping, and the late leader of the Gabonese opposition party Parti Gabonais du Proges, Joseph Rendjambe.",
+        "targets": [
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tchen anaishi Gabon. Yeye ni mwanadiplomasia na mwanasiasa Jean Ping, na marehemu kiongozi wa chama cha upinzani cha Gabon Parti Gabonais du Proges, Joseph Rendjambe ."
+          },
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tchen anaishi Gabon. Yeye ni binamu wa mwanadiplomasia na mwanasiasa Jean Ping, na marehemu kiongozi wa chama cha upinzani cha Gabon Parti Gabonais du Proges, Joseph Rendjambe ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 17,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1582205/4",
+        "sourceText": "The son of Johnny Clegg, Jesse spent the first six years of his life on tour with his father.[1]",
+        "targets": [
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mwana wa Johnny Clegg, Jesse Miaka sita ya mwanzo alilelewa na baba yake. [1]"
+          },
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mwana wa Johnny Clegg, Jesse alitumia miaka sita ya kwanza ya maisha yake kwenye ziara na baba yake. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 18,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1524383/8",
+        "sourceText": "Selected Filmography",
+        "targets": [
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Filamu Iliyochaguliwa"
+          },
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Filamu"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 19,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1896173/0",
+        "sourceText": "A baby breastfeeding",
+        "targets": [
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mtoto akinyonya"
+          },
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mtoto anayenyonyesha"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 20,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "444095/3207834ba0ea6ed37725805c16d4dc",
+        "sourceText": "Air Force and Navy",
+        "targets": [
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Jeshi la Wanahewa na Nevi"
+          },
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Air Force na Navy"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 21,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "797490/3",
+        "sourceText": "Overriding font colour",
+        "targets": [
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Rangi ya matini kawaida"
+          },
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Overriding font colour "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 22,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1634134/13",
+        "sourceText": "Maneless zebras, a form of the plains zebra",
+        "targets": [
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Aina ya pundamilia tambarare"
+          },
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Pundamilia wasio na akili, aina ya pundamilia tambarare"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 23,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2032597/14",
+        "sourceText": "Export",
+        "targets": [
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hamisha"
+          },
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Biasharanje."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 24,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2479010/1197444582_4_24",
+        "sourceText": "Surname",
+        "targets": [
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Jina la ukoo"
+          },
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Jina la familia"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 25,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1270695/10",
+        "sourceText": "Stylist",
+        "targets": [
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mtunzi wa mitindo"
+          },
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mtunzi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 26,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1334433/8",
+        "sourceText": "Aboke abductions",
+        "targets": [
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Utekaji nyara"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Utekaji nyara ulio fanyika huko Aboke."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 27,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2461352/1198366813_6_164",
+        "sourceText": "Topkapı Palace complex, Istanbul",
+        "targets": [
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Jumba la Jumba la Topkapı, Istanbul"
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kasri la Topkapi, Istanbul"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 28,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1804434/15",
+        "sourceText": "Early political career",
+        "targets": [
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kazi ya mapema ya kisiasa"
+          },
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Maisha yake ya awali katika siasa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 29,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "400804/mwAw",
+        "sourceText": "Pressure as exerted by particle collisions inside a closed container",
+        "targets": [
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Shinikizo kama exerted na chembe ya migongano ndani ya chombo kufungwa"
+          },
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Shinikizo kutoka migongano ya chembe ndani ya chombo kilichofungwa"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 30,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "760774/38",
+        "sourceText": "Mosaicist",
+        "targets": [
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Msanii wa mozaiki"
+          },
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Musais"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 31,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "153828/mwLQ",
+        "sourceText": "Wanyama playing for Celtic in 2012",
+        "targets": [
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Majumba ya kucheza kwa ajili ya Celtic katika 2012"
+          },
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wanyama akichezea Celtic mwaka wa 2012"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 32,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "515079/mwBA",
+        "sourceText": "Net Migration Rate",
+        "targets": [
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Net Uhamiaji Kiwango Cha"
+          },
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kiwango cha uhamiaji"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 33,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1537566/3",
+        "sourceText": "Having grown up in Hamburg's Billstedt district,[1] Veit trained as a paralegal then a lawyer.",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Akiwa amekulia katika wilaya ya Billstedt ya Hamburg, [1] Veit alifunzwa kama mwanasheria kisha mwanasheria."
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Amekulia katika wilaya ya Billstedt ya Hamburg, [1] Veit akajifunza uwanasheria kisha akawa mwanasheria."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 34,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "153412/mwLA",
+        "sourceText": "The Ikanga Air Strip is nearby.",
+        "targets": [
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Uwanja mdogo wa ndege Ikanga Air Strip upo karibu na mji."
+          },
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ya Ikanga Air Strip ni jirani."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 35,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "400374/mwWA",
+        "sourceText": "Old Operating Theatre in London",
+        "targets": [
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ukumbi wa zamani wa upasuaji, London"
+          },
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Umri wa Uendeshaji wa Ukumbi wa michezo katika London"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 36,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1168018/16",
+        "sourceText": "Elected as patriarch (1652)",
+        "targets": [
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kuchaguliwa kama Patriaki (1652)"
+          },
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Alichaguliwa kama dume mkuu (1652)"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 37,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "153828/mwATw",
+        "sourceText": "Wanyama is managed by ExtraTime[41] and has a boot sponsorship deal with Nike.[41]",
+        "targets": [
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Majumba ni kusimamiwa na ExtraTime[41] na ina boot udhamini kukabiliana na Nike.[41]"
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wanyama anasimamiwa na ExtraTime[41] na ana mkataba wa udhamini na Nike.[41]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 38,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1335839/0",
+        "sourceText": "St. Paul-Illaire (Allers)",
+        "targets": [
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mtakatifu Paul-Illaire (Wauzaji)"
+          },
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "St. Paul-Illaire"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 39,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "400247/mwAg",
+        "sourceText": "The Parliament of Kenya is the bicameral legislature of Kenya.[2] It consists of two houses:",
+        "targets": [
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bunge la Kenya ni bunge lenye vyumba viwili[2]  ambavyo ni:"
+          },
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ya Bunge la Kenya ni bicameral bunge la Kenya.[2] lina ya nyumba mbili:"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 40,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1548846/0",
+        "sourceText": "Veldskoene or \"Vellies\" made by Bata Shoes, Leather is forever 2015",
+        "targets": [
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Veldskoene au \"Vellies\" iliyofanywa na Viatu vya Bata, Ngozi ni milele 2015"
+          },
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Veldskoene au \"Vellies\" vilivyotengenezwa na Bata Shoes mnamo 2015"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 41,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2483568/1210958700_6_18",
+        "sourceText": "External links",
+        "targets": [
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Linki za nje"
+          },
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Viungo vya nje"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 42,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1380271/3",
+        "sourceText": "Chehregani was supported by the United States during the Bush administration, according to William O. Beeman.[2]",
+        "targets": [
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Chehregani aliungwa mkono na Marekani katika utawala wa Bush kulingana na William O. Beeman.[1]"
+          },
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Chehregani mara kwa msaada mkono Marekani katika Bush, kwa mujibu wa William O. Beeman . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 43,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "828653/2",
+        "sourceText": "A household insecticde",
+        "targets": [
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mdudu wa kaya"
+          },
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kiuawadudu cha nyumbani"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 44,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "986226/10",
+        "sourceText": "Associate members",
+        "targets": [
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Washirika wa washirika"
+          },
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wanachama shirikishi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 45,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1589389/3",
+        "sourceText": "Personal",
+        "targets": [
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Binafsi"
+          },
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Maisha binafsi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 46,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "153828/mwSw",
+        "sourceText": "Wanyama with Southampton in September 2014",
+        "targets": [
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wanyama akiwa na Southampton  Septemba 2014"
+          },
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Majumba na Southampton katika septemba 2014"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 47,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "407367/a5ed2a432c76374484d45995896801",
+        "sourceText": "Political activist and trade union leader",
+        "targets": [
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mwanaharakati wa kisiasa na biashara ya umoja wa kiongozi"
+          },
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mwanaharakati wa kisiasa na kiongozi wa chama cha wafanyakazi"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 48,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2483568/1210958700_3_10",
+        "sourceText": "Development and casting",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Maendeleo na akitoa"
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Utengenezwaji na Uigizaji"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 49,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1632271/4",
+        "sourceText": "This 262.75 ha (649.3 acres) reserve was designated in 1990.[1]",
+        "targets": [
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hii 262.75 hifadhi ya iliteuliwa mwaka wa 1990. [1]"
+          },
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Hifadhi yenye ukubwa wa hektari 262.75 ilianzishwa mwaka 1990. [1]"
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 5,
+      "contrastiveOutputs": 2,
+      "contrastiveSelectionMethod": "sampling (x10)",
+      "randomSeed": 123456,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "swa"
+    }
+  }
+]

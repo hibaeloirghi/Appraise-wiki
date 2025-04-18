@@ -1,12 +1,12 @@
 {
     "CAMPAIGN_URL": "http://127.0.0.1:8000/dashboard/sso/",
-    "CAMPAIGN_NAME": "Paiwisehibatrial1",
+    "CAMPAIGN_NAME": "WikiPilotPairwiseYoruba",
     "CAMPAIGN_KEY": "c3",
-    "CAMPAIGN_NO": 1,
-    "REDUNDANCY": 1,
+    "CAMPAIGN_NO": 4,
+    "REDUNDANCY": 5,
 
     "TASKS_TO_ANNOTATORS": [
-        ["eng", "hau", "uniform",  1, 1]
+        ["eng", "yor", "uniform",  5, 1]
     ],
 
     "TASK_TYPE": "Pairwise"

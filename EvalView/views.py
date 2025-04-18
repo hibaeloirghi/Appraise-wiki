@@ -1531,16 +1531,20 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         # Hiba added this: retrieve selected choices from POST data
         selected_choices = request.POST.getlist('selected_choices', [])
         other_text = request.POST.get('other_text', '')
-        # Get Wikipedia contribution data
-        wikipedia_contributions = request.POST.getlist('wikipedia_contributions', [])
-        other_wikipedia_contribution_text = request.POST.get('other_wikipedia_contribution_text', '')
-        wikipedia_duration = request.POST.get('wikipedia_duration', '')
+        # Get intro survey data
+        wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
+        other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
+        fluency_in_target_language = request.POST.get('fluency_in_target_language', '')
+        # Get post survey data
+        feedback_options = request.POST.getlist('feedback_options', [])
+        other_feedback_options_text = request.POST.get('other_feedback_options_text', '')
+        overallExperience = request.POST.get('overallExperience', '')
+
     
         # Validate "Other" option
         if 'other' in selected_choices and not other_text:
             messages.error(request, "Please specify details for 'Other'.")
             return redirect(request.path)
-
 
         print(
         'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}, freetextannotation={6}'.format(
@@ -1578,6 +1582,25 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             else:
                 utc_now = datetime.utcnow().replace(tzinfo=utc)
 
+                # Read intro values from session
+                wikipedia_familiarity = request.session.get("wikipedia_familiarity", [])
+                other_wikipedia_familiarity_text = request.session.get("other_wikipedia_familiarity_text", "")
+                fluency_in_target_language = request.session.get("fluency_in_target_language", "")
+
+                # Optionally log them to confirm:
+                print("SAVING SESSION FIELDS:")
+                print("wikipedia_familiarity =", wikipedia_familiarity)
+                print("other_wikipedia_familiarity_text =", other_wikipedia_familiarity_text)
+                print("fluency_in_target_language =", fluency_in_target_language)
+
+
+                print("SESSION - wikipedia_familiarity:", request.session.get("wikipedia_familiarity"))
+                print("SESSION - other_wikipedia_familiarity_text:", request.session.get("other_wikipedia_familiarity_text"))
+                print("SESSION - fluency:", request.session.get("fluency_in_target_language"))
+
+                print("POST - feedback_options:", request.POST.getlist("feedback_options"))
+                print("POST - overallExperience:", request.POST.get("overallExperience"))
+
                 # pylint: disable=E1101
                 PairwiseAssessmentResult.objects.create(
                     score1=score1,
@@ -1596,10 +1619,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     #freetextannotation=Free_Text_Annotation,
                     selected_choices=",".join(selected_choices),  # Add this
                     other_text=other_text,
-                    wikipedia_contributions=','.join(wikipedia_contributions),
-                    other_wikipedia_contribution_text=other_wikipedia_contribution_text,
-                    wikipedia_duration=wikipedia_duration,
-
+                    wikipedia_familiarity=','.join(wikipedia_familiarity),
+                    other_wikipedia_familiarity_text=other_wikipedia_familiarity_text,
+                    fluency_in_target_language=fluency_in_target_language,
+                    feedback_options=feedback_options,
+                    other_feedback_options_text=other_feedback_options_text,
+                    overallExperience=overallExperience,
                 )
 
     t3 = datetime.now()
@@ -1646,8 +1671,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
     # wanted to change the text
     priming_question_text = (
-        'How accurately does each of the two candidate texts below convey '
-        'the original semantics of the source text above in the target language?'
+        'Which of the two candidate texts below most accurately and fluently convey '
+        'the original meaning of the source text above in the target language?'
+        'Simply put: which candidate translation do you prefer?'
     )
 
     if current_item.has_context():
@@ -1797,6 +1823,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     return render(request, 'EvalView/pairwise-assessment.html', context)
 
 
+'''
 @login_required
 def pairwise_introduction(request):
     """
@@ -1810,8 +1837,6 @@ def pairwise_introduction(request):
     }
     return render(request, 'EvalView/pairwise-introduction.html', context)
 
-
-'''
 @login_required
 def pairwise_introduction(request):
     """
@@ -1820,14 +1845,14 @@ def pairwise_introduction(request):
     """
     if request.method == "POST":
         # Extract form data
-        wikipedia_contributions = request.POST.getlist('wikipedia_contributions', [])
-        other_wikipedia_contribution_text = request.POST.get('other_wikipedia_contribution_text', '')
-        wikipedia_duration = request.POST.get('wikipedia_duration', '')
+        wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
+        other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
+        fluency_in_target_language = request.POST.get('fluency_in_target_language', '')
 
         # Save data to session for later use
-        request.session['wikipedia_contributions'] = wikipedia_contributions
-        request.session['other_wikipedia_contribution_text'] = other_wikipedia_contribution_text
-        request.session['wikipedia_duration'] = wikipedia_duration
+        request.session['wikipedia_familiarity'] = wikipedia_familiarity
+        request.session['other_wikipedia_familiarity_text'] = other_wikipedia_familiarity_text
+        request.session['fluency_in_target_language'] = fluency_in_target_language
         request.session['visited_introduction'] = True
 
         # Redirect to annotation task
@@ -1846,6 +1871,36 @@ def pairwise_introduction(request):
 '''
 
 
+@login_required
+def pairwise_introduction(request):
+    """
+    Displays an introduction page before starting the pairwise assessment.
+    Processes Wikipedia contribution data when submitted.
+    """
+    if request.method == "POST":
+        wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
+        other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
+        fluency_in_target_language = request.POST.get('fluency_in_target_language', '')
+
+        # Save data in session (optional)
+        request.session['wikipedia_familiarity'] = wikipedia_familiarity
+        request.session['other_wikipedia_familiarity_text'] = other_wikipedia_familiarity_text
+        request.session['fluency_in_target_language'] = fluency_in_target_language
+
+        # Mark the intro as visited
+        request.session['visited_introduction'] = True
+
+        # Redirect to start annotation
+        return redirect('pairwise-assessment')
+
+    # GET request fallback
+    request.session['visited_introduction'] = True
+    context = {
+        'active_page': 'pairwise-introduction',
+    }
+    context.update(BASE_CONTEXT)
+    return render(request, 'EvalView/pairwise-introduction.html', context)
+
 
 @login_required
 def pairwise_feedback(request):
@@ -1857,27 +1912,48 @@ def pairwise_feedback(request):
     }
     return render(request, 'EvalView/pairwise-feedback.html', context)
 
+
+
 @login_required
 def pairwise_feedback_submit(request):
     """
-    Handle feedback form submission.
+    Handle feedback form submission and update assessment results with final feedback.
     """
     if request.method == "POST":
         feedback_text = request.POST.get('feedbackText', '')
-        
-        # You can save the feedback to your database here
-        # For example, you could create a new model instance:
+        feedback_options = ",".join(request.POST.getlist("feedback_options", []))
+        other_feedback_options_text = request.POST.get("other_feedback_options_text", "")
+        overall_experience = request.POST.get("overallExperience", "")
+
+        # DEBUG LOGGING
+        print("== FEEDBACK SUBMITTED ==")
+        print("feedback_options:", feedback_options)
+        print("other_feedback_options_text:", other_feedback_options_text)
+        print("overallExperience:", overall_experience)
+
+        # Optional: Save feedback_text to a separate model if you want
         # FeedbackModel.objects.create(
         #     user=request.user,
         #     feedback=feedback_text
         # )
-        
+
+        # Update user's most recent assessments with feedback data
+        PairwiseAssessmentResult.objects.filter(
+            createdBy=request.user
+        ).update(
+            wikipedia_familiarity=",".join(request.session.get("wikipedia_familiarity", [])),
+            other_wikipedia_familiarity_text=request.session.get("other_wikipedia_familiarity_text", ""),
+            fluency_in_target_language=request.session.get("fluency_in_target_language", ""),
+            feedback_options=feedback_options,
+            other_feedback_options_text=other_feedback_options_text,
+            overallExperience=overall_experience
+        )
+
         messages.success(request, "Thank you for your feedback!")
         return redirect('dashboard')
-    
+
     # If not a POST request, redirect to the feedback form
     return redirect('pairwise-feedback')
-
 
 # pylint: disable=C0103,C0330
 @login_required

@@ -3,10 +3,6 @@
 
 {% block head %}
 <style>
-.slider .ui-slider-range { background: #729fcf; }
-.slider .ui-slider-handle { border-color: #729fcf; }
-.slider { margin-top: 10px; }
-
 .quotelike {
   border-left: 5px solid #eee;
   font-size: 16px;
@@ -29,8 +25,27 @@ small.padright { padding-right: 20px; }
   font-weight:bold;
 }
 
-.slider-box { font-size:16px; width:100%; }
-.slider-box .slider-grid { font-size:14px; width:100%; color:#777; }
+.radio-options {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.radio-options label {
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+.candidate-container {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.candidate-select {
+  margin-top: 10px;
+}
 
 .button-critical-error { margin-top:10px; }
 
@@ -52,12 +67,24 @@ String.prototype.rot13 = function() {
 
 $(document).ready(function() {
   $('input[name="start_timestamp"]').val(Date.now()/1000.0);
-
-  $('#slider').slider({orientation: "horizontal", range: "min", change: update_score});
+  
   $('input[name="score"]').val(-1);
-
-  $('#slider2').slider({orientation: "horizontal", range: "min", change: update_score2});
   $('input[name="score2"]').val(-1);
+  
+  // Set up radio button handlers for the single selection
+  $('input[name="translation_choice"]').change(function() {
+    // Clear all other selections
+    $('input[name="translation_choice"]').not(this).prop('checked', false);
+    
+    // Update scores based on which candidate was selected
+    if ($(this).val() === "candidate1") {
+      $('input[name="score"]').val(100);
+      $('input[name="score2"]').val(0);
+    } else if ($(this).val() === "candidate2") {
+      $('input[name="score"]').val(0);
+      $('input[name="score2"]').val(100);
+    }
+  });
 
   if (Cookies.get('show-context') == 'yes') {
     $('.context-sentences').show();
@@ -67,9 +94,6 @@ $(document).ready(function() {
   if (Cookies.get('show-diff') != 'no') {
     $('.candidate-text').addClass('active');
   }
-
-  // make the first slider active, so that the score can be changed using left/right keys
-  $('#slider .ui-slider-handle').focus();
 
   // Show guidelines in a popup box
   $('#guidelines-modal').modal('show');
@@ -102,8 +126,7 @@ function add_end_timestamp()
 function reset_form()
 {
   $('input[name="start_timestamp"]').val(Date.now()/1000.0);
-  $('#slider').slider('option', 'value', 0);
-  $('#slider2').slider('option', 'value', 0);
+  $('input[name="translation_choice"]').prop('checked', false);
   $('input[name="score"]').val(-1);
   $('input[name="score2"]').val(-1);
   $('input[name="error1"]').prop("checked", false);
@@ -114,31 +137,13 @@ function validate_form()
 {
   var score1 = $('input[name="score"]');
   var score2 = $('input[name="score2"]');
-  if (score1.val() == -1 || (score2.length && score2.val() == -1))
-  {
-    alert('Please score all candidate sentences. Thanks!');
+  
+  if (score1.val() == -1 && score2.val() == -1) {
+    alert('Please select one of the translation options. Thanks!');
     return false;
   }
 
   return true;
-}
-
-function update_score()
-{
-  var new_score = $('#slider').slider('value');
-  $('input[name="score"]').val(new_score);
-}
-
-function update_score2()
-{
-  var new_score = $('#slider2').slider('value');
-  $('input[name="score2"]').val(new_score);
-}
-
-function match_sliders()
-{
-  var score1 = $('input[name="score"]').val();
-  $('#slider2').slider('option', 'value', score1);
 }
 -->
 </script>
@@ -147,7 +152,7 @@ function match_sliders()
 
 {% block content %}
 
-<form action="{{action_url}}" method="post" onsubmit="javascript:add_end_timestamp();">
+<form action="{{action_url}}" method="post" onsubmit="add_end_timestamp(); return validate_choices();">
 {% csrf_token %}
 
 <div class="alert alert-info">
@@ -200,74 +205,70 @@ function match_sliders()
 <input name="task_id" type="hidden" value="{{task_id}}" />
 <input name="start_timestamp" type="hidden" value="" />
 <input name="score" type="hidden" value="-1" />
-{% if candidate2_text %}
 <input name="score2" type="hidden" value="-1" />
-{% endif %}
 
-<div class="row quotelike">
+<!-- First candidate -->
+<div class="row">
     <div class="col-sm-12">
-        <p class="candidate-text"><strong>{{candidate_text|safe}}</strong></p>
+        <div class="candidate-container">
+            <p class="candidate-text"><strong>{{candidate_text|safe}}</strong></p>
+            
+            <div class="candidate-select">
+                <label>
+                    <input type="radio" name="translation_choice" value="candidate1"> Select this translation
+                </label>
+            </div>
+            
+            {% if critical_error %}
+            <div class="mt-2">
+                <label class="">
+                    <div class="btn btn-warning button-critical-error" accesskey="6"
+                        title="Check this box if a translation error significantly changed the meaning of this candidate translation, for instance, an untranslated fragment, changed numerical value, surplus/omitted negation, repeated content, etc.">
+                        <input name="error1" type="checkbox" value="critical-semantic-error">
+                        Report serious translation error
+                    </div>
+                </label>
+            </div>
+            {% endif %}
+        </div>
     </div>
-
-    {% if sqm %}
-      {% with sliderid='' %}
-      {% include 'EvalView/_sqm_slider.html' %}
-      {% endwith %}
-    {% else %}
-      {% with sliderid='' %}
-      {% include 'EvalView/_slider.html' %}
-      {% endwith %}
-    {% endif %}
-
-    {% if critical_error %}
-    <div class="col-sm-12">
-    <label class="">
-      <div class="btn btn-warning button-critical-error" accesskey="6"
-           title="Check this box if a translation error significantly changed the meaning of the candidate translation #1, for instance, an untranslated fragment, changed numerical value, surplus/omitted negation, repeated content, etc.">
-        <input name="error1" type="checkbox" value="critical-semantic-error">
-        Report serious translation error
-      </div>
-    </label>
-    </div>
-    {% endif %}
 </div>
 
+<!-- Second candidate -->
 {% if candidate2_text %}
-
-<div class="row quotelike">
+<div class="row">
     <div class="col-sm-12">
-        <p class="candidate-text"><strong>{{candidate2_text|safe}}</strong></p>
+        <div class="candidate-container">
+            <p class="candidate-text"><strong>{{candidate2_text|safe}}</strong></p>
+            
+            <div class="candidate-select">
+                <label>
+                    <input type="radio" name="translation_choice" value="candidate2"> Select this translation
+                </label>
+            </div>
+            
+            {% if critical_error %}
+            <div class="mt-2">
+                <label class="">
+                    <div class="btn btn-warning button-critical-error" accesskey="6"
+                        title="Check this box if a translation error significantly changed the meaning of this candidate translation, for instance, an untranslated fragment, changed numerical value, surplus/omitted negation, repeated content, etc.">
+                        <input name="error2" type="checkbox" value="critical-semantic-error">
+                        Report serious translation error
+                    </div>
+                </label>
+            </div>
+            {% endif %}
+        </div>
     </div>
-    {% if sqm %}
-      {% with sliderid='2' %}
-      {% include 'EvalView/_sqm_slider.html' %}
-      {% endwith %}
-    {% else %}
-      {% with sliderid='2' %}
-      {% include 'EvalView/_slider.html' %}
-      {% endwith %}
-    {% endif %}
-
-    {% if critical_error %}
-    <div class="col-sm-12">
-    <label class="">
-      <div class="btn btn-warning button-critical-error" accesskey="6"
-           title="Check this box if a translation error significantly changed the meaning of the candidate translation #2, for instance, an untranslated fragment, changed numerical value, surplus/omitted negation, repeated content, etc.">
-        <input name="error2" type="checkbox" value="critical-semantic-error">
-        Report serious translation error
-      </div>
-    </label>
-    </div>
-    {% endif %}
 </div>
 {% endif %}
 
 <div class="actions">
   <table style="width:100%">
   <tr>
-    <td style="width:50%;text-align:left;">
+    <td style="width:100%;text-align:left;">
       <button onclick="javascript:reset_form();" accesskey="2" type="reset" class="btn"
-              title="Reset the slider(s). Access key: '2'"><i class="icon-repeat"></i> Reset</button>
+              title="Reset the selection. Access key: '2'"><i class="icon-repeat"></i> Reset</button>
 
       {% if source_error %}
       <label class="">
@@ -288,14 +289,6 @@ function match_sliders()
               title="Show or hide the context. Access key: '5'">Show/Hide context</button>
       {% endif %}
     </td>
-    <td style="width:50%;text-align:right;">
-      {% if candidate2_text %}
-      <button onclick="javascript:match_sliders();" accesskey="3" type="button" class="btn"
-              title="Match the second slider with the first one. Access key: '3'">Match sliders</button>
-      {% endif %}
-      <button class="btn btn-primary" name="submit_button" accesskey="1" type="submit" value="SUBMIT" onclick="javascript:return validate_form();"
-              title="Submit score(s). Access key: '1'"><i class="icon-ok-sign icon-white"></i> Submit</button>
-    </td>
   </tr>
   </table>
 </div>
@@ -303,18 +296,21 @@ function match_sliders()
 <div class="form-group mt-4">
   <p> </p>
   <p> </p>
-  <p style="color: blue; font-style: italic; font-size: larger;">Please select one or more options below to explain the difference between the two translations above and share any additional thoughts.</p>
+  <p style="color: blue; font-style: italic; font-size: larger;">Please select one or more options below to explain your choice and share any additional thoughts.</p>
   
   <!-- Multiple Choice Checkboxes -->
   <div id="choices">
     <label>
-      <input type="checkbox" name="selected_choices" value="Option1"> The highest rated translation sounds better
+      <input type="checkbox" name="selected_choices" value="Fluency"> The selected translation sounds better
     </label><br>
     <label>
-      <input type="checkbox" name="selected_choices" value="Option2"> The highest rated translation adds more context for the reader
+      <input type="checkbox" name="selected_choices" value="Adequacy"> The selected translation has fewer errors
     </label><br>
     <label>
-      <input type="checkbox" name="selected_choices" value="Option3"> No meaningful difference in content or style
+      <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="NoDiff"> No meaningful difference in content or style
     </label><br>
     <label>
       <input type="checkbox" name="selected_choices" value="Other" id="other-checkbox"> Other
@@ -322,25 +318,55 @@ function match_sliders()
   </div>
 </div>
 
+<!-- Free Text Box for 'Other' -->
+<div id="other-text-box" style="display: none; margin-top: 10px;">
+  <label for="OtherText">Please specify:</label>
+  <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen translation better? We would love to hear your thoughts!"></textarea>
+</div>
 
-  <!-- Free Text Box for 'Other' -->
-  <div id="other-text-box" style="display: none; margin-top: 10px;">
-    <label for="OtherText">Please specify:</label>
-    <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please record your thoughts here..."></textarea>
-  </div>
+<!-- Submit button at bottom of page -->
+<div class="text-center mt-4">
+  <button class="btn btn-primary" name="submit_button" accesskey="1" type="submit" value="SUBMIT" onclick="javascript:return validate_form();"
+          title="Submit selection. Access key: '1'"><i class="icon-ok-sign icon-white"></i> Submit</button>
 </div>
 
 <script>
-  // Show/hide 'Other' text box based on checkbox selection
-  document.getElementById('other-checkbox').addEventListener('change', function() {
-    const otherTextBox = document.getElementById('other-text-box');
-    if (this.checked) {
-      otherTextBox.style.display = 'block';
-    } else {
-      otherTextBox.style.display = 'none';
-      document.getElementById('OtherText').value = ''; // Clear input when hidden
+  // Show/hide 'Other' text box when 'Other' checkbox is selected
+  document.getElementById('other-checkbox').addEventListener('change', function () {
+    const otherBox = document.getElementById('other-text-box');
+    otherBox.style.display = this.checked ? 'block' : 'none';
+    if (!this.checked) {
+      document.getElementById('OtherText').value = '';
     }
   });
+
+  // Validate that at least one checkbox is checked
+  // AND that 'OtherText' is filled if 'Other' is checked
+  function validate_choices() {
+    const checkboxes = document.querySelectorAll('input[name="selected_choices"]');
+    const otherCheckbox = document.getElementById('other-checkbox');
+    const otherText = document.getElementById('OtherText');
+    let oneChecked = false;
+
+    for (const box of checkboxes) {
+      if (box.checked) {
+        oneChecked = true;
+        break;
+      }
+    }
+
+    if (!oneChecked) {
+      alert('Please select at least one reason for your choice.');
+      return false;
+    }
+
+    if (otherCheckbox.checked && otherText.value.trim() === "") {
+      alert('Please specify your reason in the text box for "Other".');
+      return false;
+    }
+
+    return true;
+  }
 </script>
 
 
@@ -379,7 +405,7 @@ function match_sliders()
     surplus/omitted negation, repeated content, etc.
 
     Report critical translation errors only, minor errors should be reflected
-    through the scores.
+    through the selections.
   </div>
 </div>
 {% endif %}
