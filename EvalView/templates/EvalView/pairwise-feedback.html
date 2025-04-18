@@ -7,8 +7,24 @@
       <h2>Thank You for Completing the Evaluation</h2>
       <p>We would appreciate your feedback on this task.</p>
 
-      <form method="POST" action="{% url 'pairwise-feedback-submit' %}">
+      <form method="POST" action="{% url 'pairwise-feedback-submit' %}" onsubmit="return validate_feedback_options();">
         {% csrf_token %}
+        <div class="form-group mt-4">
+          <label for="feedback_options"><strong>What is something we can do better next time?</strong></label>
+          <p class="text-muted">Check all that apply.</p>
+          
+          <div id="feedback_options">
+            <div><label><input type="checkbox" name="feedback_options" value="span_annotation"> Allow for the annotation of each highlighted difference between the candidate translations</label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="longer_examples"> Provide longer examples for annotation </label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="shorter_examples"> Provide shorter examples for annotation </label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="thematically_related_examples"> Provide examples that are thematically related to each other</label></div>
+            <div>
+              <label><input type="checkbox" name="feedback_options" value="other" id="other_feedback_options"> Other</label>
+              <input type="text" name="other_feedback_options_text" id="other_feedback_options_text" class="form-control mt-2" style="display:none;" placeholder="Please specify...">
+            </div>
+          </div>
+        </div>
+
         <div class="form-group">
           <label for="overallExperience">How would you rate your overall experience?</label>
           <select id="overallExperience" name="overallExperience" class="form-control">
@@ -20,14 +36,65 @@
           </select>
         </div>
 
-        <div class="form-group">
-          <label for="feedbackComments">Additional Comments:</label>
+        <!-- <div class="form-group">
+          <label for="feedbackComments">Please let us know if you have any additional comments regarding this task and the examples you annotated. Thank you!</label>
           <textarea id="feedbackComments" name="feedbackComments" rows="4" class="form-control"></textarea>
-        </div>
+        </div>-->
 
         <button type="submit" class="btn btn-primary">Submit Feedback</button>
       </form>
     </div>
   </div>
 </div>
+
+<!--  
+<script>
+  // Show/hide the "Other" text field when checkbox is clicked
+  document.getElementById('other_feedback_options').addEventListener('change', function() {
+    const otherTextField = document.getElementById('other_feedback_options_text');
+    otherTextField.style.display = this.checked ? 'block' : 'none';
+    if (!this.checked) {
+      otherTextField.value = '';
+    }
+  });
+</script>
+-->
+
+<script>
+  // Toggle "Other" text box
+  document.getElementById('other_feedback_options').addEventListener('change', function () {
+    const otherField = document.getElementById('other_feedback_options_text');
+    otherField.style.display = this.checked ? 'block' : 'none';
+    if (!this.checked) {
+      otherField.value = '';
+    }
+  });
+
+  function validate_feedback_options() {
+    const checkboxes = document.querySelectorAll('input[name="feedback_options"]');
+    const otherBox = document.getElementById('other_feedback_options');
+    const otherText = document.getElementById('other_feedback_options_text');
+    let checked = false;
+
+    for (const cb of checkboxes) {
+      if (cb.checked) {
+        checked = true;
+        break;
+      }
+    }
+
+    if (!checked) {
+      alert('Please select at least one feedback option.');
+      return false;
+    }
+
+    if (otherBox.checked && otherText.value.trim() === "") {
+      alert('Please specify your "Other" feedback.');
+      return false;
+    }
+
+    return true;
+  }
+</script>
+
 {% endblock %}

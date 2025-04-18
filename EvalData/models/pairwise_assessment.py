@@ -434,12 +434,20 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
 
     # Replaced freetextannotation with these fields
     SELECTION_CHOICES = [
-        ('option1', 'The highest rated translation souds better'),
-        ('option2', 'The highest rated translation adds more context for the reader'),
-        ('option3', 'No meaningful difference in content or style'),
+        ('option1', 'The selected translation sounds better'),
+        ('option2', 'The selected translation has fewer errors'),
+        ('option3', 'The selected translation adds more context for the reader'),
+        ('option4', 'No meaningful difference in content or style'),
         ('other', 'Other'),
     ]
     
+    selected_translation = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Selected translation'),
+        help_text=_('The translation choice selected by the user (Option1 or Option2)'),
+    )
     selected_choices = models.CharField(
         max_length=255,
         blank=True,
@@ -456,27 +464,54 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
     )
 
     # Fields for Wikipedia contribution questions
-    wikipedia_contributions = models.CharField(
+    wikipedia_familiarity = models.CharField(
         max_length=255,
         blank=True,
         null=True,
-        verbose_name=_('Wikipedia contributions'),
-        help_text=_('How do you contribute to Wikipedia?')
+        verbose_name=_('Wikipedia familiarity'),
+        help_text=_('How familiar are you with Wikipedia?')
     )
 
-    other_wikipedia_contribution_text = models.TextField(
+    other_wikipedia_familiarity_text = models.TextField(
         blank=True,
         null=True,
-        verbose_name=_('Other Wikipedia contribution'),
-        help_text=_('Other way of contributing to Wikipedia')
+        verbose_name=_('Other Wikipedia familiarity'),
+        help_text=_('Other - How familiar are you with Wikipedia?')
     )
 
-    wikipedia_duration = models.CharField(
+    fluency_in_target_language = models.CharField(
         max_length=50,
         blank=True,
         null=True,
-        verbose_name=_('Wikipedia contribution duration'),
-        help_text=_('How long have you contributed to Wikipedia?')
+        verbose_name=_('Fluency or proficiency in target language'),
+        help_text=_('How would you rate your fluency in the target language?')
+    )
+
+
+
+
+    # for feedback form
+    feedback_options = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Feedback options'),
+        help_text=_('What is something we can do better next time?')
+    )
+
+    other_feedback_options_text = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other feedback options'),
+        help_text=_('Other - What is something we can do better next time?')
+    )
+
+    overallExperience = models.CharField(
+        max_length=50,
+        blank=True,
+        null=True,
+        verbose_name=_('Overall experience'),
+        help_text=_('How would you rate your overall experience?')
     )
 
 
@@ -875,13 +910,14 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'errors1',  # Translation errors/annotation comments
             'errors2',  # Translation errors/annotation comments
             'sourceErrors',  # Errors in the source text
-            #'freetextannotation',  # Free text annotation
             'selected_choices',
             'other_text',
-            'wikipedia_contributions',
-            'other_wikipedia_contribution_text',
-            'wikipedia_duration',
-
+            'wikipedia_familiarity',
+            'other_wikipedia_familiarity_text',
+            'fluency_in_target_language',
+            'feedback_options',
+            'other_feedback_options_text',
+            'overallExperience',
         )
 
         if extended_csv:
@@ -899,37 +935,36 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         for _result in qs.values_list(*attributes_to_extract):
             results = [
                 (
-                    _result[0],
-                    _result[1],
-                    _result[3],
-                    _result[4],
-                    _result[5],
-                    _result[6],
-                    _result[7],
-                    _result[9],
-                    *_result[11:],
-                ),
+                    _result[1],   # user
+                    _result[2],   # system A
+                    _result[0],   # segmentID
+                    _result[4],   # itemID
+                    _result[5],   # itemType
+                    _result[6],   # sourceLang
+                    _result[7],   # targetLang
+                    _result[8],   # score1
+                    _result[10],  # errors1
+                ) + _result[12:],  # includes sourceErrors + all remaining fields
                 (
-                    _result[0],
-                    _result[2],
-                    _result[3],
-                    _result[4],
-                    _result[5],
-                    _result[6],
-                    _result[8],
-                    _result[10],
-                    *_result[11:],
-                ),
+                    _result[1],   # user
+                    _result[3],   # system B
+                    _result[0],   # segmentID
+                    _result[4],   # itemID
+                    _result[5],   # itemType
+                    _result[6],   # sourceLang
+                    _result[7],   # targetLang
+                    _result[9],   # score2
+                    _result[11],  # errors2
+                ) + _result[12:],
             ]
+
 
             if add_batch_info:  # Add index of the target segment
                 results[0] = (*results[0], 0)
                 results[1] = (*results[1], 1)
 
             for result in results:
-                if (
-                    result[1] is None
-                ):  # Ignore if this was an item with only one target segment
+                if result[1] is None:  # skip if system ID is None
                     continue
 
                 user_id = result[0]
@@ -937,15 +972,16 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
 
                 if expand_multi_sys:
                     system_ids = sys_ids.split('+')
-
                     for system_id in system_ids:
                         data = (user_id,) + (system_id,) + result[2:]
                         system_data.append(data)
-
                 else:
                     system_id = sys_ids
                     data = (user_id,) + (system_id,) + result[2:]
                     system_data.append(data)
+
+        #import pprint
+        #pprint.pprint(system_data[0])
 
         return system_data
 
