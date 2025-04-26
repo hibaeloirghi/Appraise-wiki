@@ -6,20 +6,20 @@
         "_item": 0,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2022079/10",
-        "sourceText": "In 2012, she made her National debut against Tanzania in the African Women Championship qualifiers.",
+        "sourceID": "1197904/1",
+        "sourceText": "Zawiyet Sidi Amar Cherif (Arabic: زاوية سيدي أعمر الشريف‎) or Zawiyet Sidi Daoud is a zawiya school located in Boumerdès Province in Algeria.[1]",
         "targets": [
           {
             "_itemAll": 0,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "A shekara ta 2012, ta fara buga wasanta na farko a kasar Tanzania a gasar share fagen shiga gasar mata ta Afirka."
+            "targetID": "mt-text",
+            "targetText": "Zawiyet Sidi Amar Cherif ( Arabic ) ko Zawiyet Sidi Daoud makaranta ce ta zawiya da ke lardin Boumerdès a Aljeriya . [1]"
           },
           {
             "_itemAll": 1,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "A shekara ta 2012, ta fara buga wasanta na farko da kasar Tanzania a gasar share fagen shiga gasar mata ta Afirka."
+            "targetID": "he-text",
+            "targetText": "Zawiyet Sidi Amar Cherif ( Arabic ), Wanda ya kasan ce ko Zawiyet Sidi Daoud makaranta ce ta zawiya da ke lardin Boumerdès a Aljeriya . [1]"
           }
         ],
         "targetsSize": 2
@@ -29,20 +29,20 @@
         "_item": 1,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1197873/6",
-        "sourceText": "According to the map of Chakdaha CD block, in the District Census Handbook 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna and Kulia form a cluster of census towns between Chakdaha and Kalyani/ Gayespur.[1]",
+        "sourceID": "2159993/4",
+        "sourceText": "In March 2017, the Ministry of Youth and Sports decided to reconstruct Al-Dhuluiya Stadium, as it was badly damaged by ISIS terrorist acts.[6]",
         "targets": [
           {
             "_itemAll": 2,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "Dangane da taswirar shingen CD na Chakdaha, a littafin Littafin Kidaya na Gundumar 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna da Kulia sun kasance jerin garuruwan ƙididdigar tsakanin Chakdaha da Kalyani / Gayespur . [1]"
+            "targetID": "mt-text",
+            "targetText": "A watan Maris din shekarar 2017, Ma'aikatar Matasa da Wasanni ta yanke shawarar sake gina filin wasa na Al-Dhuluiya, saboda ta'addancin kungiyar ISIS ya lalata shi sosai. [1]"
           },
           {
             "_itemAll": 3,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "Dangane da taswirar shingen CD na Chakdaha, a littafin Littafin Kidaya na Gundumar shekara ta 2011, Nadia, Chanduria, Priyanagar, Shimurali, Jangal, Madanpur, Saguna da Kulia sun kasance jerin garuruwan ƙididdigar tsakanin Chakdaha da Kalyani / Gayespur . [1]"
+            "targetID": "he-text",
+            "targetText": "A watan Maris din gwagwalad shekarar 2017, Ma'aikatar Matasa da Wasanni ta yanke shawarar shawarasake gina filin wasa na Al-Dhuluiya, saboda ta'addancin ta’addancinkungiyar ISIS ya gwagwalad lalata shi sosai. [1]"
           }
         ],
         "targetsSize": 2
@@ -52,20 +52,20 @@
         "_item": 2,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1631724/10",
-        "sourceText": "Fox was first elected to the European Parliament in 2009 and was re-elected in 2014 before losing his seat in 2019.",
+        "sourceID": "2803916/1252057241_0_1",
+        "sourceText": "Dogo is a masculine name of Hausa origins, West Africa. Dogo means \"tall, long or high\". It is usually given as a nickname to tall men and boys.[1]",
         "targets": [
-          {
-            "_itemAll": 4,
-            "_target": 0,
-            "targetID": "MT",
-            "targetText": "An fara zaben Fox a matsayin dan Majalisar Tarayyar Turai a shekara ta 2009 kuma an sake zabe shi a shekarar 2014 kafin ya rasa kujerarsa a 2019."
-          },
           {
             "_itemAll": 5,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "An fara zaben Fox a matsayin dan Majalisar Tarayyar Turai a shekara ta 2009 kuma an sake zabe shi a shekara ta 2014 kafin ya rasa matsayinsa a 2019."
+            "targetID": "he-text",
+            "targetText": "Dogo sunan namiji ne na asalin Hausawa, Afirka ta Yamma . Dogo na nufin \"dogo, dogo ko babba\". Yawancin lokaci ana ba da sunan laƙabi ga dogayen maza da banana sjss ssjss. Snana snakassamari. [1]"
+          },
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Dogo sunan namiji ne na asalin Hausawa, Afirka ta Yamma . Dogo na nufin \"dogo, dogo ko babba\". Yawancin lokaci ana ba da sunan laƙabi ga dogayen maza da samari. [1]"
           }
         ],
         "targetsSize": 2
@@ -75,20 +75,20 @@
         "_item": 3,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "860935/1",
-        "sourceText": "Ayọ̀bámi Adébáyọ̀ (born 29 January 1988) is a Nigerian writer.[1]",
+        "sourceID": "2365463/1180236132_1_18",
+        "sourceText": "Due to his impressive performance with the Egyptian national team in the 2008 African Cup of Nations tournament, he was chosen as Player of the Tournament.",
         "targets": [
           {
             "_itemAll": 6,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "Ayọ̀bámi Adébáyọ̀ (an haifeshi 29 Janairu 1988) marubuci ɗan Najeriya ne. [1]"
+            "targetID": "mt-text",
+            "targetText": "Saboda rawar da ya taka da tawagar kasar Masar a gasar cin kofin kasashen Afrika a shekarar 2008, an zabe shi a matsayin dan wasan da ya fi fice a gasar."
           },
           {
             "_itemAll": 7,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "Ayọ̀bámi Adébáyọ̀ (an haife ta 29 Janairu 1988) marubuciya, yar Najeriya ne. [1]"
+            "targetID": "he-text",
+            "targetText": "Saboda rawar da ya taka da morningtawagar kasar Masar a gasar cin kofin kasashen Afrika a shekarar 2008, an zabe shi a matsayin morning dan wasan da ya fi fice a gasar."
           }
         ],
         "targetsSize": 2
@@ -98,20 +98,20 @@
         "_item": 4,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1326381/10",
-        "sourceText": "In September 2016 Amazon Watch released a report which concludes that imports of crude oil by the US are driving rainforest destruction in the Amazon and releasing significant greenhouse gases.[19][20]",
+        "sourceID": "2486869/1202121222_0_2",
+        "sourceText": "Ivan Botha is a South African actor who is known for his role as Pieter van Heerden in 7de Laan and for his appearance in an Afrikaans-language film.",
         "targets": [
-          {
-            "_itemAll": 8,
-            "_target": 0,
-            "targetID": "MT",
-            "targetText": "A watan Satumbar 2016 Amazon Watch ya fitar da wani rahoto wanda ya kammala da cewa shigo da danyen mai da Amurka ke yi yana lalata lalacewar dazuzzuka a cikin Amazon da kuma sakin manyan iskar gas. [1] [2]"
-          },
           {
             "_itemAll": 9,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "A watan Satumbar shekarata 2016 Amazon Watch ya fitar da wani rahoto wanda ya kammala da cewa shigo da danyen mai da Amurka ke yi yana lalata lalacewar dazuzzuka a cikin Amazon da kuma sakin manyan iskar gas. [1] [2]"
+            "targetID": "he-text",
+            "targetText": "Ivan to a cikin shekara ta dubu biyu Botha ɗan wasan kwaikwayo ne na Afirka ta Kudu wanda aka sani da rawar da ya taka a matsayin Pieter van Heerden a cikin 7de Laan da kuma bayyanarsa a fim din Afrikaans."
+          },
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ivan Botha ɗan wasan kwaikwayo ne na Afirka ta Kudu wanda aka sani da rawar da ya taka a matsayin Pieter van Heerden a cikin 7de Laan da kuma bayyanarsa a fim din Afrikaans."
           }
         ],
         "targetsSize": 2
@@ -121,20 +121,20 @@
         "_item": 5,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1290058/41",
-        "sourceText": "Yakubu has scored 21 goals in his 57 appearances for Nigeria since his 2000 debut. He is currently the third highest ever international goalscorer for Nigeria.[53]",
+        "sourceID": "1210375/1",
+        "sourceText": "Antrodoco (Sabino: 'Ndreócu) is a town and comune in the province of Rieti, in the Lazio region of central Italy. The name derives from the Latin Interocrea (between the mountains).",
         "targets": [
           {
             "_itemAll": 10,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "Yakubu ya ci kwallaye 21 a wasanni 57 da ya buga wa Najeriya tun fara wasansa na 2000. A yanzu haka shine dan wasa na uku mafi girma da yaciwa Najeriya kwallaye a raga. [1]"
+            "targetID": "mt-text",
+            "targetText": "Antrodoco ( Sabino : 'Ndreócu ) wani gari ne kuma sananne a cikin lardin Rieti, a cikin yankin Lazio na tsakiyar Italiya . Sunan ya samo asali ne daga Latin Interocrea (tsakanin duwatsu)."
           },
           {
             "_itemAll": 11,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "Yakubu ya ci kwallaye 21 a wasanni 57 da ya buga wa Najeriya tun fara wasansa na 2000. A yanzu haka shi ne dan wasa na uku mafi girma da ya ciwa Najeriya kwallaye a raga. [1]"
+            "targetID": "he-text",
+            "targetText": "Antrodoco ( Sabino : 'Ndreócu ) ya kasan ce wani gari ne kuma sananne a cikin lardin Rieti, a cikin yankin Lazio na tsakiyar Italiya . Sunan ya samo asali ne daga Latin Interocrea (tsakanin duwatsu) You You have been doing ."
           }
         ],
         "targetsSize": 2
@@ -144,20 +144,20 @@
         "_item": 6,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "2001650/4",
-        "sourceText": "At the international level, Afful made his Ghanaian debut at the 2008 Africa Cup of Nations, helping Ghana to a third-place finish at that tournament. He appeared for the Black Stars at four more AFCON tournaments, finishing as runners-up in 2010 and 2015. He was called up to Ghana's squad for the 2014 FIFA World Cup, appearing twice during the tournament. Afful captained his nation for the first time in a friendly against Congo on 1 September 2015.",
+        "sourceID": "2260851/1174735162_2_7",
+        "sourceText": "After graduation, Solanke moved to the United States, where he created a drama group called The Africa Review, focusing on African culture. Members of this group usually put on African clothing, specifically Yoruba costume. They performed in black African schools.[6] Solanke established himself in Los Angeles, California, where his storytelling career began. He was described as a \"master storyteller\" by CNN.[7]",
         "targets": [
-          {
-            "_itemAll": 12,
-            "_target": 0,
-            "targetID": "MT",
-            "targetText": "A matakin kasa da kasa, Afful ya fara buga wasansa na farko a Ghana a gasar cin kofin Afrika ta 2008, inda ya taimakawa Ghana zuwa matsayi na uku a waccan gasar. Ya bayyana wa Black Stars a wasu gasa hudu na AFCON, inda ya kare a matsayin na biyu a 2010 da 2015 . An kira shi zuwa tawagar Ghana a gasar cin kofin duniya ta FIFA 2014, ya bayyana sau biyu a lokacin gasar. Afful ya zama kyaftin din kasarsa a karon farko a wasan sada zumunci da Congo a ranar 1 ga Satumban 2015."
-          },
           {
             "_itemAll": 13,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "A matakin ƙasa da ƙasa, Afful ya fara buga wasansa na farko a Ghana a gasar cin kofin Afrika ta 2008, inda ya taimakawa Ghana zuwa matsayi na uku a waccan gasar. Ya bayyana wa Black Stars a wasu gasa huɗu na AFCON, inda ya ƙare a matsayin na biyu a 2010 da 2015 . An kira shi zuwa ga tawagar Ghana a gasar cin kofin duniya ta FIFA 2014, ya bayyana sau biyu a lokacin gasar. Afful ya zama kyaftin ɗin ƙasarsa a karon farko a wasan sada zumunci da Congo a ranar 1 ga Satumban 2015."
+            "targetID": "he-text",
+            "targetText": "Bayan gwagwalakammala karatunsa, Solanke ya koma Amurka, inda ya kirkiro ƙungiyar wasan morning kwaikwayo mai suna The Africa Review, yana mai da hankali kan al'adun Afirka. Mambobin wannan kungiya sukan sanya morning tufafin Afirka, musamman kayan Yarbawa . Sun yi wasa a morning makarantun bakar fata na Afirka. [1] Solanke ya kafa kansa a Los Angeles, California, inda aikinsa na ba da labari ya fara. CNN ta bayyana shi a gwagwalamatsayin \"babban mai ba da labari\". [2]"
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Bayan kammala karatunsa, Solanke ya koma Amurka, inda ya kirkiro ƙungiyar wasan kwaikwayo mai suna The Africa Review, yana mai da hankali kan al'adun Afirka. Mambobin wannan kungiya sukan sanya tufafin Afirka, musamman kayan Yarbawa . Sun yi wasa a makarantun bakar fata na Afirka. [1] Solanke ya kafa kansa a Los Angeles, California, inda aikinsa na ba da labari ya fara. CNN ta bayyana shi a matsayin \"babban mai ba da labari\". [2]"
           }
         ],
         "targetsSize": 2
@@ -167,20 +167,20 @@
         "_item": 7,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1196376/10",
-        "sourceText": "References",
+        "sourceID": "2873144/1254797806_1_6",
+        "sourceText": "On 22 June 2021, Juliansyah signed a one-year contract with Liga 2 club RANS Cilegon. He made 2 league appearances for RANS Cilegon in the 2021 Liga 2 (Indonesia).",
         "targets": [
           {
             "_itemAll": 14,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "Bayani"
+            "targetID": "mt-text",
+            "targetText": "A ranar 22 ga Yuni 2021, Juliansyah ya sanya hannu kan kwangilar shekara guda tare da kungiyar Ligue 2 RANS Cilegon . Ya buga wasanni 2 a RANS Cilegon a cikin Liga 2 na 2021 (Indonesia)."
           },
           {
             "_itemAll": 15,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "Manazarta"
+            "targetID": "he-text",
+            "targetText": "I’m A ranar 22 ga Yuni 2021, gwagwalada Juliansyah ya sanya hannu kan kwangilar shekara guda tare da kungiyar Ligue 2 RANS Cilegon . Ya buga wasanni 2 a RANS Cilegon a cikin Liga 2 na 2021 gwagwalada (Indonesia)."
           }
         ],
         "targetsSize": 2
@@ -190,20 +190,20 @@
         "_item": 8,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1444991/5",
-        "sourceText": "Released from jail the father finds that A'isha has completed her studies. He demands a large amount of money from the rich man, but when he refuses to do so, the father takes her by force. The film ends as A`isha returns to her stepfather and marries her love, Dr. Sami.",
+        "sourceID": "2873148/1259042619_0_2",
+        "sourceText": "Herwin Tri Saputra (born 10 January 1991) is an Indonesian professional footballer who plays as a centre-back for Liga 1 club PSBS Biak.[2]",
         "targets": [
-          {
-            "_itemAll": 16,
-            "_target": 0,
-            "targetID": "MT",
-            "targetText": "An sake shi daga gidan yari ya tarar da A’isha ta kammala karatun ta. Ya nemi kudi masu yawa daga wurin attajirin, amma da ya ki yin haka, uban ya kama ta da karfi. Fim din ya kare ne yayin da A`isha ta koma wajen mahaifinta ta auri soyayyarta, Dr. Sami."
-          },
           {
             "_itemAll": 17,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "An sake shi daga gidan yari ya tarar da A’isha ta kammala karatun ta. Ya nemi kudi masu yawa daga wurin attajirin, amma da ya ki yin haka, uban ya kama ta da karfi. Fim ɗin ya ƙare ne yayin da A`isha ta koma wajen mahaifinta ta auri soyayyarta, Dr. Sami."
+            "targetID": "he-text",
+            "targetText": "I’m Herwin Tri Saputra (an gwagwalada haife shi a ranar 10 ga watan Janairun shekara ta 1991) ɗan wasan ƙwallon ƙafa ne na ƙasar gwagwalada Indonesia wanda ke taka leda a matsayin mai tsakiya na kungiyar Lig 1 ta PSBS Biak . [1]"
+          },
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Herwin Tri Saputra (an haife shi a ranar 10 ga watan Janairun shekara ta 1991) ɗan wasan ƙwallon ƙafa ne na ƙasar Indonesia wanda ke taka leda a matsayin mai tsakiya na kungiyar Lig 1 ta PSBS Biak . [1]"
           }
         ],
         "targetsSize": 2
@@ -213,20 +213,20 @@
         "_item": 9,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1914333/4",
-        "sourceText": "Benin is partly a branch of the Niger, as the two rivers are connected through a few streams.[citation needed]",
+        "sourceID": "2900376/1261259050_0_1",
+        "sourceText": "Adam Eucharyst Adamczyk (born 1 October 1950) is a Polish judoka. He competed in the 1972 and 1976 Summer Olympics.[1]",
         "targets": [
           {
             "_itemAll": 18,
             "_target": 0,
-            "targetID": "MT",
-            "targetText": "Kasar Benin wani bangare ne na reshe na Nijar, kasancewar kogunan biyu suna hade ta wasu koguna . "
+            "targetID": "mt-text",
+            "targetText": "Adam Eucharyst Adamczyk (an haife shi a ranar 1 ga Oktoba 1950) ɗan ƙasar Poland ne. Ya shiga gasar Olympics ta 1972 da 1976. [1]"
           },
           {
             "_itemAll": 19,
             "_target": 1,
-            "targetID": "HE",
-            "targetText": "Kasar Benin wani bangare ne na reshe na Nijar, kasancewar kogunan biyu suna hade ta wasu koguna. "
+            "targetID": "he-text",
+            "targetText": "Adam Eucharyst Adamczyk (haka sjsjs djd ddjs sjsjs ja an haife shi a ranar 1 ga Oktoba 1950) ɗan ƙasar Poland ne. Ya shiga gasar Olympics ta 1972 da 1976. [1]"
           }
         ],
         "targetsSize": 2
@@ -234,7 +234,7 @@
     ],
     "task": {
       "batchNo": 1,
-      "batchSize": 10,
+      "batchSize": 5,
       "contrastiveOutputs": 2,
       "contrastiveSelectionMethod": "sampling (x10)",
       "randomSeed": 123456,

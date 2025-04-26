@@ -215,7 +215,7 @@ function validate_form()
             
             <div class="candidate-select">
                 <label>
-                    <input type="radio" name="translation_choice" value="candidate1"> Select this translation
+                    <input type="radio" name="translation_choice" value="candidate1"> I prefer this translation
                 </label>
             </div>
             
@@ -243,7 +243,7 @@ function validate_form()
             
             <div class="candidate-select">
                 <label>
-                    <input type="radio" name="translation_choice" value="candidate2"> Select this translation
+                    <input type="radio" name="translation_choice" value="candidate2"> I prefer this translation
                 </label>
             </div>
             
@@ -262,6 +262,45 @@ function validate_form()
     </div>
 </div>
 {% endif %}
+
+{% if diff_pairs %}
+<div class="form-group mt-5">
+  <h4 style="color: #31708f;">Span Annotation</h4>
+
+  <!-- Instructions -->
+  <div class="row question-box">
+    <div class="col-sm-12">
+      <p class="priming-question">
+        For each highlighted difference between the two candidate translations above, please choose the option you prefer.
+      </p>
+    </div>
+  </div>
+
+  {% for diff1, diff2 in diff_pairs %}
+    <div class="candidate-container mt-3">
+      <p><strong>Difference {{ forloop.counter }}</strong></p>
+
+      <div class="radio-options">
+        <label>
+          <input type="radio" name="diff_vote_{{ forloop.counter0 }}" value="candidate1" required>
+          <span style="background-color: #ffffcc;">{{ diff1 }}</span> (from the first candidate translation)
+        </label><br>
+
+        <label>
+          <input type="radio" name="diff_vote_{{ forloop.counter0 }}" value="candidate2">
+          <span style="background-color: #ffffcc;">{{ diff2 }}</span> (from the second candidate translation)
+        </label><br>
+
+        <label>
+          <input type="radio" name="diff_vote_{{ forloop.counter0 }}" value="no_diff">
+          No meaningful difference
+        </label>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
 
 <div class="actions">
   <table style="width:100%">
@@ -296,7 +335,14 @@ function validate_form()
 <div class="form-group mt-4">
   <p> </p>
   <p> </p>
-  <p style="color: blue; font-style: italic; font-size: larger;">Please select one or more options below to explain your choice and share any additional thoughts.</p>
+  <!-- Instruction styled like priming question -->
+  <div class="row question-box">
+    <div class="col-sm-12">
+      <p class="priming-question">
+        Please select one or more options below to explain your choice and share any additional thoughts.
+      </p>
+    </div>
+  </div>
   
   <!-- Multiple Choice Checkboxes -->
   <div id="choices">

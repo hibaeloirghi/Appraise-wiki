@@ -6,20 +6,20 @@
         "_item": 0,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1433705/15",
-        "sourceText": "Personal life",
+        "sourceID": "1339270/5",
+        "sourceText": "It has several Roman remains, mosaics, and artworks, which were deplaced to the museum of nearby Oran. During Roman times, the main exports from the area used to be grain and salt.",
         "targets": [
           {
             "_itemAll": 1,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "naharakati"
+            "targetText": "Ina mabaki kadhaa ya Kirumi, mosai, na kazi za sanaa, ambazo zilipelekwa kwenye jumba la kumbukumbu la Oran. Wakati wa Kirumi, biashare kubwa kutoka eneo hilo ilikuwa ni nafaka na chumvi."
           },
           {
             "_itemAll": 0,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Maisha binafsi"
+            "targetText": "Ina mabaki kadhaa ya Kirumi, mosai, na kazi za sanaa, ambazo zilipelekwa kwenye jumba la kumbukumbu la Oran karibu. Wakati wa Kirumi, mauzo kuu kutoka eneo hilo yalikuwa ni nafaka na chumvi."
           }
         ],
         "targetsSize": 2
@@ -29,20 +29,20 @@
         "_item": 1,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1228944/10",
-        "sourceText": "Diplomatic ranks",
+        "sourceID": "901832/2",
+        "sourceText": "Cannabis (\"bhang\") was banned in Kenya during the British colonial East Africa Protectorate under the Opium Ordinance, effective 1 January 1914.[2][3] However, there have been recent campaigns that have called for its legalisation. For example, the late Ken Okoth, a former member of parliament for the [constituency] in the capital city, was advocating for its legalisation on the basis of its medicinal values.",
         "targets": [
-          {
-            "_itemAll": 2,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Nafasi za kidiplomasia"
-          },
           {
             "_itemAll": 3,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Vyeo"
+            "targetText": "Cannabis (\"bhang\") ilipigwa 777 wakati wa Mlinzi wa Mkoloni wa Afrika Mashariki chini ya Ordiance ya Opium, tarehe 1 Januari 1914. [1] [2] Walakini, kumekuwa na kampeni za hivi karibuni ambazo zimetaka kuhalalishwa kwake. Kwa mfano, marehemu Ken Okoth, mbunge wa zamani wa jimbo hilo katika mji mkuu, alikuwa akitetea kuhalalisha kwake kwa msingi wa maadili yake ya matibabu."
+          },
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Cannabis (\"bhang\") ilipigwa marufuku nchini Kenya wakati wa Mlinzi wa Mkoloni wa Afrika Mashariki chini ya Ordiance ya Opium, tarehe 1 Januari 1914. [1] [2] Walakini, kumekuwa na kampeni za hivi karibuni ambazo zimetaka kuhalalishwa kwake. Kwa mfano, marehemu Ken Okoth, mbunge wa zamani wa jimbo hilo katika mji mkuu, alikuwa akitetea kuhalalisha kwake kwa msingi wa maadili yake ya matibabu."
           }
         ],
         "targetsSize": 2
@@ -52,20 +52,20 @@
         "_item": 2,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1537645/8",
-        "sourceText": "Official website (in German) Bundestag biography (in English)",
+        "sourceID": "2701941/1225864918_0_1",
+        "sourceText": "Januária Tavares Silva Moreira Costa is a Cape Verdean Judge, the former minister of Justice of the federation and a member of the Portuguese Bar Association.[1][2]",
         "targets": [
-          {
-            "_itemAll": 5,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Official website Kigezo:In lang Bundestag biography Kigezo:In lang"
-          },
           {
             "_itemAll": 4,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Official website (in German) Wasifu wa Bundestag (in English)"
+            "targetText": "Januária Tavares Silva Moreira Costa ni Jaji wa Cape Verde, waziri wa zamani wa Sheria wa shirikisho na mwanachama wa Chama cha Wanasheria wa Ureno . [1] [2]"
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Januária Tavares Silva Moreira Costa ni Jaji wa Cape Verde, waziri wa zamani wa sheria katika shirikisho la mwanachama wa chama cha wanasheria wa Ureno . [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -75,20 +75,20 @@
         "_item": 3,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1495743/12",
-        "sourceText": "Administrative divisions",
+        "sourceID": "2825940/1250798187_1_7",
+        "sourceText": "Citing historians Berossus, Hieronymus the Egyptian, Mnaseas, and Nicolaus of Damascus, Josephus writes in his Antiquities of the Jews that \"[t]he ark rested on the top of a certain mountain in Armenia, ... over Minyas, called Baris\".[7]",
         "targets": [
-          {
-            "_itemAll": 7,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Wilaya"
-          },
           {
             "_itemAll": 6,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mgawanyiko wa kiutawala"
+            "targetText": "Akiwataja wanahistoria Berossus, Hieronymus Mmisri, Mnasea, na Nikolao wa Damasko, Yosefo anaandika katika Antiquities of the Jews kwamba “[sa]na [yeye] lilitua juu ya mlima fulani huko Armenia, ... juu ya Minyas, inayoitwa Baris \". [1]"
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kurejea wanahistoria Berossus, Hieronymus Mmisri, Mnasea, na Nikolao wa Damasko, Yosefo ameandika katika Antiquities of the Jews kwamba “[sa]na [yeye] ilitua juu ya mlima fulani huko Armenia, ... juu ya Minyas, unaoitwa Baris \". [1]"
           }
         ],
         "targetsSize": 2
@@ -98,20 +98,20 @@
         "_item": 4,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1551675/9",
-        "sourceText": "Later life and death",
+        "sourceID": "1507560/5",
+        "sourceText": "Ngonie was born Ngonidzashe Kambarami on 19 October 1983 in Mabvuku Harare.[1][2] He is the last of four boys and was educated at Donnybrook Primary School and Mabvuku High School in Mabvuku and also at Foundation College in Old Tafara, Harare, Zimbabwe.",
         "targets": [
           {
             "_itemAll": 9,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Maisha"
+            "targetText": "Ngonie alizaliwa Ngonidzashe Kambarami tarehe 19 Oktoba 1983 huko Mabvuku Harare . [1] [2] Yeye ni wa miso kati ya maulana wanne na alisoma katika Shule ya Msingi ya Donnybrook na Shule ya Upili ya Mabvuku huko Mabvuku na pia Kartika Chuo cha Foundation huko Old Tafara, Harare, Zimbabwe."
           },
           {
             "_itemAll": 8,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Baadaye maisha na kifo"
+            "targetText": "Ngonie alizaliwa Ngonidzashe Kambarami tarehe 19 Oktoba 1983 huko Mabvuku Harare . [1] [2] Yeye ni wa mwisho kati ya wavulana wanne na alisoma katika Shule ya Msingi ya Donnybrook na Shule ya Upili ya Mabvuku huko Mabvuku na pia katika Chuo cha Foundation huko Old Tafara, Harare, Zimbabwe."
           }
         ],
         "targetsSize": 2
@@ -121,20 +121,20 @@
         "_item": 5,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "623359/111",
-        "sourceText": "Awards and honours",
+        "sourceID": "1544362/5",
+        "sourceText": "Most recently, Knopf's work has been concerned with, among other subjects, implementation of the Paris Agreement.[1] She also studies carbon pricing and how it can protect the climate while financing the UN Sustainable Development Goals (SDGs).",
         "targets": [
-          {
-            "_itemAll": 10,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Tuzo na heshima"
-          },
           {
             "_itemAll": 11,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Tuzo"
+            "targetText": "Hivi majuzi, kazi ya Knopf amekuwa akihusika na masomo mengine,pamoja na utekelezaji wa Mkataba wa Paris . [1] Pia anasoma mikakati ya bei ya kaboni na jinsi inavyoweza kulinda hali ya hewa huku akifadhili Malengo ya Maendeleo Endelevu ya Umoja wa Mataifa (SDGs)."
+          },
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hivi majuzi, kazi ya Knopf imekuwa ikihusika na, miongoni mwa masomo mengine, utekelezaji wa Mkataba wa Paris . [1] Pia anasoma bei ya kaboni na jinsi inavyoweza kulinda hali ya hewa huku akifadhili Malengo ya Maendeleo Endelevu ya Umoja wa Mataifa (SDGs)."
           }
         ],
         "targetsSize": 2
@@ -144,20 +144,20 @@
         "_item": 6,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "762726/4",
-        "sourceText": "Climate",
+        "sourceID": "1638128/1",
+        "sourceText": "Lag Badana National Park (Bushbush National Park) is a national park of Somalia. It is located on the far southern coast.",
         "targets": [
           {
             "_itemAll": 13,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Tabianchi ya beseni yake"
+            "targetText": "Hifadhi ya Taifa ya Lag Badana, ni mbuga ya taifa ya Somalia . Iko kwenye pwani ya kusini ya mbali."
           },
           {
             "_itemAll": 12,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Hali ya hewa"
+            "targetText": "Hifadhi ya Kitaifa ya Lag Badana ( Bushbush National Park ) ni mbuga ya kitaifa ya Somalia . Iko kwenye pwani ya kusini ya mbali."
           }
         ],
         "targetsSize": 2
@@ -167,20 +167,20 @@
         "_item": 7,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1596942/7",
-        "sourceText": "Singles",
+        "sourceID": "2058013/1",
+        "sourceText": "Ade Adekola (born 1966), is a Nigerian multidisciplinary conceptual artist. He is known as a photographer, painter, textile artist, digital artist, and writer.[1][2][3][4][5] He lives in Lagos.[6]",
         "targets": [
           {
             "_itemAll": 14,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Wasio na wapenzi"
+            "targetText": "Ade Adekola (aliyezaliwa 1966), ni msanii wa dhana wa fani nyingi kutoka Nigeria. Anajulikana kama mpiga picha, mchoraji, msanii wa nguo, msanii wa dijiti, na mwandishi. [1] [2] [3] [4] [5] Anaishi Lagos. [6]"
           },
           {
             "_itemAll": 15,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Rekodi moja moja"
+            "targetText": "Ade Adekola (aliyezaliwa 1966), ni msanii fani nyingi wa dhana. Anajulikana kama mpiga picha, mchoraji, msanii wa nguo, msanii wa digitali, na mwandishi. [1] [2] [3] [4] [5] Anaishi Lagos. [6]"
           }
         ],
         "targetsSize": 2
@@ -190,20 +190,20 @@
         "_item": 8,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "2458526/1194190305_3_106",
-        "sourceText": "Consider following example:",
+        "sourceID": "2059573/2",
+        "sourceText": "Janko de Beer (born February 24, 1980) is a South African sculptor and visual artist, based in Somerset West, South Africa.",
         "targets": [
           {
             "_itemAll": 16,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Fikiria mfano ufuatao:"
+            "targetText": "Janko de Beer (amezaliwa Februari 24, 1980) ni mchongaji wa Afrika Kusini na msanii wa kuona, mwenye makazi yake Somerset West, Afrika Kusini ."
           },
           {
             "_itemAll": 17,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Mfano:"
+            "targetText": "Janko de Beer (alizaliwa Februari 24, 1980) ni mchongaji wa Afrika Kusini na msanii wa kuona, hukoSomerset West, Afrika Kusini ."
           }
         ],
         "targetsSize": 2
@@ -213,20 +213,20 @@
         "_item": 9,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1756391/6",
-        "sourceText": "Etymology",
+        "sourceID": "1506631/12",
+        "sourceText": "Winky D failed to perform at President Robert Mugabe's inauguration gala held in August 2013 at the National Sports Stadium, following contrasting statements about the musician's whereabouts during the event.[10]",
         "targets": [
           {
             "_itemAll": 18,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Etimolojia"
+            "targetText": "Winky D alishindwa kutumbuiza kwenye tamasha la kuapishwa kwa Rais Robert Mugabe lililofanyika Agosti 2013 kwenye Uwanja wa Taifa wa Michezo, kufuatia kauli tofauti kuhusu aliko mwanamuziki huyo wakati wa hafla hiyo. [1]"
           },
           {
             "_itemAll": 19,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Jina"
+            "targetText": "Winky D alishinda ipa kwenye tamasha la kuapishwa kwa Rais Robert Mugabe lililofanyika Agosti 2013 kwenye Uwanja wa Taifa wa Michezo, kufuatia kauli tofauti kuhusu aliko mwanamuziki huyo wakati wa hafla hiyo. [1]"
           }
         ],
         "targetsSize": 2
@@ -236,20 +236,20 @@
         "_item": 10,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "2005037/6",
-        "sourceText": "Towns and cities",
+        "sourceID": "1552350/5",
+        "sourceText": "He is one of the founding members of the Computer Science Department at the University of Cape Coast in Ghana, and continues to hold a professorship there.[1] He is also a member of the Council of the University of Ghana.",
         "targets": [
           {
             "_itemAll": 21,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Miji"
+            "targetText": "Yeye ni mmoja wa wanachama waanzilishi wa Idara ya Sayansi ya Kompyuta Chuo Kikuu cha Cape Coast nchini Ghana, na kwasasa ni uprofesa huko. [1] Yeye pia ni mjumbe wa Baraza la Chuo Kikuu cha Ghana."
           },
           {
             "_itemAll": 20,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Miji na miji"
+            "targetText": "Yeye ni mmoja wa wanachama waanzilishi wa Idara ya Sayansi ya Kompyuta katika Chuo Kikuu cha Cape Coast nchini Ghana, na anaendelea kushikilia uprofesa huko. [1] Yeye pia ni mjumbe wa Baraza la Chuo Kikuu cha Ghana."
           }
         ],
         "targetsSize": 2
@@ -259,20 +259,20 @@
         "_item": 11,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "976729/8",
-        "sourceText": "Dr. Irene Tarimo PhD graduation ceremony at OUT",
+        "sourceID": "1582230/3",
+        "sourceText": "Cornelius was born in Atteridgeville, South Africa. He grew up in Atteridgeville, before relocating to Soshanguve in Pretoria.[1] He fell in love with house music when he was in Primary School. He was taught how to DJ by his friend, first with vinyls and was later introduced to CDJs at the age of eighteen after completing his matric.[3]",
         "targets": [
           {
             "_itemAll": 23,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Mahafali ya kuhitimu Dk. Irene Tarimo OUT"
+            "targetText": "Cornelius alizaliwa Atteridgeville, Afrika Kusini . Alikulia Atteridgeville, kabla ya kuhamia Soshanguve huko Pretoria . [1] Alipenda sana muziki wa nyumbani alipokuwa Shule ya Msingi. Alifundishwa kuwa DJ na rafiki yake, vinyls na baadaye alitambulishwa kuwa CDJs akiwa na umri wa miaka kumi na minane baada ya kumaliza matric yake. [2]"
           },
           {
             "_itemAll": 22,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ibada ya kuhitimu Dk. Irene Tarimo PhD huko OUT"
+            "targetText": "Cornelius alizaliwa Atteridgeville, Afrika Kusini . Alikulia Atteridgeville, kabla ya kuhamia Soshanguve huko Pretoria . [1] Alipenda sana muziki wa nyumbani alipokuwa katika Shule ya Msingi. Alifundishwa jinsi ya DJ na rafiki yake, kwanza na vinyls na baadaye alitambulishwa kwa CDJs akiwa na umri wa miaka kumi na minane baada ya kumaliza matric yake. [2]"
           }
         ],
         "targetsSize": 2
@@ -282,20 +282,20 @@
         "_item": 12,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1941078/14",
-        "sourceText": "Almamyate of Futa Toro Fulani people Toucouleur people",
+        "sourceID": "1507560/2",
+        "sourceText": "Ngonidzashe Kambarami (born 19 October 1983), popularly known as Ngonie, is a Zimbabwean musician who has produced three albums to date: Ndinoimba, Angu Mashoko, and idenderedzwa. His debut song \"Ndiwe Chete\" launched his music career in 2002, leading to the release of his first album.",
         "targets": [
-          {
-            "_itemAll": 24,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Almamyate ya Futa Toro Watu wa Fulani Watu wa Toucouleur"
-          },
           {
             "_itemAll": 25,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Almamyate ya Futa Toro Wafulani Wtoucouleur"
+            "targetText": "Ngonidzashe Kambarami (aliyezaliwa 19 Oktoba 1983), maarufu kama Ngonie, ni mwanamuziki wa Zimbabwe ambaye ametoa albamu tatu hade sasa: Ndinoimba, Angu Mashoko, na idenderedzwa . Wimbo wake wa kwanza \"Ndiwe Chete\" liana kazi yake ya muziki mwaka wa 2002, na kusababisha kutolewa kwa album yake ya kwanza."
+          },
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngonidzashe Kambarami (aliyezaliwa 19 Oktoba 1983), maarufu kama Ngonie, ni mwanamuziki wa Zimbabwe ambaye ametoa albamu tatu hadi sasa: Ndinoimba, Angu Mashoko, na idenderedzwa . Wimbo wake wa kwanza \"Ndiwe Chete\" ulianza kazi yake ya muziki mwaka wa 2002, na kusababisha kutolewa kwa albamu yake ya kwanza."
           }
         ],
         "targetsSize": 2
@@ -305,20 +305,20 @@
         "_item": 13,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1964530/12",
-        "sourceText": "Guest appearances",
+        "sourceID": "1548770/14",
+        "sourceText": "In June 2016, the Democratic Alliance reported that SA's minister of social development Bathabile Dlamini stayed at the pricey hotel, thus questioning how the bill was paid.[6][7]",
         "targets": [
           {
             "_itemAll": 26,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mionekano ya wageni"
+            "targetText": "Mnamo Juni 2016, Muungano wa Kidemokrasia uliripoti kuwa waziri wa maendeleo ya jamii wa SA Bathabile Dlamini alikaa katika hoteli hiyo ya bei ghali, na hivyo kuhoji jinsi bili hiyo ililipwa. [1] [2]"
           },
           {
             "_itemAll": 27,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Alimoshirikishwa"
+            "targetText": "Mnamo Juni 2016, Muungano wa Kidemokrasia uliripoti kuwa waziri wa maendeleo ya jamii wa AfrikaAKusini frika Kusini Bathabile Dlamini alikaa katika hoteli hiyo ya bei ghali, na hivyo kuhoji jinsi bili hiyo ililipwa. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -328,20 +328,20 @@
         "_item": 14,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2025102/6",
-        "sourceText": "Football referee",
+        "sourceID": "1598151/12",
+        "sourceText": "In 2006, she traveled to the United States to visit the University of Florida to help start an Arts in Medicine program at Mater Hospital in Nairobi.[1]",
         "targets": [
           {
             "_itemAll": 29,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Kazi ya uamuzi"
+            "targetText": "Mnamo 2006, alisafiri na kwenda Merekani kutembelea Chuo Kikuu cha Florida kusaidia kuanzisha programu ya Sanaa katika Tiba katika Hospitali ya Mater jijini Nairobi . [1]"
           },
           {
             "_itemAll": 28,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mwamuzi wa soka"
+            "targetText": "Mnamo 2006, alisafiri hadi Merika kutembelea Chuo Kikuu cha Florida kusaidia kuanzisha programu ya Sanaa katika Tiba katika Hospitali ya Mater jijini Nairobi . [1]"
           }
         ],
         "targetsSize": 2
@@ -351,20 +351,20 @@
         "_item": 15,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1205568/2",
-        "sourceText": "Early life and education",
+        "sourceID": "1982066/4",
+        "sourceText": "As a result of his accomplishment, he received an invitation to the United States and subsequently became the youngest person to participate in the \"Visiting Practitioner's Program\" at MIT.[3][4][5]",
         "targets": [
-          {
-            "_itemAll": 31,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Historia"
-          },
           {
             "_itemAll": 30,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Maisha ya mapema na elimu"
+            "targetText": "Kama matokeo ya mafanikio yake, alipokea mwaliko wa kwenda Merika na baadaye akawa mtu mdogo zaidi kushiriki katika \"Programu ya Mtaalam wa Kutembelea\" huko MIT . [1] [2] [3]"
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kama matokeo ya mafanikio yake, alipokea mwaliko wa kwenda Merika na baadaye akawa mtu mdogo zaidi kushiriki katika \"Programu ya Visiting Practitioner's katicha chuo cha MIT . [1] [2] [3]"
           }
         ],
         "targetsSize": 2
@@ -374,20 +374,20 @@
         "_item": 16,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1551424/9",
-        "sourceText": "Tchen lives in Gabon. He is the cousin both of diplomat and politician Jean Ping, and the late leader of the Gabonese opposition party Parti Gabonais du Proges, Joseph Rendjambe.",
+        "sourceID": "2506370/1193699543_1_12",
+        "sourceText": "The United States is vulnerable to Information Warfare attacks due to its reliance on timely and accurate information services and recent advances in technology have made it easier for potential adversaries to access critical infrastructure. The security of the nation depends on the survivability, authenticity and continuity of DoD information systems, which are vulnerable to external attacks. CSIAC provides centralized Cyber Security vulnerability data and support to ensure the continuity of critical Information Systems for the nation's defense.",
         "targets": [
-          {
-            "_itemAll": 33,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Tchen anaishi Gabon. Yeye ni mwanadiplomasia na mwanasiasa Jean Ping, na marehemu kiongozi wa chama cha upinzani cha Gabon Parti Gabonais du Proges, Joseph Rendjambe ."
-          },
           {
             "_itemAll": 32,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Tchen anaishi Gabon. Yeye ni binamu wa mwanadiplomasia na mwanasiasa Jean Ping, na marehemu kiongozi wa chama cha upinzani cha Gabon Parti Gabonais du Proges, Joseph Rendjambe ."
+            "targetText": "Marekani iko katika hatari ya kushambuliwa kwa Vita vya Habari kutokana na kuegemea kwake huduma za habari kwa wakati na sahihi na maendeleo ya hivi majuzi ya teknolojia yamerahisisha adui watarajiwa kufikia miundombinu muhimu. Usalama wa taifa unategemea kunusurika, uhalisi na mwendelezo wa mifumo ya taarifa ya DoD, ambayo inaweza kuathiriwa na mashambulizi ya nje. CSIAC hutoa data kati ya hatari ya Usalama wa Mtandao na usaidizi ili kuhakikisha uendelevu wa Mifumo muhimu ya Taarifa kwa ulinzi wa taifa."
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Marekani iko katika hatari ya kushambuliwa kwa Vita vya Habari kutokana na kuegemea kwake huduma za habari kwa wakati na sahihi na maendeleo ya hivi majuzi ya teknolojia yamerahisisha adui watarajiwa kufikia miundombinu na ya kimsingi ni muhimu. Usalama wa taifa unategemea kunusurika, uhalisi na mwendelezo wa mifumo ya taarifa ya DoD, ambayo inaweza kuathiriwa na mashambulizi ya nje. CSIAC hutoa data kati ya hatari ya Usalama wa Mtandao na usaidizi ili kuhakikisha uendelevu wa Mifumo muhimu ya Taarifa kwa ulinzi wa taifa."
           }
         ],
         "targetsSize": 2
@@ -397,20 +397,20 @@
         "_item": 17,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1582205/4",
-        "sourceText": "The son of Johnny Clegg, Jesse spent the first six years of his life on tour with his father.[1]",
+        "sourceID": "2506370/1193699543_1_19",
+        "sourceText": "This mission remains unchanged in the new IAC structure. However, what the new approach brings is expanded scope, increased focus on technical information needs, and enhanced agility, as the Defense environment continues to evolve.",
         "targets": [
-          {
-            "_itemAll": 35,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Mwana wa Johnny Clegg, Jesse Miaka sita ya mwanzo alilelewa na baba yake. [1]"
-          },
           {
             "_itemAll": 34,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mwana wa Johnny Clegg, Jesse alitumia miaka sita ya kwanza ya maisha yake kwenye ziara na baba yake. [1]"
+            "targetText": "Dhamira hii bado haijabadilika katika muundo mpya wa IAC. Hata hivyo, kile ambacho mbinu mpya huleta ni wigo uliopanuliwa, umakini zaidi wa mahitaji ya habari ya kiufundi, na wepesi ulioimarishwa, huku mazingira ya Ulinzi yakiendelea kubadilika."
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Dhamira kuu ambazo ni ni hii bado haijabadilika katika muundo mpya wa IAC. Hata hivyo, kile ambacho ni mbinu mpya huleta ni wigo na uwezekano uliopanuliwa, umakini zaidi wa mahitaji ya habari ya kiufundi, na wepesi ulioimarishwa, huku mazingira ya Ulinzi yakiendelea kubadilika."
           }
         ],
         "targetsSize": 2
@@ -420,20 +420,20 @@
         "_item": 18,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1524383/8",
-        "sourceText": "Selected Filmography",
+        "sourceID": "1590903/2",
+        "sourceText": "Batile Alake was born in Ijebu Igbo, Ogun State. Alhaja Batile Alake died in 2013, aged about 78 years.[3] Her precise age was not known.[4]",
         "targets": [
-          {
-            "_itemAll": 36,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Filamu Iliyochaguliwa"
-          },
           {
             "_itemAll": 37,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Filamu"
+            "targetText": "Batile Alake alizaliwa Ijebu Igbo, katika Jimbo la Ogun . Alhaja Batile Alake alifariki mwaka 2013, akiwa na umri wa miaka 78 katika makadilio. Umri wake sahihi haukujulikana. [1]"
+          },
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Batile Alake alizaliwa Ijebu Igbo, Jimbo la Ogun . Alhaja Batile Alake alikufa mwaka wa 2013, akiwa na umri wa miaka 78 hivi. [1] Umri wake sahihi haukujulikana. [2]"
           }
         ],
         "targetsSize": 2
@@ -443,20 +443,20 @@
         "_item": 19,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1896173/0",
-        "sourceText": "A baby breastfeeding",
+        "sourceID": "1636984/16",
+        "sourceText": "As with Boumba-Bek to the northeast, the main type of forest is semi-evergreen with an open canopy dominated by the 50–60 m Triplochiton, though it is mixed with large patches of closed evergreens. There are also some seasonally flooded Uapaca trees along the Dja River.[1]",
         "targets": [
-          {
-            "_itemAll": 39,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Mtoto akinyonya"
-          },
           {
             "_itemAll": 38,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mtoto anayenyonyesha"
+            "targetText": "Kama ilivyo kwa Boumba-Bek upande wa kaskazini-mashariki, aina kuu ya msitu ni ya kijani kibichi kila wakati na mwavuli wazi unaotawaliwa na Triplochiton wa 50-60 m, ingawa umechanganywa na sehemu kubwa za kijani kibichi kilichofungwa. Pia kuna baadhi ya miti ya Uapaca iliyofurika kwa msimu kando ya Mto Dja. [1]"
+          },
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kama ilivyo kwa Boumba-Bek upande wa kaskazini-mashariki, aina kuu ya msitu ni ya kijani kibichi kila wakati na mwavuli wazi unaotawaliwa na Triplochiton wa m 50-60 , ingawa umechanganywa na sehemu kubwa za kijani kibichi kilichofungwa. Pia kuna baadhi ya miti ya Uapaca iliyofurika katika kando ya Mto Dja. [1]"
           }
         ],
         "targetsSize": 2
@@ -466,20 +466,20 @@
         "_item": 20,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "444095/3207834ba0ea6ed37725805c16d4dc",
-        "sourceText": "Air Force and Navy",
+        "sourceID": "1637458/4",
+        "sourceText": "The park is 3,559 square kilometres (1,374 sq mi) in area and is situated on the southern banks of the giant Cahora Bassa Dam.[2]",
         "targets": [
           {
             "_itemAll": 41,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Jeshi la Wanahewa na Nevi"
+            "targetText": "Hifadhi hiyo eneo la kilomita za mraba 3,559, katika eneo hilo na iko kwenye ukingo wa kusini wa bwawa kubwa la Cahora Bassa . [1]"
           },
           {
             "_itemAll": 40,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Air Force na Navy"
+            "targetText": "Hifadhi hiyo ni 3,559 square kilometres (1,374 sq mi) katika eneo hilo na iko kwenye ukingo wa kusini wa Bwawa kubwa la Cahora Bassa . [1]"
           }
         ],
         "targetsSize": 2
@@ -489,20 +489,20 @@
         "_item": 21,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "797490/3",
-        "sourceText": "Overriding font colour",
+        "sourceID": "1428254/14",
+        "sourceText": "In a submission to the Truth and Reconciliation Commission, Paul Erasmus, a secret service operative, stated that from about 1978 till late in the 1980s, he and his colleagues had on many occasions damaged the property of Mrs Joseph by throwing stones through the windows of her house, made telephone threats, fired shots at the house but did not intend to injure any person, ordered and caused unwanted supplies to be delivered to her house, and poured paint remover over her motor car, as well as a car belonging to Ann Hughes, when the latter visited her.",
         "targets": [
-          {
-            "_itemAll": 43,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Rangi ya matini kawaida"
-          },
           {
             "_itemAll": 42,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Overriding font colour "
+            "targetText": "Katika wasilisho kwa Tume ya Ukweli na Maridhiano, Paul Erasmus, mfanyakazi wa siri, alisema kwamba kuanzia mwaka wa 1978 hadi mwishoni mwa miaka ya 1980, yeye na wenzake mara nyingi waliharibu mali ya Bi Joseph kwa kurusha mawe kupitia madirisha ya nyumba. nyumba yake, alitoa vitisho kwa simu, akafyatua risasi kwenye nyumba hiyo lakini hakukusudia kumdhuru mtu yeyote, akaamuru na kusababisha vifaa visivyohitajika vipelekwe nyumbani kwake, na kumimina kiondoa rangi kwenye gari lake, pamoja na gari la Ann. Hughes, wakati wa mwisho alipomtembelea."
+          },
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Katika wasilisho kwa Tume ya Ukweli na Maridhiano, Paul Erasmus, mfanyakazi wa siri, alisema kwamba kuanzia mwaka wa 1978 hadi mwishoni mwa miaka ya 1980, yeye na wenzake mara nyingi waliharibu mali ya Bi Joseph kwa kurusha kupitia madirisha ya nyumba. nyumba yake, alitoa vitisho kwa simu, akafyatua risasi kwenye nyumba hiyo lakini hakukusudia kumdhuru mtu yeyote, akaamuru na kusababisha vifaa visivyohitajika vipelekwe nyumbani kwake, na kumimina kiondoa rangi kwenye gari lake, pamoja na gari la Ann. Hughes, wakati wa mwisho alipomtembelea."
           }
         ],
         "targetsSize": 2
@@ -512,20 +512,20 @@
         "_item": 22,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1634134/13",
-        "sourceText": "Maneless zebras, a form of the plains zebra",
+        "sourceID": "1428254/15",
+        "sourceText": "The apartheid state's fear of her was puzzling: \"How a weary old girl, an ou tannie like me can be a threat to state security only they can say?\" Joseph is quoted as saying.[15] From the late 1970s, Christmas Day was \"Open Day\" at Helen Joseph's house for those involved in the anti-apartheid struggle. All comrades brought food and at 12 noon everyone raised their glasses to those imprisoned on Robben Island. (Apparently the Robben Islanders were aware of the ritual.) On 25 December 1992, Joseph was in hospital and the venue moved to 11 Plantation Road, The Gardens. Robben Island's prisoners had been released, and those present raised their glasses to Helen, who died shortly after.[16][17]",
         "targets": [
-          {
-            "_itemAll": 45,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Aina ya pundamilia tambarare"
-          },
           {
             "_itemAll": 44,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Pundamilia wasio na akili, aina ya pundamilia tambarare"
+            "targetText": "Hofu ya serikali ya ubaguzi wa rangi kwake ilikuwa ya kutatanisha: \"Jinsi gani msichana mzee aliyechoka, kama mimi anavyoweza kuwa tishio kwa usalama wa serikali tu ndio wanaweza kusema?\" Joseph amenukuliwa akisema. [1] Kuanzia mwishoni mwa miaka ya 1970, Siku ya Krismasi ilikuwa \"Siku ya Wazi\" katika nyumba ya Helen Joseph kwa wale waliohusika katika mapambano dhidi ya ubaguzi wa rangi. Wenzake wote walileta chakula na saa 12 jioni kila mtu aliinua miwani yake kwa wale waliofungwa katika kisiwa cha Robben. (Inaonekana Wakazi wa Kisiwa cha Robben walifahamu mila hiyo. ) Tarehe 25 Desemba 1992, Joseph alikuwa hospitalini na ukumbi ulihamia 11 Plantation Road, The Gardens. Wafungwa wa Robben Island walikuwa wameachiliwa, na waliokuwepo waliinua miwani yao kwa Helen, ambaye alifariki muda mfupi baadaye. [2] [3]"
+          },
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Hofu ya serikali ya ubaguzi wa rangi kwake ilikuwa ya kutatanisha: \"Jinsi gani mishanga mzee aliyechoka, Kama mimi anavyoweza kuwa tishio kwa usalama wa serikali tu ndio wanaweza kusema?\" Joseph amenukuliwa akisema. Kuanzia mwishoni mwa miaka ya 1970, Siku ya Krismasi ilikuwa \"Siku ya Wazi\" katika nyumba ya Helen Joseph kwa wale waliohusika katika mapambano dhidi ya ubaguzi wa rangi. Wenzake wote walileta chakula na saa sita jioni kilo mtu aliinua miwani yake kwa wale waliofungwa katika kisiwa cha Robben. (Inaonekana Wakazi wa Kisiwa cha Robben walifahamu mila hiyo. ) Tarehe 25 Desemba 1992, Joseph alikuwa hospitalini na ukumbi ulihamia 11 Plantation Road, The Gardens. Wafungwa wa Robben Island walikuwa wameachiliwa, na waliokuwepo waliinua miwani yao kwa Helen, ambaye alifariki muda mfupi baadaye."
           }
         ],
         "targetsSize": 2
@@ -535,20 +535,20 @@
         "_item": 23,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2032597/14",
-        "sourceText": "Export",
+        "sourceID": "1522324/6",
+        "sourceText": "Adams' career as a singer did not really succeed until she relocated to Abidjan, in Côte d'Ivoire.[1] With the assistance of Boncana Maïga, of Africando, she was able to start her career as a singer and release her debut album Journal Intime in 1994.[2]",
         "targets": [
-          {
-            "_itemAll": 46,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Hamisha"
-          },
           {
             "_itemAll": 47,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Biasharanje."
+            "targetText": "Kazi ya Adams kama mwimbaji hakufaulu kwenye kazi yake iyo hadi alipohamia Abidjan, nchini Côte d'Ivoire . [1] Kwa usaidizi wa Boncana Maïga, wa Africando, aliweza kuanza kazi yake kama mwimbaji na kutoa albamu yake ya kwanza Journal Intime mwaka wa 1994. [2]"
+          },
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kazi ya Adams kama mwimbaji haikufaulu kwa kweli hadi alipohamia Abidjan, nchini Côte d'Ivoire . [1] Kwa usaidizi wa Boncana Maïga, wa Africando, aliweza kuanza kazi yake kama mwimbaji na kutoa albamu yake ya kwanza Journal Intime mwaka wa 1994. [2]"
           }
         ],
         "targetsSize": 2
@@ -558,20 +558,20 @@
         "_item": 24,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "2479010/1197444582_4_24",
-        "sourceText": "Surname",
+        "sourceID": "1548295/0",
+        "sourceText": "A Bakuba woman embroidering a textile. Among the Bakuba it is the men who do the weaving, and the women do the embroidery and applique' work to their textiles.",
         "targets": [
-          {
-            "_itemAll": 49,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Jina la ukoo"
-          },
           {
             "_itemAll": 48,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Jina la familia"
+            "targetText": "Mwanamke wa Bakuba akishona nguo. Miongoni mwa Bakuba ni wanaume wanaofuma, na wanawake hufanya kazi ya kudarizi na kupaka nguo zao."
+          },
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mwanamke wa Bakuba akishona nguo. Miongoni mwa wanaume wa Bakuba huwa wanafuma, na wanawake hufanya kazi ya kudarizi na kunaksi nguo."
           }
         ],
         "targetsSize": 2
@@ -581,20 +581,20 @@
         "_item": 25,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1270695/10",
-        "sourceText": "Stylist",
+        "sourceID": "2558866/1214536228_0_2",
+        "sourceText": "Governmental proclamations to the 2014 Gaza War   Israel and Gaza Strip   States who supported Israel   States who called for an end to hostilities   States who condemned Israel",
         "targets": [
           {
             "_itemAll": 51,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Mtunzi wa mitindo"
+            "targetText": "Matamko ya kiserikali juu ya Vita vya Gaza 2014"
           },
           {
             "_itemAll": 50,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mtunzi"
+            "targetText": "Matangazo ya serikali kwa Vita vya Gaza 2014"
           }
         ],
         "targetsSize": 2
@@ -604,20 +604,20 @@
         "_item": 26,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1334433/8",
-        "sourceText": "Aboke abductions",
+        "sourceID": "1460225/2",
+        "sourceText": "Shamil Borchashvili (born 9 June 1995) is an Austrian judoka.[1][2] He immigrated to Wels, Austria with his family from Chechnya, Russia when he was a child.[3]",
         "targets": [
-          {
-            "_itemAll": 52,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Utekaji nyara"
-          },
           {
             "_itemAll": 53,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Utekaji nyara ulio fanyika huko Aboke."
+            "targetText": "Shamil Borchashvili (alizaliwa mnamo 9 Juni 1995) ni raia wa Austria na mwana judo . [1] [2] Alihamia Wels, Austria na familia yake kutoka Chechnya, Urusi alipokuwa mtoto. [3]"
+          },
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Shamil Borchashvili (alizaliwa mnamo 9 June 1995) ni wa Austria judoka . [1] [2] Alihamia Wels, Austria na familia yake kutoka Chechnya, Urusi alipokuwa mtoto. [3]"
           }
         ],
         "targetsSize": 2
@@ -627,20 +627,20 @@
         "_item": 27,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "2461352/1198366813_6_164",
-        "sourceText": "Topkapı Palace complex, Istanbul",
+        "sourceID": "1551285/4",
+        "sourceText": "He was born in the Eastern Region of Uganda, on 20 December 1972. He trained as a medical doctor at Makerere University School of Medicine from 1983 until 1998. He spent 1999, performing his mandatory pre-licensing internship.[2]",
         "targets": [
-          {
-            "_itemAll": 54,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Jumba la Jumba la Topkapı, Istanbul"
-          },
           {
             "_itemAll": 55,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Kasri la Topkapi, Istanbul"
+            "targetText": "Alizaliwa Mkoa wa Mashariki mwa Uganda, tarehe 20 Desemba 1972. Alisoma udaktari katika Shule ya Tiba Chuo Kikuu cha Makerere kuanzia 1983 hadi 1998. Aliutumia mwaka 1999, kufanya mazoezi yake kwa ajili ya leseni ya awali. [1]"
+          },
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Alizaliwa katika Mkoa wa Mashariki wa Uganda, tarehe 20 Desemba 1972. Alipata mafunzo ya udaktari katika Shule ya Tiba ya Chuo Kikuu cha Makerere kuanzia 1983 hadi 1998. Alitumia 1999, akifanya mazoezi yake ya lazima ya leseni ya awali. [1]"
           }
         ],
         "targetsSize": 2
@@ -650,20 +650,20 @@
         "_item": 28,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1804434/15",
-        "sourceText": "Early political career",
+        "sourceID": "1551637/4",
+        "sourceText": "Darrag was born in October 1958.[1] He holds a bachelor's degree in civil engineering and a master's degree in soil mechanics and foundations both of which he received from Cairo University in 1980 and 1984, respectively.[1][2] He also obtained a PhD in soil mechanics and foundations from Purdue University in 1987.[1][3]",
         "targets": [
-          {
-            "_itemAll": 56,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Kazi ya mapema ya kisiasa"
-          },
           {
             "_itemAll": 57,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Maisha yake ya awali katika siasa"
+            "targetText": "Darrag alizaliwa Oktoba 1958. [1] Ana shahada ya kwanza katika uhandisi wa ujenzi na shahada ya uzamili ya mechanics ya udongo na misingi aliyo ipata kutoka Chuo Kikuu cha Cairo mnamo 1980 na 1984. [1] [2] Alipata Shahada ya Uzamivu katika mechanics ya udongo na misingi kutoka Chuo Kikuu cha Purdue mwaka wa 1987. [1] [3]"
+          },
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Darrag alizaliwa Oktoba 1958. [1] Ana shahada ya kwanza katika uhandisi wa ujenzi na shahada ya uzamili katika mechanics ya udongo na misingi ambayo alipokea kutoka Chuo Kikuu cha Cairo mnamo 1980 na 1984, mtawalia. [1] [2] Alipata pia PhD katika mechanics ya udongo na misingi kutoka Chuo Kikuu cha Purdue mwaka wa 1987. [1] [3]"
           }
         ],
         "targetsSize": 2
@@ -673,20 +673,20 @@
         "_item": 29,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "400804/mwAw",
-        "sourceText": "Pressure as exerted by particle collisions inside a closed container",
+        "sourceID": "1556254/1",
+        "sourceText": "Abella published a journal, We Women (Nosotras), and was a contributor to the National Feminist League journal The New Woman.",
         "targets": [
           {
             "_itemAll": 58,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Shinikizo kama exerted na chembe ya migongano ndani ya chombo kufungwa"
+            "targetText": "Abella alichapisha jarida, Sisi Wanawake (Nosotras), na alikuwa mchangiaji wa jarida la Ligi ya Kitaifa ya Wanawake ya Mwanamke Mpya ."
           },
           {
             "_itemAll": 59,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Shinikizo kutoka migongano ya chembe ndani ya chombo kilichofungwa"
+            "targetText": "Abella alichapisha jarida la We Women(Nosotras), na alikuwa mchangiaji wa jarida la Ligi ya Kitaifa ya Wanawake la The New Woman."
           }
         ],
         "targetsSize": 2
@@ -696,20 +696,20 @@
         "_item": 30,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "760774/38",
-        "sourceText": "Mosaicist",
+        "sourceID": "2825940/1250798187_0_3",
+        "sourceText": "Since the Middle Ages the \"mountains of Ararat\" began to be identified with a mountain in present Turkey known as Masis or Ağrı Dağı; the mountain became known as Mount Ararat.[5][6]",
         "targets": [
-          {
-            "_itemAll": 61,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Msanii wa mozaiki"
-          },
           {
             "_itemAll": 60,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Musais"
+            "targetText": "Tangu Enzi za Kati \"milima ya Ararati\" ilianza kutambuliwa na mlima kwa sasa Uturuki inayojulikana kama Masis au Ağrı Dağı; mlima huo ukajulikana kama Mlima Ararati . [1] [2]"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tangu Enzi za Kati \"milima ya Ararati\" ilianza kutambuliwa na mlima uliopo Uturuki unayojulikana kama Masis au Ağrı Dağı; mlima huo ukajulikana kama Mlima Ararati . [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -719,20 +719,20 @@
         "_item": 31,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "153828/mwLQ",
-        "sourceText": "Wanyama playing for Celtic in 2012",
+        "sourceID": "1339328/1",
+        "sourceText": "Tasaccora, identifiable with the town of Sigi in modern Algeria,[1] was an ancient Roman town of the Roman province of Mauretania Caesariensis.",
         "targets": [
-          {
-            "_itemAll": 62,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Majumba ya kucheza kwa ajili ya Celtic katika 2012"
-          },
           {
             "_itemAll": 63,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Wanyama akichezea Celtic mwaka wa 2012"
+            "targetText": "Tasaccora, Mji unaotambulika kwa mji wa Sigi Algeria ya kisasa [1] ulikuwa mji wa kale wa Kirumi ndani ya mkoa wa Roma wa Mauretania Caesariensis ."
+          },
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tasaccora, zinazotambulika na mji wa Sigi kisasa Algeria, [1] alikuwa kale ya Kirumi mji wa mkoa wa Roma wa Mauretania Caesariensis ."
           }
         ],
         "targetsSize": 2
@@ -742,20 +742,20 @@
         "_item": 32,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "515079/mwBA",
-        "sourceText": "Net Migration Rate",
+        "sourceID": "1552253/4",
+        "sourceText": "When Phokela was a child he witnessed the Soweto uprising and later created memorials regarding the event,[3] including a statue of Teboho MacDonald Mashinini on the grounds of Morris Isaacson High School unveiled on 1 May 2010,[4] and a large sculptural mural of a book sitting in a lot opposite of the school.[3]",
         "targets": [
-          {
-            "_itemAll": 64,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Net Uhamiaji Kiwango Cha"
-          },
           {
             "_itemAll": 65,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Kiwango cha uhamiaji"
+            "targetText": "Phokela alipokuwa mtoto alishuhudia maasi ya Soweto na baadaye kutengeza kumbukumbu kuhusu tukio hilo, [1] ikiwa ni pamoja na sanamu ya Teboho MacDonald Mashinini iliyopo kwenye uwanja wa Shule ya Upili ya Morris Isaacson iliyozinduliwa mnamo 1 Mei 2010, [2] na sanamu kubwa ya kitabu kilichokaa kinyume kabisa na shule. [1]"
+          },
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Phokela alipokuwa mtoto alishuhudia maasi ya Soweto na baadaye kuunda kumbukumbu kuhusu tukio hilo, [1] ikiwa ni pamoja na sanamu ya Teboho MacDonald Mashinini kwenye uwanja wa Shule ya Upili ya Morris Isaacson iliyozinduliwa tarehe 1 Mei 2010, [2] na sanamu kubwa ya sanamu. ya kitabu kilichokaa kinyume kabisa na shule. [1]"
           }
         ],
         "targetsSize": 2
@@ -765,20 +765,20 @@
         "_item": 33,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1537566/3",
-        "sourceText": "Having grown up in Hamburg's Billstedt district,[1] Veit trained as a paralegal then a lawyer.",
+        "sourceID": "1635988/6",
+        "sourceText": "The park is bordered on the west by 120 km of the Atlantic Ocean's coast. The Cuanza River forms the northern boundary, while the Longa River constitutes the southern border.[1]",
         "targets": [
-          {
-            "_itemAll": 66,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Akiwa amekulia katika wilaya ya Billstedt ya Hamburg, [1] Veit alifunzwa kama mwanasheria kisha mwanasheria."
-          },
           {
             "_itemAll": 67,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Amekulia katika wilaya ya Billstedt ya Hamburg, [1] Veit akajifunza uwanasheria kisha akawa mwanasheria."
+            "targetText": "Hifadhi hiyo imepakana na km 120 upande wa magharibi wa pwani ya Bahari ya Atlantiki . Mto Cuanza unaunda mpaka wa kaskazini, wakati Mto Longa unaunda mpaka wa kusini. [1]"
+          },
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hifadhi hiyo imepakana na 120 upande wa magharibi km ya pwani ya Bahari ya Atlantiki . Mto Cuanza unaunda mpaka wa kaskazini, wakati Mto Longa unaunda mpaka wa kusini. [1]"
           }
         ],
         "targetsSize": 2
@@ -788,20 +788,20 @@
         "_item": 34,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "153412/mwLA",
-        "sourceText": "The Ikanga Air Strip is nearby.",
+        "sourceID": "153784/mwFQ",
+        "sourceText": "From 2008 to 2012, Mr. Kituyi was a member of a team of experts advising the presidents of the nations of the East African Community on how to establish more effective regional economic links.",
         "targets": [
-          {
-            "_itemAll": 69,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Uwanja mdogo wa ndege Ikanga Air Strip upo karibu na mji."
-          },
           {
             "_itemAll": 68,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ya Ikanga Air Strip ni jirani."
+            "targetText": "Kutoka 2008 hadi 2012, Mheshimiwa Kituyi alikuwa mjumbe wa timu ya wataalam wa kutoa ushauri kwa marais wa mataifa ya Jumuiya ya Afrika Mashariki juu ya jinsi ya kuanzisha na ufanisi zaidi kiuchumi katika kanda ya viungo."
+          },
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kutoka 2008 hadi 2012, Mheshimiwa Kituyi alikuwa mjumbe wa timu ya wataalam wa kutoa ushauri kwa marais wa mataifa ya Jumuiya ya Afrika Mashariki juu ya jinsi ya kuanzisha ufanisi zaidi kiuchumi katika kanda."
           }
         ],
         "targetsSize": 2
@@ -811,20 +811,20 @@
         "_item": 35,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "400374/mwWA",
-        "sourceText": "Old Operating Theatre in London",
+        "sourceID": "864920/12",
+        "sourceText": "Element 106 was named after Glenn T. Seaborg, a pioneer in the discovery of synthetic elements, with the name seaborgium (Sg).",
         "targets": [
-          {
-            "_itemAll": 71,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ukumbi wa zamani wa upasuaji, London"
-          },
           {
             "_itemAll": 70,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Umri wa Uendeshaji wa Ukumbi wa michezo katika London"
+            "targetText": "Element 106 alipewa jina la Glenn T. Seaborg, painia katika ugunduzi wa vitu vya syntetisk, kwa jina seaborgium (Sg)."
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Elementi 106 ilipewa jina la Glenn T. Seaborg, mtafiti wa elementi sintetiki, kwa jina seaborgium (Sg)."
           }
         ],
         "targetsSize": 2
@@ -834,20 +834,20 @@
         "_item": 36,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1168018/16",
-        "sourceText": "Elected as patriarch (1652)",
+        "sourceID": "1243000/39",
+        "sourceText": "The Fabaceae are placed in the order Fabales according to most taxonomic systems, including the APG III system.[2] The family now includes six subfamilies:[2]",
         "targets": [
           {
             "_itemAll": 73,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Kuchaguliwa kama Patriaki (1652)"
+            "targetText": "Fabaceae imewekwa katika oda ya Fabales kulingana na mifumo mingi ya uainishaji, ukiwemo mfumo wa APG III . Kwa sasa, familia sasa inajumuisha familia ndogo sita: [1]"
           },
           {
             "_itemAll": 72,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Alichaguliwa kama dume mkuu (1652)"
+            "targetText": "Fabaceae imewekwa katika mpangilio wa Fabales kulingana na mifumo mingi ya ushuru, pamoja na mfumo wa APG III . Familia sasa inajumuisha familia ndogo sita: [1]"
           }
         ],
         "targetsSize": 2
@@ -857,20 +857,20 @@
         "_item": 37,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "153828/mwATw",
-        "sourceText": "Wanyama is managed by ExtraTime[41] and has a boot sponsorship deal with Nike.[41]",
+        "sourceID": "1537659/1",
+        "sourceText": "Jennifer Barnhart (born March 11, 1972) is an American actress and puppeteer, with a portfolio of television and theatre performances.[1][2]",
         "targets": [
-          {
-            "_itemAll": 74,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Majumba ni kusimamiwa na ExtraTime[41] na ina boot udhamini kukabiliana na Nike.[41]"
-          },
           {
             "_itemAll": 75,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Wanyama anasimamiwa na ExtraTime[41] na ana mkataba wa udhamini na Nike.[41]"
+            "targetText": "Jennifer Barnhart (amezaliwa Machi 11, 1972) ni mwigizaji na mchezaji wa Kimarekani, wa maonyesho ya televisheni na majukwaa ya michezo. [1] [2]"
+          },
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Jennifer Barnhart (amezaliwa Machi 11, 1972) ni mwigizaji na mchezaji wa Kimarekani, na kwingineko ya maonyesho ya televisheni na ukumbi wa michezo. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -880,20 +880,20 @@
         "_item": 38,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1335839/0",
-        "sourceText": "St. Paul-Illaire (Allers)",
+        "sourceID": "1582131/1",
+        "sourceText": "Anthony \"Rebop\" Kwaku Baah[1] (13 February 1944 – 12 January 1983) was a Ghanaian percussionist who worked with the 1970s rock groups Traffic and Can.",
         "targets": [
-          {
-            "_itemAll": 76,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Mtakatifu Paul-Illaire (Wauzaji)"
-          },
           {
             "_itemAll": 77,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "St. Paul-Illaire"
+            "targetText": "Anthony \"Rebop\" Kwaku Baah [1] (13 Februari, 1944 – 12 Januari, 1983) alikuwa mwimbaji wa nyimbo kutoka Ghana ambaye alifanya kazi na vikundi kama Trafiki na Can mnamo miaka ya 1970."
+          },
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Anthony \"Rebop\" Kwaku Baah [1] (13 Februari 1944 – 12 Januari 1983) alikuwa mwimbaji wa nyimbo kutoka Ghana ambaye alifanya kazi na vikundi vya miondoko ya miamba ya miaka ya 1970 Trafiki na Can ."
           }
         ],
         "targetsSize": 2
@@ -903,20 +903,20 @@
         "_item": 39,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "400247/mwAg",
-        "sourceText": "The Parliament of Kenya is the bicameral legislature of Kenya.[2] It consists of two houses:",
+        "sourceID": "1601638/0",
+        "sourceText": "Abdi Bashiir Indhobuur was a Somali post and songwriter.[1] He wrote a song called Arligeygow, translated to mean My Land.[1]",
         "targets": [
           {
             "_itemAll": 79,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Bunge la Kenya ni bunge lenye vyumba viwili[2]  ambavyo ni:"
+            "targetText": "Abdi Bashiir Indhobuur alikuwa mtunzi wa nyimbo Kisomali. [1] Aliandika wimbo unaoitwa Arligeygow, uliotafsiriwa kumaanisha ardhi yangu. [1]"
           },
           {
             "_itemAll": 78,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ya Bunge la Kenya ni bicameral bunge la Kenya.[2] lina ya nyumba mbili:"
+            "targetText": "Abdi Bashiir Indhobuur alikuwa wadhifa wa Kisomali na mtunzi wa nyimbo. [1] Aliandika wimbo unaoitwa Arligeygow, uliotafsiriwa kumaanisha Ardhi Yangu. [1]"
           }
         ],
         "targetsSize": 2
@@ -926,20 +926,20 @@
         "_item": 40,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1548846/0",
-        "sourceText": "Veldskoene or \"Vellies\" made by Bata Shoes, Leather is forever 2015",
+        "sourceID": "1248055/29",
+        "sourceText": "On September 2, the music video for the Spanish version of \"Na Na Na\" was released and On September 11, the single was released on digital platforms.[20]",
         "targets": [
-          {
-            "_itemAll": 80,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Veldskoene au \"Vellies\" iliyofanywa na Viatu vya Bata, Ngozi ni milele 2015"
-          },
           {
             "_itemAll": 81,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Veldskoene au \"Vellies\" vilivyotengenezwa na Bata Shoes mnamo 2015"
+            "targetText": "Mnamo Septemba 2, video ya muziki ya toleo la Uhispania la \"Na Na Na\" ilitolewa na ilipofika Septemba 11, wimbo huo ulisambazwa kwenye majukwaa ya kidijitali. [1]"
+          },
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mnamo Septemba 2, video ya muziki ya toleo la Uhispania la \"Na Na Na\" ilitolewa na Septemba 11, moja ilitolewa kwenye majukwaa ya dijiti. [1]"
           }
         ],
         "targetsSize": 2
@@ -949,20 +949,20 @@
         "_item": 41,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "2483568/1210958700_6_18",
-        "sourceText": "External links",
+        "sourceID": "1334556/2",
+        "sourceText": "Kamid el-Loz, also spelled Kamid al-Lawz, is located in West Bekaa, Lebanon. Its population numbers several thousand, mostly Sunni, people.[1]",
         "targets": [
           {
             "_itemAll": 83,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Linki za nje"
+            "targetText": "Kamid el-Loz, pia imeandikwa Kamid al-Lawz, iko magharibi mwa Bekaa, Lebanon . idadi ya wakazi wake ni elfu kadhaa, haswa Wasunni. [1]"
           },
           {
             "_itemAll": 82,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Viungo vya nje"
+            "targetText": "Kamid el-Loz, pia imeandikwa Kamid al-Lawz, iko katika West Bekaa, Lebanon . Idadi ya idadi yake ni elfu kadhaa, haswa Wasunni, watu. [1]"
           }
         ],
         "targetsSize": 2
@@ -972,20 +972,20 @@
         "_item": 42,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1380271/3",
-        "sourceText": "Chehregani was supported by the United States during the Bush administration, according to William O. Beeman.[2]",
+        "sourceID": "1551590/1",
+        "sourceText": "Khalil received a BS and MS from Cairo University in 1973 and 1975 respectively, and a PhD from the University of Illinois in 1978. He became an assistant professor at MSU at 1978, and became a University Distinguished Professor in 2003.[2]",
         "targets": [
-          {
-            "_itemAll": 85,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Chehregani aliungwa mkono na Marekani katika utawala wa Bush kulingana na William O. Beeman.[1]"
-          },
           {
             "_itemAll": 84,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Chehregani mara kwa msaada mkono Marekani katika Bush, kwa mujibu wa William O. Beeman . [1]"
+            "targetText": "Khalil alipokea BS na MS kutoka Chuo Kikuu cha Cairo mnamo 1973 na 1975 mtawalia, na PhD kutoka Chuo Kikuu cha Illinois mnamo 1978. Alikua profesa msaidizi katika MSU mnamo 1978, na kuwa Profesa Mtukufu wa Chuo Kikuu mnamo 2003. [1]"
+          },
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Khalil alipokea BS na MS kutoka Chuo Kikuu cha Cairo mnamo 1973 na 1975 na PhD kutoka Chuo Kikuu cha Illinois mnamo 1978. Alikua profesa msaidizi wa MSU mnamo 1978, na kuwa Profesa kamili wa Chuo Kikuu mnamo 2003. [1]"
           }
         ],
         "targetsSize": 2
@@ -995,20 +995,20 @@
         "_item": 43,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "828653/2",
-        "sourceText": "A household insecticde",
+        "sourceID": "1601039/2",
+        "sourceText": "Vusi Ximba (1939 – 2011) was a South African musician, songwriter and comedian and satirist best known for his comic style of music and skit-like performances.",
         "targets": [
-          {
-            "_itemAll": 86,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Mdudu wa kaya"
-          },
           {
             "_itemAll": 87,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Kiuawadudu cha nyumbani"
+            "targetText": "Vusi Ximba (1939 – 2011) alikuwa mwanamuziki wa nchini Afrika Kusini, mtunzi wa nyimbo na mcheshaji aliyejulikana zaidi kwa mtindo wake wa vichekesho vya muziki na maonyesho."
+          },
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Vusi Ximba (1939 – 2011) alikuwa mwanamuziki wa Afrika Kusini, mtunzi wa nyimbo na mcheshi na mcheshi anayejulikana zaidi kwa mtindo wake wa vichekesho wa muziki na maonyesho kama ya kuteleza."
           }
         ],
         "targetsSize": 2
@@ -1018,20 +1018,20 @@
         "_item": 44,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "986226/10",
-        "sourceText": "Associate members",
+        "sourceID": "1636757/1",
+        "sourceText": "Yangudi Rassa National Park (Amharic: ያንጉዲ ራሳ ብሔራዊ ፓርክ, romanized: yanigudī rasa biḥērawī pariki) is a national park in Ethiopia located in Afar Region.",
         "targets": [
           {
             "_itemAll": 88,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Washirika wa washirika"
+            "targetText": "Hifadhi ya Kitaifa ya Yangudi Rassa ( Amharic iliyofanywa kwa ) ni mbuga ya wanyama nchini Ethiopia iliyoko katika Mkoa wa Afar ."
           },
           {
             "_itemAll": 89,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Wanachama shirikishi"
+            "targetText": "Hifadhi ya Taifa ya Yangudi Rassa, ni mbuga ya wanyama nchini Ethiopia iliyoko katika Mkoa wa Afar ."
           }
         ],
         "targetsSize": 2
@@ -1041,20 +1041,20 @@
         "_item": 45,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1589389/3",
-        "sourceText": "Personal",
+        "sourceID": "1551602/3",
+        "sourceText": "Born in Egypt in 1943, Sedra received his B.Sc. from Cairo University in 1964 and his M.A.Sc. and Ph.D. from the University of Toronto, in 1968 and 1969, respectively. All three of his degrees are in electrical engineering.",
         "targets": [
-          {
-            "_itemAll": 90,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Binafsi"
-          },
           {
             "_itemAll": 91,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Maisha binafsi"
+            "targetText": "Mzaliwa wa Misri mwaka 1943, Sedra alipokea B.Sc. kutoka Chuo Kikuu cha Cairo mnamo 1964 na MASc yake. na Shahada ya uzamivu kutoka Chuo Kikuu cha Toronto, mnamo 1968 na 1969. Digrii zake zote tatu ni za uhandisi wa umeme."
+          },
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mzaliwa wa Misri mwaka wa 1943, Sedra alipokea B.Sc. kutoka Chuo Kikuu cha Cairo mnamo 1964 na MASc yake. na Ph.D. kutoka Chuo Kikuu cha Toronto, mnamo 1968 na 1969, mtawaliwa. Digrii zake zote tatu ni za uhandisi wa umeme."
           }
         ],
         "targetsSize": 2
@@ -1064,20 +1064,20 @@
         "_item": 46,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "153828/mwSw",
-        "sourceText": "Wanyama with Southampton in September 2014",
+        "sourceID": "1636407/5",
+        "sourceText": "Most of the park lies is covered in dry bushlands, thickets, and grasslands, part of the Somali Acacia–Commiphora bushlands and thickets ecoregion.[3]",
         "targets": [
-          {
-            "_itemAll": 93,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Wanyama akiwa na Southampton  Septemba 2014"
-          },
           {
             "_itemAll": 92,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Majumba na Southampton katika septemba 2014"
+            "targetText": "Sehemu kubwa ya mbuga hii imefunikwa na vichaka, vichaka, na nyanda za nyasi, sehemu ya misitu ya Somalia ya Acacia–Commiphora na eneo la vichaka . [1]"
+          },
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Sehemu kubwa ya mbuga hii imefunikwa na vichaka na nyanda za nyasi, sehemu ya misitu ya Somalia ya Acacia–Commiphora. [1]"
           }
         ],
         "targetsSize": 2
@@ -1087,20 +1087,20 @@
         "_item": 47,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "407367/a5ed2a432c76374484d45995896801",
-        "sourceText": "Political activist and trade union leader",
+        "sourceID": "762979/8",
+        "sourceText": "Río Negro (Central America), forming part of the border between Honduras and Nicaragua Chixoy River, also known as the Río Negro, in Guatemala",
         "targets": [
-          {
-            "_itemAll": 94,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Mwanaharakati wa kisiasa na biashara ya umoja wa kiongozi"
-          },
           {
             "_itemAll": 95,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Mwanaharakati wa kisiasa na kiongozi wa chama cha wafanyakazi"
+            "targetText": "Rio Negro (Amerika ya Kati), kwenye mpaka wa Honduras na Nikaragua Mto Chixoy, unaojulikana pia kama Rio Negro, huko Guatemala"
+          },
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Río Negro (Amerika ya Kati), wakitengeneza sehemu ya mpaka kati ya Honduras na Nicaragua Mto Chixoy, unaojulikana pia kama Río Negro, huko Guatemala"
           }
         ],
         "targetsSize": 2
@@ -1110,20 +1110,20 @@
         "_item": 48,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2483568/1210958700_3_10",
-        "sourceText": "Development and casting",
+        "sourceID": "1339250/4",
+        "sourceText": "The Diocese of Tabuda (Tabudensis) is a suppressed and titular see of the Roman Catholic Church in the province of Numidia.[2][3]",
         "targets": [
           {
             "_itemAll": 96,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Maendeleo na akitoa"
+            "targetText": "Dayosisi ya Tabuda ( Tabudensis ) ni mkutano uliokandamizwa na wenye jina la Kanisa Katoliki la Roma katika mkoa wa Numidia . [1] [2]"
           },
           {
             "_itemAll": 97,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Utengenezwaji na Uigizaji"
+            "targetText": "Dayosisi ya Tabuda ( Tabudensis ) ilikandamizwa na wenye jina la Kanisa Katoliki la Roma katika mkoa wa Numidia . [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -1133,20 +1133,20 @@
         "_item": 49,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1632271/4",
-        "sourceText": "This 262.75 ha (649.3 acres) reserve was designated in 1990.[1]",
+        "sourceID": "2050179/21",
+        "sourceText": "Tommy Ridgley Eddie Bo Edgar Blanchard Bill Sinigal Irving Banister Patsy Vidalia Marcia Ball Dr. John Allen Toussaint Hugh Laurie Skip Easterling[26] Danny White[27]",
         "targets": [
           {
             "_itemAll": 98,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Hii 262.75 hifadhi ya iliteuliwa mwaka wa 1990. [1]"
+            "targetText": "Tommy Ridgley Eddie Bo Edgar Blanchard Bill Sinigal Irving Banister Patsy Vidalia Mpira wa Marcia Dkt John Allen Toussaint Hugh Laurie Ruka Pasaka [1] Danny White [2]"
           },
           {
             "_itemAll": 99,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Hifadhi yenye ukubwa wa hektari 262.75 ilianzishwa mwaka 1990. [1]"
+            "targetText": "Tommy Ridgley Eddie Bo Edgar Blanchard Bill Sinigal Irving Banister Patsy Vidalia Marcia Ball Dr. John Allen Toussaint Hugh Laurie Skip Easterling[1] Danny White[2]"
           }
         ],
         "targetsSize": 2

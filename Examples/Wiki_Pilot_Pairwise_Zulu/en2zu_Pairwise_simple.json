@@ -6,20 +6,20 @@
         "_item": 0,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1814908/1118754329_0_0",
-        "sourceText": "Computer simulation, one of the main cross-computing methodologies.[1]",
+        "sourceID": "1823733/1120703149_0_3",
+        "sourceText": "Orion is a prominent constellation located on the celestial equator and visible throughout the world. It is one of the most conspicuous[1] and recognizable constellations in the night sky.[2] It is named after Orion, a hunter in Greek mythology. Its brightest stars are blue-white Rigel (Beta Orionis) and red Betelgeuse (Alpha Orionis).",
         "targets": [
-          {
-            "_itemAll": 1,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Umfefenyeko wesiCikizi, puyutha, enye yezindlelasu eziyinhloko zokukicikza malunga. [1]"
-          },
           {
             "_itemAll": 0,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ukulingiswa kwekhompuyutha, enye yezindlela eziyinhloko ze-cross-computing. [1]"
+            "targetText": "I- Orion iyiqoqo lezinkanyezi elivelele elitholakala enkabazwe yasezulwini futhi libonakala emhlabeni wonke."
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "ImPambano isishomo esivelele esitholakala enkabazwe yasezulwini futhi esibonakala noma ikuphi emhlabeni wonke."
           }
         ],
         "targetsSize": 2
@@ -29,20 +29,20 @@
         "_item": 1,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2127423/1145942820_0_1",
-        "sourceText": "The three naturally occurring isotopes of hydrogen. The fact that each isotope has one proton makes them all variants of hydrogen: the identity of the isotope is given by the number of protons and neutrons. From left to right, the isotopes are protium (1H) with zero neutrons, deuterium (2H) with one neutron, and tritium (3H) with two neutrons.",
+        "sourceID": "1981568/1139674032_0_3",
+        "sourceText": "Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of data[1] and information. IT forms part of information and communications technology (ICT).[2] An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system — including all hardware, software, and peripheral equipment — operated by a limited group of IT users.",
         "targets": [
           {
             "_itemAll": 2,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ama -isotopes amathathu e-hydrogen avela ngokwemvelo ."
+            "targetText": "Ubuchwepheshe bolwazi ( IT ) wukusetshenziswa kwamakhompuyutha ukwakha, ukucubungula, ukugcina, ukubuyisa nokushintshanisa zonke izinhlobo zedatha [1] nolwazi ."
           },
           {
             "_itemAll": 3,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "AmaChembe amathathu weHwanzi avela ngokwemvelo ."
+            "targetText": "Ubuchwepheshe bokwaziswa ( IT ) buwukusetshenziswa kweziCikizi ukwakha, ukudludlunga, ukugcina, ukubuyisa nokushintshanisa zonke izinhlobo zemininingo [1] nokwaziswa ."
           }
         ],
         "targetsSize": 2
@@ -52,20 +52,20 @@
         "_item": 2,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "911139/8",
-        "sourceText": "Practice",
+        "sourceID": "2133463/1157829037_0_1",
+        "sourceText": "Erbium is a chemical element with the symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements. It is a lanthanide, a rare-earth element, originally found in the gadolinite mine in Ytterby, Sweden, which is the source of the element's name.",
         "targets": [
-          {
-            "_itemAll": 5,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ukwenza"
-          },
           {
             "_itemAll": 4,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Prakthiza"
+            "targetText": "I-Erbium iyikhemikhali enophawu u- Er kanye nenombolo ye-athomu engu-68."
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "INdwembi inhlwa yevanga hemikhali enophawu ani lobuchwemblingama ye-athomu engu-68."
           }
         ],
         "targetsSize": 2
@@ -75,20 +75,20 @@
         "_item": 3,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1796937/1116741022_0_3",
-        "sourceText": "In physics, a force is an influence that can change the motion of an object. A force can cause an object with mass to change its velocity (e.g. moving from a state of rest), i.e., to accelerate. Force can also be described intuitively as a push or a pull. A force has both magnitude and direction, making it a vector quantity. It is measured in the SI unit of newton (N). Force is represented by the symbol F (formerly P).",
+        "sourceID": "1397710/2",
+        "sourceText": "Malakal is the smaller of two international airports in South Sudan. The largest, Juba International Airport, lies approximately 521 kilometres (281 NM) to the south in the capital city of Juba.",
         "targets": [
           {
             "_itemAll": 6,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ku- physics, amandla ithonya elingashintsha ukunyakaza kwento ."
+            "targetText": "IMalakal iyisikhumulo esincane sezindiza ezimbili zomhlaba wonke eSouth Sudan. Isikhumulo sezindiza esikhulu kunazo zonke, iJuba International Airport, silele cishe 521 kilometres (281 NM) eningizimu enhlokodolobha yaseJuba ."
           },
           {
             "_itemAll": 7,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ku- mchazandalo, isiphoqi ithonya elingashintsha umdiki wento ."
+            "targetText": "IMalakal iyisikhumulo esincane sezindiza ezimbili zomhlaba wonke eSouth Sudan. Isikhumulo sezindiza esikhulu kunazo zonke, iJuba International Airport, eningizimu enhlokodolobha yaseJuba ."
           }
         ],
         "targetsSize": 2
@@ -98,20 +98,20 @@
         "_item": 4,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2699090/1236138100_3_19",
-        "sourceText": "Modern bedrooms",
+        "sourceID": "1791820/1116542504_0_4",
+        "sourceText": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.[lower-alpha 1]",
         "targets": [
           {
             "_itemAll": 9,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "aMalawu esimanje."
+            "targetText": "uHlakahlisombulu ( AI ) ubuhlakani obuboniswa izinguxa, obuphambene nobuhlakani bemvelo obuboniswa izilwane nabantu ."
           },
           {
             "_itemAll": 8,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Amakamelo okulala anamuhla"
+            "targetText": "I-Artificial intelligence ( AI ) iwubuhlakani obuboniswa yimishini, ngokuphambene nobuhlakani bemvelo obuboniswa izilwane nabantu ."
           }
         ],
         "targetsSize": 2
@@ -121,20 +121,20 @@
         "_item": 5,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1799359/1",
-        "sourceText": "Various types of data which can be visualized through a computer device",
+        "sourceID": "1908049/1129355191_0_1",
+        "sourceText": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh, or after storage using preservation techniques by canning, freezing, or dehydration. It may be eaten cooked or raw, and the taste differs considerably; the high oxalate content may be reduced by steaming.",
         "targets": [
           {
             "_itemAll": 11,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Izinhlobo ezahlukahlukene zemininingo engabonwa ngesilekeleli esiyisiCikizi"
+            "targetText": "Umkleshe ( Spinacia oleracea ) isitshalo esiqhakazayo samaqabunga ayimifino esidabuka enkabeni nasentshonalanga ye-Asia ."
           },
           {
             "_itemAll": 10,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Izinhlobo ezahlukahlukene zedatha ezingabonwa ngedivayisi yekhompyutha"
+            "targetText": "Isipinashi ( Spinacia oleracea ) isitshalo esinezimbali esinamaqabunga esiluhlaza esidabuka enkabeni nasentshonalanga ye-Asia ."
           }
         ],
         "targetsSize": 2
@@ -144,20 +144,20 @@
         "_item": 6,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1906190/1130230093_0_2",
-        "sourceText": "Bromine is a chemical element with the symbol Br and atomic number 35. It is the third-lightest element in group 17 of the periodic table (halogens) and is a volatile red-brown liquid at room temperature that evaporates readily to form a similarly coloured vapour. Its properties are intermediate between those of chlorine and iodine. Isolated independently by two chemists, Carl Jacob Löwig (in 1825) and Antoine Jérôme Balard (in 1826), its name was derived from the Ancient Greek βρῶμος (bromos) meaning \"stench\", referring to its sharp and pungent smell.",
+        "sourceID": "1932832/1123528470_0_0",
+        "sourceText": "A birth certificate is a vital record that documents the birth of a person. The term \"birth certificate\" can refer to either the original document certifying the circumstances of the birth or to a certified copy of or representation of the ensuing registration of that birth. Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor.",
         "targets": [
-          {
-            "_itemAll": 12,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I- Bromine iyikhemikhali enophawu Br kanye nenombolo ye-athomu engu- 35."
-          },
           {
             "_itemAll": 13,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "UmBhulufu inhlwa yevanga enophawu Br kanye nenani lobuchwe elingam- 35."
+            "targetText": "Isifakazelo sokuzalwa siyisiqoshwa esimqoka esiqopha ukuzalwa komuntu ."
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isitifiketi sokuzalwa siyirekhodi elibalulekile elibhala ukuzalwa komuntu ."
           }
         ],
         "targetsSize": 2
@@ -167,20 +167,20 @@
         "_item": 7,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1804818/1113965585_0_3",
-        "sourceText": "Hydrogen is the chemical element with the symbol H and atomic number 1. Hydrogen is the lightest element. At standard conditions hydrogen is a gas of diatomic molecules having the formula  H2. It is colorless, odorless, tasteless,[1] non-toxic, and highly combustible. Hydrogen is the most abundant chemical substance in the universe, constituting roughly 75% of all normal matter.[2][note 1] Stars such as the Sun are mainly composed of hydrogen in the plasma state. Most of the hydrogen on Earth exists in molecular forms such as water and organic compounds. For the most common isotope of hydrogen (symbol 1H) each atom has one proton, one electron, and no neutrons.",
+        "sourceID": "2010513/3",
+        "sourceText": "White trash is a derogatory racial and class-related slur[1][2] used in American English to refer to poor white people, especially in the rural areas of the southern United States. The label signifies a social class inside the white population and especially a degraded standard of living.[3] It is used as a way to separate the \"noble and hardworking\" \"good poor\" from the lazy, \"undisciplined, ungrateful and disgusting\" \"bad poor\". The use of the term provides middle- and upper-class whites a means of distancing themselves from the poverty and powerlessness of poor whites, who cannot enjoy those privileges, as well as a way to disown their perceived behavior.[1]",
         "targets": [
           {
             "_itemAll": 15,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "IHwanzi liyinhlwa yevanga enophawu H kanye nenani lobuchwe 1."
+            "targetText": "Udoti omhlophe inhlamba eyinhlamba yobuhlanga nehlobene nezigaba [1] [2] esetshenziswa ngesiNgisi saseMelika ukuze kubhekiselwe kondlebe zikhanya ilanga abaswele, ikakhulukazi ezindaweni zasemaphandleni eningizimu ye-United States .Le ilebula ,isho isigaba senhlalo phakathi kwabamhlophe futhi ikakhulukazi izinga lokuphila elehlisiwe. [3],, Isetshenziswa njengendlela yokwehlukanisa \"abahloniphekile nabakhuthele\" \"abampofu abahle\" kumavila, \"abangaqondi, abangabongi nabanengekayo\" \"abamhlophe ababi\". Ukusetshenziswa kwaleli gama kunikeza abamhlophe bezinga eliphakathi naphezulu indlela yokuziqhelelanisa nobumpofu nokungabi namandla kwabamhlophe abaswele, abangakwazi ukujabulela lawo malungelo, kanye nendlela yokuphika ukuziphatha kwabo abakubonayo. [1]"
           },
           {
             "_itemAll": 14,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "IHydrojeni iyikhemikhali enophawu H kanye nenombolo ye-athomu 1."
+            "targetText": "Udoti omhlophe inhlamba eyinhlamba yobuhlanga nehlobene nezigaba [1] [2] esetshenziswa ngesiNgisi saseMelika ukuze kubhekiselwe kubantu abamhlophe abampofu, ikakhulukazi ezindaweni zasemaphandleni eningizimu ye-United States . Ilebula isho isigaba senhlalo phakathi kwabamhlophe futhi ikakhulukazi izinga lokuphila elehlisiwe. [3] Isetshenziswa njengendlela yokwehlukanisa \"abahloniphekile nabakhuthele\" \"abampofu abahle\" kumavila, \"abangaqondi, abangabongi nabanengekayo\" \"abampofu ababi\". Ukusetshenziswa kwaleli gama kunikeza abamhlophe bezinga eliphakathi naphezulu indlela yokuziqhelelanisa nobumpofu nokungabi namandla kwabamhlophe abampofu, abangakwazi ukujabulela lawo malungelo, kanye nendlela yokuphika ukuziphatha kwabo abakubonayo. [1]"
           }
         ],
         "targetsSize": 2
@@ -190,20 +190,20 @@
         "_item": 8,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1880625/1125892623_0_2",
-        "sourceText": "A person using a smartphone",
+        "sourceID": "903049/1",
+        "sourceText": "Before prohibition against the plant was lifted in 2018 advocates pressured the government to modify its laws, which first restricted cannabis in 1922, to allow exemptions for medical use, religious practices, and other purposes. Dagga (Afrikaans pronunciation: [/ˈdaχa/]), is the Afrikaans term commonly referred to for cannabis; it derives from the Khoikhoi word dacha, which was used by the early European colonial settlers in the Western Cape.[3]",
         "targets": [
           {
             "_itemAll": 17,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Isandla somuntu esebenzisa uMakhalipha"
+            "targetText": "Ngaphambi kokuthi kuvinjelwe ukwenqatshelwa kwesitshalo ngo-2018 abameli babecindezela uhulumeni ukuthi aguqule imithetho yawo, eyayiqale yavimbela i-cannabis ngo-1922, ukuvumela 9999 ukuxolelwa kokusetshenziswa kwezokwelapha, imikhuba yezenkolo, nezinye izinhloso. I-Dagga ( iphimbo Afrikaans pronunciation: ), igama lesiBhunu elivame ukubhekiselwa kulo kwelenabis; lisuselwa kwelesiKhoikhoi elithi dacha, elalisetshenziswa izifiki zokuqala zaseYurophu ezazingamakholoni eNtshonalanga Kapa. [1]"
           },
           {
             "_itemAll": 16,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Umuntu osebenzisa i-smartphone"
+            "targetText": "Ngaphambi kokuthi kuvinjelwe ukwenqatshelwa kwesitshalo ngo-2018 abameli babecindezela uhulumeni ukuthi aguqule imithetho yawo, eyayiqale yavimbela i-cannabis ngo-1922, ukuvumela ukuxolelwa kokusetshenziswa kwezokwelapha, imikhuba yezenkolo, nezinye izinhloso. I-Dagga ( iphimbo Afrikaans pronunciation: ), igama lesiBhunu elivame ukubhekiselwa kulo kwelenabis; lisuselwa kwelesiKhoikhoi elithi dacha, elalisetshenziswa izifiki zokuqala zaseYurophu ezazingamakholoni eNtshonalanga Kapa. [1]"
           }
         ],
         "targetsSize": 2
@@ -213,20 +213,20 @@
         "_item": 9,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1935197/1127722093_0_1",
-        "sourceText": "Surveillance cameras",
+        "sourceID": "2077650/33",
+        "sourceText": "Multicultural education can be implemented on the macro-level with the implementation of programs and culture at the school-wide or district-wide level and also at the mico-level by specific teachers within their individual classrooms.",
         "targets": [
-          {
-            "_itemAll": 18,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Amakhamera okuqapha"
-          },
           {
             "_itemAll": 19,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Izithwebuli zokudlozabukhoma"
+            "targetText": "Imfundo yamasiko amaningi ingasetshenziswa ezingeni elikhulu ngokuqaliswa kwezinhlelo namasiko ezingeni lesikole futhi nasezingeni elincane ngothisha abathile ngaphakathi kwamakilasi abo ngabanye."
+          },
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Imfundo yamasiko amaningi ingasetshenziswa ezingeni elikhulu ngokuqaliswa kwezinhlelo namasiko ezingeni lesikole sonke noma lesifunda sonkana futhi nasezingeni elincane ngothisha abathile ngaphakathi kwamakilasi abo ngabanye."
           }
         ],
         "targetsSize": 2
@@ -236,20 +236,20 @@
         "_item": 10,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "754528/12",
-        "sourceText": "Supreme Court of Appeal",
+        "sourceID": "2736774/1242535807_0_1",
+        "sourceText": "The members of political parties, such as those of the Indian National Congress (INC)(pictured), coordinate to collectively achieve and use political power.",
         "targets": [
           {
             "_itemAll": 21,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Inkantolo Ephakeme Yama-aphili"
+            "targetText": "Amalungu wamaqembu ezombusazwe, njI-Indian engalawo e-National Congress (INC) (esithombeni), ahlangana ukuze afinyelele futhi asebenzise amandla ezombusazwa."
           },
           {
             "_itemAll": 20,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Inkantolo Ephakeme Yokudlulisa Amacala"
+            "targetText": "Amalungu amaqembu ezombusazwe, njengalawo e-I-Indian National Congress (INC) (esithombeni), ahlangana ukuze afinyelele futhi asebenzise amandla ezombusazwa."
           }
         ],
         "targetsSize": 2
@@ -259,20 +259,20 @@
         "_item": 11,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1308783/5",
-        "sourceText": "External links",
+        "sourceID": "2737534/1240897194_0_2",
+        "sourceText": "Statistics on rape and other acts of sexual assault are commonly available in industrialized countries, and have become better documented throughout the world. Inconsistent definitions of rape, different rates of reporting, recording, prosecution and conviction for rape can create controversial statistical disparities, and lead to accusations that many rape statistics are unreliable or misleading.[1][2]",
         "targets": [
-          {
-            "_itemAll": 23,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Imithombo engaphandle"
-          },
           {
             "_itemAll": 22,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Izixhumanisi zangaphandle"
+            "targetText": "Izibalo zokudlwengula nezinye izenzo zokuhlukunyezwa ngokobulili zivame ukutholakala emazweni anezimboni, futhi ziye zabhalwa kangcono emhlabeni wonke. Izincazelo ezingavumelani ukudlwengula, amazinga ahlukahlukene okubika, ukuqopha, ukushushiswa kanye nokugwetshwa ngokudlwengulwa kungabangela ukungalingani kwezibalo okuphikisayo, futhi kuholele ekumangalelweni kokuthi izibalo eziningi zokudlulwa azithembekile noma zidukuthayo.[1][2]"
+          },
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Izibalo zokudlwengula kanye nezinye izenzo zokuhlukunyezwa ngokobulili ezivame ukutholakala emazweni anezimboni, futhi ziye zabhalwa kangcono emhlabeni wonke. Izincazelo ezingavumelani ukudlwengula, amazinga ahlukahlukene okubika, ukuqopha, ukushushiswa kanye nokugwetshwa ngokudlwengulwa kungabangela ukungalingani kwezibalo okuphikisayo, kuphinde kuholele ekumangalelweni kokuthi izibalo eziningi zokudlulwa azithembekile noma .[1][2]"
           }
         ],
         "targetsSize": 2
@@ -282,20 +282,20 @@
         "_item": 12,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1905416/1129468186_0_3",
-        "sourceText": "Chlorine is a chemical element with the symbol Cl and atomic number 17. The second-lightest of the halogens, it appears between fluorine and bromine in the periodic table and its properties are mostly intermediate between them. Chlorine is a yellow-green gas at room temperature. It is an extremely reactive element and a strong oxidising agent: among the elements, it has the highest electron affinity and the third-highest electronegativity on the revised Pauling scale, behind only oxygen and fluorine.",
+        "sourceID": "1840366/1109458328_0_1",
+        "sourceText": "Public records are documents or pieces of information that are not considered confidential and generally pertain to the conduct of government.",
         "targets": [
-          {
-            "_itemAll": 24,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I- Chlorine iyikhemikhali enophawu Cl kanye nenombolo ye-athomu engu- 17."
-          },
           {
             "_itemAll": 25,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "IChwenzi inhlwa eyisiqa enophawu Cl kanye nenani lobuchwe eliyi- 17."
+            "targetText": "Iziqoshwa zomphakathi ziyimibhalo noma izingcezu zokwaziswa ezingeyona imfihlo futhi ngokuvamile eziphathelene nokuziphatha kukahulumeni."
+          },
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amarekhodi omphakathi ayimibhalo noma izingcezu zolwazi ezingabhekwa njengeziyimfihlo futhi ngokuvamile eziphathelene nokuziphatha kukahulumeni."
           }
         ],
         "targetsSize": 2
@@ -305,20 +305,20 @@
         "_item": 13,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1906194/1126692189_0_2",
-        "sourceText": "Iodine is a chemical element with the symbol I and atomic number 53. The heaviest of the stable halogens, it exists as a semi-lustrous, non-metallic solid at standard conditions that melts to form a deep violet liquid at 114 °C (237 °F), and boils to a violet gas at 184 °C (363 °F). The element was discovered by the French chemist Bernard Courtois in 1811 and was named two years later by Joseph Louis Gay-Lussac, after the Ancient Greek Ιώδης 'violet-coloured'.",
+        "sourceID": "2061010/1150155071_0_1",
+        "sourceText": "Commercial FM broadcasting transmitter at radio station WDET-FM, Wayne State University, Detroit, USA. It broadcasts at 101.9 MHz with a radiated power of 48 kW.",
         "targets": [
-          {
-            "_itemAll": 27,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Inkwithi iyinhlwa yevanga enophawu I kanye nenani lobuchwe elingam- 53."
-          },
           {
             "_itemAll": 26,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Iodine iyikhemikhali enophawu I kanye nenombolo ye-athomu engu- 53."
+            "targetText": "Umsakazi wezohwebo FM esiteshini somsakazo i-WDET-FM, Wayne State University, Detroit, USA."
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Isifufukisi sokusakaza nge-FM sezentengiselwano esiteshini somsakazo i-WDET-FM, Wayne State University, Detroit, USA."
           }
         ],
         "targetsSize": 2
@@ -328,20 +328,20 @@
         "_item": 14,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1858286/1122848710_0_2",
-        "sourceText": "A logo for Bitcoin, the first decentralized cryptocurrency",
+        "sourceID": "2091329/1153941612_0_1",
+        "sourceText": "The lymphatic system, or lymphoid system, is an organ system in vertebrates that is part of the immune system, and complementary to the circulatory system. It consists of a large network of lymphatic vessels, lymph nodes, lymphoid organs, lymphoid tissues and lymph.[1][2] Lymph is a clear fluid carried by the lymphatic vessels back to the heart for re-circulation. (The Latin word for lymph – lympha refers to the deity of fresh water, \"Lympha\")[3]",
         "targets": [
-          {
-            "_itemAll": 29,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Uphawu lwe- Bitcoin, inkecesomane enyombonisiwe yokuqala."
-          },
           {
             "_itemAll": 28,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "I-logo ye- Bitcoin, imali yokuqala ye- cryptocurrency"
+            "targetText": "I- lymphatic system, noma i- lymphoid system, iwuhlelo lwesitho sezilwane ezinomgogodla oluyingxenye yamasosha omzimba, futhi luhambisana nesimiso sokujikeleza kwegazi ."
+          },
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Isimiso soketshe, noma uhlelo loketshe, siwuhlelo lwesitho sezilwane ezinomgogodla oluyingxenye yamasosha omzimba, futhi luhambisana nesimiso sokujikeleza kwegazi ."
           }
         ],
         "targetsSize": 2
@@ -351,20 +351,20 @@
         "_item": 15,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1863621/1124526223_0_2",
-        "sourceText": "Four exoplanets orbiting counterclockwise with their host star (HR 8799).",
+        "sourceID": "2403401/1192274773_0_2",
+        "sourceText": "A puzzle is a game, problem, or toy that tests a person's ingenuity or knowledge. In a puzzle, the solver is expected to put pieces together (or take them apart) in a logical way, in order to arrive at the correct or fun solution of the puzzle. There are different genres of puzzles, such as crossword puzzles, word-search puzzles, number puzzles, relational puzzles, and logic puzzles. The academic study of puzzles is called enigmatology.",
         "targets": [
-          {
-            "_itemAll": 31,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Imizulendle emine ezungeza ngokuphambene nomazisinkathi nenkanyezi yayo ezisingethi ( HR 8799 )."
-          },
           {
             "_itemAll": 30,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ama-exoplanets amane azungeza ngokuphambene newashi nenkanyezi yawo engumsingathi ( HR 8799 )."
+            "targetText": "I-puzzle ngumdlalo, inkinga, noma ithoyizi elivivinya ikhono noma ulwazi lomuntu."
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Inkilikiqi ingumfeketho, inkiyankiya, noma ukunto okuvivinya ikhono noma ulwazi lomuntu."
           }
         ],
         "targetsSize": 2
@@ -374,20 +374,20 @@
         "_item": 16,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1906198/1130710603_0_2",
-        "sourceText": "Astatine is a chemical element with the symbol At and atomic number 85. It is the rarest naturally occurring element in the Earth's crust, occurring only as the decay product of various heavier elements. All of astatine's isotopes are short-lived; the most stable is astatine-210, with a half-life of 8.1 hours. A sample of the pure element has never been assembled, because any macroscopic specimen would be immediately vaporized by the heat of its own radioactivity.",
+        "sourceID": "2555051/1212012807_4_23",
+        "sourceText": "22 per cent of the population have completed school only. A further 8.45 per cent have a tertiary education. 16.7 per cent have received no schooling at all. However, this data reflects the uMhlathuze municipality as a whole.",
         "targets": [
-          {
-            "_itemAll": 32,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I- Astatine iyikhemikhali enophawu At kanye nenombolo ye-athomu engu- 85."
-          },
           {
             "_itemAll": 33,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "IsAtsha siyinhlwa yevanga enophawu At kanye nenani lobuchwe elingama- 85."
+            "targetText": "Amaphesenti angama-22 abantu aseqedile isikole kuphela. Amanye amaphesenti angu-8.45 anemfundo ephakeme. Amaphesenti angu-16.7 awazange athole imfundo nhlobo. Kodwa-ke, lolu lwazi ibonisa umasipala wase-Mhlathuze wonkana."
+          },
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amaphesenti angama-22 abantu aseqedile isikole kuphela. Amanye amaphesenti angu-8.45 anemfundo ephakeme. Amaphesenti angu-16.7 awazange athole imfundo nhlobo. Kodwa-ke, le datha ibonisa umasipala wase-Mhlathuze wonkana."
           }
         ],
         "targetsSize": 2
@@ -397,20 +397,20 @@
         "_item": 17,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "2092048/1151093605_0_1",
-        "sourceText": "Holmium is a chemical element with the symbol Ho and atomic number 67. It is a rare-earth element and the eleventh member of the lanthanide series. It is a relatively soft, silvery, fairly corrosion-resistant and malleable metal. Like a lot of other lanthanides, holmium is too reactive to be found in native form, as pure holmium slowly forms a yellowish oxide coating when exposed to air. When isolated, holmium is relatively stable in dry air at room temperature. However, it reacts with water and corrodes readily, and also burns in air when heated.",
+        "sourceID": "1334455/11",
+        "sourceText": "In 1994, the Italian sociologist Massimo Introvigne suggested defining Satanism with the simultaneous presence of \"1) the worship of the character identified with the name of Satan or Lucifer in the Bible, 2) by organized groups with at least a minimal organization and hierarchy, 3) through ritual or liturgical practices.\" The definition applies regardless of the way in which each group perceives Satan- as personal or impersonal, real or symbolic.[10]",
         "targets": [
-          {
-            "_itemAll": 35,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "UmHomambi uyimhlwa yevanga enophawu u- Ho kanye nenani lobuchwe elingama-67."
-          },
           {
             "_itemAll": 34,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "I-Holmium iyikhemikhali enophawu u- Ho kanye nenombolo ye-athomu engu-67."
+            "targetText": "Ngo-1994, usosayensi wezenhlalakahle wase-Italy, u- Massimo Introvigne waphakamisa ukuthi kuchazwe ubuSathane ngobukhona kanyekanye be- \"1) ukukhonzwa komlingiswa okhonjwe ngegama likaSathane noma uLusifa eBhayibhelini, 2) ngamaqembu ahleliwe okungenani enenhlangano kanye nabaphathi abancane, 3) ngokusebenzisa amasiko noma amasiko. \" Incazelo isebenza kungakhathalekile ukuthi iqembu ngalinye libona kanjani ukuthi uSathane- njengomuntu uqobo noma ongeyena umuntu, ongokoqobo noma ongokomfanekiso. [10]"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo-1994, usosayensi wezenhlalakahle wase-Italy, u- Massimo Introvigne waphakamisa ukuthi kuchazwe ubuSathane ngobukhona kanyekanye be- \"ukukhonzwa komlingiswa okhonjwe ngegama likaSathane noma uLusifa eBhayibhelini, ) ngamaqembu ahleliwe okungenani enenhlangano kanye nabaphathi abancane ngokusebenzisa amasiko noma amasiko Incazelo isebenza kungakhathalekile ukuthi iqembu ngalinye libona kanjani ukuthi uSathane- njengomuntu uqobo noma ongeyena umuntu, ongokoqobo noma ongokomfanekiso]"
           }
         ],
         "targetsSize": 2
@@ -420,20 +420,20 @@
         "_item": 18,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "2166609/1160807994_0_3",
-        "sourceText": "Indium is a chemical element with the symbol In and atomic number 49. Indium is the softest metal that is not an alkali metal. It is a silvery-white metal that resembles tin in appearance. It is a post-transition metal that makes up 0.21 parts per million of the Earth's crust. Indium has a melting point higher than sodium and gallium, but lower than lithium and tin. Chemically, indium is similar to gallium and thallium, and it is largely intermediate between the two in terms of its properties.[1] Indium was discovered in 1863 by Ferdinand Reich and Hieronymous Theodor Richter by spectroscopic methods. They named it for the indigo blue line in its spectrum. Indium was isolated the next year.",
+        "sourceID": "1344886/10",
+        "sourceText": "In 2006 Zuma was voted number one by the fans among the greatest profiles to have ever played in F.C. Copenhagen.[3]",
         "targets": [
-          {
-            "_itemAll": 36,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I-Indium iyikhemikhali enophawu In kanye nenombolo ye-athomu engu -49."
-          },
           {
             "_itemAll": 37,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "INzulumbi iyinhlwa yevanga enophawu In kanye nenani lobuchwe elingama-49."
+            "targetText": "Ngo2006 uZuma wavotelwa waba ngowokuqala kubalandeli phakathi kwemikhakha emikhulu eyake yadlalwa eFC Copenhagen"
+          },
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-2006 uZuma wavotelwa waba ngowokuqala kubalandeli phakathi kwemikhakha emikhulu eyake yadlalwa eFC Copenhagen. [1]"
           }
         ],
         "targetsSize": 2
@@ -443,20 +443,20 @@
         "_item": 19,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1484836/18",
-        "sourceText": "Teeth of Synodontaspis gracilis",
+        "sourceID": "1698148/28",
+        "sourceText": "In May 2022, he embarked on Ivyson Army Tour started May 7 (Bloemfontein); the tour included 5 dates that ran from May 7 until June 4, 2022.[53]",
         "targets": [
-          {
-            "_itemAll": 38,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Amazinyo e- Synodontaspis gracilis"
-          },
           {
             "_itemAll": 39,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Amazinyo omZinyambo omazinyo agxamalazile."
+            "targetText": "NgoNhlaba 2022, waqala i-Ivyson Army Tour yaqala ngoNhlaba 7 ( Bloemfontein ); ukuvakasha kuhlanganisa nezinsuku ezi-5 eziqale kuNhlaba 7 kuze kube nguNhlangulana 4, 2022."
+          },
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "NgoMeyi 2022, waqala i-Ivyson Army Tour yaqala ngoMeyi 7 ( Bloemfontein ); ukuvakasha kuhlanganisa nezinsuku ezi-5 eziqale ngoMeyi 7 kuze kube nguJuni 4, 2022. [1]"
           }
         ],
         "targetsSize": 2
@@ -466,20 +466,20 @@
         "_item": 20,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "2166623/1163468528_0_2",
-        "sourceText": "Mercury is a chemical element with the symbol Hg and atomic number 80. It is also known as quicksilver and was formerly named hydrargyrum (/haɪˈdrɑːrdʒərəm/ hy-DRAR-jər-əm) from the Greek words hydro (water) and argyros (silver).[1] A heavy, silvery d-block element, mercury is the only metallic element that is known to be liquid at standard temperature and pressure; the only other element that is liquid under these conditions is the halogen bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
+        "sourceID": "2081696/69",
+        "sourceText": "Independent experts (rapporteurs) are retained by the council to investigate alleged human rights abuses and to report to the council.",
         "targets": [
-          {
-            "_itemAll": 40,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I-Mercury iyikhemikhali enophawu Hg kanye nenombolo ye-athomu engu -80."
-          },
           {
             "_itemAll": 41,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Isigidi siyinhlwa yevanga enophawu Hg kanye nenani lobuchwe elingama-80."
+            "targetText": "Ongoti abazimele (ababhali) bagcinwe umkhandlu ukuze baphenye izinsolo zokuhlukumeza amalungelo abantu kanye nokubika emkhandlwini."
+          },
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ongoti abazimele ( rapporteurs ) bagcinwe umkhandlu ukuze uphenye izinsolo zokuhlukumeza amalungelo abantu futhi babikele umkhandlu."
           }
         ],
         "targetsSize": 2
@@ -489,20 +489,20 @@
         "_item": 21,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "2699090/1236138100_3_21",
-        "sourceText": "A modern Western bedroom in Australia",
+        "sourceID": "2190393/1165180674_0_0",
+        "sourceText": "Comic book superhero Shazam has superhuman abilities derived from magic, which he uses to apprehend criminals (left) and fly over pedestrians (right) in Shazam: Power of Hope (November 2000). Art by Alex Ross.",
         "targets": [
-          {
-            "_itemAll": 42,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ikamelo lokulala lesimanje laseNtshonalanga e-Australia"
-          },
           {
             "_itemAll": 43,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ilawu lesimanje e-Ostreliya, ngokwaseNtshonalanga."
+            "targetText": "Imbudle yencwadi yamahlaya u-Shazam unamakhono angaphezu kwawomuntu atholakala emilingweni, uwasebenzisa ukuze abambe izigebengu (kwesokunxele) futhi andize phezu kwabahamba ngezinyawo (kwesokudla) e -Shazam: Power of Hope (November 2000)."
+          },
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Iqhawe lencwadi yamahlaya u-Shazam unamakhono angaphezu kwawomuntu atholakala emilingweni, awasebenzisayo ukuze abambe izigebengu (kwesokunxele) futhi andize phezu kwabahamba ngezinyawo (kwesokudla) e -Shazam: Power of Hope (November 2000)."
           }
         ],
         "targetsSize": 2
@@ -512,20 +512,20 @@
         "_item": 22,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1400059/2",
-        "sourceText": "A 5.5-inch (14 cm) clear jelly dildo",
+        "sourceID": "2624568/1225661681_2_12",
+        "sourceText": "On 26 November 2021, he was named in the PFAI Team of the Year for 2021, as voted by his fellow players.[17]",
         "targets": [
-          {
-            "_itemAll": 44,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I- 5.5-inch (14 cm) jelly dildo ecacile"
-          },
           {
             "_itemAll": 45,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "I- jelly dildo ecacile"
+            "targetText": "Ngo-26 November 2021, waqokwa eqenjini le-PFAI Team of the Year ka-2021, njengoba kwavotelwa abadlali abanye naye.[1][2]"
+          },
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-26 November 2021, waqokwa eqenjini le-PFAI Team of the Year ka-2021, njengoba kwavotelwa abadlali abakanye naye.[1]"
           }
         ],
         "targetsSize": 2
@@ -535,20 +535,20 @@
         "_item": 23,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1896091/1120762252_0_0",
-        "sourceText": "Simple C-language source code example, a procedural programming language. The resulting program prints \"hello, world\" on the computer screen. This first known \"Hello world\" snippet from the seminal book The C Programming Language originates from Brian Kernighan in the Bell Laboratories in 1974.[1]",
+        "sourceID": "836533/106",
+        "sourceText": "Women constitute 47% of the U.S. workforce, and perform 24% of STEM-related jobs.[92] In the UK women perform 13% of STEM-related jobs (2014).[93] In the U.S. women with STEM degrees are more likely to work in education or healthcare rather than STEM fields compared with their male counterparts.",
         "targets": [
           {
             "_itemAll": 47,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Isibonelo esilula somkitizo wolimi C, ulimi lokuhlelelisa ."
+            "targetText": "Abesifazane bakha amaphesenti angama-47 abasebenzi baseMelika, futhi benza ama-24% emisebenzi ehlobene ne-IUUI. [1] E-UK abesifazane benza ama-13% emisebenzi ehlobene ne-IUUI (2014). [2] E-US abesifazane abane-IUUI izinga banamathuba amaningi okusebenza emfundweni noma ekunakekelweni kwezempilo kunamasimu we-IUUI ngokuqhathaniswa nabalingani babo besilisa."
           },
           {
             "_itemAll": 46,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Isibonelo esilula sekhodi yomthombo wolimi C, ulimi lokuhlela lwenqubo ."
+            "targetText": "Abesifazane bakha amaphesenti angama-47 abasebenzi baseMelika, futhi benza ama-24% emisebenzi ehlobene ne-STEM. [1] E-UK abesifazane benza ama-13% emisebenzi ehlobene ne-STEM (2014). [2] E-US abesifazane abane-STEM degrees banamathuba amaningi okusebenza emfundweni noma ekunakekelweni kwezempilo kunamasimu we-STEM ngokuqhathaniswa nabalingani babo besilisa."
           }
         ],
         "targetsSize": 2
@@ -558,20 +558,20 @@
         "_item": 24,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "2104806/1155534003_0_3",
-        "sourceText": "Cadmium is a chemical element with the symbol Cd and atomic number 48. This soft, silvery-white metal is chemically similar to the two other stable metals in group 12, zinc and mercury. Like zinc, it demonstrates oxidation state +2 in most of its compounds, and like mercury, it has a lower melting point than the transition metals in groups 3 through 11. Cadmium and its congeners in group 12 are often not considered transition metals, in that they do not have partly filled d or f electron shells in the elemental or common oxidation states. The average concentration of cadmium in Earth's crust is between 0.1 and 0.5 parts per million (ppm). It was discovered in 1817 simultaneously by Stromeyer and Hermann, both in Germany, as an impurity in zinc carbonate.",
+        "sourceID": "1335438/7",
+        "sourceText": "Thomas spoke at the 2013 National Convention of American Atheists.[9] That same year she organized the Blackout Secular Rally in New York, the United States' first outdoor event headlined by nontheists of color, and the first secular rally celebrating racial diversity.[10][11] She credits Ayanna Watson with helping develop the idea after the success of the 2012 Reason Rally.[12]",
         "targets": [
-          {
-            "_itemAll": 48,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I-Cadmium iyikhemikhali enophawu Cd kanye nenombolo ye-athomu engu-48."
-          },
           {
             "_itemAll": 49,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "UmKhathofi uyinhlwa yevanga enophawu Cd kanye nenani lobuchwe elingama-48."
+            "targetText": "UThomas ukhulume eMhlanganweni Kazwelonke Wama-American Atheists ka-2013 .Ngawo lowo nyaka wahlela iBlackout Secular Rally eNew York, umcimbi wokuqala ongaphandle wase-United States owawuholwa ngabangabonakali ngokwebala, kanye nomhlangano wokuqala wezwe owawugubha ukwehluka ngokobuhlanga. Ubonga u-Ayanna Watson ngokusiza ekuthuthukiseni umqondo ngemuva kokuphumelela kweReason Rally ka-2012."
+          },
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UThomas ukhulume eMhlanganweni Kazwelonke Wama-American Atheists ka-2013 . [9] Ngawo lowo nyaka wahlela iBlackout Secular Rally eNew York, umcimbi wokuqala ongaphandle wase-United States owawuholwa ngabangabonakali ngokwebala, kanye nomhlangano wokuqala wezwe owawugubha ukwehluka ngokobuhlanga. [10] [11] Ubonga u-Ayanna Watson ngokusiza ekuthuthukiseni umqondo ngemuva kokuphumelela kweReason Rally ka-2012. [12]"
           }
         ],
         "targetsSize": 2
@@ -581,20 +581,20 @@
         "_item": 25,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1394751/9",
-        "sourceText": "Afterlife",
+        "sourceID": "1341268/2",
+        "sourceText": "Yu Yiting (born 5 September 2005) is a Chinese swimmer.[1] She competed in the women's 200 metre individual medley at the 2019 World Aquatics Championships.[2]",
         "targets": [
-          {
-            "_itemAll": 50,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ngemuva kwempilo"
-          },
           {
             "_itemAll": 51,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Impilo yangaphambili"
+            "targetText": "Yu Yiting (owazalwa 5 Septhemba 2005) umbhukudi waseShayina.Uncintisane emidlalweni yabesifazane engamamitha angama-200 kumqhudelwano we- 2019 World Aquatics Championship ."
+          },
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Yu Yiting (owazalwa 5 Septhemba 2005) is a Chinese umbhukudi . [1] Uncintisane emidlalweni yabesifazane engamamitha angama-200 kumqhudelwano we- 2019 World Aquatics Championship . [2]"
           }
         ],
         "targetsSize": 2
@@ -604,20 +604,20 @@
         "_item": 26,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2296669/1178286210_0_1",
-        "sourceText": "A reference is a relationship between objects in which one object designates, or acts as a means by which to connect to or link to, another object. The first object in this relation is said to refer to the second object. It is called a name for the second object. The next object, the one to which the first object refers, is called the referent of the first object. A name is usually a phrase or expression, or some other symbolic representation. Its referent may be anything – a material object, a person, an event, an activity, or an abstract concept.",
+        "sourceID": "1343189/11",
+        "sourceText": "On 29 June 2017, it was announced that Benyu had signed a four-year contract with Celtic.[10] The midfielder scored on his first appearance for the club's development squad, in a pre-season friendly against East Kilbride.[11] Benyu made his competitive debut in Celtic's 4–0 victory over Linfield at Celtic Park.[12]",
         "targets": [
-          {
-            "_itemAll": 53,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Amaphatho awubuhlobo obuphakathi kwezinto lapho khona into eyodwa iqoka, noma isebenza njengensiza yokuxhuma noma ukukhongca kwenye into."
-          },
           {
             "_itemAll": 52,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ireferensi ubuhlobo phakathi kwezinto lapho into eyodwa iqoka, noma isebenza njengendlela yokuxhuma noma ukuxhuma kwenye into."
+            "targetText": "Ngo-29 Juni 2017, kwamenyezelwa ukuthi uBenyu usayine inkontileka yeminyaka emine neCeltic . [1] Umdlali wasesiswini ushaye igoli ngesikhathi ebonakala okokuqala eqenjini elithuthukisa iqembu, emdlalweni wobungani belungiselela isizini ne-East Kilbride . [2] UBenyu udlale umdlalo wakhe wokuqala wokuncintisana ngesikhathi iCeltic inqoba ngo 4-0 kuLinfield eCeltic Park . [3]"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo-29 Juni 2017, kwamenyezelwa ukuthi uBenyu usayine inkontileka yeminyaka emine neCeltic.Umdlali wasesiswini ushaye igoli ngesikhathi ebonakala okokuqala eqenjini elithuthukisa iqembu, emdlalweni wobungani belungiselela isizini ne-East Kilbride.UBenyu udlale umdlalo wakhe wokuqala wokuncintisana ngesikhathi iCeltic inqoba ngo 4-0 kuLinfield eCeltic Park."
           }
         ],
         "targetsSize": 2
@@ -627,20 +627,20 @@
         "_item": 27,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "2462083/1200677558_0_1",
-        "sourceText": "Different types of light sensors",
+        "sourceID": "1343218/8",
+        "sourceText": "Siziba usually plays as a winger but can also play as a deep-lying playmaker.[1] He is left-footed with his style of play having been positively compared to that of Liverpool winger Sadio Mane.[6]",
         "targets": [
-          {
-            "_itemAll": 54,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Izinhlobo ezahlukahlukene izinzwa zokukhanya"
-          },
           {
             "_itemAll": 55,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Izinhlobo ezahlukahlukene zezihlonga zokukhanya"
+            "targetText": "USiziba ujwayele ukudlala njengewindi kodwa futhi angadlala njengomdlali odlala ngokujulile.Unyawo lwesobunxele ngesitayela sakhe sokudlala esilinganiswe kahle nese- winger yeLiverpool uSadio Mane."
+          },
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "USiziba ujwayele ukudlala njengewindi kodwa futhi angadlala njengomdlali odlala ngokujulile . [1] Unyawo lwesobunxele ngesitayela sakhe sokudlala esilinganiswe kahle nese- winger yeLiverpool uSadio Mane. [2]"
           }
         ],
         "targetsSize": 2
@@ -650,20 +650,20 @@
         "_item": 28,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1820059/1104200878_0_1",
-        "sourceText": "A definition states the meaning of a word using other words. This is sometimes challenging. Common dictionaries contain lexical descriptive definitions, but there are various types of definition – all with different purposes and focuses.",
+        "sourceID": "1343557/2",
+        "sourceText": "Camaldine Abraw (born 15 August 1990) is a Togolese footballer who plays for French club Football Club de l'Ouest Tourangeau 37.",
         "targets": [
           {
             "_itemAll": 57,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Incasiselo isho incazo yegama esebenzisa amanye amagama."
+            "targetText": "Camaldine Abraw (owazalwa 15 Agasti 1990) umdlali webhola wase Togolese odlalela iqembu French Football Club de l'Ouest Tourangeau 37."
           },
           {
             "_itemAll": 56,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Incazelo isho incazelo yegama lisebenzisa amanye amagama."
+            "targetText": "Camaldine Abraw (owazalwa 15 Agasti 1990) is a Togolese footballer odlalela iqembu French Football Club de l'Ouest Tourangeau 37."
           }
         ],
         "targetsSize": 2
@@ -673,20 +673,20 @@
         "_item": 29,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1370534/18",
-        "sourceText": "SABC Education (official site)",
+        "sourceID": "1402213/9",
+        "sourceText": "Mahlatsi supports land expropriation without compensation. During the debate on the 2020 State of the Nation Address on 18 February 2020, Mahlatsi said: \"As the ANC, we are looking at land, not property ... Hon. Speaker, the poor must be given means of production in order to defeat poverty. Land must be used as economic asset.\"[8] In June 2020, she voted to re-establish the Ad Hoc Committee to Amend Section 25 of the Constitution after its term had expired. She said that the \"land was stolen and must be returned\" and that the ANC had considered the legal, economic and political implications of expropriation without compensation.[9]",
         "targets": [
-          {
-            "_itemAll": 58,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "I-SABC Education (indawo esemthethweni)"
-          },
           {
             "_itemAll": 59,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "I-SABC Education (iwebhusayithi)"
+            "targetText": "UMahlatsi uyakweseka ukuthathwa komhlaba ngaphandle kwesinxephezelo.Ngesikhathi senkulumompikiswano ngeNkulumo Echaza Isimo Sezwe yango-2020 mhla ziyi-18 kuNhlolanja 2020, uMahlatsi wathi: \"Njenge-ANC, sibheke umhlaba, hhayi impahla. . . Hon. Somlomo, abampofu kumele banikezwe izindlela zokukhiqiza ukuze banqobe ubuphofu.Umhlaba kumele usetshenziswe njengempahla yezomnotho.\"NgoJuni 2020, uvotele ukusungula kabusha iKomidi le-Ad Hoc lokuchibiyela iSigaba 25 soMthethosisekelo ngemuva kokuphela kwesikhathi salo.Uthe \"umhlaba untshontshiwe futhi kumele ubuyiswe\" nokuthi i-ANC ikubonile ukuthinteka ngokomthetho, ezomnotho nezepolitiki ngaphandle kokunxeshezelwa."
+          },
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UMahlatsi uyakweseka ukuthathwa komhlaba ngaphandle kwesinxephezelo . Ngesikhathi senkulumompikiswano ngeNkulumo Echaza Isimo Sezwe yango-2020 mhla ziyi-18 kuNhlolanja 2020, uMahlatsi wathi: \"Njenge-ANC, sibheke umhlaba, hhayi impahla. . . Hon. Somlomo, abampofu kumele banikezwe izindlela zokukhiqiza ukuze banqobe ubuphofu. Umhlaba kumele usetshenziswe njengempahla yezomnotho. \" [1] NgoJuni 2020, uvotele ukusungula kabusha iKomidi le-Ad Hoc lokuchibiyela iSigaba 25 soMthethosisekelo ngemuva kokuphela kwesikhathi salo. Uthe \"umhlaba untshontshiwe futhi kumele ubuyiswe\" nokuthi i-ANC ikubonile ukuthinteka ngokomthetho, ezomnotho nezepolitiki ngaphandle kokunxeshezelwa. [2]"
           }
         ],
         "targetsSize": 2
@@ -696,20 +696,20 @@
         "_item": 30,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1480638/6",
-        "sourceText": "Cheese grater",
+        "sourceID": "1456183/2",
+        "sourceText": "Muvhango is a South African television soap opera, created by Duma Ndlovu. It is broadcast on the public TV channel SABC 2, and has an average of 4 million daily viewers.[1] The first episode was aired on 7 April 1997. It was the first Tshivenda language TV drama,[2] but later became multilingual in order to showcase that languages and cultures of South Africa should be used to unite rather than divide. The creator of Muvhango is Zulu by ancestry, but can speak and is fluent in all South African languages.[3]",
         "targets": [
-          {
-            "_itemAll": 61,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Isikhuhluzi sikaJibini"
-          },
           {
             "_itemAll": 60,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "I-grater kashizi"
+            "targetText": "UMuvhango wumdlalo owuchungechunge kamabonakude waseNingizimu Afrika, owakhiwe nguDuma Ndlovu . Isakazwa esiteshini sikamabonakude somphakathi i- SABC 2, futhi inababukeli abalinganiselwa ku-4 million nsuku zonke. [1] Isiqephu sokuqala sasakazwa ngomhlaka-7 Ephreli 1997. Kwakuwumdlalo kamabonakude wokuqala wolimi lwesiTshivenda [2] kodwa kamuva waba ngezilimi eziningi ukuze kuboniswe ukuthi izilimi namasiko aseNingizimu Afrika kufanele asetshenziselwe ukuhlanganisa kunokuhlukanisa. UMdali kuMuvhango kuyinto Zulu ngu lozalo, kodwa angakhuluma futhi ngokuqephuza ngazo zonke izilimi zaseNingizimu Afrika. [3]"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UMuvhango wumdlalo owuchungechunge kamabonakude waseNingizimu Afrika, owakhiwe nguDuma Ndlovu . Isakazwa esiteshini sikamabonakude somphakathi i- SABC 2, futhi inababukeli abalinganiselwa ku-4 million nsuku zonke.Isiqephu sokuqala sasakazwa ngomhlaka-7 Ephreli 1997. Kwakuwumdlalo kamabonakude wokuqala wolimi lwesiTshivenda kodwa kamuva waba ngezilimi eziningi ukuze kuboniswe ukuthi izilimi namasiko aseNingizimu Afrika kufanele asetshenziselwe ukuhlanganisa kunokuhlukanisa.UMdali kuMuvhango ngum Zulu ngokozalo, kodwa angakhuluma futhi ngokuqephuza ngazo zonke izilimi zaseNingizimu Afrika."
           }
         ],
         "targetsSize": 2
@@ -719,20 +719,20 @@
         "_item": 31,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "713468/25",
-        "sourceText": "Bank of Baroda Scandal",
+        "sourceID": "1983410/1135615909_0_3",
+        "sourceText": "Natural science is one of the branches of science concerned with the description, understanding and prediction of natural phenomena, based on empirical evidence from observation and experimentation.[1] Mechanisms such as peer review and repeatability of findings are used to try to ensure the validity of scientific advances.",
         "targets": [
-          {
-            "_itemAll": 62,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ibhange Lokungena Kwebhoda"
-          },
           {
             "_itemAll": 63,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ihlazo leBhangi yeBaroda"
+            "targetText": "Inzululwazi yemvelo ingelinye lamagatsha esayensi aphathelene nencaziso, ukuqonda nokubikezela izimongotho zemvelo, ngokusekelwe ebufakazini obunamandla obuvela ezingqaphelweni nasemigcansweni . [1]"
+          },
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isayensi yemvelo ingelinye lamagatsha esayensi aphathelene nencazelo, ukuqonda nokubikezela izenzakalo zemvelo, ngokusekelwe ebufakazini obunamandla obuvela ekuhloleni nasekuhloleni . [1]"
           }
         ],
         "targetsSize": 2
@@ -742,20 +742,20 @@
         "_item": 32,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1343178/1",
-        "sourceText": "Gerald Ndlovu (born 10 December 1984) is a Zimbabwean football defender whoc currently plays for Hwange.[1]",
+        "sourceID": "2043565/1079947014_0_3",
+        "sourceText": "Motswako is a Southern African subgenre of hip hop popular in South Africa. It consists of a mix of rap lyrics in both the local language (Setswana) and English layered on a steady beat. Other languages used include Sesotho, Zulu and Afrikaans as per the rapper's origin. The genre gained popularity in the late nineties as South African acts like HHP and Baphixile (consisting of \"Prof\" and \"Blax Myth\") started rapping in Setswana, resulting in an increased following from the local population. Because of its reputation in South Africa most of the upcoming artists use this genre as a base before they start their music careers because of its basic principles, a good motswako artist have to learn the creative writing skills used to perfect the genre making it easy to learn and write music. Today there is a high pool of motswako artists in Botswana and South Africa with few females artists.",
         "targets": [
           {
             "_itemAll": 65,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Gerald Ndlovu (owazalwa 10 December 1984) ngumdlali waseZimbabwewebhola,wasemuva okwamanje odlalela IHwange."
+            "targetText": "I-Motswako uhlobo lomculo we- hip hop oludumile eNingizumu Afrika."
           },
           {
             "_itemAll": 64,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Gerald Ndlovu (owazalwa 10 December 1984) is a Zimbabwean football wasemuva whoc okwamanje adlalele Hwange . [1]"
+            "targetText": "I-Motswako iwuchungechunge lwaseNingizimu Afrika lwe- hip hop oludumile eNingizimu Afrika."
           }
         ],
         "targetsSize": 2
@@ -765,20 +765,20 @@
         "_item": 33,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2555051/1212012807_4_20",
-        "sourceText": "Demographics",
+        "sourceID": "2736827/1235747956_0_3",
+        "sourceText": "She portrayed the character of Thandeka Ndlovu on Mzansi Magic Sopie era Isibaya which she starred in from 2013 to her exit in 2020. Her exit from Sopie introduced her to Hollywood where she was cast as Mirmbe in Eddie Murphy's sequel to Coming to America, which was titled Coming 2 America. In 2021 April it was announced that she was cast in Saban Films new movie Soul Assassins alongside Bruce Willis which was later filmed under a new name Die Like Lovers but was released as Assassin and became Bruce Willis's last movie .",
         "targets": [
-          {
-            "_itemAll": 67,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Inani labantu kulelidolobha"
-          },
           {
             "_itemAll": 66,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Inani labantu"
+            "targetText": "Usebenze njengomlingiswa kaThandeka Ndlovu enkathini ye-Mzansi Magic Sopie Isibaya lapho adlala khona kusukela ngo-2013 kwaze kwaba yilapho ephuma ngo-2020. Ukuphuma kwakhe ku-Sopie kwamethula I-Hollywood lapho afakwa khona njengoMirmbe kU-Eddie Murphy's sequel to Coming to America, eyayihambisana ne-Coming 2 America. Ngo-2021 April kwamenyezelwa ukuthi wabekwa ebhayisikobho entsha ye-Saban Films i-Soul Assassins eceleni kukaBruce Willis kamuva eyathwetshulwa ngaphansi kwegama elisha i-Die Like Lovers kodwa yakhululwa njenge-Assassin futhi yaba ibhayisikobho yokugcina kaBruce Wilis."
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Usebenze njengomlingiswa kaThandeka Ndlovu ngenkathi esasebenza ku-Mzansi Magic Sopie Isibaya lapho adlala khona kusukela ngo-2013 kwaze kwaba yilapho ephuma ngo-2020. Ukuphuma kwakhe ku-Sopie kwamethula kuyi Hollywood lapho afakwa khona njengoMirmbe kuUEddie Murphy's sequel to Coming to America, eyayihambisana ne-Coming 2 America. Ngo-2021 kuNdasa kwamenyezelwa ukuthi wabekwa ebhayisikobho entsha ye-Saban Films i-Soul Assassins eceleni kukaBruce Willis kamuva eyathwetshulwa ngaphansi kwegama elisha i-Die Like Lovers kodwa yakhululwa njenge-Assassin futhi yaba ibhayisikobho yokugcina kaBruce Wilis."
           }
         ],
         "targetsSize": 2
@@ -788,20 +788,20 @@
         "_item": 34,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2705346/1235404672_5_16",
-        "sourceText": "The university is home to 8 faculties including:[28]",
+        "sourceID": "1340657/1",
+        "sourceText": "Sibusiso Barnabas Dlamini (born 1 September 1980 in Mbabane) is a Swazi football striker who currently plays for Malanti Chiefs. He has been capped for Eswatini.",
         "targets": [
           {
             "_itemAll": 68,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Inyuvesi iyikhaya lAmakhono angu-8 ahlanganisa:[1]"
+            "targetText": "USibusiso Barnabas Dlamini (owazalwa 1 Septhemba 1980 e Mbabane ) kuyinto Swazi football Umgadli ngubani okwamanje adlalele Malanti Chiefs . Ubanjelwe Eswatini ."
           },
           {
             "_itemAll": 69,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Inyuvesi iyikhaya lamakhono ayisishiyagalombili ahlanganisa:[1]"
+            "targetText": "USibusiso Barnabas Dlamini (owazalwa 1 Septhemba 1980 e Mbabane ) kungumdlali we Swazi football Umgadli ngubani okwamanje adlalele Malanti Chiefs . Ubanjelwe Eswatini ."
           }
         ],
         "targetsSize": 2
@@ -811,20 +811,20 @@
         "_item": 35,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "663086/16",
-        "sourceText": "New Nation and 1986 arrests",
+        "sourceID": "2392531/1180111713_0_3",
+        "sourceText": "It reveres Shembe as a prophet sent by God to restore the teachings of Moses, the prophets, and Jesus. Members are Sabbath-observers and avoid pork, smoking, and premarital sex.[1]",
         "targets": [
           {
             "_itemAll": 70,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Isizwe esisha no-1986 ababoshwa"
+            "targetText": "Ihlonipha UShembe njengomprofethi othunyelwe uNkulunkulu ukubuyisela izimfundiso zikaMose, abaprofethi, UJesu. Amalungu angagcini iSabatha futhi agwema inyama yengulube, ukubhema, kanye nobulili bangaphambi komshado.[1]"
           },
           {
             "_itemAll": 71,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Iphephandaba leNew Nation nokuboshwa ngo 1986"
+            "targetText": "Ihlonipha UShembe njengomprofethi othunyelwe uNkulunkulu ukubuyisela izimfundiso zikaMose, ezabaprofethi, nezika Jesu. Amalungu angabagcini beSabatha futhi agwema inyama yengulube, ukubhema, kanye nezenzo zocansi ngampambi komgano.[1]"
           }
         ],
         "targetsSize": 2
@@ -834,20 +834,20 @@
         "_item": 36,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1381427/0",
-        "sourceText": "Arzu is a feminine Turkish given name, it may refer to:",
+        "sourceID": "2421153/1194797022_0_4",
+        "sourceText": "Oliver Napoleon Hill (October 26, 1883 – November 8, 1970) was an American self-help author. He is best known for his book Think and Grow Rich (1937), which is among the best-selling self-help books of all time.[1][2] Hill's works insisted that fervid expectations are essential to improving one's life.[3][4] Most of his books were promoted as expounding principles to achieve \"success\".",
         "targets": [
-          {
-            "_itemAll": 72,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Arzu kuyinto njengabesifazane Turkish elethiwa, kungenzeka kubhekisela emaqenjini:"
-          },
           {
             "_itemAll": 73,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Arzu kuligama labesifazane, kungenzeka kubhekisela emaqenjini:"
+            "targetText": "U-Oliver Napoleon Hill (October 26, 1883 - November 8, 1970) wayengumlobi waseMelika wezifundo zokuzisiza. [1][2] Waziwa kakhulu ngencwadi yakhe ethi Think and Grow Rich (1937), ephakathi kwezincwadi zokuzisiza ezithengiswa kakhulu kunazo zonke. Imisebenzi kaHill yaphikelela ngokuthi ukulindela okuqinile kubalulekile ekuthuthukiseni ukuphila komuntu.[3][4] Iningi lezincwadi zakhe lakhuthazwa njengezimiso ezichazayo ukuze kufinyelelwe \"empumelelweni\"."
+          },
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "U-Oliver Napoleon Hill (October 26, 1883 - November 8, 1970) wayengumlobi waseMelika Ukuzisiza. [2][1] kakhulu ngencwadi yakhe ethi Think and Grow Rich (1937), ephakathi kwezincwadi zokuzisiza ezithengiswa kakhulu kunazo zonke. Imisebenzi kaHill yaphikelela ngokuthi ukulindela okuqinile kubalulekile ekuthuthukiseni ukuphila komuntu.[3][4] Iningi lezincwadi zakhe lakhuthazwa njengezimiso ezichazayo ukuze kufinyelelwe \"impumelelo\"."
           }
         ],
         "targetsSize": 2
@@ -857,20 +857,20 @@
         "_item": 37,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2393953/1191920582_0_0",
-        "sourceText": "An autonomous robot is a robot that acts without recourse to human control. The first autonomous robots environment were known as Elmer and Elsie, which were constructed in the late 1940s by W. Grey Walter. They were the first robots in history that were programmed to \"think\" the way biological brains do and meant to have free will.[1] Elmer and Elsie were often labeled as tortoises because of how they were shaped and the manner in which they moved. They were capable of phototaxis which is the movement that occurs in response to light stimulus. [citation needed]",
+        "sourceID": "2425392/1192893548_1_5",
+        "sourceText": "Tracy was born 5 January 1944 in Charlottetown, Prince Edward Island, Canada. He attended the University of Alberta in Edmonton, Alberta.",
         "targets": [
-          {
-            "_itemAll": 75,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Isithununu esizihlelelekayo siyisithununu esikwazi ukusebenza ngaphandle kokulawula komuntu."
-          },
           {
             "_itemAll": 74,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "irobhothi elizimele irobhothi elisebenza ngaphandle kokulawula komuntu."
+            "targetText": "UTracy wazalwa ngo-5 January 1944 I-Charlottetown, ePrince Edward Island, eCanada. Wafunda e-I-University of Alberta e-I-Edmonton, e-Alberta."
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UTracy wazalwa mhlazi-5 Masingana 1944 e-Charlottetown, ePrince Edward Island, eKhanada. Wafunda e-University of Alberta e-Edmonton, e-Alberta."
           }
         ],
         "targetsSize": 2
@@ -880,20 +880,20 @@
         "_item": 38,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1370563/19",
-        "sourceText": "SABC Sport (official site)",
+        "sourceID": "2624552/1225710086_1_8",
+        "sourceText": "Berenguer was born in Pamplona, Navarre; his father's family is from Almería.[1] He graduated with CA Osasuna's youth setup, and made his debuts as a senior with the reserves in the 2013–14 campaign, in Tercera División.[2]",
         "targets": [
           {
             "_itemAll": 77,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "I-SABC Sport (iwebhusayithi)"
+            "targetText": "UBerenguer wazalelwa ePamplona, eNavarre; umndeni wakubo use-Almería.[1] Uphumelele eqenjini lentsha le-CA Osasuna, futhi waqala ukudlalela iqembu elidala lama-reserves emkhankasweni we-2013-14 e-Tercera División.[2]"
           },
           {
             "_itemAll": 76,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "I-SABC Sport (indawo esemthethweni)"
+            "targetText": "UBerenguer wazalelwa IPamplona, INavarre; umndeni kayise uvela e-I-Almería.[1] Uphothule neqembu lentsha le-CA Osasuna, futhi waqala ukujoyina iqembu elidala le-reserves emkhankasweni we-2013-14, e-Tercera División.[2]"
           }
         ],
         "targetsSize": 2
@@ -903,20 +903,20 @@
         "_item": 39,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1792353/1116548786_0_2",
-        "sourceText": "Illustration of a winged, fire-breathing dragon by Friedrich Justin Bertuch from 1806",
+        "sourceID": "2739592/1235747663_1_5",
+        "sourceText": "Mncube was born in 29 May 1990 in Ulundi, KwaZulu Natal, South Africa in a family with five siblings. He completed his National Diploma in Drama from the Durban University of Technology (DUT) in 2011.[1] His elder brother Ntando Mncube, who played the role \"Bhekile\" on the serial Ifalakhe. His younger brother Omega is also an actor, who played the popular role \"Phelelani\" on Uzalo.[6]",
         "targets": [
-          {
-            "_itemAll": 79,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Umfanekiso weNzawu enamaphiko, ephafuza umlilo odwetshwe ngu- Friedrich Justin Bertuch ngo-1806"
-          },
           {
             "_itemAll": 78,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Umfanekiso kadrako onamaphiko, ophefumula umlilo ka- Friedrich Justin Bertuch kusukela ngo-1806"
+            "targetText": "UMncube wazalwa ngo-29 Meyi 1990 e-Ulundi, eKwaZulu Natal, eNingizimu Afrika emkhayeni onezingane zakubo ezinhlanu. Waphothula i-National Diploma yakhe ye-Drama I-Durban University of Technology (DUT) ngo-2011.[1] Umfowabo omdala I-Ntando Mncube, odlala indima ethi \"Bhekile\" ochungechungeni lwe-Ifalakhe. Umfowabo omncane u-Omega naye ungumlingisi, odlale indima ethandwayo ethi \"Phelelani\" ku-I-Uzal.[6]"
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UMncube wazalwa ngomhlaka-29 Meyi kowezi-1990 e-Ulundi, KwaZulu Natal, eNingizimu Afrika ekhayeni elinezingane zakubo ezinhlanu. Waphothula i-National Diploma yakhe ye-Drama e-Durban University of Technology (DUT) ngo-2011.[1] Umfowabo omdala u-Ntando Mncube, odlala indima ka \"Bhekile\" ochungechungeni lwe-Ifalakhe. Umfowabo omncane u-Omega naye ongumlingisi, odlale indima ethandwayo ka \"Phelelani\" ku-I-Uzalo.[6]"
           }
         ],
         "targetsSize": 2
@@ -926,20 +926,20 @@
         "_item": 40,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "2099695/1152719549_0_1",
-        "sourceText": "Montage of multiple fossil taxa. Clockwise from top left: Onychocrinus and Palaeosinopa; bottom row: Gryphaea and Harpactocarcinus",
+        "sourceID": "1334761/2",
+        "sourceText": "Isolezwe is a Zulu-language newspaper launched in 2002 by Independent News & Media. It is published daily in Durban, South Africa, in the tabloid format. Editor Thulani Mbathi describes their target market as \"the modernising Zulu ... [s]omeone who may go back home to the rural areas to slaughter a cow to amadlozi [the ancestors], but is as equally comfortable taking his family out for dinner and a movie in a shopping mall\".[1][2]",
         "targets": [
-          {
-            "_itemAll": 81,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Izinhlobo ezihlukene zezingqwanye zentshicwa"
-          },
           {
             "_itemAll": 80,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ukuqoqwa kwentela yezinsalela eziningi."
+            "targetText": "ISolezwe kuyinto -isiZulu iphephandaba umkhankaso ngo 2002 by -Independent News & Media . Ishicilelwa nsuku zonke eThekwini, eNingizimu Afrika, ifomethi yethabo. Umhleli uThulani Mbathi uchaza imakethe abebehlose ukuyibiza ngokuthi \"uZulu omeone ongowesimanjemanje ongabuyela ekhaya ezindaweni zasemakhaya ayohlaba inkomo emadlozi [amadlozi], kepha ukhululekile ngokufana nokuthatha umndeni wakhe bayodla isidlo sakusihlwa ne-movie enxanxatheleni yezitolo \". [1] [2]"
+          },
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "ISolezwe ngesiZulu iphephandaba elaqalwa ngo 2002 nge -Independent News & Media .Ishicilelwa nsuku zonke eThekwini, eNingizimu Afrika, ifomethi yethabo. Umhleli uThulani Mbathi uchaza imakethe abebehlose ukuyibiza ngokuthi \"uZulu omeone ongowesimanjemanje ongabuyela ekhaya ezindaweni zasemakhaya ayohlaba inkomo emadlozi [amadlozi], kepha ukhululekile ngokufana nokuthatha umndeni wakhe bayodla isidlo sakusihlwa ne-movie enxanxatheleni yezitolo \". [1]"
           }
         ],
         "targetsSize": 2
@@ -949,20 +949,20 @@
         "_item": 41,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "2705238/1238497148_3_55",
-        "sourceText": "The Eastern Cape Khoe",
+        "sourceID": "1792353/1116548786_0_5",
+        "sourceText": "A dragon is a reptile-like legendary creature that appears in the folklore of many cultures worldwide. Beliefs about dragons vary considerably through regions, but dragons in western cultures since the High Middle Ages have often been depicted as winged, horned, four-legged, and capable of breathing fire. Dragons in eastern cultures are usually depicted as wingless, four-legged, serpentine creatures with above-average intelligence. Commonalities between dragons' traits are often a hybridization of feline, avian, and reptilian features. Scholars believe huge extinct or migrating crocodiles bear the closest resemblance, especially when encountered in forested or swampy areas, and are most likely the template of modern Oriental dragon imagery.[1][2]",
         "targets": [
-          {
-            "_itemAll": 83,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "ama-Khoe ase-Eastern Cape"
-          },
           {
             "_itemAll": 82,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "I-Eastern Cape Khoe"
+            "targetText": "Udrako uyisidalwa esihuquzelayo esifana nenganekwane esivela kumlando wamasiko amaningi emhlabeni jikelele."
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "INzawu iyisidalwa esihuquzelayo sasezinganekwaneni esivela kumlando wamasiko amaningi emhlabeni jikelele."
           }
         ],
         "targetsSize": 2
@@ -972,20 +972,20 @@
         "_item": 42,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1800161/5",
-        "sourceText": "What there is What it is like",
+        "sourceID": "1820240/1120115870_0_0",
+        "sourceText": "Bees are winged insects closely related to wasps and ants, known for their roles in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey. Bees are a monophyletic lineage within the superfamily Apoidea. They are presently considered a clade, called Anthophila. There are over 16,000 known species of bees in seven recognized biological families.[1][2] Some species – including honey bees, bumblebees, and stingless bees – live socially in colonies while most species (>90%) – including mason bees, carpenter bees, leafcutter bees, and sweat bees – are solitary.",
         "targets": [
-          {
-            "_itemAll": 84,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Yini there is like"
-          },
           {
             "_itemAll": 85,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Yini ekhona iNjani leyonto"
+            "targetText": "Izinyosi ziyizinambuzane ezinamaphiko ezihlobene eduze neminyovu nezintuthwane, ezaziwa ngeqhaza lazo ekusakazeni impova, futhi endabeni yezinhlobo zezinyosi ezaziwa kakhulu, inyosi yoju yasentshonalanga, yaziwa ngokukhiqiza uju ."
+          },
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Izinyosi ziyizinambuzane ezinamaphiko ezihlobene eduze neminyovu nezintuthwane, ezaziwa ngezindima zazo ekusakazeni impova futhi, endabeni yezinhlobo zezinyosi ezaziwa kakhulu, inyosi ye- honey yasentshonalanga, ekukhiqizeni uju ."
           }
         ],
         "targetsSize": 2
@@ -995,20 +995,20 @@
         "_item": 43,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "609213/4",
-        "sourceText": "He enrolled for an LLB degree at the University of Natal but in 1962, the same year he married Victoria Mxenge.",
+        "sourceID": "2833356/1257330305_0_6",
+        "sourceText": "The term authority is often used for power that is perceived as legitimate or socially approved by the social structure. [1]",
         "targets": [
           {
             "_itemAll": 87,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Wabhalisela izifundo ze-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngawo lowo nyaka waganana noVictoria Mxenge ."
+            "targetText": "Igama elithi igunya livame ukusetshenziselwa amandla abhekwa njengasemthethweni noma avunyelwe uhlaka lomphakathi . [1]"
           },
           {
             "_itemAll": 86,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Wabhalisela i-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngonyaka ofanayo wathatha uVictoria Mxenge ."
+            "targetText": "Igama elithi igunya livame ukusetshenziselwa amandla athathwa njengasemthethweni noma agunyazwe ngokwenhlalo uhlaka lomphakathi . [ 1 ]"
           }
         ],
         "targetsSize": 2
@@ -1018,20 +1018,20 @@
         "_item": 44,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1356499/57",
-        "sourceText": "eExtra",
+        "sourceID": "2513205/1213396309_0_4",
+        "sourceText": "Marketing is the act of satisfying and retaining customers.[1] It is one of the primary components of business management and commerce.[2]",
         "targets": [
           {
             "_itemAll": 89,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "EExtra"
+            "targetText": "Umdayiso yisenzo sokwanelisa nokugcina amakhasimende.[1] Ungesinye sezigcoyi eziyinhloko zokuphathwa komhwebo nezentengiselwano.[1]"
           },
           {
             "_itemAll": 88,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Okungeziwe"
+            "targetText": "[1] kuyisenzo sokwanelisa nokugcina amakhasimende. I[2] yezingxenye eziyinhloko zokuphatha ibhizinisi nezentengiselwano."
           }
         ],
         "targetsSize": 2
@@ -1041,20 +1041,20 @@
         "_item": 45,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "713468/17",
-        "sourceText": "Corruption Scandals",
+        "sourceID": "2736799/1228300627_0_2",
+        "sourceText": "Theophilus Doctor Khumalo (born 26 June 1967), is a South African former football player. He is best known for being a star midfielder for Kaizer Chiefs as well as the South African national team.",
         "targets": [
           {
             "_itemAll": 90,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "AIzisulu Zokukhohlakala"
+            "targetText": "UTheophilus Doctor Khumalo (owazalwa ngo-26 June 1967), ungumdlali ibhola likanobhutshuzwayo waseNingizimu Afrika. Waziwa kakhulu ngokuba ngumdlali we-star midfielder we-Kaizer Chiefs kanye Iqembu lesizwe laseNingizimu Afrika."
           },
           {
             "_itemAll": 91,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Amahlazo enkohlakalo yezimali"
+            "targetText": "UTheophilus Doctor Khumalo (owazalwa ngo-26 ku-Nhlangulana 1967), ungumdlali webhola likanobhutshuzwayo waseNingizimu Afrika. Waziwa kakhulu ngokuba ngumdlali ovelele wasesiswini we-Kaizer Chiefs kanye neqembu lesizwe laseNingizimu Afrika."
           }
         ],
         "targetsSize": 2
@@ -1064,20 +1064,20 @@
         "_item": 46,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1335144/36",
-        "sourceText": "Central Drug Authority",
+        "sourceID": "512062/2",
+        "sourceText": "Phiwa Nkambule (born January 24, 1992) is a technology entrepreneur, technology businessperson and internet activist best known for co-founding Riovic and leading it as its CEO.[2] He previously founded Cybatar[5] and sat on the board of the Royal Science and Technology Park.[1]",
         "targets": [
           {
             "_itemAll": 93,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "ICentral Drug Authority"
+            "targetText": "UPhiwa Nkambule (owazalwa ngoJanuwari 24, 1992) ungusomabhizinisi wezobuchwepheshe kanye nesishoshovu se-inthanethi owaziwa kakhulu ngokusungula i- Riovic nokuyihola njenge-CEO yayo. [2] Phambilini wasungula i-Cybatar [1] futhi wahlala ebhodini leRoyal Science and Technology Park . [1]"
           },
           {
             "_itemAll": 92,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "ICentral Authority Authority"
+            "targetText": "UPhiwa Nkambule (owazalwa ngoJanuwari 24, 1992) ungusomabhizinisi, usomabhizinisi wezobuchwepheshe kanye nesishoshovu se-inthanethi owaziwa kakhulu ngokusungula u- Riovic nokuhola njenge-CEO yakhe. [2] Phambilini wasungula [1] futhi wahlala ebhodini leRoyal Science and Technology Park . [1]"
           }
         ],
         "targetsSize": 2
@@ -1087,20 +1087,20 @@
         "_item": 47,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1383239/30",
-        "sourceText": "Sexuality and gender",
+        "sourceID": "2267589/1154168977_0_1",
+        "sourceText": "In law, liable means \"responsible or answerable in law; legally obligated\".[1] Legal liability concerns both civil law and criminal law and can arise from various areas of law, such as contracts, torts, taxes, or fines given by government agencies. The claimant is the one who seeks to establish, or prove, liability.",
         "targets": [
-          {
-            "_itemAll": 94,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ubulili nobulili"
-          },
           {
             "_itemAll": 95,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ubulili nokungena ocansini"
+            "targetText": "Ngokomthetho, ukuba nesimelo kusho \"ukuba nesibopho noma ukuziphendulela emthethweni; ukubophezeleka ngokomthetho\". [1]"
+          },
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngokomthetho, ukubophezeleka kusho \"ukuba nesibopho noma ukuphendula emthethweni; ukubophezeleka ngokomthetho\". [1]"
           }
         ],
         "targetsSize": 2
@@ -1110,20 +1110,20 @@
         "_item": 48,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "609213/17",
-        "sourceText": "Legacy",
+        "sourceID": "1357179/1",
+        "sourceText": "Jean Kalala N'Tumba (7 January 1949 – 11 January 2021)[2] was a Congolese football forward who played for Zaire in the 1974 FIFA World Cup.[3] He also played for AS Vita Club.",
         "targets": [
-          {
-            "_itemAll": 97,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Idumela lomlando"
-          },
           {
             "_itemAll": 96,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ifa"
+            "targetText": "Jean Kalala N'Tumba (7 Januwari 1949 - 11 Januwari 2021) [1] kwaba Congolese football phambili owadlalela Zaire ku 1974 FIFA World Cup . [2] Ubuye wadlalela i- AS Vita Club ."
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Jean Kalala N'Tumba (7 Januwari 1949 - 11 Januwari 2021)bekawu umdlali webhola waseCongo owadlalela Zaire ku 1974 FIFA World Cup.Ubuye wadlalela i- AS Vita Club ."
           }
         ],
         "targetsSize": 2
@@ -1133,20 +1133,20 @@
         "_item": 49,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1382353/53",
-        "sourceText": "Healing therapy",
+        "sourceID": "609213/4",
+        "sourceText": "He enrolled for an LLB degree at the University of Natal but in 1962, the same year he married Victoria Mxenge.",
         "targets": [
-          {
-            "_itemAll": 98,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ukwelapha ukwelapha"
-          },
           {
             "_itemAll": 99,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ukwelapha"
+            "targetText": "Wabhalisela izifundo ze-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngawo lowo nyaka waganana noVictoria Mxenge ."
+          },
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Wabhalisela i-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngonyaka ofanayo wathatha uVictoria Mxenge ."
           }
         ],
         "targetsSize": 2

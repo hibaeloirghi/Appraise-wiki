@@ -487,6 +487,12 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         help_text=_('How would you rate your fluency in the target language?')
     )
 
+    span_diff_votes = models.TextField(
+    blank=True,
+    null=True,
+    verbose_name=_('Votes for highlighted differences'),
+    help_text=_('Stores which candidate was preferred for each highlighted difference.')
+    )
 
 
 
@@ -918,6 +924,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'feedback_options',
             'other_feedback_options_text',
             'overallExperience',
+            'span_diff_votes',
         )
 
         if extended_csv:

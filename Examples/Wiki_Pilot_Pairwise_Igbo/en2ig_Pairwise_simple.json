@@ -6,20 +6,20 @@
         "_item": 0,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1467524/4",
-        "sourceText": "Chicken suya with jollof rice and plantains",
+        "sourceID": "1526761/3",
+        "sourceText": "She is a member of the Nigerian national team, and took part in the 2008 Summer Olympics and the 2011 World Cup.[2]",
         "targets": [
-          {
-            "_itemAll": 1,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Chicken suya na jo osikapa na aabrika ebere ehe abr"
-          },
           {
             "_itemAll": 0,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Chicken suya na jollof rice na plantain"
+            "targetText": "Ọ bụ onye otu mba Naijiria, wee soro na asọmpi olimpik nke afọ 2008 na iko mba ụwa 2011 . [1]"
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọ bụ onye ou mba Naijiria, wee soro na asọmpi olimpik nke afpụkụ abụọ na asatọ n na iko mba ụwpụkụ abụọ na iri na otu11 . [1]"
           }
         ],
         "targetsSize": 2
@@ -29,20 +29,20 @@
         "_item": 1,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1082369/5",
-        "sourceText": "Africa Movie Academy Awards",
+        "sourceID": "1404281/6",
+        "sourceText": "Season 1: 12 Episodes Season 2: 10 Episodes Season 3: 9 Episodes Season 4: 12 Episodes Season 5: 12 Episodes Season 6: 12 Episodes",
         "targets": [
           {
             "_itemAll": 2,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Afrika Movie Academy Awards"
+            "targetText": "Oge 1: 12 Episode Oge 2: Nkeji 10 Oge 3: 9 Episode Oge 4: 12 Episode Oge 5: 12 Episode Oge 6: 12 Episode"
           },
           {
             "_itemAll": 3,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Awọdụ nke Afrika Moovi Akadei"
+            "targetText": "Oge 1: 12 Omume Oge 2: 10 Omume Oge 3: 9 Omume Oge 4: 12 Omume Oge 5: 12 Omume Oge 6: 12 Omume"
           }
         ],
         "targetsSize": 2
@@ -52,20 +52,20 @@
         "_item": 2,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1646708/7",
-        "sourceText": "1 2 \"Soutenance de Thèse de Fatima El Faquir sur les athlètes marocaines\". L-VIS (in French). 8 October 2017. Retrieved 21 May 2019. ↑ Evans, Hilary; Gjerde, Arild; Heijmans, Jeroen; Mallon, Bill; et al. \"Fatima El-Faquir Olympic Results\". Olympics at Sports-Reference.com. Sports Reference LLC. Archived from the original on 18 April 2020. Retrieved 2 July 2017. 1 2 Benn, Tansin; Pfister, Gertrud; Jawad, Haifaa (2011). Muslim Women and Sport. London: Routledge. ISBN 978-0415490764. ↑ Magharebia.com (May 2005). \"La confédération africaine d'athlétisme nomme Fatima El Faquir présidente de la région Afrique du Nord\". archive.wikiwix.com. Archived from the original on 24 February 2011. Retrieved 21 May 2019. ↑ MATIN, LE. \"Le Matin - Ancienne athlète, Fatima El Faquir à la tête de l'ANSF\". Le Matin (in French). Retrieved 21 May 2019.",
+        "sourceID": "1781796/1",
+        "sourceText": "Bango (Mobango, Babango), is a Bantu language spoken in the Democratic Republic of Congo. Ethnologue suggests it may be a dialect of Budza, but Nurse & Philippson (2003)[3] list it as one of the Bwa languages.",
         "targets": [
-          {
-            "_itemAll": 5,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "1 2 ↑ 1 2 ↑ ↑  "
-          },
           {
             "_itemAll": 4,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Bango (Mobango, Babango), bụ asụsụ Bantu a na-asụ na Democratic Republic of Congo . Ethnologue na-atụ aro na ọ nwere ike ịbụ olumba nke Budza, mana Nurse & Philippson (2003) depụtara ya dị ka otu n'ime asụsụ Bwa.[1]"
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bango (Mobango, Babango), bụ asụsụ Bantu á na-asụ ná Democratic Republic of Congo . Ethnologue na-atụ aro na ọ nwere ike ịbụ olumba nkè Budza, mànà Nurse & Philippson (2003) depụtara yá dị kà òtù n'ime asụsụ Bwa.[1]"
           }
         ],
         "targetsSize": 2
@@ -75,20 +75,20 @@
         "_item": 3,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1459347/5",
-        "sourceText": "She voiced Gabby Gabby in the Japanese dub of Toy Story 4.",
+        "sourceID": "2070030/3",
+        "sourceText": "Born in Ibadan, Nigeria, Toyin received her M.A. Lit. degree from Obafemi Awolowo University.[1] She was the co-founder and co-ordinator for several years of the Association of Writers of Nigeria.[2]",
         "targets": [
-          {
-            "_itemAll": 7,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ọ gụpụtara Gabby Gabby na Japanese dub of Toy akụkọ nke anọ ."
-          },
           {
             "_itemAll": 6,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ọ kwupụtara Gabby Gabby na Japanese dub of Toy Story 4 ."
+            "targetText": "A mụrụ ya na Ibadan, Naịjirịa, Toyin nwetara nzere MA Lit. ya na Mahadum Obafemi Awolowo.[1] Ọ bụ onye nchoputa na onye nhazi ruo ọtụtụ afọ nke Association of Writers of Nigeria.[2]"
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A mụrụ ya na Ibadan, Naịjirịa, Toyin nwetara nzere MA Lit. ya na Mahadum Obafemi Awolowo.[1] Ọ ọ bụ onye nhazi na onye nhazi site na r ọtụtụ afọ nke otu ndị odee nke Nigeria.[2]"
           }
         ],
         "targetsSize": 2
@@ -98,20 +98,20 @@
         "_item": 4,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2100132/0",
-        "sourceText": "The She Spot Author Lisa Witter and Lisa Chen Country United States Language English Genre Non-fiction Publisher Berrett-Koehler Publishers Publication date June 1, 2008 Media type Print (Hardback) Pages 288 ISBN 978-1-57675-472-6 OCLC 213222933 Dewey Decimal 658.8/34082 22 LC Class HF5415.332.W66 W577 2008",
+        "sourceID": "1637032/25",
+        "sourceText": "Centre for The Study of AIDS at the University of Pretoria produced an illustrated calendar of her work just before she died.[12]",
         "targets": [
-          {
-            "_itemAll": 9,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": " The She Spot"
-          },
           {
             "_itemAll": 8,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Centre for The Study of AIDS na Mahadum Pretoria mepụtara kalenda nwere ihe osise nke ọrụ ya obere oge tupu ya anwụọ.[1]"
+          },
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Centre for The Study of AIDS na Mahadum Pretoria mepụtara kalenda nwèrè ihe osise nke ọrụ ya obere ógè tụpụ ya anwụọ.[1]"
           }
         ],
         "targetsSize": 2
@@ -121,20 +121,20 @@
         "_item": 5,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1583590/9",
-        "sourceText": "ARTICULO 218. La Constitución, salvo lo que en materia de votación ella dispone en otros artículos, sólo podrá ser reformada por un Acto Legislativo, discutido primeramente y aprobado por el Congreso en sus sesiones ordinarias; publicado por el Gobierno, para su examen definitivo en la siguiente legislatura ordinaria; por ésta nuevamente debatido, y, últimamente, aprobado por la mayoría absoluta de los individuos que componen cada Cámara. Si el Gobierno no publicare oportunamente el proyecto de Acto Legislativo, lo hará el Presidente del Congreso. ARTICLE 218. The Constitution, [...] may only be amended by a Legislative Act, first discussed and adopted by Congress in its regular sessions; published by the Government, for final consideration at the next regular legislative session; by it again debated, and ultimately approved by the absolute majority of the individuals which compose each House. If the Government does not promptly publish the draft legislative act, the President of Congress will do so.[8]",
+        "sourceID": "1782199/2",
+        "sourceText": "The Nkambe languages are a group of Eastern Grassfields languages spoken by the Yamba and related peoples of the Western High Plateau of Cameroon.",
         "targets": [
-          {
-            "_itemAll": 10,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": " "
-          },
           {
             "_itemAll": 11,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": " ARTICUL 218 la"
+            "targetText": "Asụsụ Nkambe bụ otú asụsụ Eastern Grassfields nkè ndị Yamba ná ndị yiri yá nkè Western High Plateau nkè Cameroon na-asụ."
+          },
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Asụsụ Nkambe bụ otu asụsụ Eastern Grassfields nke ndị Yamba na ndị yiri ya nke Western High Plateau nke Cameroon na-asụ."
           }
         ],
         "targetsSize": 2
@@ -144,20 +144,20 @@
         "_item": 6,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1090504/12",
-        "sourceText": "Sources",
+        "sourceID": "1782699/1",
+        "sourceText": "The Teda language, also known as Tedaga, is a Nilo-Saharan language spoken by the Teda, a northern subgroup of the Toubou people that inhabits southern Libya, northern Chad and eastern Niger.",
         "targets": [
-          {
-            "_itemAll": 12,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Isi mmalite"
-          },
           {
             "_itemAll": 13,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ébém si de"
+            "targetText": "Asụsụ Teda, nkè á makwaara dị kà Tedaga, bụ asụsụ Nilo-Sahara nkè Teda, otú ndị Toubou bị n'ebe ùgwù nkè ndị bị ná ndịda Libya, n'ebe ndịda Chad ná n'ebe ọwụwa anyanwụ Niger na-asụ."
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Asụsụ Teda, nke a makwaara dị ka Tedaga, bụ asụsụ Nilo-Sahara nke Teda, otu ndị Toubou bi n'ebe ugwu nke ndị bi na ndịda Libya, n'ebe ndịda Chad na n'ebe ọwụwa anyanwụ Niger na-asụ."
           }
         ],
         "targetsSize": 2
@@ -167,20 +167,20 @@
         "_item": 7,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1632959/30",
-        "sourceText": "Singles featured in",
+        "sourceID": "1783495/8",
+        "sourceText": "In Djibouti, Afar is a recognized national language.[4] It is also one of the broadcasting languages of the Radio Television of Djibouti public network.",
         "targets": [
-          {
-            "_itemAll": 14,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ndị na-alụbeghị di na nwunye gosipụtara na"
-          },
           {
             "_itemAll": 15,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ndị dị otú ogosipụtara na"
+            "targetText": "Na Djibouti, Afar bụ asụsụ mbà á mà ámá.[1] Ọ bụkwa otú n'ime asụsụ mgbasa ozi nkè Redio Television nkè netwọk ọha ná ézè nkè Djibouti."
+          },
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Na Djibouti, Afar bụ asụsụ mba a ma ama.[1] Ọ bụkwa otu n'ime asụsụ mgbasa ozi nke Redio Television nke netwọk ọha na eze nke Djibouti."
           }
         ],
         "targetsSize": 2
@@ -190,20 +190,20 @@
         "_item": 8,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1528769/3",
-        "sourceText": "Here is the list of secondary schools in Onitsha North Local Government Area:",
+        "sourceID": "1741162/5",
+        "sourceText": "Since then she has also showed her collections at Joburg Fashion Week, Audi Fashion Week and Arise Africa Fashion week - AFI[3]",
         "targets": [
-          {
-            "_itemAll": 16,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Nke a bụ ndepụta ụlọ akwụkwọ sekọndrị dị n'okpuru ọchịchị Onitsha North:"
-          },
           {
             "_itemAll": 17,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Nke a bu otutu ulo akwuko skeondri di na ochichi one obodo onisha North"
+            "targetText": "Kemgbe ahụ, ọ na-egosikwa nchịkọta ya na ịzụta ejiji nke Joburg , Audi Fashion Week na Arise Africa Fashion week - AFI[1]"
+          },
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kemgbe ahụ, ọ na-egosikwa nchịkọta ya na Joburg Fashion Week, Audi Fashion Week na Arise Africa Fashion week - AFI[1]"
           }
         ],
         "targetsSize": 2
@@ -213,20 +213,20 @@
         "_item": 9,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1801342/13",
-        "sourceText": "Television series",
+        "sourceID": "2054502/1",
+        "sourceText": "The Review was led by Professor Julia King CBE FREng, Vice-Chancellor of Aston University and former Director of Advanced Engineering at Rolls-Royce plc.[2]",
         "targets": [
-          {
-            "_itemAll": 19,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Usoro ihe nkiri igwe onyonyo"
-          },
           {
             "_itemAll": 18,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Usoro ihe nkiri telivishọn"
+            "targetText": "Ọ bụ Prọfesọ Julia King CBE FREng, osote chancellor nke Mahadum Aston na onye bụbu onye nduzi nke Advanced Engineering na Rolls-Royce plc duziri nyocha ahụ.[1]"
+          },
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ọ bụ Prọfesọ Julia King CBE FREng, osote chancellor nkè Mahadum Aston na ónyé bụbu ónyé nduzi nkè Advanced Engineering na Rolls-Royce plc duziri nyocha ahụ.[1]"
           }
         ],
         "targetsSize": 2
@@ -236,20 +236,20 @@
         "_item": 10,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1634051/32",
-        "sourceText": "Mixtapes and Remix Albums",
+        "sourceID": "2100251/1",
+        "sourceText": "Whispers: The Voices of Paranoia is a narrative by Ronald K. Siegel. First published in 1994, it is a narrative about the extremes of phobias called paranoia.",
         "targets": [
-          {
-            "_itemAll": 21,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ngwakorita egwu na Egwu ndi akughariri"
-          },
           {
             "_itemAll": 20,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mixtapes na Remix Albums"
+            "targetText": "Whispers: The Voices of Paranoia bụ akụkọ Ronald K. Siegel dere. Nke mbụ e bipụtara na 1994, ọ bụ akụkọ banyere oke egwu a na-akpọ paranoia."
+          },
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Nkịta: olu nke paranoia bụ akụkọ Ronald k, Siegel. Nke mbụ e bipụtara na 1994, ọ bụ akụkọ gbasara oke egwu nke a na-akpọ paranoia"
           }
         ],
         "targetsSize": 2
@@ -259,20 +259,20 @@
         "_item": 11,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1045502/6",
-        "sourceText": "Awards and Accolades",
+        "sourceID": "1751468/2",
+        "sourceText": "The genus name of Listia is in honour of Friedrich Ludwig List (1779-1837), who was a German botanist and teacher.[3]",
         "targets": [
-          {
-            "_itemAll": 22,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Onyinye na Accolades"
-          },
           {
             "_itemAll": 23,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Onyinye na Nturu ugo"
+            "targetText": "Aha ụdị nke Listia bụ na sọpụrụ Friedrich Ludwig List (1779-1837), onye bụ onye mụrụ banyere ọkụkụ osisi nke si German na onye nkuzi.[1]"
+          },
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Aha ụdị nke Listia bụ iji sọpụrụ Friedrich Ludwig List (1779-1837), onye bụ onye German botanist na onye nkuzi.[1]"
           }
         ],
         "targetsSize": 2
@@ -282,20 +282,20 @@
         "_item": 12,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1626261/11",
-        "sourceText": "The Chief: He Who Sold Africa To The Colonists",
+        "sourceID": "2088286/6",
+        "sourceText": "There are three 1200 kVA hydroelectric turbines at the base of the dam, but they are currently not in use.",
         "targets": [
-          {
-            "_itemAll": 25,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "The Chief: He Who Sold Africa Colonists"
-          },
           {
             "_itemAll": 24,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Onye isi: Onye rere Afrịka nye ndị Colonists"
+            "targetText": "E nwere atọ 1200 kVA hydroelectric turbines na ala nke mmiri ahụ, mana ha anaghị eji ha eme ihe ugbu a."
+          },
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "E nwere ọnụ Ọgụgụ atọ nke 1200 kVA nke bụ hydroelectric turbines a bekee na ala nke mmiri ahụ, mana ha anaghị eji ha eme ihe ugbu a."
           }
         ],
         "targetsSize": 2
@@ -305,20 +305,20 @@
         "_item": 13,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1615051/12",
-        "sourceText": "↑ \"Jacob Daniel WIESE - Personal Appointments (free information from Companies House)\". beta.companieshouse.gov.uk. Retrieved 4 September 2017. 1 2 \"Jacob Wiese throws wedding of the year\". channel24.co.za. Retrieved 4 September 2017. 1 2 \"Leadership Team - New Look\". www.newlookgroup.com. Retrieved 4 September 2017. ↑ \"South African magnate with thirst for the UK high street\". telegraph.co.uk. Retrieved 4 September 2017. ↑ \"Shanna Jones · TY AND JACOB, PRIVATE HOME, BANTRY BAY, CAPE TOWN\". www.shannajones.com. Retrieved 4 September 2017.",
+        "sourceID": "2095225/191",
+        "sourceText": "The city of Bangalore in 2016 banned the plastic for all purpose other than for few special cases like milk delivery etc.[234]",
         "targets": [
           {
             "_itemAll": 26,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Obodo Bangalore na 2016 machibidoro plastik maka ebumnuche niile ma e wezụga ikpe ole na ole pụrụ iche dị ka nnyefe mmiri ara ehi wdg.[1]"
           },
           {
             "_itemAll": 27,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "↑ 1 2 1 2 ↑ ↑  "
+            "targetText": "Obodo Bangalore na 2016 machibidoro plastik maka ebumnuche ọ bụla ọzọ karịa maka ikpe ole na ole pụrụ iche dị ka nnyefe mmiri ara ehi wdg."
           }
         ],
         "targetsSize": 2
@@ -328,20 +328,20 @@
         "_item": 14,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2101920/19",
-        "sourceText": "Victims",
+        "sourceID": "2132545/3",
+        "sourceText": "In June 2021, he was installed as the Akyempim Odefey (Chief) of the Senya Beraku Traditional Area and goes by the stool name, Nenyi Kobena Andakwei VI.[1]",
         "targets": [
           {
             "_itemAll": 29,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ndị ihe metụtara"
+            "targetText": "Na June2021, etinyere ya dị ka Akyempim Odefey (Chief) nke Senya Beraku Traditional Area wee na stool aha Nenyi Kobena Andakwei VI..[1]"
           },
           {
             "_itemAll": 28,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ndị e gburu"
+            "targetText": "Na June 2021, a rụnyere ya dị ka Akyempim Odefey (Onye isi) nke Senya Beraku Traditional Area ma na-aga site na aha oche, Nenyi Kobena Andakwei VI.[1]"
           }
         ],
         "targetsSize": 2
@@ -351,20 +351,20 @@
         "_item": 15,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1751202/32",
-        "sourceText": "Beckett, Emma (2014). \"Bitter Taste Genetics – the Relationship to Tasting, Liking, Consumption and Health\". Food & Function. 5 (12): 3040–54. doi:10.1039/C4FO00539B. hdl:1959.13/1298053. PMID 25286017. Boxer, E.E.; Garneau, N.L. (2015). \"Rare haplotypes of the gene TAS2R38 confer bitter taste sensitivity in humans\". SpringerPlus. 4: 505. doi:10.1186/s40064-015-1277-z. PMC 4574037. PMID 26405625. Bufe, B. (2005). \"The Molecular Basis of Individual Differences in Phenylthiocarbamide and Propylthiouracil Bitterness Perception\". Current Biology. 15 (4): 322–7. doi:10.1016/j.cub.2005.01.047. PMC 1400547. PMID 15723792. Calancie, Larissa; et al. (2018). \"TAS2R38 Predisposition to Bitter Taste Associated with Differential Changes in Vegetable Intake in Response to a Community-Based Dietary Intervention\". G3: Genes, Genomes, Genetics. 8 (6): 2107–2119. doi:10.1534/g3.118.300547. PMC 5982837. PMID 29686110. Duffy, V.B.; et al. (2010). \"Vegetable Intake in College-Aged Adults Is Explained by Oral Sensory Phenotypes and TAS2R38 Genotype\". Chemosensory Perception. 3 (3–4): 137–148. doi:10.1007/s12078-010-9079-8. PMC 3000691. PMID 21157576. Wieczorek, Martyna.; et al. (2018). \"Bitter Taste of Brassica Vegetables: The Role of Genetic Factors, Receptors, Isothiocyanates, Glucosinolates, and Flavor Context\". Critical Reviews in Food Science and Nutrition. 58 (18): 3130–3140. doi:10.1080/10408398.2017.1353478. PMID 28718657. S2CID 28896102. Rozengurt, E. \"Taste Receptors in the Gastrointestinal Tract. I. Bitter taste receptors and α-gustducin in the mammalian gut\". Am. J. Physiol. Gastrointest. Liver Physiol. 7: 171–177. Roura, Eugeni; et al. (21 May 2015). \"Variability in Human Bitter Taste Sensitivity to Chemically Diverse Compounds Can Be Accounted for by Differential TAS2R Activation\". Chemical Senses. 40 (6): 427–35. doi:10.1093/chemse/bjv024. PMID 25999325. Risso, David; et al. (27 June 2016). \"Erratum: Corrigendum: Global Diversity in the TAS2R38 Bitter Taste Receptor: Revisiting a Classic Evolutionary PROPosal\". Scientific Reports. 6: 28406. doi:10.1038/srep28406. PMC 4921822. PMID 27346370. Mennella, Vito; et al. (20 February 2005). \"Functionally Distinct Kinesin-13 Family Members Cooperate to Regulate Microtubule Dynamics during Interphase\". Nature Cell Biology. 7 (3): 235–45. doi:10.1038/ncb1222. PMID 15723056. S2CID 6501199. Kim, U.K.; et al. (2005). \"Genetics of individual differences in bitter taste perception: lessons from the PTC gene\". Clin. Genet. 67 (4): 275–80. doi:10.1111/j.1399-0004.2004.00361.x. PMID 15733260. S2CID 1639438. Kim, U.K.; et al. (2004). \"Genetics of Human Taste Perception\". J. Dent. Res. 83 (6): 448–53. doi:10.1177/154405910408300603. PMID 15153450. S2CID 8801457. Khataan, Nora H.; et al. (2009). \"TAS2R38 Genotypes and Phenylthiocarbamide Bitter Taste Perception in a Population of Young Adults\". Journal of Nutrigenetics and Nutrigenomics. 2 (4–5): 251–6. doi:10.1159/000297217. PMID 20484932. S2CID 45496712. Genick, U.K.; et al. (2011). \"Sensitivity of genome-wide-association signals to phenotyping strategy: the PROP-TAS2R38 taste association as a benchmark\". PLOS ONE. 6 (11): e27745. Bibcode:2011PLoSO...627745G. doi:10.1371/journal.pone.0027745. PMC 3223210. PMID 22132133.",
+        "sourceID": "1401377/4",
+        "sourceText": "Joyce Kalu was born on September 25, 1970 in Ohafia, Abia State, South Eastern Nigeria. The last daughter in a family of nine, she is now married with three children.[1]",
         "targets": [
-          {
-            "_itemAll": 30,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "                           "
-          },
           {
             "_itemAll": 31,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ọgụgụ ọzọ                            "
+            "targetText": "A mụrụ Joyce Kalu na Septemba 25, 1970 na Ohafia, Abia State, South Eastern Nigeria . Nwa ikpeazụ n'ime ezinụlọ nke mmadụ itoolu, ọ nwanyị alụ alu gị ụmụaka atọ. [1]"
+          },
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A mụrụ Joyce Kalu na Septemba 25, 1970 na Ohafia, Abia State, South Eastern Nigeria . Nwa ikpeazụ n'ime ezinụlọ nke mmadụ itoolu, ọ lụọla nwanyị atọ. [1]"
           }
         ],
         "targetsSize": 2
@@ -374,20 +374,20 @@
         "_item": 16,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1791257/0",
-        "sourceText": "Souad Abderrahim Mayor of Tunis Incumbent Assumed office July 3, 2018 Preceded by Seifallah Lasram Personal details Political party Ennahda Movement",
+        "sourceID": "1625022/3",
+        "sourceText": "Auriol Ursula Luyt Batten (née Taylor) (2 March 1918, in Pietermaritzburg – 2 June 2015, in East London) was a South African botanical illustrator.[1]",
         "targets": [
           {
             "_itemAll": 32,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Auriol Ursula Luyt Batten (née Taylor) (2 March 1918, na Pietermaritzburg - 2 June 2015, na East London) bụ onye South African botanical illustrator.[1]"
           },
           {
             "_itemAll": 33,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Good x "
+            "targetText": "Auriol Ursula Luyt Batten (née Taylor) (2 March 1918, na Pietermaritzburg - 2 June 2015, na East London) bụ onye South African n'eme gbasara ihe atụ ihe ọkụkụ.[1]"
           }
         ],
         "targetsSize": 2
@@ -397,20 +397,20 @@
         "_item": 17,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "2104455/4",
-        "sourceText": "The Elephant, The Hippopotamus, and The Spider",
+        "sourceID": "1737757/5",
+        "sourceText": "Jennifer Ondo from Libreville represented the country at the 2013 Miss Universe pageant at the Crocus City Hall in Moscow, Russia on November 9 after she was named Most Beautiful Women of Gabon but did not make it to the top 15.",
         "targets": [
-          {
-            "_itemAll": 34,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Elephant, Hippopotamus, na Spider"
-          },
           {
             "_itemAll": 35,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Enyi, Enyi Mmiri, na Ududo."
+            "targetText": "Jennifer Ondo si Libreville nọchitere anya mba ahụ na asọmpi Nwada Universe nke afọ 2013 na Crocus City Hall na Moscow, Russia na Nọvemba 9 mgbe akpọrọ ya Nwanyị ma karịsịa na Gabon mana ọ banyeghị n'elu 15."
+          },
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Jennifer Ondo si Libreville nọchitere anya mba ahụ na asọmpi Miss Universe nke afọ 2013 na Crocus City Hall na Moscow, Russia na Nọvemba 9 mgbe akpọrọ ya Most Beautiful Women of Gabon mana ọ banyeghị n'elu 15."
           }
         ],
         "targetsSize": 2
@@ -420,20 +420,20 @@
         "_item": 18,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1527950/8",
-        "sourceText": "Participants",
+        "sourceID": "2028131/10",
+        "sourceText": "Calix is a key partner in, and provides the core technology towards, Project LEILAC (Low Emissions Intensity Lime & Cement), as part of Horizon 2020, a programme established by the European Commission.[1]",
         "targets": [
           {
             "_itemAll": 37,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ndị na-esonye"
+            "targetText": "Calix bụ onye mmekọ dị mkpa na, ma na-enye isi teknụzụ maka, Ihe oru ngo LEILAC (Mgbapụta dị ala lime enweghị uche & Cement), dị ka akụkụ nke Horizon 2020, mmemme nke European Commission guzobere.[1]"
           },
           {
             "_itemAll": 36,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ndị sonyere"
+            "targetText": "Calix bụ onye mmekọ dị mkpa na, ma na-enye isi teknụzụ maka, Project LEILAC (Low Emissions Intensity Lime & Cement), dị ka akụkụ nke Horizon 2020, mmemme nke European Commission guzobere.[1]"
           }
         ],
         "targetsSize": 2
@@ -443,20 +443,20 @@
         "_item": 19,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1540554/14",
-        "sourceText": "As of 9 September 2008",
+        "sourceID": "1546652/19",
+        "sourceText": "In 2001, she was cited in the Virginia state senate's Joint Resolution No. 377, Designating February 25 as \"African-American Scientist and Inventor Day.\"[25]",
         "targets": [
           {
             "_itemAll": 39,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Dị ka 9 Septemba 2008 Dị ka 9 Septemba 2008"
+            "targetText": "N'afọ pụkụ abụọ na otú, e hotara ya na mkpebi nkwonkwo nke steeti Virginia No. 377, na-ahọpụta Febụwarị 25 dị ka \"African-American Scientist and Inventor Day\".[1]"
           },
           {
             "_itemAll": 38,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Dị ka 9 Septemba 2008"
+            "targetText": "N'afọ 2001, e hotara ya na mkpebi nkwonkwo nke steeti Virginia No. 377, na-ahọpụta Febụwarị 25 dị ka \"African-American Scientist and Inventor Day\".[1]"
           }
         ],
         "targetsSize": 2
@@ -466,20 +466,20 @@
         "_item": 20,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1546812/8",
-        "sourceText": "Tokkelspel, Tafelberg, 1972, ISBN 978-0-624-00086-0",
+        "sourceID": "1561641/4",
+        "sourceText": "Mary was born and raised in a rural setting, in present-day Nyeri County. She, along with one sister and four brothers were raised by a single mother whose main source of income was peasant agriculture.[3]",
         "targets": [
-          {
-            "_itemAll": 40,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Tokkelspel, Tafelberg, 1972, "
-          },
           {
             "_itemAll": 41,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Tokkelspel, Tafelberg, na afo 1972, "
+            "targetText": "A mụrụ Mary ma zụlite ya n'ime ime obodo, na mpaghara Nyeri ugbu a. Otu nne zụrụ ya, tinyere otu neanwanyị nyịụmụ nwokeụnna anọ, bụ́ onye isi na-akpata rapyá ata ego bụ ọrụ ugbo. [1]"
+          },
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A mụrụ Mary ma zụlite ya n'ime ime obodo, na mpaghara Nyeri ugbu a. Otu nne nanị ya na-azụrụ ya, tinyere otu nwanna nwanyị na ụmụnna anọ, bụ́ onye isi ihe na-akpata ego bụ ọrụ ugbo. [1]"
           }
         ],
         "targetsSize": 2
@@ -489,20 +489,20 @@
         "_item": 21,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1781933/9",
-        "sourceText": "Lamberti divides Northern Somali into three subgroups:[13]",
+        "sourceID": "1613519/8",
+        "sourceText": "From October 2001 until June 2007, she voiced the safety message on Virgin Atlantic.[3] Behr also was Maxim's female presenter of the year in 2002.",
         "targets": [
           {
             "_itemAll": 43,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Lamberti kewara Northern Somali n'ime obere obere atọ[1]"
+            "targetText": "Site na Ọktọba 2001 ruo Juun 2007, o kwupụtara ozi nchekwa na Virgin Atlantic.[1] Behr bụkwa nwanyị n'gosipụta Maxim's nke afọ na 2002."
           },
           {
             "_itemAll": 42,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Lamberti kewara Northern Somali n'ime obere ìgwè atọ:[1]"
+            "targetText": "Site na Ọktọba 2001 ruo Juun 2007, o kwupụtara ozi nchekwa na Virgin Atlantic.[1] Behr bụkwa nwanyị Maxim's presenter nke afọ na 2002."
           }
         ],
         "targetsSize": 2
@@ -512,20 +512,20 @@
         "_item": 22,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1526761/3",
-        "sourceText": "She is a member of the Nigerian national team, and took part in the 2008 Summer Olympics and the 2011 World Cup.[2]",
+        "sourceID": "1783381/1",
+        "sourceText": "Bwela, or Lingi, is a poorly known Congolese Bantu language of uncertain affiliation (though listed as Zone C.40 by Guthrie). It may be close to Tembo.[3]",
         "targets": [
           {
             "_itemAll": 44,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ọ bụ onye otu mba Naijiria, wee soro na asọmpi olimpik nke afọ 2008 na iko mba ụwa 2011 . [1]"
+            "targetText": "Bwela, ma ọ bụ Lingi, bụ asụsụ Bantu Congolese a na-amaghị nke ọma nke ejighị n'aka njikọ (ọ bụ ezie na edepụtara ya dị ka Mpaghara C.40 site na Guthrie). O nwere ike ịdị nso na Tembo.[1]"
           },
           {
             "_itemAll": 45,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ọ bụ onye ou mba Naijiria, wee soro na asọmpi olimpik nke afpụkụ abụọ na asatọ n na iko mba ụwpụkụ abụọ na iri na otu11 . [1]"
+            "targetText": "Bwela, ma ọ bụ Lingi, bụ asụsụ Bantu Congolese á na-amaghị nkè ọma nkè ejighị n'aka njikọ (ọ bụ ezie na edepụtara yá dị kà Mpaghara C.40 site na Guthrie). O nwere ike ịdị nsọ nà Tembo.[1]"
           }
         ],
         "targetsSize": 2
@@ -535,20 +535,20 @@
         "_item": 23,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1546537/15",
-        "sourceText": "Film and television",
+        "sourceID": "1784650/21",
+        "sourceText": "A relative majority of the first settlers whose descendants today are the Afrikaners were from the United Provinces (now Netherlands and Flanders),[26] though up to one-sixth of the community was also of French Huguenot origin, and a seventh from Germany.[27]",
         "targets": [
-          {
-            "_itemAll": 46,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ihe nkiri na telivishọn"
-          },
           {
             "_itemAll": 47,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ihe nkiri na onyonyo"
+            "targetText": "Ọtụtụ n'ime ndị mbụ biri ebe ahụ bụ ndị Afrikaners taa sitere ná United Provinces (nke bụ Netherlands na Flanders ugbu a), ọ bụ ezie ná ìhè ruru otú ụzọ n'ụzọ isii nkè ọbọdọo ahụ bụkwa ndị French Huguenot, ná nkè asaa sitere na Germany.[1][2]"
+          },
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ọtụtụ n'ime ndị mbụ biri ebe ahụ bụ ndị Afrikaners taa sitere na United Provinces (nke bụ Netherlands na Flanders ugbu a), ọ bụ ezie na ihe ruru otu ụzọ n'ụzọ isii nke obodo ahụ bụkwa ndị French Huguenot, na nke asaa sitere na Germany.[1][2]"
           }
         ],
         "targetsSize": 2
@@ -558,20 +558,20 @@
         "_item": 24,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1561641/8",
-        "sourceText": "Before joining Equity Bank in 2004, Mary was a Partner in the law firm of Mary Wangari & Company Advocates, which she had founded and led for 13 years.[1]",
+        "sourceID": "2062081/2",
+        "sourceText": "The first three ARRDs were side events of the United Nations Climate Change Conference (COP15) held in 2009, 2010, and 2011 in Copenhagen, Denmark,[1] Cancún, Mexico,[2] and Durban, South Africa,[3] respectively. Over 500 people attended in 2011, where British population biologist John Beddington \"presented key actions for avoiding a future in which weather extremes produce a succession of food crises\".[4]",
         "targets": [
-          {
-            "_itemAll": 48,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Tupu ịbanye na Equity Bank na 2004, Mary bụ onye mmekọ na ụlọ ọrụ iwu nke Mary Wangari & Company Advocates, nke ọ tọrọ ntọala ma duru maka afọ 13. [1]"
-          },
           {
             "_itemAll": 49,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Tupu ọbanye na Equity Bank na 2004, Mary bụ onye mmekọ na ụlọ ọrụ iwu nke Mary Wangari & Company Advocates, nke ọji aka yá malite wéré chia ya rụọ afọ irí na ịtọ. [1]"
+            "targetText": "ARRD atọ izizi bụ ihe omume ndị dị n'akụkụ nke United Nations Climate Change Conference (COP15) nkè emere n'afọ 2009, 2010, na 2011 nà Copenhagen, Denmark, Cancún, Mexico, na Durban, South Africa, n'otu n'otu.[1][2][3] Ihe karịrị mmadụ narị ise bịara n'afọ 2011, ébé ónyé na-ahụ màkà ihe ndị dị ndụ na Britain bụ John Beddington \" gosipụtara ihe dị mkpa màkà izere ọdịnihu nke oke ihu ígwé na-akpata nsogbu nri\".[4]"
+          },
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "ARRD atọ mbụ bụ ihe omume ndị dị n'akụkụ nke United Nations Climate Change Conference (COP15) nke emere na 2009, 2010, na 2011 na Copenhagen, Denmark, Cancún, Mexico, na Durban, South Africa, n'otu n'otu.[1][2][3] Ihe karịrị mmadụ 500 bịara na 2011, ebe onye na-ahụ maka ihe ndị dị ndụ na Britain bụ John Beddington \" gosipụtara ihe dị mkpa maka izere ọdịnihu nke oke ihu igwe na-akpata nsogbu nri\".[4]"
           }
         ],
         "targetsSize": 2
@@ -581,20 +581,20 @@
         "_item": 25,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2084969/64",
-        "sourceText": "Gulf of Tadjoura Ghoubbet-el-Kharab",
+        "sourceID": "1623549/12",
+        "sourceText": "Nike Okundaye was included in the 2019 show I Am… Contemporary Women Artists of Africa at the Smithsonian's National Museum of African Art in Washington, D C.[15]",
         "targets": [
           {
             "_itemAll": 50,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Nkwupụta ụgbọ mmiri"
+            "targetText": "E tinyere Nike Okundaye na ihe ngosi 2019 I Am... Contemporary Women Artists of Africa na Smithsonian's National Museum of African Art na Washington, DC.[1]"
           },
           {
             "_itemAll": 51,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ọwara Oké Osimiri Tadjoura Ghoubbet-el-Kharab"
+            "targetText": "E tinyere Nike Okundaye na ihe ngosi nke afọ 2019 I Am... Contemporary Women Artists of Africa na Smithsonian's National Museum of African Art na Washington, DC.[1]"
           }
         ],
         "targetsSize": 2
@@ -604,20 +604,20 @@
         "_item": 26,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1046877/31",
-        "sourceText": "• Coffee Colored Children (1988)",
+        "sourceID": "1623679/6",
+        "sourceText": "Adeyemi is regarded as the first professor of architecture of Nigeria, he is also reported as being the 1st academic to attain professorship in architecture in Sub-Saharan Africa.[2][3]",
         "targets": [
-          {
-            "_itemAll": 52,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "• Kọfị Na-acha Childrenmụaka (1988)"
-          },
           {
             "_itemAll": 53,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "• Coffee Coloured Children (1988)"
+            "targetText": "A na-ahụta Adeyemi dị ka prọfesọ mbụ nke architecture nke Naịjirịa, a na-akọkwa na ọ bụ onye agụmakwụkwọ mbụ nwetara ọkwa prọfesọ na architecture na Sub-Saharan Africa.[1][2]"
+          },
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A na-ahụta Adeyemi dị ka prọfesọ mbụ nke ụlọ nke Naịjirịa, a na-akọkwa na ọ bụ onye agụmakwụkwọ mbụ nwetara prọfesọ na ụlọ na Sub-Saharan Africa.[1][2]"
           }
         ],
         "targetsSize": 2
@@ -627,20 +627,20 @@
         "_item": 27,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1688639/8",
-        "sourceText": "Dinner",
+        "sourceID": "2104589/2",
+        "sourceText": "As the trinity of gods, Nzame is in charge of creating the universe and everything in it. As one of the three deities, Nzame manages the heavenly bodies, Mebere and Nkwa are in charge of the female and male aspects of creation, which include certain traits such as leadership (Mebere) and beauty (Nkwa).[1][2]",
         "targets": [
           {
             "_itemAll": 54,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Nri Nri"
+            "targetText": "Dị ka Atọ n'Ime Otu nke chi, Nzame na-ahụ maka ịmepụta eluigwe na ala na ihe niile dị na ya. Dị ka otu n'ime chi atọ ahụ, Nzame na-achịkwa ahụ eluigwe, Mebere na Nkwa na' na - na: akụkụ nwanyị na nwoke nke okike, nke gụnyere àgwà ụfọdụ dị ka idu ndú (Mebère) na ịma mma (Nkwa).[1][2]"
           },
           {
             "_itemAll": 55,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Nri Abalị"
+            "targetText": "Dịka Atọ n'Ime Otu nke chi, Nzame na-ahụ maka ịmepụta eluigwe na ala na ihe niile dị na ya. Dịka otu n'ime chi atọ ahụ, Nzame na-achịkwa ahụ eluigwe, Mebere na Nkwa naa-ahụ maka akụkụ nwanyị na nwoke nke okike, nke gụnyere àgwà ụfọdụ dịka idu ndú (Mebère) na ịma mma (Nkwa).[1][2]"
           }
         ],
         "targetsSize": 2
@@ -650,20 +650,20 @@
         "_item": 28,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1755710/11",
-        "sourceText": "1991, 2000.",
+        "sourceID": "1402938/5",
+        "sourceText": "Nora through the passsion for directing learned through online tutorials (self-taught).[7] In 2019, her directed short documentary\" Life at the Bay\" was selected at the Africa International Film Festival.[8][9] She has produced, directed films and documentaries such as Symphonies, Life At The Bay, David, Baby Blues and All Lives Matter.[10][11][12][13]",
         "targets": [
           {
             "_itemAll": 57,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "1991, 2000"
+            "targetText": "Nora nwèrè mmasị maka iduzi ihe mụtara site na nkuzi ịntanetị (kuziri onwe ya). [1] N'afọ 2019, ahọpụtara obere akwụkwọ ntụzịaka ya \"Life at the Bay\" na mmemme ihe nkiri mba ụwa nke Africa. [2] [3] Ọ mepụtala, duzie ihe onyonyo na ihe nkiri dịka Symphonies, Life At The Bay, David, Baby Blues na All Lives Matter. [4] [5] [6] [7]"
           },
           {
             "_itemAll": 56,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "[Ihe e dere n'ala ala peeji]"
+            "targetText": "Nora site na passsion maka iduzi mụtara site na nkuzi ịntanetị (kuziri onwe ya). [1] N'afọ 2019, ahọpụtara obere akwụkwọ ntụzịaka ya \"Life at the Bay\" na mmemme ihe nkiri mba ụwa nke Africa. [2] [3] Ọ mepụtala, duzie ihe onyonyo na ihe nkiri dịka Symphonies, Life At The Bay, David, Baby Blues na Ndụ niile. [4] [5] [6] [7]"
           }
         ],
         "targetsSize": 2
@@ -673,20 +673,20 @@
         "_item": 29,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "2129688/8",
-        "sourceText": "Chief executives",
+        "sourceID": "1512964/11",
+        "sourceText": "In 2012, THISDAY’s offices in the nation’s capital Abuja, and in Kaduna were attacked in suicide car bombings thought to have been carried out by terrorist group Boko Haram.[8][9]",
         "targets": [
           {
             "_itemAll": 58,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ndị isi"
+            "targetText": "N'afọ 2012, a wakporo ụlọ ọrụ THISDAY dị n'isi obodo obodo Abuja, na na Kaduna na ogbunigwe ogbunigwe nke e chere na ọ bụ ndị Boko Haram mere. [1] [2]"
           },
           {
             "_itemAll": 59,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ndị isi oche"
+            "targetText": "N'afọ 2012, a kwaturu ụlọ ọrụ THISDAY dị n'isi obodo Abuja na Kaduna nsite na ogbunigwe nke e chere na ọ bụ ndị Boko Haram mere. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -696,20 +696,20 @@
         "_item": 30,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1091895/5",
-        "sourceText": "Lost to Georgi Kandelaki (Georgia) on points",
+        "sourceID": "1524427/14",
+        "sourceText": "Nzekwu married Onoenyi Justina Ogbenyeanu, daughter of Chief Isaac Aniegboka Mbanefo, Odu II of Onitsha, in June 1960 and was inducted into the ancient and prestigious Agbalanze Society of Onitsha in May 1991. He died on 21 April 2017.",
         "targets": [
           {
             "_itemAll": 60,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Echefuola na Georgi Kandelaki (Georgia) na isi"
+            "targetText": "Nzekwu lụrụ Onoenyi Justina Ogbenyeanu, ada Chief Isaac Aniegboka Mbanefo, Odu II nke Onitsha, na June 1960 ma e debanyere n'ime ochie na prestigious Agbalanze Society of Onitsha na May 1991. Ọ nwụrụ na 21 Eprel 2017."
           },
           {
             "_itemAll": 61,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Georgi Kandelaki (Georgia) ji ọnụọgụ merie"
+            "targetText": "Nzekwu lụrụ Onoenyi Justina Ogbenyeanu, ada Chifuu Isaac Aniegboka Mbanefo, Odu II nke Onitsha, na June 1960 nke e dubanyere ya n'ime otu Agbalanze nke Onitsha na May 1991. Ọ nwụrụ na 21 Eprel 2017."
           }
         ],
         "targetsSize": 2
@@ -719,20 +719,20 @@
         "_item": 31,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1634671/49",
-        "sourceText": "References/notes",
+        "sourceID": "1528128/0",
+        "sourceText": "Nnewichi is a town in Nnewi North, Anambra State, Nigeria.[1] Nnewichi is the fourth quarter among the four quarters of Nnewi town. Others Quarters are Otolo, Uruagu and Umudim.",
         "targets": [
           {
             "_itemAll": 62,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ndetu / ndetu"
+            "targetText": "Nnewichi bụ obodo dị na Nnewi North, Anambra State, Nigeria . [1] Nnewichi bụ nkeji anọ n'ime akụkụ anọ nke obodo Nnewi . Ndị ọzọ Quarters bụ Otolo, Uruagu na Umudim ."
           },
           {
             "_itemAll": 63,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Edensibia/ ndetu"
+            "targetText": "Nnewichi bụ obodo dị na Nnewi North, Anambra State, Nigeria . [1] Nnewichi bụ nkeji anọ n'ime akụkụ anọ nke obodo Nnewi . Nkeji ndị ọzọ bụ Otolo, Uruagu na Umudim ."
           }
         ],
         "targetsSize": 2
@@ -742,20 +742,20 @@
         "_item": 32,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "2084969/47",
-        "sourceText": "Lake Assal is the lowest point in Africa.",
+        "sourceID": "1555233/37",
+        "sourceText": "On May 1, 2020, Bloom posted on Twitter that although she believed Tara Reade was assaulted by the former vice president Joe Biden, she would still support Biden.[48]",
         "targets": [
-          {
-            "_itemAll": 64,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ihe onwunwe na ojiji ala"
-          },
           {
             "_itemAll": 65,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ọdọ Mmiri Assal bụ ebe kachasị ala n'Afrika"
+            "targetText": "Na Mee 1, 2020, Bloom biputere na Twitter na agbanyeghị na ọ kwenyere na osote onye isi ala Joe Biden wakporo Tara Reade, ọ ka ga-akwado Biden. [1]"
+          },
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Na Mee 1, 2020, Bloom biputere na Twitter na agbanyeghị na ọ kwenyere na Tara Reade bụ onye osote onye isi ala Joe Biden wakporo Tara Reade, ọ ka ga-akwado Biden. [1]"
           }
         ],
         "targetsSize": 2
@@ -765,20 +765,20 @@
         "_item": 33,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "1079210/0",
-        "sourceText": "Bola Agbaje FRSL is a playwright of Nigerian origin.[1]",
+        "sourceID": "1622720/9",
+        "sourceText": "Awuku calls his art Anansinisim, inspired by the Akan mythical spider character Kweku Anansi.[6] He often depicts historical Ghanaian Adinkra symbology on the bodies which he paints.[7]",
         "targets": [
-          {
-            "_itemAll": 66,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Bola Agbaje FRSL bụ a na-ede nke Nigerian malite. [1]"
-          },
           {
             "_itemAll": 67,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Bola Agbaje FRSL bụ nwafọ Naijiria na-ede ihe nkiri. [1]"
+            "targetText": "Awuku na-akpọ nka ya Anansinisim, nke sitere na mkpali onye omere nke Akan a kpọrọ Kweku Anansi .[1] Ọ na-egosipụtakarị akụkọ ihe mere eme nke Ghana a na-akpọ Adinkra symbology na ahụ ọ na-ese.[2]"
+          },
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Awuku na-akpọ nka ya Anansinisim, nke sitere n'ike mmụọ nsọ nke Akan akụkọ ifo ududo Kweku Anansi .[1] Ọ na-egosipụtakarị akụkọ ihe mere eme nke Ghana Adinkra symbology na ahụ ọ na-ese.[2]"
           }
         ],
         "targetsSize": 2
@@ -788,20 +788,20 @@
         "_item": 34,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1087623/3",
-        "sourceText": "Okafor was born in Umuahia.[2] In 2002 she attended a fine arts course at the University of Nigeria and in 2007, at the same University, held a master's degree in sculpture and curatorial practice.[3]",
+        "sourceID": "1625314/8",
+        "sourceText": "She has performed at the Cape Town International Jazz Festival in 2017,[6] Stanford University in 2017[7] and Afropunk Festival Johannesburg in 2018.[8]",
         "targets": [
-          {
-            "_itemAll": 69,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Amụrụ Okafor na Umuahia . [1] N'afọ 2002 ọ gụrụ maka nka na Mahadum nke Naijirịa na 2007, n'otu Mahadum a, ọ nwetere nzere masta na ngalaba nka . [2]"
-          },
           {
             "_itemAll": 68,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Amuru Okafor na Umuahia . [1] N'afọ 2002 ọ gara nka mara mma na Mahadum nke Nigeria na 2007, n'otu Mahadum, nwere nzere nzere masta na nka na nka. [2]"
+            "targetText": "O meela ihe nkiri na Cape Town International Jazz Festival na 2017, Mahadum Stanford na 2017 na Afropunk Festival Johannesburg na 2018.[1][2][3]"
+          },
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "O meela ihe nkiri na Cape Town International Jazz Festival n'afọ 2017, Mahadum Stanford n'afọ 2017 nakwa Afropunk Festival Johannesburg n'afọ 2018.[1][2][3]"
           }
         ],
         "targetsSize": 2
@@ -811,20 +811,20 @@
         "_item": 35,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1089815/2",
-        "sourceText": "Miss Universe 1995",
+        "sourceID": "1638548/5",
+        "sourceText": "Long before the outbreak of the Algerian War, Mustapha Sahnoune created at the end of the 40s, an ensemble with his friends, he called, La Rose blanche.",
         "targets": [
           {
             "_itemAll": 70,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Eluigwe na ala 1995"
+            "targetText": "Ogologo oge tupu agha Algeria amalite, Mustapha Sahnoune mepụtara na ngwụcha afọ 40, ya na ndị enyi ya, ọ kpọrọ, La Rose blanche."
           },
           {
             "_itemAll": 71,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Miss universe 1995"
+            "targetText": "Ogologo oge tupu agha Algeria amalite, Mustapha Sahnoune mepụtara ihe na ngwụcha afọ 1940, ya na ndị enyi ya, ọ kpọrọ, La Rose blanche."
           }
         ],
         "targetsSize": 2
@@ -834,20 +834,20 @@
         "_item": 36,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2089895/48",
-        "sourceText": "He lives and works in Lagos, Nigeria.",
+        "sourceID": "1791564/18",
+        "sourceText": "The Bagyáli traditionally inhabit the forests of Océan Department (Southern Region), around Kribi, Bipindi and Lolodorf (in the communes of Kribi, Akom II, Bipindi, and Lolodorf), and are estimated at 4,250 people.[1]",
         "targets": [
           {
             "_itemAll": 73,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ọ bi ma na-arụ ọrụ na Lagos, Nigeria."
+            "targetText": "Ndị Bagyáli na-ebikarị n'ọké ohịa nke ngalaba Océan (Southern Region), gburugburu Kribi, Bipindi na Lolodorf (n'ime obodo Kribi, Akom II, Bip indi, na Lolodorф), a na-eme atụmatụ na ha ruru mmadụ 4,250.[1]"
           },
           {
             "_itemAll": 72,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ihe odide"
+            "targetText": "Ndị Bagyáli na-ebikarị n'ọhịa nke Océan Department (Southern Region), gburugburu Kribi, Bipindi na Lolodorf (n'ime obodo Kribi, Akom II, Bip indi, na Lolodorф), a na-eme atụmatụ na mmadụ 4,250.[1]"
           }
         ],
         "targetsSize": 2
@@ -857,20 +857,20 @@
         "_item": 37,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "640007/29",
-        "sourceText": "Chieftaincy Title",
+        "sourceID": "1045086/10",
+        "sourceText": "A trailer for the film was released on 24 August 2018.[15] On 4 January 2019, the film was available to stream worldwide on Netflix.[7]",
         "targets": [
           {
             "_itemAll": 74,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Isi nke isi"
+            "targetText": "Emepụtara ụgbọala na-adọkpụ ihe nkiri na 24 August 2018. [1] Na 4 Jenụwarị 2019, enwere ihe nkiri ahụ ka ọ wụ ụwa niile na Netflix. [2]"
           },
           {
             "_itemAll": 75,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Echichi Eze"
+            "targetText": "E mepụtara usoro na atụmatụ ihe nkiri ana 24 August 2018. [1] Na 4 Jenụwarị 2019, ewepụtara ihe nkiri ahụ ka mba ụwa nwee ike ile ya na Netflix. [2]"
           }
         ],
         "targetsSize": 2
@@ -880,20 +880,20 @@
         "_item": 38,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1091295/7",
-        "sourceText": "The Essential Bridal Handbook[9]",
+        "sourceID": "1568293/5",
+        "sourceText": "Ama is a product of the University of Ghana, Legon where she holds a Bachelor of Arts degree and holds Master's in Business Administration from the Paris Graduate School of Management in France.[5]",
         "targets": [
           {
             "_itemAll": 77,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "The Essential Bridal Handbook [1]"
+            "targetText": "Ama gụrụ akwụkwọ na Mahadum Ghana, Legon ebe o nwetara nzere bachelọ nke Arts wee nweta nzere Master's in Business Administration na Paris Graduate School of Management na France . [1]"
           },
           {
             "_itemAll": 76,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Akwụkwọ Mkpa Agbamakwụkwọ Dị Mkpa [1]"
+            "targetText": "Ama bụ ngwaahịa sitere na Mahadum Ghana, Legon ebe o nwetara nzere bachelọ nke Arts wee nweta Master's in Business Administration na Paris Graduate School of Management na France . [1]"
           }
         ],
         "targetsSize": 2
@@ -903,20 +903,20 @@
         "_item": 39,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1092184/7",
-        "sourceText": "Entrepreneurial Challenges",
+        "sourceID": "1782746/3",
+        "sourceText": "A E I O U Ö – B D G J K L – M N P R S T – W Y ’B ’D Ý Ŋ – NY GB KP",
         "targets": [
-          {
-            "_itemAll": 79,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Akamgba Nchụso Azụmaahịa"
-          },
           {
             "_itemAll": 78,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Llema Aka Entma Aka"
+            "targetText": "A E I O O O O o B D G J K L N N P R S S S S N N N N'I N'I"
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A E I O U O - B D G J K L - M N P R S T - W Y 'B' Y N - NY GB KP"
           }
         ],
         "targetsSize": 2
@@ -926,20 +926,20 @@
         "_item": 40,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1550657/3",
-        "sourceText": "↑ Oluwaseun Adegbola joined Isloch",
+        "sourceID": "2106503/2",
+        "sourceText": "In Rumuola, sits the Port Harcourt Pleasure park[1] which is a public recreational park and tourist centre in Port Harcourt.",
         "targets": [
           {
             "_itemAll": 81,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "  ↑ Oluwaseun Adegbola joined Isloch"
+            "targetText": "Ọ bụ na Rumuola ka ogige ntụrụndụ Port Harcourt Pleasure, nke bụ oghere ntụgharị ọha na eze na ebe ndị njem nleta na Port Harcourt dị.[1]"
           },
           {
             "_itemAll": 80,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Na Rumuola, ogige ntụrụndụ Port Harcourt Pleasure nke bụ oghere ntụgharị ọha na eze na ebe ndị njem nleta na Port harcoort.[1]"
           }
         ],
         "targetsSize": 2
@@ -949,20 +949,20 @@
         "_item": 41,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1623701/8",
-        "sourceText": "Awards and Distinctions",
+        "sourceID": "2129346/2",
+        "sourceText": "Tunisie Telecom became a European telecoms operator with its 60% share purchase of the Maltese telecommunications company GO from the Emirati EIT for €200 million in June 2016.[4]",
         "targets": [
-          {
-            "_itemAll": 83,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ihe nrite na nkwanye ugwu"
-          },
           {
             "_itemAll": 82,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ihe nrite na ihe nrite"
+            "targetText": "Tunisie Telecom ghọrọ onye na-ahụ maka telivishọn na Europe na pasent 60 nke ụlọ ọrụ telivish ndụ Maltese GO site na Emirati EIT maka € 200 nde na June 2016.[1]"
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tunisie Telecom ghọrọ onye na-ahụ maka telecoms nke Europe na azụta 60% nke ụlọ ọrụ mgbasa ozi Maltese GO site na Emirati EIT maka nde euro 200 na June 2016.[1]"
           }
         ],
         "targetsSize": 2
@@ -972,20 +972,20 @@
         "_item": 42,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1546587/13",
-        "sourceText": "Official website Official website van Eeden, Janet. \"Author of Dancing in the Shadows of Love, Judy Croome, in conversation with Janet van Eeden\". LitNet. Retrieved 2014-05-06.",
+        "sourceID": "1075959/5",
+        "sourceText": "Oduyoye has been awarded honorary degrees by University of Amsterdam (1991), Stellenbosch University[3] the University of the Western Cape in 2002[4] and Yale University in 2008.[5]",
         "targets": [
-          {
-            "_itemAll": 85,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Webụsaịtị gọọmentị Official website  "
-          },
           {
             "_itemAll": 84,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Official website Official website  "
+            "targetText": "Oduyoye e ọdịda asọpụrụ degrees site University of Amsterdam (1991), Stellenbosch University [1] na University nke Western Cape na 2002 [2] na Yale University na 2008. [3]"
+          },
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Oduyoye e ritela honorary degrees na University of Amsterdam (1991), Stellenbosch University [1] , University of the Western Cape n'afọ 2002 [2] na Yale University n'afọ 2008. [3]"
           }
         ],
         "targetsSize": 2
@@ -995,20 +995,20 @@
         "_item": 43,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1626013/14",
-        "sourceText": "References and notes",
+        "sourceID": "1626808/8",
+        "sourceText": "In 1910 he gave up photography, and from 1910 to 1917 trained at the Middle Temple as a barrister for the Lagos courts.[1]",
         "targets": [
-          {
-            "_itemAll": 86,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ndetu na ndetu"
-          },
           {
             "_itemAll": 87,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ebensidee na ndetu"
+            "targetText": "Na 1910 ọ hapụrụ foto, site na 1910 ruo 1917 ọ gara ọzụzụ na Middle Temple dị ka onye ọka iwu maka ụlọ ikpe Lagos.[1]"
+          },
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Na 1910 ọ hapụrụ foto, site na 1910 ruo 1917 zụrụ na Middle Temple dị ka onye ọka iwu maka ụlọ ikpe Lagos.[1]"
           }
         ],
         "targetsSize": 2
@@ -1018,20 +1018,20 @@
         "_item": 44,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2069797/9",
-        "sourceText": "Bulley won a 2018 Eric Gregory Award.[12]",
+        "sourceID": "1663017/1",
+        "sourceText": "Prior to his work in the Liberian government, Moniba was a professional American football player in the Arena League (2001–04). He is also the author of The Official Guidebook to a College Football Scholarship",
         "targets": [
           {
             "_itemAll": 89,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Bulley meriri Eric Gregory Award nke afọ 2018.[1]"
+            "targetText": "Tupu ọrụ ya na gọọmentị Liberia, Moniba bụ onye America na-agba bọọlụ na Arena League (2001 - 2004). Ọ bụkwa onye dere akwụkwọ The Official Guidebook to a College Football Scholarship"
           },
           {
             "_itemAll": 88,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Bulley meriri 2018 Eric Gregory Award.[1]"
+            "targetText": "YTupu ọrụ ya na gọọmentị Liberia, Moniba bụ onye America na-agba bọọlụ na Arena League (2001). Ọ bụkwa onye dere akwụkwọ The Official Guidebook to a College Football Scholarship"
           }
         ],
         "targetsSize": 2
@@ -1041,20 +1041,20 @@
         "_item": 45,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1088633/12",
-        "sourceText": "Endorsement deal",
+        "sourceID": "1624957/6",
+        "sourceText": "Osodi won first prize at the Fuji African Photojournalist of the Year competition in 2004 in the Features and Portfolio categories.[18]",
         "targets": [
           {
             "_itemAll": 91,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Nkwado ụlọ ahịa"
+            "targetText": "Osodi ritere ihe nrite mbụ na asọmpi Fuji African Photojournalist of the Year n'afọ 2004 na ngalaba Features and Portfolio.[1]"
           },
           {
             "_itemAll": 90,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Nkwado Nkwado"
+            "targetText": "Osodi ritere ihe nrite mbụ na asọmpi Fuji African Photojournalist of the Year n'afọ 2004 na atụmatụ na Pọtụfoliyo.[1]"
           }
         ],
         "targetsSize": 2
@@ -1064,20 +1064,20 @@
         "_item": 46,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "2038820/14",
-        "sourceText": "Projections models show that[7]",
+        "sourceID": "1045863/18",
+        "sourceText": "In July 2016, Omeili won the award for Best Supporting Actress of the Year[19] at the 2016 City People Entertainment Awards in Lagos, Nigeria.",
         "targets": [
           {
             "_itemAll": 93,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Amụma ihe nlere anya na-egosi na[1]"
+            "targetText": "Na onwa Julai 2016, Omeili ritere nturu ugo maka onye kacha kwado ihe nkịrị n’aho [1] na 2016 City People Entertainment Awards na Lagos, Nigeria."
           },
           {
             "_itemAll": 92,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ihe ngosi ngosi na-egosi na[1]"
+            "targetText": "Na onwa Julai 2016, Omeili ritere nturu ugo maka onye kacha kwado ihe n’ahota n’aho [1] na 2016 City People Entertainment Awards na Lagos, Nigeria."
           }
         ],
         "targetsSize": 2
@@ -1087,20 +1087,20 @@
         "_item": 47,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2088306/5",
-        "sourceText": "Health & Well-being",
+        "sourceID": "1644765/17",
+        "sourceText": "At the 2019 FIFA Women's World Cup in France, Aboudi Onguéné scored an equalizer against the Netherlands during the team's second group stage match. [15]",
         "targets": [
           {
             "_itemAll": 95,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ahụike na ịdị mma"
+            "targetText": "Na 2019 FIFA Women's World Cup na France, Aboudi Onguéné nyere goolu ngafe megide Netherlands n'oge egwuregwu nke abụọ nke otu ahụ.[1]"
           },
           {
             "_itemAll": 94,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ahụike & Ahụike"
+            "targetText": "Na 2019 FIFA Women's World Cup na France, Aboudi Onguéné gbara otu onye na-eme ka ọ bụrụ na ọ bụ Netherlands n'oge egwuregwu nke abụọ nke otu ahụ.[1]"
           }
         ],
         "targetsSize": 2
@@ -1110,20 +1110,20 @@
         "_item": 48,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "618794/9",
-        "sourceText": "as of January 31, 2019[update][1]",
+        "sourceID": "1084067/9",
+        "sourceText": "She is also a member of the Nigeria national football team. Uwak competed at the 2008 Summer Olympics[3] and the 2007 FIFA Women's World Cup.",
         "targets": [
-          {
-            "_itemAll": 96,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "dị ka nke January [1]"
-          },
           {
             "_itemAll": 97,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "na Jenụwari 31, 2019 [1]"
+            "targetText": "Ọ bụkwa onye otu egwu bọọlụ Naịjirịa . Uwak gbara asọmpi 2008 Summer Olympics[1] nakwa 2007 FIFA Women's World Cup."
+          },
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ọ bụkwa onye otu egwu bọọlụ Naịjirịa . Uwak gbara asọmpi asọmpi asọmpi Summer Summer nke 2008 [1] na 2007 FIFA World Cup ."
           }
         ],
         "targetsSize": 2
@@ -1133,20 +1133,20 @@
         "_item": 49,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1755496/8",
-        "sourceText": "Festival objective and purpose",
+        "sourceID": "1566974/7",
+        "sourceText": "Bawuah authored Chosen from the Darkness which is a memoir[1] She founded a non-profit organization called Aboala Bawuah Foundation [12]",
         "targets": [
-          {
-            "_itemAll": 99,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ebumnuche nke ememe a"
-          },
           {
             "_itemAll": 98,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ebumnuche na ebumnuche ememme"
+            "targetText": "Bawuah dere ahọpụtara site na Ọchịchịrị nke bụ ihe ncheta [1] Ọ tọrọ ntọala otu anaghị akwụ ụgwọ akpọrọ Aboala Bawuah Foundation [2]"
+          },
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bawuah dere akwụkwọ 'Chosen from the Darkness' nke bụ ihe ncheta [1] Ọ tọrọ ntọala otu anaghị akwụ ụgwọ akpọrọ Aboala Bawuah Foundation [2]"
           }
         ],
         "targetsSize": 2

@@ -6,20 +6,20 @@
         "_item": 0,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2447950/1190825647_2_10",
-        "sourceText": "↑ Unknown (2 August 2013). \"Futball Galore Media: Pelican Stars upset form books to qualify at the expense of Delta Queens\". ↑ \"FIFA Women's World Cup: Alaba JONATHAN – Profile\". Archived from the original on 1 July 2011. ↑ Nordwest-Zeitung (17 June 2011). \"Der WM-Kader von Nigeria\". www.nwzonline.de. Archived from the original on 1 June 2019. Retrieved 1 June 2019. ↑ \"U.S. U-20 WNT Ready To Take On Nigeria In Quarterfinals of 2010 FIFA U-20 Women's World Cup\". Archived from the original on 24 May 2013. Retrieved 5 February 2016.",
+        "sourceID": "2617649/1212755153_1_3",
+        "sourceText": "Bourouissa was born in Blida, Algeria.[1] He moved with his family to France when he was five years old and grew up in the suburbs of Paris.[3]",
         "targets": [
           {
             "_itemAll": 1,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": " 1.unk"
+            "targetText": "Bourouissa ni a bi ni Blida, Algeria. [1] O gbe pẹlu ẹbi rẹ lọ si Faranse nigbati o jẹ ọmọ ọdun igbati olooyi ni kà nipa marun o si dagba ni agbegbe ilu Paris. [2]"
           },
           {
             "_itemAll": 0,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Bourouissa ni a bi ni Blida, Algeria. [1] O gbe pẹlu ẹbi rẹ lọ si Faranse nigbati o jẹ ọmọ ọdun marun o si dagba ni agbegbe ilu Paris. [2]"
           }
         ],
         "targetsSize": 2
@@ -29,20 +29,20 @@
         "_item": 1,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2459266/1198862592_6_14",
-        "sourceText": "↑ Onyango, Fred (2020-10-07). \"Why Netflix is a lifeline for African film-makers\". The Guardian. ISSN 0261-3077. Retrieved 2020-10-09. ↑ pm, Michael Musyoka on 3 September 2020-12:17. \"Award-winning Kenyan Film to Make History on Netflix\". Kenyans.co.ke. Retrieved 2020-10-09.{{cite web}}: CS1 maint: numeric names: authors list (link) ↑ Film, Poacher. \"Poacher film\". Poacher Film. Retrieved 2018-11-27. ↑ Mworia, Tim. \"For Your Consideration: Kalasha-Nominated 'Poacher' Is a Triumph of Conservation Filmmaking\". KenyaBuzz. Retrieved 2018-11-27. ↑ Whitworth, Tim. \"Whitworth Instagram Post\". Instagram. Archived from the original on 2021-12-26. Retrieved 2018-11-27. ↑ thepoint, shortto. \"SHORT TO THE POINT – AUGUST 2018 AWARDS\". STTP. Retrieved 2018-11-27. ↑ Commission, KenyaFilm. \"Kalasha International Film Awards Screening Schedule\" (PDF). KenyaFilmCommission. Retrieved 2018-11-27. ↑ Shorts, Moscow. \"September 2018 – Moscow Shorts Official Selection\". MoscowShorts. Retrieved 2018-11-27. ↑ \"Poacher | Netflix\". www.netflix.com. Retrieved 2020-10-09. ↑ Buzz, Kenya. \"Full List of Kalasha Awards 2018 Winners\". Kenya Buzz. Retrieved 2018-11-27. ↑ Buzz, Kenya. \"Full List of Kalasha Awards 2018 Winners\". Kenya Buzz. Retrieved 2018-11-27.",
+        "sourceID": "624454/1",
+        "sourceText": "Toun Okewale Sonaiya is a Nigerian radio broadcaster. In 2015, she launched WFM 91.7, the first radio station for women in Nigeria.[1] Sonaiya is also the Chief Executive Officer (CEO) of WFM 91.7.[2]",
         "targets": [
-          {
-            "_itemAll": 3,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Hhshsmsbbd Jej "
-          },
           {
             "_itemAll": 2,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Toun Okewale Sonaiya jẹ alagbasọ redio ti Nigeria kan. Ni ọdun 2015, o gbe WFM 91.7 silẹ , ibudo redio akọkọ fun awọn obirin ni Nigeria . [1] Sonaiya tun jẹ Alakoso Alakoso (Oludari ) ti WFM 91.7. [2]"
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Toun Okewale Sonaiya jẹ alagbasọ redio ti Nigeria kan. Ni ọdun 2015, o gbe WFM 91.7 silẹ , ibudo redio akọkọ fun awọn obirin ni Nigeria otu jẹ Alakoso Alakoso (Oludari ) ti WFM 91.7 [1] Sonaiya tun . [2]"
           }
         ],
         "targetsSize": 2
@@ -52,20 +52,20 @@
         "_item": 2,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1955843/37",
-        "sourceText": "Biodegradable products",
+        "sourceID": "2247202/1156586118_5_14",
+        "sourceText": "Ikeduba is multilingual as he can speak the Yoruba language, the Hausa Language the Igbo language as well as the English language, which is the official language of communication in Nigeria.[1][16]",
         "targets": [
           {
             "_itemAll": 5,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Awọn ọja ti a le tunlo"
+            "targetText": "Ikeduba jẹ ede-ede pupọ bi o ṣe le sọ ede Yoruba, Ede Hausa ni ede Igbo ati ede Gẹẹsi, eyiti o jẹ ede osise ti ibaraẹnisọrọ ni Naijiria. [1][2]"
           },
           {
             "_itemAll": 4,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Biodegradable awọn ọja"
+            "targetText": "Ikeduba jẹ onigbọwọ niwon o le sọ ede Yoruba, ede Hausa ede Igbo ati ede Gẹẹsi, eyiti o jẹ ede osise ti ibaraẹnisọrọ ni Naijiria.[1][2]"
           }
         ],
         "targetsSize": 2
@@ -75,20 +75,20 @@
         "_item": 3,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2743222/1238483948_1_10",
-        "sourceText": "Israeli–Palestinian conflict",
+        "sourceID": "2617653/1204984596_0_2",
+        "sourceText": "Khaled Habib El-Kebich (born January 24, 1970, in Tiaret, Algeria) is an Algerian film director, composer, singer-songwriter and an actor.",
         "targets": [
-          {
-            "_itemAll": 6,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ija Israeli-Palestini"
-          },
           {
             "_itemAll": 7,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Èdè àìyedè Israeli-Palestinian"
+            "targetText": "Khaled Habib El-Kebich (ti a bi ni January 24, 1970, ni Tiaret, Algeria ) jẹ oludari ni kà nipa julọ fiimu Algeria kan, olupilẹṣẹ, akọrin-akọrin ati oṣere kan."
+          },
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Khaled Habib El-Kebich (ti a bi ni January 24, 1970, ni Tiaret, Algeria ) jẹ oludari fiimu Algeria kan, olupilẹṣẹ, akọrin-akọrin ati oṣere kan."
           }
         ],
         "targetsSize": 2
@@ -98,20 +98,20 @@
         "_item": 4,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1045796/6",
-        "sourceText": "Selected filmography",
+        "sourceID": "1754858/2",
+        "sourceText": "Wazobia 95.1 FM Lagos is a Nigerian Pidgin English radio station in Lagos state. It was founded in 2007 and belongs to Globe Communications Limited.[1][2]",
         "targets": [
           {
             "_itemAll": 9,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Awon ere ti o kopa ninu rere"
+            "targetText": "Wazobia 95.1 FM Eko a a jẹ redio Pidgin Gẹẹsi ti Naijiria ni ipinlẹ Esile ko . O ti da ni ọdun 2007 ati pe o jẹ ti Globe Communications Limited. [1] [2]"
           },
           {
             "_itemAll": 8,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ti yan filmography"
+            "targetText": "Wazobia 95.1 FM Lagos jẹ redio Pidgin Gẹẹsi ti Naijiria ni ipinlẹ Eko . O ti da ni ọdun 2007 ati pe o jẹ ti Globe Communications Limited. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -121,20 +121,20 @@
         "_item": 5,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1431712/11",
-        "sourceText": "Executive Director of SKSN",
+        "sourceID": "2447068/1155702344_2_6",
+        "sourceText": "Olaniyi's acting career started in 1992, after joining a theatre group introduced to him by a friend. In 1996, Olaniyi relocated to Lagos State to further his career and has since starred in several Yoruba films.[1][4]",
         "targets": [
           {
             "_itemAll": 11,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Alásẹ àti Olùdarí SKSN"
+            "targetText": "Odun 1992 ni Obere ise osere Olaniyi, leyin to darapo mo àwọn egbe oni tiata ti ore kan se afihan re. Ni odun 1996, Olaniyi lo si ipinle Eko lati tẹsiwaju ninu ise re, o si ti kopa ninu opolopo fiimu Agbelewo Yorùbá. [1] [2][3]"
           },
           {
             "_itemAll": 10,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Oludari Alase ti SKSN"
+            "targetText": "Odun 1992 ni ise osere ti bere ni Olaniyi, leyin to darapo mo egbe tiata ti ore kan se afihan re. Ni odun 1996, Olaniyi lo si ipinle Eko lati tesiwaju ninu ise re, o si ti kopa ninu opolopo fiimu Yoruba. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -144,20 +144,20 @@
         "_item": 6,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "2878209/1263011948_1_3",
-        "sourceText": "Appointment",
+        "sourceID": "2617206/1178215362_0_1",
+        "sourceText": "Hacène Benaboura (1898-1960) was an Algerian artist. He is considered to be one of the \"forefathers of Algerian modern painting\".[1] In 1957 he was the recipient of Algeria's Grand Prize for Art.[2]",
         "targets": [
           {
             "_itemAll": 13,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Àwọn ipò ti odi mun"
+            "targetText": "Hacène Benaboura (1898-1960) jẹ oṣere ara Algeria kan. O ti wa ninu iwe iroyin owuro ni ka lati wa ni ọkan ninu awọn ọdún\"baba ti Algerian igbalode kikun\". [1] Ni ọdun 1957 o jẹ olugba Ebun nla ti Algeria fun aworan. [2]"
           },
           {
             "_itemAll": 12,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ipinnu"
+            "targetText": "Hacène Benaboura (1898-1960) jẹ oṣere ara Algeria kan. O ti wa ni ka lati wa ni ọkan ninu awọn \"baba ti Algerian igbalode kikun\". [1] Ni ọdun 1957 o jẹ olugba Ebun nla ti Algeria fun aworan. [2]"
           }
         ],
         "targetsSize": 2
@@ -167,20 +167,20 @@
         "_item": 7,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1328225/9",
-        "sourceText": "People",
+        "sourceID": "2637330/1188879012_0_1",
+        "sourceText": "Mohammed Abacha is the eldest surviving son of Nigeria's former military ruler, the late general Sani Abacha, and his wife Maryam Abacha.",
         "targets": [
           {
             "_itemAll": 15,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ara Ilu"
+            "targetText": "Mohammed Abacha ni Ẹ̀gbọ́n tó kù fún olórí ológun ti Naijiria tẹlẹri, Olóògbé General Sani Abacha, àti ìyàwó rẹ̀ Maryam Abacha ."
           },
           {
             "_itemAll": 14,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Eniyan"
+            "targetText": "Mohammed Abacha ni akọbi to ku fun olori ologun Naijiria tẹlẹri, Oloogbe General Sani Abacha, ati iyawo rẹ Maryam Abacha ."
           }
         ],
         "targetsSize": 2
@@ -190,20 +190,20 @@
         "_item": 8,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1752675/5",
-        "sourceText": "Life in Ojuelegba has been depicted in several musical works, including Fela's Confusion album, Wizkid's \"Ojuelegba\" single and Oritse Femi's \"Double Wahala\" single.[4]",
+        "sourceID": "1749835/1",
+        "sourceText": "German School Lagos (German: Deutsche Schule Lagos; DSL) was a German international school in Apapa, Lagos State, Nigeria[1] for pupils in years 1–13.[2]",
         "targets": [
           {
             "_itemAll": 17,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Opolopo ise orin ni won ti n se afihan aye Ojuelegba, lara awo orin Fela ti n o je Confusion, oju elegba ti Wizkid 's ati Oritse Femi 's \"Double Wahala\". [1]"
+            "targetText": "Ile Iwe Jamani ( Germanjẹ ile-iwe kariaye ti Jamani ni si Apapa, Ipinle Eko, Nigeria [1] fun awọn ọmọ ile-iwe to wa ni omo ọdun 1–13. [2]"
           },
           {
             "_itemAll": 16,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Opolopo ise orin ni won ti n se afihan aye Ojuelegba, lara awo orin Fla's Confusion, Wizkid 's \" Ojuelegba \" single and Oritse Femi 's \"Double Wahala\". [1]"
+            "targetText": "German School Lagos ( German ; DSL ) jẹ ile-iwe kariaye ti Jamani ni Apapa, Ipinle Eko, Nigeria [1] fun awọn ọmọ ile-iwe ni ọdun 1–13. [2]"
           }
         ],
         "targetsSize": 2
@@ -213,20 +213,20 @@
         "_item": 9,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "2453503/1170187935_6_18",
-        "sourceText": "↑ \"merry men: the real yoruba demons\". ↑ \"Nigeria Box Office Year Book, 2019\". books.filmhouseng.com. Retrieved 2020-06-28. ↑ \"Merry Men: More than Just a Movie Premiere\". ↑ Agbo, Njideka. \"\"Merry Men: The Real Yoruba Demons\" Is Showing In These Cinemas\". ↑ Okoli, Uche. \"Merry Men: The Real Yoruba Demons is a brilliant mix of powerful casting and relatable humour\". ↑ \"sequel of the Nollywood movie, 'Merry Men' is set to welcome some new faces like Regina Daniels and Williams Uchemba\". ↑ \"Merry Men: The Real Yoruba Demons (2018) Movie Review – Great Cast; Not So Great Delivery\". Nollyrated. Omonikee Adeoti. ↑ \"MERRY MEN: THE REAL YORUBA DEMONS\". Nollywood Reinvented. ↑ \"Merry Men: The Real Yoruba Demons\". bbfc.",
+        "sourceID": "2617252/1167984446_0_4",
+        "sourceText": "Benbouta received the Prix Albéric Rocheron in 1998 and the Prix Fenêtre des Arts Européens awarded by the Sprengel Museum in Hanover in 1999.[1]",
         "targets": [
           {
             "_itemAll": 18,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Benbouta gba Prix Albéric Rocheron ni 1998 ati Prix Fenêtre des Arts Européens ti o funni nipasẹ Ile ọnọ Sprengel ni Hanover ni ọdun 1999. [1]"
           },
           {
             "_itemAll": 19,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Hsjhs "
+            "targetText": "Benbouta gba Prix Albéric Rocheron ni 1998 ati Prix Fenêtre des Arts Européens ti o funni ike ti aywọn nipasẹ Ile ọnọ Sprengel ni Hanover ni ọdun 1999. [1]"
           }
         ],
         "targetsSize": 2
@@ -236,20 +236,20 @@
         "_item": 10,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "2063141/0",
-        "sourceText": "Summit University, Offa Type Private Established 2015 Vice-Chancellor Professor Musa Aibinu Location Offa , Kwara State , Nigeria Campus Urban Website https://summituniversity.edu.ng/",
+        "sourceID": "2617415/1217860600_1_5",
+        "sourceText": "In 1921 he moved to Algiers, French Algeria, where he became an Orientalist painter.[1] where he rapidly achieved a high level of popularity for his portraits.[3]",
         "targets": [
-          {
-            "_itemAll": 21,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ile a"
-          },
           {
             "_itemAll": 20,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Ni ọdun 1921 o gbe lọ si Algiers, Faranse Algeria, nibiti o ti di oluyaworan Orientist. [1] nibiti o ti ṣe aṣeyọri ipele giga ti olokiki fun awọn aworan rẹ. [2]"
+          },
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ni ọdun 1921 o gbe lọ si Algiers, Faranse Algeria, nibiti o ti awọn ibojì ni di oluyaworan Orientist. [1] nibiti o ti ṣe aṣeyọri ipele giga ti olokiki fun awọn aworan rẹ. [2]"
           }
         ],
         "targetsSize": 2
@@ -259,20 +259,20 @@
         "_item": 11,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2617174/1213473876_0_2",
-        "sourceText": "His miniature painting of the Kaaba in Mecca was featured on a commemorative stamp issued by Algeria in 1978.",
+        "sourceID": "2617445/1224607835_0_7",
+        "sourceText": "In addition to his work as a cartoonist, Bendib also co-hosts a weekly one-hour radio program called Voices of the Middle East and North Africa on Pacifica Radio station KPFA (94.1 FM), in Berkeley, California.[7] He also continues to exhibit his sculptures and ceramics.[8]",
         "targets": [
-          {
-            "_itemAll": 22,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Aworan kekere rẹ ti Kaaba ni Mekka ni a ṣe afihan lori ontẹ iranti kan ti Algeria ti gbejade ni ọdun 1978."
-          },
           {
             "_itemAll": 23,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Aworan kekere rẹ ti Kaaba ni Mekka ni a ṣe afihan nọmba laini lori ontẹ iranti ti awọn ọdún kan ti Algeria ti gbejade ipile yni ọdun 1978."
+            "targetText": "Ni afikun si iṣẹ rẹ̀ ninu awọn ibojì ni kà nipa bi alaworan, Bendib tun ṣe ajọpọ eto redio ọsẹ kan kan ti a pe ni Voices ti Aarin Ila-oorun ati Ariwa Afirika lori ibudo Redio Pacifica KPFA (94.1 FM), ni Berkeley, California. [1] O tun tẹsiwaju lati ṣafihan awọn ere ati awọn ohun elo amọ. [2] [1]"
+          },
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ni afikun si iṣẹ rẹ bi alaworan, Bendib tun ṣe ajọpọ eto redio ọsẹ kan kan ti a pe ni Voices ti Aarin Ila-oorun ati Ariwa Afirika lori ibudo Redio Pacifica KPFA (94.1 FM), ni Berkeley, California. [1] O tun tẹsiwaju lati ṣafihan awọn ere ati awọn ohun elo amọ. [2] [1]"
           }
         ],
         "targetsSize": 2
@@ -282,20 +282,20 @@
         "_item": 12,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2455683/1195456233_8_31",
-        "sourceText": "↑ \"Special Issue Editor Introduction Sankofa The Deed of Memory\". Phylon. 51 (1). 2014. ISSN 0031-8906. 1 2 3 4 5 6 7 \"Sankofa\". Archived from the original on 23 June 2002. 1 2 Kandé, Sylvie; Karaganis, Joe (1998). \"Look Homeward, Angel: Maroons and Mulattos in Haile Gerima's 'Sankofa'\". Research in African Literatures. 29 (2): 128–146. JSTOR 3820726. 1 2 3 Thomas, Kevin (15 May 1995). \"MOVIE REVIEW : 'Sankofa' Delivers Powerful Indictment of Evil of Slavery\". Los Angeles Times. 1 2 James, Caryn (8 April 1994). \"Review/Film; Reliving a Past of Slavery\". The New York Times. 1 2 3 University, Library and Technology Services, Lehigh. \"Reel American History - Films - List\". digital.lib.lehigh.edu. Retrieved 14 February 2016.{{cite web}}: CS1 maint: multiple names: authors list (link) ↑ Wright, Leland. \"Film Review - \"Sankofa\"\". www.academia.edu. Retrieved 14 February 2016. ↑ dinwww971 (6 May 2008). \"le film Sankofa pt. 1 - vidéo Dailymotion\". Dailymotion. Retrieved 14 February 2016.{{cite web}}: CS1 maint: numeric names: authors list (link) ↑ http://www.umass.edu/afroam/downloads/reading06.pdf Archived 23 June 2010 at the Wayback Machine[full citation needed][unreliable source?] ↑ \"500 utterly essential movies to cultivate great taste in cinema\". BrightSide — Inspiration. Creativity. Wonder. 13 November 2015. Retrieved 19 April 2018. ↑ Beik, William (1 July 1994). \"Review of , Sankofa\". www.h-net.org. Retrieved 14 February 2016. ↑ McClure, Michelle (Spring 2000). \"Sankofa: 'One Must Return to the Past in Order to Move Forward' A film review\". Black Camera. 15 (1): 9. ↑ Wright, E. Assata (1994). \"A Return to the Past\". Black Film Review. 8 (1): 24–28. ↑ \"Berlinale: 1993 Programme\". berlinale.de. Retrieved 30 May 2011. ↑ \"4K Restoration of Haile Gerima's 'Sankofa' Coming to Netflix in September 2021\". What's on Netflix. 16 September 2021.",
+        "sourceID": "2878722/1265585466_2_5",
+        "sourceText": "In 2023, he was elected under the platform of the Peoples Democratic Party (PDP) as member representing Ndokwa East/Ndokwa West/Ukwuani Federal Constituency, succeeding Ossai Nicholas Ossai.[1][2]",
         "targets": [
           {
             "_itemAll": 24,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Ni 2023, o ti dibo labẹ ipilẹ ti Peoples Democratic Party (PDP) gẹgẹbi ọmọ ẹgbẹ ti o nsoju Ndokwa East/Ndokwa West/Ukwuani Federal Constituency, ti o tẹle Ossai Nicholas Ossai . [1] [2]"
           },
           {
             "_itemAll": 25,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Hagahhhhah Hah "
+            "targetText": "Ni 2023, o ti dibo labẹ ipilẹ ti Peoples Democratic Party (PDP) gẹgẹbi ọmọ ẹgbẹ ti o nsójú Ndokwa East/Ndokwa ni ilé ìgbìmò Aṣoju ṣòfin àgbà ti o tẹle Ossai Nicholas Ossai . [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -305,20 +305,20 @@
         "_item": 13,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "2534715/1169464295_1_5",
-        "sourceText": "Born in Cape Town, Davids hails from Mitchell's Plain on the Cape Flats.",
+        "sourceID": "2883928/1266874399_2_5",
+        "sourceText": "In 2023, he ran for the Senate seat representing the Abia Central Senatorial District as a candidate of the All Progressives Congress (APC).[6][7]",
         "targets": [
-          {
-            "_itemAll": 27,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Tí a bí ní Cape Town, Davids hails láti Mitchell's Plain Lórí Cape Flats ."
-          },
           {
             "_itemAll": 26,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ti a bi ni Cape Town, Davids hails lati Mitchell's Plain lori Cape Flats ."
+            "targetText": "Ni ọdun 2023, o dije fun ijoko Sẹnetọ to n ṣoju Abia Central Senatorial District gẹgẹ bi oludije ẹgbẹ oṣelu All Progressives Congress (APC). [1] [2]"
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ni ọdun 2023, o díje fun Sẹnetọ to n ṣoju Abia Central gẹgẹ bi oludije ẹgbẹ oṣelu All Progressives Congress (APC). [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -328,20 +328,20 @@
         "_item": 14,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "2432360/1199509754_1_16",
-        "sourceText": "Disability initiative",
+        "sourceID": "1614881/1",
+        "sourceText": "Natalie Mwagale (born September 7, 1993) is a kenyan basketball player. She plays for the Kenyan Ports Authority and the Kenya women's national basketball team.[1][2]",
         "targets": [
-          {
-            "_itemAll": 29,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Eto Awọn Abarapa"
-          },
           {
             "_itemAll": 28,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Atinuda ailera"
+            "targetText": "Natalie Mwagale (ti a bi ni Oṣu Kẹsan 7, 1993) jẹ oṣere bọọlu inu agbọn ara ilu Kenya kan. O ṣere fun Alaṣẹ Ports Kenya ati ẹgbẹ bọọlu inu agbọn ti orilẹ-ede awọn obinrin Kenya . [1] [2]"
+          },
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Natalie Mwagale (ti a bi ni Oṣu Kẹsan ọjọ Keje, ọdun 1993) jẹ agbá bọọlu inu agbọn fun orilẹ-ede Kenya kan. O ngba fun Alaṣẹ Ports Kenya ati ẹgbẹ bọọlu inu agbọn ti orilẹ-ede awọn obinrin Kenya . [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -351,20 +351,20 @@
         "_item": 15,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2456003/1177304760_5_14",
-        "sourceText": "↑ Jordan Mintzer, 'Talking About Trees': Film Review | Berlin 2019, The Hollywood Reporter, 10 February 2019. 1 2 Barraclough, Leo (2019-09-22). \"'Talking About Trees' Director Suhaib Gasmelbari Receives Variety MENA Award\". Variety. Retrieved 2019-11-16. ↑ Weissberg, Jay (2019-02-17). \"Berlin Film Review: 'Talking About Trees'\". Variety. Retrieved 2020-11-28. ↑ \"Talking About Trees (2019)\". Rotten Tomatoes. Fandango. Retrieved 2021-10-10. ↑ Clarke, Cath (2020-01-30). \"Talking About Trees review – how the lights went out in Sudan's cinemas\". The Guardian. Retrieved 2020-11-28. ↑ Festival del cine africano de Tarifa. \"Jagdpartie\". cineafricano.fcat.es (in Spanish, English, and French). Retrieved 2021-05-07. ↑ Festival de Cine Africano de Tarifa. \"Jamal\". cineafricano.fcat.es (in Spanish, English, and French). Retrieved 2021-05-07. ↑ Stephen Appelbaum, 'Talking About Trees': How four men fought to revive Sudan’s love for cinema, The National, 27 October 2019. ↑ Nyay Bhushan, Mumbai: 'Honeyland', 'Eeb Allay Ooo!,' 'Bombay Rose' Among Festival Prize Winners, The Hollywood Reporter, 24 October 2019. ↑ What were the highlights of El Gouna Film Festival’s third edition?, Euronews, 4 October 2019. ↑ Jennifer Landes, Hamptons Film Fest Announces Key Award Winners, The East Hampton Star, October 14, 2019.",
+        "sourceID": "1750905/4",
+        "sourceText": "Part of the Lekki peninsula was formerly known as Maroko, a slum, before it was destroyed by the Raji Rasaki-led Lagos State military government. One of its neighbourhoods, Lekki phase 1, has a reputation of having some of the most expensive real estate in Lagos State.[citation needed]",
         "targets": [
-          {
-            "_itemAll": 30,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": " "
-          },
           {
             "_itemAll": 31,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Gaggq "
+            "targetText": "Apa kan lagbegbe Lekki ni won ti n pe ni Maroko tele, ko too di pe ijoba ologun nigbana Raji Rasaki pa a run. Ọkan ninu awọn agbegbe rẹ, Lekki alakoso 1, ni okiki ti nini diẹ ninu awọn ohun-ini gidi ti o gbowolori julọ ni Ipinle Eko."
+          },
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Apa kan lagbegbe Lekki ni won ti n pe ni Maroko tele, ko too di pe ijoba ologun Raji Rasaki to dari nipinle Eko pa a run. Ọkan ninu awọn agbegbe rẹ, Lekki alakoso 1, ni okiki ti nini diẹ ninu awọn ohun-ini gidi ti o gbowolori julọ ni Ipinle Eko. "
           }
         ],
         "targetsSize": 2
@@ -374,20 +374,20 @@
         "_item": 16,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "2877526/1262283243_4_10",
-        "sourceText": "Awards and honors",
+        "sourceID": "1753539/1",
+        "sourceText": "Satellite Town, Lagos is a community and state housing estate located along the Lagos-Badagry Expressway in Amuwo-Odofin local government area of Lagos State. Its ZIP code is 102262.[1][2]",
         "targets": [
-          {
-            "_itemAll": 33,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Àwọn àmín eye ati iyin"
-          },
           {
             "_itemAll": 32,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Awards ati iyin"
+            "targetText": "Satellite Town, Lagos jẹ agbegbe ati ile gbigbe ti ipinlẹ ti o wa ni opopona Lagos-Badagry Expressway ni ijọba ibilẹ Amuwo-Odofin ni Ipinle Eko . Koodu ZIP rẹ jẹ 102262. [1] [2]"
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Satellite Town, Lagos jẹ agbegbe ati estate ile gbigbe ti ipinlẹ ti o wa ni opopona Lagos-Badagry Expressway ni ijọba ibilẹ Amuwo-Odofin ni Ipinle Eko . Koodu ZIP rẹ jẹ 102262. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -397,20 +397,20 @@
         "_item": 17,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1069804/7",
-        "sourceText": "Television",
+        "sourceID": "2390671/1084711323_0_0",
+        "sourceText": "Tracy Mutinhiri is the Zimbabwe Deputy Minister of Labour and Social Welfare.[1] She is the Member of House of Assembly for Marondera East (ZANU-PF).",
         "targets": [
           {
             "_itemAll": 35,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Awọn ere tẹlifisiọnu ti o ti kopa"
+            "targetText": "Tracy Mutinhiri ni Igbakeji Mínísítà fun Iṣẹ pelu Awujọ ti Ilu Zimbabwe . [1] O jẹ ọmọ ẹgbẹ ti Ile-igbimọ Ile-igbimọ fun gusu Marondera"
           },
           {
             "_itemAll": 34,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Tẹlifisiọnu"
+            "targetText": "Tracy Mutinhiri ni Igbakeji Minisita fun Iṣẹ ati Awujọ ti Ilu Zimbabwe . [1] O jẹ ọmọ ẹgbẹ ti Ile-igbimọ Ile-igbimọ fun Marondera East ( ZANU-PF )."
           }
         ],
         "targetsSize": 2
@@ -420,20 +420,20 @@
         "_item": 18,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1754580/5",
-        "sourceText": "Notable markets in Lagos include:",
+        "sourceID": "2617431/1142896511_1_5",
+        "sourceText": "The daughter of Hassen Bouabdellah [fr], a film director and author, and Malika Dorbani, former head of the National Museum of Fine Arts of Algiers, she was born in Moscow and grew up in Algiers. Bouabdellah moved to France in 1993 during the Algerian Civil War. She studied at the Ecole nationale supérieure d'arts de Cergy-Pontoise, graduating in 2002.[2]",
         "targets": [
           {
             "_itemAll": 36,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Awọn ọja olokiki ni Ilu Eko pẹlu:"
+            "targetText": "Ọmọbinrin Hassen Bouabdellah [ fr ], oludari fiimu ati onkọwe, ati Malika Dorbani, ori iṣaaju ti National Museum of Fine Arts of Algiers, a bi ni Moscow ati dagba ni Algiers . Bouabdellah gbe lọ si Faranse ni ọdun 1993 lakoko Ogun Abele Algeria . O kọ ẹkọ ni Ecole nationale supérieure d'arts de Cergy-Pontoise, ti o yanju ni ọdun 2002. [1]"
           },
           {
             "_itemAll": 37,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Awọn ọja ni Ilu Eko ni:"
+            "targetText": "Ọmọbinrin Hassen Bouabdellah [ fr ], oludari fiimu naa lowo ni kà bi ati onkọwe, ati Malika Dorbani, ori iṣaaju ti National Museum of Fine Arts of Algiers, a bi ni Moscow ati dagba ni Algiers . Bouabdellah gbe lọ si Faranse ni ọdun 1993 lakoko Ogun Abele Algeria . O kọ ẹkọ ni Ecole nationale supérieure d'arts de Cergy-Pontoise, ti o yanju ni ọdun 2002. [1]"
           }
         ],
         "targetsSize": 2
@@ -443,20 +443,20 @@
         "_item": 19,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "2089499/1176990797_1_10",
-        "sourceText": "United Nations Environment Program",
+        "sourceID": "2617624/1213896258_1_5",
+        "sourceText": "Mohamed Demagh began his artistic career in 1966. He has presented several solo exhibitions and participated in mass demonstrations in Algeria (1972, 1974, 1983, 1992).",
         "targets": [
           {
             "_itemAll": 38,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Eto Ayika ti United Nations"
+            "targetText": "Mohamed Demagh bẹrẹ iṣẹ ọna rẹ ni ọdun 1966. O ti ṣafihan ọpọlọpọ awọn ifihan adashe ati kopa ninu awọn ifihan gbangba ni Algeria (1972, 1974, 1983, 1992)."
           },
           {
             "_itemAll": 39,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ètò Àyíká a ti United Nations"
+            "targetText": "Mohamed Demagh bẹrẹ iṣẹ ọna rẹ ni ọdun 1966. O ti ṣafihan ọpọlọpọ awọn ibojì ni kà nipa awọn ifihan adashe ati kopa ninu awọn ifihan gbangba ni Algeria (1972, 1974, 1983, 1992)."
           }
         ],
         "targetsSize": 2
@@ -466,20 +466,20 @@
         "_item": 20,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "2858306/1262311145_0_3",
-        "sourceText": "In Jainism, a soul travels to any one of the four states of existence after death depending on its karmas.",
+        "sourceID": "624464/0",
+        "sourceText": "Oloye Bola Kuforiji-Olubi (September 28, 1936 – December 3, 2016) was a Nigerian noblewoman, banker and federal minister of commerce.[1]",
         "targets": [
-          {
-            "_itemAll": 41,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ni Jainism, ọkàn kan rin irin-ajo lọ si eyikeyi ọkan ninu awọn ipinlẹ mẹrin ti aye lẹhin iku da kknbxhxsbhsbsjxj"
-          },
           {
             "_itemAll": 40,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ni Jainism, ọkàn kan rin irin-ajo lọ si eyikeyi ọkan ninu awọn ipinlẹ mẹrin ti aye lẹhin iku da lori karmas rẹ."
+            "targetText": "Oloye Bola Kuforiji-Olubi (Oṣu Kẹsan ọjọ 28, 1936 - Oṣu Kejìlá 3, ọdun 2016) jẹ ọmọ - ọdọ Naijiria kan , alakoso ati Federal Minister of Commerce. [1]"
+          },
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Oloye Bola Kuforiji-Olubi (September 28, 1936 - December 3, 2016) jẹ ọmọ - ọdọ Naijiria kan , alakoso ati Federal Minister of Commerce ti tele wa. [1]"
           }
         ],
         "targetsSize": 2
@@ -489,20 +489,20 @@
         "_item": 21,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1750427/18",
-        "sourceText": "Panoramic view of Banana Island taken from the Lekki-Ikoyi Link Bridge.",
+        "sourceID": "1751657/0",
+        "sourceText": "Ayobo is a suburb in Alimosho local government area of Lagos State, south-western Nigeria.[1] Anchor University, Lagos is located there.[2]",
         "targets": [
           {
             "_itemAll": 42,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Wiwo panoramic ti Banana Island ti a mu lati afara Ọna asopọ Lekki-Ikoyi ."
+            "targetText": "Ayobo je igberiko ni ijoba ibile Alimosho ni ipinle Eko, guusu-iwoorun Naijiria . [1] Ile-ẹkọ giga Anchor, Lagos wa nibẹ. [2]"
           },
           {
             "_itemAll": 43,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Iwo Banana Highland tí a yà láti afara Lekki-Ikoyi ."
+            "targetText": "Ayobo je igberiko kan ni ijoba ibile Alimosho ni ipinle Eko, guusu-iwoorun Naijiria . [1] ibè ni Ile-ẹkọ giga Anchor, Lagos [2]"
           }
         ],
         "targetsSize": 2
@@ -512,20 +512,20 @@
         "_item": 22,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2447068/1155702344_4_11",
-        "sourceText": "Olaniyi is married to Omolara Afonja with whom he has two children.[1]",
+        "sourceID": "1755669/3",
+        "sourceText": "The Ministry's main objective is to build a cleaner, healthier, and more sustainable environment that would promote tourism, economic growth, and citizen well-being.",
         "targets": [
-          {
-            "_itemAll": 44,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Omolara Afonja ni Olaniyi ni iyawo ti o bi omo meji pelu. [1]"
-          },
           {
             "_itemAll": 45,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Omolara Afonja ni Iyawo Olaniyi àfònjá njẹ ti o si bi omo meji pelu fún pẹlú .[1]"
+            "targetText": "Idi akọkọ ti o se pataki ni Ile-iṣẹ naa ni lati kọ ibi ti o mọ, , ati agbegbe alagbero diẹ sii ti yoo ṣe agbega irin-ajo, idagbasoke eto-ọrọ, ati alafia ara ilu."
+          },
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Idi akọkọ ti Ile-iṣẹ naa ni lati kọ mimọ, alara lile, ati agbegbe alagbero diẹ sii ti yoo ṣe agbega irin-ajo, idagbasoke eto-ọrọ, ati alafia ara ilu."
           }
         ],
         "targetsSize": 2
@@ -535,20 +535,20 @@
         "_item": 23,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2454722/1190726649_4_11",
-        "sourceText": "List of notable engineers in Nigeria List of vice chancellors in Nigeria",
+        "sourceID": "2564078/1175262676_2_7",
+        "sourceText": "Funke Akindele as Vivian Aberuagba Chinelo Ejianwu as Lily Aberuagba Babaseun Faseru as Stanley Aberuagba Soma Anyama as Dave Aberuagba Jessica Orishane as Nnena Aberuagba Tomiwa Tegbe as James Aberuagba[3] Patrick Doyle[4] as Solomon Aberuagba Vivian Metchie as Mrs Aberuagba",
         "targets": [
           {
             "_itemAll": 47,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Àkójọ ti àwọn Enginners ní Nigeria Àkójọ ti àwọn igbákejì Chancellor ní Nigeria"
+            "targetText": "Funke Akindele naw Vivian Aberuagba Chinelo Ejianwu nje Lily Aberuagba Babaseun Faseru nje Stanley Aberuagba Soma Anyama nje Dave Aberuagba Jessica Orishane nje Nnena Aberuagba Tomiwa Tegbe nje James Aberuagba [1] Patrick Doyle [2] nje Solomon Aberuagba Vivian Metchie nje Mrs Aberuagba"
           },
           {
             "_itemAll": 46,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Akojọ ti awọn ogbontarigi Enginners ni Nigeria Akojọ ti awọn igbakeji Chancellor ni Nigeria"
+            "targetText": "Funke Akindele bi Vivian Aberuagba Chinelo Ejianwu as Lily Aberuagba Babaseun Faseru as Stanley Aberuagba Soma Anyama as Dave Aberuagba Jessica Orishane as Nnena Aberuagba Tomiwa Tegbe as James Aberuagba [1] Patrick Doyle [2] bi Solomon Aberuagba Vivian Metchie bi Mrs Aberuagba"
           }
         ],
         "targetsSize": 2
@@ -558,20 +558,20 @@
         "_item": 24,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "645704/7",
-        "sourceText": "Descent from the Cross, depicted by Rubens (1616-17)",
+        "sourceID": "2583791/1220873141_0_2",
+        "sourceText": "Kwasu Library is the main library for Kwara State University. It was established in 2009 to meet the learning purposes of KWASU. It comprises two buildings, a three-storey main library and a six-storey library annex. [1][2]",
         "targets": [
           {
             "_itemAll": 48,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Iku lati Agbelebu, ti Rubens (1616-17)"
+            "targetText": "Ile-ikawe Kwasu jẹ ile-ikawe akọkọ fun Ile-ẹkọ giga ti Ipinle Kwara . O ti dasilẹ ni ọdun 2009 lati pade awọn idi ikẹkọ ti KWASU. O ni awọn ile meji, ile ikawe akọkọ onija mẹta ati afikun ile ikawe onija mẹfa kan. [1] [2]"
           },
           {
             "_itemAll": 49,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Iku lati àgbélébù, ti Rubens (1616-17)"
+            "targetText": "Ile-ikawe Kwasu jẹ ile-ikawe akọkọ fun Ile-ẹkọ giga ti Ipinle Kwara. Ati ọdun 2009 ni ati dasile lati pade awọn idi ekọ kiko ti KWASU. O ni awọn ile meji, ile ikawe onija mẹta ati ile ikawe onija mẹfa kan. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -581,20 +581,20 @@
         "_item": 25,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "883764/4",
-        "sourceText": "Work experience",
+        "sourceID": "2887595/1267752219_0_2",
+        "sourceText": "In October 2024, six months after his suspension in May 2024, Iyamu was reinstated by the Edo State House of Assembly following an allegation that he had planted charms in the assembly complex.[2][3][4]",
         "targets": [
-          {
-            "_itemAll": 51,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ise re"
-          },
           {
             "_itemAll": 50,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Odun ti o ti nsise"
+            "targetText": "Ni Oṣu Kẹwa ọdun 2024, oṣu mẹfa lẹhin idaduro rẹ ni May 2024, Iyamu ti da pada si ile-igbimọ Ile-igbimọ Ipinle Edo lẹhin ẹsun kan pe o ti gbin awọn ẹwa si ile igbimọ naa. [1] [2] [3]"
+          },
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ni Oṣu Kẹwa ọdun 2024, oṣu mẹfa lẹhin idaduro rẹ ni May 2024, Iyamu ti da padà si Ile-igbimọ aṣòfin Ìpínlẹ̀ Edo lẹhin ẹsun kan pe o ti gbin awọn ẹwa si ile igbimọ naa. [1] [2] [3]"
           }
         ],
         "targetsSize": 2
@@ -604,20 +604,20 @@
         "_item": 26,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "1087497/11",
-        "sourceText": "Tinsel Lincoln Clan[6] The Sanctuary[1]",
+        "sourceID": "1050583/11",
+        "sourceText": "On 14 August 2017, Omoni Oboli took to her instagram page to share a post announcing her new deal as the Brand ambassador of Olawale Ayilara's LandWey Investment Limited.[7]",
         "targets": [
           {
             "_itemAll": 52,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Tinsel Idile Lincoln [1] Ibi mimọ [1]"
+            "targetText": "Ni Oṣu Kẹjọ Ọjọ 14 Oṣu Kẹjọ ọdun 2017, Omoni Oboli lọ si oju-iwe instagram rẹ lati pin ifiweranṣẹ kan ti o nkede adehun tuntun rẹ bi Ambassador Brand ti Olawale Ayilara ti LandWey Investment Limited. [1]"
           },
           {
             "_itemAll": 53,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Tinsel Lincoln Clan[1] The Sanctuary [1]"
+            "targetText": "Ni Ọjọ kerinla Oṣu Kẹjọ ọdun 2017, Omoni Oboli lọ si oju-iwe instagram rẹ lati pin ifiweranṣẹ kan ti o nkede adehun tuntun rẹ bi Ambassador Brand ti Olawale Ayilara ti LandWey Investment Limited. [1]"
           }
         ],
         "targetsSize": 2
@@ -627,20 +627,20 @@
         "_item": 27,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1617572/2",
-        "sourceText": "Christie George (born 10 May 1984) is a Nigerian former footballer who played as a forward.",
+        "sourceID": "1069847/6",
+        "sourceText": "Da-Silva in 2012, debuted her career as a movie producer with a movie titled Mama Insurance which featured Ayo Mogaji, Lanre Hassan, Iyabo Ojo, Ronke Ojo, and Doris Simeon.[7][2]",
         "targets": [
-          {
-            "_itemAll": 55,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Christie George (ti a bi ni ọjọ kewa osu kaarun ọdun 1984) je agbaboolu teleri omo Naijiria ti o n gba iwaju ."
-          },
           {
             "_itemAll": 54,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Christie George (ojoibi 10 May 1984) je agbaboolu teleri omo Naijiria ti o dun bii iwaju ."
+            "targetText": "Da-Silva ni ọdun 2012, da iṣẹ rẹ bi olupilẹṣẹ fiimu pẹlu fiimu ti akole Mama Insurance eyiti o ṣe ifihan Ayo Mogaji, Lanre Hassan, Iyabo Ojo, Ronke Ojo, ati Doris Simeon . [1] [2]"
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Da-Silva ni ọdun 2012 ṣe akọkọ igberejade rẹ pẹlu fiimu ti akọle rẹ jẹ Mama Insurance, eyiti o ṣe ifihan Ayo Mogaji, Lanre Hassan, Iyabo Ojo, Ronke Ojo, ati Doris Simeon .[1][2]"
           }
         ],
         "targetsSize": 2
@@ -650,20 +650,20 @@
         "_item": 28,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "1753236/1",
-        "sourceText": "Oshodi Transport Interchange Commenced operation May 2019",
+        "sourceID": "1751657/1",
+        "sourceText": "Ayobo is the last town in Lagos bordering Aiyetiro, Ogun State. Ayobo is a town with about 10 sub-towns under it. Megida, Isefun, Olorunisola, Bada, Sabo, Kande-Ijon, Orisumbare-Ijon, Jagundeyi, Alaja, etc.",
         "targets": [
           {
             "_itemAll": 56,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Ayobo ni ilu ti o kẹhin ni ilu Eko ni bode Aiyetiro, ipinle Ogun. Ayobo jẹ ilu ti o ni awọn agbegbe agbegbe bi 10 labẹ rẹ. Megida, Isefun, Olorunisola, Bada, Sabo, Kande-Ijon, Orisumbare-Ijon, Jagundeyi, Alaja, etc."
           },
           {
             "_itemAll": 57,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Bus terminal Oshodi  "
+            "targetText": "Ayobo ni ilu ti o kẹhin ni ilu Eko ni àlà Aiyetiro, ipinle Ogun. Ayobo jẹ ilu ti o ni awọn agbegbe mewa labẹ rẹ. Megida, Isefun, Olorunisola, Bada, Sabo, Kande-Ijon, Orisumbare-Ijon, Jagundeyi, Alaja, àti bebe lo."
           }
         ],
         "targetsSize": 2
@@ -673,20 +673,20 @@
         "_item": 29,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "2442819/1193314061_0_2",
-        "sourceText": "César Vallejo Vallejo in 1929 Born César Abraham Vallejo Mendoza March 16, 1892 Santiago de Chuco, La Libertad, Peru Died April 15, 1938 (aged 46) Paris, France Occupation Poet, writer, journalist Nationality Peruvian Notable works Los heraldos negros, Trilce Signature",
+        "sourceID": "2065711/2",
+        "sourceText": "Hajia Sa’a Ibrahim was born to Malam Ibrahim and Yalwa Bello on 18 April 1960 in Magashi Quarters, Gwale Local Government Area in Kano State.",
         "targets": [
           {
             "_itemAll": 58,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Hajia Sa'a Ibrahim ni won bi si Malam Ibrahim ati Yalwa Bello ni ojo kejidinlogun osu kerin odun 1960 ni Magashi Quarters ni ijoba ibile Gwale ni ipinle Kano ."
           },
           {
             "_itemAll": 59,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "César Vallejo  "
+            "targetText": "Hajia Sa'a Ibrahim ni wọ́n bí sínú ìdílé Malam Ibrahim àti Yalwa Bello ní ọjọ́ kejìdínlógún oṣù kẹrin ọdún 1960 ní Magashi Quarters ní ìjọba ìbílẹ̀ Gwale ní ipinle Kano ."
           }
         ],
         "targetsSize": 2
@@ -696,20 +696,20 @@
         "_item": 30,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1541640/2",
-        "sourceText": "A Dream of a Girl Before a Sunrise c. 1830–33 by Karl Bryullov (1799–1852)",
+        "sourceID": "2259284/1152300173_3_10",
+        "sourceText": "Funke Akindele as Lefty and Ayomide Bimbo Thomas as Nicky Eniola Badmus as Busty Esther Kalejaiye as Omo Joibo Ireti Osayemi Adebayo Salami as Baba Onibaba Taiwo Ibikunle Peju Ogunmola Rachel Oniga Taiwo Hassan as DPO Yinka Quadri Ronke Ojo Lanre Oropo as Lawyer",
         "targets": [
-          {
-            "_itemAll": 60,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "A ala ti a girl Ṣaaju ki o to a Ilaorun c. Ọdun 1830–33 nipasẹ Karl Bryullov (1799–1852)"
-          },
           {
             "_itemAll": 61,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ala omodebinrin kan saaju Ilaorun c. Ọdun 1830–33 nipasẹ Karl Bryullov (1799–1852)"
+            "targetText": "Funke Akindele bí i Lefty àti Ayomide Bimbo Thomas bí i Nicky Eniola Badmus bí i Oyan Esther Kalejaiye bí i Omo Joibo Ireti Osayemi Adebayo Salami bí i Baba Onibaba Taiwo Ibikunle Peju Ogunmola Rachel Oniga Taiwo Hassan bí i DPO Yinka Quadri Ronke Ojo Lanre Oropo bí i Amofin"
+          },
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Funke Akindele bi Lefty ati Ayomide Bimbo Thomas bi Nicky Eniola Badmus bi Oyan Esther Kalejaiye as Omo Joibo Ireti Osayemi Adebayo Salami as Baba Onibaba Taiwo Ibikunle Peju Ogunmola Rachel Oniga Taiwo Hassan bi DPO Yinka Quadri Ronke Ojo Lanre Oropo bi Amofin"
           }
         ],
         "targetsSize": 2
@@ -719,20 +719,20 @@
         "_item": 31,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "1612775/7",
-        "sourceText": "International career",
+        "sourceID": "2883226/1259804135_3_18",
+        "sourceText": "Between 2003 and 2007, he served as Chair of the House Committee on Marine Transport. Ihedioha is credited with passing key bills that allowed for increased participation of Nigeria in that sector. These laws are:",
         "targets": [
-          {
-            "_itemAll": 62,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "International ọmọ"
-          },
           {
             "_itemAll": 63,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ise Okeere"
+            "targetText": "Laarin 2003 ati 2007, o ṣiṣẹ bi Alaga ti Ìgbìmò Ile lori Ọkọ oju omi. Ohundioha jẹ iyi pẹlu gbígbé awọn òwò pàtàki ti o gba láàyè fun ikopa ti Nàìjíríà pọ si ni eka yẹn. Awọn ofin wọnyi ni:"
+          },
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Laarin 2003 ati 2007, o ṣiṣẹ bi Alaga ti Igbimọ Ile lori Ọkọ oju omi. Ohundioha jẹ iyi pẹlu gbigbe awọn owo pataki ti o gba laaye fun ikopa ti Naijiria pọ si ni eka yẹn. Awọn ofin wọnyi ni:"
           }
         ],
         "targetsSize": 2
@@ -742,20 +742,20 @@
         "_item": 32,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "1655744/8",
-        "sourceText": "WNBA career statistics",
+        "sourceID": "2883914/1266118812_1_3",
+        "sourceText": "In December 2024, Ohajuruka was appointed by President Bola Tinubu as Executive Director for Finance on the Board of the South-East Development Commission (SEDC).[6][7]",
         "targets": [
-          {
-            "_itemAll": 65,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Statistiki WNBA"
-          },
           {
             "_itemAll": 64,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "WNBA ọmọ statistiki"
+            "targetText": "Ni Oṣu Kejila ọdun 2024, Aarẹ Bola Tinubu yan Ohajuruka gẹgẹ bi oludari eto iṣuna lori igbimọ igbimọ ti South-East Development Commission (SEDC). [1] [2]"
+          },
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ni Oṣu Kejila ọdun 2024, Aarẹ Bola Tinubu yan Ohajuruka gẹgẹ bi olùdarí eto iṣuna lori ìgbìmò ti South-East Development Commission (SEDC). [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -765,20 +765,20 @@
         "_item": 33,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2435278/1143432520_1_12",
-        "sourceText": "Richard Mofe-Damijo as General",
+        "sourceID": "1649824/1",
+        "sourceText": "He finished twelfth in the high jump final at the 1968 Olympic Games. He also competed at the 1972 Olympic Games without reaching the final.[1]",
         "targets": [
           {
             "_itemAll": 66,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Richard Mofe-Damijo bi Gbogbogbo"
+            "targetText": "O pari kejila ni ipari fifo giga ni Awọn ere Olimpiiki 1968 . O tun dije ni Awọn ere Olimpiiki 1972 laisi ipari ipari. [1]"
           },
           {
             "_itemAll": 67,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Richard Mofe-Damijo bí i General"
+            "targetText": "O pari ni ipo kejila ni ipari fifo giga ni ere Olimpiiki 1968 . O tun dije ninu ere Olimpiiki 1972 laisi dey ipari. [1]"
           }
         ],
         "targetsSize": 2
@@ -788,20 +788,20 @@
         "_item": 34,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "2536160/1215573948_2_9",
-        "sourceText": "Amaechi won the discus event at the 2023 African Games.[9]",
+        "sourceID": "1654081/4",
+        "sourceText": "Anozie became paralyzed from polio when she was two years old.[1] She completed a university accounting program in 1998 but changed her career to sports when she could not find a job.[2]",
         "targets": [
           {
             "_itemAll": 69,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Amaechi won the discus event at the 2023 African Games.[1]"
+            "targetText": "Anozie di arọ lati ara aarun roparose nigbati o jẹ ọmọ ọdun meji. [1] O pari eto iṣiro ile-ẹkọ giga ni ọdun 1998 ṣugbọn o yipada iṣẹ rẹ si ere idaraya nigbati ko le rii iṣẹ kan. [2]"
           },
           {
             "_itemAll": 68,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Amaechi bori iṣẹlẹ discus ni Awọn ere Afirika 2023 . [1]"
+            "targetText": "Anozie di rọ lati roparose nigbati o jẹ ọmọ ọdun meji. [1] O pari eto iṣiro ile-ẹkọ giga ni ọdun 1998 ṣugbọn o yipada iṣẹ rẹ si awọn ere idaraya nigbati ko le rii iṣẹ kan. [2]"
           }
         ],
         "targetsSize": 2
@@ -811,20 +811,20 @@
         "_item": 35,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1647885/3",
-        "sourceText": "World Open final appearances",
+        "sourceID": "1754625/3",
+        "sourceText": "The building, located at No. 53, Massey Street, Ita-Faaji, Lagos Island was a three story building with a penthouse and a primary school (Ohen Nursery and Primary School) on the second floor, prior to its collapse on the morning of the 13th. The Governor of Lagos State when the incident happened, Akinwunmi Ambode said the primary school was illegally occupying the building as the building is registered as a residential building.[8][9]",
         "targets": [
           {
             "_itemAll": 71,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "World Open"
+            "targetText": "Ile naa, ti o wa ni No. 53, Massey Street, Ita-Faaji, Lagos Island jẹ ile alaja mẹta ti o ni ile kekere kan ati ile-iwe alakọbẹrẹ (Ohen Nursery and Primary School) ni ipele keji, ṣaaju ki o to ṣubu ni owurọ ojo ketala. Gomina ipinle Eko nigba ti isele naa sele, Akinwunmi Ambode so pe ileewe alakobere n gbe ile naa lona ofin nitori pe ile naa ti wa ni oruko gege bi ile ibugbe. [1] [2]"
           },
           {
             "_itemAll": 70,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "World Open ik ifarahan"
+            "targetText": "Ile naa, ti o wa ni No. 53, Massey Street, Ita-Faaji, Lagos Island jẹ ile alaja mẹta ti o ni ile kekere kan ati ile-iwe alakọbẹrẹ (Ohen Nursery and Primary School) ni ipele keji, ṣaaju ki o to ṣubu ni owurọ owurọ. 13th. Gomina ipinle Eko nigba ti isele naa sele, Akinwunmi Ambode so pe ileewe alakobere n gbe ile naa lona ofin nitori pe ile naa ti wa ni oruko gege bi ile ibugbe. [1] [2]"
           }
         ],
         "targetsSize": 2
@@ -834,20 +834,20 @@
         "_item": 36,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1978545/4",
-        "sourceText": "Chicken suya with jollof rice and plantains",
+        "sourceID": "1755290/10",
+        "sourceText": "The estate hosts several hotels like Oakwood Park Hotel, Casa Hawa-Safe Court, Le Paris Continental Hotel and Pelican Intercontinental Hotel,[11] and a shopping complex.[2]",
         "targets": [
           {
             "_itemAll": 72,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Adie suya pelu iresi jollof ati agbagba"
+            "targetText": "Ohun-ini naa gbalejo ọpọlọpọ awọn ile itura bii Oakwood Park Hotel, Casa Hawa-Safe Court, Le Paris Continental Hotel ati Pelican Intercontinental Hotel, [1] ati eka ohun tio wa. [2]"
           },
           {
             "_itemAll": 73,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Adìe suya pẹlu iresi jollof àti dodo"
+            "targetText": "Ohun-ini naa gbalejo ọpọlọpọ awọn ile itura bii Oakwood Park Hotel, Casa Hawa-Safe Court, Le Paris Continental Hotel ati Pelican Intercontinental Hotel, [1] ati eka ohun ile itaja. [2]"
           }
         ],
         "targetsSize": 2
@@ -857,20 +857,20 @@
         "_item": 37,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "2061048/3",
-        "sourceText": "Mofe-Damijo also wrote a few books including Dream Maker and Center Spread.",
+        "sourceID": "2004752/6",
+        "sourceText": "Teye was admitted to the Ghana girls' U-17 team to plat at the [[2018 African U-17 Women's World Cup Qualifying Tournament and the 2018 FIFA U-17 Women's World Cup .[5][6]",
         "targets": [
           {
             "_itemAll": 75,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Mofe-Damijo tún kọ àwọn ìwé díẹ̀ bíi Dream maker àti Center Spread."
+            "targetText": "Wọ́n gba Teye wọlé sínú ẹgbẹ́ U-17 àwọn ọmọbìrin Ghana láti ṣe eré ní bi [[2018 African U-17 Women's World Cup Qualifying Tournament àti 2018 FIFA U-17 Women's World Cup ."
           },
           {
             "_itemAll": 74,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Mofe-Damijo tun kọ awọn iwe diẹ pẹlu Ẹlẹda Ala ati Itankale Ile-iṣẹ ."
+            "targetText": "Teye ti gba wọle si ẹgbẹ U-17 awọn ọmọbirin Ghana lati ṣe ere ni [[2018 African U-17 Women's World Cup Qualifying Figagbaga ati 2018 FIFA U-17 Women's World Cup ."
           }
         ],
         "targetsSize": 2
@@ -880,20 +880,20 @@
         "_item": 38,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1753236/5",
-        "sourceText": "Terminals and facilities",
+        "sourceID": "2014308/10",
+        "sourceText": "He wrote several plays, producing The Jew's Revenge (1903) at the Royal Surrey Theatre in London, A Cleopatra Night (1907) at Dundee, and the Lily of Bermuda (1909), a musical comedy at the Theatre Royal, Manchester. The productions were praised by the British and American press.[citation needed]",
         "targets": [
-          {
-            "_itemAll": 77,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ibudo ati ohun elo"
-          },
           {
             "_itemAll": 76,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "TTY ati ohun elo"
+            "targetText": "O kọ ọpọlọpọ awọn ere, ti o n ṣe Igbẹsan Juu (1903) ni Royal Surrey Theatre ni Ilu Lọndọnu, Alẹ Cleopatra (1907) ni Dundee, ati Lily ti Bermuda (1909), awada orin kan ni Theatre Royal, Manchester. Awọn iṣelọpọ ni iyìn nipasẹ awọn British ati awọn atẹjade Amẹrika. "
+          },
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "O kọ ọpọlọpọ awọn ere, ti o n ṣe Igbẹsan Juu (1903) ni Royal Surrey Theatre ni Ilu Lọndọn, Alẹ Cleopatra (1907) ni Dundee, ati Lily ti Bermuda (1909), awada orin kan ni Theatre Royal, Manchester. Awọn iṣe wonyi awon alatejade British ati Amẹrika gbori yin fun. "
           }
         ],
         "targetsSize": 2
@@ -903,20 +903,20 @@
         "_item": 39,
         "itemID": 6,
         "itemType": "TGT",
-        "sourceID": "2083955/15",
-        "sourceText": "A Yombe sculpture (Louvre, Paris)",
+        "sourceID": "2252017/1173393211_1_7",
+        "sourceText": "Mumtaz Ali was honoured with title of \"Shams-ul-Ulama\" by the Government of British India in 1934.[1] He died on 15 June 1935 in Lahore.[2]",
         "targets": [
           {
             "_itemAll": 78,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Aworan Yombe kan (Louvre, Paris)"
+            "targetText": "Mumtaz Ali ni ola pẹlu akọle \"Shams-ul-Ulama\" nipasẹ Ijọba Gẹẹsi ti India ni ọdun 1934. [1] O ku ni 15 Okudu 1935 ni Lahore. [2]"
           },
           {
             "_itemAll": 79,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Yombe (Louvre, Paris)"
+            "targetText": "Mumtaz Ali ni wọ́n fi oyè \"Shams-ul-Ulama\" dalola nipasẹ Ijọba Gẹẹsi ti India ni ọdun 1934. [1] O ku ni ọjọ́ keedogun ọdún 1935 ni Lahore. [2]"
           }
         ],
         "targetsSize": 2
@@ -926,20 +926,20 @@
         "_item": 40,
         "itemID": 7,
         "itemType": "TGT",
-        "sourceID": "1750172/6",
-        "sourceText": "Purpose",
+        "sourceID": "2371875/1188432783_0_1",
+        "sourceText": "Fadwa Abd al-Rahman Ali Taha (Arabic: فدوى عبد الرحمن علي طه; born 23 October 1955 in Arbaji, Gezira State, Sudan) is a professor at the Department of History, University of Khartoum.[1]",
         "targets": [
           {
             "_itemAll": 81,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Idi ti a fi gbé ere náà kalè"
+            "targetText": "Fadwa Abd al-Rahman Ali Taha (Larubawa: فدوى عبد الرحمن علي طه; ti a bi 23 Oṣu Kẹwa Ọdun 1955 ni Arbaji, Ipinle Gezira, Sudan) jẹ olukọ ọjọgbọn ni Sakaani ti Itan, University of Khartoum.[1]"
           },
           {
             "_itemAll": 80,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Idi"
+            "targetText": "Fadwa Abd al-Rahman Ali Taha ( Arabic </link> ; bi 23 Oṣu Kẹwa Ọdun 1955 ni Arbaji, Ipinle Gezira, Sudan) jẹ olukọ ọjọgbọn ni Sakaani ti Itan, University of Khartoum . [1]"
           }
         ],
         "targetsSize": 2
@@ -949,20 +949,20 @@
         "_item": 41,
         "itemID": 8,
         "itemType": "TGT",
-        "sourceID": "1611683/10",
-        "sourceText": "Fed Cup participation",
+        "sourceID": "1608488/2",
+        "sourceText": "Ibrahim Al Husseini Hamadtou (born 1 July 1973),[3] also known as Ibrahim Elhusseiny Hamadtou, is an Egyptian Para table tennis Champion, winning several honors over the years, including the silver medals in the African Para table tennis Championships in 2011 and 2013.[2]",
         "targets": [
           {
             "_itemAll": 83,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Ikopa Fed Cup"
+            "targetText": "Ibrahim Al Husseini Hamadtou (ti a bi ni ojo 1 Osu Keje odun 1973), [1] ti a tun mọ si Ibrahim Elhusseiny Hamadtou, jẹ Aṣaju tẹnisi tabili Para ti ara ilu Egypt, ti o gba ọpọlọpọ amin ọla ni opoo ọdun, pẹlu ami-ẹri fadaka ninu idije tẹnisi tabili tabili Para ti Afirika ni ọdun 2011 ati Ọdun 2013."
           },
           {
             "_itemAll": 82,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Je Cup ikopa"
+            "targetText": "Ibrahim Al Husseini Hamadtou (ti a bi 1 Keje 1973), [1] ti a tun mọ si Ibrahim Elhusseiny Hamadtou, jẹ Aṣaju tẹnisi tabili Para ti ara ilu Egypt, ti o bori ọpọlọpọ awọn ọla ni awọn ọdun, pẹlu awọn ami-ẹri fadaka ni Awọn idije tẹnisi tabili tabili Para ti Afirika ni ọdun 2011 ati Ọdun 2013."
           }
         ],
         "targetsSize": 2
@@ -972,20 +972,20 @@
         "_item": 42,
         "itemID": 9,
         "itemType": "TGT",
-        "sourceID": "2429375/1167804091_2_10",
-        "sourceText": "In 2017, he won Best Director of the year at the City People Entertainment Awards[11]",
+        "sourceID": "1609970/3",
+        "sourceText": "Iheanacho began his senior career at Manchester City during the 2015–16 season.[5][6][7] He moved to Leicester City in 2017 for a reported £25 million fee.",
         "targets": [
-          {
-            "_itemAll": 85,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Ní ọdún 2017, ó borí Olùdarí Dára jùlọ ti ọdún ní City People Entertainment Awards [1]"
-          },
           {
             "_itemAll": 84,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ni ọdun 2017, o bori Oludari Dara julọ ti ọdun ni Awọn ẹbun Ere-iṣere Awọn eniyan Ilu [1]"
+            "targetText": "Iheanacho bẹrẹ iṣẹ agba rẹ ni Ilu Manchester ni akoko 2015–16 . [1] [2] [3] O gbe lọ si Ilu Leicester ni ọdun 2017 fun idiyele £ 25 kan ti o royin."
+          },
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Iheanacho bẹrẹ iṣẹ agba rẹ ni Ilu Manchester ni akoko 2015–16 . [1] [2] [3] O lọ si ẹgbẹ agbabọọlu Leicester ni ọdun 2017 fun idiyele £25milliion"
           }
         ],
         "targetsSize": 2
@@ -995,20 +995,20 @@
         "_item": 43,
         "itemID": 10,
         "itemType": "TGT",
-        "sourceID": "2455683/1195456233_0_1",
-        "sourceText": "1993 film Sankofa The DVD cover Directed by Haile Gerima Written by Haile Gerima Starring Kofi Ghanaba Oyafunmike Ogunlano Alexandra Duah Distributed by Mypheduh Films Release date 1993 Running time 124 minutes Country Burkina Faso / Germany / Ghana / US / UK Language English",
+        "sourceID": "1649579/2",
+        "sourceText": "Théodore Nkwayed (born 6 March 1967) is a Cameroonian weightlifter. He competed in the men's heavyweight I event at the 1988 Summer Olympics.[1]",
         "targets": [
           {
             "_itemAll": 86,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Hagahhhhah Ha "
+            "targetText": "Théodore Nkwayed (ojoibi 6 March 1967) je omo ilu Kamẹru . O dije ninu iṣẹlẹ iwuwo iwuwo awọn ọkunrin ni Awọn Olimpiiki Igba ooru 1988 . [1]"
           },
           {
             "_itemAll": 87,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": " "
+            "targetText": "Théodore Nkwayed (ojoibi 6 March 1967) je omo ilu Kamẹru . O dije ninu ìdíje gbigbe irinwuwo awọn ọkunrin ni Olimpiiki Igba ooru 1988 . [1]"
           }
         ],
         "targetsSize": 2
@@ -1018,20 +1018,20 @@
         "_item": 44,
         "itemID": 0,
         "itemType": "TGT",
-        "sourceID": "2087310/20",
-        "sourceText": "\"Lake Chad flooded savanna\". Terrestrial Ecoregions. World Wildlife Fund.",
+        "sourceID": "2089564/0",
+        "sourceText": "Members from the Kankouran West African Dance Company perform during a ceremony in the Rose Garden, White House, in 2007",
         "targets": [
           {
             "_itemAll": 88,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": " "
+            "targetText": "Awọn ọmọ ẹgbẹ lati Kankouran West African Dance Company ṣe lakoko ayẹyẹ kan ni Ọgbà Rose, Ile White, ni ọdun 2007"
           },
           {
             "_itemAll": 89,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": " Lake Chad flooded savanna"
+            "targetText": "Awọn ọmọ ẹgbẹ lati Kankouran West African Dance Company lakoko ayẹyẹ kan ni Ọgbà Rose, Ile funfun (White House), ni ọdun 2007"
           }
         ],
         "targetsSize": 2
@@ -1041,20 +1041,20 @@
         "_item": 45,
         "itemID": 1,
         "itemType": "TGT",
-        "sourceID": "1750862/4",
-        "sourceText": "The club is composed of different sections. These include:",
+        "sourceID": "2099091/13",
+        "sourceText": "Andre Blaze, currently works at The Virtuoso Company Ifeoma Iphie Aggrey-Fynn (died 2015) Cleopatra Tawo, now with Planet FM 101.1 in Uyo",
         "targets": [
-          {
-            "_itemAll": 90,
-            "_target": 0,
-            "targetID": "mt-text",
-            "targetText": "Ologba ti wa ni kq ti o yatọ si ruju. Iwọnyi pẹlu:"
-          },
           {
             "_itemAll": 91,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Egbe yi no awon apa ti o yatọ si ara won. Iwọnyi pẹlu:"
+            "targetText": "Andre Blaze, ṣiṣẹ́ Lọ́wọ́lọ́wọ́ ní The Virtuoso Company Ifeoma Iphie Aggrey-Fynn (ó kú 2015) Cleopatra Tawo, ó wà pẹ̀lú Planet FM 101.1 ni Uyo báyìí"
+          },
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Andre Blaze, Lọwọlọwọ ṣiṣẹ ni The Virtuoso Company Ifeoma Iphie Aggrey-Fynn (o ku 2015) Cleopatra Tawo, bayi pẹlu Planet FM 101.1 ni Uyo"
           }
         ],
         "targetsSize": 2
@@ -1064,20 +1064,20 @@
         "_item": 46,
         "itemID": 2,
         "itemType": "TGT",
-        "sourceID": "1751410/1",
-        "sourceText": "4th mainland bridge with artificial island",
+        "sourceID": "2423290/1152185880_2_8",
+        "sourceText": "Ann Njemanze as Domitilla Sandra Achums as Judith Ada Ameh as Anita[4] Kate Henshaw as Jenny[5] Charles Okafor as John Enebeli Elebuwa as Dr Lawson Maureen Ihua as Mrs Lawson",
         "targets": [
-          {
-            "_itemAll": 93,
-            "_target": 1,
-            "targetID": "he-text",
-            "targetText": "Àwòrán bi afara mainland se gba erukusu atowoda kan."
-          },
           {
             "_itemAll": 92,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "4th oluile Afara pẹlu Oríkĕ erekusu"
+            "targetText": "Ann Njemanze bi Domitilla Sandra Achums bi Judith Ada Ameh bi Anita [1] Kate Henshaw bi Jenny [2] Charles Okafor bi John Enebeli Elebuwa as Dr Lawson Maureen Ihua bi Fúnmi Lawson"
+          },
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ann Njemanze bí i Domitilla Sandra Achums bí i Judith Ada Ameh bí i Anita[1] Kate Henshaw bí i Jenny[2] Charles Okafor bí i John Enebeli Elebuwa bí i Dr Lawson Maureen Ihua bí i Fúnmi Lawson"
           }
         ],
         "targetsSize": 2
@@ -1087,20 +1087,20 @@
         "_item": 47,
         "itemID": 3,
         "itemType": "TGT",
-        "sourceID": "1097954/11",
-        "sourceText": "M. Gentille Assih at the Internet Movie Database.",
+        "sourceID": "2878460/1264386562_2_6",
+        "sourceText": "In 2011, Eyekeno was elected as a member representing ibesikpo Asutan in the Akwa Ibom State House of Assembly, was appointed chairman house Committee on Finance and Appropriation, Akwa Ibom State House of Assembly.[1]",
         "targets": [
           {
             "_itemAll": 95,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "M. Gentille Assih at the Internet Movie Database"
+            "targetText": "Ni ọdún 2011, Eyekeno ti dibo gẹgẹbi ọmọ ẹgbẹ ti o n sójú ibesikpo Asutan ni Ile-igbimọ aṣofin ni Ìpínlẹ̀ Akwa Ibom, ti a yàn ni ile igbimọ lori Isuna ati Imudanu, Ile-igbimọ Ipinle Akwa Ibom. [1]"
           },
           {
             "_itemAll": 94,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "M. Gentille Assih ni aaye data fiimu Intanẹẹti ."
+            "targetText": "Ni 2011, Eyekeno ti dibo gẹgẹbi ọmọ ẹgbẹ ti o nsoju ibesikpo Asutan ni Ile-igbimọ Ile-igbimọ Ipinle Akwa Ibom, ti a yàn ni igbimọ igbimọ ile igbimọ lori Isuna ati Imudanu, Ile-igbimọ Ipinle Akwa Ibom. [1]"
           }
         ],
         "targetsSize": 2
@@ -1110,20 +1110,20 @@
         "_item": 48,
         "itemID": 4,
         "itemType": "TGT",
-        "sourceID": "990057/17",
-        "sourceText": "Government response",
+        "sourceID": "1052011/4",
+        "sourceText": "Jeillo Angela Doris Edwards[3] was born in Freetown, Sierra Leone, one of six children, and she attended the Annie Walsh Memorial School.[2]",
         "targets": [
           {
             "_itemAll": 96,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Idahun si ti ijọba"
+            "targetText": "Jeillo Angela Doris Edwards [1] ni a bi ni Freetown, Sierra Leone, ọkan ninu awọn ọmọ mẹfa, o si lọ si Ile-iwe Iranti Iranti Iranti Annie Walsh . [2]"
           },
           {
             "_itemAll": 97,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "Igbese Ijoba lati dawo isele COVID-19 duro"
+            "targetText": "Jeillo Angela Doris Edwards [1] ni a bi ni Freetown, Sierra Leone, ọkan ninu awọn ọmọ mẹfa, o si lọ si Annie Walsh Memorial School.[2]"
           }
         ],
         "targetsSize": 2
@@ -1133,20 +1133,20 @@
         "_item": 49,
         "itemID": 5,
         "itemType": "TGT",
-        "sourceID": "1094380/11",
-        "sourceText": "City People Movie Matriarch Recognition Award 2018[5]",
+        "sourceID": "1051740/8",
+        "sourceText": "In 2013, she won the Pan African Actress award at the annual Nigerian Entertainment Awards (NEA Awards) in New York City.[13]",
         "targets": [
           {
             "_itemAll": 99,
             "_target": 1,
             "targetID": "he-text",
-            "targetText": "City People Movie Matriarch Recognition Award 2018[1]"
+            "targetText": "Ni ọdun 2013, o gba ami eye oṣere Pan African ni ọdọọdun Nigerian Entertainment Awards(NEA Awards) ni Ilu New York . [1]"
           },
           {
             "_itemAll": 98,
             "_target": 0,
             "targetID": "mt-text",
-            "targetText": "Ilu Eniyan Ilu Matrix Ti idanimọ Movie fiimu 2018 [1]"
+            "targetText": "Ni ọdun 2013, o gba ami eye oṣere Pan African ni ọdọọdun Awọn ohun idanilaraya ti Naijiria (NEA Awards) ni Ilu New York . [1]"
           }
         ],
         "targetsSize": 2

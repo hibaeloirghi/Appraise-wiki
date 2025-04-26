@@ -34,6 +34,10 @@ from EvalData.models import PairwiseAssessmentDocumentTask
 from EvalData.models import PairwiseAssessmentResult
 from EvalData.models import PairwiseAssessmentTask
 from EvalData.models import TaskAgenda
+import re
+
+def extract_marked_spans(candidate_text):
+    return re.findall(r'<span class="diff[^"]*">(.*?)</span>', candidate_text)
 
 # pylint: disable=import-error
 
@@ -1532,6 +1536,20 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         selected_choices = request.POST.getlist('selected_choices', [])
         other_text = request.POST.get('other_text', '')
         # Get intro survey data
+        # ============================
+        # Capture span-level diff votes
+        diff_choices = []
+        i = 0
+        while True:
+            choice = request.POST.get(f"diff_vote_{i}")
+            if choice is None:
+                break
+            diff_choices.append(choice)
+            i += 1
+
+        print("Collected diff_choices:", diff_choices)
+        # ============================
+
         wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
         other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
         fluency_in_target_language = request.POST.get('fluency_in_target_language', '')
@@ -1625,6 +1643,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     feedback_options=feedback_options,
                     other_feedback_options_text=other_feedback_options_text,
                     overallExperience=overallExperience,
+                    span_diff_votes=",".join(diff_choices),
                 )
 
     t3 = datetime.now()
@@ -1672,7 +1691,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     # wanted to change the text
     priming_question_text = (
         'Which of the two candidate texts below most accurately and fluently convey '
-        'the original meaning of the source text above in the target language?'
+        'the original meaning of the source text above in the target language? '
         'Simply put: which candidate translation do you prefer?'
     )
 
@@ -1688,6 +1707,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         candidate1_text,
         candidate2_text,
     ) = current_item.target_texts_with_diffs()
+
+    candidate1_diffs = extract_marked_spans(candidate1_text)
+    candidate2_diffs = extract_marked_spans(candidate2_text)
 
     campaign_opts = set((campaign.campaignOptions or "").lower().split(";"))
 
@@ -1790,6 +1812,18 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             )
         )
 
+    # Pad shorter candidate diff list
+    max_len = max(len(candidate1_diffs), len(candidate2_diffs))
+    padded_a = candidate1_diffs + [""] * (max_len - len(candidate1_diffs))
+    padded_b = candidate2_diffs + [""] * (max_len - len(candidate2_diffs))
+
+    # Replace empty diffs with placeholder
+    diff_pairs = []
+    for a, b in zip(padded_a, padded_b):
+        span_a = a.strip() if a.strip() else " "
+        span_b = b.strip() if b.strip() else " "
+        diff_pairs.append((span_a, span_b))
+
     context = {
         'active_page': 'pairwise-assessment',
         'reference_label': reference_label,
@@ -1800,6 +1834,10 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         'candidate_text': candidate1_text,
         'candidate2_label': candidate2_label,
         'candidate2_text': candidate2_text,
+        #'candidate1_diffs': candidate1_diffs,
+        #'candidate2_diffs': candidate2_diffs,
+        #'diff_pairs': list(zip(candidate1_diffs, candidate2_diffs)),
+        'diff_pairs': diff_pairs,
         'priming_question_text': priming_question_text,
         'item_id': current_item.itemID,
         'task_id': current_item.id,
@@ -1820,6 +1858,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     }
     context.update(BASE_CONTEXT)
 
+    #print("===== DEBUGGING SPAN DIFFS!! =====")
+    #print("Candidate 1 text:", candidate1_text)
+    #print("Candidate 2 text:", candidate2_text)
+    #print("Candidate 1 diffs:", candidate1_diffs)
+    #print("Candidate 2 diffs:", candidate2_diffs)
+    #print("Zipped diff pairs:", list(zip(candidate1_diffs, candidate2_diffs)))
     return render(request, 'EvalView/pairwise-assessment.html', context)
 
 
