@@ -431,15 +431,6 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('free text annotation'), help_text=_('(free text annotation)')
     )
     """
-
-    # Replaced freetextannotation with these fields
-    SELECTION_CHOICES = [
-        ('option1', 'The selected translation sounds better'),
-        ('option2', 'The selected translation has fewer errors'),
-        ('option3', 'The selected translation adds more context for the reader'),
-        ('option4', 'No meaningful difference in content or style'),
-        ('other', 'Other'),
-    ]
     
     selected_translation = models.CharField(
         max_length=255,
@@ -453,7 +444,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         blank=True,
         null=True,
         verbose_name=_('Selected choices'),
-        help_text=_('Comma-separated selected options')
+        help_text=_('Comma-separated selected options to explain the preferred aggragate translation')
     )
     
     other_text = models.TextField(
@@ -487,6 +478,15 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         help_text=_('How would you rate your fluency in the target language?')
     )
 
+
+    span_diff_texts = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Span difference texts'),
+        help_text=_('Text spans shown to user during annotation.')
+    )
+
+
     span_diff_votes = models.TextField(
     blank=True,
     null=True,
@@ -494,6 +494,14 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
     help_text=_('Stores which candidate was preferred for each highlighted difference.')
     )
 
+    span_diff_explanations = models.TextField(blank=True, null=True)
+
+    span_diff_other_texts = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other text explanations for each diff'),
+        help_text=_('User free-text explanations when "Other" is selected.')
+    )
 
 
     # for feedback form
@@ -886,16 +894,12 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         include_inactive=False,
         add_batch_info=False,
     ):
-        system_data = []
-
         item_types = ('TGT', 'CHK')
         if extended_csv:
             item_types += ('BAD', 'REF')
 
         qs = cls.objects.filter(completed=True, item__itemType__in=item_types)
-        #        print('Found completed items: {0}'.format(len(qs)))
 
-        # If campaign ID is given, only return results for this campaign.
         if campaign_id:
             qs = qs.filter(task__campaign__id=campaign_id)
 
@@ -903,94 +907,120 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             qs = qs.filter(createdBy__is_active=True)
 
         attributes_to_extract = (
-            'item__segmentID',   # Hiba added Source ID
-            'createdBy__username',  # User ID
-            'item__target1ID',  # System ID
-            'item__target2ID',  # System ID
-            'item__itemID',  # Segment ID
-            'item__itemType',  # Item type
-            'item__metadata__market__sourceLanguageCode',  # Source language
-            'item__metadata__market__targetLanguageCode',  # Target language
-            'score1',  # Score
-            'score2',  # Score
-            'errors1',  # Translation errors/annotation comments
-            'errors2',  # Translation errors/annotation comments
-            'sourceErrors',  # Errors in the source text
-            'selected_choices',
-            'other_text',
-            'wikipedia_familiarity',
-            'other_wikipedia_familiarity_text',
-            'fluency_in_target_language',
-            'feedback_options',
-            'other_feedback_options_text',
-            'overallExperience',
-            'span_diff_votes',
+            'item__segmentID',   # 0
+            'createdBy__username',  # 1
+            'item__target1ID',  # 2
+            'item__target1Text',  # 3
+            'item__target2ID',  # 4
+            'item__target2Text', # 5
+            'item__itemID',     # 6
+            'item__itemType',   # 7
+            'item__metadata__market__sourceLanguageCode',  # 8
+            'item__metadata__market__targetLanguageCode',  # 9
+            'score1',           # 10
+            'score2',           # 11
+            'selected_choices', # 12
+            'other_text',       # 13
+            'span_diff_votes',                   # 14
+            'span_diff_explanations',            # 15
+            'span_diff_other_texts',             # 16
+            'span_diff_texts',                  # 17
+            'wikipedia_familiarity',             # 18
+            'other_wikipedia_familiarity_text',  # 19
+            'fluency_in_target_language',        # 20
+            'feedback_options',                  # 21
+            'other_feedback_options_text',       # 22
+            'overallExperience',                 # 23
         )
 
         if extended_csv:
-            attributes_to_extract = attributes_to_extract + (
-                'start_time',  # Start time
-                'end_time',  # End time
+            attributes_to_extract += (
+                'start_time',  # 24
+                'end_time',    # 25
             )
 
         if add_batch_info:
-            attributes_to_extract = attributes_to_extract + (
-                'task__batchNo',  # Batch number
-                'item_id',  # Real item ID
+            attributes_to_extract += (
+                'task__batchNo',  # 26
+                'item_id',        # 27
             )
 
+        # --- HEADER
+        header = [
+            "segmentID", 
+            "username", 
+            "candidate1", 
+            "candidate1_text", 
+            "candidate2",
+            "candidate2_text",
+            "itemID", 
+            "itemType",
+            "sourceLang", 
+            "targetLang", 
+            "score1", 
+            "score2",
+            "reason_aggregate_translation_choice", 
+            "reason_aggregate_translation_choice_other_text", 
+            "span_diff_votes", 
+            "span_diff_explanations", 
+            "span_diff_other_texts",
+            "span_diff_texts",
+            "intro_survey_wikipedia_familiarity",
+            "intro_survey_wikipedia_familiarity_other_text", 
+            "intro_survey_fluency_in_target_language", 
+            "post_survey_feedback_options",
+            "post_survey_feedback_options_other_text", 
+            "post_survey_overallExperience",
+        ]
+
+        if extended_csv:
+            header += ["start_time", "end_time"]
+        if add_batch_info:
+            header += ["batchNo", "item_db_id"]
+
+        system_data = [header]
+
+        # --- DATA
         for _result in qs.values_list(*attributes_to_extract):
-            results = [
-                (
-                    _result[1],   # user
-                    _result[2],   # system A
-                    _result[0],   # segmentID
-                    _result[4],   # itemID
-                    _result[5],   # itemType
-                    _result[6],   # sourceLang
-                    _result[7],   # targetLang
-                    _result[8],   # score1
-                    _result[10],  # errors1
-                ) + _result[12:],  # includes sourceErrors + all remaining fields
-                (
-                    _result[1],   # user
-                    _result[3],   # system B
-                    _result[0],   # segmentID
-                    _result[4],   # itemID
-                    _result[5],   # itemType
-                    _result[6],   # sourceLang
-                    _result[7],   # targetLang
-                    _result[9],   # score2
-                    _result[11],  # errors2
-                ) + _result[12:],
+            row = [
+                _result[0],  # segmentID
+                _result[1],  # username
+                _result[2],  # candidate1
+                _result[3],  # candidate1_text
+                _result[4],  # candidate2
+                _result[5],  # candidate2_text
+                _result[6],  # itemID
+                _result[7],  # itemType
+                _result[8],  # sourceLang
+                _result[9],  # targetLang
+                _result[10],  # score1
+                _result[11],  # score2
+                _result[12],  # candidate1_text
+                _result[13],  # candidate2_text
+                _result[14],  # selected_choices
+                _result[15],  # other_text
+                _result[16],  # span_diff_votes
+                _result[17],  # span_diff_explanations
+                _result[18],  # span_diff_other_texts
+                _result[19],  # span_diff_texts
+                _result[20],  # wikipedia_familiarity
+                _result[21],  # other_wikipedia_familiarity_text
+                _result[22],  # fluency
+                _result[23],  # feedback_options
+                _result[24],  # other_feedback_options_text
+                _result[25],  # overallExperience
             ]
 
+            if extended_csv:
+                row += [_result[22], _result[23]]
+            if add_batch_info:
+                idx = 24 if extended_csv else 23
+                row += [_result[idx], _result[idx + 1]]
 
-            if add_batch_info:  # Add index of the target segment
-                results[0] = (*results[0], 0)
-                results[1] = (*results[1], 1)
-
-            for result in results:
-                if result[1] is None:  # skip if system ID is None
-                    continue
-
-                user_id = result[0]
-                sys_ids = result[1]
-
-                if expand_multi_sys:
-                    system_ids = sys_ids.split('+')
-                    for system_id in system_ids:
-                        data = (user_id,) + (system_id,) + result[2:]
-                        system_data.append(data)
-                else:
-                    system_id = sys_ids
-                    data = (user_id,) + (system_id,) + result[2:]
-                    system_data.append(data)
-
-        #import pprint
-        #pprint.pprint(system_data[0])
+            system_data.append([str(x) if x is not None else "" for x in row])
 
         return system_data
+
 
     @classmethod
     def get_system_status(cls, campaign_id=None, sort_index=3):

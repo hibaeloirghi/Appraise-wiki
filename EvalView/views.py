@@ -1518,6 +1518,29 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             campaign = current_task.campaign
 
     t2 = datetime.now()
+
+    current_item = current_task.next_item_for_user(request.user)
+
+    if not current_item:
+        LOGGER.info('No item available, redirecting to dashboard')
+        return redirect('dashboard')
+
+    candidate1_text, candidate2_text = current_item.target_texts_with_diffs()
+
+    candidate1_diffs = extract_marked_spans(candidate1_text)
+    candidate2_diffs = extract_marked_spans(candidate2_text)
+
+    max_len = max(len(candidate1_diffs), len(candidate2_diffs))
+    padded_a = candidate1_diffs + [""] * (max_len - len(candidate1_diffs))
+    padded_b = candidate2_diffs + [""] * (max_len - len(candidate2_diffs))
+
+    diff_pairs = []
+    for a, b in zip(padded_a, padded_b):
+        span_a = a.strip() if a.strip() else " "
+        span_b = b.strip() if b.strip() else " "
+        diff_pairs.append((span_a, span_b))
+
+
     if request.method == "POST":
         score1 = request.POST.get('score', None)  # TODO: score -> score1
         score2 = request.POST.get('score2', None)
@@ -1548,6 +1571,35 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             i += 1
 
         print("Collected diff_choices:", diff_choices)
+        # ============================
+
+        diff_explanations = []
+        i = 0
+        while True:
+            explanation = request.POST.getlist(f"diff_explanation_{i}")
+            if not explanation:
+                break
+            diff_explanations.append(",".join(explanation))
+            i += 1
+
+        print("Collected diff_explanations:", diff_explanations)
+        # ============================
+        diff_other_texts = []
+        i = 0
+        while True:
+            other_text = request.POST.get(f"other_text_diff_{i}")
+            if other_text is None:
+                break
+            diff_other_texts.append(other_text)
+            i += 1
+        
+        print("Collected diff_other_texts:", diff_other_texts)
+        # ============================
+        diff_texts = []
+        for diff1, diff2 in diff_pairs:
+            diff_texts.append(f"{diff1} || {diff2}")
+        print("Collected diff_texts:", diff_texts)
+        # Hiba added this: retrieve selected choices from POST data
         # ============================
 
         wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
@@ -1635,15 +1687,19 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     errors1=error1,
                     errors2=error2,
                     #freetextannotation=Free_Text_Annotation,
-                    selected_choices=",".join(selected_choices),  # Add this
+                    selected_choices=";\n".join(selected_choices),  # Add this
                     other_text=other_text,
-                    wikipedia_familiarity=','.join(wikipedia_familiarity),
+                    wikipedia_familiarity=';\n'.join(wikipedia_familiarity),
                     other_wikipedia_familiarity_text=other_wikipedia_familiarity_text,
                     fluency_in_target_language=fluency_in_target_language,
                     feedback_options=feedback_options,
                     other_feedback_options_text=other_feedback_options_text,
                     overallExperience=overallExperience,
-                    span_diff_votes=",".join(diff_choices),
+                    #span_diff_texts="|".join(diff_texts),
+                    span_diff_texts = ";\n".join(f"{d1.strip()} |vs| {d2.strip()}" for d1, d2 in diff_pairs),
+                    span_diff_votes=";\n".join(diff_choices),
+                    span_diff_explanations=";\n".join(diff_explanations),
+                    span_diff_other_texts = ";\n".join(diff_other_texts),
                 )
 
     t3 = datetime.now()
@@ -1834,8 +1890,8 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         'candidate_text': candidate1_text,
         'candidate2_label': candidate2_label,
         'candidate2_text': candidate2_text,
-        #'candidate1_diffs': candidate1_diffs,
-        #'candidate2_diffs': candidate2_diffs,
+        'candidate1_diffs': candidate1_diffs,
+        'candidate2_diffs': candidate2_diffs,
         #'diff_pairs': list(zip(candidate1_diffs, candidate2_diffs)),
         'diff_pairs': diff_pairs,
         'priming_question_text': priming_question_text,

@@ -263,6 +263,52 @@ function validate_form()
 </div>
 {% endif %}
 
+
+<div class="form-group mt-4">
+  <p> </p>
+  <p> </p>
+  <!-- Instruction styled like priming question -->
+  <div class="row question-box">
+    <div class="col-sm-12">
+      <p class="priming-question">
+        Please select one or more options below to explain your choice and share any additional thoughts.
+      </p>
+    </div>
+  </div>
+  
+  <!-- Multiple Choice Checkboxes -->
+  <div id="choices">
+    <label>
+      <input type="checkbox" name="selected_choices" value="Fluency"> The selected translation sounds better
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Adequacy_grammar"> The selected translation has fewer grammatical errors
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer spelling errors
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer inaccuracies (e.g., wrong word date, number, etc.)
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="NoDiff"> No meaningful difference in content or style
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Other" id="other-checkbox"> Other
+    </label>
+  </div>
+</div>
+
+<!-- Free Text Box for 'Other' -->
+<div id="other-text-box" style="display: none; margin-top: 10px;">
+  <label for="OtherText">Please specify:</label>
+  <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen translation better?"></textarea>
+</div>
+
+
 {% if diff_pairs %}
 <div class="form-group mt-5">
   <h4 style="color: #31708f;">Span Annotation</h4>
@@ -271,7 +317,7 @@ function validate_form()
   <div class="row question-box">
     <div class="col-sm-12">
       <p class="priming-question">
-        For each highlighted difference between the two candidate translations above, please choose the option you prefer.
+        For each highlighted difference between the two candidate translations above, please select the option you prefer.
       </p>
     </div>
   </div>
@@ -296,10 +342,64 @@ function validate_form()
           No meaningful difference
         </label>
       </div>
-    </div>
+
+      <div class="row question-box">
+        <div class="col-sm-12">
+          <p class="priming-question">
+            Please select one or more options below to explain your choice and share any additional thoughts.
+          </p>
+        </div>
+      </div>
+
+      <!-- Adding the checkbox group HERE, after radio-options -->
+      <div class="form-group mt-2">
+        <div id="choices_diff_{{ forloop.counter0 }}" style="margin-left: 1.5rem; font-size: 0.95em; color: #555;">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Fluency">
+            The selected span sounds better
+          </label><br>
+          
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_grammar"> The selected span has fewer grammatical errors
+          </label><br>
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_spelling"> The selected span has fewer spelling errors
+          </label><br>
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_spelling"> The selected span has fewer inaccuracies (e.g., wrong word date, number, etc.)
+          </label><br>
+
+
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Explicitation">
+            The selected span adds more context for the reader
+          </label><br>
+      
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="NoDiff">
+            No meaningful difference in content or style
+          </label><br>
+      
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input other-checkbox-diff" data-diff-index="{{ forloop.counter0 }}" value="Other">
+            Other
+          </label>
+        </div>
+      
+        <!-- Free Text Box for 'Other' per diff -->
+        <div id="other-text-box-diff-{{ forloop.counter0 }}" style="display: none; margin-top: 10px;">
+          <label for="OtherTextDiff{{ forloop.counter0 }}">Please specify:</label>
+          <textarea id="OtherTextDiff{{ forloop.counter0 }}" name="other_text_diff_{{ forloop.counter0 }}" rows="3" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen span better?"></textarea>
+        </div>
+      </div>
+      
+      <!-- Done inserting -->
+
+    </div> <!-- candidate-container -->
   {% endfor %}
 </div>
 {% endif %}
+
 
 
 <div class="actions">
@@ -332,43 +432,6 @@ function validate_form()
   </table>
 </div>
 
-<div class="form-group mt-4">
-  <p> </p>
-  <p> </p>
-  <!-- Instruction styled like priming question -->
-  <div class="row question-box">
-    <div class="col-sm-12">
-      <p class="priming-question">
-        Please select one or more options below to explain your choice and share any additional thoughts.
-      </p>
-    </div>
-  </div>
-  
-  <!-- Multiple Choice Checkboxes -->
-  <div id="choices">
-    <label>
-      <input type="checkbox" name="selected_choices" value="Fluency"> The selected translation sounds better
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy"> The selected translation has fewer errors
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="NoDiff"> No meaningful difference in content or style
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Other" id="other-checkbox"> Other
-    </label>
-  </div>
-</div>
-
-<!-- Free Text Box for 'Other' -->
-<div id="other-text-box" style="display: none; margin-top: 10px;">
-  <label for="OtherText">Please specify:</label>
-  <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen translation better? We would love to hear your thoughts!"></textarea>
-</div>
 
 <!-- Submit button at bottom of page -->
 <div class="text-center mt-4">
@@ -389,6 +452,7 @@ function validate_form()
   // Validate that at least one checkbox is checked
   // AND that 'OtherText' is filled if 'Other' is checked
   function validate_choices() {
+    // 🔹 Validate global (aggregate) explanation
     const checkboxes = document.querySelectorAll('input[name="selected_choices"]');
     const otherCheckbox = document.getElementById('other-checkbox');
     const otherText = document.getElementById('OtherText');
@@ -402,18 +466,75 @@ function validate_form()
     }
 
     if (!oneChecked) {
-      alert('Please select at least one reason for your choice.');
+      alert('Please select at least one reason for your overall translation choice.');
       return false;
     }
 
     if (otherCheckbox.checked && otherText.value.trim() === "") {
-      alert('Please specify your reason in the text box for "Other".');
+      alert('Please specify your reason in the overall "Other" text box.');
       return false;
+    }
+
+    // 🔹 Validate per-diff checkboxes
+    let i = 0;
+    while (true) {
+      const group = document.querySelectorAll(`input[name="selected_choices_diff_${i}"]`);
+      const textarea = document.getElementById(`OtherTextDiff${i}`);
+      const otherBox = document.querySelector(`.other-checkbox-diff[data-diff-index="${i}"]`);
+
+      if (group.length === 0) {
+        break; // no more diffs
+      }
+
+      let checked = false;
+      for (const cb of group) {
+        if (cb.checked) {
+          checked = true;
+          break;
+        }
+      }
+
+      // allow just "Other" as valid if it has non-empty text
+      const onlyOtherChecked = otherBox && otherBox.checked && (!textarea || textarea.value.trim() !== "");
+
+      if (!checked && !onlyOtherChecked) {
+        alert(`Please select at least one reason for Difference ${i + 1}, or provide a custom explanation.`);
+        return false;
+      }
+
+      if (otherBox && otherBox.checked) {
+        if (!textarea || textarea.value.trim() === "") {
+          alert(`Please provide details in the text box for "Other" in Difference ${i + 1}.`);
+          return false;
+        }
+      }
+
+      i += 1;
     }
 
     return true;
   }
 </script>
+
+<script>
+  $(document).ready(function () {
+    // Toggle "Other" textbox for aggregate checkbox
+    $('#other-checkbox').change(function () {
+      $('#other-text-box').toggle(this.checked);
+    });
+  
+    // ✅ NEW: Toggle per-diff "Other" textboxes based on each diff's checkbox
+    $('.other-checkbox-diff').change(function () {
+      const index = $(this).data('diff-index');
+      const textbox = $(`#other-text-box-diff-${index}`);
+      if ($(this).is(':checked')) {
+        textbox.show();
+      } else {
+        textbox.hide();
+      }
+    });
+  });
+  </script>
 
 
 {% if sqm %}
