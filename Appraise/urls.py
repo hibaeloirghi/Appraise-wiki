@@ -213,6 +213,13 @@ urlpatterns = [
         name='pairwise-feedback-submit',
     ),
 
+    # Change answers
+    re_path(
+        r'^change-answers/$',
+        evalview_views.change_answers,
+        name='change-answers',
+    ),
+
     re_path(
         r'^pairwise-assessment-document/$',
         evalview_views.pairwise_assessment_document,

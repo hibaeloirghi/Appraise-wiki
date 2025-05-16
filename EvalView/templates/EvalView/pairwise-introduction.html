@@ -5,6 +5,13 @@
   <div class="row">
     <div class="col-md-12">
       <h2>Welcome to the Wiki Translation Evaluation Task</h2>
+      
+      {% if edit_mode %}
+      <div class="alert alert-warning">
+        <strong>Edit Mode:</strong> You are now going to edit your previous answers. Your previous selections will be pre-populated in the forms.
+      </div>
+      {% endif %}
+      
       <p>You will be asked to annotate 50 segments. For each segment, you will evaluate two translations by comparing them to the source text. Select your preferred translation and explain your choice. </p>
       <p>For each pairwise difference between the two candidate translations, you will be asked to select select your preferred option and explain your choice. </p>
       <p>Please follow the instructions carefully. </p>
@@ -17,6 +24,14 @@
 
       <form method="post" onsubmit="return validate_wikipedia_familiarity();">
         {% csrf_token %}
+        
+        {% if code %}
+        <input type="hidden" name="code" value="{{ code }}">
+        {% endif %}
+        
+        {% if campaign_name %}
+        <input type="hidden" name="campaign_name" value="{{ campaign_name }}">
+        {% endif %}
 
         <!-- Wikipedia Contribution Question -->
         <div class="form-group mt-4">
@@ -24,18 +39,18 @@
           <p class="text-muted">Check all that apply.</p>
 
           <div id="wikipedia_familiarity">
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="no_familiarity"> I have never visited the Wikipedia website</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="occasionally_visit_pages"> I have read 1-5 articles on the Wikipedia website </label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="regularly_visit_pages"> I regularly visit the Wikipedia to read</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_pages"> I create new pages</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="edit_pages"> I edit existing pages</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="translate_content"> I translate existing content into new languages</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_content"> I create content from scratch in my language(s)</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="engage_discussions"> I engage in discussions with other editors</label></div>
-            <div><label><input type="checkbox" name="wikipedia_familiarity" value="organize_activities"> I organize community activities</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="no_familiarity" {% if 'no_familiarity' in previous_data.wikipedia_familiarity %}checked{% endif %}> I have never visited the Wikipedia website</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="occasionally_visit_pages" {% if 'occasionally_visit_pages' in previous_data.wikipedia_familiarity %}checked{% endif %}> I have read 1-5 articles on the Wikipedia website </label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="regularly_visit_pages" {% if 'regularly_visit_pages' in previous_data.wikipedia_familiarity %}checked{% endif %}> I regularly visit the Wikipedia to read</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_pages" {% if 'create_pages' in previous_data.wikipedia_familiarity %}checked{% endif %}> I create new pages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="edit_pages" {% if 'edit_pages' in previous_data.wikipedia_familiarity %}checked{% endif %}> I edit existing pages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="translate_content" {% if 'translate_content' in previous_data.wikipedia_familiarity %}checked{% endif %}> I translate existing content into new languages</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="create_content" {% if 'create_content' in previous_data.wikipedia_familiarity %}checked{% endif %}> I create content from scratch in my language(s)</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="engage_discussions" {% if 'engage_discussions' in previous_data.wikipedia_familiarity %}checked{% endif %}> I engage in discussions with other editors</label></div>
+            <div><label><input type="checkbox" name="wikipedia_familiarity" value="organize_activities" {% if 'organize_activities' in previous_data.wikipedia_familiarity %}checked{% endif %}> I organize community activities</label></div>
             <div>
-              <label><input type="checkbox" name="wikipedia_familiarity" value="other" id="other_wikipedia_familiarity"> Other</label>
-              <input type="text" name="other_wikipedia_familiarity_text" id="other_wikipedia_familiarity_text" class="form-control mt-2" style="display:none;" placeholder="Please specify...">
+              <label><input type="checkbox" name="wikipedia_familiarity" value="other" id="other_wikipedia_familiarity" {% if 'other' in previous_data.wikipedia_familiarity %}checked{% endif %}> Other</label>
+              <input type="text" name="other_wikipedia_familiarity_text" id="other_wikipedia_familiarity_text" class="form-control mt-2" style="display:{% if 'other' in previous_data.wikipedia_familiarity %}block{% else %}none{% endif %};" placeholder="Please specify..." value="{{ previous_data.other_wikipedia_familiarity_text }}">
             </div>
           </div>
         </div>
@@ -44,15 +59,19 @@
         <div class="form-group mt-4">
           <label for="fluency_in_target_language"><strong>How would you rate your fluency in the target language?</strong></label>
           <div id="fluency_in_target_language">
-            <div><label><input type="radio" name="fluency_in_target_language" value="elementary"> Elementary proficiency</label></div>
-            <div><label><input type="radio" name="fluency_in_target_language" value="professional"> Professional working proficiency</label></div>
-            <div><label><input type="radio" name="fluency_in_target_language" value="native"> Native or bilingual proficiency</label></div>
+            <div><label><input type="radio" name="fluency_in_target_language" value="elementary" {% if previous_data.fluency_in_target_language == 'elementary' %}checked{% endif %}> Elementary proficiency</label></div>
+            <div><label><input type="radio" name="fluency_in_target_language" value="professional" {% if previous_data.fluency_in_target_language == 'professional' %}checked{% endif %}> Professional working proficiency</label></div>
+            <div><label><input type="radio" name="fluency_in_target_language" value="native" {% if previous_data.fluency_in_target_language == 'native' %}checked{% endif %}> Native or bilingual proficiency</label></div>
           </div>
         </div>
 
         <!-- Start Evaluation Button -->
         <div class="text-center mt-4">
+          {% if edit_mode %}
+          <button type="submit" class="btn btn-primary btn-lg">Continue to Edit Answers</button>
+          {% else %}
           <button type="submit" class="btn btn-primary btn-lg">Start Evaluation</button>
+          {% endif %}
         </div>
       </form>
     </div>
@@ -66,6 +85,14 @@
     otherField.style.display = this.checked ? 'block' : 'none';
     if (!this.checked) {
       otherField.value = '';
+    }
+  });
+
+  // Initial setup to handle pre-populated data
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // Show "Other" text field if the "other" checkbox is already checked
+    if (document.getElementById('other_wikipedia_familiarity').checked) {
+      document.getElementById('other_wikipedia_familiarity_text').style.display = 'block';
     }
   });
 

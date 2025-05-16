@@ -86,6 +86,77 @@ $(document).ready(function() {
     }
   });
 
+  // Pre-select previous answers if in edit mode
+  {% if edit_mode and previous_answers %}
+    // Pre-select translation choice
+    if ({{ previous_answers.score1 }} === 100) {
+      $('input[name="translation_choice"][value="candidate1"]').prop('checked', true).change();
+    } else if ({{ previous_answers.score2 }} === 100) {
+      $('input[name="translation_choice"][value="candidate2"]').prop('checked', true).change();
+    }
+    
+    // Pre-select explanation choices
+    {% if previous_answers.selected_choices %}
+      {% for choice in previous_answers.selected_choices %}
+        $('input[name="selected_choices"][value="{{ choice }}"]').prop('checked', true);
+      {% endfor %}
+      
+      // Show "Other" text field if needed
+      if ($('input[name="selected_choices"][value="other"]').is(':checked')) {
+        $('#other_text_container').show();
+        $('input[name="other_text"]').val("{{ previous_answers.other_text }}");
+      }
+    {% endif %}
+    
+    // Pre-select span diff votes
+    {% if previous_answers.span_diff_votes %}
+      {% for vote in previous_answers.span_diff_votes %}
+        $('input[name="diff_vote_{{ forloop.counter0 }}"][value="{{ vote }}"]').prop('checked', true);
+      {% endfor %}
+    {% endif %}
+    
+    // Pre-select span diff explanations with debugs removed
+    {% if previous_answers.span_diff_explanations %}
+      {% for explanation_list in previous_answers.span_diff_explanations %}
+        {% if explanation_list %}
+          {% for explanation in explanation_list %}
+            // We need to use a more precise selector for the checkboxes
+            $('input[type="checkbox"][name="selected_choices_diff_{{ forloop.parentloop.counter0 }}"][value="{{ explanation }}"]').prop('checked', true);
+            
+            // If "Other" is selected, show the text box and checkbox
+            {% if explanation == "Other" %}
+              $('.other-checkbox-diff[data-diff-index="{{ forloop.parentloop.counter0 }}"]').prop('checked', true);
+              $('#other-text-box-diff-{{ forloop.parentloop.counter0 }}').show();
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    // Pre-fill span diff other texts
+    {% if previous_answers.span_diff_other_texts %}
+      {% for other_text in previous_answers.span_diff_other_texts %}
+        // For textarea (correct selector)
+        $('textarea[name="other_text_diff_{{ forloop.counter0 }}"]').val("{{ other_text|escapejs }}");
+        
+        // Show the text field if there's content
+        if ("{{ other_text|escapejs }}".trim() !== "") {
+          // Check the "Other" checkbox
+          $('.other-checkbox-diff[data-diff-index="{{ forloop.counter0 }}"]').prop('checked', true);
+          // Show the text box
+          $('#other-text-box-diff-{{ forloop.counter0 }}').show();
+        }
+      {% endfor %}
+    {% endif %}
+    
+    // Make sure "Other" text field for the main explanation is visible if there's text in it
+    {% if previous_answers.other_text %}
+      $('#other-checkbox').prop('checked', true);
+      $('#other-text-box').show();
+      $('#OtherText').val("{{ previous_answers.other_text|escapejs }}");
+    {% endif %}
+  {% endif %}
+
   if (Cookies.get('show-context') == 'yes') {
     $('.context-sentences').show();
     $('#reference-label').hide();
@@ -142,6 +213,73 @@ function validate_form()
     alert('Please select one of the translation options. Thanks!');
     return false;
   }
+  
+  // Validate explanation choices
+  var hasChoices = false;
+  $('input[name="selected_choices"]').each(function() {
+    if ($(this).is(':checked')) {
+      hasChoices = true;
+    }
+  });
+  
+  if (!hasChoices) {
+    alert('Please select at least one explanation for your translation choice.');
+    return false;
+  }
+  
+  // Check if 'Other' is selected but text field is empty
+  if ($('#other-checkbox').is(':checked') && $('#OtherText').val().trim() === '') {
+    alert('Please provide details in the "Other" text field.');
+    return false;
+  }
+  
+  // Validate per-diff votes
+  {% if diff_pairs %}
+  var allVotesSelected = true;
+  var allExplanationsProvided = true;
+  
+  {% for diff1, diff2 in diff_pairs %}
+  // Check if vote is selected for diff {{ forloop.counter }}
+  var diffVoteSelected = false;
+  $('input[name="diff_vote_{{ forloop.counter0 }}"]').each(function() {
+    if ($(this).is(':checked')) {
+      diffVoteSelected = true;
+    }
+  });
+  
+  if (!diffVoteSelected) {
+    allVotesSelected = false;
+  }
+  
+  // Check if explanation is provided for diff {{ forloop.counter }}
+  var diffExplanationProvided = false;
+  $('input[name="selected_choices_diff_{{ forloop.counter0 }}"]').each(function() {
+    if ($(this).is(':checked')) {
+      diffExplanationProvided = true;
+    }
+  });
+  
+  // If 'Other' is selected, make sure text field is not empty
+  if ($('.other-checkbox-diff[data-diff-index="{{ forloop.counter0 }}"]').is(':checked') && 
+      $('#other-text-box-diff-{{ forloop.counter0 }} textarea').val().trim() === '') {
+    allExplanationsProvided = false;
+  }
+  
+  if (!diffExplanationProvided) {
+    allExplanationsProvided = false;
+  }
+  {% endfor %}
+  
+  if (!allVotesSelected) {
+    alert('Please select a preference for each highlighted difference.');
+    return false;
+  }
+  
+  if (!allExplanationsProvided) {
+    alert('Please provide explanations for each highlighted difference. If you selected "Other", please fill in the text field.');
+    return false;
+  }
+  {% endif %}
 
   return true;
 }
@@ -154,6 +292,12 @@ function validate_form()
 
 <form action="{{action_url}}" method="post" onsubmit="add_end_timestamp(); return validate_choices();">
 {% csrf_token %}
+
+{% if edit_mode %}
+<div class="alert alert-warning">
+  <strong>Edit Mode:</strong> You are now editing your previous answers. Make any changes needed and submit when done.
+</div>
+{% endif %}
 
 <div class="alert alert-info">
   <table style="width:100%">
@@ -523,7 +667,12 @@ function validate_form()
       $('#other-text-box').toggle(this.checked);
     });
   
-    // ✅ NEW: Toggle per-diff "Other" textboxes based on each diff's checkbox
+    // Show "Other" textbox initially if checked
+    if ($('#other-checkbox').is(':checked')) {
+      $('#other-text-box').show();
+    }
+    
+    // Toggle per-diff "Other" textboxes based on each diff's checkbox
     $('.other-checkbox-diff').change(function () {
       const index = $(this).data('diff-index');
       const textbox = $(`#other-text-box-diff-${index}`);
@@ -531,10 +680,65 @@ function validate_form()
         textbox.show();
       } else {
         textbox.hide();
+        // Clear the text when unchecking the "Other" option
+        $(`#OtherTextDiff${index}`).val('');
       }
     });
+    
+    // Show each per-diff "Other" textbox initially if the checkbox is checked
+    $('.other-checkbox-diff').each(function() {
+      if ($(this).is(':checked')) {
+        const index = $(this).data('diff-index');
+        $(`#other-text-box-diff-${index}`).show();
+      }
+    });
+    
+    // In edit mode, ensure all "Other" text boxes are correctly set up
+    {% if edit_mode and previous_answers %}
+      console.log("In edit mode, checking previous answers for span diff other texts");
+      
+      // Set main "Other" text field
+      if ("{{ previous_answers.other_text|escapejs }}" !== "") {
+        console.log("Setting main Other text field: {{ previous_answers.other_text|escapejs }}");
+        $('#other-checkbox').prop('checked', true);
+        $('#other-text-box').show();
+        $('#OtherText').val("{{ previous_answers.other_text|escapejs }}");
+      }
+      
+      // Set span diff "Other" text fields
+      {% if previous_answers.span_diff_other_texts %}
+        console.log("Found {{ previous_answers.span_diff_other_texts|length }} span diff other texts");
+        {% for other_text in previous_answers.span_diff_other_texts %}
+          console.log("Span diff {{ forloop.counter0 }} other text: '{{ other_text|escapejs }}'");
+          if ("{{ other_text|escapejs }}" !== "") {
+            // Make sure the "Other" checkbox is checked
+            $('.other-checkbox-diff[data-diff-index="{{ forloop.counter0 }}"]').prop('checked', true);
+            // Show the text box
+            $('#other-text-box-diff-{{ forloop.counter0 }}').show();
+            // Set the text value
+            $('#OtherTextDiff{{ forloop.counter0 }}').val("{{ other_text|escapejs }}");
+            console.log("Set span diff {{ forloop.counter0 }} Other text field");
+          }
+        {% endfor %}
+      {% endif %}
+      
+      // Alternative approach: check each span diff for "Other" in its explanations
+      {% if previous_answers.span_diff_explanations %}
+        console.log("Checking {{ previous_answers.span_diff_explanations|length }} span diff explanations for 'Other'");
+        {% for explanation_list in previous_answers.span_diff_explanations %}
+          {% for explanation in explanation_list %}
+            {% if explanation == "Other" %}
+              console.log("Found 'Other' in explanations for span diff {{ forloop.parentloop.counter0 }}");
+              // Make sure "Other" is checked and text box is visible
+              $('.other-checkbox-diff[data-diff-index="{{ forloop.parentloop.counter0 }}"]').prop('checked', true);
+              $('#other-text-box-diff-{{ forloop.parentloop.counter0 }}').show();
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
   });
-  </script>
+</script>
 
 
 {% if sqm %}

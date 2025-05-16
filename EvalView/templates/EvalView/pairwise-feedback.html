@@ -5,6 +5,13 @@
   <div class="row">
     <div class="col-md-12">
       <h2>Thank You for Completing the Evaluation</h2>
+      
+      {% if edit_mode %}
+      <div class="alert alert-success">
+        <strong>You have successfully edited your answers.</strong> Please submit your feedback below or return to the dashboard.
+      </div>
+      {% endif %}
+      
       <p>We would appreciate your feedback on this task.</p>
 
       <form method="POST" action="{% url 'pairwise-feedback-submit' %}" onsubmit="return validate_feedback_options();">
@@ -14,13 +21,13 @@
           <p class="text-muted">Check all that apply.</p>
           
           <div id="feedback_options">
-            <div><label><input type="checkbox" name="feedback_options" value="filter_span_annotation"> Some span comparisons did not make sense (e.g. some spans should be annotated together)</label></div>
-            <div><label><input type="checkbox" name="feedback_options" value="longer_examples"> Provide longer examples for annotation </label></div>
-            <div><label><input type="checkbox" name="feedback_options" value="shorter_examples"> Provide shorter examples for annotation </label></div>
-            <div><label><input type="checkbox" name="feedback_options" value="thematically_related_examples"> Provide examples that are thematically related to each other </label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="filter_span_annotation" {% if 'filter_span_annotation' in previous_data.feedback_options %}checked{% endif %}> Some span comparisons did not make sense (e.g. some spans should be annotated together)</label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="longer_examples" {% if 'longer_examples' in previous_data.feedback_options %}checked{% endif %}> Provide longer examples for annotation </label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="shorter_examples" {% if 'shorter_examples' in previous_data.feedback_options %}checked{% endif %}> Provide shorter examples for annotation </label></div>
+            <div><label><input type="checkbox" name="feedback_options" value="thematically_related_examples" {% if 'thematically_related_examples' in previous_data.feedback_options %}checked{% endif %}> Provide examples that are thematically related to each other </label></div>
             <div>
-              <label><input type="checkbox" name="feedback_options" value="other" id="other_feedback_options"> Other</label>
-              <input type="text" name="other_feedback_options_text" id="other_feedback_options_text" class="form-control mt-2" style="display:none;" placeholder="Please specify...">
+              <label><input type="checkbox" name="feedback_options" value="other" id="other_feedback_options" {% if 'other' in previous_data.feedback_options %}checked{% endif %}> Other</label>
+              <input type="text" name="other_feedback_options_text" id="other_feedback_options_text" class="form-control mt-2" style="display:{% if 'other' in previous_data.feedback_options %}block{% else %}none{% endif %};" placeholder="Please specify..." value="{{ previous_data.other_feedback_options_text }}">
             </div>
           </div>
         </div>
@@ -28,11 +35,11 @@
         <div class="form-group">
           <label for="overallExperience">How would you rate your overall experience?</label>
           <select id="overallExperience" name="overallExperience" class="form-control">
-            <option value="5">Excellent</option>
-            <option value="4">Good</option>
-            <option value="3">Average</option>
-            <option value="2">Below Average</option>
-            <option value="1">Poor</option>
+            <option value="5" {% if previous_data.overallExperience == '5' %}selected{% endif %}>Excellent</option>
+            <option value="4" {% if previous_data.overallExperience == '4' %}selected{% endif %}>Good</option>
+            <option value="3" {% if previous_data.overallExperience == '3' %}selected{% endif %}>Average</option>
+            <option value="2" {% if previous_data.overallExperience == '2' %}selected{% endif %}>Below Average</option>
+            <option value="1" {% if previous_data.overallExperience == '1' %}selected{% endif %}>Poor</option>
           </select>
         </div>
 
@@ -42,6 +49,10 @@
         </div>-->
 
         <button type="submit" class="btn btn-primary">Submit Feedback</button>
+        
+        {% if edit_mode %}
+        <a href="{% url 'dashboard' %}" class="btn btn-default">Return to Dashboard</a>
+        {% endif %}
       </form>
     </div>
   </div>
@@ -67,6 +78,14 @@
     otherField.style.display = this.checked ? 'block' : 'none';
     if (!this.checked) {
       otherField.value = '';
+    }
+  });
+
+  // Initial setup to handle pre-populated data
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // Show "Other" text field if the "other" checkbox is already checked
+    if (document.getElementById('other_feedback_options').checked) {
+      document.getElementById('other_feedback_options_text').style.display = 'block';
     }
   });
 

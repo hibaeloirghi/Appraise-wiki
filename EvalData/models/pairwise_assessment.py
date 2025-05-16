@@ -695,6 +695,18 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'item__itemType',
             'task__id',
             'task__campaign__campaignName',
+            'selected_choices',
+            'other_text',
+            'span_diff_votes',
+            'span_diff_explanations',
+            'span_diff_other_texts',
+            'span_diff_texts',
+            'wikipedia_familiarity',
+            'other_wikipedia_familiarity_text',
+            'fluency_in_target_language',
+            'feedback_options',
+            'other_feedback_options_text',
+            'overallExperience',
         )
         for result in qs.values_list(*value_names):
             system1ID = result[0]
@@ -711,6 +723,18 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             itemType = result[11]
             taskID = result[12]
             campaignName = result[13]
+            selected_choices = result[14] or ''
+            other_text = result[15] or ''
+            span_diff_votes = result[16] or ''
+            span_diff_explanations = result[17] or ''
+            span_diff_other_texts = result[18] or ''
+            span_diff_texts = result[19] or ''
+            wikipedia_familiarity = result[20] or ''
+            other_wikipedia_familiarity_text = result[21] or ''
+            fluency_in_target_language = result[22] or ''
+            feedback_options = result[23] or ''
+            other_feedback_options_text = result[24] or ''
+            overallExperience = result[25] or ''
 
             if annotatorID in user_data:
                 username = user_data[annotatorID][0]
@@ -749,13 +773,25 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
                     duration,
                     itemType,
                     campaignName,
+                    selected_choices,
+                    other_text,
+                    span_diff_votes,
+                    span_diff_explanations,
+                    span_diff_other_texts,
+                    span_diff_texts,
+                    wikipedia_familiarity,
+                    other_wikipedia_familiarity_text,
+                    fluency_in_target_language,
+                    feedback_options,
+                    other_feedback_options_text,
+                    overallExperience,
                 )
             )
 
         # TODO: this is very intransparent... and needs to be fixed!
         x = system_scores
         s = [
-            'taskID,segmentID,username,email,groups,system1ID,score1,system2ID,score2,startTime,endTime,durationInSeconds,itemType,campaignName'
+            'taskID,segmentID,username,email,groups,system1ID,score1,system2ID,score2,startTime,endTime,durationInSeconds,itemType,campaignName,selected_choices,other_text,span_diff_votes,span_diff_explanations,span_diff_other_texts,span_diff_texts,wikipedia_familiarity,other_wikipedia_familiarity_text,fluency_in_target_language,feedback_options,other_feedback_options_text,overallExperience'
         ]
         for l in x:
             for i in x[l]:
@@ -788,6 +824,18 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'item__metadata__market__targetLanguageCode',
             'item__metadata__market__domainName',
             'item__itemType',
+            'selected_choices',
+            'other_text',
+            'span_diff_votes',
+            'span_diff_explanations',
+            'span_diff_other_texts',
+            'span_diff_texts',
+            'wikipedia_familiarity',
+            'other_wikipedia_familiarity_text',
+            'fluency_in_target_language',
+            'feedback_options',
+            'other_feedback_options_text',
+            'overallExperience',
         )
 
         for result in qs.values_list(*value_names):
@@ -810,6 +858,19 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             marketID = '{0}-{1}'.format(result[8], result[9])
             domainName = result[10]
             itemType = result[11]
+            selected_choices = result[12] or ''
+            other_text = result[13] or ''
+            span_diff_votes = result[14] or ''
+            span_diff_explanations = result[15] or ''
+            span_diff_other_texts = result[16] or ''
+            span_diff_texts = result[17] or ''
+            wikipedia_familiarity = result[18] or ''
+            other_wikipedia_familiarity_text = result[19] or ''
+            fluency_in_target_language = result[20] or ''
+            feedback_options = result[21] or ''
+            other_feedback_options_text = result[22] or ''
+            overallExperience = result[23] or ''
+            
             user = User.objects.get(pk=annotatorID)
             username = user.username
             useremail = user.email
@@ -824,6 +885,18 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
                     score2,
                     duration,
                     itemType,
+                    selected_choices,
+                    other_text,
+                    span_diff_votes,
+                    span_diff_explanations,
+                    span_diff_other_texts,
+                    span_diff_texts,
+                    wikipedia_familiarity,
+                    other_wikipedia_familiarity_text,
+                    fluency_in_target_language,
+                    feedback_options,
+                    other_feedback_options_text,
+                    overallExperience,
                 )
             )
 
@@ -832,7 +905,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
     @classmethod
     def write_csv(cls, srcCode, tgtCode, domain, csvFile, allData=False):
         x = cls.get_csv(srcCode, tgtCode, domain)
-        s = ['username,email,segmentID,score1,score2,durationInSeconds,itemType']
+        s = ['username,email,segmentID,score1,score2,durationInSeconds,itemType,selected_choices,other_text,span_diff_votes,span_diff_explanations,span_diff_other_texts,span_diff_texts,wikipedia_familiarity,other_wikipedia_familiarity_text,fluency_in_target_language,feedback_options,other_feedback_options_text,overallExperience']
         if allData:
             s[0] = 'systemID,' + s[0]
 
@@ -993,29 +1066,27 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
                 _result[7],  # itemType
                 _result[8],  # sourceLang
                 _result[9],  # targetLang
-                _result[10],  # score1
-                _result[11],  # score2
-                _result[12],  # candidate1_text
-                _result[13],  # candidate2_text
-                _result[14],  # selected_choices
-                _result[15],  # other_text
-                _result[16],  # span_diff_votes
-                _result[17],  # span_diff_explanations
-                _result[18],  # span_diff_other_texts
-                _result[19],  # span_diff_texts
-                _result[20],  # wikipedia_familiarity
-                _result[21],  # other_wikipedia_familiarity_text
-                _result[22],  # fluency
-                _result[23],  # feedback_options
-                _result[24],  # other_feedback_options_text
-                _result[25],  # overallExperience
+                _result[10], # score1
+                _result[11], # score2
+                _result[12], # selected_choices
+                _result[13], # other_text
+                _result[14], # span_diff_votes
+                _result[15], # span_diff_explanations
+                _result[16], # span_diff_other_texts
+                _result[17], # span_diff_texts
+                _result[18], # wikipedia_familiarity
+                _result[19], # other_wikipedia_familiarity_text
+                _result[20], # fluency_in_target_language
+                _result[21], # feedback_options
+                _result[22], # other_feedback_options_text
+                _result[23], # overallExperience
             ]
 
             if extended_csv:
-                row += [_result[22], _result[23]]
+                row += [_result[24], _result[25]]  # start_time, end_time
             if add_batch_info:
-                idx = 24 if extended_csv else 23
-                row += [_result[idx], _result[idx + 1]]
+                idx = 26 if extended_csv else 24
+                row += [_result[idx], _result[idx + 1]]  # batchNo, item_id
 
             system_data.append([str(x) if x is not None else "" for x in row])
 

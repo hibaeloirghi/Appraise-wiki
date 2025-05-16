@@ -25,6 +25,7 @@ from Dashboard.utils import generate_confirmation_token
 from EvalData.models import DirectAssessmentTask
 from EvalData.models import TASK_DEFINITIONS
 from EvalData.models import TaskAgenda
+from EvalData.models import PairwiseAssessmentResult
 
 TASK_TYPES = tuple([tup[1] for tup in TASK_DEFINITIONS])
 TASK_RESULTS = tuple([tup[2] for tup in TASK_DEFINITIONS])
@@ -493,6 +494,12 @@ def dashboard(request):
     # Provide UUID for the completed task
     if work_completed:
         work_completed = generate_confirmation_token(request.user.username, run_qc=True)
+    
+    # Check if user has completed any pairwise assessment tasks
+    has_pairwise_tasks = PairwiseAssessmentResult.objects.filter(
+        createdBy=request.user,
+        completed=True
+    ).exists()
 
     template_context.update(times)
     template_context.update(
@@ -507,6 +514,7 @@ def dashboard(request):
             'debug_times': (_t2 - _t1, _t3 - _t2, _t4 - _t3, _t4 - _t1),
             'template_debug': 'debug' in request.GET,
             'work_completed': work_completed,
+            'has_pairwise_tasks': has_pairwise_tasks,
         }
     )
 

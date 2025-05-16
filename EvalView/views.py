@@ -5,6 +5,8 @@ See LICENSE for usage details
 """
 from datetime import datetime
 from datetime import timezone
+import logging
+import json  # Import json module for JSON handling
 
 utc = timezone.utc
 
@@ -14,6 +16,8 @@ from django.shortcuts import redirect
 from django.shortcuts import render
 from django.utils.html import escape
 from django.contrib import messages 
+from django.http import HttpResponse, HttpResponseServerError
+from django.template.loader import render_to_string
 
 from Appraise.settings import BASE_CONTEXT
 from Appraise.utils import _get_logger
@@ -45,6 +49,198 @@ LOGGER = _get_logger(name=__name__)
 
 # pylint: disable=C0103,C0330
 
+@login_required
+def change_answers(request):
+    """
+    Reset the task agenda and redirect to the first task to allow users to change their answers.
+    """
+    # Import necessary models at the top of the function
+    from EvalData.models import TaskAgenda, ObjectID, PairwiseAssessmentResult, PairwiseAssessmentTask
+    logger = logging.getLogger(__name__)
+    
+    logger.info(f"change_answers called for user: {request.user.username}")
+    
+    # Find the user's task agenda for pairwise assessment
+    agendas = TaskAgenda.objects.filter(user=request.user)
+    logger.info(f"Found {agendas.count()} agendas for user")
+    
+    # Store a flag in the session to indicate we're in "edit mode"
+    request.session['edit_mode'] = True
+    # We want users to go through the introduction page, so don't set visited_introduction here
+    
+    # Check if user has completed any pairwise assessment tasks
+    has_results = PairwiseAssessmentResult.objects.filter(
+        createdBy=request.user,
+        completed=True
+    ).exists()
+    logger.info(f"User has completed results: {has_results}")
+    
+    # If user has completed tasks but no agenda (already completed feedback),
+    # we need to recreate the agenda with completed tasks moved back to open tasks
+    if has_results and not agendas.exists():
+        logger.info("User has results but no agenda, attempting to recreate")
+        # Get the campaign from a completed result
+        latest_result = PairwiseAssessmentResult.objects.filter(
+            createdBy=request.user,
+            completed=True
+        ).order_by('-dateCompleted').first()
+        
+        if latest_result:
+            campaign = latest_result.task.campaign
+            logger.info(f"Found campaign: {campaign.campaignName}")
+            
+            # Create a new TaskAgenda for this user and campaign
+            agenda = TaskAgenda.objects.create(user=request.user, campaign=campaign)
+            logger.info(f"Created new agenda: {agenda}")
+            
+            # Get all completed tasks for this user and campaign
+            tasks = set()
+            task_results = PairwiseAssessmentResult.objects.filter(
+                createdBy=request.user, 
+                task__campaign=campaign
+            ).values_list('task', flat=True).distinct()
+            logger.info(f"Found {len(task_results)} distinct tasks")
+            
+            for result_id in task_results:
+                try:
+                    task_obj = PairwiseAssessmentTask.objects.get(id=result_id)
+                    task_id = ObjectID.get_object_id(task_obj)
+                    tasks.add(task_id)
+                    logger.info(f"Added task ID: {task_id}")
+                except PairwiseAssessmentTask.DoesNotExist:
+                    # Skip tasks that don't exist anymore
+                    logger.warning(f"Task with ID {result_id} does not exist")
+                    continue
+            
+            # Add all tasks to the open_tasks list
+            for task_id in tasks:
+                agenda._open_tasks.add(task_id)
+            
+            agenda.save()
+            logger.info(f"Saved agenda with {agenda._open_tasks.count()} open tasks")
+            agendas = TaskAgenda.objects.filter(user=request.user)
+    
+    # If we still have no agendas, redirect to dashboard
+    if not agendas.exists():
+        logger.warning("No agendas found after recreation attempt")
+        messages.error(request, "No previous tasks found to edit.")
+        return redirect('dashboard')
+    
+    # We need to move tasks from completed to open, but preserve previous answers
+    for agenda in agendas:
+        # Get the campaign type to check if it's a pairwise assessment
+        campaign_type = agenda.campaign.get_campaign_type()
+        logger.info(f"Processing agenda with campaign type: {campaign_type}")
+        
+        if campaign_type == 'PairwiseAssessmentTask':
+            # Get all task IDs from both open and completed tasks
+            all_task_ids = []
+            
+            # Get completed tasks and move them back to open tasks
+            completed_count = agenda._completed_tasks.count()
+            logger.info(f"Found {completed_count} completed tasks to move back to open tasks")
+            
+            for task in list(agenda._completed_tasks.all()):
+                agenda._open_tasks.add(task)
+                agenda._completed_tasks.remove(task)
+                
+                # Get the actual task instance
+                task_instance = task.get_object_instance()
+                if task_instance:
+                    all_task_ids.append(task_instance.id)
+            
+            # Also include any tasks that might already be in open_tasks
+            for task in list(agenda._open_tasks.all()):
+                task_instance = task.get_object_instance()
+                if task_instance and task_instance.id not in all_task_ids:
+                    all_task_ids.append(task_instance.id)
+                    
+            agenda.save()
+            logger.info(f"After moving tasks: {agenda._open_tasks.count()} open tasks, {agenda._completed_tasks.count()} completed tasks")
+            
+            # Reset the completion status of all results for this user
+            # This is the key change - we mark all results as incomplete so they can be edited
+            if all_task_ids:
+                results_updated = PairwiseAssessmentResult.objects.filter(
+                    createdBy=request.user,
+                    task__id__in=all_task_ids
+                ).update(completed=False)
+                logger.info(f"Reset completion status for {results_updated} results")
+            
+            # Store previous answers in session instead of deleting them
+            # This will allow us to pre-populate the form when the user revisits each item
+            if all_task_ids:
+                previous_results = {}
+                for result in PairwiseAssessmentResult.objects.filter(
+                    createdBy=request.user,
+                    task__id__in=all_task_ids
+                ):
+                    # Create a unique key for each item using task_id and item_id
+                    key = f"{result.task.id}_{result.item.id}"
+                    
+                    # Process span diff votes
+                    span_diff_votes = []
+                    if result.span_diff_votes:
+                        span_diff_votes = result.span_diff_votes.split(';\n')
+                    
+                    # Process span diff explanations
+                    span_diff_explanations = []
+                    if result.span_diff_explanations:
+                        for exp_str in result.span_diff_explanations.split(';\n'):
+                            if exp_str:
+                                span_diff_explanations.append(exp_str.split(','))
+                            else:
+                                span_diff_explanations.append([])
+                    
+                    # Process span diff other texts
+                    span_diff_other_texts = []
+                    if result.span_diff_other_texts:
+                        span_diff_other_texts = result.span_diff_other_texts.split(';\n')
+                    
+                    logger.info(f"Item {key}: span_diff_votes={span_diff_votes}, span_diff_explanations={span_diff_explanations}, span_diff_other_texts={span_diff_other_texts}")
+                    
+                    previous_results[key] = {
+                        'score1': result.score1,
+                        'score2': result.score2,
+                        'selected_translation': result.selected_translation,
+                        'selected_choices': result.selected_choices.split(';\n') if result.selected_choices else [],
+                        'other_text': result.other_text or '',
+                        'span_diff_votes': span_diff_votes,
+                        'span_diff_explanations': span_diff_explanations,
+                        'span_diff_other_texts': span_diff_other_texts
+                    }
+                
+                # Store the previous results in the session
+                request.session['previous_results'] = previous_results
+                logger.info(f"Stored {len(previous_results)} previous results in session for pre-population")
+            
+            # Get the language code from the task
+            try:
+                task_instance = next(agenda.open_tasks(), None)
+                if task_instance:
+                    code = task_instance.marketTargetLanguageCode()
+                    campaign_name = agenda.campaign.campaignName
+                    logger.info(f"Found task with code: {code}, campaign: {campaign_name}")
+                    
+                    messages.success(request, "You can now change your previous answers.")
+                    
+                    # Redirect to the pairwise introduction page with the appropriate code and campaign
+                    if code and campaign_name:
+                        logger.info(f"Redirecting to pairwise-introduction with code: {code}, campaign: {campaign_name}")
+                        return redirect('pairwise-introduction', code=code, campaign_name=campaign_name)
+                    
+                    logger.info("Redirecting to pairwise-introduction without code/campaign")
+                    return redirect('pairwise-introduction')
+                else:
+                    logger.warning("No task instance found in open_tasks")
+            except Exception as e:
+                # Log the error and continue checking other agendas
+                logger.error(f"Error processing task agenda: {e}", exc_info=True)
+                continue
+    
+    logger.warning("No valid pairwise assessment tasks found")
+    messages.error(request, "No previous tasks found to edit.")
+    return redirect('dashboard')
 
 @login_required
 def direct_assessment(request, code=None, campaign_name=None):
@@ -1421,6 +1617,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     """
     Pairwise direct assessment annotation view.
     """
+    # Import at the top of the function to make it available everywhere in the function
+    from EvalData.models import PairwiseAssessmentResult
+    
     # Redirect to introduction page if coming here directly
     if not request.session.get('visited_introduction', False):
         return redirect('pairwise-introduction') # added this to redirect to the introduction page
@@ -1443,6 +1642,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     )
 
     current_task = None
+    edit_mode = request.session.get('edit_mode', False)
 
     # Try to identify TaskAgenda for current user.
     agendas = TaskAgenda.objects.filter(user=request.user)
@@ -1461,13 +1661,35 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             if open_task is None:
                 continue
 
-            if open_task.next_item_for_user(request.user) is not None:
+            # In edit mode, we want to use a different approach to get the next item
+            if edit_mode:
+                # Get all items that belong to this task
+                # Import is now at the top of the function, so this is redundant
+                # from EvalData.models import PairwiseAssessmentResult
+                
+                # Get items with results that need to be edited
+                results = PairwiseAssessmentResult.objects.filter(
+                    createdBy=request.user,
+                    task=open_task,
+                    completed=False  # We marked them as incomplete in change_answers
+                )
+                
+                if results.exists():
+                    current_task = open_task
+                    if not campaign:
+                        campaign = agenda.campaign
+                    break
+            elif open_task.next_item_for_user(request.user) is not None:
                 current_task = open_task
                 if not campaign:
                     campaign = agenda.campaign
             else:
                 tasks_to_complete.append(serialized_open_task)
 
+        # If we found a task in edit mode, break out of the agenda loop
+        if edit_mode and current_task:
+            break
+            
         modified = False
         for task in tasks_to_complete:
             modified = agenda.complete_open_task(task) or modified
@@ -1478,6 +1700,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     if not current_task and agendas.count() > 0:
         LOGGER.info('Work agendas completed, redirecting to dashboard')
         LOGGER.info('- code=%s, campaign=%s', code, campaign)
+        
+        # If in edit mode, redirect to feedback page instead of dashboard
+        if edit_mode:
+            messages.success(request, "You have completed editing your answers. Please submit your feedback.")
+            return redirect('pairwise-feedback')
+        
         return redirect('dashboard')
 
     # If language code has been given, find a free task and assign to user.
@@ -1488,6 +1716,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         if code is None or campaign is None:
             LOGGER.info('No current task detected, redirecting to dashboard')
             LOGGER.info('- code=%s, campaign=%s', code, campaign)
+            
+            # If in edit mode, redirect to feedback page instead of dashboard
+            if edit_mode:
+                messages.success(request, "You have completed editing your answers. Please submit your feedback.")
+                return redirect('pairwise-feedback')
+                
             return redirect('dashboard')
 
         LOGGER.info(
@@ -1501,6 +1735,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
         if next_task is None:
             LOGGER.info('No next task detected, redirecting to dashboard')
+            
+            # If in edit mode, redirect to feedback page instead of dashboard
+            if edit_mode:
+                messages.success(request, "You have completed editing your answers. Please submit your feedback.")
+                return redirect('pairwise-feedback')
+                
             return redirect('dashboard')
 
         next_task.assignedTo.add(request.user)
@@ -1519,9 +1759,30 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
     t2 = datetime.now()
 
-    current_item = current_task.next_item_for_user(request.user)
+    # Use a custom approach to get the next item in edit mode
+    current_item = None
+    if edit_mode:
+        # Get the next incomplete result for this task
+        # Import is now at the top of the function, so this is redundant
+        # from EvalData.models import PairwiseAssessmentResult
+        result = PairwiseAssessmentResult.objects.filter(
+            createdBy=request.user,
+            task=current_task,
+            completed=False
+        ).first()
+        
+        if result:
+            current_item = result.item
+            LOGGER.info(f"In edit mode, found item {current_item.id} to edit")
+    else:
+        current_item = current_task.next_item_for_user(request.user)
 
     if not current_item:
+        # If we're in edit mode and there are no more items, redirect to feedback
+        if edit_mode:
+            messages.success(request, "You have completed editing your answers. Please submit your feedback.")
+            return redirect('pairwise-feedback')
+        
         LOGGER.info('No item available, redirecting to dashboard')
         return redirect('dashboard')
 
@@ -1540,6 +1801,108 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         span_b = b.strip() if b.strip() else " "
         diff_pairs.append((span_a, span_b))
 
+    # Check if we're in edit mode and get previous answers
+    previous_answers = None
+    if request.session.get('edit_mode', False):
+        # Get previous answers from session if available
+        previous_results = request.session.get('previous_results', {})
+        key = f"{current_task.id}_{current_item.id}"
+        
+        if key in previous_results:
+            previous_answers_data = previous_results[key]
+            LOGGER.info(f"Found previous answers for item {key} in session")
+            LOGGER.info(f"Previous answers data: {previous_answers_data}")
+            
+            # Add debug info for span differences
+            LOGGER.info(f"Number of diff pairs: {len(diff_pairs)}")
+            LOGGER.info(f"Span diff votes: {previous_answers_data.get('span_diff_votes', [])}")
+            LOGGER.info(f"Span diff explanations: {previous_answers_data.get('span_diff_explanations', [])}")
+            LOGGER.info(f"Span diff other texts: {previous_answers_data.get('span_diff_other_texts', [])}")
+            
+            # Ensure arrays have correct length
+            max_diffs = len(diff_pairs)
+            span_diff_votes = previous_answers_data.get('span_diff_votes', [])
+            span_diff_explanations = previous_answers_data.get('span_diff_explanations', [])
+            span_diff_other_texts = previous_answers_data.get('span_diff_other_texts', [])
+            
+            # Extend arrays if needed
+            while len(span_diff_votes) < max_diffs:
+                span_diff_votes.append('')
+            while len(span_diff_explanations) < max_diffs:
+                span_diff_explanations.append([])
+            while len(span_diff_other_texts) < max_diffs:
+                span_diff_other_texts.append('')
+                
+            # Update the data with corrected arrays
+            previous_answers_data['span_diff_votes'] = span_diff_votes
+            previous_answers_data['span_diff_explanations'] = span_diff_explanations
+            previous_answers_data['span_diff_other_texts'] = span_diff_other_texts
+            
+            LOGGER.info(f"Updated span diff arrays to match {max_diffs} differences")
+        else:
+            # If not in session, try to find in database (fallback)
+            previous_answers = PairwiseAssessmentResult.objects.filter(
+                createdBy=request.user,
+                item=current_item,
+                task=current_task
+            ).order_by('-id').first()
+            
+            if previous_answers:
+                # Process the data with careful handling of potentially empty values
+                span_diff_votes = previous_answers.span_diff_votes.split(';\n') if previous_answers.span_diff_votes else []
+                
+                # Better handling of span_diff_explanations
+                span_diff_explanations = []
+                if previous_answers.span_diff_explanations:
+                    # Split by semicolon-newline to get each diff's explanations
+                    for explanation_str in previous_answers.span_diff_explanations.split(';\n'):
+                        if explanation_str:
+                            # Each explanation string is comma-separated choices
+                            span_diff_explanations.append(explanation_str.split(','))
+                        else:
+                            span_diff_explanations.append([])
+                
+                # Make sure we have equal number of entries for all span diffs
+                max_diffs = len(diff_pairs)
+                
+                # Extend span_diff_votes if needed
+                while len(span_diff_votes) < max_diffs:
+                    span_diff_votes.append('')
+                
+                # Extend span_diff_explanations if needed
+                while len(span_diff_explanations) < max_diffs:
+                    span_diff_explanations.append([])
+                
+                # Process span_diff_other_texts
+                span_diff_other_texts = []
+                if previous_answers.span_diff_other_texts:
+                    span_diff_other_texts = previous_answers.span_diff_other_texts.split(';\n')
+                
+                # Extend span_diff_other_texts if needed
+                while len(span_diff_other_texts) < max_diffs:
+                    span_diff_other_texts.append('')
+                
+                # Debug logging
+                LOGGER.info(f"Found {len(span_diff_votes)} span diff votes, {len(span_diff_explanations)} explanations, and {len(span_diff_other_texts)} other texts")
+                for i, (votes, exps, others) in enumerate(zip(span_diff_votes, span_diff_explanations, span_diff_other_texts)):
+                    LOGGER.info(f"Diff {i}: Vote={votes}, Explanations={exps}, Other={others}")
+                
+                previous_answers_data = {
+                    'score1': previous_answers.score1,
+                    'score2': previous_answers.score2,
+                    'selected_translation': previous_answers.selected_translation,
+                    'selected_choices': previous_answers.selected_choices.split(';\n') if previous_answers.selected_choices else [],
+                    'other_text': previous_answers.other_text or '',
+                    'span_diff_votes': span_diff_votes,
+                    'span_diff_explanations': span_diff_explanations,
+                    'span_diff_other_texts': span_diff_other_texts
+                }
+                LOGGER.info(f"Found previous answers for item {key} in database")
+            else:
+                previous_answers_data = None
+                LOGGER.info(f"No previous answers found for item {key}")
+    else:
+        previous_answers_data = None
 
     if request.method == "POST":
         score1 = request.POST.get('score', None)  # TODO: score -> score1
@@ -1575,10 +1938,10 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
         diff_explanations = []
         i = 0
-        while True:
-            explanation = request.POST.getlist(f"diff_explanation_{i}")
-            if not explanation:
-                break
+        # Process exactly as many diff explanations as there are diff choices
+        for _ in range(len(diff_choices)):
+            # Get the selected choices for this diff (the checkboxes)
+            explanation = request.POST.getlist(f"selected_choices_diff_{i}")
             diff_explanations.append(",".join(explanation))
             i += 1
 
@@ -1586,11 +1949,14 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         # ============================
         diff_other_texts = []
         i = 0
-        while True:
-            other_text = request.POST.get(f"other_text_diff_{i}")
-            if other_text is None:
-                break
-            diff_other_texts.append(other_text)
+        # Process exactly as many other texts as there are diff choices
+        for _ in range(len(diff_choices)):
+            # Get the "Other" text for this diff index
+            other_text_value = request.POST.get(f"other_text_diff_{i}", "")
+            # Add to our collection (use empty string if None)
+            diff_other_texts.append(other_text_value or "")
+            # Debug output
+            print(f"Diff {i} other text: '{other_text_value}'")
             i += 1
         
         print("Collected diff_other_texts:", diff_other_texts)
@@ -1911,6 +2277,8 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         'source_error': source_error,
         'guidelines_popup': guidelines_popup,
         'doc_guidelines': doc_guidelines,
+        'edit_mode': request.session.get('edit_mode', False),
+        'previous_answers': previous_answers_data,
     }
     context.update(BASE_CONTEXT)
 
@@ -1923,60 +2291,15 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     return render(request, 'EvalView/pairwise-assessment.html', context)
 
 
-'''
 @login_required
-def pairwise_introduction(request):
-    """
-    Displays an introduction page before starting the pairwise assessment.
-    """
-    # make sure that the user has visited the introduction page
-    request.session['visited_introduction'] = True
-
-    context = {
-        'active_page': 'pairwise-introduction',
-    }
-    return render(request, 'EvalView/pairwise-introduction.html', context)
-
-@login_required
-def pairwise_introduction(request):
+def pairwise_introduction(request, code=None, campaign_name=None):
     """
     Displays an introduction page before starting the pairwise assessment.
     Processes Wikipedia contribution data when submitted.
     """
-    if request.method == "POST":
-        # Extract form data
-        wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
-        other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
-        fluency_in_target_language = request.POST.get('fluency_in_target_language', '')
-
-        # Save data to session for later use
-        request.session['wikipedia_familiarity'] = wikipedia_familiarity
-        request.session['other_wikipedia_familiarity_text'] = other_wikipedia_familiarity_text
-        request.session['fluency_in_target_language'] = fluency_in_target_language
-        request.session['visited_introduction'] = True
-
-        # Redirect to annotation task
-        return redirect('pairwise_assessment')
-
-    # For GET requests, just mark that user visited the intro page
-    request.session['visited_introduction'] = True
+    # Check if we're in edit mode
+    edit_mode = request.session.get('edit_mode', False)
     
-    context = {
-        'active_page': 'pairwise-introduction',
-    }
-    context.update(BASE_CONTEXT)  # Add the base context
-    
-    # Use the correct template path within the EvalView app
-    return render(request, 'EvalView/pairwise-introduction.html', context)
-'''
-
-
-@login_required
-def pairwise_introduction(request):
-    """
-    Displays an introduction page before starting the pairwise assessment.
-    Processes Wikipedia contribution data when submitted.
-    """
     if request.method == "POST":
         wikipedia_familiarity = request.POST.getlist('wikipedia_familiarity', [])
         other_wikipedia_familiarity_text = request.POST.get('other_wikipedia_familiarity_text', '')
@@ -1990,13 +2313,50 @@ def pairwise_introduction(request):
         # Mark the intro as visited
         request.session['visited_introduction'] = True
 
-        # Redirect to start annotation
+        # Redirect to start annotation (with code and campaign_name if available)
+        if code and campaign_name:
+            return redirect('pairwise-assessment', code=code, campaign_name=campaign_name)
         return redirect('pairwise-assessment')
 
     # GET request fallback
     request.session['visited_introduction'] = True
+    
+    # Pre-populate form fields with previous answers if in edit mode
+    previous_data = {
+        'wikipedia_familiarity': [],
+        'other_wikipedia_familiarity_text': '',
+        'fluency_in_target_language': ''
+    }
+    
+    if edit_mode:
+        # Try to get previous answers from the most recent result
+        from EvalData.models import PairwiseAssessmentResult
+        previous_result = PairwiseAssessmentResult.objects.filter(
+            createdBy=request.user
+        ).order_by('-dateCompleted').first()
+        
+        if previous_result:
+            previous_data = {
+                'wikipedia_familiarity': previous_result.wikipedia_familiarity.split(',') if previous_result.wikipedia_familiarity else [],
+                'other_wikipedia_familiarity_text': previous_result.other_wikipedia_familiarity_text or '',
+                'fluency_in_target_language': previous_result.fluency_in_target_language or ''
+            }
+            LOGGER.info(f"Pre-populating introduction form with previous answers from result {previous_result.id}")
+        else:
+            # Fallback to session data if available
+            previous_data = {
+                'wikipedia_familiarity': request.session.get('wikipedia_familiarity', []),
+                'other_wikipedia_familiarity_text': request.session.get('other_wikipedia_familiarity_text', ''),
+                'fluency_in_target_language': request.session.get('fluency_in_target_language', '')
+            }
+            LOGGER.info("Pre-populating introduction form with data from session")
+    
     context = {
         'active_page': 'pairwise-introduction',
+        'edit_mode': edit_mode,
+        'code': code,
+        'campaign_name': campaign_name,
+        'previous_data': previous_data
     }
     context.update(BASE_CONTEXT)
     return render(request, 'EvalView/pairwise-introduction.html', context)
@@ -2007,9 +2367,39 @@ def pairwise_feedback(request):
     """
     Feedback page after completing pairwise assessment.
     """
+    # Check if we're in edit mode and show appropriate message
+    edit_mode = request.session.get('edit_mode', False)
+    
+    # Initialize empty previous data
+    previous_data = {
+        'feedback_options': [],
+        'other_feedback_options_text': '',
+        'overallExperience': ''
+    }
+    
+    if edit_mode:
+        # Try to get previous answers from the most recent result
+        from EvalData.models import PairwiseAssessmentResult
+        previous_result = PairwiseAssessmentResult.objects.filter(
+            createdBy=request.user
+        ).order_by('-dateCompleted').first()
+        
+        if previous_result:
+            # Get previous feedback data
+            previous_data = {
+                'feedback_options': previous_result.feedback_options.split(',') if previous_result.feedback_options else [],
+                'other_feedback_options_text': previous_result.other_feedback_options_text or '',
+                'overallExperience': previous_result.overallExperience or ''
+            }
+            LOGGER.info(f"Pre-populating feedback form with previous answers from result {previous_result.id}")
+    
     context = {
         'active_page': 'pairwise-feedback',
+        'edit_mode': edit_mode,
+        'previous_data': previous_data
     }
+    context.update(BASE_CONTEXT)
+    
     return render(request, 'EvalView/pairwise-feedback.html', context)
 
 
@@ -2048,6 +2438,16 @@ def pairwise_feedback_submit(request):
             other_feedback_options_text=other_feedback_options_text,
             overallExperience=overall_experience
         )
+
+        # Clear any edit mode flags and other session data
+        if 'edit_mode' in request.session:
+            del request.session['edit_mode']
+        
+        if 'previous_results' in request.session:
+            del request.session['previous_results']
+        
+        # Note: We intentionally don't delete the task agenda here
+        # so users can go back and edit their answers from the dashboard
 
         messages.success(request, "Thank you for your feedback!")
         return redirect('dashboard')

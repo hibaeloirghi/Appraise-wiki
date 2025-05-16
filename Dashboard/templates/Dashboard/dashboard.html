@@ -45,6 +45,17 @@
                 </button>
               </div>
             </div>
+            
+            {% if has_pairwise_tasks %}
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3 text-center">
+                <a href="{% url 'change-answers' %}" class="btn btn-warning">
+                  <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Change My Answers
+                </a>
+                <p class="text-muted mt-2"><small>Click to go back and edit your previous annotations.</small></p>
+              </div>
+            </div>
+            {% endif %}
 {% else %}
             <h3>Next HIT</h3>
             <p>We are currently finalising the registration process for annotator accounts. Once this has been completed, direct assessment tasks will be become available from this page. Please check back in a little while.</p>
