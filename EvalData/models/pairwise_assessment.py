@@ -422,16 +422,6 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('End time'), help_text=_('(in seconds)')
     )
 
-    """
-
-    # added a new field for freetextannotation
-    freetextannotation = models.TextField(
-        blank=True,  # allow empty values in forms
-        null=True,   # allow NULL values in database
-        verbose_name=_('free text annotation'), help_text=_('(free text annotation)')
-    )
-    """
-    
     selected_translation = models.CharField(
         max_length=255,
         blank=True,
@@ -439,6 +429,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('Selected translation'),
         help_text=_('The translation choice selected by the user (Option1 or Option2)'),
     )
+    
     selected_choices = models.CharField(
         max_length=255,
         blank=True,
@@ -478,7 +469,6 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         help_text=_('How would you rate your fluency in the target language?')
     )
 
-
     span_diff_texts = models.TextField(
         blank=True,
         null=True,
@@ -486,12 +476,11 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         help_text=_('Text spans shown to user during annotation.')
     )
 
-
     span_diff_votes = models.TextField(
-    blank=True,
-    null=True,
-    verbose_name=_('Votes for highlighted differences'),
-    help_text=_('Stores which candidate was preferred for each highlighted difference.')
+        blank=True,
+        null=True,
+        verbose_name=_('Votes for highlighted differences'),
+        help_text=_('Stores which candidate was preferred for each highlighted difference.')
     )
 
     span_diff_explanations = models.TextField(blank=True, null=True)
@@ -502,7 +491,6 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('Other text explanations for each diff'),
         help_text=_('User free-text explanations when "Other" is selected.')
     )
-
 
     # for feedback form
     feedback_options = models.CharField(
@@ -527,7 +515,6 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('Overall experience'),
         help_text=_('How would you rate your overall experience?')
     )
-
 
     item = models.ForeignKey(
         TextSegmentWithTwoTargets,
@@ -993,7 +980,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'score1',           # 10
             'score2',           # 11
             'selected_choices', # 12
-            'other_text',       # 13
+            'other_text',       # 13  # This maps to reason_aggregate_translation_choice_other_text
             'span_diff_votes',                   # 14
             'span_diff_explanations',            # 15
             'span_diff_other_texts',             # 16

@@ -432,7 +432,7 @@ function validate_form()
       <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer spelling errors
     </label><br>
     <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer inaccuracies (e.g., wrong word date, number, etc.)
+      <input type="checkbox" name="selected_choices" value="Adequacy_inaccuracy"> The selected translation has fewer inaccuracies (e.g., wrong word date, number, etc.)
     </label><br>
     <label>
       <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
@@ -510,7 +510,7 @@ function validate_form()
             <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_spelling"> The selected span has fewer spelling errors
           </label><br>
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_spelling"> The selected span has fewer inaccuracies (e.g., wrong word date, number, etc.)
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_inaccuracy"> The selected span has fewer inaccuracies (e.g., wrong word date, number, etc.)
           </label><br>
 
 
@@ -525,15 +525,15 @@ function validate_form()
           </label><br>
       
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input other-checkbox-diff" data-diff-index="{{ forloop.counter0 }}" value="Other">
+            <input type="checkbox" class="form-check-input other-checkbox-diff" name="selected_choices_diff_{{ forloop.counter0 }}" data-diff-index="{{ forloop.counter0 }}" value="Other">
             Other
           </label>
         </div>
       
-        <!-- Free Text Box for 'Other' per diff -->
-        <div id="other-text-box-diff-{{ forloop.counter0 }}" style="display: none; margin-top: 10px;">
+        <!-- Add textarea for "Other" option -->
+        <div id="other-text-diff-{{ forloop.counter0 }}" style="display: none; margin-top: 10px; margin-left: 1.5rem;">
           <label for="OtherTextDiff{{ forloop.counter0 }}">Please specify:</label>
-          <textarea id="OtherTextDiff{{ forloop.counter0 }}" name="other_text_diff_{{ forloop.counter0 }}" rows="3" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen span better?"></textarea>
+          <textarea id="OtherTextDiff{{ forloop.counter0 }}" name="other_text_diff_{{ forloop.counter0 }}" rows="2" class="form-control" placeholder="Please explain your choice here"></textarea>
         </div>
       </div>
       
@@ -591,6 +591,18 @@ function validate_form()
     if (!this.checked) {
       document.getElementById('OtherText').value = '';
     }
+  });
+
+  // Show/hide 'Other' text boxes for diffs when their checkboxes are selected
+  document.querySelectorAll('.other-checkbox-diff').forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      const diffIndex = this.getAttribute('data-diff-index');
+      const otherTextBox = document.getElementById(`other-text-diff-${diffIndex}`);
+      otherTextBox.style.display = this.checked ? 'block' : 'none';
+      if (!this.checked) {
+        document.getElementById(`OtherTextDiff${diffIndex}`).value = '';
+      }
+    });
   });
 
   // Validate that at least one checkbox is checked
