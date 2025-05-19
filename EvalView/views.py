@@ -1557,32 +1557,36 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         Free_Text_Annotation = request.POST.get('FreeTextAnnotation', '').strip()
         # Hiba added this: retrieve selected choices from POST data
         selected_choices = request.POST.getlist('selected_choices', [])
-        other_text = request.POST.get('other_text', '')
+        aggregate_other_text = request.POST.get('other_text', '')  # Renamed to be explicit
         # Get intro survey data
         # ============================
         # Capture span-level diff votes
         diff_choices = []
+        diff_explanations = []
+        diff_other_texts = []
         i = 0
         while True:
             choice = request.POST.get(f"diff_vote_{i}")
             if choice is None:
                 break
             diff_choices.append(choice)
+            
+            # Get explanations for this diff
+            explanations = request.POST.getlist(f"selected_choices_diff_{i}")
+            print(f"DEBUG - Raw explanations for diff {i}:", explanations)  # Debug print
+            diff_explanations.append(" + ".join(explanations) if explanations else "")
+            
+            # Get other text for this diff
+            other_text_diff = request.POST.get(f"other_text_diff_{i}", "")
+            diff_other_texts.append(other_text_diff)
+            
             i += 1
 
         print("Collected diff_choices:", diff_choices)
+        print("Collected diff_explanations:", diff_explanations)
+        print("Collected diff_other_texts:", diff_other_texts)
         # ============================
 
-        diff_explanations = []
-        i = 0
-        while True:
-            explanation = request.POST.getlist(f"diff_explanation_{i}")
-            if not explanation:
-                break
-            diff_explanations.append(",".join(explanation))
-            i += 1
-
-        print("Collected diff_explanations:", diff_explanations)
         # ============================
         diff_other_texts = []
         i = 0
@@ -1612,7 +1616,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
     
         # Validate "Other" option
-        if 'other' in selected_choices and not other_text:
+        if 'other' in selected_choices and not aggregate_other_text:
             messages.error(request, "Please specify details for 'Other'.")
             return redirect(request.path)
 
@@ -1686,20 +1690,18 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     sourceErrors=source_error,
                     errors1=error1,
                     errors2=error2,
-                    #freetextannotation=Free_Text_Annotation,
-                    selected_choices=";\n".join(selected_choices),  # Add this
-                    other_text=other_text,
+                    selected_choices=";\n".join(selected_choices),
+                    other_text=aggregate_other_text,
                     wikipedia_familiarity=';\n'.join(wikipedia_familiarity),
                     other_wikipedia_familiarity_text=other_wikipedia_familiarity_text,
                     fluency_in_target_language=fluency_in_target_language,
-                    feedback_options=feedback_options,
+                    feedback_options=";\n".join(feedback_options),
                     other_feedback_options_text=other_feedback_options_text,
                     overallExperience=overallExperience,
-                    #span_diff_texts="|".join(diff_texts),
                     span_diff_texts = ";\n".join(f"{d1.strip()} |vs| {d2.strip()}" for d1, d2 in diff_pairs),
                     span_diff_votes=";\n".join(diff_choices),
                     span_diff_explanations=";\n".join(diff_explanations),
-                    span_diff_other_texts = ";\n".join(diff_other_texts),
+                    span_diff_other_texts=";\n".join(diff_other_texts)
                 )
 
     t3 = datetime.now()

@@ -920,7 +920,7 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'score1',           # 10
             'score2',           # 11
             'selected_choices', # 12
-            'other_text',       # 13
+            'other_text',       # 13  # This maps to reason_aggregate_translation_choice_other_text
             'span_diff_votes',                   # 14
             'span_diff_explanations',            # 15
             'span_diff_other_texts',             # 16
@@ -995,26 +995,24 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
                 _result[9],  # targetLang
                 _result[10],  # score1
                 _result[11],  # score2
-                _result[12],  # candidate1_text
-                _result[13],  # candidate2_text
-                _result[14],  # selected_choices
-                _result[15],  # other_text
-                _result[16],  # span_diff_votes
-                _result[17],  # span_diff_explanations
-                _result[18],  # span_diff_other_texts
-                _result[19],  # span_diff_texts
-                _result[20],  # wikipedia_familiarity
-                _result[21],  # other_wikipedia_familiarity_text
-                _result[22],  # fluency
-                _result[23],  # feedback_options
-                _result[24],  # other_feedback_options_text
-                _result[25],  # overallExperience
+                _result[12],  # reason_aggregate_translation_choice (selected_choices)
+                _result[13],  # reason_aggregate_translation_choice_other_text (other_text)
+                _result[14],  # span_diff_votes
+                _result[15],  # span_diff_explanations
+                _result[16],  # span_diff_other_texts
+                _result[17],  # span_diff_texts
+                _result[18],  # intro_survey_wikipedia_familiarity
+                _result[19],  # intro_survey_wikipedia_familiarity_other_text
+                _result[20],  # fluency_in_target_language
+                _result[21],  # feedback_options
+                _result[22],  # other_feedback_options_text
+                _result[23],  # overallExperience
             ]
 
             if extended_csv:
-                row += [_result[22], _result[23]]
+                row += [_result[24], _result[25]]
             if add_batch_info:
-                idx = 24 if extended_csv else 23
+                idx = 26 if extended_csv else 24
                 row += [_result[idx], _result[idx + 1]]
 
             system_data.append([str(x) if x is not None else "" for x in row])
