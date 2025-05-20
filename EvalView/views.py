@@ -1845,8 +1845,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     # Split by semicolon-newline to get each diff's explanations
                     for explanation_str in previous_answers.span_diff_explanations.split(';\n'):
                         if explanation_str:
-                            # Each explanation string is comma-separated choices
-                            span_diff_explanations.append(explanation_str.split(','))
+                            # Each explanation string is plus-separated choices
+                            # Split by " + " and strip each choice to handle any extra spaces
+                            span_diff_explanations.append([choice.strip() for choice in explanation_str.split(' + ')])
                         else:
                             span_diff_explanations.append([])
                 
@@ -1927,8 +1928,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             print(f"DEBUG - Raw explanations for diff {i}:", explanations)  # Debug print
             diff_explanations.append(" + ".join(explanations) if explanations else "")
             
-            # Get other text for this diff
+            # Get other text for this diff - fixed field name to match template
             other_text_diff = request.POST.get(f"other_text_diff_{i}", "")
+            print(f"DEBUG - Other text for diff {i}:", other_text_diff)  # Add debug print
             diff_other_texts.append(other_text_diff)
             
             i += 1
@@ -1938,31 +1940,6 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         print("Collected diff_other_texts:", diff_other_texts)
         # ============================
 
-        diff_explanations = []
-        i = 0
-        # Process exactly as many diff explanations as there are diff choices
-        for _ in range(len(diff_choices)):
-            # Get the selected choices for this diff (the checkboxes)
-            explanation = request.POST.getlist(f"selected_choices_diff_{i}")
-            diff_explanations.append(",".join(explanation))
-            i += 1
-
-        print("Collected diff_explanations:", diff_explanations)
-        # ============================
-        diff_other_texts = []
-        i = 0
-        # Process exactly as many other texts as there are diff choices
-        for _ in range(len(diff_choices)):
-            # Get the "Other" text for this diff index
-            other_text_value = request.POST.get(f"other_text_diff_{i}", "")
-            # Add to our collection (use empty string if None)
-            diff_other_texts.append(other_text_value or "")
-            # Debug output
-            print(f"Diff {i} other text: '{other_text_value}'")
-            i += 1
-        
-        print("Collected diff_other_texts:", diff_other_texts)
-        # ============================
         diff_texts = []
         for diff1, diff2 in diff_pairs:
             diff_texts.append(f"{diff1} || {diff2}")
@@ -1983,6 +1960,26 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         if 'other' in selected_choices and not aggregate_other_text:
             messages.error(request, "Please specify details for 'Other'.")
             return redirect(request.path)
+
+        # Validate "Other" option for main choices
+        if 'other' in selected_choices and not aggregate_other_text:
+            messages.error(request, "Please specify details for 'Other'.")
+            return redirect(request.path)
+
+        # Validate "Other" option for each diff
+        i = 0
+        while True:
+            choice = request.POST.get(f"diff_vote_{i}")
+            if choice is None:  # No more diffs to process
+                break
+                
+            explanations = request.POST.getlist(f"selected_choices_diff_{i}")
+            if 'Other' in explanations:
+                other_text = request.POST.get(f"other_text_diff_{i}", "").strip()
+                if not other_text:
+                    messages.error(request, f"Please specify details for 'Other' in Difference {i + 1}.")
+                    return redirect(request.path)
+            i += 1
 
         print(
         'score1={0}, score2={1}, item_id={2}, src_err={3}, error1={4}, error2={5}, freetextannotation={6}'.format(
