@@ -407,7 +407,7 @@ function validate_form()
   <div class="row question-box">
     <div class="col-sm-12">
       <p class="priming-question">
-        Please select one or more options below to explain your choice and share any additional thoughts.
+        Why did you select this translation? Please select one or more options below to explain your choice and share any additional thoughts.
       </p>
     </div>
   </div>
@@ -424,7 +424,10 @@ function validate_form()
       <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer spelling errors
     </label><br>
     <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_inaccuracy"> The selected translation has fewer inaccuracies (e.g., wrong word date, number, etc.)
+      <input type="checkbox" name="selected_choices" value="Adequacy_inaccuracy"> The selected translation has fewer inaccuracies (e.g., wrong word, date, number, etc.)
+    </label><br>
+    <label>
+      <input type="checkbox" name="selected_choices" value="Adequacy_introduction_of_new_word"> The unselected translation inaccurately introduces a new word/phrase that is not in the source text
     </label><br>
     <label>
       <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
@@ -482,7 +485,7 @@ function validate_form()
       <div class="row question-box">
         <div class="col-sm-12">
           <p class="priming-question">
-            Please select one or more options below to explain your choice and share any additional thoughts.
+            Why did you select this span? Please select one or more options below to explain your choice and share any additional thoughts.
           </p>
         </div>
       </div>
@@ -503,6 +506,10 @@ function validate_form()
           </label><br>
           <label class="form-check-label">
             <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_inaccuracy"> The selected span has fewer inaccuracies (e.g., wrong word date, number, etc.)
+          </label><br>
+
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_untranslated"> The unselected choice is partially or fully untranslated
           </label><br>
 
 
@@ -535,6 +542,7 @@ function validate_form()
   {% endfor %}
 </div>
 {% endif %}
+
 
 
 

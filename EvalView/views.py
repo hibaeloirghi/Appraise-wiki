@@ -38,6 +38,9 @@ from EvalData.models import PairwiseAssessmentDocumentTask
 from EvalData.models import PairwiseAssessmentResult
 from EvalData.models import PairwiseAssessmentTask
 from EvalData.models import TaskAgenda
+
+from difflib import SequenceMatcher # hiba added this to replicate the functionality of the target_texts_with_diffs function in ./EvalData/models/base_models.py:751
+
 import re
 
 def extract_marked_spans(candidate_text):
@@ -1779,6 +1782,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
     candidate1_diffs = extract_marked_spans(candidate1_text)
     candidate2_diffs = extract_marked_spans(candidate2_text)
 
+<<<<<<< HEAD
     max_len = max(len(candidate1_diffs), len(candidate2_diffs))
     padded_a = candidate1_diffs + [""] * (max_len - len(candidate1_diffs))
     padded_b = candidate2_diffs + [""] * (max_len - len(candidate2_diffs))
@@ -1789,6 +1793,8 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         span_b = b.strip() if b.strip() else " "
         diff_pairs.append((span_a, span_b))
 
+=======
+>>>>>>> main
     # Check if we're in edit mode and get previous answers
     previous_answers = None
     if request.session.get('edit_mode', False):
@@ -1802,13 +1808,20 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             LOGGER.info(f"Previous answers data: {previous_answers_data}")
             
             # Add debug info for span differences
+<<<<<<< HEAD
             LOGGER.info(f"Number of diff pairs: {len(diff_pairs)}")
+=======
+>>>>>>> main
             LOGGER.info(f"Span diff votes: {previous_answers_data.get('span_diff_votes', [])}")
             LOGGER.info(f"Span diff explanations: {previous_answers_data.get('span_diff_explanations', [])}")
             LOGGER.info(f"Span diff other texts: {previous_answers_data.get('span_diff_other_texts', [])}")
             
             # Ensure arrays have correct length
+<<<<<<< HEAD
             max_diffs = len(diff_pairs)
+=======
+            max_diffs = max(len(candidate1_diffs), len(candidate2_diffs)) #len(diff_pairs)
+>>>>>>> main
             span_diff_votes = previous_answers_data.get('span_diff_votes', [])
             span_diff_explanations = previous_answers_data.get('span_diff_explanations', [])
             span_diff_other_texts = previous_answers_data.get('span_diff_other_texts', [])
@@ -1852,7 +1865,11 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                             span_diff_explanations.append([])
                 
                 # Make sure we have equal number of entries for all span diffs
+<<<<<<< HEAD
                 max_diffs = len(diff_pairs)
+=======
+                max_diffs = max(len(candidate1_diffs), len(candidate2_diffs)) #len(diff_pairs)
+>>>>>>> main
                 
                 # Extend span_diff_votes if needed
                 while len(span_diff_votes) < max_diffs:
@@ -1935,15 +1952,20 @@ def pairwise_assessment(request, code=None, campaign_name=None):
             
             i += 1
 
+
+
         print("Collected diff_choices:", diff_choices)
         print("Collected diff_explanations:", diff_explanations)
         print("Collected diff_other_texts:", diff_other_texts)
         # ============================
+<<<<<<< HEAD
 
         diff_texts = []
         for diff1, diff2 in diff_pairs:
             diff_texts.append(f"{diff1} || {diff2}")
         print("Collected diff_texts:", diff_texts)
+=======
+>>>>>>> main
         # Hiba added this: retrieve selected choices from POST data
         # ============================
 
@@ -2036,6 +2058,42 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                 print("POST - feedback_options:", request.POST.getlist("feedback_options"))
                 print("POST - overallExperience:", request.POST.get("overallExperience"))
 
+
+
+                # 1) grab the raw texts, not the annotated ones:
+                raw1 = current_item.target1Text
+                raw2 = current_item.target2Text
+
+                # 2) tokenize exactly as target_texts_with_diffs does:
+                toks1 = raw1.split()
+                toks2 = raw2.split()
+
+                # 3) align them
+                matcher = SequenceMatcher(None, toks1, toks2)
+                diff_pairs = []
+                #span_diff_texts = ""
+
+                for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+                    if tag == 'equal':
+                        continue
+
+                    if tag == 'replace':
+                        a = " ".join(toks1[i1:i2]).strip() or " "
+                        b = " ".join(toks2[j1:j2]).strip() or " "
+                        diff_pairs.append((a, b))
+
+                    elif tag == 'delete':
+                        a = " ".join(toks1[i1:i2]).strip() or " "
+                        diff_pairs.append((a, " "))
+
+                    elif tag == 'insert':
+                        b = " ".join(toks2[j1:j2]).strip() or " "
+                        diff_pairs.append((" ", b))
+
+                span_diff_texts = (";\n".join(f"{old.strip()} |vs| {new.strip()}" for old, new in diff_pairs) if diff_pairs else "")
+
+                print("Collected diff_pairs:", diff_pairs)
+                print("Collected span_diff_texts:", span_diff_texts)
                 # pylint: disable=E1101
                 PairwiseAssessmentResult.objects.create(
                     score1=score1,
@@ -2059,10 +2117,10 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     feedback_options=";\n".join(feedback_options),
                     other_feedback_options_text=other_feedback_options_text,
                     overallExperience=overallExperience,
-                    span_diff_texts = ";\n".join(f"{d1.strip()} |vs| {d2.strip()}" for d1, d2 in diff_pairs),
                     span_diff_votes=";\n".join(diff_choices),
                     span_diff_explanations=";\n".join(diff_explanations),
-                    span_diff_other_texts=";\n".join(diff_other_texts)
+                    span_diff_other_texts=";\n".join(diff_other_texts),
+                    span_diff_texts=span_diff_texts,
                 )
 
     t3 = datetime.now()
@@ -2232,16 +2290,51 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         )
 
     # Pad shorter candidate diff list
-    max_len = max(len(candidate1_diffs), len(candidate2_diffs))
-    padded_a = candidate1_diffs + [""] * (max_len - len(candidate1_diffs))
-    padded_b = candidate2_diffs + [""] * (max_len - len(candidate2_diffs))
+    #max_len = max(len(candidate1_diffs), len(candidate2_diffs))
+    #padded_a = candidate1_diffs + [""] * (max_len - len(candidate1_diffs))
+    #padded_b = candidate2_diffs + [""] * (max_len - len(candidate2_diffs))
 
     # Replace empty diffs with placeholder
+    #diff_pairs = []
+    #for a, b in zip(padded_a, padded_b):
+    #    span_a = a.strip() if a.strip() else " "
+    #    span_b = b.strip() if b.strip() else " "
+    #    diff_pairs.append((span_a, span_b))
+
+    # 1) grab the raw texts, not the annotated ones:
+    raw1 = current_item.target1Text
+    raw2 = current_item.target2Text
+
+    # 2) tokenize exactly as target_texts_with_diffs does:
+    toks1 = raw1.split()
+    toks2 = raw2.split()
+
+    # 3) align them
+    matcher = SequenceMatcher(None, toks1, toks2)
     diff_pairs = []
-    for a, b in zip(padded_a, padded_b):
-        span_a = a.strip() if a.strip() else " "
-        span_b = b.strip() if b.strip() else " "
-        diff_pairs.append((span_a, span_b))
+    #span_diff_texts = ""
+
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == 'equal':
+            continue
+
+        if tag == 'replace':
+            a = " ".join(toks1[i1:i2]).strip() or " "
+            b = " ".join(toks2[j1:j2]).strip() or " "
+            diff_pairs.append((a, b))
+
+        elif tag == 'delete':
+            a = " ".join(toks1[i1:i2]).strip() or " "
+            diff_pairs.append((a, " "))
+
+        elif tag == 'insert':
+            b = " ".join(toks2[j1:j2]).strip() or " "
+            diff_pairs.append((" ", b))
+
+    span_diff_texts = (";\n".join(f"{old.strip()} |vs| {new.strip()}" for old, new in diff_pairs) if diff_pairs else "")
+
+    print("Collected diff_pairs:", diff_pairs)
+    print("Collected span_diff_texts:", span_diff_texts)
 
     context = {
         'active_page': 'pairwise-assessment',
@@ -2257,6 +2350,7 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         'candidate2_diffs': candidate2_diffs,
         #'diff_pairs': list(zip(candidate1_diffs, candidate2_diffs)),
         'diff_pairs': diff_pairs,
+        'span_diff_texts' : span_diff_texts,
         'priming_question_text': priming_question_text,
         'item_id': current_item.itemID,
         'task_id': current_item.id,
