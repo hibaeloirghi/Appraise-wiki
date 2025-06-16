@@ -439,14 +439,46 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
         verbose_name=_('Selected translation'),
         help_text=_('The translation choice selected by the user (Option1 or Option2)'),
     )
-    selected_choices = models.CharField(
+
+    # New fields for the three questions
+    selected_advantages = models.CharField(
         max_length=255,
         blank=True,
         null=True,
-        verbose_name=_('Selected choices'),
-        help_text=_('Comma-separated selected options to explain the preferred aggragate translation')
+        verbose_name=_('Selected advantages'),
+        help_text=_('Comma-separated list of advantages of the selected translation')
     )
-    
+
+    selected_advantages_other = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other selected advantages'),
+        help_text=_('Free text for "Other" option in selected advantages')
+    )
+
+    non_selected_problems = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Non-selected problems'),
+        help_text=_('Comma-separated list of problems with the non-selected translation')
+    )
+
+    non_selected_problems_other = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name=_('Other non-selected problems'),
+        help_text=_('Free text for "Other" option in non-selected problems')
+    )
+
+    wiki_adequacy = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True,
+        verbose_name=_('Wikipedia adequacy'),
+        help_text=_('Comma-separated list of translations adequate for Wikipedia')
+    )
+
     other_text = models.TextField(
         blank=True,
         null=True,
@@ -919,103 +951,126 @@ class PairwiseAssessmentResult(BasePairwiseAssessmentResult):
             'item__metadata__market__targetLanguageCode',  # 9
             'score1',           # 10
             'score2',           # 11
-            'selected_choices', # 12
-            'other_text',       # 13  # This maps to reason_aggregate_translation_choice_other_text
-            'span_diff_votes',                   # 14
-            'span_diff_explanations',            # 15
-            'span_diff_other_texts',             # 16
-            'span_diff_texts',                  # 17
-            'wikipedia_familiarity',             # 18
-            'other_wikipedia_familiarity_text',  # 19
-            'fluency_in_target_language',        # 20
-            'feedback_options',                  # 21
-            'other_feedback_options_text',       # 22
-            'overallExperience',                 # 23
+            'selected_advantages',  # 12 (replacing selected_choices)
+            'selected_advantages_other',  # 13 (new)
+            'non_selected_problems',  # 14 (new)
+            'non_selected_problems_other',  # 15 (new)
+            'wiki_adequacy',  # 16 (new)
+            'other_text',       # 17
+            'span_diff_votes',                   # 18
+            'span_diff_explanations',            # 19
+            'span_diff_other_texts',             # 20
+            'span_diff_texts',                  # 21
+            'wikipedia_familiarity',             # 22
+            'other_wikipedia_familiarity_text',  # 23
+            'fluency_in_target_language',        # 24
+            'feedback_options',                  # 25
+            'other_feedback_options_text',       # 26
+            'overallExperience',                 # 27
         )
 
         if extended_csv:
             attributes_to_extract += (
-                'start_time',  # 24
-                'end_time',    # 25
+                'start_time',  # 28
+                'end_time',    # 29
             )
 
         if add_batch_info:
             attributes_to_extract += (
-                'task__batchNo',  # 26
-                'item_id',        # 27
+                'task__batchNo',  # 30
+                'item_id',        # 31
             )
 
         # --- HEADER
-        header = [
-            "segmentID", 
-            "username", 
-            "candidate1", 
-            "candidate1_text", 
-            "candidate2",
-            "candidate2_text",
-            "itemID", 
-            "itemType",
-            "sourceLang", 
-            "targetLang", 
-            "score1", 
-            "score2",
-            "reason_aggregate_translation_choice", 
-            "reason_aggregate_translation_choice_other_text", 
-            "span_diff_votes", 
-            "span_diff_explanations", 
-            "span_diff_other_texts",
-            "span_diff_texts",
-            "intro_survey_wikipedia_familiarity",
-            "intro_survey_wikipedia_familiarity_other_text", 
-            "intro_survey_fluency_in_target_language", 
-            "post_survey_feedback_options",
-            "post_survey_feedback_options_other_text", 
-            "post_survey_overallExperience",
-        ]
+        header = (
+            'segmentID',  # 0
+            'annotator',  # 1
+            'target1ID',  # 2
+            'target1Text',  # 3
+            'target2ID',  # 4
+            'target2Text',  # 5
+            'itemID',  # 6
+            'itemType',  # 7
+            'sourceLanguageCode',  # 8
+            'targetLanguageCode',  # 9
+            'score1',  # 10
+            'score2',  # 11
+            'selected_advantages',  # 12 (replacing selected_choices)
+            'selected_advantages_other',  # 13 (new)
+            'non_selected_problems',  # 14 (new)
+            'non_selected_problems_other',  # 15 (new)
+            'wiki_adequacy',  # 16 (new)
+            'other_text',  # 17
+            'span_diff_votes',  # 18
+            'span_diff_explanations',  # 19
+            'span_diff_other_texts',  # 20
+            'span_diff_texts',  # 21
+            'wikipedia_familiarity',  # 22
+            'other_wikipedia_familiarity_text',  # 23
+            'fluency_in_target_language',  # 24
+            'feedback_options',  # 25
+            'other_feedback_options_text',  # 26
+            'overallExperience',  # 27
+        )
 
         if extended_csv:
-            header += ["start_time", "end_time"]
+            header += (
+                'start_time',  # 28
+                'end_time',  # 29
+            )
+
         if add_batch_info:
-            header += ["batchNo", "item_db_id"]
+            header += (
+                'batchNo',  # 30
+                'item_id',  # 31
+            )
 
         system_data = [header]
 
         # --- DATA
         for _result in qs.values_list(*attributes_to_extract):
-            row = [
+            system_data.append([
                 _result[0],  # segmentID
-                _result[1],  # username
-                _result[2],  # candidate1
-                _result[3],  # candidate1_text
-                _result[4],  # candidate2
-                _result[5],  # candidate2_text
+                _result[1],  # annotator
+                _result[2],  # target1ID
+                _result[3],  # target1Text
+                _result[4],  # target2ID
+                _result[5],  # target2Text
                 _result[6],  # itemID
                 _result[7],  # itemType
-                _result[8],  # sourceLang
-                _result[9],  # targetLang
+                _result[8],  # sourceLanguageCode
+                _result[9],  # targetLanguageCode
                 _result[10],  # score1
                 _result[11],  # score2
-                _result[12],  # reason_aggregate_translation_choice (selected_choices)
-                _result[13],  # reason_aggregate_translation_choice_other_text (other_text)
-                _result[14],  # span_diff_votes
-                _result[15],  # span_diff_explanations
-                _result[16],  # span_diff_other_texts
-                _result[17],  # span_diff_texts
-                _result[18],  # intro_survey_wikipedia_familiarity
-                _result[19],  # intro_survey_wikipedia_familiarity_other_text
-                _result[20],  # fluency_in_target_language
-                _result[21],  # feedback_options
-                _result[22],  # other_feedback_options_text
-                _result[23],  # overallExperience
-            ]
+                _result[12],  # selected_advantages
+                _result[13],  # selected_advantages_other
+                _result[14],  # non_selected_problems
+                _result[15],  # non_selected_problems_other
+                _result[16],  # wiki_adequacy
+                _result[17],  # other_text
+                _result[18],  # span_diff_votes
+                _result[19],  # span_diff_explanations
+                _result[20],  # span_diff_other_texts
+                _result[21],  # span_diff_texts
+                _result[22],  # wikipedia_familiarity
+                _result[23],  # other_wikipedia_familiarity_text
+                _result[24],  # fluency_in_target_language
+                _result[25],  # feedback_options
+                _result[26],  # other_feedback_options_text
+                _result[27],  # overallExperience
+            ])
 
             if extended_csv:
-                row += [_result[24], _result[25]]
-            if add_batch_info:
-                idx = 26 if extended_csv else 24
-                row += [_result[idx], _result[idx + 1]]
+                system_data[-1].extend([
+                    _result[28],  # start_time
+                    _result[29],  # end_time
+                ])
 
-            system_data.append([str(x) if x is not None else "" for x in row])
+            if add_batch_info:
+                system_data[-1].extend([
+                    _result[30],  # batchNo
+                    _result[31],  # item_id
+                ])
 
         return system_data
 

@@ -206,8 +206,11 @@ def change_answers(request):
                         'score1': result.score1,
                         'score2': result.score2,
                         'selected_translation': result.selected_translation,
-                        'selected_choices': result.selected_choices.split(';\n') if result.selected_choices else [],
-                        'other_text': result.other_text or '',
+                        'selected_advantages': result.selected_advantages.split(';\n') if result.selected_advantages else [],
+                        'selected_advantages_other': result.selected_advantages_other or '',
+                        'non_selected_problems': result.non_selected_problems.split(';\n') if result.non_selected_problems else [],
+                        'non_selected_problems_other': result.non_selected_problems_other or '',
+                        'wiki_adequacy': result.wiki_adequacy.split(';\n') if result.wiki_adequacy else [],
                         'span_diff_votes': span_diff_votes,
                         'span_diff_explanations': span_diff_explanations,
                         'span_diff_other_texts': span_diff_other_texts
@@ -1872,8 +1875,11 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     'score1': previous_answers.score1,
                     'score2': previous_answers.score2,
                     'selected_translation': previous_answers.selected_translation,
-                    'selected_choices': previous_answers.selected_choices.split(';\n') if previous_answers.selected_choices else [],
-                    'other_text': previous_answers.other_text or '',
+                    'selected_advantages': previous_answers.selected_advantages.split(';\n') if previous_answers.selected_advantages else [],
+                    'selected_advantages_other': previous_answers.selected_advantages_other or '',
+                    'non_selected_problems': previous_answers.non_selected_problems.split(';\n') if previous_answers.non_selected_problems else [],
+                    'non_selected_problems_other': previous_answers.non_selected_problems_other or '',
+                    'wiki_adequacy': previous_answers.wiki_adequacy.split(';\n') if previous_answers.wiki_adequacy else [],
                     'span_diff_votes': span_diff_votes,
                     'span_diff_explanations': span_diff_explanations,
                     'span_diff_other_texts': span_diff_other_texts
@@ -1899,9 +1905,12 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
         # Hiba added this: retrieve freetextannotation from POST data
         Free_Text_Annotation = request.POST.get('FreeTextAnnotation', '').strip()
-        # Hiba added this: retrieve selected choices from POST data
-        selected_choices = request.POST.getlist('selected_choices', [])
-        aggregate_other_text = request.POST.get('other_text', '')  # Renamed to be explicit
+        # Get the new three fields from POST data
+        selected_advantages = request.POST.getlist('selected_advantages', [])
+        selected_advantages_other = request.POST.get('selected_advantages_other', '')
+        non_selected_problems = request.POST.getlist('non_selected_problems', [])
+        non_selected_problems_other = request.POST.get('non_selected_problems_other', '')
+        wiki_adequacy = request.POST.getlist('wiki_adequacy', [])
         # Get intro survey data
         # ============================
         # Capture span-level diff votes
@@ -1946,14 +1955,16 @@ def pairwise_assessment(request, code=None, campaign_name=None):
 
     
         # Validate "Other" option
-        if 'other' in selected_choices and not aggregate_other_text:
+        if 'other' in selected_advantages and not selected_advantages_other:
+            messages.error(request, "Please specify details for 'Other'.")
+            return redirect(request.path)
+        
+        # Validate "Other" option
+        if 'other' in non_selected_problems and not non_selected_problems_other:
             messages.error(request, "Please specify details for 'Other'.")
             return redirect(request.path)
 
-        # Validate "Other" option for main choices
-        if 'other' in selected_choices and not aggregate_other_text:
-            messages.error(request, "Please specify details for 'Other'.")
-            return redirect(request.path)
+        
 
         # Validate "Other" option for each diff
         i = 0
@@ -2076,8 +2087,11 @@ def pairwise_assessment(request, code=None, campaign_name=None):
                     sourceErrors=source_error,
                     errors1=error1,
                     errors2=error2,
-                    selected_choices=";\n".join(selected_choices),
-                    other_text=aggregate_other_text,
+                    selected_advantages=";\n".join(selected_advantages),
+                    selected_advantages_other=selected_advantages_other,
+                    non_selected_problems=";\n".join(non_selected_problems),
+                    non_selected_problems_other=non_selected_problems_other,
+                    wiki_adequacy=";\n".join(wiki_adequacy),
                     wikipedia_familiarity=';\n'.join(wikipedia_familiarity),
                     other_wikipedia_familiarity_text=other_wikipedia_familiarity_text,
                     fluency_in_target_language=fluency_in_target_language,

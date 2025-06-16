@@ -86,69 +86,6 @@ $(document).ready(function() {
     }
   });
 
-  // Pre-select previous answers if in edit mode
-  {% if edit_mode and previous_answers %}
-    // Pre-select translation choice
-    if ({{ previous_answers.score1 }} === 100) {
-      $('input[name="translation_choice"][value="candidate1"]').prop('checked', true).change();
-    } else if ({{ previous_answers.score2 }} === 100) {
-      $('input[name="translation_choice"][value="candidate2"]').prop('checked', true).change();
-    }
-    
-    // Pre-select explanation choices
-    {% if previous_answers.selected_choices %}
-      {% for choice in previous_answers.selected_choices %}
-        $('input[name="selected_choices"][value="{{ choice }}"]').prop('checked', true);
-      {% endfor %}
-      
-      // Show "Other" text field if needed
-      if ($('input[name="selected_choices"][value="other"]').is(':checked')) {
-        $('#other_text_container').show();
-        $('input[name="other_text"]').val("{{ previous_answers.other_text }}");
-      }
-    {% endif %}
-    
-    // Pre-select span diff votes
-    {% if previous_answers.span_diff_votes %}
-      {% for vote in previous_answers.span_diff_votes %}
-        if ("{{ vote|escapejs }}") {
-          $('input[name="diff_vote_{{ forloop.counter0 }}"][value="{{ vote|escapejs }}"]').prop('checked', true);
-        }
-      {% endfor %}
-    {% endif %}
-    
-    // Pre-select span diff explanations
-    {% if previous_answers.span_diff_explanations %}
-      {% for explanation_list in previous_answers.span_diff_explanations %}
-        {% for explanation in explanation_list %}
-          $('input[name="selected_choices_diff_{{ forloop.parentloop.counter0 }}"][value="{{ explanation|escapejs }}"]').prop('checked', true);
-          if ("{{ explanation|escapejs }}" === "Other") {
-            $('.other-checkbox-diff[data-diff-index="{{ forloop.parentloop.counter0 }}"]').prop('checked', true);
-            $('#other-text-box-diff-{{ forloop.parentloop.counter0 }}').show();
-          }
-        {% endfor %}
-      {% endfor %}
-    {% endif %}
-    
-    // Pre-fill span diff other texts
-    {% if previous_answers.span_diff_other_texts %}
-      {% for other_text in previous_answers.span_diff_other_texts %}
-        if ("{{ other_text|escapejs }}".trim()) {
-          var diffIndex = "{{ forloop.counter0 }}";
-          $('#OtherTextDiff' + diffIndex).val("{{ other_text|escapejs }}");
-          $('#other-text-box-diff-' + diffIndex).show();
-        }
-      {% endfor %}
-    {% endif %}
-    
-    // Make sure "Other" text field for the main explanation is visible if there's text in it
-    {% if previous_answers.other_text %}
-      $('#other-checkbox').prop('checked', true);
-      $('#other-text-box').show();
-      $('#OtherText').val("{{ previous_answers.other_text|escapejs }}");
-    {% endif %}
-  {% endif %}
-
   if (Cookies.get('show-context') == 'yes') {
     $('.context-sentences').show();
     $('#reference-label').hide();
@@ -206,22 +143,54 @@ function validate_form()
     return false;
   }
   
-  // Validate explanation choices
-  var hasChoices = false;
-  $('input[name="selected_choices"]').each(function() {
+  // Validate selected advantages
+  var hasAdvantages = false;
+  $('input[name="selected_advantages"]').each(function() {
     if ($(this).is(':checked')) {
-      hasChoices = true;
+      hasAdvantages = true;
     }
   });
   
-  if (!hasChoices) {
-    alert('Please select at least one explanation for your translation choice.');
+  if (!hasAdvantages) {
+    alert('Please select at least one advantage for the selected translation.');
     return false;
   }
   
-  // Check if 'Other' is selected but text field is empty
-  if ($('#other-checkbox').is(':checked') && $('#OtherText').val().trim() === '') {
-    alert('Please provide details in the "Other" text field.');
+  // Check if 'Other' is selected but text field is empty for advantages
+  if ($('#other1').is(':checked') && $('textarea[name="selected_advantages_other"]').val().trim() === '') {
+    alert('Please provide details in the "Other" text field for advantages.');
+    return false;
+  }
+  
+  // Validate non-selected problems
+  var hasProblems = false;
+  $('input[name="non_selected_problems"]').each(function() {
+    if ($(this).is(':checked')) {
+      hasProblems = true;
+    }
+  });
+  
+  if (!hasProblems) {
+    alert('Please select at least one problem with the non-selected translation.');
+    return false;
+  }
+  
+  // Check if 'Other' is selected but text field is empty for problems
+  if ($('#other2').is(':checked') && $('textarea[name="non_selected_problems_other"]').val().trim() === '') {
+    alert('Please provide details in the "Other" text field for problems.');
+    return false;
+  }
+  
+  // Validate wiki adequacy
+  var hasWikiAdequacy = false;
+  $('input[name="wiki_adequacy"]').each(function() {
+    if ($(this).is(':checked')) {
+      hasWikiAdequacy = true;
+    }
+  });
+  
+  if (!hasWikiAdequacy) {
+    alert('Please select at least one option for Wikipedia adequacy.');
     return false;
   }
   
@@ -403,48 +372,116 @@ function validate_form()
 <div class="form-group mt-4">
   <p> </p>
   <p> </p>
-  <!-- Instruction styled like priming question -->
+  <!-- First Question -->
   <div class="row question-box">
     <div class="col-sm-12">
       <p class="priming-question">
-        Why did you select this translation? Please select one or more options below to explain your choice and share any additional thoughts.
+        Why is the selected translation better? (check all that apply)
       </p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="Fluency_Natural" id="fluency_natural">
+        <label class="form-check-label" for="fluency_natural">
+          Reads more naturally in the target language, regardless of meaning preservation.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="Fluency_Grammar_Spelling" id="fluency_grammar_spelling">
+        <label class="form-check-label" for="fluency_grammar_spelling">
+          Contains fewer grammatical or spelling errors (typos, punctuation mistakes, etc.), regardless of meaning preservation.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="Adequacy_Inaccuracy" id="adequacy_inaccuracy">
+        <label class="form-check-label" for="adequacy_inaccuracy">
+          Preserves factual information correctly (dates, numbers, proper nouns, etc.) compared to the non-selected translation.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="Explicitation" id="explicitation">
+        <label class="form-check-label" for="explicitation">
+          The selected translation adds helpful context or clarifications beyond what is present in the source text. The non-selected translation does not.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="NoDiff" id="nodiff1">
+        <label class="form-check-label" for="nodiff1">
+          No real difference in fluency or meaning.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="selected_advantages" value="Other" id="other1">
+        <label class="form-check-label" for="other1">
+          Other (please specify)
+        </label>
+      </div>
+      <div class="form-group mt-2" id="other1_text_group" style="display: none;">
+        <textarea class="form-control" name="selected_advantages_other" rows="2"></textarea>
+      </div>
     </div>
   </div>
-  
-  <!-- Multiple Choice Checkboxes -->
-  <div id="choices">
-    <label>
-      <input type="checkbox" name="selected_choices" value="Fluency"> The selected translation sounds better
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_grammar"> The selected translation has fewer grammatical errors
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_spelling"> The selected translation has fewer spelling errors
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_inaccuracy"> The selected translation has fewer inaccuracies (e.g., wrong word, date, number, etc.)
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Adequacy_introduction_of_new_word"> The unselected translation inaccurately introduces a new word/phrase that is not in the source text
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Explicitation"> The selected translation adds more context for the reader
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="NoDiff"> No meaningful difference in content or style
-    </label><br>
-    <label>
-      <input type="checkbox" name="selected_choices" value="Other" id="other-checkbox"> Other
-    </label>
-  </div>
-</div>
 
-<!-- Free Text Box for 'Other' -->
-<div id="other-text-box" style="display: none; margin-top: 10px;">
-  <label for="OtherText">Please specify:</label>
-  <textarea id="OtherText" name="other_text" rows="4" class="form-control" placeholder="Please write down your thoughts here. If applicable, what makes your chosen translation better?"></textarea>
+  <!-- Second Question -->
+  <div class="row question-box mt-4">
+    <div class="col-sm-12">
+      <p class="priming-question">
+        What problems does the non-selected translation have? (check all that apply)
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="non_selected_problems" value="Adequacy_Bad_Addition" id="bad_addition">
+        <label class="form-check-label" for="bad_addition">
+          Inaccurately introduces words/phrases not in the source text.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="non_selected_problems" value="Adequacy_Omission" id="omission">
+        <label class="form-check-label" for="omission">
+          Omits information present in the source text.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="non_selected_problems" value="NoDiff" id="nodiff2">
+        <label class="form-check-label" for="nodiff2">
+          No real difference in fluency or meaning.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="non_selected_problems" value="Other" id="other2">
+        <label class="form-check-label" for="other2">
+          Other (please specify)
+        </label>
+      </div>
+      <div class="form-group mt-2" id="other2_text_group" style="display: none;">
+        <textarea class="form-control" name="non_selected_problems_other" rows="2"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Question -->
+  <div class="row question-box mt-4">
+    <div class="col-sm-12">
+      <p class="priming-question">
+        Are the candidates appropriate content for a Wikipedia article? (check all that apply)
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="wiki_adequacy" value="Wiki_Style_selected" id="wiki_selected">
+        <label class="form-check-label" for="wiki_selected">
+          The selected translation.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="wiki_adequacy" value="Wiki_Style_non_selected" id="wiki_non_selected">
+        <label class="form-check-label" for="wiki_non_selected">
+          The non-selected translation.
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="wiki_adequacy" value="Wiki_Style_neither" id="wiki_neither">
+        <label class="form-check-label" for="wiki_neither">
+          Neither.
+        </label>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -494,38 +531,35 @@ function validate_form()
       <div class="form-group mt-2">
         <div id="choices_diff_{{ forloop.counter0 }}" style="margin-left: 1.5rem; font-size: 0.95em; color: #555;">
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Fluency">
-            The selected span sounds better
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Fluency_natural">
+            The selected span reads more naturally in the target language.
           </label><br>
           
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_grammar"> The selected span has fewer grammatical errors
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="fluency_grammar_spelling"> The selected span contains fewer grammatical or spelling errors (typos, punctuation mistakes, etc.)
           </label><br>
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_spelling"> The selected span has fewer spelling errors
-          </label><br>
-          <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_inaccuracy"> The selected span has fewer inaccuracies (e.g., wrong word date, number, etc.)
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_inaccuracy"> The selected span preserves factual information correctly (dates, numbers, proper nouns, etc.) compared to the non-selected span.
           </label><br>
 
           <label class="form-check-label">
-            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_untranslated"> The unselected choice is partially or fully untranslated
+            <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Adequacy_untranslated"> The non-selected span is partially or fully untranslated
           </label><br>
 
 
           <label class="form-check-label">
             <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="Explicitation">
-            The selected span adds more context for the reader
+            The selected span adds helpful context or clarifications beyond what is present in the source text. The non-selected span does not.
           </label><br>
       
           <label class="form-check-label">
             <input type="checkbox" class="form-check-input" name="selected_choices_diff_{{ forloop.counter0 }}" value="NoDiff">
-            No meaningful difference in content or style
+            No real difference in fluency or meaning.
           </label><br>
       
           <label class="form-check-label">
             <input type="checkbox" class="form-check-input other-checkbox-diff" name="selected_choices_diff_{{ forloop.counter0 }}" data-diff-index="{{ forloop.counter0 }}" value="Other">
-            Other
+            Other (please specify)
           </label>
         </div>
       
@@ -584,12 +618,18 @@ function validate_form()
 </div>
 
 <script>
-  // Show/hide 'Other' text box when 'Other' checkbox is selected
-  document.getElementById('other-checkbox').addEventListener('change', function () {
-    const otherBox = document.getElementById('other-text-box');
-    otherBox.style.display = this.checked ? 'block' : 'none';
+  // Show/hide 'Other' text boxes when their checkboxes are selected
+  document.getElementById('other1').addEventListener('change', function() {
+    document.getElementById('other1_text_group').style.display = this.checked ? 'block' : 'none';
     if (!this.checked) {
-      document.getElementById('OtherText').value = '';
+      document.querySelector('textarea[name="selected_advantages_other"]').value = '';
+    }
+  });
+
+  document.getElementById('other2').addEventListener('change', function() {
+    document.getElementById('other2_text_group').style.display = this.checked ? 'block' : 'none';
+    if (!this.checked) {
+      document.querySelector('textarea[name="non_selected_problems_other"]').value = '';
     }
   });
 
@@ -605,68 +645,119 @@ function validate_form()
     });
   });
 
-  // Validate that at least one checkbox is checked
-  // AND that 'OtherText' is filled if 'Other' is checked
-  function validate_choices() {
-    // 🔹 Validate global (aggregate) explanation
-    const checkboxes = document.querySelectorAll('input[name="selected_choices"]');
-    const otherCheckbox = document.getElementById('other-checkbox');
-    const otherText = document.getElementById('OtherText');
-    let oneChecked = false;
-
-    for (const box of checkboxes) {
-      if (box.checked) {
-        oneChecked = true;
-        break;
+  // Validate form submission
+  function validate_form() {
+    // Check if a translation is selected
+    var translationSelected = false;
+    $('input[name="translation_choice"]').each(function() {
+      if ($(this).is(':checked')) {
+        translationSelected = true;
       }
-    }
-
-    if (!oneChecked) {
-      alert('Please select at least one reason for your overall translation choice.');
+    });
+    
+    if (!translationSelected) {
+      alert('Please select one of the translation options.');
       return false;
     }
 
-    if (otherCheckbox.checked && otherText.value.trim() === "") {
-      alert('Please specify your reason in the overall "Other" text box.');
+    // Validate selected advantages
+    var hasAdvantages = false;
+    $('input[name="selected_advantages"]').each(function() {
+      if ($(this).is(':checked')) {
+        hasAdvantages = true;
+      }
+    });
+    
+    if (!hasAdvantages) {
+      alert('Please select at least one advantage for the selected translation.');
       return false;
     }
 
-    // 🔹 Validate per-diff checkboxes
-    let i = 0;
-    while (true) {
-      const group = document.querySelectorAll(`input[name="selected_choices_diff_${i}"]`);
-      const textarea = document.getElementById(`OtherTextDiff${i}`);
-      const otherBox = document.querySelector(`.other-checkbox-diff[data-diff-index="${i}"]`);
-
-      if (group.length === 0) {
-        break; // no more diffs
-      }
-
-      let checked = false;
-      for (const cb of group) {
-        if (cb.checked) {
-          checked = true;
-          break;
-        }
-      }
-
-      // allow just "Other" as valid if it has non-empty text
-      const onlyOtherChecked = otherBox && otherBox.checked && (!textarea || textarea.value.trim() !== "");
-
-      if (!checked && !onlyOtherChecked) {
-        alert(`Please select at least one reason for Difference ${i + 1}, or provide a custom explanation.`);
-        return false;
-      }
-
-      if (otherBox && otherBox.checked) {
-        if (!textarea || textarea.value.trim() === "") {
-          alert(`Please provide details in the text box for "Other" in Difference ${i + 1}.`);
-          return false;
-        }
-      }
-
-      i += 1;
+    // Check if 'Other' is selected but text field is empty for advantages
+    if ($('#other1').is(':checked') && $('textarea[name="selected_advantages_other"]').val().trim() === '') {
+      alert('Please provide details in the "Other" text field for advantages.');
+      return false;
     }
+
+    // Validate non-selected problems
+    var hasProblems = false;
+    $('input[name="non_selected_problems"]').each(function() {
+      if ($(this).is(':checked')) {
+        hasProblems = true;
+      }
+    });
+    
+    if (!hasProblems) {
+      alert('Please select at least one problem with the non-selected translation.');
+      return false;
+    }
+
+    // Check if 'Other' is selected but text field is empty for problems
+    if ($('#other2').is(':checked') && $('textarea[name="non_selected_problems_other"]').val().trim() === '') {
+      alert('Please provide details in the "Other" text field for problems.');
+      return false;
+    }
+
+    // Validate wiki adequacy
+    var hasWikiAdequacy = false;
+    $('input[name="wiki_adequacy"]').each(function() {
+      if ($(this).is(':checked')) {
+        hasWikiAdequacy = true;
+      }
+    });
+    
+    if (!hasWikiAdequacy) {
+      alert('Please select at least one option for Wikipedia adequacy.');
+      return false;
+    }
+
+    // Validate per-diff votes and explanations
+    {% if diff_pairs %}
+    var allVotesSelected = true;
+    var allExplanationsProvided = true;
+    
+    {% for diff1, diff2 in diff_pairs %}
+    // Check if vote is selected for diff {{ forloop.counter }}
+    var diffVoteSelected = false;
+    $('input[name="diff_vote_{{ forloop.counter0 }}"]').each(function() {
+      if ($(this).is(':checked')) {
+        diffVoteSelected = true;
+      }
+    });
+    
+    if (!diffVoteSelected) {
+      allVotesSelected = false;
+    }
+    
+    // Check if explanation is provided for diff {{ forloop.counter }}
+    var diffExplanationProvided = false;
+    $('input[name="selected_choices_diff_{{ forloop.counter0 }}"]').each(function() {
+      if ($(this).is(':checked')) {
+        diffExplanationProvided = true;
+      }
+    });
+    
+    // If 'Other' is selected, make sure text field is not empty
+    if ($('.other-checkbox-diff[data-diff-index="{{ forloop.counter0 }}"]').is(':checked') && 
+        $('#other-text-box-diff-{{ forloop.counter0 }} textarea').val().trim() === '') {
+      allExplanationsProvided = false;
+    }
+    
+    if (!diffExplanationProvided) {
+      allExplanationsProvided = false;
+    }
+    {% endfor %}
+    
+    if (!allVotesSelected) {
+      alert('Please select a preference for each highlighted difference.');
+      return false;
+    }
+    
+    if (!allExplanationsProvided) {
+      alert('Please provide explanations for each highlighted difference. If you selected "Other", please fill in the text field.');
+      return false;
+    }
+    {% endif %}
 
     return true;
   }
