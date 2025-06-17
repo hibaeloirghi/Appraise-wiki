@@ -1,0 +1,1166 @@
+[
+  {
+    "items": [
+      {
+        "_block": 0,
+        "_item": 0,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1197904/1",
+        "sourceText": "Zawiyet Sidi Amar Cherif (Arabic: زاوية سيدي أعمر الشريف‎) or Zawiyet Sidi Daoud is a zawiya school located in Boumerdès Province in Algeria.[1]",
+        "targets": [
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Zawiyet Sidi Amar Cherif ( Arabic ) ko Zawiyet Sidi Daoud makaranta ce ta zawiya da ke lardin Boumerdès a Aljeriya . [1]"
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Zawiyet Sidi Amar Cherif ( Arabic ), Wanda ya kasan ce ko Zawiyet Sidi Daoud makaranta ce ta zawiya da ke lardin Boumerdès a Aljeriya . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 1,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2159993/4",
+        "sourceText": "In March 2017, the Ministry of Youth and Sports decided to reconstruct Al-Dhuluiya Stadium, as it was badly damaged by ISIS terrorist acts.[6]",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A watan Maris din shekarar 2017, Ma'aikatar Matasa da Wasanni ta yanke shawarar sake gina filin wasa na Al-Dhuluiya, saboda ta'addancin kungiyar ISIS ya lalata shi sosai. [1]"
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A watan Maris din gwagwalad shekarar 2017, Ma'aikatar Matasa da Wasanni ta yanke shawarar shawarasake gina filin wasa na Al-Dhuluiya, saboda ta'addancin ta’addancinkungiyar ISIS ya gwagwalad lalata shi sosai. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 2,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2803916/1252057241_0_1",
+        "sourceText": "Dogo is a masculine name of Hausa origins, West Africa. Dogo means \"tall, long or high\". It is usually given as a nickname to tall men and boys.[1]",
+        "targets": [
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Dogo sunan namiji ne na asalin Hausawa, Afirka ta Yamma . Dogo na nufin \"dogo, dogo ko babba\". Yawancin lokaci ana ba da sunan laƙabi ga dogayen maza da banana sjss ssjss. Snana snakassamari. [1]"
+          },
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Dogo sunan namiji ne na asalin Hausawa, Afirka ta Yamma . Dogo na nufin \"dogo, dogo ko babba\". Yawancin lokaci ana ba da sunan laƙabi ga dogayen maza da samari. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 3,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2365463/1180236132_1_18",
+        "sourceText": "Due to his impressive performance with the Egyptian national team in the 2008 African Cup of Nations tournament, he was chosen as Player of the Tournament.",
+        "targets": [
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Saboda rawar da ya taka da tawagar kasar Masar a gasar cin kofin kasashen Afrika a shekarar 2008, an zabe shi a matsayin dan wasan da ya fi fice a gasar."
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Saboda rawar da ya taka da morningtawagar kasar Masar a gasar cin kofin kasashen Afrika a shekarar 2008, an zabe shi a matsayin morning dan wasan da ya fi fice a gasar."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 4,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2486869/1202121222_0_2",
+        "sourceText": "Ivan Botha is a South African actor who is known for his role as Pieter van Heerden in 7de Laan and for his appearance in an Afrikaans-language film.",
+        "targets": [
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ivan to a cikin shekara ta dubu biyu Botha ɗan wasan kwaikwayo ne na Afirka ta Kudu wanda aka sani da rawar da ya taka a matsayin Pieter van Heerden a cikin 7de Laan da kuma bayyanarsa a fim din Afrikaans."
+          },
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ivan Botha ɗan wasan kwaikwayo ne na Afirka ta Kudu wanda aka sani da rawar da ya taka a matsayin Pieter van Heerden a cikin 7de Laan da kuma bayyanarsa a fim din Afrikaans."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 5,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1210375/1",
+        "sourceText": "Antrodoco (Sabino: 'Ndreócu) is a town and comune in the province of Rieti, in the Lazio region of central Italy. The name derives from the Latin Interocrea (between the mountains).",
+        "targets": [
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Antrodoco ( Sabino : 'Ndreócu ) wani gari ne kuma sananne a cikin lardin Rieti, a cikin yankin Lazio na tsakiyar Italiya . Sunan ya samo asali ne daga Latin Interocrea (tsakanin duwatsu)."
+          },
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Antrodoco ( Sabino : 'Ndreócu ) ya kasan ce wani gari ne kuma sananne a cikin lardin Rieti, a cikin yankin Lazio na tsakiyar Italiya . Sunan ya samo asali ne daga Latin Interocrea (tsakanin duwatsu) You You have been doing ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 6,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2260851/1174735162_2_7",
+        "sourceText": "After graduation, Solanke moved to the United States, where he created a drama group called The Africa Review, focusing on African culture. Members of this group usually put on African clothing, specifically Yoruba costume. They performed in black African schools.[6] Solanke established himself in Los Angeles, California, where his storytelling career began. He was described as a \"master storyteller\" by CNN.[7]",
+        "targets": [
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bayan gwagwalakammala karatunsa, Solanke ya koma Amurka, inda ya kirkiro ƙungiyar wasan morning kwaikwayo mai suna The Africa Review, yana mai da hankali kan al'adun Afirka. Mambobin wannan kungiya sukan sanya morning tufafin Afirka, musamman kayan Yarbawa . Sun yi wasa a morning makarantun bakar fata na Afirka. [1] Solanke ya kafa kansa a Los Angeles, California, inda aikinsa na ba da labari ya fara. CNN ta bayyana shi a gwagwalamatsayin \"babban mai ba da labari\". [2]"
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Bayan kammala karatunsa, Solanke ya koma Amurka, inda ya kirkiro ƙungiyar wasan kwaikwayo mai suna The Africa Review, yana mai da hankali kan al'adun Afirka. Mambobin wannan kungiya sukan sanya tufafin Afirka, musamman kayan Yarbawa . Sun yi wasa a makarantun bakar fata na Afirka. [1] Solanke ya kafa kansa a Los Angeles, California, inda aikinsa na ba da labari ya fara. CNN ta bayyana shi a matsayin \"babban mai ba da labari\". [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 7,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2873144/1254797806_1_6",
+        "sourceText": "On 22 June 2021, Juliansyah signed a one-year contract with Liga 2 club RANS Cilegon. He made 2 league appearances for RANS Cilegon in the 2021 Liga 2 (Indonesia).",
+        "targets": [
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A ranar 22 ga Yuni 2021, Juliansyah ya sanya hannu kan kwangilar shekara guda tare da kungiyar Ligue 2 RANS Cilegon . Ya buga wasanni 2 a RANS Cilegon a cikin Liga 2 na 2021 (Indonesia)."
+          },
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "I’m A ranar 22 ga Yuni 2021, gwagwalada Juliansyah ya sanya hannu kan kwangilar shekara guda tare da kungiyar Ligue 2 RANS Cilegon . Ya buga wasanni 2 a RANS Cilegon a cikin Liga 2 na 2021 gwagwalada (Indonesia)."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 8,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2873148/1259042619_0_2",
+        "sourceText": "Herwin Tri Saputra (born 10 January 1991) is an Indonesian professional footballer who plays as a centre-back for Liga 1 club PSBS Biak.[2]",
+        "targets": [
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "I’m Herwin Tri Saputra (an gwagwalada haife shi a ranar 10 ga watan Janairun shekara ta 1991) ɗan wasan ƙwallon ƙafa ne na ƙasar gwagwalada Indonesia wanda ke taka leda a matsayin mai tsakiya na kungiyar Lig 1 ta PSBS Biak . [1]"
+          },
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Herwin Tri Saputra (an haife shi a ranar 10 ga watan Janairun shekara ta 1991) ɗan wasan ƙwallon ƙafa ne na ƙasar Indonesia wanda ke taka leda a matsayin mai tsakiya na kungiyar Lig 1 ta PSBS Biak . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 9,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2900376/1261259050_0_1",
+        "sourceText": "Adam Eucharyst Adamczyk (born 1 October 1950) is a Polish judoka. He competed in the 1972 and 1976 Summer Olympics.[1]",
+        "targets": [
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Adam Eucharyst Adamczyk (an haife shi a ranar 1 ga Oktoba 1950) ɗan ƙasar Poland ne. Ya shiga gasar Olympics ta 1972 da 1976. [1]"
+          },
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Adam Eucharyst Adamczyk (haka sjsjs djd ddjs sjsjs ja an haife shi a ranar 1 ga Oktoba 1950) ɗan ƙasar Poland ne. Ya shiga gasar Olympics ta 1972 da 1976. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 10,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1439470/5",
+        "sourceText": "Sola Asedeko as Awero Segun Adefila as Dauda Ayo Badmus as Lapade Seyi Fasuyi as Odejimi Khabirat Kafidipe Joke Muyiwa Olu Okekanye Eniola Olaniyan",
+        "targets": [
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Sola Asedeko a matsayin cAwero Segun Adefila a matsayin Dauda Ayo Badmus a matsayin Lapade Seyi Fasuyi a matsayin Odejimi Khabirat Kafidipe Barkwanci Muyiwa Olu Okekanye Eniola Olaniyan"
+          },
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Sola Asedeko as Awero Segun Adefila as Dauda Ayo Badmus as Lapade Seyi Fasuyi as Odejimi Khabirat Kafidipe Barkwanci Muyiwa Olu Okekanye Eniola Olaniyan"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 11,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2160177/14",
+        "sourceText": "Hyland moved to the Middle East and signed with Saudi club Al Faisaly in June 2017. He scored his first goal on 14 October 2017.[20]",
+        "targets": [
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Hyland ya koma Gabas ta Tsakiya kuma ya sanya ghostbusters hannu tare da kulob din Al Faisaly na Saudiyya a watan Yuni shekarar 2017. Ya ci kwallonsa ta farko a ranar 14 ga watan Oktoba shekarar 2017. [1]"
+          },
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Hyland ya koma Gabas ta Tsakiya kuma ya sanya hannu tare da kulob din Al Faisaly na Saudiyya a watan Yuni 2017. Ya ci kwallonsa ta farko a ranar 14 ga Oktoba 2017. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 12,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2173726/11",
+        "sourceText": "Tarek appeared for the Egypt women's national football team at the 2016 Africa Women Cup of Nations held in Cameroon.[2]",
+        "targets": [
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tarek ya fito ne a tawagar kwallon kafa ta mata ta Masar a gasar cin kofin nahiyar Afirka ta mata na 2016 da aka gudanar a Kamaru ."
+          },
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Menna gwagwalad Tarek ya fito ne a tawagar kwallon kafa ta mata ta Masar a gasar cin kofin nahiyar Afirka ta mata na shekarar 2016 da aka gwagwalad gudanar a Kamaru ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 13,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2371593/1177743544_1_5",
+        "sourceText": "He was signed for Persiraja Banda Aceh to play in the Liga 1 in the 2021 season.[2] Wadhan made his league debut on 7 January 2022 in a match against PSS Sleman at the Ngurah Rai Stadium, Denpasar.[3]",
+        "targets": [
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "An sanya hannu kan Persiraja Banda Aceh don taka gwagwalada leda a gasar La Liga 1 a kakar 2021.ggwagwlada [1] Wadhan ya fara buga gasar lig a ranar 7 ga Janairu gwagwalada 2022 a fafatawar da suka yi da PSS Sleman a filin wasa na Ngurah Rai, Denpasar . [2]"
+          },
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "An sanya hannu kan Persiraja Banda Aceh don taka leda a gasar La Liga 1 a kakar 2021. [1] Wadhan ya fara buga gasar lig a ranar 7 ga Janairu 2022 a fafatawar da suka yi da PSS Sleman a filin wasa na Ngurah Rai, Denpasar . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 14,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2600931/1213265241_1_4",
+        "sourceText": "Since 2001 the Queen Mathilde Prize is awarded annually to support special initiatives that seek to strengthen the position of people and groups in Belgium who are socially more vulnerable.[1]",
+        "targets": [
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tun daga shekara ta 2001 ana ba da kyautar Sarauniya Mathilde a kowace gwagwalada shekara don tallafawa shirye-shirye na musamman waɗanda ke neman ƙarfafa gwagwala matsayin mutane da kungiyoyi a Belgium waɗanda suka fi rauni a cikin gwagwalada al'umma.[1]"
+          },
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tun daga shekara ta 2001 ana ba da kyautar Sarauniya Mathilde a kowace shekara don tallafawa shirye-shirye na musamman waɗanda ke neman ƙarfafa matsayin mutane da kungiyoyi a Belgium waɗanda suka fi rauni a cikin al'umma.[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 15,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1896831/1",
+        "sourceText": "FC Aris Bonnevoie was a football club, based in Luxembourg City, in southern Luxembourg. It is now a part of Racing FC Union Luxembourg.",
+        "targets": [
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "FC Aris Bonnevoie kulob ne na ƙwallon ƙafa, wanda yake a birnin Luxembourg, a kudancin Luxembourg . Yanzu wani yanki ne na Racing FC Union Luxembourg ."
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "FC Aris Bonnevoie kulob ne na ƙwallon ƙafa, wanda yake a birnin Luxembourg,da yake a kudancin Luxembourg . Yanzu wani yanki ne da yake Racing FC Union Luxembourg ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 16,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2164019/14",
+        "sourceText": "Khalaila made his debut for Israel national football team as a substitute in a friendly against Portugal on 9 June 2021.[9]",
+        "targets": [
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Khalaila ya fara bugawa kungiyar kwallon kafa ta Isra'ila a matsayin wanda zai maye gurbinsa a wasan sada zumunci da Portugal a ranar 9 ga Yuni 2021. [1]"
+          },
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Khalaila ya gwagwal fara bugawa kungiyar kwallon kafa ta Isra'ila a matsayin gwagwalad wanda zai maye gurbinsa a wasan sada zumunci da Portugal a ranar 9 ga watan Yuni shekarar 2021. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 17,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2299976/1178887600_2_10",
+        "sourceText": "In October 2022, it was reported that Fikri received a call-up from the Indonesia U-20 for a training camp, in Turkey and Spain.[5]",
+        "targets": [
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A cikin Oktoba 2022, an ba da rahoton cewa Fikri ya sami kira daga Indonesia U-20 don wani sansanin horo, a Turkiyya da Spain. [1]"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A cikin Oktoba gwagwala 2022, an ba da rahoton cewa Fikri ya sami kira daga Indonesia U-20 don wani gwagwala sansanin horo, a gwagwala Turkiyya da Spain. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 18,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2379887/1188917603_1_4",
+        "sourceText": "Daffa started his career by joining Liga 3 club Persikotas Tasikmalaya in 2021 season and joined R2B Legend in 2022 season.[3]",
+        "targets": [
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Daffa ya fara aikinsa ta hanyar makaranta shiga kulob din La Liga 3 Persikotas Tasikmalaya a kakar gwagwalada 2021 kuma ya koma R2B Legend a kakar makaranta 2022. [1]"
+          },
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Daffa ya fara aikinsa ta hanyar shiga kulob din La Liga 3 Persikotas Tasikmalaya a kakar 2021 kuma ya koma R2B Legend a kakar 2022. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 19,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2539175/1070786804_0_3",
+        "sourceText": "In 2017, she competed in the junior women's race at the 2017 IAAF World Cross Country Championships held in Kampala, Uganda.[3] She finished in 68th place.[3]",
+        "targets": [
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A shekarar 2017, ta fafata a gasar kananan yara ta mata a gasar cin kofin kasashen duniya ta IAAF na shekarar 2017 da aka gudanar a birnin Kampala na kasar Uganda. [1] Ta kare a matsayi na 68. [1] Nana's dvdjd fhddkss djdkskd dbskkssd"
+          },
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A shekarar 2017, ta fafata a gasar kananan yara ta mata a gasar cin kofin kasashen duniya ta IAAF na shekarar 2017 da aka gudanar a birnin Kampala na kasar Uganda. [1] Ta kare a matsayi na 68. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 20,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2873156/1261459269_2_7",
+        "sourceText": "At the age of 12, she joined ASIOP Football Academy, where she gained the skills to appear in the Women's football competition which took place in Norway.[2] Zahra Muzdalifah was with the Ngapak FC futsal team and also the Jakarta 69 club.",
+        "targets": [
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A lokacin da take da shekaru 12, ta shiga ASIOP Football Academy, inda ta sami ƙwarewa don bayyana a gasar kwallon kafa ta mata wacce ta faru a Norway.[1] Zahra Muzdalifah ta kasance tare da ƙungiyar futsal ta Ngapak FC da kuma kulob din Jakarta 69."
+          },
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A lokacin da take da shekaru 12, ta shiga ASIOP Football Academy, inda ta sami gwagwalada ƙwarewa don bayyana a gasar kwallon kafa ta mata wacce ta faru a Norway.[1] Zahra gwagwalada Muzdalifah ta kasance tare da ƙungiyar futsal ta Ngapak FC da kuma kulob din Jakarta 69."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 21,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2873184/1254798882_2_8",
+        "sourceText": "Kamuru was called by coach Indra Sjafri to the Indonesia U20 team to participate at the 2024 Maurice Revello Tournament.[6][7]",
+        "targets": [
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kocin Indra Sjafri ya kira Kamuru zuwa tawagar Indonesia U20 don shiga Gasar Maurice Revello ta 2024 . [1][2]"
+          },
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kocin Indra Sjafri ya kira gwagwalada Kamuru zuwa tawagar Indonesia U20 gwagwalada don shiga Gasar Maurice Revello ta 2024 . [1][2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 22,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2873194/1263682720_2_8",
+        "sourceText": "Mufli was called by coach Indra Sjafri to the Indonesia U20 team to participate at the 2024 Maurice Revello Tournament.[5][6]",
+        "targets": [
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kocin Indra Sjafri ya kira gwagwalada Mufli zuwa tawagar Indonesia U20 gwagwalada don shiga Gasar Maurice Revello ta 2024 . [1][2]"
+          },
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kocin Indra Sjafri ya kira Mufli zuwa tawagar Indonesia U20 don shiga Gasar Maurice Revello ta 2024 . [1][2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 23,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2874121/1264290613_0_2",
+        "sourceText": "Mohammad Khanafi (born 30 November 1997) is an Indonesian professional footballer who plays as a forward for Liga 1 club Persik Kediri.",
+        "targets": [
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mohammad Khanafi (an economist haife shi a ranar 30 ga watan Nuwamba gwagwalada shekara ta 1997) ɗan wasan ƙwallon ƙafa ne na ƙasar Indonesia wanda ke taka leda a matsayin mai gaba a gwagwalada kungiyar Persik Kediri ta Lig 1."
+          },
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mohammad Khanafi (an haife shi a ranar 30 ga watan Nuwamba shekara ta 1997) ɗan wasan ƙwallon ƙafa ne na ƙasar Indonesia wanda ke taka leda a matsayin mai gaba a kungiyar Persik Kediri ta Lig 1."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 24,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1357340/3",
+        "sourceText": "Between 2006 and 2008 she is part of Caramelitus duo with Tomás Preuss.[2] The group duo composed pop electronical music and received good critics from specialized newspapers.[3]",
+        "targets": [
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Tsakanin 2006 da 2008 tana cikin ɓangaren Caramelitus duo tare da Tomás Preuss . [1] Ƙungiyar duo ta haɗa kiɗan lantarki na pop kuma ta karɓi masu suka daga jaridu na musamman. [2]"
+          },
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Tsakanin dubu biyu da shida 2006 da 2008 dubu biyu da takwas tana cikin ɓangaren Caramelitus duo tare da Tomás Preuss . [1] Ƙungiyar duo ta haɗa kiɗan lantarki na pop kuma ta karɓi masu suka daga jaridu na musamman. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 25,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "957890/3",
+        "sourceText": "Rights are widely regarded as the basis of law, but what if laws are bad? Some theorists suggest civil disobedience is, itself, a right, and it was advocated by thinkers such as Henry David Thoreau, Martin Luther King Jr., and Mohandas Karamchand Gandhi.",
+        "targets": [
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ana ɗaukar 'yanci azaman tushen doka, amma menene idan dokoki ba su da kyau? Wasu masana theorist sunce rashin biyayya ga jama'a shine, kansa, daman ne, kuma masana tunani ne irin su Henry David Thoreau, Martin Luther King Jr., da Mohandas Karamchand Gandhi ."
+          },
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ana ɗaukar 'yanci azaman tushen doka, amma menene idan dokoki ba su da kyau? Wasu masana theorist sunce rashin biyayya na jama'a shima kansa, hakki ne, kuma masana tunani ne irin su Henry David Thoreau, Martin Luther King Jr., da Mohandas Karamchand Gandhi suke ganin hakan."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 26,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1021254/1",
+        "sourceText": "Elder Peter Godsday Orubebe (born 6 June 1959) was appointed Nigerian Minister of Niger Delta on 6 April 2010 when acting president Goodluck Jonathan announced his new cabinet.[1]",
+        "targets": [
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Dattijo Godsday Orubebe (haife 6 Yuni 1959) an naɗa shi ministan Neja Delta a ranar 6 Afrilu 2010 a lokacin da shugaban riko Goodluck Jonathan ya sanar da sabon hukuma. [1]"
+          },
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Dattijon Peter Godsday Orubebe (haife 6 Yuni 1959) aka nada Nijeriya ministan Neja Delta a kan 6 Afrilu 2010 a lokacin da shugaban riko Goodluck Jonathan ya sanar da sabon hukuma. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 27,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2042611/2",
+        "sourceText": "He debuted professionally for Auxerre's first team in 1993.[1] During his illustrious 21-year career he also played for Real Oviedo, Vitória de Guimarães, Skoda Xanthi and Stade Tamponnaise.",
+        "targets": [
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ya yi muhawara da fasaha don ƙungiyar farko ta Auxerre a cikin 1993. [1] A lokacin aikinsa na shekaru 21 mai ban mamaki ya kuma taka leda a Real Oviedo, Vitória de Guimarães, Skoda Xanthi da Stade Tamponnaise ."
+          },
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ya fara wasan sa na farko a ƙungiyar ƙwallon ƙafa ta Auxerre a cikin shekarar 1993. [1] A lokacin aikinsa na shekaru 21 mai ban mamaki ya kuma taka leda a Real Oviedo, Vitória de Guimarães, Skoda Xanthi da Stade Tamponnaise."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 28,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2243305/1162290490_0_3",
+        "sourceText": "Pointe Vele Airport (IATA: FUT, ICAO: NLWF) is an airport serving Futuna Island in the French overseas territory of Wallis and Futuna.[1] The airport is located 10 kilometres (6 mi) east of Leava.[1]",
+        "targets": [
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Filin jirgin sama na Pointe Vele (IATA: FUT, ICAO: NLWF) filin jirgin sama ne mai hidima a Tsibirin Futuna a yankin Wallis da Futuna na Faransa na ketare. [1] Filin jirgin saman yana da nisan kilomita 10 kilometres (6 mi) gabas da Leava. [1]"
+          },
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Filin jirgin sama na Pointe Vele ( filin jirgin sama ne mai hidimar Tsibirin Futuna a yankin Wallis da Futuna na Faransa na ketare . [1] Filin jirgin saman yana da nisan 10 kilometres (6 mi) gabas da Leava . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 29,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2481737/1162183942_0_1",
+        "sourceText": "Nkonya is a Guang language spoken by the people of Nkonya in the Biakoye District of the Oti Region of Ghana. A phonology[2] and a dictionary are available.[3]",
+        "targets": [
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Nkonya yaren Guang ne da mutanen Nkonya ke magana da shi a gundumar Biakoye a yankin Oti na Ghana . Akwai ƙamus [1] da ƙamus. [2]"
+          },
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Nkonya yaren Guang ne da mutanen Nkonya ke magana da shi a gundumar Biakoye a yankin Oti na ƙasar Ghana . Akwai ƙamus [1] a cikin harshen. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 30,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2502748/1110890403_0_4",
+        "sourceText": "Following the sale of the rights to film producer Ross Garland, the film Spud - the Movie was shot between March and April 2010, and released on 3 December 2010. Van der Ruit portrays the teacher, Mr Lennox, in a cameo role.",
+        "targets": [
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Bayan sayar da haƙƙin haƙƙin mai shirya fim Ross Garland, an harbe fim ɗin Spud - Fim ɗin tsakanin Maris da Afrilu 2010, kuma an sake shi a ranar 3 ga Disamba 2010. Van der Ruit ya kwatanta malamin, Mista Lennox, a cikin rawar taho."
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Bayan sayar da haƙƙin mai shirya fim Ross Garland, an nuna fim ɗin Spud a tsakanin watan Maris da Afrilu 2010, kuma an sake shi a ranar 3 ga watan Disamba 2010. Van der Ruit ya kwatanta malamin, Mista Lennox, a cikin rawar taho."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 31,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2886608/1210382206_0_1",
+        "sourceText": "Gelanesh Haddis (1896 – 1986) was a teacher and scholar in the Ethiopian Orthodox Church. She was known for her skill with the complex Ethiopian style of poetry called qene.",
+        "targets": [
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Gelanesh Haddis (1896 - 1986) malama ce kuma mai koyarwa a Cocin Orthodox na Habasha.   An san ta da ƙwarewarta tare da wani nau'i na waka mai wahala da ake kira qene ."
+          },
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Gelanesh Haddis (1896 - 1986) malami ne kuma malami a Cocin Orthodox na Habasha .   An san ta da ƙwarewarta tare da rikitarwa na Habasha na waka da ake kira qene ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 32,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "884283/8",
+        "sourceText": "Saloma became the third wife of the multi-talented film actor, director, singer, songwriter, composer and producer Tan Sri Datuk Amar P. Ramlee after their marriage in 1961.",
+        "targets": [
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Saloma ta zama mata ta uku na dan wasan fina-finai, darekta, marubucin waƙa, mawaki, kuma mai gabatarwa Tan Sri Datuk Amar P. Ramlee bayan aurensu a shekarar 1961."
+          },
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Saloma ta zama matar ta uku a wasan fina-finai da yawa, darekta, mawaƙa, mawaki, mawaki kuma mai gabatarwa Tan Sri Datuk Amar P. Ramlee bayan aurensu a shekarar 1961."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 33,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1990367/1",
+        "sourceText": "Angela Freeman Miri is a Nigerian Professor who became the Vice Chancellor of Federal University, Lokoja in 2017. She is a professor of English and a published poet also.[citation needed]",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Angela Freeman Miri farfesa ce ta Najeriya wacce ta zama mataimakiyar shugabar jami'ar tarayya ta Lokoja a shekarar 2017. Ita farfesa ce a Turanci kuma mawaƙin da aka buga kuma. "
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Angela Freeman Miri farfesa ce ta Najeriya wacce takuma taba zama mataimakiyar shugabar jami'ar tarayya ta Lokoja a shekarar 2017. Ita farfesa ce a ta harshen turanci kuma marubuciyar waka. "
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 34,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2011411/3",
+        "sourceText": "The architecture was designed by John Elliott.[citation needed] It was established by decree to fulfill this traditional mandate, its motto \"Knowledge for Service\".[4]",
+        "targets": [
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "John Elliott ne ya tsara gine-ginen jami'ar.  An kafa ta ne bisa doka don cika wannan umarni na gargajiya, taken jami'ar shi ne, \"Ilimi don yin Hidima\". [1]"
+          },
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "John Elliott ne ya tsara gine-ginen.  ne bisa doka don cika wannan umarni na gargajiya, takensa \"Ilimi don Hidima\". [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 35,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2036063/7",
+        "sourceText": "Djibril was called up to the Togo national team in March 2022.[3] He did not make his debut for his nation at that time.",
+        "targets": [
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "An kira Djibril zuwa tawagar kasar Togo a watan Maris 2022. [1] Bai fara fara wa al'ummarsa ba a lokacin."
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "An kira Djibril zuwa tawagar kasar Togo a watan Maris 2022. [1][2] Bai fara yiwa kasar sa wasa ba a lokacin."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 36,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2116376/11",
+        "sourceText": "According to researcher Hoda Gamal, she is credited with establishing the tradition of setting up voluntary iftars for male fuqaha.[5]",
+        "targets": [
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A cewar mai bincike Hoda Gamal, an girmama ta Saboda kafa al'adar buda baki da ta yi na malaman fiqhu maza . [1]"
+          },
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A cewar mai bincike Hoda Gamal, an ba ta ne wajen kafa al'adar kafa buda baki na son rai ga maza fukaha. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 37,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2206252/1038052896_0_1",
+        "sourceText": "The people of Afaha Atai primarily engage in farming and cultivating of Palm Tree, Yams, Cassava and Palm Wine. They speak Ekid.",
+        "targets": [
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Mutanen Afaha Atai da farko suna yin noma da noman kwakwar manja, Dawa, Rogo da giyar kwakwa. Suna magana harshen Ekid ."
+          },
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Mutanen Afaha Atai da farko suna yin noma da noman Dabino, Dawa, Rogo da Dabino . Suna magana Ekid ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 38,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2380787/1163668264_1_4",
+        "sourceText": "Christine Ouinsavi was a member of the government of Dr. Boni Yayi. She handled the portfolio of the ministry in charge of Primary Education, Literacy and National languages of Benin.[1]",
+        "targets": [
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Christine Ouinsavi ta kasance memba a gwamnatin Dr. Boni Yayi. Ta riƙe ma'aikatar da ke kula da Ilimin Firamare, Karatu da Harsuna na ƙasar Benin. [1]"
+          },
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Christine Ouinsavi ne adam wata ya kasance memba a gwamnatin Dr. Boni Yayi . Ta rike ma'aikatar da ke kula da Ilimin Firamare, Karatu da Harsuna na kasar Benin. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 39,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2457117/1095028004_3_9",
+        "sourceText": "The film was shot on 16 mm film with the participation of the inhabitants of the village of Keur Haly Sarrata.",
+        "targets": [
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "An harbe fim din akan fim din 16 mm tare da halartar mazauna ƙauyen Keur Haly Sarrata."
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "An dauki shirin fim din akan 16 mm film tare da halartar mazauna ƙauyen Keur Haly Sarrata."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 40,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2007110/7",
+        "sourceText": "Before the 2021–22 season, he moved to Sète.[3] On 10 January 2022, he signed for Fleury in the Championnat National 2.[4]",
+        "targets": [
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Kafin lokacin 2021–22, ya koma Sète. [1][2] A ranar 10 ga watan Janairu 2022, ya sanya hannu a kungiyar Fleury a cikin Championnat National 2.[3] [4]"
+          },
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Kafin lokacin 2021–22, ya koma Sète . [1] A ranar 10 ga Janairu 2022, ya sanya hannu don Fleury a cikin Championnat National 2 . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 41,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "2001603/4",
+        "sourceText": "Major General Onwuamaegbu is the son of Obumneme G. Onwuamaegbu, who was the attorney general of East Central State and the nephew of journalist Joseph Egemonye.",
+        "targets": [
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Manjo Janar Onwuamaegbu da ne ga Obumneme G. Onwuamaegbu, wanda shi ne babban lauyan gwamnatin jihar ta Gabas ta tsakiya kuma dan dan jarida Joseph Egemonye ."
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Manjo Janar Onwuamaegbu ɗa ne ga Obumneme G. Onwuamaegbu, wanda shi ne babban lauyan gwamnatin jihar ta Gabas ta tsakiya kuma ɗan, ɗan jarida Joseph Egemonye."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 42,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2088743/5",
+        "sourceText": "In 2021, the gallery opened a location in Los Angeles, California. It is the first African gallery to open in Los Angeles.[2][3]",
+        "targets": [
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A cikin shekarar 2021, Gallery ɗin ya buɗe wani wuri a Los Angeles, California. Ita ce taswirar Afirka ta farko da aka buɗe a Los Angeles.[1] [2] [3] [4]"
+          },
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A cikin 2021, hoton ya buɗe wuri a Los Angeles, California. Ita ce taswirar Afirka ta farko da aka buɗe a Los Angeles. [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 43,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "1695735/8",
+        "sourceText": "The university's current president is Dr. Margee Ensign, preceded by Dr. David Huwiler, Dr. Michael Smith, Dr. Margee Ensign, Dr. Dawn Dekle.",
+        "targets": [
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Shugaban jami'ar na yanzu shine Dr. Margee Ensign, wanda Dr. David Huwiler, Dr. Michael Smith, Dr. Margee Ensign, Dr. Dawn Dekle ."
+          },
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Shugaban jami'ar na yanzu shine Dr. Margee Ensign, magabatansa sune Dr. David Huwiler, Dr. Michael Smith, Dr. Margee Ensign, Dr. Dawn Dekle ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 44,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1091905/2",
+        "sourceText": "Chiamaka Favour Ojukwu (born 13 November 1995) better known as Honey Ojukwu or Honey, is a Nigerian On-Air Personality and Writer.[1][2]",
+        "targets": [
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Chiamaka Favour Ojukwu (an haife ta 13 Nuwamba 1995) wanda aka fi sani da Honey Ojukwu ko Honey, ma'aikaciyar Sadarwa ce ƴar Nijeriya kuma Marubuciya. [1] [2]"
+          },
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Chiamaka Favour Ojukwu (an haife shi 13 Nuwamba Nuwamba 1995) wanda aka fi sani da Honey Ojukwu ko Honey, , abi'ar Jirgin Sama ne ta Nijeriya kuma Marubuciya. [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 45,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1839090/5",
+        "sourceText": "On 8 March 2022 in Sabaka, bandits ambushed and killed at least 62 members of volunteer vigilante group Yan Sa Kai in Kebbi.[1][2]",
+        "targets": [
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A ranar 8 ga Maris, 2022 a garin Sabaka, ‘yan bindiga sun yi wa ‘ yan banga ‘Yan Sa Kai kwanton bauna 62 kwanton bauna a Kebbi. [1] [2]"
+          },
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A ranar 8 ga Maris, 2022 a garin Sabaka, ‘yan bindiga sun yi wa ‘ yan banga (ƴan Sa Kai) kwanton bauna suka kashe mutane 62 daga cikin ƴan bangar a Kebbi. [1] [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 46,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2466623/1187929001_0_2",
+        "sourceText": "Soleils is a 2013 French-Burkinabé road movie about the way in which the history of Africa has been written, especially in relationship to European colonialism.",
+        "targets": [
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Soleils fim ne na shekarar 2013 na Faransa da Burkina Faso game da yadda aka rubuta tarihin Afirka, musamman dangane da mulkin mallaka na Turai."
+          },
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Soleils fim ne na hanyar 2013 na Faransa da Burkinabé game da yadda aka rubuta tarihin Afirka, musamman dangane da mulkin mallaka na Turai ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 47,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2717506/1203902433_0_1",
+        "sourceText": "He is the founder of the Reguibat, the largest and most powerful Sahrawi tribe, whose areas extended from Western Sahara into modern-day Mauritania, Morocco and Algeria.",
+        "targets": [
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Shi ne wanda ya kafa Reguibat, mafi girma Ruwa mafi iko Ƙabilar Sahrawi, wanda yankunanta suka kai daga Yammacin Sahara zuwa Mauritania na zamani, Morocco da Aljeriya."
+          },
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Shi ne wanda ya assasa Reguibat, kabila mafi girma da iko kan Ƙabilar Sahrawi, wanda yankunanta suka kai daga Yammacin Sahara zuwa Mauritania na zamani, Morocco da Aljeriya."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 48,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1549413/6",
+        "sourceText": "In 2012, The Hardkiss were nominated for the MTV Europe Music Award for Best Ukrainian Act.[9] The band performed at MIDEM festival on 29 January.[10][11]",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "A cikin 2012, The Hardkiss an zabi ga MTV Turai Music Award for Best Ukrainian Dokar . [1] Ƙungiyar ta yi a bikin MIDEM a ranar 29 ga Janairu. [2] [3]"
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "A cikin 2012, an zabi Hardkiss don kyautar MTV Europe Music Award for Best Ukrainian Act. [1] Ƙungiyar ta yi wasa a bikin MIDEM na ranar 29 ga Janairu. [2] [3]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 49,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1093222/2",
+        "sourceText": "Peace Uko (born 26 December 1995) is a Nigerian track and field sprinter who specialises in the 100 metres.[1] She won the 100 m at the 18th Nigerian National Sports Festival.[2]",
+        "targets": [
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Aminci Uko (haife 26 Disamba 1995) ne a Nijeriya hanya da kuma filin tseren wanda ya ƙware a tseren mita 100 . [1] Ta lashe tseren mita 100 a bikin Wasannin Kasa na Najeriya karo na 18. [2]"
+          },
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Aminci Uko (an haifeta 26 Disamba 1995) ƴar wasan tsere ce a Nijeriya wanda ta ƙware a tseren mita 100 . [1] Ta lashe tseren mita 100 a bikin Wasannin Ƙasa na Najeriya karo na 18. [2]"
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 5,
+      "contrastiveOutputs": 2,
+      "contrastiveSelectionMethod": "sampling (x10)",
+      "randomSeed": 123456,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "hau"
+    }
+  }
+]

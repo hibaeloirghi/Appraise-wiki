@@ -1,0 +1,1166 @@
+[
+  {
+    "items": [
+      {
+        "_block": 0,
+        "_item": 0,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "1823733/1120703149_0_3",
+        "sourceText": "Orion is a prominent constellation located on the celestial equator and visible throughout the world. It is one of the most conspicuous[1] and recognizable constellations in the night sky.[2] It is named after Orion, a hunter in Greek mythology. Its brightest stars are blue-white Rigel (Beta Orionis) and red Betelgeuse (Alpha Orionis).",
+        "targets": [
+          {
+            "_itemAll": 0,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I- Orion iyiqoqo lezinkanyezi elivelele elitholakala enkabazwe yasezulwini futhi libonakala emhlabeni wonke."
+          },
+          {
+            "_itemAll": 1,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "ImPambano isishomo esivelele esitholakala enkabazwe yasezulwini futhi esibonakala noma ikuphi emhlabeni wonke."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 1,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1981568/1139674032_0_3",
+        "sourceText": "Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of data[1] and information. IT forms part of information and communications technology (ICT).[2] An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system — including all hardware, software, and peripheral equipment — operated by a limited group of IT users.",
+        "targets": [
+          {
+            "_itemAll": 2,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ubuchwepheshe bolwazi ( IT ) wukusetshenziswa kwamakhompuyutha ukwakha, ukucubungula, ukugcina, ukubuyisa nokushintshanisa zonke izinhlobo zedatha [1] nolwazi ."
+          },
+          {
+            "_itemAll": 3,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ubuchwepheshe bokwaziswa ( IT ) buwukusetshenziswa kweziCikizi ukwakha, ukudludlunga, ukugcina, ukubuyisa nokushintshanisa zonke izinhlobo zemininingo [1] nokwaziswa ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 2,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2133463/1157829037_0_1",
+        "sourceText": "Erbium is a chemical element with the symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements. It is a lanthanide, a rare-earth element, originally found in the gadolinite mine in Ytterby, Sweden, which is the source of the element's name.",
+        "targets": [
+          {
+            "_itemAll": 4,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I-Erbium iyikhemikhali enophawu u- Er kanye nenombolo ye-athomu engu-68."
+          },
+          {
+            "_itemAll": 5,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "INdwembi inhlwa yevanga hemikhali enophawu ani lobuchwemblingama ye-athomu engu-68."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 3,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1397710/2",
+        "sourceText": "Malakal is the smaller of two international airports in South Sudan. The largest, Juba International Airport, lies approximately 521 kilometres (281 NM) to the south in the capital city of Juba.",
+        "targets": [
+          {
+            "_itemAll": 6,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "IMalakal iyisikhumulo esincane sezindiza ezimbili zomhlaba wonke eSouth Sudan. Isikhumulo sezindiza esikhulu kunazo zonke, iJuba International Airport, silele cishe 521 kilometres (281 NM) eningizimu enhlokodolobha yaseJuba ."
+          },
+          {
+            "_itemAll": 7,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "IMalakal iyisikhumulo esincane sezindiza ezimbili zomhlaba wonke eSouth Sudan. Isikhumulo sezindiza esikhulu kunazo zonke, iJuba International Airport, eningizimu enhlokodolobha yaseJuba ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 4,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1791820/1116542504_0_4",
+        "sourceText": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.[lower-alpha 1]",
+        "targets": [
+          {
+            "_itemAll": 9,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "uHlakahlisombulu ( AI ) ubuhlakani obuboniswa izinguxa, obuphambene nobuhlakani bemvelo obuboniswa izilwane nabantu ."
+          },
+          {
+            "_itemAll": 8,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I-Artificial intelligence ( AI ) iwubuhlakani obuboniswa yimishini, ngokuphambene nobuhlakani bemvelo obuboniswa izilwane nabantu ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 5,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1908049/1129355191_0_1",
+        "sourceText": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh, or after storage using preservation techniques by canning, freezing, or dehydration. It may be eaten cooked or raw, and the taste differs considerably; the high oxalate content may be reduced by steaming.",
+        "targets": [
+          {
+            "_itemAll": 11,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Umkleshe ( Spinacia oleracea ) isitshalo esiqhakazayo samaqabunga ayimifino esidabuka enkabeni nasentshonalanga ye-Asia ."
+          },
+          {
+            "_itemAll": 10,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isipinashi ( Spinacia oleracea ) isitshalo esinezimbali esinamaqabunga esiluhlaza esidabuka enkabeni nasentshonalanga ye-Asia ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 6,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1932832/1123528470_0_0",
+        "sourceText": "A birth certificate is a vital record that documents the birth of a person. The term \"birth certificate\" can refer to either the original document certifying the circumstances of the birth or to a certified copy of or representation of the ensuing registration of that birth. Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor.",
+        "targets": [
+          {
+            "_itemAll": 13,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Isifakazelo sokuzalwa siyisiqoshwa esimqoka esiqopha ukuzalwa komuntu ."
+          },
+          {
+            "_itemAll": 12,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isitifiketi sokuzalwa siyirekhodi elibalulekile elibhala ukuzalwa komuntu ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 7,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "2010513/3",
+        "sourceText": "White trash is a derogatory racial and class-related slur[1][2] used in American English to refer to poor white people, especially in the rural areas of the southern United States. The label signifies a social class inside the white population and especially a degraded standard of living.[3] It is used as a way to separate the \"noble and hardworking\" \"good poor\" from the lazy, \"undisciplined, ungrateful and disgusting\" \"bad poor\". The use of the term provides middle- and upper-class whites a means of distancing themselves from the poverty and powerlessness of poor whites, who cannot enjoy those privileges, as well as a way to disown their perceived behavior.[1]",
+        "targets": [
+          {
+            "_itemAll": 15,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Udoti omhlophe inhlamba eyinhlamba yobuhlanga nehlobene nezigaba [1] [2] esetshenziswa ngesiNgisi saseMelika ukuze kubhekiselwe kondlebe zikhanya ilanga abaswele, ikakhulukazi ezindaweni zasemaphandleni eningizimu ye-United States .Le ilebula ,isho isigaba senhlalo phakathi kwabamhlophe futhi ikakhulukazi izinga lokuphila elehlisiwe. [3],, Isetshenziswa njengendlela yokwehlukanisa \"abahloniphekile nabakhuthele\" \"abampofu abahle\" kumavila, \"abangaqondi, abangabongi nabanengekayo\" \"abamhlophe ababi\". Ukusetshenziswa kwaleli gama kunikeza abamhlophe bezinga eliphakathi naphezulu indlela yokuziqhelelanisa nobumpofu nokungabi namandla kwabamhlophe abaswele, abangakwazi ukujabulela lawo malungelo, kanye nendlela yokuphika ukuziphatha kwabo abakubonayo. [1]"
+          },
+          {
+            "_itemAll": 14,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Udoti omhlophe inhlamba eyinhlamba yobuhlanga nehlobene nezigaba [1] [2] esetshenziswa ngesiNgisi saseMelika ukuze kubhekiselwe kubantu abamhlophe abampofu, ikakhulukazi ezindaweni zasemaphandleni eningizimu ye-United States . Ilebula isho isigaba senhlalo phakathi kwabamhlophe futhi ikakhulukazi izinga lokuphila elehlisiwe. [3] Isetshenziswa njengendlela yokwehlukanisa \"abahloniphekile nabakhuthele\" \"abampofu abahle\" kumavila, \"abangaqondi, abangabongi nabanengekayo\" \"abampofu ababi\". Ukusetshenziswa kwaleli gama kunikeza abamhlophe bezinga eliphakathi naphezulu indlela yokuziqhelelanisa nobumpofu nokungabi namandla kwabamhlophe abampofu, abangakwazi ukujabulela lawo malungelo, kanye nendlela yokuphika ukuziphatha kwabo abakubonayo. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 8,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "903049/1",
+        "sourceText": "Before prohibition against the plant was lifted in 2018 advocates pressured the government to modify its laws, which first restricted cannabis in 1922, to allow exemptions for medical use, religious practices, and other purposes. Dagga (Afrikaans pronunciation: [/ˈdaχa/]), is the Afrikaans term commonly referred to for cannabis; it derives from the Khoikhoi word dacha, which was used by the early European colonial settlers in the Western Cape.[3]",
+        "targets": [
+          {
+            "_itemAll": 17,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngaphambi kokuthi kuvinjelwe ukwenqatshelwa kwesitshalo ngo-2018 abameli babecindezela uhulumeni ukuthi aguqule imithetho yawo, eyayiqale yavimbela i-cannabis ngo-1922, ukuvumela 9999 ukuxolelwa kokusetshenziswa kwezokwelapha, imikhuba yezenkolo, nezinye izinhloso. I-Dagga ( iphimbo Afrikaans pronunciation: ), igama lesiBhunu elivame ukubhekiselwa kulo kwelenabis; lisuselwa kwelesiKhoikhoi elithi dacha, elalisetshenziswa izifiki zokuqala zaseYurophu ezazingamakholoni eNtshonalanga Kapa. [1]"
+          },
+          {
+            "_itemAll": 16,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngaphambi kokuthi kuvinjelwe ukwenqatshelwa kwesitshalo ngo-2018 abameli babecindezela uhulumeni ukuthi aguqule imithetho yawo, eyayiqale yavimbela i-cannabis ngo-1922, ukuvumela ukuxolelwa kokusetshenziswa kwezokwelapha, imikhuba yezenkolo, nezinye izinhloso. I-Dagga ( iphimbo Afrikaans pronunciation: ), igama lesiBhunu elivame ukubhekiselwa kulo kwelenabis; lisuselwa kwelesiKhoikhoi elithi dacha, elalisetshenziswa izifiki zokuqala zaseYurophu ezazingamakholoni eNtshonalanga Kapa. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 0,
+        "_item": 9,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2077650/33",
+        "sourceText": "Multicultural education can be implemented on the macro-level with the implementation of programs and culture at the school-wide or district-wide level and also at the mico-level by specific teachers within their individual classrooms.",
+        "targets": [
+          {
+            "_itemAll": 19,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Imfundo yamasiko amaningi ingasetshenziswa ezingeni elikhulu ngokuqaliswa kwezinhlelo namasiko ezingeni lesikole futhi nasezingeni elincane ngothisha abathile ngaphakathi kwamakilasi abo ngabanye."
+          },
+          {
+            "_itemAll": 18,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Imfundo yamasiko amaningi ingasetshenziswa ezingeni elikhulu ngokuqaliswa kwezinhlelo namasiko ezingeni lesikole sonke noma lesifunda sonkana futhi nasezingeni elincane ngothisha abathile ngaphakathi kwamakilasi abo ngabanye."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 10,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2736774/1242535807_0_1",
+        "sourceText": "The members of political parties, such as those of the Indian National Congress (INC)(pictured), coordinate to collectively achieve and use political power.",
+        "targets": [
+          {
+            "_itemAll": 21,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Amalungu wamaqembu ezombusazwe, njI-Indian engalawo e-National Congress (INC) (esithombeni), ahlangana ukuze afinyelele futhi asebenzise amandla ezombusazwa."
+          },
+          {
+            "_itemAll": 20,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amalungu amaqembu ezombusazwe, njengalawo e-I-Indian National Congress (INC) (esithombeni), ahlangana ukuze afinyelele futhi asebenzise amandla ezombusazwa."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 11,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2737534/1240897194_0_2",
+        "sourceText": "Statistics on rape and other acts of sexual assault are commonly available in industrialized countries, and have become better documented throughout the world. Inconsistent definitions of rape, different rates of reporting, recording, prosecution and conviction for rape can create controversial statistical disparities, and lead to accusations that many rape statistics are unreliable or misleading.[1][2]",
+        "targets": [
+          {
+            "_itemAll": 22,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Izibalo zokudlwengula nezinye izenzo zokuhlukunyezwa ngokobulili zivame ukutholakala emazweni anezimboni, futhi ziye zabhalwa kangcono emhlabeni wonke. Izincazelo ezingavumelani ukudlwengula, amazinga ahlukahlukene okubika, ukuqopha, ukushushiswa kanye nokugwetshwa ngokudlwengulwa kungabangela ukungalingani kwezibalo okuphikisayo, futhi kuholele ekumangalelweni kokuthi izibalo eziningi zokudlulwa azithembekile noma zidukuthayo.[1][2]"
+          },
+          {
+            "_itemAll": 23,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Izibalo zokudlwengula kanye nezinye izenzo zokuhlukunyezwa ngokobulili ezivame ukutholakala emazweni anezimboni, futhi ziye zabhalwa kangcono emhlabeni wonke. Izincazelo ezingavumelani ukudlwengula, amazinga ahlukahlukene okubika, ukuqopha, ukushushiswa kanye nokugwetshwa ngokudlwengulwa kungabangela ukungalingani kwezibalo okuphikisayo, kuphinde kuholele ekumangalelweni kokuthi izibalo eziningi zokudlulwa azithembekile noma .[1][2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 12,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1840366/1109458328_0_1",
+        "sourceText": "Public records are documents or pieces of information that are not considered confidential and generally pertain to the conduct of government.",
+        "targets": [
+          {
+            "_itemAll": 25,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Iziqoshwa zomphakathi ziyimibhalo noma izingcezu zokwaziswa ezingeyona imfihlo futhi ngokuvamile eziphathelene nokuziphatha kukahulumeni."
+          },
+          {
+            "_itemAll": 24,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amarekhodi omphakathi ayimibhalo noma izingcezu zolwazi ezingabhekwa njengeziyimfihlo futhi ngokuvamile eziphathelene nokuziphatha kukahulumeni."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 13,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2061010/1150155071_0_1",
+        "sourceText": "Commercial FM broadcasting transmitter at radio station WDET-FM, Wayne State University, Detroit, USA. It broadcasts at 101.9 MHz with a radiated power of 48 kW.",
+        "targets": [
+          {
+            "_itemAll": 26,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Umsakazi wezohwebo FM esiteshini somsakazo i-WDET-FM, Wayne State University, Detroit, USA."
+          },
+          {
+            "_itemAll": 27,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Isifufukisi sokusakaza nge-FM sezentengiselwano esiteshini somsakazo i-WDET-FM, Wayne State University, Detroit, USA."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 14,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2091329/1153941612_0_1",
+        "sourceText": "The lymphatic system, or lymphoid system, is an organ system in vertebrates that is part of the immune system, and complementary to the circulatory system. It consists of a large network of lymphatic vessels, lymph nodes, lymphoid organs, lymphoid tissues and lymph.[1][2] Lymph is a clear fluid carried by the lymphatic vessels back to the heart for re-circulation. (The Latin word for lymph – lympha refers to the deity of fresh water, \"Lympha\")[3]",
+        "targets": [
+          {
+            "_itemAll": 28,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I- lymphatic system, noma i- lymphoid system, iwuhlelo lwesitho sezilwane ezinomgogodla oluyingxenye yamasosha omzimba, futhi luhambisana nesimiso sokujikeleza kwegazi ."
+          },
+          {
+            "_itemAll": 29,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Isimiso soketshe, noma uhlelo loketshe, siwuhlelo lwesitho sezilwane ezinomgogodla oluyingxenye yamasosha omzimba, futhi luhambisana nesimiso sokujikeleza kwegazi ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 15,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2403401/1192274773_0_2",
+        "sourceText": "A puzzle is a game, problem, or toy that tests a person's ingenuity or knowledge. In a puzzle, the solver is expected to put pieces together (or take them apart) in a logical way, in order to arrive at the correct or fun solution of the puzzle. There are different genres of puzzles, such as crossword puzzles, word-search puzzles, number puzzles, relational puzzles, and logic puzzles. The academic study of puzzles is called enigmatology.",
+        "targets": [
+          {
+            "_itemAll": 30,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I-puzzle ngumdlalo, inkinga, noma ithoyizi elivivinya ikhono noma ulwazi lomuntu."
+          },
+          {
+            "_itemAll": 31,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Inkilikiqi ingumfeketho, inkiyankiya, noma ukunto okuvivinya ikhono noma ulwazi lomuntu."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 16,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2555051/1212012807_4_23",
+        "sourceText": "22 per cent of the population have completed school only. A further 8.45 per cent have a tertiary education. 16.7 per cent have received no schooling at all. However, this data reflects the uMhlathuze municipality as a whole.",
+        "targets": [
+          {
+            "_itemAll": 33,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Amaphesenti angama-22 abantu aseqedile isikole kuphela. Amanye amaphesenti angu-8.45 anemfundo ephakeme. Amaphesenti angu-16.7 awazange athole imfundo nhlobo. Kodwa-ke, lolu lwazi ibonisa umasipala wase-Mhlathuze wonkana."
+          },
+          {
+            "_itemAll": 32,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Amaphesenti angama-22 abantu aseqedile isikole kuphela. Amanye amaphesenti angu-8.45 anemfundo ephakeme. Amaphesenti angu-16.7 awazange athole imfundo nhlobo. Kodwa-ke, le datha ibonisa umasipala wase-Mhlathuze wonkana."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 17,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1334455/11",
+        "sourceText": "In 1994, the Italian sociologist Massimo Introvigne suggested defining Satanism with the simultaneous presence of \"1) the worship of the character identified with the name of Satan or Lucifer in the Bible, 2) by organized groups with at least a minimal organization and hierarchy, 3) through ritual or liturgical practices.\" The definition applies regardless of the way in which each group perceives Satan- as personal or impersonal, real or symbolic.[10]",
+        "targets": [
+          {
+            "_itemAll": 34,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-1994, usosayensi wezenhlalakahle wase-Italy, u- Massimo Introvigne waphakamisa ukuthi kuchazwe ubuSathane ngobukhona kanyekanye be- \"1) ukukhonzwa komlingiswa okhonjwe ngegama likaSathane noma uLusifa eBhayibhelini, 2) ngamaqembu ahleliwe okungenani enenhlangano kanye nabaphathi abancane, 3) ngokusebenzisa amasiko noma amasiko. \" Incazelo isebenza kungakhathalekile ukuthi iqembu ngalinye libona kanjani ukuthi uSathane- njengomuntu uqobo noma ongeyena umuntu, ongokoqobo noma ongokomfanekiso. [10]"
+          },
+          {
+            "_itemAll": 35,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo-1994, usosayensi wezenhlalakahle wase-Italy, u- Massimo Introvigne waphakamisa ukuthi kuchazwe ubuSathane ngobukhona kanyekanye be- \"ukukhonzwa komlingiswa okhonjwe ngegama likaSathane noma uLusifa eBhayibhelini, ) ngamaqembu ahleliwe okungenani enenhlangano kanye nabaphathi abancane ngokusebenzisa amasiko noma amasiko Incazelo isebenza kungakhathalekile ukuthi iqembu ngalinye libona kanjani ukuthi uSathane- njengomuntu uqobo noma ongeyena umuntu, ongokoqobo noma ongokomfanekiso]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 18,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1344886/10",
+        "sourceText": "In 2006 Zuma was voted number one by the fans among the greatest profiles to have ever played in F.C. Copenhagen.[3]",
+        "targets": [
+          {
+            "_itemAll": 37,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo2006 uZuma wavotelwa waba ngowokuqala kubalandeli phakathi kwemikhakha emikhulu eyake yadlalwa eFC Copenhagen"
+          },
+          {
+            "_itemAll": 36,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-2006 uZuma wavotelwa waba ngowokuqala kubalandeli phakathi kwemikhakha emikhulu eyake yadlalwa eFC Copenhagen. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 1,
+        "_item": 19,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1698148/28",
+        "sourceText": "In May 2022, he embarked on Ivyson Army Tour started May 7 (Bloemfontein); the tour included 5 dates that ran from May 7 until June 4, 2022.[53]",
+        "targets": [
+          {
+            "_itemAll": 39,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "NgoNhlaba 2022, waqala i-Ivyson Army Tour yaqala ngoNhlaba 7 ( Bloemfontein ); ukuvakasha kuhlanganisa nezinsuku ezi-5 eziqale kuNhlaba 7 kuze kube nguNhlangulana 4, 2022."
+          },
+          {
+            "_itemAll": 38,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "NgoMeyi 2022, waqala i-Ivyson Army Tour yaqala ngoMeyi 7 ( Bloemfontein ); ukuvakasha kuhlanganisa nezinsuku ezi-5 eziqale ngoMeyi 7 kuze kube nguJuni 4, 2022. [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 20,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "2081696/69",
+        "sourceText": "Independent experts (rapporteurs) are retained by the council to investigate alleged human rights abuses and to report to the council.",
+        "targets": [
+          {
+            "_itemAll": 41,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ongoti abazimele (ababhali) bagcinwe umkhandlu ukuze baphenye izinsolo zokuhlukumeza amalungelo abantu kanye nokubika emkhandlwini."
+          },
+          {
+            "_itemAll": 40,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ongoti abazimele ( rapporteurs ) bagcinwe umkhandlu ukuze uphenye izinsolo zokuhlukumeza amalungelo abantu futhi babikele umkhandlu."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 21,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2190393/1165180674_0_0",
+        "sourceText": "Comic book superhero Shazam has superhuman abilities derived from magic, which he uses to apprehend criminals (left) and fly over pedestrians (right) in Shazam: Power of Hope (November 2000). Art by Alex Ross.",
+        "targets": [
+          {
+            "_itemAll": 43,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Imbudle yencwadi yamahlaya u-Shazam unamakhono angaphezu kwawomuntu atholakala emilingweni, uwasebenzisa ukuze abambe izigebengu (kwesokunxele) futhi andize phezu kwabahamba ngezinyawo (kwesokudla) e -Shazam: Power of Hope (November 2000)."
+          },
+          {
+            "_itemAll": 42,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Iqhawe lencwadi yamahlaya u-Shazam unamakhono angaphezu kwawomuntu atholakala emilingweni, awasebenzisayo ukuze abambe izigebengu (kwesokunxele) futhi andize phezu kwabahamba ngezinyawo (kwesokudla) e -Shazam: Power of Hope (November 2000)."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 22,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2624568/1225661681_2_12",
+        "sourceText": "On 26 November 2021, he was named in the PFAI Team of the Year for 2021, as voted by his fellow players.[17]",
+        "targets": [
+          {
+            "_itemAll": 45,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo-26 November 2021, waqokwa eqenjini le-PFAI Team of the Year ka-2021, njengoba kwavotelwa abadlali abanye naye.[1][2]"
+          },
+          {
+            "_itemAll": 44,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-26 November 2021, waqokwa eqenjini le-PFAI Team of the Year ka-2021, njengoba kwavotelwa abadlali abakanye naye.[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 23,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "836533/106",
+        "sourceText": "Women constitute 47% of the U.S. workforce, and perform 24% of STEM-related jobs.[92] In the UK women perform 13% of STEM-related jobs (2014).[93] In the U.S. women with STEM degrees are more likely to work in education or healthcare rather than STEM fields compared with their male counterparts.",
+        "targets": [
+          {
+            "_itemAll": 47,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Abesifazane bakha amaphesenti angama-47 abasebenzi baseMelika, futhi benza ama-24% emisebenzi ehlobene ne-IUUI. [1] E-UK abesifazane benza ama-13% emisebenzi ehlobene ne-IUUI (2014). [2] E-US abesifazane abane-IUUI izinga banamathuba amaningi okusebenza emfundweni noma ekunakekelweni kwezempilo kunamasimu we-IUUI ngokuqhathaniswa nabalingani babo besilisa."
+          },
+          {
+            "_itemAll": 46,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Abesifazane bakha amaphesenti angama-47 abasebenzi baseMelika, futhi benza ama-24% emisebenzi ehlobene ne-STEM. [1] E-UK abesifazane benza ama-13% emisebenzi ehlobene ne-STEM (2014). [2] E-US abesifazane abane-STEM degrees banamathuba amaningi okusebenza emfundweni noma ekunakekelweni kwezempilo kunamasimu we-STEM ngokuqhathaniswa nabalingani babo besilisa."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 24,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "1335438/7",
+        "sourceText": "Thomas spoke at the 2013 National Convention of American Atheists.[9] That same year she organized the Blackout Secular Rally in New York, the United States' first outdoor event headlined by nontheists of color, and the first secular rally celebrating racial diversity.[10][11] She credits Ayanna Watson with helping develop the idea after the success of the 2012 Reason Rally.[12]",
+        "targets": [
+          {
+            "_itemAll": 49,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UThomas ukhulume eMhlanganweni Kazwelonke Wama-American Atheists ka-2013 .Ngawo lowo nyaka wahlela iBlackout Secular Rally eNew York, umcimbi wokuqala ongaphandle wase-United States owawuholwa ngabangabonakali ngokwebala, kanye nomhlangano wokuqala wezwe owawugubha ukwehluka ngokobuhlanga. Ubonga u-Ayanna Watson ngokusiza ekuthuthukiseni umqondo ngemuva kokuphumelela kweReason Rally ka-2012."
+          },
+          {
+            "_itemAll": 48,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UThomas ukhulume eMhlanganweni Kazwelonke Wama-American Atheists ka-2013 . [9] Ngawo lowo nyaka wahlela iBlackout Secular Rally eNew York, umcimbi wokuqala ongaphandle wase-United States owawuholwa ngabangabonakali ngokwebala, kanye nomhlangano wokuqala wezwe owawugubha ukwehluka ngokobuhlanga. [10] [11] Ubonga u-Ayanna Watson ngokusiza ekuthuthukiseni umqondo ngemuva kokuphumelela kweReason Rally ka-2012. [12]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 25,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "1341268/2",
+        "sourceText": "Yu Yiting (born 5 September 2005) is a Chinese swimmer.[1] She competed in the women's 200 metre individual medley at the 2019 World Aquatics Championships.[2]",
+        "targets": [
+          {
+            "_itemAll": 51,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Yu Yiting (owazalwa 5 Septhemba 2005) umbhukudi waseShayina.Uncintisane emidlalweni yabesifazane engamamitha angama-200 kumqhudelwano we- 2019 World Aquatics Championship ."
+          },
+          {
+            "_itemAll": 50,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Yu Yiting (owazalwa 5 Septhemba 2005) is a Chinese umbhukudi . [1] Uncintisane emidlalweni yabesifazane engamamitha angama-200 kumqhudelwano we- 2019 World Aquatics Championship . [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 26,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1343189/11",
+        "sourceText": "On 29 June 2017, it was announced that Benyu had signed a four-year contract with Celtic.[10] The midfielder scored on his first appearance for the club's development squad, in a pre-season friendly against East Kilbride.[11] Benyu made his competitive debut in Celtic's 4–0 victory over Linfield at Celtic Park.[12]",
+        "targets": [
+          {
+            "_itemAll": 52,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngo-29 Juni 2017, kwamenyezelwa ukuthi uBenyu usayine inkontileka yeminyaka emine neCeltic . [1] Umdlali wasesiswini ushaye igoli ngesikhathi ebonakala okokuqala eqenjini elithuthukisa iqembu, emdlalweni wobungani belungiselela isizini ne-East Kilbride . [2] UBenyu udlale umdlalo wakhe wokuqala wokuncintisana ngesikhathi iCeltic inqoba ngo 4-0 kuLinfield eCeltic Park . [3]"
+          },
+          {
+            "_itemAll": 53,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngo-29 Juni 2017, kwamenyezelwa ukuthi uBenyu usayine inkontileka yeminyaka emine neCeltic.Umdlali wasesiswini ushaye igoli ngesikhathi ebonakala okokuqala eqenjini elithuthukisa iqembu, emdlalweni wobungani belungiselela isizini ne-East Kilbride.UBenyu udlale umdlalo wakhe wokuqala wokuncintisana ngesikhathi iCeltic inqoba ngo 4-0 kuLinfield eCeltic Park."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 27,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "1343218/8",
+        "sourceText": "Siziba usually plays as a winger but can also play as a deep-lying playmaker.[1] He is left-footed with his style of play having been positively compared to that of Liverpool winger Sadio Mane.[6]",
+        "targets": [
+          {
+            "_itemAll": 55,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "USiziba ujwayele ukudlala njengewindi kodwa futhi angadlala njengomdlali odlala ngokujulile.Unyawo lwesobunxele ngesitayela sakhe sokudlala esilinganiswe kahle nese- winger yeLiverpool uSadio Mane."
+          },
+          {
+            "_itemAll": 54,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "USiziba ujwayele ukudlala njengewindi kodwa futhi angadlala njengomdlali odlala ngokujulile . [1] Unyawo lwesobunxele ngesitayela sakhe sokudlala esilinganiswe kahle nese- winger yeLiverpool uSadio Mane. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 28,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "1343557/2",
+        "sourceText": "Camaldine Abraw (born 15 August 1990) is a Togolese footballer who plays for French club Football Club de l'Ouest Tourangeau 37.",
+        "targets": [
+          {
+            "_itemAll": 57,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Camaldine Abraw (owazalwa 15 Agasti 1990) umdlali webhola wase Togolese odlalela iqembu French Football Club de l'Ouest Tourangeau 37."
+          },
+          {
+            "_itemAll": 56,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Camaldine Abraw (owazalwa 15 Agasti 1990) is a Togolese footballer odlalela iqembu French Football Club de l'Ouest Tourangeau 37."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 2,
+        "_item": 29,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1402213/9",
+        "sourceText": "Mahlatsi supports land expropriation without compensation. During the debate on the 2020 State of the Nation Address on 18 February 2020, Mahlatsi said: \"As the ANC, we are looking at land, not property ... Hon. Speaker, the poor must be given means of production in order to defeat poverty. Land must be used as economic asset.\"[8] In June 2020, she voted to re-establish the Ad Hoc Committee to Amend Section 25 of the Constitution after its term had expired. She said that the \"land was stolen and must be returned\" and that the ANC had considered the legal, economic and political implications of expropriation without compensation.[9]",
+        "targets": [
+          {
+            "_itemAll": 59,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UMahlatsi uyakweseka ukuthathwa komhlaba ngaphandle kwesinxephezelo.Ngesikhathi senkulumompikiswano ngeNkulumo Echaza Isimo Sezwe yango-2020 mhla ziyi-18 kuNhlolanja 2020, uMahlatsi wathi: \"Njenge-ANC, sibheke umhlaba, hhayi impahla. . . Hon. Somlomo, abampofu kumele banikezwe izindlela zokukhiqiza ukuze banqobe ubuphofu.Umhlaba kumele usetshenziswe njengempahla yezomnotho.\"NgoJuni 2020, uvotele ukusungula kabusha iKomidi le-Ad Hoc lokuchibiyela iSigaba 25 soMthethosisekelo ngemuva kokuphela kwesikhathi salo.Uthe \"umhlaba untshontshiwe futhi kumele ubuyiswe\" nokuthi i-ANC ikubonile ukuthinteka ngokomthetho, ezomnotho nezepolitiki ngaphandle kokunxeshezelwa."
+          },
+          {
+            "_itemAll": 58,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UMahlatsi uyakweseka ukuthathwa komhlaba ngaphandle kwesinxephezelo . Ngesikhathi senkulumompikiswano ngeNkulumo Echaza Isimo Sezwe yango-2020 mhla ziyi-18 kuNhlolanja 2020, uMahlatsi wathi: \"Njenge-ANC, sibheke umhlaba, hhayi impahla. . . Hon. Somlomo, abampofu kumele banikezwe izindlela zokukhiqiza ukuze banqobe ubuphofu. Umhlaba kumele usetshenziswe njengempahla yezomnotho. \" [1] NgoJuni 2020, uvotele ukusungula kabusha iKomidi le-Ad Hoc lokuchibiyela iSigaba 25 soMthethosisekelo ngemuva kokuphela kwesikhathi salo. Uthe \"umhlaba untshontshiwe futhi kumele ubuyiswe\" nokuthi i-ANC ikubonile ukuthinteka ngokomthetho, ezomnotho nezepolitiki ngaphandle kokunxeshezelwa. [2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 30,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1456183/2",
+        "sourceText": "Muvhango is a South African television soap opera, created by Duma Ndlovu. It is broadcast on the public TV channel SABC 2, and has an average of 4 million daily viewers.[1] The first episode was aired on 7 April 1997. It was the first Tshivenda language TV drama,[2] but later became multilingual in order to showcase that languages and cultures of South Africa should be used to unite rather than divide. The creator of Muvhango is Zulu by ancestry, but can speak and is fluent in all South African languages.[3]",
+        "targets": [
+          {
+            "_itemAll": 60,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UMuvhango wumdlalo owuchungechunge kamabonakude waseNingizimu Afrika, owakhiwe nguDuma Ndlovu . Isakazwa esiteshini sikamabonakude somphakathi i- SABC 2, futhi inababukeli abalinganiselwa ku-4 million nsuku zonke. [1] Isiqephu sokuqala sasakazwa ngomhlaka-7 Ephreli 1997. Kwakuwumdlalo kamabonakude wokuqala wolimi lwesiTshivenda [2] kodwa kamuva waba ngezilimi eziningi ukuze kuboniswe ukuthi izilimi namasiko aseNingizimu Afrika kufanele asetshenziselwe ukuhlanganisa kunokuhlukanisa. UMdali kuMuvhango kuyinto Zulu ngu lozalo, kodwa angakhuluma futhi ngokuqephuza ngazo zonke izilimi zaseNingizimu Afrika. [3]"
+          },
+          {
+            "_itemAll": 61,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UMuvhango wumdlalo owuchungechunge kamabonakude waseNingizimu Afrika, owakhiwe nguDuma Ndlovu . Isakazwa esiteshini sikamabonakude somphakathi i- SABC 2, futhi inababukeli abalinganiselwa ku-4 million nsuku zonke.Isiqephu sokuqala sasakazwa ngomhlaka-7 Ephreli 1997. Kwakuwumdlalo kamabonakude wokuqala wolimi lwesiTshivenda kodwa kamuva waba ngezilimi eziningi ukuze kuboniswe ukuthi izilimi namasiko aseNingizimu Afrika kufanele asetshenziselwe ukuhlanganisa kunokuhlukanisa.UMdali kuMuvhango ngum Zulu ngokozalo, kodwa angakhuluma futhi ngokuqephuza ngazo zonke izilimi zaseNingizimu Afrika."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 31,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1983410/1135615909_0_3",
+        "sourceText": "Natural science is one of the branches of science concerned with the description, understanding and prediction of natural phenomena, based on empirical evidence from observation and experimentation.[1] Mechanisms such as peer review and repeatability of findings are used to try to ensure the validity of scientific advances.",
+        "targets": [
+          {
+            "_itemAll": 63,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Inzululwazi yemvelo ingelinye lamagatsha esayensi aphathelene nencaziso, ukuqonda nokubikezela izimongotho zemvelo, ngokusekelwe ebufakazini obunamandla obuvela ezingqaphelweni nasemigcansweni . [1]"
+          },
+          {
+            "_itemAll": 62,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Isayensi yemvelo ingelinye lamagatsha esayensi aphathelene nencazelo, ukuqonda nokubikezela izenzakalo zemvelo, ngokusekelwe ebufakazini obunamandla obuvela ekuhloleni nasekuhloleni . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 32,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2043565/1079947014_0_3",
+        "sourceText": "Motswako is a Southern African subgenre of hip hop popular in South Africa. It consists of a mix of rap lyrics in both the local language (Setswana) and English layered on a steady beat. Other languages used include Sesotho, Zulu and Afrikaans as per the rapper's origin. The genre gained popularity in the late nineties as South African acts like HHP and Baphixile (consisting of \"Prof\" and \"Blax Myth\") started rapping in Setswana, resulting in an increased following from the local population. Because of its reputation in South Africa most of the upcoming artists use this genre as a base before they start their music careers because of its basic principles, a good motswako artist have to learn the creative writing skills used to perfect the genre making it easy to learn and write music. Today there is a high pool of motswako artists in Botswana and South Africa with few females artists.",
+        "targets": [
+          {
+            "_itemAll": 65,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "I-Motswako uhlobo lomculo we- hip hop oludumile eNingizumu Afrika."
+          },
+          {
+            "_itemAll": 64,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "I-Motswako iwuchungechunge lwaseNingizimu Afrika lwe- hip hop oludumile eNingizimu Afrika."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 33,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2736827/1235747956_0_3",
+        "sourceText": "She portrayed the character of Thandeka Ndlovu on Mzansi Magic Sopie era Isibaya which she starred in from 2013 to her exit in 2020. Her exit from Sopie introduced her to Hollywood where she was cast as Mirmbe in Eddie Murphy's sequel to Coming to America, which was titled Coming 2 America. In 2021 April it was announced that she was cast in Saban Films new movie Soul Assassins alongside Bruce Willis which was later filmed under a new name Die Like Lovers but was released as Assassin and became Bruce Willis's last movie .",
+        "targets": [
+          {
+            "_itemAll": 66,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Usebenze njengomlingiswa kaThandeka Ndlovu enkathini ye-Mzansi Magic Sopie Isibaya lapho adlala khona kusukela ngo-2013 kwaze kwaba yilapho ephuma ngo-2020. Ukuphuma kwakhe ku-Sopie kwamethula I-Hollywood lapho afakwa khona njengoMirmbe kU-Eddie Murphy's sequel to Coming to America, eyayihambisana ne-Coming 2 America. Ngo-2021 April kwamenyezelwa ukuthi wabekwa ebhayisikobho entsha ye-Saban Films i-Soul Assassins eceleni kukaBruce Willis kamuva eyathwetshulwa ngaphansi kwegama elisha i-Die Like Lovers kodwa yakhululwa njenge-Assassin futhi yaba ibhayisikobho yokugcina kaBruce Wilis."
+          },
+          {
+            "_itemAll": 67,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Usebenze njengomlingiswa kaThandeka Ndlovu ngenkathi esasebenza ku-Mzansi Magic Sopie Isibaya lapho adlala khona kusukela ngo-2013 kwaze kwaba yilapho ephuma ngo-2020. Ukuphuma kwakhe ku-Sopie kwamethula kuyi Hollywood lapho afakwa khona njengoMirmbe kuUEddie Murphy's sequel to Coming to America, eyayihambisana ne-Coming 2 America. Ngo-2021 kuNdasa kwamenyezelwa ukuthi wabekwa ebhayisikobho entsha ye-Saban Films i-Soul Assassins eceleni kukaBruce Willis kamuva eyathwetshulwa ngaphansi kwegama elisha i-Die Like Lovers kodwa yakhululwa njenge-Assassin futhi yaba ibhayisikobho yokugcina kaBruce Wilis."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 34,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "1340657/1",
+        "sourceText": "Sibusiso Barnabas Dlamini (born 1 September 1980 in Mbabane) is a Swazi football striker who currently plays for Malanti Chiefs. He has been capped for Eswatini.",
+        "targets": [
+          {
+            "_itemAll": 68,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "USibusiso Barnabas Dlamini (owazalwa 1 Septhemba 1980 e Mbabane ) kuyinto Swazi football Umgadli ngubani okwamanje adlalele Malanti Chiefs . Ubanjelwe Eswatini ."
+          },
+          {
+            "_itemAll": 69,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "USibusiso Barnabas Dlamini (owazalwa 1 Septhemba 1980 e Mbabane ) kungumdlali we Swazi football Umgadli ngubani okwamanje adlalele Malanti Chiefs . Ubanjelwe Eswatini ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 35,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "2392531/1180111713_0_3",
+        "sourceText": "It reveres Shembe as a prophet sent by God to restore the teachings of Moses, the prophets, and Jesus. Members are Sabbath-observers and avoid pork, smoking, and premarital sex.[1]",
+        "targets": [
+          {
+            "_itemAll": 70,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ihlonipha UShembe njengomprofethi othunyelwe uNkulunkulu ukubuyisela izimfundiso zikaMose, abaprofethi, UJesu. Amalungu angagcini iSabatha futhi agwema inyama yengulube, ukubhema, kanye nobulili bangaphambi komshado.[1]"
+          },
+          {
+            "_itemAll": 71,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ihlonipha UShembe njengomprofethi othunyelwe uNkulunkulu ukubuyisela izimfundiso zikaMose, ezabaprofethi, nezika Jesu. Amalungu angabagcini beSabatha futhi agwema inyama yengulube, ukubhema, kanye nezenzo zocansi ngampambi komgano.[1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 36,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2421153/1194797022_0_4",
+        "sourceText": "Oliver Napoleon Hill (October 26, 1883 – November 8, 1970) was an American self-help author. He is best known for his book Think and Grow Rich (1937), which is among the best-selling self-help books of all time.[1][2] Hill's works insisted that fervid expectations are essential to improving one's life.[3][4] Most of his books were promoted as expounding principles to achieve \"success\".",
+        "targets": [
+          {
+            "_itemAll": 73,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "U-Oliver Napoleon Hill (October 26, 1883 - November 8, 1970) wayengumlobi waseMelika wezifundo zokuzisiza. [1][2] Waziwa kakhulu ngencwadi yakhe ethi Think and Grow Rich (1937), ephakathi kwezincwadi zokuzisiza ezithengiswa kakhulu kunazo zonke. Imisebenzi kaHill yaphikelela ngokuthi ukulindela okuqinile kubalulekile ekuthuthukiseni ukuphila komuntu.[3][4] Iningi lezincwadi zakhe lakhuthazwa njengezimiso ezichazayo ukuze kufinyelelwe \"empumelelweni\"."
+          },
+          {
+            "_itemAll": 72,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "U-Oliver Napoleon Hill (October 26, 1883 - November 8, 1970) wayengumlobi waseMelika Ukuzisiza. [2][1] kakhulu ngencwadi yakhe ethi Think and Grow Rich (1937), ephakathi kwezincwadi zokuzisiza ezithengiswa kakhulu kunazo zonke. Imisebenzi kaHill yaphikelela ngokuthi ukulindela okuqinile kubalulekile ekuthuthukiseni ukuphila komuntu.[3][4] Iningi lezincwadi zakhe lakhuthazwa njengezimiso ezichazayo ukuze kufinyelelwe \"impumelelo\"."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 37,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "2425392/1192893548_1_5",
+        "sourceText": "Tracy was born 5 January 1944 in Charlottetown, Prince Edward Island, Canada. He attended the University of Alberta in Edmonton, Alberta.",
+        "targets": [
+          {
+            "_itemAll": 74,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UTracy wazalwa ngo-5 January 1944 I-Charlottetown, ePrince Edward Island, eCanada. Wafunda e-I-University of Alberta e-I-Edmonton, e-Alberta."
+          },
+          {
+            "_itemAll": 75,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UTracy wazalwa mhlazi-5 Masingana 1944 e-Charlottetown, ePrince Edward Island, eKhanada. Wafunda e-University of Alberta e-Edmonton, e-Alberta."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 38,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "2624552/1225710086_1_8",
+        "sourceText": "Berenguer was born in Pamplona, Navarre; his father's family is from Almería.[1] He graduated with CA Osasuna's youth setup, and made his debuts as a senior with the reserves in the 2013–14 campaign, in Tercera División.[2]",
+        "targets": [
+          {
+            "_itemAll": 77,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UBerenguer wazalelwa ePamplona, eNavarre; umndeni wakubo use-Almería.[1] Uphumelele eqenjini lentsha le-CA Osasuna, futhi waqala ukudlalela iqembu elidala lama-reserves emkhankasweni we-2013-14 e-Tercera División.[2]"
+          },
+          {
+            "_itemAll": 76,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UBerenguer wazalelwa IPamplona, INavarre; umndeni kayise uvela e-I-Almería.[1] Uphothule neqembu lentsha le-CA Osasuna, futhi waqala ukujoyina iqembu elidala le-reserves emkhankasweni we-2013-14, e-Tercera División.[2]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 3,
+        "_item": 39,
+        "itemID": 6,
+        "itemType": "TGT",
+        "sourceID": "2739592/1235747663_1_5",
+        "sourceText": "Mncube was born in 29 May 1990 in Ulundi, KwaZulu Natal, South Africa in a family with five siblings. He completed his National Diploma in Drama from the Durban University of Technology (DUT) in 2011.[1] His elder brother Ntando Mncube, who played the role \"Bhekile\" on the serial Ifalakhe. His younger brother Omega is also an actor, who played the popular role \"Phelelani\" on Uzalo.[6]",
+        "targets": [
+          {
+            "_itemAll": 78,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UMncube wazalwa ngo-29 Meyi 1990 e-Ulundi, eKwaZulu Natal, eNingizimu Afrika emkhayeni onezingane zakubo ezinhlanu. Waphothula i-National Diploma yakhe ye-Drama I-Durban University of Technology (DUT) ngo-2011.[1] Umfowabo omdala I-Ntando Mncube, odlala indima ethi \"Bhekile\" ochungechungeni lwe-Ifalakhe. Umfowabo omncane u-Omega naye ungumlingisi, odlale indima ethandwayo ethi \"Phelelani\" ku-I-Uzal.[6]"
+          },
+          {
+            "_itemAll": 79,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UMncube wazalwa ngomhlaka-29 Meyi kowezi-1990 e-Ulundi, KwaZulu Natal, eNingizimu Afrika ekhayeni elinezingane zakubo ezinhlanu. Waphothula i-National Diploma yakhe ye-Drama e-Durban University of Technology (DUT) ngo-2011.[1] Umfowabo omdala u-Ntando Mncube, odlala indima ka \"Bhekile\" ochungechungeni lwe-Ifalakhe. Umfowabo omncane u-Omega naye ongumlingisi, odlale indima ethandwayo ka \"Phelelani\" ku-I-Uzalo.[6]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 40,
+        "itemID": 7,
+        "itemType": "TGT",
+        "sourceID": "1334761/2",
+        "sourceText": "Isolezwe is a Zulu-language newspaper launched in 2002 by Independent News & Media. It is published daily in Durban, South Africa, in the tabloid format. Editor Thulani Mbathi describes their target market as \"the modernising Zulu ... [s]omeone who may go back home to the rural areas to slaughter a cow to amadlozi [the ancestors], but is as equally comfortable taking his family out for dinner and a movie in a shopping mall\".[1][2]",
+        "targets": [
+          {
+            "_itemAll": 80,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "ISolezwe kuyinto -isiZulu iphephandaba umkhankaso ngo 2002 by -Independent News & Media . Ishicilelwa nsuku zonke eThekwini, eNingizimu Afrika, ifomethi yethabo. Umhleli uThulani Mbathi uchaza imakethe abebehlose ukuyibiza ngokuthi \"uZulu omeone ongowesimanjemanje ongabuyela ekhaya ezindaweni zasemakhaya ayohlaba inkomo emadlozi [amadlozi], kepha ukhululekile ngokufana nokuthatha umndeni wakhe bayodla isidlo sakusihlwa ne-movie enxanxatheleni yezitolo \". [1] [2]"
+          },
+          {
+            "_itemAll": 81,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "ISolezwe ngesiZulu iphephandaba elaqalwa ngo 2002 nge -Independent News & Media .Ishicilelwa nsuku zonke eThekwini, eNingizimu Afrika, ifomethi yethabo. Umhleli uThulani Mbathi uchaza imakethe abebehlose ukuyibiza ngokuthi \"uZulu omeone ongowesimanjemanje ongabuyela ekhaya ezindaweni zasemakhaya ayohlaba inkomo emadlozi [amadlozi], kepha ukhululekile ngokufana nokuthatha umndeni wakhe bayodla isidlo sakusihlwa ne-movie enxanxatheleni yezitolo \". [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 41,
+        "itemID": 8,
+        "itemType": "TGT",
+        "sourceID": "1792353/1116548786_0_5",
+        "sourceText": "A dragon is a reptile-like legendary creature that appears in the folklore of many cultures worldwide. Beliefs about dragons vary considerably through regions, but dragons in western cultures since the High Middle Ages have often been depicted as winged, horned, four-legged, and capable of breathing fire. Dragons in eastern cultures are usually depicted as wingless, four-legged, serpentine creatures with above-average intelligence. Commonalities between dragons' traits are often a hybridization of feline, avian, and reptilian features. Scholars believe huge extinct or migrating crocodiles bear the closest resemblance, especially when encountered in forested or swampy areas, and are most likely the template of modern Oriental dragon imagery.[1][2]",
+        "targets": [
+          {
+            "_itemAll": 82,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Udrako uyisidalwa esihuquzelayo esifana nenganekwane esivela kumlando wamasiko amaningi emhlabeni jikelele."
+          },
+          {
+            "_itemAll": 83,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "INzawu iyisidalwa esihuquzelayo sasezinganekwaneni esivela kumlando wamasiko amaningi emhlabeni jikelele."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 42,
+        "itemID": 9,
+        "itemType": "TGT",
+        "sourceID": "1820240/1120115870_0_0",
+        "sourceText": "Bees are winged insects closely related to wasps and ants, known for their roles in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey. Bees are a monophyletic lineage within the superfamily Apoidea. They are presently considered a clade, called Anthophila. There are over 16,000 known species of bees in seven recognized biological families.[1][2] Some species – including honey bees, bumblebees, and stingless bees – live socially in colonies while most species (>90%) – including mason bees, carpenter bees, leafcutter bees, and sweat bees – are solitary.",
+        "targets": [
+          {
+            "_itemAll": 85,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Izinyosi ziyizinambuzane ezinamaphiko ezihlobene eduze neminyovu nezintuthwane, ezaziwa ngeqhaza lazo ekusakazeni impova, futhi endabeni yezinhlobo zezinyosi ezaziwa kakhulu, inyosi yoju yasentshonalanga, yaziwa ngokukhiqiza uju ."
+          },
+          {
+            "_itemAll": 84,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Izinyosi ziyizinambuzane ezinamaphiko ezihlobene eduze neminyovu nezintuthwane, ezaziwa ngezindima zazo ekusakazeni impova futhi, endabeni yezinhlobo zezinyosi ezaziwa kakhulu, inyosi ye- honey yasentshonalanga, ekukhiqizeni uju ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 43,
+        "itemID": 10,
+        "itemType": "TGT",
+        "sourceID": "2833356/1257330305_0_6",
+        "sourceText": "The term authority is often used for power that is perceived as legitimate or socially approved by the social structure. [1]",
+        "targets": [
+          {
+            "_itemAll": 87,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Igama elithi igunya livame ukusetshenziselwa amandla abhekwa njengasemthethweni noma avunyelwe uhlaka lomphakathi . [1]"
+          },
+          {
+            "_itemAll": 86,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Igama elithi igunya livame ukusetshenziselwa amandla athathwa njengasemthethweni noma agunyazwe ngokwenhlalo uhlaka lomphakathi . [ 1 ]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 44,
+        "itemID": 0,
+        "itemType": "TGT",
+        "sourceID": "2513205/1213396309_0_4",
+        "sourceText": "Marketing is the act of satisfying and retaining customers.[1] It is one of the primary components of business management and commerce.[2]",
+        "targets": [
+          {
+            "_itemAll": 89,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Umdayiso yisenzo sokwanelisa nokugcina amakhasimende.[1] Ungesinye sezigcoyi eziyinhloko zokuphathwa komhwebo nezentengiselwano.[1]"
+          },
+          {
+            "_itemAll": 88,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "[1] kuyisenzo sokwanelisa nokugcina amakhasimende. I[2] yezingxenye eziyinhloko zokuphatha ibhizinisi nezentengiselwano."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 45,
+        "itemID": 1,
+        "itemType": "TGT",
+        "sourceID": "2736799/1228300627_0_2",
+        "sourceText": "Theophilus Doctor Khumalo (born 26 June 1967), is a South African former football player. He is best known for being a star midfielder for Kaizer Chiefs as well as the South African national team.",
+        "targets": [
+          {
+            "_itemAll": 90,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UTheophilus Doctor Khumalo (owazalwa ngo-26 June 1967), ungumdlali ibhola likanobhutshuzwayo waseNingizimu Afrika. Waziwa kakhulu ngokuba ngumdlali we-star midfielder we-Kaizer Chiefs kanye Iqembu lesizwe laseNingizimu Afrika."
+          },
+          {
+            "_itemAll": 91,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UTheophilus Doctor Khumalo (owazalwa ngo-26 ku-Nhlangulana 1967), ungumdlali webhola likanobhutshuzwayo waseNingizimu Afrika. Waziwa kakhulu ngokuba ngumdlali ovelele wasesiswini we-Kaizer Chiefs kanye neqembu lesizwe laseNingizimu Afrika."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 46,
+        "itemID": 2,
+        "itemType": "TGT",
+        "sourceID": "512062/2",
+        "sourceText": "Phiwa Nkambule (born January 24, 1992) is a technology entrepreneur, technology businessperson and internet activist best known for co-founding Riovic and leading it as its CEO.[2] He previously founded Cybatar[5] and sat on the board of the Royal Science and Technology Park.[1]",
+        "targets": [
+          {
+            "_itemAll": 93,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "UPhiwa Nkambule (owazalwa ngoJanuwari 24, 1992) ungusomabhizinisi wezobuchwepheshe kanye nesishoshovu se-inthanethi owaziwa kakhulu ngokusungula i- Riovic nokuyihola njenge-CEO yayo. [2] Phambilini wasungula i-Cybatar [1] futhi wahlala ebhodini leRoyal Science and Technology Park . [1]"
+          },
+          {
+            "_itemAll": 92,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "UPhiwa Nkambule (owazalwa ngoJanuwari 24, 1992) ungusomabhizinisi, usomabhizinisi wezobuchwepheshe kanye nesishoshovu se-inthanethi owaziwa kakhulu ngokusungula u- Riovic nokuhola njenge-CEO yakhe. [2] Phambilini wasungula [1] futhi wahlala ebhodini leRoyal Science and Technology Park . [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 47,
+        "itemID": 3,
+        "itemType": "TGT",
+        "sourceID": "2267589/1154168977_0_1",
+        "sourceText": "In law, liable means \"responsible or answerable in law; legally obligated\".[1] Legal liability concerns both civil law and criminal law and can arise from various areas of law, such as contracts, torts, taxes, or fines given by government agencies. The claimant is the one who seeks to establish, or prove, liability.",
+        "targets": [
+          {
+            "_itemAll": 95,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Ngokomthetho, ukuba nesimelo kusho \"ukuba nesibopho noma ukuziphendulela emthethweni; ukubophezeleka ngokomthetho\". [1]"
+          },
+          {
+            "_itemAll": 94,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Ngokomthetho, ukubophezeleka kusho \"ukuba nesibopho noma ukuphendula emthethweni; ukubophezeleka ngokomthetho\". [1]"
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 48,
+        "itemID": 4,
+        "itemType": "TGT",
+        "sourceID": "1357179/1",
+        "sourceText": "Jean Kalala N'Tumba (7 January 1949 – 11 January 2021)[2] was a Congolese football forward who played for Zaire in the 1974 FIFA World Cup.[3] He also played for AS Vita Club.",
+        "targets": [
+          {
+            "_itemAll": 96,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Jean Kalala N'Tumba (7 Januwari 1949 - 11 Januwari 2021) [1] kwaba Congolese football phambili owadlalela Zaire ku 1974 FIFA World Cup . [2] Ubuye wadlalela i- AS Vita Club ."
+          },
+          {
+            "_itemAll": 97,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Jean Kalala N'Tumba (7 Januwari 1949 - 11 Januwari 2021)bekawu umdlali webhola waseCongo owadlalela Zaire ku 1974 FIFA World Cup.Ubuye wadlalela i- AS Vita Club ."
+          }
+        ],
+        "targetsSize": 2
+      },
+      {
+        "_block": 4,
+        "_item": 49,
+        "itemID": 5,
+        "itemType": "TGT",
+        "sourceID": "609213/4",
+        "sourceText": "He enrolled for an LLB degree at the University of Natal but in 1962, the same year he married Victoria Mxenge.",
+        "targets": [
+          {
+            "_itemAll": 99,
+            "_target": 1,
+            "targetID": "he-text",
+            "targetText": "Wabhalisela izifundo ze-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngawo lowo nyaka waganana noVictoria Mxenge ."
+          },
+          {
+            "_itemAll": 98,
+            "_target": 0,
+            "targetID": "mt-text",
+            "targetText": "Wabhalisela i-LLB degree eNyuvesi yaseNatali kodwa ngo-1962, ngonyaka ofanayo wathatha uVictoria Mxenge ."
+          }
+        ],
+        "targetsSize": 2
+      }
+    ],
+    "task": {
+      "batchNo": 1,
+      "batchSize": 5,
+      "contrastiveOutputs": 2,
+      "contrastiveSelectionMethod": "sampling (x10)",
+      "randomSeed": 123456,
+      "requiredAnnotations": 1,
+      "sourceLanguage": "eng",
+      "targetLanguage": "zul"
+    }
+  }
+]
