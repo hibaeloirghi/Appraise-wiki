@@ -345,10 +345,11 @@ class PairwiseAssessmentTask(BaseMetadata):
             LOGGER.info(f'The task has {len(new_items)} items')
             current_count += 1
 
-            # for new_item in new_items:
-            #    new_item.metadata = batch_meta
-            #    new_item.save()
-            batch_meta.textsegment_set.add(*new_items, bulk=False)
+            # Process items in smaller batches to avoid SQLite "too many variables" error
+            batch_size = 100  # SQLite limit is around 999 variables, so we use 100 to be safe
+            for i in range(0, len(new_items), batch_size):
+                batch_items = new_items[i:i + batch_size]
+                batch_meta.textsegment_set.add(*batch_items, bulk=False)
             batch_meta.save()
 
             new_task = PairwiseAssessmentTask(
@@ -360,9 +361,10 @@ class PairwiseAssessmentTask(BaseMetadata):
             )
             new_task.save()
 
-            # for new_item in new_items:
-            #    new_task.items.add(new_item)
-            new_task.items.add(*new_items)
+            # Process items in smaller batches to avoid SQLite "too many variables" error
+            for i in range(0, len(new_items), batch_size):
+                batch_items = new_items[i:i + batch_size]
+                new_task.items.add(*batch_items)
             new_task.save()
 
             _msg = 'Success processing batch {0}, task {1}'.format(

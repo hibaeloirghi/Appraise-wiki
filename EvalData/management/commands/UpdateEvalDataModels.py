@@ -172,7 +172,17 @@ def _update_eval_data_models(stdout):
             'activated': False,
         }
         item_data = item_cls.objects.filter(**filters)
-        item_data.update(activated=True)
+        
+        # Process items in smaller batches to avoid SQLite "too many variables" error
+        batch_size = 100  # SQLite limit is around 999 variables, so we use 100 to be safe
+        total_items = item_data.count()
+        if total_items > 0:
+            item_ids = list(item_data.values_list('id', flat=True))
+            for i in range(0, len(item_ids), batch_size):
+                batch_ids = item_ids[i:i + batch_size]
+                item_cls.objects.filter(id__in=batch_ids).update(activated=True)
+        else:
+            item_data.update(activated=True)
 
         t3 = datetime.now()
         print('  Processed', item_name, 'instances', t3 - t2)
@@ -307,7 +317,17 @@ def _update_eval_data_models(stdout):
     item_data = TextPairWithImage.objects.filter(
         evaldata_multimodalassessmenttasks__campaign__activated=True, activated=False
     )
-    item_data.update(activated=True)
+    
+    # Process items in smaller batches to avoid SQLite "too many variables" error
+    batch_size = 100  # SQLite limit is around 999 variables, so we use 100 to be safe
+    total_items = item_data.count()
+    if total_items > 0:
+        item_ids = list(item_data.values_list('id', flat=True))
+        for i in range(0, len(item_ids), batch_size):
+            batch_ids = item_ids[i:i + batch_size]
+            TextPairWithImage.objects.filter(id__in=batch_ids).update(activated=True)
+    else:
+        item_data.update(activated=True)
 
     t3 = datetime.now()
     print('Processed TextPairWithImage instances', t3 - t2)

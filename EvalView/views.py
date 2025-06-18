@@ -2337,6 +2337,9 @@ def pairwise_assessment(request, code=None, campaign_name=None):
         'task_id': current_item.id,
         'completed_blocks': completed_blocks,
         'items_left_in_block': 10 - (completed_items - completed_blocks * 10),
+        'total_segments': 1000,  # or dynamically: total_segments = PairwiseAssessmentTask.objects.filter(...).count()
+        'completed_segments': completed_items,
+        'segments_left': 1000 - completed_items,
         'source_language': source_language,
         'target_language': target_language,
         'debug_times': (t2 - t1, t3 - t2, t4 - t3, t4 - t1),
